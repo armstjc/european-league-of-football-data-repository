@@ -1,0 +1,20 @@
+def parse_names(name: str):
+    name = name.replace('ß', 'ss')
+    name = name.replace('Ã³', 'ss')
+    name = name.replace('ó', 'o')
+    name = name.replace('á', 'a')
+    name = name.replace('é', 'e')
+    name = name.replace('GroÃ³n', 'Grosse')
+    name = name.replace('GrÃ³decki', 'Grodecki')
+    name = name.replace('AdriÃ¡n', 'Adrian')
+    name = name.replace('JimÃ©nez', 'Jimenez')
+    name = name.replace('UÄ°nan', 'Ugur')
+    name = name.replace('İ', 'I')
+    name = name.replace('BerÃ§in', 'Bercin')
+    name = name.replace('FernÃ¡ndez', 'Fernandez')
+    # name = name.replace('GÃ¼ndoÄ§kesen', 'Agackesen')
+    name = name.replace('GroÃ°nan', 'Grosse')
+    # name = name.replace('ó', 'o')
+    # name = name.replace('ó', 'o')
+
+    return name
