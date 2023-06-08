@@ -1,7 +1,7 @@
 import glob
 import os
 import time
-from datetime import datetime, timedelta
+from datetime import datetime
 
 import numpy as np
 import pandas as pd
@@ -310,6 +310,6 @@ def generate_elf_roster_files(save=False):
 
 
 if __name__ == "__main__":
-    # get_old_elf_rosters(True,2023)
+    get_old_elf_rosters(True, 2023)
     # get_elf_player_ids(True)
     generate_elf_roster_files(True)
