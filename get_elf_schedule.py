@@ -18,8 +18,6 @@ def get_elf_schedule(season_filter= 0, return_all_games=False, save=False):
     game_info_df = pd.DataFrame()
     finished_df = pd.DataFrame()
 
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"}
     if return_all_games == True:
         print('Retriving every ELF game played and scheduled.')
     elif season_filter < 2021:
