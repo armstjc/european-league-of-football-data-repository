@@ -110,6 +110,9 @@ def get_elf_standings(save=False):
 
         del row_df
 
+    standings_df = standings_df.sort_values(
+        ['season', 'confrence_id', 'division_id', 'rank'], ascending=True)
+
     if save == True:
         seasons_arr = standings_df['season'].to_numpy()
         seasons_arr = np.unique(seasons_arr)

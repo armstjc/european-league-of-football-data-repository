@@ -1,7 +1,9 @@
 import glob
+import json
 import os
 import time
 from datetime import datetime
+from urllib.request import urlopen
 
 import numpy as np
 import pandas as pd
@@ -10,6 +12,167 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 from elf_utils import parse_names
+
+
+def parse_position_names(position: str) -> str:
+    match position:
+        case "Quarterback":
+            return "QB"
+        case "Running Back":
+            return "RB"
+        case "Halfback":
+            return "HB"
+        case "Fullback":
+            return "FB"
+        case "Wide Receiver":
+            return "WR"
+        case "Tight End":
+            return "TE"
+        case "Offensive Tackle":
+            return "OT"
+        case "Offensive Guard":
+            return "OG"
+        case "Center":
+            return "C"
+        case "Defensive Line":
+            return "DL"
+        case "Defensive End":
+            return "DE"
+        case "Defensive Tackle":
+            return "DT"
+        case "Linebacker":
+            return "LB"
+        case "Outside Linebacker":
+            return "OLB"
+        case "Inside Linebacker":
+            return "ILB"
+        case "Middle Linebacker":
+            return "MLB"
+        case "Cornerback":
+            return "CB"
+        case "Safety":
+            return "SAF"
+        case "Free Safety":
+            return "FS"
+        case "Strong Safety":
+            return "SS"
+        case "Kicker":
+            return "K"
+        case "Punter":
+            return "P"
+        case "Long Snapper":
+            return "LS"
+        case "PR":
+            return "PR"
+        case "KR":
+            return "KR"
+        case "OTHERS":
+            return "ATH"
+        case default:
+            raise ValueError(f'Unhandled player position:\n\t{position}')
+
+
+def get_elf_rosters(save=False, season=0):
+    now = datetime.now()
+    rosters_df = pd.DataFrame()
+    row_df = pd.DataFrame()
+    season = now.year
+    players_url = "https://elf-app-89392.web.app/apiPublic/dump/players?"
+
+    filter_out_seasons = False
+
+    if season >= 2021 and season <= now.year:
+        filter_out_seasons = True
+
+    response = urlopen(players_url)
+    json_string = response.read()
+    json_data = json.loads(json_string)
+
+    del json_string
+
+    for (key, value) in tqdm(json_data.items()):
+        row_df = pd.DataFrame({'season': season, 'player_id': key}, index=[0])
+        row_df['old_player_id'] = None
+        row_df['team_abv'] = str(value['teamshort']).upper()
+        row_df['team'] = None
+
+        row_df['player_number'] = value['uni']
+
+        row_df['player_first_name'] = value['firstname']
+        row_df['player_last_name'] = value['lastname']
+        row_df['player_short_name'] = value['cbsname']
+
+        sec_pos = value['secpos']
+        if sec_pos == None:
+
+            row_df['player_position'] = parse_position_names(value['pos'])
+        else:
+            primary_position = parse_position_names(value['pos'])
+            secondary_position = parse_position_names(value['secpos'])
+            row_df['player_position'] = f"{primary_position}/{secondary_position}"
+
+        try:
+            row_df['player_height_m'] = int(value['height']) / 100
+        except:
+            row_df['player_height_m'] = None
+
+        row_df.loc[row_df['player_height_m'] > 0,
+                   'player_height_in'] = row_df['player_height_m'] / 0.0254
+
+        try:
+            row_df['player_height_in'] = row_df['player_height_in'].round(2)
+        except:
+            row_df['player_height_in'] = None
+
+        try:
+            row_df['player_weight_kg'] = int(value['weight'])
+        except:
+            row_df['player_weight_kg'] = None
+
+        row_df.loc[row_df['player_weight_kg'] > 0,
+                   'player_weight_lbs'] = row_df['player_weight_kg'] / 0.45359237
+
+        try:
+            row_df['player_weight_lbs'] = row_df['player_weight_lbs'].round(2)
+        except:
+            row_df['player_weight_lbs'] = None
+
+        row_df['birth_place'] = value['birthplace']
+        row_df['birth_nation'] = value['nationbinding']
+        row_df['primary_nation'] = value['nationone']
+        row_df['secondary_nation'] = value['nationtwo']
+
+        row_df['birthdate'] = value['birthdate']
+        row_df['previous_team'] = value['previousteam']
+        row_df['is_previous_contract'] = value['previouscontract']
+        row_df['all_star'] = value['allstar']
+        row_df['updated'] = value['updated']
+
+        try:
+            row_df['awards'] = value['awards']
+        except:
+            row_df['awards'] = None
+
+        row_df['player_headshot_url'] = value['avatar']
+
+        rosters_df = pd.concat([rosters_df, row_df], ignore_index=True)
+        del row_df
+
+    if save == True:
+        seasons_arr = rosters_df['season'].to_numpy()
+        team_abv_arr = rosters_df['team_abv'].to_numpy()
+
+        seasons_arr = np.unique(seasons_arr)
+        team_abv_arr = np.unique(team_abv_arr)
+
+        for s in seasons_arr:
+
+            for t in team_abv_arr:
+                team_df = rosters_df.loc[(rosters_df['season'] == s) & (
+                    rosters_df['team_abv'] == t)]
+                team_df.to_csv(f'rosters/raw/{s}_{t}.csv', index=False)
+
+    return rosters_df
 
 
 def get_old_elf_rosters(save=False, season=0):
@@ -30,6 +193,7 @@ def get_old_elf_rosters(save=False, season=0):
     retries = 0
     page_num = 0
     running_count = 0
+
     while hit_wall == False:
         page_num += 1
         players_url = f"https://europeanleague.football/league/players?7e78f181_page={page_num}"
@@ -94,16 +258,20 @@ def get_old_elf_rosters(save=False, season=0):
                 for j in range(2, len(player_seasons)):
                     ps = player_seasons[j]
 
-                    row_df = pd.DataFrame({'player_id': player_id,
-                                           'player_number': player_number,
-                                           'player_first_name': player_first_name,
-                                           'player_last_name': player_last_name,
-                                           'player_position': player_position,
-                                           'player_height_m': player_height_m,
-                                           'player_height_in': player_height_in,
-                                           'player_weight_kg': player_weight_kg,
-                                           'player_weight_lbs': player_weight_lbs
-                                           }, index=[0])
+                    row_df = pd.DataFrame(
+                        {
+                            'player_id': player_id,
+                            'player_number': player_number,
+                            'player_first_name': player_first_name,
+                            'player_last_name': player_last_name,
+                            'player_position': player_position,
+                            'player_height_m': player_height_m,
+                            'player_height_in': player_height_in,
+                            'player_weight_kg': player_weight_kg,
+                            'player_weight_lbs': player_weight_lbs
+                        },
+                        index=[0]
+                    )
 
                     player_season = int(str(ps.find_all(
                         'div', {'class': 'pc-pre-heading is--multi-item'})[0].text).replace(' Team:', ''))
@@ -239,16 +407,20 @@ def get_elf_player_ids(save=False):
                 # player_seasons = i.find_all(
                 #     'div', {'class': 'multi-item-line-wrapper'})
 
-                row_df = pd.DataFrame({'player_id': player_id,
-                                       'player_number': player_number,
-                                       'player_first_name': player_first_name,
-                                       'player_last_name': player_last_name,
-                                       'player_position': player_position,
-                                       'player_height_m': player_height_m,
-                                       'player_height_in': player_height_in,
-                                       'player_weight_kg': player_weight_kg,
-                                       'player_weight_lbs': player_weight_lbs
-                                       }, index=[0])
+                row_df = pd.DataFrame(
+                    {
+                        'player_id': player_id,
+                        'player_number': player_number,
+                        'player_first_name': player_first_name,
+                        'player_last_name': player_last_name,
+                        'player_position': player_position,
+                        'player_height_m': player_height_m,
+                        'player_height_in': player_height_in,
+                        'player_weight_kg': player_weight_kg,
+                        'player_weight_lbs': player_weight_lbs
+                    },
+                    index=[0]
+                )
 
                 rosters_df = pd.concat([rosters_df, row_df], ignore_index=True)
 
@@ -284,18 +456,104 @@ def get_elf_player_ids(save=False):
     return rosters_df
 
 
+def generate_player_hist_file():
+    now = datetime.now()
+    rosters_df = pd.DataFrame()
+    row_df = pd.DataFrame()
+
+    players_url = "https://elf-app-89392.web.app/apiPublic/dump/players?"
+
+    filter_out_seasons = False
+
+    response = urlopen(players_url)
+    json_string = response.read()
+    # json_string = str(json_string).replace('\\"','"')
+    json_data = json.loads(json_string)
+
+    del json_string
+
+    for (key, value) in tqdm(json_data.items()):
+        player_id = key
+
+        first_name = value['firstname']
+        last_name = value['lastname']
+        birthday = value['birthdate']
+
+        for i in value['teamhist']:
+            if i['from'] == None:
+                pass
+            else:
+                season = int(str(i['from']).replace(
+                    '-01', '').replace('-04', '').replace('-09', '').replace('-11', ''))
+                team = i['team']
+
+                row_df = pd.DataFrame(
+                    {
+                        'season': season,
+                        'team': team,
+                        'player_id': player_id,
+                        'player_first_name': first_name,
+                        'player_last_name': last_name,
+                        'birthday': birthday
+                    },
+                    index=[0]
+                )
+
+                rosters_df = pd.concat([rosters_df, row_df], ignore_index=True)
+
+                del row_df
+
+    rosters_df.to_csv('rosters/player_history.csv', index=False)
+    print(rosters_df)
+
+
 def generate_elf_roster_files(save=False):
     team_df = pd.DataFrame()
     rosters_df = pd.DataFrame()
+    team_info_df = pd.read_csv('teams/elf_teams.csv')
+    player_hist_df = pd.read_csv('rosters/player_history.csv')
+
+    player_hist_df = player_hist_df[[
+        'season', 'team', 'player_id', 'player_first_name', 'player_last_name']]
+
     filepath = os.path.abspath("rosters/raw")
     file_list = glob.iglob(filepath+"/*csv")
     file_list = list(file_list)
+    file_list.sort(reverse=True)
 
     # print(file_list)
 
     for file in tqdm(file_list):
         team_df = pd.read_csv(file)
         rosters_df = pd.concat([rosters_df, team_df], ignore_index=True)
+
+    old_rosters_df = rosters_df.loc[rosters_df['season'] <= 2022]
+    new_rosters_df = rosters_df.loc[rosters_df['season'] >= 2023]
+    # print(old_rosters_df)
+    # print(new_rosters_df)
+
+    del rosters_df
+    old_rosters_df = old_rosters_df.drop(columns=['player_id'])
+
+    team_name_abv_dict = dict(
+        zip(team_info_df['team_name'], team_info_df['team_abv']))
+    old_rosters_df['team_abv'] = old_rosters_df['team'].map(team_name_abv_dict)
+
+    old_rosters_df = pd.merge(
+        old_rosters_df,
+        player_hist_df,
+        how='left',
+        on=['season', 'team', 'player_first_name', 'player_last_name']
+    )
+
+    del team_name_abv_dict, player_hist_df
+
+    team_abv_name_dict = dict(
+        zip(team_info_df['team_abv'], team_info_df['team_name']))
+    new_rosters_df['team'] = new_rosters_df['team_abv'].map(team_abv_name_dict)
+    del team_abv_name_dict
+
+    rosters_df = pd.concat([new_rosters_df, old_rosters_df], ignore_index=True)
 
     if save == True:
         seasons_arr = rosters_df['season'].to_numpy()
@@ -306,10 +564,11 @@ def generate_elf_roster_files(save=False):
             season_df.to_csv(f'rosters/csv/{i}_elf_rosters.csv', index=False)
             season_df.to_parquet(
                 f'rosters/parquet/{i}_elf_rosters.parquet', index=False)
+
     return rosters_df
 
 
 if __name__ == "__main__":
-    get_old_elf_rosters(True, 2023)
-    # get_elf_player_ids(True)
+    get_elf_rosters(True)
+    generate_player_hist_file()
     generate_elf_roster_files(True)
