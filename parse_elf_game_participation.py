@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
-from elf_utils import get_json_in_folder
+from elf_utils import get_csv_in_folder, get_json_in_folder
 
 
 def parse_elf_game_participation(save=False):

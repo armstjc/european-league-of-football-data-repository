@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fbgame source="Tas Football" version="4.20.01" generated="7/11/2021">
+  <venue gameid="HDBT2104" visid="BT" homeid="HD" visname="Berlin Thunder" homename="Hamburg Sea Devils" date="7/11/2021" location="Hamburg" stadium="Stadion Hoheluft" start="18:00" end="21:06" leaguegame="Y" nitegame="Y" duration="03:06" attend="0" temp="24deg.C" wind="NO" weather="cloudy">
+    <officials ref="M. Scholz" ump="B. Hansen" lj="K. Haltermann" bj="B. Marciniak" fj="M. Hoffmann" sj="E. Christensen" cj="M. Burzec" alt="M. Burzec"/>
+    <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="25" patspot="15" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="N" fgaplay="Y" netpunttb="Y"/>
+  </venue>
+  <team vh="V" code="" id="BT" name="Berlin Thunder" record="1-1-0" abb="B">
+    <linescore prds="4" line="0,6,0,0" score="6">
+      <lineprd prd="1" score="0"/>
+      <lineprd prd="2" score="6"/>
+      <lineprd prd="3" score="0"/>
+      <lineprd prd="4" score="0"/>
+    </linescore>
+    <totals totoff_plays="59" totoff_yards="102" totoff_avg="1.7">
+      <firstdowns no="10" rush="3" pass="2" penalty="5"/>
+      <penalties no="12" yds="79"/>
+      <conversions thirdconv="2" thirdatt="14" fourthconv="0" fourthatt="2"/>
+      <fumbles no="2" lost="1"/>
+      <misc yds="0" top="29:01" ona="0" onm="0" ptsto="6"/>
+      <redzone att="1" scores="1" points="6" tdrush="0" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"/>
+      <rush att="28" yds="45" gain="85" loss="40" td="0" long="11"/>
+      <pass comp="10" att="28" int="0" yds="57" td="1" long="17" sacks="3" sackyds="10"/>
+      <rcv no="10" yds="67" td="1" long="17"/>
+      <punt no="8" yds="247" long="40" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="30.9"/>
+      <ko no="2" yds="65" ob="0" tb="2" fcyds="0"/>
+      <fg made="0" att="1" long="0" blkd="1"/>
+      <defense tackua="32" tacka="22" tot_tack="54" tflua="7" tfla="6" tflyds="65" sacks="3" sackyds="55" brup="3" ff="1" fr="1" fryds="0"/>
+      <kr no="7" yds="115" td="0" long="22"/>
+      <pr no="2" yds="4" td="0" long="9"/>
+      <scoring td="1"/>
+    </totals>
+    <player name="J. Crawford" shortname="J. Crawford" checkname="CRAWFORD,J" uni="1" class="SR" gp="1" gs="1" opos="RB" code="1">
+      <rush att="12" yds="38" gain="42" loss="4" td="0" long="11"/>
+      <rcv no="2" yds="9" td="0" long="8"/>
+    </player>
+    <player name="J. White" shortname="J. White" checkname="WHITE,J" uni="2" class="SR" gp="1" gs="1" dpos="SS" code="2">
+      <defense tackua="3" tacka="3" tot_tack="6" tflua="0" tfla="1" tflyds="1"/>
+      <kr no="2" yds="30" td="0" long="17"/>
+      <fumbles no="1" lost="0"/>
+    </player>
+    <player name="A. Gehrt" shortname="A. Gehrt" checkname="GEHRT,A" uni="3" class="SR" gp="1" code="3">
+      <defense tackua="0" tacka="1" tot_tack="1"/>
+    </player>
+    <player name="A. Boadu" shortname="A. Boadu" checkname="BOADU,A" uni="4" class="SR" gp="1" code="4">
+      <defense tackua="0" tacka="1" tot_tack="1"/>
+    </player>
+    <player name="C. Stitt" shortname="C. Stitt" checkname="STITT,C" uni="6" class="SR" gp="1" gs="1" opos="QB" code="6">
+      <rush att="9" yds="21" gain="26" loss="5" td="0" long="10"/>
+      <pass comp="8" att="23" int="0" yds="59" td="1" long="17" sacks="2" sackyds="8"/>
+    </player>
+    <player name="S. Jones" shortname="S. Jones" checkname="JONES,S" uni="7" class="SR" gp="1" gs="1" opos="WR" code="7">
+      <pass comp="0" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"/>
+      <rcv no="3" yds="11" td="0" long="6"/>
+      <pr no="2" yds="4" td="0" long="9"/>
+    </player>
+    <player name="P. Seifert" shortname="P. Seifert" checkname="SEIFERT,P" uni="8" class="SR" gp="1" gs="1" dpos="LB" code="8">
+      <defense tackua="2" tacka="2" tot_tack="4" brup="1"/>
+    </player>
+    <player name="B. Zerbe" shortname="B. Zerbe" checkname="ZERBE,B" uni="11" class="SR" gp="1" gs="1" opos="WR" code="11">
+      <rush att="1" yds="-2" gain="0" loss="2" td="0" long="0"/>
+      <pass comp="2" att="4" int="0" yds="8" td="0" long="8" sacks="1" sackyds="2"/>
+      <rcv no="1" yds="2" td="0" long="2"/>
+      <fumbles no="1" lost="1"/>
+    </player>
+    <player name="K. Hummel" shortname="K. Hummel" checkname="HUMMEL,K" uni="14" class="SR" gp="1" code="14">
+      <rush att="1" yds="-24" gain="0" loss="24" td="0" long="0"/>
+      <punt no="8" yds="247" long="40" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="30.9"/>
+    </player>
+    <player name="M. Thiele" shortname="M. Thiele" checkname="THIELE,M" uni="15" class="SR" gp="1" gs="1" dpos="CB" code="15">
+      <defense tackua="3" tacka="0" tot_tack="3" tflua="1" tfla="0" tflyds="1" brup="1"/>
+    </player>
+    <player name="E. Drossard" shortname="E. Drossard" checkname="DROSSARD,E" uni="17" class="SR" gp="1" code="17">
+      <kr no="2" yds="40" td="0" long="21"/>
+    </player>
+    <player name="L. Achaintre" shortname="L. Achaintre" checkname="ACHAINTRE,L" uni="22" class="SR" gp="1" gs="1" dpos="LB" code="22">
+      <defense tackua="3" tacka="4" tot_tack="7" tflua="0" tfla="1" tflyds="1"/>
+    </player>
+    <player name="K. Meeder" shortname="K. Meeder" checkname="MEEDER,K" uni="23" class="SR" gp="1" code="23"/>
+    <player name="M. De Falcis" shortname="M. De Falcis" checkname="FALCIS,M DE" uni="24" class="SR" gp="1" gs="1" dpos="FS" code="24">
+      <defense tackua="1" tacka="4" tot_tack="5"/>
+      <kr no="1" yds="11" td="0" long="11"/>
+    </player>
+    <player name="J. Schenderlein" shortname="J. Schenderlein" checkname="SCHENDERLEIN,J" uni="26" class="SR" gp="1" code="26">
+      <ko no="2" yds="65" ob="0" tb="2"/>
+      <fg made="0" att="1" long="0" blkd="1"/>
+    </player>
+    <player name="L. Pekkarinen" shortname="L. Pekkarinen" checkname="PEKKARINEN,L" uni="31" class="SR" gp="1" gs="1" dpos="CB" code="31">
+      <defense tackua="2" tacka="1" tot_tack="3" brup="1"/>
+    </player>
+    <player name="M. Steffen" shortname="M. Steffen" checkname="STEFFEN,M" uni="44" class="SR" gp="1" code="44">
+      <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="2"/>
+    </player>
+    <player name="K. Hill" shortname="K. Hill" checkname="HILL,K" uni="45" class="SR" gp="1" code="45">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="Y. Landfried" shortname="Y. Landfried" checkname="LANDFRIED,Y" uni="47" class="SR" gp="1" code="47">
+      <rush att="5" yds="12" gain="17" loss="5" td="0" long="7"/>
+    </player>
+    <player name="H. El-Zein" shortname="H. El-Zein" checkname="EL-ZEIN,H" uni="50" class="SR" gp="1" gs="1" dpos="DE" code="50"/>
+    <player name="W. Nasri" shortname="W. Nasri" checkname="NASRI,W" uni="52" class="SR" gp="1" gs="1" dpos="LB" code="52">
+      <defense tackua="8" tacka="2" tot_tack="10" tflua="0" tfla="1" tflyds="0"/>
+    </player>
+    <player name="D. Mutsvanemoto" shortname="D. Mutsvanemoto" checkname="MUTSVANEMOTO,D" uni="55" class="SR" gp="1" gs="1" opos="RG" code="55"/>
+    <player name="P. Junio Sacram" shortname="P. Junio Sacram" checkname="SACRAM,P JUNIO" uni="68" class="SR" gp="1" gs="1" opos="RT" code="68"/>
+    <player name="O. Amorim" shortname="O. Amorim" checkname="AMORIM,O" uni="77" class="SR" gp="1" gs="1" opos="LT" code="77"/>
+    <player name="L. Acheampong" shortname="L. Acheampong" checkname="ACHEAMPONG,L" uni="78" class="SR" gp="1" gs="1" opos="C" code="78"/>
+    <player name="C. Ouattara" shortname="C. Ouattara" checkname="OUATTARA,C" uni="79" class="SR" gp="1" gs="1" opos="LG" code="79"/>
+    <player name="N. Schumann" shortname="N. Schumann" checkname="SCHUMANN,N" uni="85" class="SR" gp="1" gs="1" opos="WR" code="85">
+      <rcv no="2" yds="19" td="1" long="11"/>
+      <scoring td="1"/>
+    </player>
+    <player name="T. Ndongo" shortname="T. Ndongo" checkname="NDONGO,T" uni="88" class="SR" gp="1" gs="1" opos="WR" code="88">
+      <rcv no="2" yds="26" td="0" long="17"/>
+      <kr no="1" yds="22" td="0" long="22"/>
+    </player>
+    <player name="89" shortname="" checkname="" uni="89" class="" gp="1" code="89">
+      <kr no="1" yds="12" td="0" long="12"/>
+    </player>
+    <player name="A. Odeleye" shortname="A. Odeleye" checkname="ODELEYE,A" uni="91" class="FR" gp="1" code="91">
+      <defense tackua="4" tacka="3" tot_tack="7" tflua="3" tfla="2" tflyds="56" sackua="3" sacka="0" sackyds="55" ff="1" fr="1" fryds="0"/>
+    </player>
+    <player name="G. Wiek" shortname="G. Wiek" checkname="WIEK,G" uni="93" class="SR" gp="1" gs="1" dpos="DE" code="93">
+      <defense tackua="2" tacka="0" tot_tack="2" tflua="1" tfla="0" tflyds="2"/>
+    </player>
+    <player name="M. Behm" shortname="M. Behm" checkname="BEHM,M" uni="96" class="SR" gp="1" gs="1" dpos="DT" code="96"/>
+    <player name="K. Wagner" shortname="K. Wagner" checkname="WAGNER,K" uni="97" class="SR" gp="1" gs="1" dpos="DT" code="97">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="P. Labus" shortname="P. Labus" checkname="LABUS,P" uni="99" class="SR" gp="1" code="99">
+      <defense tackua="1" tacka="1" tot_tack="2" tflua="1" tfla="1" tflyds="2"/>
+    </player>
+    <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="FR" gp="1" code="198">
+      <pass comp="0" att="0" int="0" yds="-10" td="0" long="0" sacks="0" sackyds="0"/>
+    </player>
+  </team>
+  <team vh="H" code="" id="HD" name="Hamburg Sea Devils" record="2-0-0" abb="H">
+    <linescore prds="4" line="6,0,28,10" score="44">
+      <lineprd prd="1" score="6"/>
+      <lineprd prd="2" score="0"/>
+      <lineprd prd="3" score="28"/>
+      <lineprd prd="4" score="10"/>
+    </linescore>
+    <totals totoff_plays="60" totoff_yards="277" totoff_avg="4.6">
+      <firstdowns no="22" rush="5" pass="15" penalty="2"/>
+      <penalties no="11" yds="119"/>
+      <conversions thirdconv="3" thirdatt="11" fourthconv="2" fourthatt="2"/>
+      <fumbles no="1" lost="1"/>
+      <misc yds="11" top="30:59" ona="0" onm="0" ptsto="3"/>
+      <redzone att="8" scores="7" points="37" tdrush="2" tdpass="2" fgmade="3" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="1" endgame="0"/>
+      <rush att="22" yds="50" gain="61" loss="11" td="2" long="13"/>
+      <pass comp="26" att="35" int="0" yds="227" td="3" long="45" sacks="3" sackyds="55"/>
+      <rcv no="26" yds="282" td="3" long="45"/>
+      <punt no="3" yds="145" long="66" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="48.3"/>
+      <ko no="9" yds="566" ob="0" tb="2" fcyds="0"/>
+      <fg made="3" att="3" long="46" blkd="0"/>
+      <pat kickatt="6" kickmade="5"/>
+      <defense tackua="33" tacka="22" tot_tack="55" tflua="8" tfla="6" tflyds="50" sacks="3" sackyds="10" brup="2" blkd="1" ff="1" fr="1" fryds="0"/>
+      <pr no="4" yds="63" td="0" long="26"/>
+      <scoring td="5" fg="3" patkick="5"/>
+    </totals>
+    <player name="S. Ceesay" shortname="S. Ceesay" checkname="CEESAY,S" uni="1" class="SR" gp="1" code="1">
+      <rush att="3" yds="3" gain="5" loss="2" td="1" long="4"/>
+      <pass comp="2" att="4" int="0" yds="16" td="0" long="12" sacks="0" sackyds="0"/>
+      <scoring td="1"/>
+    </player>
+    <player name="P. Andersen" shortname="P. Andersen" checkname="ANDERSEN,P" uni="4" class="SR" gp="1" code="4">
+      <punt no="3" yds="145" long="66" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="48.3"/>
+      <ko no="9" yds="566" ob="0" tb="2"/>
+      <fg made="3" att="3" long="46" blkd="0"/>
+      <pat kickatt="6" kickmade="5"/>
+      <scoring fg="3" patkick="5"/>
+    </player>
+    <player name="J. Clark" shortname="J. Clark" checkname="CLARK,J" uni="10" class="SR" gp="1" gs="1" opos="QB" code="10">
+      <rush att="2" yds="0" gain="2" loss="2" td="0" long="2"/>
+      <pass comp="24" att="31" int="0" yds="266" td="3" long="45" sacks="3" sackyds="55"/>
+    </player>
+    <player name="B. Mau" shortname="B. Mau" checkname="MAU,B" uni="11" class="SR" gp="1" gs="1" opos="WR" code="11">
+      <rcv no="3" yds="54" td="1" long="45"/>
+      <scoring td="1"/>
+    </player>
+    <player name="J. Madin Cerezo" shortname="J. Madin Cerezo" checkname="CEREZO,J MADIN" uni="12" class="SR" gp="1" gs="1" opos="WR" code="12">
+      <rcv no="5" yds="49" td="1" long="21"/>
+      <scoring td="1"/>
+    </player>
+    <player name="M. Amankwah" shortname="M. Amankwah" checkname="AMANKWAH,M" uni="18" class="SR" gp="1" code="18">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="A. Astahin" shortname="A. Astahin" checkname="ASTAHIN,A" uni="22" class="SR" gp="1" gs="1" dpos="DB" code="22">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="J. Rogers" shortname="J. Rogers" checkname="ROGERS,J" uni="23" class="SR" gp="1" gs="1" dpos="DB" code="23">
+      <defense tackua="0" tacka="2" tot_tack="2" brup="1"/>
+      <pr no="4" yds="63" td="0" long="26"/>
+    </player>
+    <player name="X. Johnson" shortname="X. Johnson" checkname="JOHNSON,X" uni="24" class="SR" gp="1" gs="1" opos="RB" code="24">
+      <rush att="12" yds="46" gain="50" loss="4" td="1" long="13"/>
+      <rcv no="2" yds="6" td="0" long="5"/>
+      <scoring td="1"/>
+    </player>
+    <player name="M. Franklin" shortname="M. Franklin" checkname="FRANKLIN,M" uni="25" class="SR" gp="1" gs="1" dpos="DB" code="25">
+      <defense tackua="1" tacka="2" tot_tack="3" tflua="0" tfla="1" tflyds="1" blkd="1"/>
+    </player>
+    <player name="L. Mueller" shortname="L. Mueller" checkname="MUELLER,L" uni="27" class="SR" gp="1" gs="1" dpos="DB" code="27">
+      <defense brup="1"/>
+    </player>
+    <player name="B. Maruschke" shortname="B. Maruschke" checkname="MARUSCHKE,B" uni="28" class="SR" gp="1" code="28">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="K. Soussoukpo" shortname="K. Soussoukpo" checkname="SOUSSOUKPO,K" uni="33" class="SR" gp="1" code="33">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="J. Ampaw" shortname="J. Ampaw" checkname="AMPAW,J" uni="34" class="SR" gp="1" code="34">
+      <rush att="5" yds="1" gain="4" loss="3" td="0" long="3"/>
+    </player>
+    <player name="M. Spiegel" shortname="M. Spiegel" checkname="SPIEGEL,M" uni="40" class="SR" gp="1" code="40">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="M. Boock" shortname="M. Boock" checkname="BOOCK,M" uni="43" class="JR" gp="1" gs="1" dpos="LB" code="43">
+      <defense tackua="3" tacka="3" tot_tack="6" tflua="0" tfla="1" tflyds="1"/>
+    </player>
+    <player name="J. Kruse" shortname="J. Kruse" checkname="KRUSE,J" uni="44" class="SR" gp="1" gs="1" opos="TE" code="44">
+      <rcv no="1" yds="4" td="1" long="4"/>
+      <scoring td="1"/>
+    </player>
+    <player name="J. Sarfo" shortname="J. Sarfo" checkname="SARFO,J" uni="45" class="SR" gp="1" code="45">
+      <defense tackua="3" tacka="3" tot_tack="6" tflua="0" tfla="1" tflyds="0"/>
+    </player>
+    <player name="S. Kaya" shortname="S. Kaya" checkname="KAYA,S" uni="49" class="SR" gp="1" code="49">
+      <defense tackua="1" tacka="2" tot_tack="3" tflua="0" tfla="1" tflyds="12"/>
+    </player>
+    <player name="G. De Guzman" shortname="G. De Guzman" checkname="GUZMAN,G DE" uni="51" class="SR" gp="1" gs="1" opos="OL" code="51"/>
+    <player name="A. Mati" shortname="A. Mati" checkname="MATI,A" uni="52" class="SR" gp="1" gs="1" dpos="LB" code="52">
+      <defense tackua="3" tacka="1" tot_tack="4" tflua="1" tfla="0" tflyds="3"/>
+    </player>
+    <player name="T. Lessow" shortname="T. Lessow" checkname="LESSOW,T" uni="54" class="SR" gp="1" code="54">
+      <defense tackua="0" tacka="2" tot_tack="2"/>
+    </player>
+    <player name="D. Laporte" shortname="D. Laporte" checkname="LAPORTE,D" uni="57" class="SR" gp="1" gs="1" dpos="LB" code="57">
+      <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="0" tflyds="5"/>
+    </player>
+    <player name="J. Bombek" shortname="J. Bombek" checkname="BOMBEK,J" uni="58" class="SR" gp="1" gs="1" dpos="LB" code="58">
+      <defense tackua="5" tacka="3" tot_tack="8" tflua="2" tfla="1" tflyds="15" sackua="1" sacka="0" sackyds="2"/>
+    </player>
+    <player name="K. Ebanks" shortname="K. Ebanks" checkname="EBANKS,K" uni="68" class="SR" gp="1" gs="1" opos="OL" code="68"/>
+    <player name="N. Wiem" shortname="N. Wiem" checkname="WIEM,N" uni="72" class="SR" gp="1" gs="1" opos="OL" code="72"/>
+    <player name="D. Kenzler" shortname="D. Kenzler" checkname="KENZLER,D" uni="74" class="SR" gp="1" gs="1" opos="OL" code="74"/>
+    <player name="T. Winter" shortname="T. Winter" checkname="WINTER,T" uni="76" class="SR" gp="1" gs="1" opos="OL" code="76"/>
+    <player name="D. Arboleda" shortname="D. Arboleda" checkname="ARBOLEDA,D" uni="80" class="SR" gp="1" code="80">
+      <rcv no="1" yds="17" td="0" long="17"/>
+    </player>
+    <player name="A. Botella M." shortname="A. Botella M." checkname=",A BOTELLA M" uni="88" class="SR" gp="1" gs="1" opos="TE" code="88">
+      <rcv no="13" yds="136" td="0" long="22"/>
+    </player>
+    <player name="L. Rehder" shortname="L. Rehder" checkname="REHDER,L" uni="89" class="SR" gp="1" code="89">
+      <rcv no="1" yds="16" td="0" long="16"/>
+    </player>
+    <player name="A. Rieckenberg" shortname="A. Rieckenberg" checkname="RIECKENBERG,A" uni="90" class="SR" gp="1" code="90">
+      <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="0" tflyds="2" ff="1" fr="1" fryds="0"/>
+    </player>
+    <player name="A. Babic" shortname="A. Babic" checkname="BABIC,A" uni="93" class="FR" gp="1" code="93">
+      <defense tackua="2" tacka="0" tot_tack="2" tflua="1" tfla="0" tflyds="5" sackua="1" sacka="0" sackyds="5"/>
+    </player>
+    <player name="B. Grube" shortname="B. Grube" checkname="GRUBE,B" uni="94" class="SR" gp="1" gs="1" dpos="DL" code="94"/>
+    <player name="E. Yeboah" shortname="E. Yeboah" checkname="YEBOAH,E" uni="95" class="SR" gp="1" gs="1" dpos="DL" code="95">
+      <defense tackua="5" tacka="0" tot_tack="5" tflua="2" tfla="0" tflyds="4" sackua="1" sacka="0" sackyds="3"/>
+    </player>
+    <player name="B. Tchouadje" shortname="B. Tchouadje" checkname="TCHOUADJE,B" uni="97" class="SR" gp="1" code="97">
+      <defense tackua="1" tacka="1" tot_tack="2" tflua="0" tfla="1" tflyds="2"/>
+    </player>
+    <player name="H. Awuah" shortname="H. Awuah" checkname="AWUAH,H" uni="98" class="SR" gp="1" gs="1" dpos="DL" code="98"/>
+    <player name="N. Imasuen" shortname="N. Imasuen" checkname="IMASUEN,N" uni="99" class="SR" gp="1" code="99">
+      <defense tackua="0" tacka="1" tot_tack="1"/>
+    </player>
+    <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="FR" gp="1" code="198">
+      <pass comp="0" att="0" int="0" yds="-55" td="0" long="0" sacks="0" sackyds="0"/>
+      <fumbles no="1" lost="1"/>
+    </player>
+  </team>
+  <scores>
+    <score vh="H" team="HD" qtr="1" clock="11:40" type="FG" yds="35" scorer="P. Andersen" plays="8" drive="57" top="3:20" vscore="0" hscore="3" driveindex="1"/>
+    <score vh="H" team="HD" qtr="1" clock="01:25" type="FG" yds="46" scorer="P. Andersen" plays="15" drive="23" top="8:23" vscore="0" hscore="6" driveindex="3"/>
+    <score vh="V" team="BT" qtr="2" clock="07:53" type="TD" how="PASS" yds="11" scorer="N. Schumann" passer="C. Stitt" plays="7" drive="45" top="5:02" vscore="6" hscore="6" driveindex="6"/>
+    <score vh="H" team="HD" qtr="3" clock="12:40" type="TD" how="RUSH" yds="5" scorer="X. Johnson" patby="P. Andersen" pattype="KICK" patres="GOOD" plays="3" drive="50" top="1:08" vscore="6" hscore="13" driveindex="13"/>
+    <score vh="H" team="HD" qtr="3" clock="10:33" type="TD" how="PASS" yds="21" scorer="J. Madin Cerezo" passer="J. Clark" patby="P. Andersen" pattype="KICK" patres="GOOD" plays="3" drive="40" top="1:07" vscore="6" hscore="20" driveindex="15"/>
+    <score vh="H" team="HD" qtr="3" clock="06:24" type="TD" how="PASS" yds="3" scorer="B. Mau" passer="J. Clark" patby="P. Andersen" pattype="KICK" patres="GOOD" plays="3" drive="22" top="1:31" vscore="6" hscore="27" driveindex="17"/>
+    <score vh="H" team="HD" qtr="3" clock="02:35" type="TD" how="PASS" yds="4" scorer="J. Kruse" passer="J. Clark" patby="P. Andersen" pattype="KICK" patres="GOOD" plays="4" drive="26" top="2:12" vscore="6" hscore="34" driveindex="19"/>
+    <score vh="H" team="HD" qtr="4" clock="08:00" type="TD" how="RUSH" yds="1" scorer="S. Ceesay" patby="P. Andersen" pattype="KICK" patres="GOOD" plays="2" drive="13" top="1:06" vscore="6" hscore="41" driveindex="23"/>
+    <score vh="H" team="HD" qtr="4" clock="02:55" type="FG" yds="26" scorer="P. Andersen" plays="8" drive="17" top="4:22" vscore="6" hscore="44" driveindex="25"/>
+  </scores>
+  <fgas>
+    <fga vh="H" team="HD" kicker="P. Andersen" qtr="1" clock="11:40" distance="35" result="good"/>
+    <fga vh="H" team="HD" kicker="P. Andersen" qtr="1" clock="01:25" distance="46" result="good"/>
+    <fga vh="V" team="BT" kicker="J. Schenderlein" qtr="2" clock="00:00" distance="42" result="blkd"/>
+    <fga vh="H" team="HD" kicker="P. Andersen" qtr="4" clock="02:55" distance="26" result="good"/>
+  </fgas>
+  <drives>
+    <drive vh="H" team="HD" start="KO,1,15:00,25" end="FG,1,11:40,82" plays="8" yards="57" top="3:20" start_how="KO" start_qtr="1" start_time="15:00" start_spot="HD25" end_how="FG" end_qtr="1" end_time="11:40" end_spot="BT18" rz="1" driveindex="1"/>
+    <drive vh="V" team="BT" start="KO,1,11:32,31" end="PUNT,1,09:48,35" plays="3" yards="4" top="1:44" start_how="KO" start_qtr="1" start_time="11:32" start_spot="BT31" end_how="PUNT" end_qtr="1" end_time="09:48" end_spot="BT35" driveindex="2"/>
+    <drive vh="H" team="HD" start="PUNT,1,09:48,41" end="FG,1,01:25,64" plays="15" yards="23" top="8:23" start_how="PUNT" start_qtr="1" start_time="09:48" start_spot="HD41" end_how="FG" end_qtr="1" end_time="01:25" end_spot="BT36" rz="1" driveindex="3"/>
+    <drive vh="V" team="BT" start="KO,1,01:17,27" end="PUNT,1,00:00,17" plays="2" yards="-10" top="1:17" start_how="KO" start_qtr="1" start_time="01:17" start_spot="BT27" end_how="PUNT" end_qtr="1" end_time="00:00" end_spot="BT17" driveindex="4"/>
+    <drive vh="H" team="HD" start="PUNT,2,15:00,43" end="FUMB,2,12:55,45" plays="4" yards="2" top="2:05" start_how="PUNT" start_qtr="2" start_time="15:00" start_spot="HD43" end_how="FUMB" end_qtr="2" end_time="12:55" end_spot="HD45" driveindex="5"/>
+    <drive vh="V" team="BT" start="FUMB,2,12:55,55" end="TD,2,07:53,100" plays="7" yards="45" top="5:02" start_how="FUMB" start_qtr="2" start_time="12:55" start_spot="HD45" end_how="TD" end_qtr="2" end_time="07:53" end_spot="HD00" rz="1" driveindex="6"/>
+    <drive vh="H" team="HD" start="KO,2,07:53,25" end="PUNT,2,04:40,23" plays="6" yards="-2" top="3:13" start_how="KO" start_qtr="2" start_time="07:53" start_spot="HD25" end_how="PUNT" end_qtr="2" end_time="04:40" end_spot="HD23" driveindex="7"/>
+    <drive vh="V" team="BT" start="PUNT,2,04:40,44" end="PUNT,2,01:55,58" plays="6" yards="14" top="2:45" start_how="PUNT" start_qtr="2" start_time="04:40" start_spot="BT44" end_how="PUNT" end_qtr="2" end_time="01:55" end_spot="HD42" driveindex="8"/>
+    <drive vh="H" team="HD" start="PUNT,2,01:55,35" end="PUNT,2,01:13,42" plays="3" yards="7" top="0:42" start_how="PUNT" start_qtr="2" start_time="01:55" start_spot="HD35" end_how="PUNT" end_qtr="2" end_time="01:13" end_spot="HD42" driveindex="9"/>
+    <drive vh="V" team="BT" start="PUNT,2,01:13,21" end="FGA,2,00:00,75" plays="9" yards="54" top="1:13" start_how="PUNT" start_qtr="2" start_time="01:13" start_spot="BT21" end_how="FGA" end_qtr="2" end_time="00:00" end_spot="HD25" driveindex="10"/>
+    <drive vh="H" team="HD" start="FGA,2,00:00,20" end="HALF,2,00:00,20" plays="0" yards="0" top="0:00" start_how="FGA" start_qtr="2" start_time="00:00" start_spot="HD20" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="HD20" driveindex="11"/>
+    <drive vh="V" team="BT" start="KO,3,14:55,19" end="PUNT,3,13:48,15" plays="3" yards="-4" top="1:07" start_how="KO" start_qtr="3" start_time="14:55" start_spot="BT19" end_how="PUNT" end_qtr="3" end_time="13:48" end_spot="BT15" driveindex="12"/>
+    <drive vh="H" team="HD" start="PUNT,3,13:48,50" end="TD,3,12:40,100" plays="3" yards="50" top="1:08" start_how="PUNT" start_qtr="3" start_time="13:48" start_spot="HD50" end_how="TD" end_qtr="3" end_time="12:40" end_spot="BT00" rz="1" driveindex="13"/>
+    <drive vh="V" team="BT" start="KO,3,12:05,31" end="PUNT,3,11:40,30" plays="3" yards="-1" top="0:25" start_how="KO" start_qtr="3" start_time="12:05" start_spot="BT31" end_how="PUNT" end_qtr="3" end_time="11:40" end_spot="BT30" driveindex="14"/>
+    <drive vh="H" team="HD" start="PUNT,3,11:40,60" end="TD,3,10:33,100" plays="3" yards="40" top="1:07" start_how="PUNT" start_qtr="3" start_time="11:40" start_spot="BT40" end_how="TD" end_qtr="3" end_time="10:33" end_spot="BT00" driveindex="15"/>
+    <drive vh="V" team="BT" start="KO,3,10:25,11" end="PUNT,3,07:55,11" plays="3" yards="0" top="2:30" start_how="KO" start_qtr="3" start_time="10:25" start_spot="BT11" end_how="PUNT" end_qtr="3" end_time="07:55" end_spot="BT11" driveindex="16"/>
+    <drive vh="H" team="HD" start="PUNT,3,07:55,78" end="TD,3,06:24,100" plays="3" yards="22" top="1:31" start_how="PUNT" start_qtr="3" start_time="07:55" start_spot="BT22" end_how="TD" end_qtr="3" end_time="06:24" end_spot="BT00" rz="1" driveindex="17"/>
+    <drive vh="V" team="BT" start="KO,3,06:19,18" end="DOWNS,3,04:47,26" plays="4" yards="8" top="1:32" start_how="KO" start_qtr="3" start_time="06:19" start_spot="BT18" end_how="DOWNS" end_qtr="3" end_time="04:47" end_spot="BT26" driveindex="18"/>
+    <drive vh="H" team="HD" start="DOWNS,3,04:47,74" end="TD,3,02:35,100" plays="4" yards="26" top="2:12" start_how="DOWNS" start_qtr="3" start_time="04:47" start_spot="BT26" end_how="TD" end_qtr="3" end_time="02:35" end_spot="BT00" rz="1" driveindex="19"/>
+    <drive vh="V" team="BT" start="KO,3,02:27,23" end="PUNT,4,12:32,50" plays="8" yards="27" top="4:55" start_how="KO" start_qtr="3" start_time="02:27" start_spot="BT23" end_how="PUNT" end_qtr="4" end_time="12:32" end_spot="BT50" driveindex="20"/>
+    <drive vh="H" team="HD" start="PUNT,4,12:32,15" end="PUNT,4,10:47,19" plays="3" yards="4" top="1:45" start_how="PUNT" start_qtr="4" start_time="12:32" start_spot="HD15" end_how="PUNT" end_qtr="4" end_time="10:47" end_spot="HD19" driveindex="21"/>
+    <drive vh="V" team="BT" start="PUNT,4,10:47,10" end="PUNT,4,09:06,11" plays="3" yards="1" top="1:41" start_how="PUNT" start_qtr="4" start_time="10:47" start_spot="BT10" end_how="PUNT" end_qtr="4" end_time="09:06" end_spot="BT11" driveindex="22"/>
+    <drive vh="H" team="HD" start="PUNT,4,09:06,87" end="TD,4,08:00,100" plays="2" yards="13" top="1:06" start_how="PUNT" start_qtr="4" start_time="09:06" start_spot="BT13" end_how="TD" end_qtr="4" end_time="08:00" end_spot="BT00" rz="1" driveindex="23"/>
+    <drive vh="V" team="BT" start="KO,4,08:00,25" end="FUMB,4,07:17,26" plays="2" yards="1" top="0:43" start_how="KO" start_qtr="4" start_time="08:00" start_spot="BT25" end_how="FUMB" end_qtr="4" end_time="07:17" end_spot="BT26" driveindex="24"/>
+    <drive vh="H" team="HD" start="FUMB,4,07:17,74" end="FG,4,02:55,91" plays="8" yards="17" top="4:22" start_how="FUMB" start_qtr="4" start_time="07:17" start_spot="BT26" end_how="FG" end_qtr="4" end_time="02:55" end_spot="BT09" rz="1" driveindex="25"/>
+    <drive vh="V" team="BT" start="KO,4,02:55,25" end="DOWNS,4,00:05,13" plays="7" yards="-12" top="2:50" start_how="KO" start_qtr="4" start_time="02:55" start_spot="BT25" end_how="DOWNS" end_qtr="4" end_time="00:05" end_spot="BT13" driveindex="26"/>
+    <drive vh="H" team="HD" start="DOWNS,4,00:05,87" end="HALF,4,00:00,85" plays="1" yards="-2" top="0:05" start_how="DOWNS" start_qtr="4" start_time="00:05" start_spot="BT13" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="BT15" rz="1" driveindex="27"/>
+  </drives>
+  <plays format="summary">
+    <qtr number="1" text="1st">
+      <play hasball="BT" down="1" togo="10" spot="BT35" context="V,1,10,V35" playid="0,1,0" tokens="CMT:HD wins coin toss, HD elects to receive, BT to defend NO goal." text="HD wins coin toss, HD elects to receive, BT to defend NO goal." newcontext="V,1,10,V35">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT35" context="V,1,10,V35" playid="0,2,1" tokens="SPOT:V,V35,N" text="BT ball on BT35." newcontext="V,1,10,V35">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT35" context="V,1,10,V35" playid="0,3,2" tokens="SPOT:V,V35,N" text="BT ball on BT35." newcontext="V,1,10,V35">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT35" context="V,1,10,V35" playid="0,4,3" type="K" tokens="KO:26,H00 TB:" text="J. Schenderlein kickoff 65 yards to the HD0, touchback." newcontext="H,1,10,H25">
+        <p_ko vh="V" name="J. Schenderlein" gain="65" result="T"/>
+      </play>
+      <drivestart poss="H,H25,15:00" vh="H" spot="H25" clock="15:00" driveindex="1,3"/>
+      <play hasball="HD" down="1" togo="10" spot="HD25" context="H,1,10,H25" playid="1,1,4" type="P" tokens="PASS:10,C,12,H34" text="J. Clark pass complete to J. Madin Cerezo for 9 yards to the HD34." newcontext="H,2,1,H34">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="J. Madin Cerezo" gain="9"/>
+      </play>
+      <play hasball="HD" down="2" togo="1" spot="HD34" context="H,2,1,H34" playid="1,2,5" type="P" first="P" tokens="PASS:10,C,12,H50 TACK:24,8" text="J. Clark pass complete to J. Madin Cerezo for 16 yards to the 50 yardline, 1ST DOWN HD (M. De Falcis;P. Seifert)." newcontext="H,1,10,H50">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="J. Madin Cerezo" gain="16"/>
+        <p_tk vh="V" name="M. De Falcis" assist="Y"/>
+        <p_tk vh="V" name="P. Seifert" assist="Y"/>
+      </play>
+      <play hasball="HD" down="1" togo="10" spot="HD50" context="H,1,10,H50" playid="1,3,6" type="P" first="P" tokens="PASS:10,C,88,V39" text="J. Clark pass complete to A. Botella M. for 11 yards to the BT39, 1ST DOWN HD." newcontext="H,1,10,V39">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="A. Botella M." gain="11"/>
+      </play>
+      <play hasball="HD" down="1" togo="10" spot="BT39" context="H,1,10,V39" playid="1,4,7" type="P" first="P" tokens="PASS:10,C,88,V23" text="J. Clark pass complete to A. Botella M. for 16 yards to the BT23, 1ST DOWN HD." newcontext="H,1,10,V23">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="A. Botella M." gain="16"/>
+      </play>
+      <play hasball="HD" down="1" togo="10" spot="BT23" context="H,1,10,V23" playid="1,5,8" type="P" tokens="PASS:10,I,TM,*" text="J. Clark pass incomplete." newcontext="H,2,10,V23">
+        <p_pa vh="H" qb="J. Clark" result="INC"/>
+      </play>
+      <play hasball="HD" down="2" togo="10" spot="BT23" context="H,2,10,V23" playid="1,6,9" type="R" tokens="RUSH:24,V25, TACK:91,2" text="X. Johnson rush for loss of 2 yards to the BT25 (A. Odeleye;J. White)." newcontext="H,3,12,V25">
+        <p_ru vh="H" name="X. Johnson" gain="-2"/>
+        <p_tk vh="V" name="A. Odeleye" assist="Y"/>
+        <p_tk vh="V" name="J. White" assist="Y"/>
+      </play>
+      <play hasball="HD" down="3" togo="12" spot="BT25" context="H,3,12,V25" playid="1,7,10" type="P" tokens="PASS:10,C,88,V18 TACK:24,8" text="J. Clark pass complete to A. Botella M. for 7 yards to the BT18 (M. De Falcis;P. Seifert)." newcontext="H,4,5,V18">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="A. Botella M." gain="7"/>
+        <p_tk vh="V" name="M. De Falcis" assist="Y"/>
+        <p_tk vh="V" name="P. Seifert" assist="Y"/>
+      </play>
+      <play hasball="HD" down="4" togo="5" spot="BT18" context="H,4,5,V18" playid="1,8,11" type="F" score="Y" vscore="0" hscore="3" clock="11:40" tokens="FGA:4,35,G T:11:40" text="P. Andersen field goal attempt from 35 GOOD, clock 11:40." newcontext="H,1,0,H35">
+        <p_fg vh="H" name="P. Andersen" distance="35" result="GOOD" score="Y"/>
+      </play>
+      <score V="0" H="3"/>
+      <drivesum plays="8" yards="57" top="3:20" driveindex="1" complete="Y"/>
+      <play hasball="HD" down="1" togo="0" spot="HD35" context="H,1,0,H35" playid="1,9,12" type="K" tokens="KO:4,V04 RET:89,V16 TACK:33 PEN:H,IBW,A,TM,V31,1 D:1,10 SPOT:V,V31,Y" text="P. Andersen kickoff 61 yards to the BT4, 89 return 12 yards to the BT16 (K. Soussoukpo), PENALTY HD IBW 15 yards to the BT31, 1st and 10, BT ball on BT31." newcontext="V,1,10,V31">
+        <p_ko vh="H" name="P. Andersen" gain="61"/>
+        <p_kr vh="V" name="89" gain="12"/>
+        <p_tk vh="H" name="K. Soussoukpo"/>
+        <p_pn vh="H" code="IBW" type="IBW" result="ACCEPT" at="V16" yards="15"/>
+      </play>
+      <drivestart poss="V,V31,11:32" vh="V" spot="V31" clock="11:32" driveindex="2,12"/>
+      <play hasball="BT" down="1" togo="10" spot="BT31" context="V,1,10,V31" playid="2,1,13" clock="11:32" tokens="{DRIVE}:11:32" text="BERLIN THUNDER drive start at 11:32." newcontext="V,1,10,V31">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT31" context="V,1,10,V31" playid="2,2,14" type="P" tokens="PASS:6,I,TM,* PEN:V,SH,D" text="C. Stitt pass incomplete, PENALTY BT illegal shift declined." newcontext="V,2,10,V31">
+        <p_pa vh="V" qb="C. Stitt" result="INC"/>
+        <p_pn vh="V" code="SH" type="illegal shift" result="DECLINE"/>
+      </play>
+      <play hasball="BT" down="2" togo="10" spot="BT31" context="V,2,10,V31" playid="2,3,15" type="P" tokens="PASS:6,C,88,V40 TACK:52" text="C. Stitt pass complete to T. Ndongo for 9 yards to the BT40 (A. Mati)." newcontext="V,3,1,V40">
+        <p_pa vh="V" qb="C. Stitt" result="COMP" rcv="T. Ndongo" gain="9"/>
+        <p_tk vh="H" name="A. Mati"/>
+      </play>
+      <play hasball="BT" down="3" togo="1" spot="BT40" context="V,3,1,V40" playid="2,4,16" type="E" tokens="PEN:V,FS,A,79,V35,N" text="PENALTY BT false start (C. Ouattara) 5 yards to the BT35." newcontext="V,3,6,V35">
+        <p_pn vh="V" code="FS" type="false start" name="C. Ouattara" result="ACCEPT" at="V40" yards="5"/>
+      </play>
+      <play hasball="BT" down="3" togo="6" spot="BT35" context="V,3,6,V35" playid="2,5,17" type="R" tokens="RUSH:6,V35, TACK:95" text="C. Stitt rush for no gain to the BT35 (E. Yeboah)." newcontext="V,4,6,V35">
+        <p_ru vh="V" name="C. Stitt" gain="0"/>
+        <p_tk vh="H" name="E. Yeboah"/>
+      </play>
+      <play hasball="BT" down="4" togo="6" spot="BT35" context="V,4,6,V35" playid="2,6,18" type="U" tokens="PUNT:14,H41" text="K. Hummel punt 24 yards to the HD41." newcontext="H,1,10,H41">
+        <p_pu vh="V" name="K. Hummel" gain="24"/>
+      </play>
+      <drivesum plays="3" yards="4" top="1:44" driveindex="2" complete="Y"/>
+      <drivestart poss="H,H41,09:48" vh="H" spot="H41" clock="09:48" driveindex="3,18"/>
+      <play hasball="HD" down="1" togo="10" spot="HD41" context="H,1,10,H41" playid="3,1,19" clock="09:48" tokens="{DRIVE}:09:48" text="HAMBURG SEA DEVILS drive start at 09:48." newcontext="H,1,10,H41">
+   </play>
+      <play hasball="HD" down="1" togo="10" spot="HD41" context="H,1,10,H41" playid="3,2,20" type="P" tokens="PASS:10,C,88,H49 TACK:2" text="J. Clark pass complete to A. Botella M. for 8 yards to the HD49 (J. White)." newcontext="H,2,2,H49">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="A. Botella M." gain="8"/>
+        <p_tk vh="V" name="J. White"/>
+      </play>
+      <play hasball="HD" down="2" togo="2" spot="HD49" context="H,2,2,H49" playid="3,3,21" type="R" tokens="RUSH:10,H47, TACK:93" text="J. Clark rush for loss of 2 yards to the HD47 (G. Wiek)." newcontext="H,3,4,H47">
+        <p_ru vh="H" name="J. Clark" gain="-2"/>
+        <p_tk vh="V" name="G. Wiek"/>
+      </play>
+      <play hasball="HD" down="3" togo="4" spot="HD47" context="H,3,4,H47" playid="3,4,22" type="P" first="P" tokens="PASS:10,C,12,V49 TACK:8" text="J. Clark pass complete to J. Madin Cerezo for 4 yards to the BT49, 1ST DOWN HD (P. Seifert)." newcontext="H,1,10,V49">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="J. Madin Cerezo" gain="4"/>
+        <p_tk vh="V" name="P. Seifert"/>
+      </play>
+      <play hasball="HD" down="1" togo="10" spot="BT49" context="H,1,10,V49" playid="3,5,23" type="P" tokens="PASS:10,C,88,V46 TACK:22" text="J. Clark pass complete to A. Botella M. for 3 yards to the BT46 (L. Achaintre)." newcontext="H,2,7,V46">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="A. Botella M." gain="3"/>
+        <p_tk vh="V" name="L. Achaintre"/>
+      </play>
+      <play hasball="HD" down="2" togo="7" spot="BT46" context="H,2,7,V46" playid="3,6,24" type="P" tokens="PASS:10,I,12,*" text="J. Clark pass incomplete to J. Madin Cerezo." newcontext="H,3,7,V46">
+        <p_pa vh="H" qb="J. Clark" result="INC" rcv="J. Madin Cerezo"/>
+      </play>
+      <play hasball="HD" down="3" togo="7" spot="BT46" context="H,3,7,V46" playid="3,7,25" type="P" first="P" tokens="PASS:10,C,88,V35 TACK:2,22" text="J. Clark pass complete to A. Botella M. for 11 yards to the BT35, 1ST DOWN HD (J. White;L. Achaintre)." newcontext="H,1,10,V35">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="A. Botella M." gain="11"/>
+        <p_tk vh="V" name="J. White" assist="Y"/>
+        <p_tk vh="V" name="L. Achaintre" assist="Y"/>
+      </play>
+      <play hasball="HD" down="1" togo="10" spot="BT35" context="H,1,10,V35" playid="3,8,26" type="R" tokens="RUSH:24,V35, TACK:4,91" text="X. Johnson rush for no gain to the BT35 (A. Boadu;A. Odeleye)." newcontext="H,2,10,V35">
+        <p_ru vh="H" name="X. Johnson" gain="0"/>
+        <p_tk vh="V" name="A. Boadu" assist="Y"/>
+        <p_tk vh="V" name="A. Odeleye" assist="Y"/>
+      </play>
+      <play hasball="HD" down="2" togo="10" spot="BT35" context="H,2,10,V35" playid="3,9,27" type="P" tokens="PASS:10,S,TM,V50 SACK:91" text="J. Clark sacked for loss of 15 yards to the 50 yardline (A. Odeleye)." newcontext="H,3,25,H50">
+        <p_pa vh="H" qb="J. Clark" result="SACK" gain="-15"/>
+        <p_tk vh="V" name="A. Odeleye" sack="Y"/>
+      </play>
+      <play hasball="HD" down="3" togo="25" spot="HD50" context="H,3,25,H50" playid="3,10,28" type="P" tokens="PASS:10,C,89,V34 TACK:52" text="J. Clark pass complete to L. Rehder for 16 yards to the BT34 (W. Nasri)." newcontext="H,4,9,V34">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="L. Rehder" gain="16"/>
+        <p_tk vh="V" name="W. Nasri"/>
+      </play>
+      <play hasball="HD" down="4" togo="9" spot="BT34" context="H,4,9,V34" playid="3,11,29" type="P" first="P" tokens="PASS:10,C,88,V20 TACK:31" text="J. Clark pass complete to A. Botella M. for 14 yards to the BT20, 1ST DOWN HD (L. Pekkarinen)." newcontext="H,1,10,V20">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="A. Botella M." gain="14"/>
+        <p_tk vh="V" name="L. Pekkarinen"/>
+      </play>
+      <play hasball="HD" down="1" togo="10" spot="BT20" context="H,1,10,V20" playid="3,12,30" type="R" tokens="RUSH:24,V15, TACK:22" text="X. Johnson rush for 5 yards to the BT15 (L. Achaintre)." newcontext="H,2,5,V15">
+        <p_ru vh="H" name="X. Johnson" gain="5"/>
+        <p_tk vh="V" name="L. Achaintre"/>
+      </play>
+      <play hasball="HD" down="2" togo="5" spot="BT15" context="H,2,5,V15" playid="3,13,31" type="E" first="E" tokens="PASS:10,I,12,* PEN:V,OD,A,96,V10,N NOPLAY:" text="J. Clark pass incomplete to J. Madin Cerezo, PENALTY BT offside defense (M. Behm) 5 yards to the BT10, 1ST DOWN HD, NO PLAY." newcontext="H,1,0,V10">
+        <p_pn vh="V" code="OD" type="offside defense" name="M. Behm" result="ACCEPT" at="V15" yards="5"/>
+      </play>
+      <play hasball="HD" down="1" togo="0" spot="BT10" context="H,1,0,V10" playid="3,14,32" type="R" tokens="RUSH:24,V11, TACK:22,52" text="X. Johnson rush for loss of 1 yard to the BT11 (L. Achaintre;W. Nasri)." newcontext="H,2,0,V11">
+        <p_ru vh="H" name="X. Johnson" gain="-1"/>
+        <p_tk vh="V" name="L. Achaintre" assist="Y"/>
+        <p_tk vh="V" name="W. Nasri" assist="Y"/>
+      </play>
+      <play hasball="HD" down="2" togo="0" spot="BT11" context="H,2,0,V11" playid="3,15,33" type="P" tokens="PASS:10,I,11,*" text="J. Clark pass incomplete to B. Mau." newcontext="H,3,0,V11">
+        <p_pa vh="H" qb="J. Clark" result="INC" rcv="B. Mau"/>
+      </play>
+      <play hasball="HD" down="3" togo="0" spot="BT11" context="H,3,0,V11" playid="3,16,34" type="P" tokens="PASS:10,S,TM,V36 SACK:91" text="J. Clark sacked for loss of 25 yards to the BT36 (A. Odeleye)." newcontext="H,4,0,V36">
+        <p_pa vh="H" qb="J. Clark" result="SACK" gain="-25"/>
+        <p_tk vh="V" name="A. Odeleye" sack="Y"/>
+      </play>
+      <play hasball="HD" down="4" togo="0" spot="BT36" context="H,4,0,V36" playid="3,17,35" type="F" score="Y" vscore="0" hscore="6" clock="01:25" tokens="FGA:4,46,G T:01:25" text="P. Andersen field goal attempt from 46 GOOD, clock 01:25." newcontext="H,1,0,H35">
+        <p_fg vh="H" name="P. Andersen" distance="46" result="GOOD" score="Y"/>
+      </play>
+      <score V="0" H="6"/>
+      <drivesum plays="15" yards="23" top="8:23" driveindex="3" complete="Y"/>
+      <play hasball="HD" down="1" togo="0" spot="HD35" context="H,1,0,H35" playid="3,18,36" type="K" tokens="KO:4,V05 RET:88,V27" text="P. Andersen kickoff 60 yards to the BT5, T. Ndongo return 22 yards to the BT27." newcontext="V,1,10,V27">
+        <p_ko vh="H" name="P. Andersen" gain="60"/>
+        <p_kr vh="V" name="T. Ndongo" gain="22"/>
+      </play>
+      <drivestart poss="V,V27,01:17" vh="V" spot="V27" clock="01:17" driveindex="4,36"/>
+      <play hasball="BT" down="1" togo="10" spot="BT27" context="V,1,10,V27" playid="4,1,37" clock="01:17" tokens="{DRIVE}:01:17" text="BERLIN THUNDER drive start at 01:17." newcontext="V,1,10,V27">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT27" context="V,1,10,V27" playid="4,2,38" type="R" tokens="RUSH:6,V26, TACK:58" text="C. Stitt rush for loss of 1 yard to the BT26 (J. Bombek)." newcontext="V,2,11,V26">
+        <p_ru vh="V" name="C. Stitt" gain="-1"/>
+        <p_tk vh="H" name="J. Bombek"/>
+      </play>
+      <play hasball="BT" down="2" togo="11" spot="BT26" context="V,2,11,V26" playid="4,3,39" type="E" tokens="PASS:6,I,TM,* PEN:V,IG,A,6,V17,+ NOPLAY:" text="C. Stitt pass incomplete, PENALTY BT intentional grounding (C. Stitt) 9 yards to the BT17, NO PLAY." newcontext="V,3,20,V17">
+        <p_pn vh="V" code="IG" type="intentional grounding" name="C. Stitt" result="ACCEPT" at="V26" yards="9"/>
+      </play>
+      <play hasball="BT" down="3" togo="20" spot="BT17" context="V,3,20,V17" playid="4,4,40" type="P" tokens="PASS:6,I,88,*" text="C. Stitt pass incomplete to T. Ndongo." newcontext="V,4,20,V17">
+        <p_pa vh="V" qb="C. Stitt" result="INC" rcv="T. Ndongo"/>
+      </play>
+      <play hasball="BT" down="4" togo="20" spot="BT17" context="V,4,20,V17" playid="4,5,41" type="U" tokens="PUNT:14,H43 RET:23,H43 TACK:31,22" text="K. Hummel punt 40 yards to the HD43, J. Rogers return 0 yards to the HD43 (L. Pekkarinen;L. Achaintre)." newcontext="H,1,10,H43">
+        <p_pu vh="V" name="K. Hummel" gain="40"/>
+        <p_pr vh="H" name="J. Rogers" gain="0"/>
+        <p_tk vh="V" name="L. Pekkarinen" assist="Y"/>
+        <p_tk vh="V" name="L. Achaintre" assist="Y"/>
+      </play>
+      <drivesum plays="2" yards="-10" top="1:17" driveindex="4" complete="Y"/>
+      <drivestart poss="H,H43,00:00" vh="H" spot="H43" clock="00:00" driveindex="5,41"/>
+      <play hasball="HD" down="1" togo="10" spot="HD43" context="H,1,10,H43" playid="5,1,42" clock="00:00" tokens="{DRIVE}:00:00" text="HAMBURG SEA DEVILS drive start at 00:00." newcontext="H,1,10,H43">
+   </play>
+      <score qtr="1" V="0" H="6"/>
+      <endqtr/>
+      <qtrsummary vh="V" id="BT">
+        <firstdowns no="0" rush="0" pass="0" penalty="0"/>
+        <penalties no="3" yds="19"/>
+        <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="03:17"/>
+        <rush att="2" yds="-1" gain="0" loss="1" td="0" long="0"/>
+        <pass comp="1" att="3" int="0" yds="9" td="0" long="9" sacks="0" sackyds="0"/>
+        <rcv no="1" yds="9" td="0" long="9"/>
+        <punt no="2" yds="64" long="40" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="32.0"/>
+        <ko no="1" yds="65" ob="0" tb="1" fcyds="11853"/>
+        <defense tackua="9" tacka="14" tot_tack="23" tflua="3" tfla="4" tflyds="45" sacks="2" sackyds="40"/>
+        <kr no="2" yds="34" td="0" long="22"/>
+      </qtrsummary>
+      <qtrsummary vh="H" id="HD">
+        <firstdowns no="7" rush="0" pass="6" penalty="1"/>
+        <penalties no="1" yds="15"/>
+        <conversions thirdconv="2" thirdatt="5" fourthconv="1" fourthatt="1"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="11:43"/>
+        <rush att="5" yds="0" gain="5" loss="5" td="0" long="5"/>
+        <pass comp="11" att="14" int="0" yds="75" td="0" long="16" sacks="2" sackyds="40"/>
+        <rcv no="11" yds="115" td="0" long="16"/>
+        <ko no="2" yds="121" ob="0" tb="0" fcyds="8224"/>
+        <fg made="2" att="2" long="46" blkd="0"/>
+        <defense tackua="4" tacka="0" tot_tack="4" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0"/>
+        <pr no="1" yds="0" td="0" long="0"/>
+        <scoring fg="2"/>
+      </qtrsummary>
+    </qtr>
+    <qtr number="2" text="2nd">
+      <play hasball="HD" down="1" togo="10" spot="HD43" context="H,1,10,H43" playid="5,2,43" type="#" clock="15:00" tokens="Q:2 T:15:00" text="Start of 2nd quarter, clock 15:00." newcontext="H,1,10,H43">
+   </play>
+      <play hasball="HD" down="1" togo="10" spot="HD43" context="H,1,10,H43" playid="5,3,44" type="R" tokens="RUSH:24,H42, TACK:99" text="X. Johnson rush for loss of 1 yard to the HD42 (P. Labus)." newcontext="H,2,11,H42">
+        <p_ru vh="H" name="X. Johnson" gain="-1"/>
+        <p_tk vh="V" name="P. Labus"/>
+      </play>
+      <play hasball="HD" down="2" togo="11" spot="HD42" context="H,2,11,H42" playid="5,4,45" type="E" first="E" tokens="PASS:10,I,11,* PEN:V,UH,A,4,H47,1 NOPLAY:" text="J. Clark pass incomplete to B. Mau, PENALTY BT illegal use of hands (A. Boadu) 5 yards to the HD47, 1ST DOWN HD, NO PLAY." newcontext="H,1,10,H47">
+        <p_pn vh="V" code="UH" type="illegal use of hands" name="A. Boadu" result="ACCEPT" at="H42" yards="5"/>
+      </play>
+      <play hasball="HD" down="1" togo="10" spot="HD47" context="H,1,10,H47" playid="5,5,46" type="R" first="R" tokens="RUSH:24,V40, TACK:52" text="X. Johnson rush for 13 yards to the BT40, 1ST DOWN HD (W. Nasri)." newcontext="H,1,10,V40">
+        <p_ru vh="H" name="X. Johnson" gain="13"/>
+        <p_tk vh="V" name="W. Nasri"/>
+      </play>
+      <play hasball="HD" down="1" togo="10" spot="BT40" context="H,1,10,V40" playid="5,6,47" type="R" tokens="RUSH:24,V40, TACK:91" text="X. Johnson rush for no gain to the BT40 (A. Odeleye)." newcontext="H,2,10,V40">
+        <p_ru vh="H" name="X. Johnson" gain="0"/>
+        <p_tk vh="V" name="A. Odeleye"/>
+      </play>
+      <play hasball="HD" down="2" togo="10" spot="BT40" context="H,2,10,V40" playid="5,7,48" type="P" turnover="F" tokens="PASS:10,F,TM,H45 SACK:91 FUMB:V,H45,91" text="J. Clark sacked for loss of 15 yards to the HD45 (A. Odeleye), fumble by TEAM recovered by BT A. Odeleye at HD45." newcontext="V,1,10,H45">
+        <p_pa vh="H" qb="J. Clark" result="FUMB" gain="-15"/>
+        <p_fumb vh="H" name="TEAM" at="H45" frvh="V" frname="A. Odeleye"/>
+        <p_tk vh="V" name="A. Odeleye" sack="Y"/>
+      </play>
+      <drivesum plays="4" yards="2" top="2:05" driveindex="5" complete="Y"/>
+      <drivestart poss="V,H45,12:55" vh="V" spot="H45" clock="12:55" driveindex="6,48"/>
+      <play hasball="BT" down="1" togo="10" spot="HD45" context="V,1,10,H45" playid="6,1,49" clock="12:55" tokens="{DRIVE}:12:55" text="BERLIN THUNDER drive start at 12:55." newcontext="V,1,10,H45">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="HD45" context="V,1,10,H45" playid="6,2,50" type="R" tokens="RUSH:1,H42, TACK:93" text="J. Crawford rush for 3 yards to the HD42 (A. Babic)." newcontext="V,2,7,H42">
+        <p_ru vh="V" name="J. Crawford" gain="3"/>
+        <p_tk vh="H" name="A. Babic"/>
+      </play>
+      <play hasball="BT" down="2" togo="7" spot="HD42" context="V,2,7,H42" playid="6,3,51" type="E" tokens="PEN:V,DG,A,6,H47,N" text="PENALTY BT delay of game (C. Stitt) 5 yards to the HD47." newcontext="V,2,12,H47">
+        <p_pn vh="V" code="DG" type="delay of game" name="C. Stitt" result="ACCEPT" at="H42" yards="5"/>
+      </play>
+      <play hasball="BT" down="2" togo="12" spot="HD47" context="V,2,12,H47" playid="6,4,52" type="P" tokens="PASS:6,S,TM,V48 SACK:93" text="C. Stitt sacked for loss of 5 yards to the BT48 (A. Babic)." newcontext="V,3,17,V48">
+        <p_pa vh="V" qb="C. Stitt" result="SACK" gain="-5"/>
+        <p_tk vh="H" name="A. Babic" sack="Y"/>
+      </play>
+      <play hasball="BT" down="3" togo="17" spot="BT48" context="V,3,17,V48" playid="6,5,53" type="#" clock="11:01" tokens="TOUT:H T:11:01" text="Timeout Hamburg Sea Devils, clock 11:01." newcontext="V,3,17,V48">
+        <p_to vh="H" team="Hamburg Sea Devils"/>
+      </play>
+      <play hasball="BT" down="3" togo="17" spot="BT48" context="V,3,17,V48" playid="6,6,54" type="P" tokens="PASS:6,C,1,H44 TACK:43" text="C. Stitt pass complete to J. Crawford for 8 yards to the HD44 (M. Boock)." newcontext="V,4,9,H44">
+        <p_pa vh="V" qb="C. Stitt" result="COMP" rcv="J. Crawford" gain="8"/>
+        <p_tk vh="H" name="M. Boock"/>
+      </play>
+      <play hasball="BT" down="4" togo="9" spot="HD44" context="V,4,9,H44" playid="6,7,55" type="E" first="E" tokens="PASS:6,I,TM,* PEN:H,RP,A,58,H29,1 NOPLAY:" text="C. Stitt pass incomplete, PENALTY HD roughing passer (J. Bombek) 15 yards to the HD29, 1ST DOWN BT, NO PLAY." newcontext="V,1,10,H29">
+        <p_pn vh="H" code="RP" type="roughing passer" name="J. Bombek" result="ACCEPT" at="H44" yards="15"/>
+      </play>
+      <play hasball="BT" down="1" togo="10" spot="HD29" context="V,1,10,H29" playid="6,8,56" type="R" tokens="RUSH:1,H23, TACK:97" text="J. Crawford rush for 6 yards to the HD23 (B. Tchouadje)." newcontext="V,2,4,H23">
+        <p_ru vh="V" name="J. Crawford" gain="6"/>
+        <p_tk vh="H" name="B. Tchouadje"/>
+      </play>
+      <play hasball="BT" down="2" togo="4" spot="HD23" context="V,2,4,H23" playid="6,9,57" type="P" first="P" tokens="PASS:6,C,88,H06 TACK:43" text="C. Stitt pass complete to T. Ndongo for 17 yards to the HD6, 1ST DOWN BT (M. Boock)." newcontext="V,1,0,H06">
+        <p_pa vh="V" qb="C. Stitt" result="COMP" rcv="T. Ndongo" gain="17"/>
+        <p_tk vh="H" name="M. Boock"/>
+      </play>
+      <play hasball="BT" down="1" togo="0" spot="HD06" context="V,1,0,H06" playid="6,10,58" type="E" tokens="RUSH:6,H05, PEN:V,FO,A,68,H11,N NOPLAY:" text="C. Stitt rush for 1 yard to the HD5, PENALTY BT illegal formation (P. Junio Sacram) 5 yards to the HD11, NO PLAY." newcontext="V,1,0,H11">
+        <p_pn vh="V" code="FO" type="illegal formation" name="P. Junio Sacram" result="ACCEPT" at="H06" yards="5"/>
+      </play>
+      <play hasball="BT" down="1" togo="0" spot="HD11" context="V,1,0,H11" playid="6,11,59" type="P" tokens="PASS:6,I,7,*" text="C. Stitt pass incomplete to S. Jones." newcontext="V,2,0,H11">
+        <p_pa vh="V" qb="C. Stitt" result="INC" rcv="S. Jones"/>
+      </play>
+      <play hasball="BT" down="2" togo="0" spot="HD11" context="V,2,0,H11" playid="6,12,60" type="P" first="P" score="Y" vscore="6" hscore="6" clock="07:53" tokens="PASS:6,C,85,H00 T:07:53 PEN:H,RP,A,25,H15,N" text="C. Stitt pass complete to N. Schumann for 11 yards to the HD0, 1ST DOWN BT, TOUCHDOWN, clock 07:53, PENALTY HD roughing passer (M. Franklin) 0 yards to the HD15." newcontext="V,1,10,H15">
+        <p_pa vh="V" qb="C. Stitt" result="COMP" rcv="N. Schumann" gain="11"/>
+        <p_pn vh="H" code="RP" type="roughing passer" name="M. Franklin" result="ACCEPT"/>
+      </play>
+      <score V="6" H="6"/>
+      <play hasball="BT" down="1" togo="10" spot="HD15" context="V,1,10,H15" playid="6,13,61" tokens="SPOT:V,V50,N" text="BT ball on 50 yardline." newcontext="V,1,10,V50">
+   </play>
+      <drivesum plays="7" yards="45" top="5:02" driveindex="6" complete="Y"/>
+      <play hasball="BT" down="1" togo="10" spot="BT50" context="V,1,10,V50" playid="6,14,62" type="K" tokens="KO:26,V50 TB:" text="J. Schenderlein kickoff 0 yards to the 50 yardline, touchback." newcontext="H,1,10,H25">
+        <p_ko vh="V" name="J. Schenderlein" gain="0" result="T"/>
+      </play>
+      <drivestart poss="H,H25,07:53" vh="H" spot="H25" clock="07:53" driveindex="7,62"/>
+      <play hasball="HD" down="1" togo="10" spot="HD25" context="H,1,10,H25" playid="7,1,63" clock="07:53" tokens="{DRIVE}:07:53" text="HAMBURG SEA DEVILS drive start at 07:53." newcontext="H,1,10,H25">
+   </play>
+      <play hasball="HD" down="1" togo="10" spot="HD25" context="H,1,10,H25" playid="7,2,64" type="P" tokens="PASS:10,I,89,*" text="J. Clark pass incomplete to L. Rehder." newcontext="H,2,10,H25">
+        <p_pa vh="H" qb="J. Clark" result="INC" rcv="L. Rehder"/>
+      </play>
+      <play hasball="HD" down="2" togo="10" spot="HD25" context="H,2,10,H25" playid="7,3,65" type="P" tokens="PASS:10,I,89,* BRUP:15" text="J. Clark pass incomplete to L. Rehder (M. Thiele)." newcontext="H,3,10,H25">
+        <p_pa vh="H" qb="J. Clark" result="INC" rcv="L. Rehder"/>
+        <p_bu vh="V" name="M. Thiele"/>
+      </play>
+      <play hasball="HD" down="3" togo="10" spot="HD25" context="H,3,10,H25" playid="7,4,66" type="P" first="P" tokens="PASS:10,C,88,H38 TACK:2,22" text="J. Clark pass complete to A. Botella M. for 13 yards to the HD38, 1ST DOWN HD (J. White;L. Achaintre)." newcontext="H,1,10,H38">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="A. Botella M." gain="13"/>
+        <p_tk vh="V" name="J. White" assist="Y"/>
+        <p_tk vh="V" name="L. Achaintre" assist="Y"/>
+      </play>
+      <play hasball="HD" down="1" togo="10" spot="HD38" context="H,1,10,H38" playid="7,5,67" type="P" tokens="PASS:10,C,12,H37 TACK:15" text="J. Clark pass complete to J. Madin Cerezo for loss of 1 yard to the HD37 (M. Thiele)." newcontext="H,2,11,H37">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="J. Madin Cerezo" gain="-1"/>
+        <p_tk vh="V" name="M. Thiele"/>
+      </play>
+      <play hasball="HD" down="2" togo="11" spot="HD37" context="H,2,11,H37" playid="7,6,68" type="E" tokens="PASS:10,C,11,H42 TACK:8 PEN:H,HO,A,68,H27,N NOPLAY:" text="J. Clark pass complete to B. Mau for 5 yards to the HD42 (P. Seifert), PENALTY HD holding (K. Ebanks) 10 yards to the HD27, NO PLAY." newcontext="H,2,21,H27">
+        <p_pn vh="H" code="HO" type="holding" name="K. Ebanks" result="ACCEPT" at="H37" yards="10"/>
+      </play>
+      <play hasball="HD" down="2" togo="21" spot="HD27" context="H,2,21,H27" playid="7,7,69" type="E" tokens="RUSH:10,H27, TACK:68 PEN:H,HO,A,68,H17,N NOPLAY:" text="J. Clark rush for no gain to the HD27 (P. Junio Sacram), PENALTY HD holding (K. Ebanks) 10 yards to the HD17, NO PLAY." newcontext="H,2,31,H17">
+        <p_pn vh="H" code="HO" type="holding" name="K. Ebanks" result="ACCEPT" at="H27" yards="10"/>
+      </play>
+      <play hasball="HD" down="2" togo="31" spot="HD17" context="H,2,31,H17" playid="7,8,70" type="P" tokens="PASS:10,C,24,H22 TACK:8" text="J. Clark pass complete to X. Johnson for 5 yards to the HD22 (P. Seifert)." newcontext="H,3,26,H22">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="X. Johnson" gain="5"/>
+        <p_tk vh="V" name="P. Seifert"/>
+      </play>
+      <play hasball="HD" down="3" togo="26" spot="HD22" context="H,3,26,H22" playid="7,9,71" type="R" tokens="RUSH:24,H23, TACK:97" text="X. Johnson rush for 1 yard to the HD23 (K. Wagner)." newcontext="H,4,25,H23">
+        <p_ru vh="H" name="X. Johnson" gain="1"/>
+        <p_tk vh="V" name="K. Wagner"/>
+      </play>
+      <play hasball="HD" down="4" togo="25" spot="HD23" context="H,4,25,H23" playid="7,10,72" type="#" clock="04:46" tokens="TOUT:V T:04:46" text="Timeout Berlin Thunder, clock 04:46." newcontext="H,4,25,H23">
+        <p_to vh="V" team="Berlin Thunder"/>
+      </play>
+      <play hasball="HD" down="4" togo="25" spot="HD23" context="H,4,25,H23" playid="7,11,73" type="U" tokens="PUNT:4,V35 RET:7,V44 TACK:52" text="P. Andersen punt 42 yards to the BT35, S. Jones return 9 yards to the BT44 (A. Mati)." newcontext="V,1,10,V44">
+        <p_pu vh="H" name="P. Andersen" gain="42"/>
+        <p_pr vh="V" name="S. Jones" gain="9"/>
+        <p_tk vh="H" name="A. Mati"/>
+      </play>
+      <drivesum plays="6" yards="-2" top="3:13" driveindex="7" complete="Y"/>
+      <drivestart poss="V,V44,04:40" vh="V" spot="V44" clock="04:40" driveindex="8,73"/>
+      <play hasball="BT" down="1" togo="10" spot="BT44" context="V,1,10,V44" playid="8,1,74" clock="04:40" tokens="{DRIVE}:04:40" text="BERLIN THUNDER drive start at 04:40." newcontext="V,1,10,V44">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT44" context="V,1,10,V44" playid="8,2,75" type="R" tokens="RUSH:6,V49, TACK:95" text="C. Stitt rush for 5 yards to the BT49 (E. Yeboah)." newcontext="V,2,5,V49">
+        <p_ru vh="V" name="C. Stitt" gain="5"/>
+        <p_tk vh="H" name="E. Yeboah"/>
+      </play>
+      <play hasball="BT" down="2" togo="5" spot="BT49" context="V,2,5,V49" playid="8,3,76" type="P" tokens="PASS:6,I,88,*" text="C. Stitt pass incomplete to T. Ndongo." newcontext="V,3,5,V49">
+        <p_pa vh="V" qb="C. Stitt" result="INC" rcv="T. Ndongo"/>
+      </play>
+      <play hasball="BT" down="3" togo="5" spot="BT49" context="V,3,5,V49" playid="8,4,77" type="R" first="R" tokens="RUSH:1,H46, TACK:52,23" text="J. Crawford rush for 5 yards to the HD46, 1ST DOWN BT (A. Mati;J. Rogers)." newcontext="V,1,10,H46">
+        <p_ru vh="V" name="J. Crawford" gain="5"/>
+        <p_tk vh="H" name="A. Mati" assist="Y"/>
+        <p_tk vh="H" name="J. Rogers" assist="Y"/>
+      </play>
+      <play hasball="BT" down="1" togo="10" spot="HD46" context="V,1,10,H46" playid="8,5,78" type="#" clock="02:58" tokens="TOUT:V T:02:58" text="Timeout Berlin Thunder, clock 02:58." newcontext="V,1,10,H46">
+        <p_to vh="V" team="Berlin Thunder"/>
+      </play>
+      <play hasball="BT" down="1" togo="10" spot="HD46" context="V,1,10,H46" playid="8,6,79" type="P" tokens="PASS:6,I,88,*" text="C. Stitt pass incomplete to T. Ndongo." newcontext="V,2,10,H46">
+        <p_pa vh="V" qb="C. Stitt" result="INC" rcv="T. Ndongo"/>
+      </play>
+      <play hasball="BT" down="2" togo="10" spot="HD46" context="V,2,10,H46" playid="8,7,80" type="R" tokens="RUSH:1,H42, TACK:25,43" text="J. Crawford rush for 4 yards to the HD42 (M. Franklin;M. Boock)." newcontext="V,3,6,H42">
+        <p_ru vh="V" name="J. Crawford" gain="4"/>
+        <p_tk vh="H" name="M. Franklin" assist="Y"/>
+        <p_tk vh="H" name="M. Boock" assist="Y"/>
+      </play>
+      <play hasball="BT" down="3" togo="6" spot="HD42" context="V,3,6,H42" playid="8,8,81" type="#" clock="02:04" tokens="TOUT:H T:02:04" text="Timeout Hamburg Sea Devils, clock 02:04." newcontext="V,3,6,H42">
+        <p_to vh="H" team="Hamburg Sea Devils"/>
+      </play>
+      <play hasball="BT" down="3" togo="6" spot="HD42" context="V,3,6,H42" playid="8,9,82" type="P" tokens="PASS:6,I,7,*" text="C. Stitt pass incomplete to S. Jones." newcontext="V,4,6,H42">
+        <p_pa vh="V" qb="C. Stitt" result="INC" rcv="S. Jones"/>
+      </play>
+      <play hasball="BT" down="4" togo="6" spot="HD42" context="V,4,6,H42" playid="8,10,83" type="U" tokens="PUNT:14,H35 OB:" text="K. Hummel punt 7 yards to the HD35, out-of-bounds." ob="Y" newcontext="H,1,10,H35">
+        <p_pu vh="V" name="K. Hummel" gain="7" ob="Y"/>
+      </play>
+      <drivesum plays="6" yards="14" top="2:45" driveindex="8" complete="Y"/>
+      <drivestart poss="H,H35,01:55" vh="H" spot="H35" clock="01:55" driveindex="9,83"/>
+      <play hasball="HD" down="1" togo="10" spot="HD35" context="H,1,10,H35" playid="9,1,84" clock="01:55" tokens="{DRIVE}:01:55" text="HAMBURG SEA DEVILS drive start at 01:55." newcontext="H,1,10,H35">
+   </play>
+      <comment text="2 minute warning"/>
+      <play hasball="HD" down="1" togo="10" spot="HD35" context="H,1,10,H35" playid="9,2,86" type="P" tokens="PASS:10,C,11,H41 TACK:31" text="J. Clark pass complete to B. Mau for 6 yards to the HD41 (L. Pekkarinen)." newcontext="H,2,4,H41">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="B. Mau" gain="6"/>
+        <p_tk vh="V" name="L. Pekkarinen"/>
+      </play>
+      <play hasball="HD" down="2" togo="4" spot="HD41" context="H,2,4,H41" playid="9,3,87" type="P" tokens="PASS:10,I,11,*" text="J. Clark pass incomplete to B. Mau." newcontext="H,3,4,H41">
+        <p_pa vh="H" qb="J. Clark" result="INC" rcv="B. Mau"/>
+      </play>
+      <play hasball="HD" down="3" togo="4" spot="HD41" context="H,3,4,H41" playid="9,4,88" type="P" tokens="PASS:10,C,24,H42 TACK:52" text="J. Clark pass complete to X. Johnson for 1 yard to the HD42 (W. Nasri)." newcontext="H,4,3,H42">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="X. Johnson" gain="1"/>
+        <p_tk vh="V" name="W. Nasri"/>
+      </play>
+      <play hasball="HD" down="4" togo="3" spot="HD42" context="H,4,3,H42" playid="9,5,89" type="U" tokens="PUNT:4,V21 OB:" text="P. Andersen punt 37 yards to the BT21, out-of-bounds." ob="Y" newcontext="V,1,10,V21">
+        <p_pu vh="H" name="P. Andersen" gain="37" ob="Y"/>
+      </play>
+      <drivesum plays="3" yards="7" top="0:42" driveindex="9" complete="Y"/>
+      <drivestart poss="V,V21,01:13" vh="V" spot="V21" clock="01:13" driveindex="10,89"/>
+      <play hasball="BT" down="1" togo="10" spot="BT21" context="V,1,10,V21" playid="10,1,90" clock="01:13" tokens="{DRIVE}:01:13" text="BERLIN THUNDER drive start at 01:13." newcontext="V,1,10,V21">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT21" context="V,1,10,V21" playid="10,2,91" type="P" tokens="PASS:6,I,7,*" text="C. Stitt pass incomplete to S. Jones." newcontext="V,2,10,V21">
+        <p_pa vh="V" qb="C. Stitt" result="INC" rcv="S. Jones"/>
+      </play>
+      <play hasball="BT" down="2" togo="10" spot="BT21" context="V,2,10,V21" playid="10,3,92" type="R" tokens="RUSH:6,V23, TACK:57" text="C. Stitt rush for 2 yards to the BT23 (D. Laporte)." newcontext="V,3,8,V23">
+        <p_ru vh="V" name="C. Stitt" gain="2"/>
+        <p_tk vh="H" name="D. Laporte"/>
+      </play>
+      <play hasball="BT" down="3" togo="8" spot="BT23" context="V,3,8,V23" playid="10,4,93" type="#" clock="00:54" tokens="TOUT:H T:00:54" text="Timeout Hamburg Sea Devils, clock 00:54." newcontext="V,3,8,V23">
+        <p_to vh="H" team="Hamburg Sea Devils"/>
+      </play>
+      <play hasball="BT" down="3" togo="8" spot="BT23" context="V,3,8,V23" playid="10,5,94" type="E" first="E" tokens="PASS:6,I,88,* BRUP:25 PEN:H,PI,A,27,V41,1 NOPLAY:" text="C. Stitt pass incomplete to T. Ndongo (M. Franklin), PENALTY HD pass interference (L. Mueller) 18 yards to the BT41, 1ST DOWN BT, NO PLAY." newcontext="V,1,10,V41">
+        <p_pn vh="H" code="PI" type="pass interference" name="L. Mueller" result="ACCEPT" at="V23" yards="18"/>
+      </play>
+      <play hasball="BT" down="1" togo="10" spot="BT41" context="V,1,10,V41" playid="10,6,95" type="P" tokens="PASS:6,I,88,*" text="C. Stitt pass incomplete to T. Ndongo." newcontext="V,2,10,V41">
+        <p_pa vh="V" qb="C. Stitt" result="INC" rcv="T. Ndongo"/>
+      </play>
+      <play hasball="BT" down="2" togo="10" spot="BT41" context="V,2,10,V41" playid="10,7,96" type="E" first="E" tokens="PASS:6,C,1,V50 TACK:43 PEN:H,RP,A,58,H35,1 NOPLAY:" text="C. Stitt pass complete to J. Crawford for 9 yards to the 50 yardline (M. Boock), PENALTY HD roughing passer (J. Bombek) 24 yards to the HD35, 1ST DOWN BT, NO PLAY." newcontext="V,1,10,H35">
+        <p_pn vh="H" code="RP" type="roughing passer" name="J. Bombek" result="ACCEPT" at="V41" yards="24"/>
+      </play>
+      <play hasball="BT" down="1" togo="10" spot="HD35" context="V,1,10,H35" playid="10,8,97" type="P" tokens="PASS:6,C,7,H30 OB:" text="C. Stitt pass complete to S. Jones for 5 yards to the HD30, out-of-bounds." ob="Y" newcontext="V,2,5,H30">
+        <p_pa vh="V" qb="C. Stitt" result="COMP" rcv="S. Jones" gain="5"/>
+      </play>
+      <play hasball="BT" down="2" togo="5" spot="HD30" context="V,2,5,H30" playid="10,9,98" type="P" tokens="PASS:6,I,TM,*" text="C. Stitt pass incomplete." newcontext="V,3,5,H30">
+        <p_pa vh="V" qb="C. Stitt" result="INC"/>
+      </play>
+      <play hasball="BT" down="3" togo="5" spot="HD30" context="V,3,5,H30" playid="10,10,99" type="E" first="E" tokens="PASS:6,I,7,* PEN:H,OD,A,58,H25,N NOPLAY:" text="C. Stitt pass incomplete to S. Jones, PENALTY HD offside defense (J. Bombek) 5 yards to the HD25, 1ST DOWN BT, NO PLAY." newcontext="V,1,10,H25">
+        <p_pn vh="H" code="OD" type="offside defense" name="J. Bombek" result="ACCEPT" at="H30" yards="5"/>
+      </play>
+      <play hasball="BT" down="1" togo="10" spot="HD25" context="V,1,10,H25" playid="10,11,100" type="P" tokens="PASS:6,I,17,*" text="C. Stitt pass incomplete to E. Drossard." newcontext="V,2,10,H25">
+        <p_pa vh="V" qb="C. Stitt" result="INC" rcv="E. Drossard"/>
+      </play>
+      <play hasball="BT" down="2" togo="10" spot="HD25" context="V,2,10,H25" playid="10,12,101" type="P" tokens="PASS:6,I,88,*" text="C. Stitt pass incomplete to T. Ndongo." newcontext="V,3,10,H25">
+        <p_pa vh="V" qb="C. Stitt" result="INC" rcv="T. Ndongo"/>
+      </play>
+      <play hasball="BT" down="3" togo="10" spot="HD25" context="V,3,10,H25" playid="10,13,102" type="P" tokens="PASS:6,I,1,* BRUP:27" text="C. Stitt pass incomplete to J. Crawford (L. Mueller)." newcontext="V,4,10,H25">
+        <p_pa vh="V" qb="C. Stitt" result="INC" rcv="J. Crawford"/>
+        <p_bu vh="H" name="L. Mueller"/>
+      </play>
+      <play hasball="BT" down="4" togo="10" spot="HD25" context="V,4,10,H25" playid="10,14,103" type="F" clock="00:00" tokens="FGA:26,42,B,H20,H,22 T:00:00 BLOCK:25 +:22,H20" text="J. Schenderlein field goal attempt from 42 BLOCKED, recovered by HD A. Astahin at HD20 spot at HD20, clock 00:00 (blocked by M. Franklin), A. Astahin for no gain to the HD20." newcontext="H,1,10,H20">
+        <p_fg vh="V" name="J. Schenderlein" distance="42" result="BLOCKED"/>
+        <p_cont vh="H" name="A. Astahin" context="FGA" at="H20" gain="0"/>
+      </play>
+      <drivesum plays="9" yards="54" top="1:13" driveindex="10" complete="Y"/>
+      <drivestart poss="H,H20,00:00" vh="H" spot="H20" clock="00:00" driveindex="11,103"/>
+      <play hasball="HD" down="1" togo="10" spot="HD20" context="H,1,10,H20" playid="11,1,104" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of half, clock 00:00." newcontext="H,1,10,H20">
+   </play>
+      <drivesum plays="0" yards="0" top="0:00" driveindex="11" complete="Y"/>
+      <score qtr="2" V="6" H="6"/>
+      <endqtr/>
+      <qtrsummary vh="V" id="BT">
+        <firstdowns no="7" rush="1" pass="2" penalty="4"/>
+        <penalties no="3" yds="15"/>
+        <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="09:00"/>
+        <rush att="6" yds="25" gain="25" loss="0" td="0" long="6"/>
+        <pass comp="4" att="14" int="0" yds="36" td="1" long="8" sacks="1" sackyds="5"/>
+        <rcv no="4" yds="41" td="1" long="8"/>
+        <punt no="1" yds="7" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="7.0"/>
+        <ko no="1" yds="0" ob="0" tb="1" fcyds="11853"/>
+        <fg made="0" att="1" long="0" blkd="1"/>
+        <defense tackua="9" tacka="2" tot_tack="11" tflua="3" tfla="0" tflyds="17" sacks="1" sackyds="15" brup="1" ff="1" fr="1" fryds="0"/>
+        <pr no="1" yds="9" td="0" long="9"/>
+        <scoring td="1"/>
+      </qtrsummary>
+      <qtrsummary vh="H" id="HD">
+        <firstdowns no="3" rush="1" pass="1" penalty="1"/>
+        <penalties no="7" yds="82"/>
+        <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"/>
+        <fumbles no="1" lost="1"/>
+        <misc yds="0" top="06:00"/>
+        <rush att="4" yds="13" gain="14" loss="1" td="0" long="8"/>
+        <pass comp="5" att="8" int="0" yds="9" td="0" long="0" sacks="1" sackyds="15"/>
+        <rcv no="5" yds="24" td="0" long="0"/>
+        <punt no="2" yds="79" long="42" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="39.5"/>
+        <defense tackua="8" tacka="4" tot_tack="12" tflua="1" tfla="0" tflyds="5" sacks="1" sackyds="5" brup="1" blkd="1"/>
+        <fumbles no="1" lost="1"/>
+      </qtrsummary>
+    </qtr>
+    <qtr number="3" text="3rd">
+      <play hasball="HD" down="1" togo="10" spot="HD20" context="H,1,10,H20" playid="11,2,105" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:H,H35,N" text="Start of 3rd quarter, clock 15:00, HD ball on HD35." newcontext="H,1,10,H35">
+   </play>
+      <play hasball="HD" down="1" togo="10" spot="HD35" context="H,1,10,H35" playid="11,3,106" type="K" tokens="KO:4,V00 RET:17,V19 TACK:49" text="P. Andersen kickoff 65 yards to the BT0, E. Drossard return 19 yards to the BT19 (S. Kaya)." newcontext="V,1,10,V19">
+        <p_ko vh="H" name="P. Andersen" gain="65"/>
+        <p_kr vh="V" name="E. Drossard" gain="19"/>
+        <p_tk vh="H" name="S. Kaya"/>
+      </play>
+      <drivestart poss="V,V19,14:55" vh="V" spot="V19" clock="14:55" driveindex="12,106"/>
+      <play hasball="BT" down="1" togo="10" spot="BT19" context="V,1,10,V19" playid="12,1,107" clock="14:55" tokens="{DRIVE}:14:55" text="BERLIN THUNDER drive start at 14:55." newcontext="V,1,10,V19">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT19" context="V,1,10,V19" playid="12,2,108" type="R" tokens="RUSH:1,V20, TACK:58" text="J. Crawford rush for 1 yard to the BT20 (J. Bombek)." newcontext="V,2,9,V20">
+        <p_ru vh="V" name="J. Crawford" gain="1"/>
+        <p_tk vh="H" name="J. Bombek"/>
+      </play>
+      <play hasball="BT" down="2" togo="9" spot="BT20" context="V,2,9,V20" playid="12,3,109" type="P" tokens="PASS:6,I,88,*" text="C. Stitt pass incomplete to T. Ndongo." newcontext="V,3,9,V20">
+        <p_pa vh="V" qb="C. Stitt" result="INC" rcv="T. Ndongo"/>
+      </play>
+      <play hasball="BT" down="3" togo="9" spot="BT20" context="V,3,9,V20" playid="12,4,110" type="P" tokens="PASS:6,I,17,*" text="C. Stitt pass incomplete to E. Drossard." newcontext="V,4,9,V20">
+        <p_pa vh="V" qb="C. Stitt" result="INC" rcv="E. Drossard"/>
+      </play>
+      <play hasball="BT" down="4" togo="9" spot="BT20" context="V,4,9,V20" playid="12,5,111" type="E" tokens="PEN:V,DG,A,14,V15,N" text="PENALTY BT delay of game (K. Hummel) 5 yards to the BT15." newcontext="V,4,14,V15">
+        <p_pn vh="V" code="DG" type="delay of game" name="K. Hummel" result="ACCEPT" at="V20" yards="5"/>
+      </play>
+      <play hasball="BT" down="4" togo="14" spot="BT15" context="V,4,14,V15" playid="12,6,112" type="E" tokens="PUNT:14,H44 RET:23,H44 PEN:V,IK,A,24,V10,N NOPLAY:" text="K. Hummel punt 41 yards to the HD44, J. Rogers return to the HD44, PENALTY BT IK (M. De Falcis) 5 yards to the BT10, NO PLAY." newcontext="V,4,19,V10">
+        <p_pn vh="V" code="IK" type="IK" name="M. De Falcis" result="ACCEPT" at="V15" yards="5"/>
+      </play>
+      <play hasball="BT" down="4" togo="19" spot="BT10" context="V,4,19,V10" playid="12,7,113" type="E" tokens="PEN:H,RUK,A,49,V15,N" text="PENALTY HD RUK (S. Kaya) 5 yards to the BT15." newcontext="V,4,14,V15">
+        <p_pn vh="H" code="RUK" type="RUK" name="S. Kaya" result="ACCEPT" at="V10" yards="5"/>
+      </play>
+      <play hasball="BT" down="4" togo="14" spot="BT15" context="V,4,14,V15" playid="12,8,114" type="U" tokens="PUNT:14,H50 OB:" text="K. Hummel punt 35 yards to the 50 yardline, out-of-bounds." ob="Y" newcontext="H,1,10,H50">
+        <p_pu vh="V" name="K. Hummel" gain="35" ob="Y"/>
+      </play>
+      <drivesum plays="3" yards="-4" top="1:07" driveindex="12" complete="Y"/>
+      <drivestart poss="H,H50,13:48" vh="H" spot="H50" clock="13:48" driveindex="13,114"/>
+      <play hasball="HD" down="1" togo="10" spot="HD50" context="H,1,10,H50" playid="13,1,115" clock="13:48" tokens="{DRIVE}:13:48" text="HAMBURG SEA DEVILS drive start at 13:48." newcontext="H,1,10,H50">
+   </play>
+      <play hasball="HD" down="1" togo="10" spot="HD50" context="H,1,10,H50" playid="13,2,116" type="P" tokens="PASS:10,I,88,*" text="J. Clark pass incomplete to A. Botella M.." newcontext="H,2,10,H50">
+        <p_pa vh="H" qb="J. Clark" result="INC" rcv="A. Botella M."/>
+      </play>
+      <play hasball="HD" down="2" togo="10" spot="HD50" context="H,2,10,H50" playid="13,3,117" type="P" first="P" tokens="PASS:10,C,11,V05 TACK:15" text="J. Clark pass complete to B. Mau for 45 yards to the BT5, 1ST DOWN HD (M. Thiele)." newcontext="H,1,0,V05">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="B. Mau" gain="45"/>
+        <p_tk vh="V" name="M. Thiele"/>
+      </play>
+      <play hasball="HD" down="1" togo="0" spot="BT05" context="H,1,0,V05" playid="13,4,118" type="X" first="R" score="Y" vscore="6" hscore="13" clock="12:40" tokens="RUSH:24,V00, T:12:40 PAT:K,4,G" text="X. Johnson rush for 5 yards to the BT0, 1ST DOWN HD, TOUCHDOWN, clock 12:40, P. Andersen kick attempt good." newcontext="H,1,0,H35">
+        <p_ru vh="H" name="X. Johnson" gain="5"/>
+        <p_pat vh="H" name="P. Andersen" qb="P. Andersen" type="K" result="GOOD" score="Y"/>
+      </play>
+      <score V="6" H="13"/>
+      <drivesum plays="3" yards="50" top="1:08" driveindex="13" complete="Y"/>
+      <play hasball="HD" down="1" togo="0" spot="HD35" context="H,1,0,H35" playid="13,5,119" type="K" tokens="KO:4,V07 RET:2,V20 FUMB:V,V31,24" text="P. Andersen kickoff 58 yards to the BT7, J. White return 13 yards to the BT20, fumble by J. White recovered by BT M. De Falcis at BT31." newcontext="V,1,10,V31">
+        <p_ko vh="H" name="P. Andersen" gain="58"/>
+        <p_kr vh="V" name="J. White" gain="13"/>
+        <p_fumb vh="V" name="J. White" at="V31" frvh="V" frname="M. De Falcis"/>
+      </play>
+      <drivestart poss="V,V31,12:05" vh="V" spot="V31" clock="12:05" driveindex="14,119"/>
+      <play hasball="BT" down="1" togo="10" spot="BT31" context="V,1,10,V31" playid="14,1,120" clock="12:05" tokens="{DRIVE}:12:05 SPOT:V,V31,Y" text="BERLIN THUNDER drive start at 12:05, BT ball on BT31." newcontext="V,1,10,V31">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT31" context="V,1,10,V31" playid="14,2,121" type="R" tokens="RUSH:1,V30, TACK:43,45" text="J. Crawford rush for loss of 1 yard to the BT30 (M. Boock;J. Sarfo)." newcontext="V,2,11,V30">
+        <p_ru vh="V" name="J. Crawford" gain="-1"/>
+        <p_tk vh="H" name="M. Boock" assist="Y"/>
+        <p_tk vh="H" name="J. Sarfo" assist="Y"/>
+      </play>
+      <play hasball="BT" down="2" togo="11" spot="BT30" context="V,2,11,V30" playid="14,3,122" type="P" tokens="PASS:11,I,88,*" text="B. Zerbe pass incomplete to T. Ndongo." newcontext="V,3,11,V30">
+        <p_pa vh="V" qb="B. Zerbe" result="INC" rcv="T. Ndongo"/>
+      </play>
+      <play hasball="BT" down="3" togo="11" spot="BT30" context="V,3,11,V30" playid="14,4,123" type="P" tokens="PASS:11,C,7,V30" text="B. Zerbe pass complete to S. Jones for no gain to the BT30." newcontext="V,4,11,V30">
+        <p_pa vh="V" qb="B. Zerbe" result="COMP" rcv="S. Jones" gain="0"/>
+      </play>
+      <play hasball="BT" down="4" togo="11" spot="BT30" context="V,4,11,V30" playid="14,5,124" type="U" tokens="PUNT:14,H31 RET:23,H45 TACK:52 PEN:V,FM,A,TM,V40,N D:1,10 SPOT:H,V40,Y" text="K. Hummel punt 39 yards to the HD31, J. Rogers return 14 yards to the HD45 (W. Nasri), PENALTY BT face mask 15 yards to the BT40, 1st and 10, HD ball on BT40." newcontext="H,1,10,V40">
+        <p_pu vh="V" name="K. Hummel" gain="39"/>
+        <p_pr vh="H" name="J. Rogers" gain="14"/>
+        <p_tk vh="V" name="W. Nasri"/>
+        <p_pn vh="V" code="FM" type="face mask" result="ACCEPT" at="H45" yards="15"/>
+      </play>
+      <drivesum plays="3" yards="-1" top="0:25" driveindex="14" complete="Y"/>
+      <drivestart poss="H,V40,11:40" vh="H" spot="V40" clock="11:40" driveindex="15,124"/>
+      <play hasball="HD" down="1" togo="10" spot="BT40" context="H,1,10,V40" playid="15,1,125" clock="11:40" tokens="{DRIVE}:11:40" text="HAMBURG SEA DEVILS drive start at 11:40." newcontext="H,1,10,V40">
+   </play>
+      <play hasball="HD" down="1" togo="10" spot="BT40" context="H,1,10,V40" playid="15,2,126" type="R" tokens="RUSH:24,V34, TACK:24,52" text="X. Johnson rush for 6 yards to the BT34 (M. De Falcis;W. Nasri)." newcontext="H,2,4,V34">
+        <p_ru vh="H" name="X. Johnson" gain="6"/>
+        <p_tk vh="V" name="M. De Falcis" assist="Y"/>
+        <p_tk vh="V" name="W. Nasri" assist="Y"/>
+      </play>
+      <play hasball="HD" down="2" togo="4" spot="BT34" context="H,2,4,V34" playid="15,3,127" type="P" first="P" tokens="PASS:10,C,88,V21 TACK:24" text="J. Clark pass complete to A. Botella M. for 13 yards to the BT21, 1ST DOWN HD (M. De Falcis)." newcontext="H,1,10,V21">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="A. Botella M." gain="13"/>
+        <p_tk vh="V" name="M. De Falcis"/>
+      </play>
+      <play hasball="HD" down="1" togo="10" spot="BT21" context="H,1,10,V21" playid="15,4,128" type="X" first="P" score="Y" vscore="6" hscore="20" clock="10:33" tokens="PASS:10,C,12,V00 T:10:33 PAT:K,4,G" text="J. Clark pass complete to J. Madin Cerezo for 21 yards to the BT0, 1ST DOWN HD, TOUCHDOWN, clock 10:33, P. Andersen kick attempt good." newcontext="H,1,0,H35">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="J. Madin Cerezo" gain="21"/>
+        <p_pat vh="H" name="P. Andersen" qb="P. Andersen" type="K" result="GOOD" score="Y"/>
+      </play>
+      <score V="6" H="20"/>
+      <drivesum plays="3" yards="40" top="1:07" driveindex="15" complete="Y"/>
+      <play hasball="HD" down="1" togo="0" spot="HD35" context="H,1,0,H35" playid="15,5,129" type="K" tokens="KO:4,V00 RET:24,V11 TACK:18" text="P. Andersen kickoff 65 yards to the BT0, M. De Falcis return 11 yards to the BT11 (M. Amankwah)." newcontext="V,1,10,V11">
+        <p_ko vh="H" name="P. Andersen" gain="65"/>
+        <p_kr vh="V" name="M. De Falcis" gain="11"/>
+        <p_tk vh="H" name="M. Amankwah"/>
+      </play>
+      <drivestart poss="V,V11,10:25" vh="V" spot="V11" clock="10:25" driveindex="16,129"/>
+      <play hasball="BT" down="1" togo="10" spot="BT11" context="V,1,10,V11" playid="16,1,130" clock="10:25" tokens="{DRIVE}:10:25" text="BERLIN THUNDER drive start at 10:25." newcontext="V,1,10,V11">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT11" context="V,1,10,V11" playid="16,2,131" type="R" tokens="RUSH:1,V13, TACK:45" text="J. Crawford rush for 2 yards to the BT13 (J. Sarfo)." newcontext="V,2,8,V13">
+        <p_ru vh="V" name="J. Crawford" gain="2"/>
+        <p_tk vh="H" name="J. Sarfo"/>
+      </play>
+      <play hasball="BT" down="2" togo="8" spot="BT13" context="V,2,8,V13" playid="16,3,132" type="R" tokens="RUSH:1,V13, TACK:90" text="J. Crawford rush for no gain to the BT13 (A. Rieckenberg)." newcontext="V,3,8,V13">
+        <p_ru vh="V" name="J. Crawford" gain="0"/>
+        <p_tk vh="H" name="A. Rieckenberg"/>
+      </play>
+      <play hasball="BT" down="3" togo="8" spot="BT13" context="V,3,8,V13" playid="16,4,133" type="P" tokens="PASS:11,S,TM,V11 SACK:58" text="B. Zerbe sacked for loss of 2 yards to the BT11 (J. Bombek)." newcontext="V,4,10,V11">
+        <p_pa vh="V" qb="B. Zerbe" result="SACK" gain="-2"/>
+        <p_tk vh="H" name="J. Bombek" sack="Y"/>
+      </play>
+      <play hasball="BT" down="4" togo="10" spot="BT11" context="V,4,10,V11" playid="16,5,134" type="U" tokens="PUNT:14,V45 RET:23,V22 TACK:2" text="K. Hummel punt 34 yards to the BT45, J. Rogers return 23 yards to the BT22 (J. White)." newcontext="H,1,10,V22">
+        <p_pu vh="V" name="K. Hummel" gain="34"/>
+        <p_pr vh="H" name="J. Rogers" gain="23"/>
+        <p_tk vh="V" name="J. White"/>
+      </play>
+      <drivesum plays="3" yards="0" top="2:30" driveindex="16" complete="Y"/>
+      <drivestart poss="H,V22,07:55" vh="H" spot="V22" clock="07:55" driveindex="17,134"/>
+      <play hasball="HD" down="1" togo="10" spot="BT22" context="H,1,10,V22" playid="17,1,135" clock="07:55" tokens="{DRIVE}:07:55" text="HAMBURG SEA DEVILS drive start at 07:55." newcontext="H,1,10,V22">
+   </play>
+      <play hasball="HD" down="1" togo="10" spot="BT22" context="H,1,10,V22" playid="17,2,136" type="R" tokens="RUSH:10,V20, TACK:45" text="J. Clark rush for 2 yards to the BT20 (K. Hill)." newcontext="H,2,8,V20">
+        <p_ru vh="H" name="J. Clark" gain="2"/>
+        <p_tk vh="V" name="K. Hill"/>
+      </play>
+      <play hasball="HD" down="2" togo="8" spot="BT20" context="H,2,8,V20" playid="17,3,137" type="P" first="P" tokens="PASS:10,C,80,V03 TACK:15" text="J. Clark pass complete to D. Arboleda for 17 yards to the BT3, 1ST DOWN HD (M. Thiele)." newcontext="H,1,0,V03">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="D. Arboleda" gain="17"/>
+        <p_tk vh="V" name="M. Thiele"/>
+      </play>
+      <play hasball="HD" down="1" togo="0" spot="BT03" context="H,1,0,V03" playid="17,4,138" type="X" first="P" score="Y" vscore="6" hscore="27" clock="06:24" tokens="PASS:10,C,11,V00 T:06:24 PAT:K,4,G" text="J. Clark pass complete to B. Mau for 3 yards to the BT0, 1ST DOWN HD, TOUCHDOWN, clock 06:24, P. Andersen kick attempt good." newcontext="H,1,0,H35">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="B. Mau" gain="3"/>
+        <p_pat vh="H" name="P. Andersen" qb="P. Andersen" type="K" result="GOOD" score="Y"/>
+      </play>
+      <score V="6" H="27"/>
+      <drivesum plays="3" yards="22" top="1:31" driveindex="17" complete="Y"/>
+      <play hasball="HD" down="1" togo="0" spot="HD35" context="H,1,0,H35" playid="17,5,139" type="K" tokens="KO:4,V01 RET:2,V18 TACK:45" text="P. Andersen kickoff 64 yards to the BT1, J. White return 17 yards to the BT18 (J. Sarfo)." newcontext="V,1,10,V18">
+        <p_ko vh="H" name="P. Andersen" gain="64"/>
+        <p_kr vh="V" name="J. White" gain="17"/>
+        <p_tk vh="H" name="J. Sarfo"/>
+      </play>
+      <drivestart poss="V,V18,06:19" vh="V" spot="V18" clock="06:19" driveindex="18,139"/>
+      <play hasball="BT" down="1" togo="10" spot="BT18" context="V,1,10,V18" playid="18,1,140" clock="06:19" tokens="{DRIVE}:06:19" text="BERLIN THUNDER drive start at 06:19." newcontext="V,1,10,V18">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT18" context="V,1,10,V18" playid="18,2,141" type="P" tokens="PASS:7,I,17,*" text="S. Jones pass incomplete to E. Drossard." newcontext="V,2,10,V18">
+        <p_pa vh="V" qb="S. Jones" result="INC" rcv="E. Drossard"/>
+      </play>
+      <play hasball="BT" down="2" togo="10" spot="BT18" context="V,2,10,V18" playid="18,3,142" type="R" tokens="RUSH:1,V25, TACK:45" text="J. Crawford rush for 7 yards to the BT25 (J. Sarfo)." newcontext="V,3,3,V25">
+        <p_ru vh="V" name="J. Crawford" gain="7"/>
+        <p_tk vh="H" name="J. Sarfo"/>
+      </play>
+      <play hasball="BT" down="3" togo="3" spot="BT25" context="V,3,3,V25" playid="18,4,143" type="P" tokens="PASS:6,C,11,V27 TACK:23,54" text="C. Stitt pass complete to B. Zerbe for 2 yards to the BT27 (J. Rogers;T. Lessow)." newcontext="V,4,1,V27">
+        <p_pa vh="V" qb="C. Stitt" result="COMP" rcv="B. Zerbe" gain="2"/>
+        <p_tk vh="H" name="J. Rogers" assist="Y"/>
+        <p_tk vh="H" name="T. Lessow" assist="Y"/>
+      </play>
+      <play hasball="BT" down="4" togo="1" spot="BT27" context="V,4,1,V27" playid="18,5,144" type="#" clock="04:53" tokens="TOUT:V T:04:53" text="Timeout Berlin Thunder, clock 04:53." newcontext="V,4,1,V27">
+        <p_to vh="V" team="Berlin Thunder"/>
+      </play>
+      <play hasball="BT" down="4" togo="1" spot="BT27" context="V,4,1,V27" playid="18,6,145" type="R" tokens="RUSH:6,V26, TACK:95" text="C. Stitt rush for loss of 1 yard to the BT26 (E. Yeboah)." newcontext="H,1,10,V26">
+        <p_ru vh="V" name="C. Stitt" gain="-1"/>
+        <p_tk vh="H" name="E. Yeboah"/>
+      </play>
+      <drivesum plays="4" yards="8" top="1:32" driveindex="18" complete="Y"/>
+      <drivestart poss="H,V26,04:47" vh="H" spot="V26" clock="04:47" driveindex="19,145"/>
+      <play hasball="HD" down="1" togo="10" spot="BT26" context="H,1,10,V26" playid="19,1,146" clock="04:47" tokens="{DRIVE}:04:47" text="HAMBURG SEA DEVILS drive start at 04:47." newcontext="H,1,10,V26">
+   </play>
+      <play hasball="HD" down="1" togo="10" spot="BT26" context="H,1,10,V26" playid="19,2,147" type="P" tokens="PASS:10,C,88,V24 TACK:52" text="J. Clark pass complete to A. Botella M. for 2 yards to the BT24 (W. Nasri)." newcontext="H,2,8,V24">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="A. Botella M." gain="2"/>
+        <p_tk vh="V" name="W. Nasri"/>
+      </play>
+      <play hasball="HD" down="2" togo="8" spot="BT24" context="H,2,8,V24" playid="19,3,148" type="R" first="R" tokens="RUSH:24,V15, TACK:3,24" text="X. Johnson rush for 9 yards to the BT15, 1ST DOWN HD (A. Gehrt;M. De Falcis)." newcontext="H,1,10,V15">
+        <p_ru vh="H" name="X. Johnson" gain="9"/>
+        <p_tk vh="V" name="A. Gehrt" assist="Y"/>
+        <p_tk vh="V" name="M. De Falcis" assist="Y"/>
+      </play>
+      <play hasball="HD" down="1" togo="10" spot="BT15" context="H,1,10,V15" playid="19,4,149" type="R" first="R" tokens="RUSH:24,V04, TACK:2" text="X. Johnson rush for 11 yards to the BT4, 1ST DOWN HD (J. White)." newcontext="H,1,0,V04">
+        <p_ru vh="H" name="X. Johnson" gain="11"/>
+        <p_tk vh="V" name="J. White"/>
+      </play>
+      <play hasball="HD" down="1" togo="0" spot="BT04" context="H,1,0,V04" playid="19,5,150" type="X" first="P" score="Y" vscore="6" hscore="33" clock="02:35" tokens="PASS:10,C,44,V00 T:02:35 PAT:K,4,M" text="J. Clark pass complete to J. Kruse for 4 yards to the BT0, 1ST DOWN HD, TOUCHDOWN, clock 02:35, P. Andersen kick attempt failed." newcontext="H,1,0,H35">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="J. Kruse" gain="4"/>
+        <p_pat vh="H" name="P. Andersen" qb="P. Andersen" type="K" result="MISSED"/>
+      </play>
+      <play hasball="HD" down="1" togo="0" spot="HD35" context="H,1,0,H35" playid="19,6,151" type="X" score="Y" vscore="6" hscore="34" tokens="PAT:K,4,G" text="P. Andersen kick attempt good." newcontext="H,1,0,H35">
+        <p_pat vh="H" name="P. Andersen" qb="P. Andersen" type="K" result="GOOD" score="Y"/>
+      </play>
+      <score V="6" H="34"/>
+      <drivesum plays="4" yards="26" top="2:12" driveindex="19" complete="Y"/>
+      <play hasball="HD" down="1" togo="0" spot="HD35" context="H,1,0,H35" playid="19,7,152" type="K" tokens="KO:4,V02 RET:17,V23 TACK:54,45" text="P. Andersen kickoff 63 yards to the BT2, E. Drossard return 21 yards to the BT23 (T. Lessow;J. Sarfo)." newcontext="V,1,10,V23">
+        <p_ko vh="H" name="P. Andersen" gain="63"/>
+        <p_kr vh="V" name="E. Drossard" gain="21"/>
+        <p_tk vh="H" name="T. Lessow" assist="Y"/>
+        <p_tk vh="H" name="J. Sarfo" assist="Y"/>
+      </play>
+      <drivestart poss="V,V23,02:27" vh="V" spot="V23" clock="02:27" driveindex="20,152"/>
+      <play hasball="BT" down="1" togo="10" spot="BT23" context="V,1,10,V23" playid="20,1,153" clock="02:27" tokens="{DRIVE}:02:27" text="BERLIN THUNDER drive start at 02:27." newcontext="V,1,10,V23">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT23" context="V,1,10,V23" playid="20,2,154" type="R" tokens="RUSH:6,V28, TACK:58,90" text="C. Stitt rush for 5 yards to the BT28 (J. Bombek;A. Rieckenberg)." newcontext="V,2,5,V28">
+        <p_ru vh="V" name="C. Stitt" gain="5"/>
+        <p_tk vh="H" name="J. Bombek" assist="Y"/>
+        <p_tk vh="H" name="A. Rieckenberg" assist="Y"/>
+      </play>
+      <play hasball="BT" down="2" togo="5" spot="BT28" context="V,2,5,V28" playid="20,3,155" type="R" first="R" tokens="RUSH:1,V39, TACK:43" text="J. Crawford rush for 11 yards to the BT39, 1ST DOWN BT (M. Boock)." newcontext="V,1,10,V39">
+        <p_ru vh="V" name="J. Crawford" gain="11"/>
+        <p_tk vh="H" name="M. Boock"/>
+      </play>
+      <play hasball="BT" down="1" togo="10" spot="BT39" context="V,1,10,V39" playid="20,4,156" type="P" tokens="PASS:6,C,7,V45 OB: TACK:25" text="C. Stitt pass complete to S. Jones for 6 yards to the BT45, out-of-bounds (M. Franklin)." ob="Y" newcontext="V,2,4,V45">
+        <p_pa vh="V" qb="C. Stitt" result="COMP" rcv="S. Jones" gain="6"/>
+        <p_tk vh="H" name="M. Franklin"/>
+      </play>
+      <play hasball="BT" down="2" togo="4" spot="BT45" context="V,2,4,V45" playid="20,5,157" type="R" tokens="RUSH:1,V48, TACK:58" text="J. Crawford rush for 3 yards to the BT48 (J. Bombek)." newcontext="V,3,1,V48">
+        <p_ru vh="V" name="J. Crawford" gain="3"/>
+        <p_tk vh="H" name="J. Bombek"/>
+      </play>
+      <play hasball="BT" down="3" togo="1" spot="BT48" context="V,3,1,V48" playid="20,6,158" type="E" tokens="PASS:6,I,TM,* PEN:V,ID,D PEN:V,PI,A,86,V38,N NOPLAY:" text="C. Stitt pass incomplete, PENALTY BT ineligible downfield on pass declined, PENALTY BT pass interference (Y. Binner) 10 yards to the BT38, NO PLAY." newcontext="V,3,11,V38">
+        <p_pn vh="V" code="ID" type="ineligible downfield on pass" result="DECLINE"/>
+        <p_pn vh="V" code="PI" type="pass interference" name="Y. Binner" result="ACCEPT" at="V48" yards="10"/>
+      </play>
+      <score qtr="3" V="6" H="34"/>
+      <endqtr/>
+      <qtrsummary vh="V" id="BT">
+        <firstdowns no="1" rush="1" pass="0" penalty="0"/>
+        <penalties no="4" yds="35"/>
+        <conversions thirdconv="0" thirdatt="4" fourthconv="0" fourthatt="1"/>
+        <fumbles no="1" lost="0"/>
+        <misc yds="0" top="09:02"/>
+        <rush att="9" yds="27" gain="29" loss="2" td="0" long="5"/>
+        <pass comp="3" att="7" int="0" yds="6" td="0" long="0" sacks="1" sackyds="2"/>
+        <rcv no="3" yds="8" td="0" long="0"/>
+        <punt no="3" yds="108" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="36.0"/>
+        <defense tackua="8" tacka="4" tot_tack="12" sacks="0" sackyds="0"/>
+        <kr no="5" yds="81" td="0" long="0"/>
+        <fumbles no="1" lost="0"/>
+      </qtrsummary>
+      <qtrsummary vh="H" id="HD">
+        <firstdowns no="9" rush="3" pass="6" penalty="0"/>
+        <penalties no="1" yds="5"/>
+        <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="11" top="05:58"/>
+        <rush att="5" yds="33" gain="33" loss="0" td="1" long="0"/>
+        <pass comp="7" att="8" int="0" yds="105" td="3" long="29" sacks="0" sackyds="0"/>
+        <rcv no="7" yds="105" td="3" long="29"/>
+        <ko no="5" yds="315" ob="0" tb="0" fcyds="8224"/>
+        <pat kickatt="5" kickmade="4"/>
+        <defense tackua="12" tacka="8" tot_tack="20" tflua="2" tfla="2" tflyds="4" sacks="1" sackyds="2"/>
+        <pr no="2" yds="37" td="0" long="23"/>
+        <scoring td="4" patkick="4"/>
+      </qtrsummary>
+    </qtr>
+    <qtr number="4" text="4th">
+      <play hasball="BT" down="3" togo="11" spot="BT38" context="V,3,11,V38" playid="20,7,159" type="#" clock="15:00" tokens="Q:4 T:15:00" text="Start of 4th quarter, clock 15:00." newcontext="V,3,11,V38">
+   </play>
+      <play hasball="BT" down="3" togo="11" spot="BT38" context="V,3,11,V38" playid="20,8,160" type="#" clock="15:00" tokens="TOUT:H T:15:00" text="Timeout Hamburg Sea Devils, clock 15:00." newcontext="V,3,11,V38">
+        <p_to vh="H" team="Hamburg Sea Devils"/>
+      </play>
+      <play hasball="BT" down="3" togo="11" spot="BT38" context="V,3,11,V38" playid="20,9,161" type="R" first="E" tokens="RUSH:6,V48, OB: TACK:95 PEN:H,UC,A,95,H45,1" text="C. Stitt rush for 10 yards to the BT48, out-of-bounds (E. Yeboah), PENALTY HD unsportsmanlike conduct (E. Yeboah) 7 yards to the HD45, 1ST DOWN BT." ob="Y" newcontext="V,1,10,H45">
+        <p_ru vh="V" name="C. Stitt" gain="10"/>
+        <p_tk vh="H" name="E. Yeboah"/>
+        <p_pn vh="H" code="UC" type="unsportsmanlike conduct" name="E. Yeboah" result="ACCEPT" at="V48" yards="7"/>
+      </play>
+      <play hasball="BT" down="1" togo="10" spot="HD45" context="V,1,10,H45" playid="20,10,162" tokens="D:1,10" text="1st and 10." newcontext="V,1,10,H45">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="HD45" context="V,1,10,H45" playid="20,11,163" type="R" tokens="RUSH:1,H48, TACK:97,25" text="J. Crawford rush for loss of 3 yards to the HD48 (B. Tchouadje;M. Franklin)." newcontext="V,2,13,H48">
+        <p_ru vh="V" name="J. Crawford" gain="-3"/>
+        <p_tk vh="H" name="B. Tchouadje" assist="Y"/>
+        <p_tk vh="H" name="M. Franklin" assist="Y"/>
+      </play>
+      <play hasball="BT" down="2" togo="13" spot="HD48" context="V,2,13,H48" playid="20,12,164" type="R" tokens="RUSH:6,V49, OB: TACK:52" text="C. Stitt rush for loss of 3 yards to the BT49, out-of-bounds (A. Mati)." ob="Y" newcontext="V,3,16,V49">
+        <p_ru vh="V" name="C. Stitt" gain="-3"/>
+        <p_tk vh="H" name="A. Mati"/>
+      </play>
+      <play hasball="BT" down="3" togo="16" spot="BT49" context="V,3,16,V49" playid="20,13,165" type="P" tokens="PASS:6,C,1,V50 TACK:99,43" text="C. Stitt pass complete to J. Crawford for 1 yard to the 50 yardline (N. Imasuen;M. Boock)." newcontext="V,4,15,V50">
+        <p_pa vh="V" qb="C. Stitt" result="COMP" rcv="J. Crawford" gain="1"/>
+        <p_tk vh="H" name="N. Imasuen" assist="Y"/>
+        <p_tk vh="H" name="M. Boock" assist="Y"/>
+      </play>
+      <play hasball="BT" down="4" togo="15" spot="BT50" context="V,4,15,V50" playid="20,14,166" type="U" tokens="PUNT:14,H15 OB:" text="K. Hummel punt 35 yards to the HD15, out-of-bounds." ob="Y" newcontext="H,1,10,H15">
+        <p_pu vh="V" name="K. Hummel" gain="35" in20="Y" ob="Y"/>
+      </play>
+      <drivesum plays="8" yards="27" top="4:55" driveindex="20" complete="Y"/>
+      <drivestart poss="H,H15,12:32" vh="H" spot="H15" clock="12:32" driveindex="21,166"/>
+      <play hasball="HD" down="1" togo="10" spot="HD15" context="H,1,10,H15" playid="21,1,167" clock="12:32" tokens="{DRIVE}:12:32" text="HAMBURG SEA DEVILS drive start at 12:32." newcontext="H,1,10,H15">
+   </play>
+      <play hasball="HD" down="1" togo="10" spot="HD15" context="H,1,10,H15" playid="21,2,168" type="R" tokens="RUSH:34,H15, TACK:52" text="J. Ampaw rush for no gain to the HD15 (W. Nasri)." newcontext="H,2,10,H15">
+        <p_ru vh="H" name="J. Ampaw" gain="0"/>
+        <p_tk vh="V" name="W. Nasri"/>
+      </play>
+      <play hasball="HD" down="2" togo="10" spot="HD15" context="H,2,10,H15" playid="21,3,169" type="P" tokens="PASS:1,I,82,* BRUP:8" text="S. Ceesay pass incomplete to T. Nill (P. Seifert)." newcontext="H,3,10,H15">
+        <p_pa vh="H" qb="S. Ceesay" result="INC" rcv="T. Nill"/>
+        <p_bu vh="V" name="P. Seifert"/>
+      </play>
+      <play hasball="HD" down="3" togo="10" spot="HD15" context="H,3,10,H15" playid="21,4,170" type="P" tokens="PASS:1,C,88,H19 TACK:22" text="S. Ceesay pass complete to A. Botella M. for 4 yards to the HD19 (L. Achaintre)." newcontext="H,4,6,H19">
+        <p_pa vh="H" qb="S. Ceesay" result="COMP" rcv="A. Botella M." gain="4"/>
+        <p_tk vh="V" name="L. Achaintre"/>
+      </play>
+      <play hasball="HD" down="4" togo="6" spot="HD19" context="H,4,6,H19" playid="21,5,171" type="U" tokens="PUNT:4,V15 RET:7,V10 TACK:58" text="P. Andersen punt 66 yards to the BT15, S. Jones return -5 yards to the BT10 (J. Bombek)." newcontext="V,1,10,V10">
+        <p_pu vh="H" name="P. Andersen" gain="66" in20="Y"/>
+        <p_pr vh="V" name="S. Jones" gain="-5"/>
+        <p_tk vh="H" name="J. Bombek"/>
+      </play>
+      <drivesum plays="3" yards="4" top="1:45" driveindex="21" complete="Y"/>
+      <drivestart poss="V,V10,10:47" vh="V" spot="V10" clock="10:47" driveindex="22,171"/>
+      <play hasball="BT" down="1" togo="10" spot="BT10" context="V,1,10,V10" playid="22,1,172" clock="10:47" tokens="{DRIVE}:10:47" text="BERLIN THUNDER drive start at 10:47." newcontext="V,1,10,V10">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT10" context="V,1,10,V10" playid="22,2,173" type="R" tokens="RUSH:6,V14," text="C. Stitt rush for 4 yards to the BT14." newcontext="V,2,6,V14">
+        <p_ru vh="V" name="C. Stitt" gain="4"/>
+      </play>
+      <play hasball="BT" down="2" togo="6" spot="BT14" context="V,2,6,V14" playid="22,3,174" type="P" tokens="PASS:6,S,TM,V11 SACK:95" text="C. Stitt sacked for loss of 3 yards to the BT11 (E. Yeboah)." newcontext="V,3,9,V11">
+        <p_pa vh="V" qb="C. Stitt" result="SACK" gain="-3"/>
+        <p_tk vh="H" name="E. Yeboah" sack="Y"/>
+      </play>
+      <play hasball="BT" down="3" togo="9" spot="BT11" context="V,3,9,V11" playid="22,4,175" type="P" tokens="PASS:6,I,7,* BRUP:23" text="C. Stitt pass incomplete to S. Jones (J. Rogers)." newcontext="V,4,9,V11">
+        <p_pa vh="V" qb="C. Stitt" result="INC" rcv="S. Jones"/>
+        <p_bu vh="H" name="J. Rogers"/>
+      </play>
+      <play hasball="BT" down="4" togo="9" spot="BT11" context="V,4,9,V11" playid="22,5,176" type="U" tokens="PUNT:14,V44 RET:23,V18 TACK:52 PEN:V,IK,A,TM,V13,N D:1,10 SPOT:H,V13,Y" text="K. Hummel punt 33 yards to the BT44, J. Rogers return 26 yards to the BT18 (W. Nasri), PENALTY BT IK 5 yards to the BT13, 1st and 10, HD ball on BT13." newcontext="H,1,10,V13">
+        <p_pu vh="V" name="K. Hummel" gain="33"/>
+        <p_pr vh="H" name="J. Rogers" gain="26"/>
+        <p_tk vh="V" name="W. Nasri"/>
+        <p_pn vh="V" code="IK" type="IK" result="ACCEPT" at="V18" yards="5"/>
+      </play>
+      <drivesum plays="3" yards="1" top="1:41" driveindex="22" complete="Y"/>
+      <drivestart poss="H,V13,09:06" vh="H" spot="V13" clock="09:06" driveindex="23,176"/>
+      <play hasball="HD" down="1" togo="10" spot="BT13" context="H,1,10,V13" playid="23,1,177" clock="09:06" tokens="{DRIVE}:09:06" text="HAMBURG SEA DEVILS drive start at 09:06." newcontext="H,1,10,V13">
+   </play>
+      <play hasball="HD" down="1" togo="10" spot="BT13" context="H,1,10,V13" playid="23,2,178" type="P" first="P" tokens="PASS:1,C,88,V01" text="S. Ceesay pass complete to A. Botella M. for 12 yards to the BT1, 1ST DOWN HD." newcontext="H,1,0,V01">
+        <p_pa vh="H" qb="S. Ceesay" result="COMP" rcv="A. Botella M." gain="12"/>
+      </play>
+      <play hasball="HD" down="1" togo="0" spot="BT01" context="H,1,0,V01" playid="23,3,179" type="X" first="R" score="Y" vscore="6" hscore="41" clock="08:00" tokens="RUSH:1,V00, T:08:00 PAT:K,4,G" text="S. Ceesay rush for 1 yard to the BT0, 1ST DOWN HD, TOUCHDOWN, clock 08:00, P. Andersen kick attempt good." newcontext="H,1,0,H35">
+        <p_ru vh="H" name="S. Ceesay" gain="1"/>
+        <p_pat vh="H" name="P. Andersen" qb="P. Andersen" type="K" result="GOOD" score="Y"/>
+      </play>
+      <score V="6" H="41"/>
+      <drivesum plays="2" yards="13" top="1:06" driveindex="23" complete="Y"/>
+      <play hasball="HD" down="1" togo="0" spot="HD35" context="H,1,0,H35" playid="23,4,180" type="K" tokens="KO:4,V00 TB:" text="P. Andersen kickoff 65 yards to the BT0, touchback." newcontext="V,1,10,V25">
+        <p_ko vh="H" name="P. Andersen" gain="65" result="T"/>
+      </play>
+      <drivestart poss="V,V25,08:00" vh="V" spot="V25" clock="08:00" driveindex="24,180"/>
+      <play hasball="BT" down="1" togo="10" spot="BT25" context="V,1,10,V25" playid="24,1,181" clock="08:00" tokens="{DRIVE}:08:00" text="BERLIN THUNDER drive start at 08:00." newcontext="V,1,10,V25">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT25" context="V,1,10,V25" playid="24,2,182" type="E" tokens="PEN:V,DG,A,11,V20,N" text="PENALTY BT delay of game (B. Zerbe) 5 yards to the BT20." newcontext="V,1,15,V20">
+        <p_pn vh="V" code="DG" type="delay of game" name="B. Zerbe" result="ACCEPT" at="V25" yards="5"/>
+      </play>
+      <play hasball="BT" down="1" togo="15" spot="BT20" context="V,1,15,V20" playid="24,3,183" type="P" tokens="PASS:11,C,85,V28 TACK:22" text="B. Zerbe pass complete to N. Schumann for 8 yards to the BT28 (A. Astahin)." newcontext="V,2,7,V28">
+        <p_pa vh="V" qb="B. Zerbe" result="COMP" rcv="N. Schumann" gain="8"/>
+        <p_tk vh="H" name="A. Astahin"/>
+      </play>
+      <play hasball="BT" down="2" togo="7" spot="BT28" context="V,2,7,V28" playid="24,4,184" type="R" turnover="F" tokens="RUSH:11,V26, FORCE:90 FUMB:H,V26,90" text="B. Zerbe rush for loss of 2 yards to the BT26, fumble forced by A. Rieckenberg, fumble by B. Zerbe recovered by HD A. Rieckenberg at BT26." newcontext="H,1,10,V26">
+        <p_ru vh="V" name="B. Zerbe" gain="-2"/>
+        <p_fumb vh="V" name="B. Zerbe" at="V26" frvh="H" frname="A. Rieckenberg"/>
+        <p_tk vh="H" name="A. Rieckenberg" ff="Y"/>
+      </play>
+      <drivesum plays="2" yards="1" top="0:43" driveindex="24" complete="Y"/>
+      <drivestart poss="H,V26,07:17" vh="H" spot="V26" clock="07:17" driveindex="25,184"/>
+      <play hasball="HD" down="1" togo="10" spot="BT26" context="H,1,10,V26" playid="25,1,185" clock="07:17" tokens="{DRIVE}:07:17" text="HAMBURG SEA DEVILS drive start at 07:17." newcontext="H,1,10,V26">
+   </play>
+      <play hasball="HD" down="1" togo="10" spot="BT26" context="H,1,10,V26" playid="25,2,186" type="R" tokens="RUSH:34,V23, TACK:93" text="J. Ampaw rush for 3 yards to the BT23 (G. Wiek)." newcontext="H,2,7,V23">
+        <p_ru vh="H" name="J. Ampaw" gain="3"/>
+        <p_tk vh="V" name="G. Wiek"/>
+      </play>
+      <play hasball="HD" down="2" togo="7" spot="BT23" context="H,2,7,V23" playid="25,3,187" type="R" tokens="RUSH:34,V24, TACK:99,91" text="J. Ampaw rush for loss of 1 yard to the BT24 (P. Labus;A. Odeleye)." newcontext="H,3,8,V24">
+        <p_ru vh="H" name="J. Ampaw" gain="-1"/>
+        <p_tk vh="V" name="P. Labus" assist="Y"/>
+        <p_tk vh="V" name="A. Odeleye" assist="Y"/>
+      </play>
+      <play hasball="HD" down="3" togo="8" spot="BT24" context="H,3,8,V24" playid="25,4,188" type="E" tokens="RUSH:1,V17, PEN:H,HO,A,51,V34,N NOPLAY:" text="S. Ceesay rush for 7 yards to the BT17, PENALTY HD holding (G. De Guzman) 10 yards to the BT34, NO PLAY." newcontext="H,3,18,V34">
+        <p_pn vh="H" code="HO" type="holding" name="G. De Guzman" result="ACCEPT" at="V24" yards="10"/>
+      </play>
+      <play hasball="HD" down="3" togo="18" spot="BT34" context="H,3,18,V34" playid="25,5,189" type="P" tokens="PASS:1,I,89,* BRUP:31" text="S. Ceesay pass incomplete to L. Rehder (L. Pekkarinen)." newcontext="H,4,18,V34">
+        <p_pa vh="H" qb="S. Ceesay" result="INC" rcv="L. Rehder"/>
+        <p_bu vh="V" name="L. Pekkarinen"/>
+      </play>
+      <play hasball="HD" down="4" togo="18" spot="BT34" context="H,4,18,V34" playid="25,6,190" type="#" clock="05:34" tokens="TOUT:H T:05:34" text="Timeout Hamburg Sea Devils, clock 05:34." newcontext="H,4,18,V34">
+        <p_to vh="H" team="Hamburg Sea Devils"/>
+      </play>
+      <play hasball="HD" down="4" togo="18" spot="BT34" context="H,4,18,V34" playid="25,7,191" type="P" first="P" tokens="PASS:10,C,88,V12" text="J. Clark pass complete to A. Botella M. for 22 yards to the BT12, 1ST DOWN HD." newcontext="H,1,10,V12">
+        <p_pa vh="H" qb="J. Clark" result="COMP" rcv="A. Botella M." gain="22"/>
+      </play>
+      <play hasball="HD" down="1" togo="10" spot="BT12" context="H,1,10,V12" playid="25,8,192" type="#" clock="04:52" tokens="TOUT:H T:04:52" text="Timeout Hamburg Sea Devils, clock 04:52." newcontext="H,1,10,V12">
+        <p_to vh="H" team="Hamburg Sea Devils"/>
+      </play>
+      <play hasball="HD" down="1" togo="10" spot="BT12" context="H,1,10,V12" playid="25,9,193" type="R" tokens="RUSH:34,V11, TACK:52" text="J. Ampaw rush for 1 yard to the BT11 (W. Nasri)." newcontext="H,2,9,V11">
+        <p_ru vh="H" name="J. Ampaw" gain="1"/>
+        <p_tk vh="V" name="W. Nasri"/>
+      </play>
+      <play hasball="HD" down="2" togo="9" spot="BT11" context="H,2,9,V11" playid="25,10,194" type="R" tokens="RUSH:34,V13, TACK:44" text="J. Ampaw rush for loss of 2 yards to the BT13 (M. Steffen)." newcontext="H,3,11,V13">
+        <p_ru vh="H" name="J. Ampaw" gain="-2"/>
+        <p_tk vh="V" name="M. Steffen"/>
+      </play>
+      <play hasball="HD" down="3" togo="11" spot="BT13" context="H,3,11,V13" playid="25,11,195" type="R" tokens="RUSH:1,V09, OB:" text="S. Ceesay rush for 4 yards to the BT9, out-of-bounds." ob="Y" newcontext="H,4,7,V09">
+        <p_ru vh="H" name="S. Ceesay" gain="4"/>
+      </play>
+      <play hasball="HD" down="4" togo="7" spot="BT09" context="H,4,7,V09" playid="25,12,196" type="F" score="Y" vscore="6" hscore="44" clock="02:55" tokens="FGA:4,26,G T:02:55" text="P. Andersen field goal attempt from 26 GOOD, clock 02:55." newcontext="H,1,0,H35">
+        <p_fg vh="H" name="P. Andersen" distance="26" result="GOOD" score="Y"/>
+      </play>
+      <score V="6" H="44"/>
+      <drivesum plays="8" yards="17" top="4:22" driveindex="25" complete="Y"/>
+      <play hasball="HD" down="1" togo="0" spot="HD35" context="H,1,0,H35" playid="25,13,197" type="K" tokens="KO:4,V00 TB:" text="P. Andersen kickoff 65 yards to the BT0, touchback." newcontext="V,1,10,V25">
+        <p_ko vh="H" name="P. Andersen" gain="65" result="T"/>
+      </play>
+      <drivestart poss="V,V25,02:55" vh="V" spot="V25" clock="02:55" driveindex="26,197"/>
+      <play hasball="BT" down="1" togo="10" spot="BT25" context="V,1,10,V25" playid="26,1,198" clock="02:55" tokens="{DRIVE}:02:55" text="BERLIN THUNDER drive start at 02:55." newcontext="V,1,10,V25">
+   </play>
+      <play hasball="BT" down="1" togo="10" spot="BT25" context="V,1,10,V25" playid="26,2,199" type="R" tokens="RUSH:47,V32, TACK:28" text="Y. Landfried rush for 7 yards to the BT32 (B. Maruschke)." newcontext="V,2,3,V32">
+        <p_ru vh="V" name="Y. Landfried" gain="7"/>
+        <p_tk vh="H" name="B. Maruschke"/>
+      </play>
+      <play hasball="BT" down="2" togo="3" spot="BT32" context="V,2,3,V32" playid="26,3,200" type="#" clock="02:07" tokens="TOUT:V T:02:07" text="Timeout Berlin Thunder, clock 02:07." newcontext="V,2,3,V32">
+        <p_to vh="V" team="Berlin Thunder"/>
+      </play>
+      <play hasball="BT" down="2" togo="3" spot="BT32" context="V,2,3,V32" playid="26,4,201" type="R" tokens="RUSH:47,V34, TACK:40" text="Y. Landfried rush for 2 yards to the BT34 (M. Spiegel)." newcontext="V,3,1,V34">
+        <p_ru vh="V" name="Y. Landfried" gain="2"/>
+        <p_tk vh="H" name="M. Spiegel"/>
+      </play>
+      <comment text="2 minute warning"/>
+      <play hasball="BT" down="3" togo="1" spot="BT34" context="V,3,1,V34" playid="26,5,203" type="R" first="R" tokens="RUSH:47,V36, TACK:58,45" text="Y. Landfried rush for 2 yards to the BT36, 1ST DOWN BT (J. Bombek;J. Sarfo)." newcontext="V,1,10,V36">
+        <p_ru vh="V" name="Y. Landfried" gain="2"/>
+        <p_tk vh="H" name="J. Bombek" assist="Y"/>
+        <p_tk vh="H" name="J. Sarfo" assist="Y"/>
+      </play>
+      <play hasball="BT" down="1" togo="10" spot="BT36" context="V,1,10,V36" playid="26,6,204" type="P" tokens="PASS:11,I,10,*" text="B. Zerbe pass incomplete to S. Mayerhoff." newcontext="V,2,10,V36">
+        <p_pa vh="V" qb="B. Zerbe" result="INC" rcv="S. Mayerhoff"/>
+      </play>
+      <play hasball="BT" down="2" togo="10" spot="BT36" context="V,2,10,V36" playid="26,7,205" type="R" tokens="RUSH:47,V42, TACK:49,57" text="Y. Landfried rush for 6 yards to the BT42 (S. Kaya;D. Laporte)." newcontext="V,3,4,V42">
+        <p_ru vh="V" name="Y. Landfried" gain="6"/>
+        <p_tk vh="H" name="S. Kaya" assist="Y"/>
+        <p_tk vh="H" name="D. Laporte" assist="Y"/>
+      </play>
+      <play hasball="BT" down="3" togo="4" spot="BT42" context="V,3,4,V42" playid="26,8,206" type="R" tokens="RUSH:47,V37, TACK:57" text="Y. Landfried rush for loss of 5 yards to the BT37 (D. Laporte)." newcontext="V,4,9,V37">
+        <p_ru vh="V" name="Y. Landfried" gain="-5"/>
+        <p_tk vh="H" name="D. Laporte"/>
+      </play>
+      <play hasball="BT" down="4" togo="9" spot="BT37" context="V,4,9,V37" playid="26,9,207" type="R" tokens="RUSH:14,V13, TACK:58,49" text="K. Hummel rush for loss of 24 yards to the BT13 (J. Bombek;S. Kaya)." newcontext="H,1,10,V13">
+        <p_ru vh="V" name="K. Hummel" gain="-24"/>
+        <p_tk vh="H" name="J. Bombek" assist="Y"/>
+        <p_tk vh="H" name="S. Kaya" assist="Y"/>
+      </play>
+      <drivesum plays="7" yards="-12" top="2:50" driveindex="26" complete="Y"/>
+      <drivestart poss="H,V13,00:05" vh="H" spot="V13" clock="00:05" driveindex="27,207"/>
+      <play hasball="HD" down="1" togo="10" spot="BT13" context="H,1,10,V13" playid="27,1,208" clock="00:05" tokens="{DRIVE}:00:05" text="HAMBURG SEA DEVILS drive start at 00:05." newcontext="H,1,10,V13">
+   </play>
+      <play hasball="HD" down="1" togo="10" spot="BT13" context="H,1,10,V13" playid="27,2,209" type="R" tokens="RUSH:1,V15," text="S. Ceesay rush for loss of 2 yards to the BT15." newcontext="H,2,12,V15">
+        <p_ru vh="H" name="S. Ceesay" gain="-2"/>
+      </play>
+      <play hasball="HD" down="2" togo="12" spot="BT15" context="H,2,12,V15" playid="27,3,210" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of game, clock 00:00." newcontext="H,2,12,V15">
+   </play>
+      <drivesum plays="1" yards="-2" top="0:05" driveindex="27" complete="Y"/>
+      <score final="Y" V="6" H="44"/>
+      <endqtr/>
+      <qtrsummary vh="V" id="BT">
+        <firstdowns no="2" rush="1" pass="0" penalty="1"/>
+        <penalties no="2" yds="10"/>
+        <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="1"/>
+        <fumbles no="1" lost="1"/>
+        <misc yds="0" top="07:42"/>
+        <rush att="11" yds="-6" gain="31" loss="37" td="0" long="0"/>
+        <pass comp="2" att="4" int="0" yds="6" td="0" long="0" sacks="1" sackyds="3"/>
+        <rcv no="2" yds="9" td="0" long="0"/>
+        <punt no="2" yds="68" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="34.0"/>
+        <defense tackua="6" tacka="2" tot_tack="8" tflua="1" tfla="2" tflyds="3" sacks="0" sackyds="0" brup="2"/>
+        <pr no="1" yds="-5" td="0" long="0"/>
+        <fumbles no="1" lost="1"/>
+      </qtrsummary>
+      <qtrsummary vh="H" id="HD">
+        <firstdowns no="3" rush="1" pass="2" penalty="0"/>
+        <penalties no="2" yds="17"/>
+        <conversions thirdconv="0" thirdatt="3" fourthconv="1" fourthatt="1"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="07:18"/>
+        <rush att="8" yds="4" gain="9" loss="5" td="1" long="0"/>
+        <pass comp="3" att="5" int="0" yds="38" td="0" long="0" sacks="0" sackyds="0"/>
+        <rcv no="3" yds="38" td="0" long="0"/>
+        <punt no="1" yds="66" long="24" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="66.0"/>
+        <ko no="2" yds="130" ob="0" tb="2" fcyds="8224"/>
+        <fg made="1" att="1" long="0" blkd="0"/>
+        <pat kickatt="1" kickmade="1"/>
+        <defense tackua="9" tacka="10" tot_tack="19" tflua="4" tfla="4" tflyds="40" sacks="1" sackyds="3" brup="1" ff="1" fr="1" fryds="0"/>
+        <pr no="1" yds="26" td="0" long="3"/>
+        <scoring td="1" fg="1" patkick="1"/>
+      </qtrsummary>
+    </qtr>
+    <downtogo hasball="H" id="HD" down="2" togo="12" spot="BT15" context="H,2,12,V15" qtr="4" clock="00:00" vtoh="2" htoh="3" lastplay="End of game, clock 00:00."/>
+  </plays>
+  <message text=""/>
+</fbgame>

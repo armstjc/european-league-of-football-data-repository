@@ -69,3 +69,7 @@ european-league-of-football-data
 - `schedule`: Houses current and historical ELF schedules.
 - `standings`: Houses current and historical ELF standings data.
 - `teams`: Houses any and all data specifically related to ELF teams.
+
+## Special Thanks
+
+Special thanks to [mrcaseb](https://github.com/mrcaseb) and [his ELF data repo](https://github.com/mrcaseb/elf/tree/master) for XML data in the 2021 and 2022 seasons.

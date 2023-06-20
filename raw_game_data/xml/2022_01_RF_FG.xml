@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fbgame source="Tas Football" version="4.20.01" generated="6/9/2022">
+  <venue gameid="FGRF2201" visid="RF" homeid="FG" visname="Rhein Fire" homename="Frankfurt Galaxy" date="6/5/2022" location="Frankfurt" stadium="PSD Bank Arena" start="15:00" end="17:55" duration="2:55" attend="7525" temp="22 C" wind="E 13km/h" weather="cloudy">
+    <officials ref="M. Scholz" ump="B. Hansen" line="M. Szczepanski" lj="S. Richardson" bj="J. Seppelin" fj="E. Jenssen" sj="H. Romanczyk"/>
+    <notes>
+      <note text="Clock Operator:  N. Trajkovic"/>
+      <note text="Review Official: R. Goodgroves"/>
+    </notes>
+    <rules qtrs="4" mins="15" downs="4" yds="10" kospot="30" tbspot="20" kotbspot="20" patspot="15" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="N" fgaplay="Y" netpunttb="Y"/>
+  </venue>
+  <team vh="V" code="" id="RF" name="Rhein Fire" record="1-0" abb="R">
+    <linescore prds="4" line="6,13,7,3" score="29">
+      <lineprd prd="1" score="6"/>
+      <lineprd prd="2" score="13"/>
+      <lineprd prd="3" score="7"/>
+      <lineprd prd="4" score="3"/>
+    </linescore>
+    <totals totoff_plays="52" totoff_yards="329" totoff_avg="6.3">
+      <firstdowns no="16" rush="11" pass="5" penalty="0"/>
+      <penalties no="7" yds="72"/>
+      <conversions thirdconv="3" thirdatt="10" fourthconv="0" fourthatt="1"/>
+      <fumbles no="0" lost="0"/>
+      <misc yds="0" top="27:20" ona="0" onm="0" ptsto="6"/>
+      <redzone att="5" scores="4" points="23" tdrush="2" tdpass="1" fgmade="1" endfga="0" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"/>
+      <rush att="32" yds="149" gain="156" loss="7" td="2" long="24"/>
+      <pass comp="9" att="18" int="1" yds="180" td="1" long="68" sacks="2" sackyds="15"/>
+      <rcv no="9" yds="195" td="1" long="68"/>
+      <punt no="4" yds="155" long="49" blkd="0" tb="1" fc="0" plus50="0" inside20="1" avg="38.8"/>
+      <ko no="6" yds="402" ob="0" tb="3" fcyds="0"/>
+      <fg made="1" att="2" long="29" blkd="0"/>
+      <pat kickatt="3" kickmade="2" passatt="1" passmade="0"/>
+      <defense tackua="31" tacka="44" tot_tack="75" tflua="2" tfla="0" tflyds="13" sacks="1" sackyds="11" brup="2" ff="2" fr="1" fryds="0" int="3" intyds="35"/>
+      <kr no="5" yds="169" td="0" long="45"/>
+      <pr no="2" yds="13" td="0" long="10"/>
+      <ir no="3" yds="35" td="1" long="35"/>
+      <scoring td="4" fg="1" patkick="2"/>
+    </totals>
+    <player name="D. Schuhmacher" shortname="D. Schuhmacher" checkname="SCHUHMACHER,D" uni="2" class="SR" gp="1" code="2">
+      <ko no="1" yds="60" ob="0" tb="0"/>
+      <fg made="1" att="2" long="29" blkd="0"/>
+      <pat kickatt="3" kickmade="2"/>
+      <scoring fg="1" patkick="2"/>
+    </player>
+    <player name="L. Ruoss" shortname="L. Ruoss" checkname="RUOSS,L" uni="3" class="SR" gp="1" gs="1" dpos="LB" code="3">
+      <defense tackua="1" tacka="5" tot_tack="6" int="1" intyds="35"/>
+      <ir no="1" yds="35" td="1" long="35"/>
+      <scoring td="1"/>
+    </player>
+    <player name="J. Seibel" shortname="J. Seibel" checkname="SEIBEL,J" uni="4" class="SR" gp="1" gs="1" dpos="DB" code="4">
+      <defense tackua="1" tacka="1" tot_tack="2"/>
+    </player>
+    <player name="T. Knuettel" shortname="T. Knuettel" checkname="KNUETTEL,T" uni="6" class="SR" gp="1" gs="1" opos="WR" code="6">
+      <rcv no="4" yds="69" td="1" long="36"/>
+      <scoring td="1"/>
+    </player>
+    <player name="T. Janssen" shortname="T. Janssen" checkname="JANSSEN,T" uni="7" class="SR" gp="1" gs="1" dpos="DB" code="7">
+      <defense tackua="4" tacka="0" tot_tack="4" int="1" intyds="0"/>
+      <ir no="1" yds="0" td="0" long="0"/>
+    </player>
+    <player name="M. Jelvani" shortname="M. Jelvani" checkname="JELVANI,M" uni="8" class="SR" gp="1" code="8"/>
+    <player name="R. Grooten" shortname="R. Grooten" checkname="GROOTEN,R" uni="9" class="SR" gp="1" gs="1" dpos="DB" code="9">
+      <defense tackua="2" tacka="6" tot_tack="8"/>
+    </player>
+    <player name="M. Adam" shortname="M. Adam" checkname="ADAM,M" uni="11" class="SR" gp="1" gs="1" opos="QB" code="11">
+      <rush att="5" yds="16" gain="17" loss="1" td="1" long="8"/>
+      <pass comp="6" att="14" int="1" yds="145" td="1" long="68" sacks="2" sackyds="15"/>
+      <pat passatt="1" passmade="0"/>
+      <scoring td="1"/>
+    </player>
+    <player name="R. Dagdelen" shortname="R. Dagdelen" checkname="DAGDELEN,R" uni="12" class="SR" gp="1" code="12">
+      <pass comp="3" att="4" int="0" yds="50" td="0" long="29" sacks="0" sackyds="0"/>
+    </player>
+    <player name="M. Eisenhut" shortname="M. Eisenhut" checkname="EISENHUT,M" uni="14" class="SR" gp="1" code="14">
+      <punt no="4" yds="155" long="49" blkd="0" tb="1" fc="0" plus50="0" inside20="1" avg="38.8"/>
+    </player>
+    <player name="D. Schueler" shortname="D. Schueler" checkname="SCHUELER,D" uni="16" class="SR" gp="1" code="16"/>
+    <player name="A. Bah" shortname="A. Bah" checkname="BAH,A" uni="19" class="SR" gp="1" code="19"/>
+    <player name="J. Aguemon" shortname="J. Aguemon" checkname="AGUEMON,J" uni="21" class="SR" gp="1" gs="1" opos="RB" code="21">
+      <rush att="16" yds="56" gain="62" loss="6" td="1" long="24"/>
+      <rcv no="1" yds="4" td="0" long="4"/>
+      <scoring td="1"/>
+    </player>
+    <player name="O. Williams" shortname="O. Williams" checkname="WILLIAMS,O" uni="22" class="SR" gp="1" gs="1" dpos="DB" code="22">
+      <defense tackua="4" tacka="4" tot_tack="8"/>
+      <kr no="5" yds="169" td="0" long="45"/>
+    </player>
+    <player name="D. Rennich" shortname="D. Rennich" checkname="RENNICH,D" uni="23" class="SR" gp="1" code="23">
+      <rush att="11" yds="77" gain="77" loss="0" td="0" long="18"/>
+      <ko no="5" yds="342" ob="0" tb="3"/>
+    </player>
+    <player name="L. Schiefer" shortname="L. Schiefer" checkname="SCHIEFER,L" uni="24" class="SR" gp="1" code="24"/>
+    <player name="L. Meyer" shortname="L. Meyer" checkname="MEYER,L" uni="25" class="SR" gp="1" code="25">
+      <defense tackua="2" tacka="2" tot_tack="4" brup="1" int="1" intyds="0"/>
+      <ir no="1" yds="0" td="0" long="0"/>
+    </player>
+    <player name="T. Alexander" shortname="T. Alexander" checkname="ALEXANDER,T" uni="28" class="SR" gp="1" code="28"/>
+    <player name="R. Hanssen" shortname="R. Hanssen" checkname="HANSSEN,R" uni="29" class="SR" gp="1" code="29">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="N. Siegert" shortname="N. Siegert" checkname="SIEGERT,N" uni="32" class="SR" gp="1" code="32"/>
+    <player name="F. Umetelli" shortname="F. Umetelli" checkname="UMETELLI,F" uni="34" class="SR" gp="1" code="34">
+      <defense tackua="0" tacka="2" tot_tack="2"/>
+    </player>
+    <player name="A. Kiernan" shortname="A. Kiernan" checkname="KIERNAN,A" uni="39" class="SR" gp="1" code="39"/>
+    <player name="A. Sobotta" shortname="A. Sobotta" checkname="SOBOTTA,A" uni="41" class="SR" gp="1" code="41">
+      <defense tackua="0" tacka="3" tot_tack="3"/>
+    </player>
+    <player name="P. Poetsch" shortname="P. Poetsch" checkname="POETSCH,P" uni="43" class="SR" gp="1" code="43">
+      <rcv no="1" yds="7" td="0" long="7"/>
+      <defense tackua="0" tacka="1" tot_tack="1"/>
+    </player>
+    <player name="M. Pinter" shortname="M. Pinter" checkname="PINTER,M" uni="51" class="SR" gp="1" gs="1" dpos="LB" code="51">
+      <defense tackua="2" tacka="4" tot_tack="6" tflua="1" tfla="0" tflyds="11" sackua="1" sacka="0" sackyds="11" ff="1"/>
+    </player>
+    <player name="M. Schmidt" shortname="M. Schmidt" checkname="SCHMIDT,M" uni="54" class="SR" gp="1" code="54"/>
+    <player name="T. van den Oort" shortname="T. van den Oort" checkname="OORT,T VAN DEN" uni="55" class="SR" gp="1" gs="1" dpos="LB" code="55">
+      <defense tackua="1" tacka="2" tot_tack="3"/>
+    </player>
+    <player name="L. Fiedler" shortname="L. Fiedler" checkname="FIEDLER,L" uni="57" class="SR" gp="1" code="57">
+      <defense tackua="2" tacka="1" tot_tack="3"/>
+    </player>
+    <player name="J. Sleiman" shortname="J. Sleiman" checkname="SLEIMAN,J" uni="58" class="SR" gp="1" code="58">
+      <defense tackua="0" tacka="1" tot_tack="1" fr="1" fryds="0"/>
+    </player>
+    <player name="E. Zengin" shortname="E. Zengin" checkname="ZENGIN,E" uni="59" class="SR" gp="1" gs="1" dpos="LB" code="59">
+      <defense tackua="4" tacka="2" tot_tack="6"/>
+    </player>
+    <player name="M. Mohr" shortname="M. Mohr" checkname="MOHR,M" uni="62" class="SR" gp="1" code="62"/>
+    <player name="A. Holierhoek" shortname="A. Holierhoek" checkname="HOLIERHOEK,A" uni="66" class="SR" gp="1" gs="1" opos="OL" code="66"/>
+    <player name="N. Wiens" shortname="N. Wiens" checkname="WIENS,N" uni="68" class="SR" gp="1" gs="1" opos="OL" code="68"/>
+    <player name="J. Plum" shortname="J. Plum" checkname="PLUM,J" uni="69" class="SR" gp="1" code="69"/>
+    <player name="P. Weinzierl" shortname="P. Weinzierl" checkname="WEINZIERL,P" uni="74" class="SR" gp="1" code="74"/>
+    <player name="V. Hahn" shortname="V. Hahn" checkname="HAHN,V" uni="75" class="SR" gp="1" gs="1" opos="OL" code="75"/>
+    <player name="J. Peppler" shortname="J. Peppler" checkname="PEPPLER,J" uni="76" class="SR" gp="1" gs="1" opos="OL" code="76"/>
+    <player name="S. Breidenbach" shortname="S. Breidenbach" checkname="BREIDENBACH,S" uni="77" class="SR" gp="1" gs="1" opos="OL" code="77"/>
+    <player name="J.-N. Dalbeck" shortname="J.-N. Dalbeck" checkname="DALBECK,J-N" uni="79" class="SR" gp="1" code="79"/>
+    <player name="D. Rofalski" shortname="D. Rofalski" checkname="ROFALSKI,D" uni="82" class="SR" gp="1" code="82">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="S. Barelds" shortname="S. Barelds" checkname="BARELDS,S" uni="85" class="SR" gp="1" gs="1" opos="TE" code="85"/>
+    <player name="N. Robitaille" shortname="N. Robitaille" checkname="ROBITAILLE,N" uni="86" class="SR" gp="1" gs="1" opos="WR" code="86">
+      <rcv no="3" yds="115" td="0" long="68"/>
+      <pr no="2" yds="13" td="0" long="10"/>
+    </player>
+    <player name="F. Eichhorn" shortname="F. Eichhorn" checkname="EICHHORN,F" uni="87" class="SR" gp="1" gs="1" opos="TE" code="87">
+  </player>
+    <player name="M. Pludra" shortname="M. Pludra" checkname="PLUDRA,M" uni="88" class="SR" gp="1" code="88"/>
+    <player name="R. Feltes" shortname="R. Feltes" checkname="FELTES,R" uni="90" class="SR" gp="1" gs="1" dpos="DL" code="90">
+      <defense tackua="3" tacka="4" tot_tack="7" brup="1" ff="1"/>
+    </player>
+    <player name="E. Adam" shortname="E. Adam" checkname="ADAM,E" uni="92" class="SR" gp="1" code="92">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="S. Fey" shortname="S. Fey" checkname="FEY,S" uni="93" class="SR" gp="1" code="93"/>
+    <player name="C. van Horn" shortname="C. van Horn" checkname="HORN,C VAN" uni="95" class="SR" gp="1" gs="1" dpos="DL" code="95">
+      <defense tackua="1" tacka="3" tot_tack="4" tflua="1" tfla="0" tflyds="2"/>
+    </player>
+    <player name="T. Owusu-Bediak" shortname="T. Owusu-Bediak" checkname="OWUSU-BEDIAK,T" uni="96" class="SR" gp="1" gs="1" dpos="DL" code="96">
+      <defense tackua="0" tacka="1" tot_tack="1"/>
+    </player>
+    <player name="J. Chikere" shortname="J. Chikere" checkname="CHIKERE,J" uni="97" class="SR" gp="1" code="97">
+      <defense tackua="1" tacka="2" tot_tack="3"/>
+    </player>
+    <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="SR" gp="1" code="198">
+      <pass comp="0" att="0" int="0" yds="-15" td="0" long="0" sacks="0" sackyds="0"/>
+    </player>
+  </team>
+  <team vh="H" code="" id="FG" name="Frankfurt Galaxy" record="0-1" abb="F">
+    <linescore prds="4" line="0,12,7,7" score="26">
+      <lineprd prd="1" score="0"/>
+      <lineprd prd="2" score="12"/>
+      <lineprd prd="3" score="7"/>
+      <lineprd prd="4" score="7"/>
+    </linescore>
+    <totals totoff_plays="68" totoff_yards="289" totoff_avg="4.2">
+      <firstdowns no="23" rush="4" pass="15" penalty="4"/>
+      <penalties no="5" yds="37"/>
+      <conversions thirdconv="4" thirdatt="12" fourthconv="1" fourthatt="1"/>
+      <fumbles no="2" lost="1"/>
+      <misc yds="-8" top="32:40" ona="0" onm="0" ptsto="0"/>
+      <redzone att="3" scores="3" points="20" tdrush="2" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"/>
+      <rush att="29" yds="94" gain="96" loss="2" td="2" long="8"/>
+      <pass comp="23" att="38" int="3" yds="195" td="1" long="23" sacks="1" sackyds="11"/>
+      <rcv no="23" yds="206" td="1" long="23"/>
+      <punt no="4" yds="178" long="56" blkd="0" tb="0" fc="1" plus50="1" inside20="1" avg="44.5"/>
+      <ko no="6" yds="389" ob="0" tb="1" fcyds="0"/>
+      <fg made="2" att="2" long="55" blkd="0"/>
+      <pat kickatt="2" kickmade="2" passatt="1" passmade="0"/>
+      <defense tackua="24" tacka="42" tot_tack="66" tflua="2" tfla="6" tflyds="21" sacks="2" sackyds="15" brup="5" blkd="1" int="1" intyds="20"/>
+      <kr no="3" yds="76" td="0" long="25"/>
+      <pr no="1" yds="0" td="0" long="0"/>
+      <ir no="1" yds="20" td="0" long="20"/>
+      <scoring td="3" fg="2" patkick="2"/>
+    </totals>
+    <player name="R. Rimmler" shortname="R. Rimmler" checkname="RIMMLER,R" uni="1" class="SR" gp="1" code="1">
+      <ko no="6" yds="389" ob="0" tb="1"/>
+      <fg made="2" att="2" long="55" blkd="0"/>
+      <pat kickatt="2" kickmade="2"/>
+      <scoring fg="2" patkick="2"/>
+    </player>
+    <player name="T. Zampach" shortname="T. Zampach" checkname="ZAMPACH,T" uni="6" class="SR" gp="1" code="6"/>
+    <player name="J. Sullivan" shortname="J. Sullivan" checkname="SULLIVAN,J" uni="7" class="SR" gp="1" gs="1" opos="QB" code="7">
+      <rush att="8" yds="20" gain="20" loss="0" td="2" long="8"/>
+      <pass comp="23" att="37" int="2" yds="206" td="1" long="23" sacks="1" sackyds="11"/>
+      <pat passatt="1" passmade="0"/>
+      <scoring td="2"/>
+    </player>
+    <player name="J. Small" shortname="J. Small" checkname="SMALL,J" uni="9" class="SR" gp="1" code="9"/>
+    <player name="T. Benschuh" shortname="T. Benschuh" checkname="BENSCHUH,T" uni="10" class="SR" gp="1" gs="1" opos="WR" code="10">
+      <rcv no="6" yds="52" td="0" long="14"/>
+    </player>
+    <player name="M. Rutsch" shortname="M. Rutsch" checkname="RUTSCH,M" uni="13" class="SR" gp="1" gs="1" opos="WR" code="13">
+      <rcv no="2" yds="26" td="0" long="16"/>
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+      <kr no="0" yds="20" td="0" long="20"/>
+    </player>
+    <player name="J. Poznanski" shortname="J. Poznanski" checkname="POZNANSKI,J" uni="14" class="SR" gp="1" gs="1" dpos="DB" code="14">
+      <defense tackua="2" tacka="2" tot_tack="4" int="1" intyds="20"/>
+      <ir no="1" yds="20" td="0" long="20"/>
+    </player>
+    <player name="M. Siemssen" shortname="M. Siemssen" checkname="SIEMSSEN,M" uni="15" class="SR" gp="1" code="15"/>
+    <player name="N. Schumm" shortname="N. Schumm" checkname="SCHUMM,N" uni="16" class="SR" gp="1" code="16">
+      <pass comp="0" att="1" int="1" yds="0" td="0" long="0" sacks="0" sackyds="0"/>
+    </player>
+    <player name="F. Lowery" shortname="F. Lowery" checkname="LOWERY,F" uni="18" class="SR" gp="1" gs="1" dpos="DB" code="18">
+      <defense tackua="3" tacka="1" tot_tack="4" brup="2" blkd="1"/>
+      <kr no="1" yds="9" td="0" long="9"/>
+      <pr no="1" yds="0" td="0" long="0"/>
+    </player>
+    <player name="N. Strahmann" shortname="N. Strahmann" checkname="STRAHMANN,N" uni="19" class="SR" gp="1" code="19">
+      <rcv no="4" yds="41" td="0" long="16"/>
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="G. Adams" shortname="G. Adams" checkname="ADAMS,G" uni="21" class="SR" gp="1" gs="1" opos="RB" code="21">
+      <rush att="21" yds="74" gain="76" loss="2" td="0" long="7"/>
+      <rcv no="3" yds="30" td="1" long="23"/>
+      <fumbles no="1" lost="0"/>
+      <scoring td="1"/>
+    </player>
+    <player name="K. Hunter" shortname="K. Hunter" checkname="HUNTER,K" uni="22" class="SR" gp="1" code="22">
+      <rcv no="2" yds="5" td="0" long="4"/>
+    </player>
+    <player name="K. Ben El Ghali" shortname="K. Ben El Ghali" checkname="GHALI,K BEN EL" uni="24" class="SR" gp="1" code="24">
+      <defense tackua="1" tacka="0" tot_tack="1" brup="2"/>
+    </player>
+    <player name="T. Fischbach" shortname="T. Fischbach" checkname="FISCHBACH,T" uni="27" class="SR" gp="1" code="27"/>
+    <player name="S. Otto" shortname="S. Otto" checkname="OTTO,S" uni="28" class="SR" gp="1" gs="1" dpos="DB" code="28">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="F. Reuter" shortname="F. Reuter" checkname="REUTER,F" uni="30" class="SR" gp="1" code="30">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="K. Katz" shortname="K. Katz" checkname="KATZ,K" uni="31" class="SR" gp="1" gs="1" dpos="DB" code="31">
+      <defense tackua="1" tacka="2" tot_tack="3" tflua="0" tfla="1" tflyds="0" brup="1"/>
+    </player>
+    <player name="J. Rodney" shortname="J. Rodney" checkname="RODNEY,J" uni="33" class="SR" gp="1" code="33">
+      <kr no="2" yds="47" td="0" long="25"/>
+    </player>
+    <player name="M. Schlabitz" shortname="M. Schlabitz" checkname="SCHLABITZ,M" uni="35" class="SR" gp="1" code="35">
+      <defense tackua="0" tacka="1" tot_tack="1"/>
+    </player>
+    <player name="L. Achaintre" shortname="L. Achaintre" checkname="ACHAINTRE,L" uni="40" class="SR" gp="1" gs="1" dpos="LB" code="40">
+      <defense tackua="2" tacka="3" tot_tack="5"/>
+    </player>
+    <player name="S. Gauthier" shortname="S. Gauthier" checkname="GAUTHIER,S" uni="41" class="SR" gp="1" gs="1" dpos="LB" code="41">
+      <defense tackua="3" tacka="5" tot_tack="8" tflua="1" tfla="0" tflyds="6" sackua="1" sacka="0" sackyds="6"/>
+    </player>
+    <player name="L. Helm" shortname="L. Helm" checkname="HELM,L" uni="44" class="SR" gp="1" code="44"/>
+    <player name="M. Adjei" shortname="M. Adjei" checkname="ADJEI,M" uni="51" class="SR" gp="1" code="51">
+      <defense tackua="0" tacka="1" tot_tack="1"/>
+    </player>
+    <player name="W. Nasri" shortname="W. Nasri" checkname="NASRI,W" uni="52" class="SR" gp="1" gs="1" dpos="LB" code="52">
+      <defense tackua="2" tacka="6" tot_tack="8"/>
+    </player>
+    <player name="D. Josiah" shortname="D. Josiah" checkname="JOSIAH,D" uni="53" class="SR" gp="1" code="53">
+      <defense tackua="1" tacka="2" tot_tack="3" tflua="0" tfla="1" tflyds="1"/>
+    </player>
+    <player name="M. Sy" shortname="M. Sy" checkname="SY,M" uni="55" class="SR" gp="1" code="55">
+      <defense tackua="1" tacka="2" tot_tack="3" tflua="0" tfla="1" tflyds="1"/>
+    </player>
+    <player name="S. Silva Gomez" shortname="S. Silva Gomez" checkname="GOMEZ,S SILVA" uni="56" class="SR" gp="1" gs="1" dpos="LB" code="56">
+      <defense tackua="0" tacka="1" tot_tack="1"/>
+    </player>
+    <player name="A. Williams" shortname="A. Williams" checkname="WILLIAMS,A" uni="58" class="SR" gp="1" code="58">
+      <defense tackua="0" tacka="1" tot_tack="1"/>
+    </player>
+    <player name="T. Albrecht" shortname="T. Albrecht" checkname="ALBRECHT,T" uni="59" class="SR" gp="1" code="59"/>
+    <player name="L. Hampel" shortname="L. Hampel" checkname="HAMPEL,L" uni="61" class="SR" gp="1" gs="1" opos="OL" code="61"/>
+    <player name="F. Runco" shortname="F. Runco" checkname="RUNCO,F" uni="66" class="SR" gp="1" code="66"/>
+    <player name="F. Atunlese" shortname="F. Atunlese" checkname="ATUNLESE,F" uni="71" class="SR" gp="1" gs="1" opos="OL" code="71"/>
+    <player name="B. Weber" shortname="B. Weber" checkname="WEBER,B" uni="72" class="SR" gp="1" gs="1" opos="OL" code="72"/>
+    <player name="S. Fischer" shortname="S. Fischer" checkname="FISCHER,S" uni="74" class="SR" gp="1" code="74"/>
+    <player name="J. Christensen" shortname="J. Christensen" checkname="CHRISTENSEN,J" uni="75" class="SR" gp="1" gs="1" opos="OL" code="75"/>
+    <player name="Y. Kiehl" shortname="Y. Kiehl" checkname="KIEHL,Y" uni="77" class="SR" gp="1" gs="1" opos="OL" code="77">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="T. Hirsch" shortname="T. Hirsch" checkname="HIRSCH,T" uni="78" class="SR" gp="1" code="78"/>
+    <player name="H. Schwarz" shortname="H. Schwarz" checkname="SCHWARZ,H" uni="82" class="SR" gp="1" code="82">
+      <punt no="4" yds="178" long="56" blkd="0" tb="0" fc="1" plus50="1" inside20="1" avg="44.5"/>
+    </player>
+    <player name="C. Sow" shortname="C. Sow" checkname="SOW,C" uni="84" class="SR" gp="1" code="84">
+      <rcv no="1" yds="11" td="0" long="11"/>
+    </player>
+    <player name="M. Hachenberg" shortname="M. Hachenberg" checkname="HACHENBERG,M" uni="85" class="SR" gp="1" code="85"/>
+    <player name="L. Regler" shortname="L. Regler" checkname="REGLER,L" uni="86" class="SR" gp="1" gs="1" opos="WR" code="86">
+      <rcv no="1" yds="4" td="0" long="4"/>
+    </player>
+    <player name="K. Mwamba" shortname="K. Mwamba" checkname="MWAMBA,K" uni="87" class="SR" gp="1" gs="1" opos="TE" code="87">
+      <rcv no="4" yds="37" td="0" long="14"/>
+    </player>
+    <player name="M. A. Hor" shortname="M. A. Hor" checkname="HOR,M A" uni="90" class="SR" gp="1" gs="1" dpos="DL" code="90">
+      <defense tackua="1" tacka="7" tot_tack="8" tflua="0" tfla="1" tflyds="2"/>
+    </player>
+    <player name="V. Buffet" shortname="V. Buffet" checkname="BUFFET,V" uni="91" class="SR" gp="1" code="91">
+      <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="0" tflyds="9" sackua="1" sacka="0" sackyds="9"/>
+    </player>
+    <player name="T. Goeckus" shortname="T. Goeckus" checkname="GOECKUS,T" uni="92" class="SR" gp="1" code="92"/>
+    <player name="C. Udegbe" shortname="C. Udegbe" checkname="UDEGBE,C" uni="94" class="SR" gp="1" code="94">
+      <defense tackua="0" tacka="1" tot_tack="1" tflua="0" tfla="1" tflyds="0"/>
+    </player>
+    <player name="M. Konya" shortname="M. Konya" checkname="KONYA,M" uni="95" class="SR" gp="1" gs="1" dpos="DL" code="95">
+      <defense tackua="0" tacka="2" tot_tack="2" tflua="0" tfla="1" tflyds="2"/>
+    </player>
+    <player name="K. Giede" shortname="K. Giede" checkname="GIEDE,K" uni="98" class="SR" gp="1" code="98"/>
+    <player name="K. Maier" shortname="K. Maier" checkname="MAIER,K" uni="99" class="SR" gp="1" gs="1" dpos="DL" code="99">
+      <defense tackua="0" tacka="4" tot_tack="4"/>
+    </player>
+    <player name="TM" shortname="" checkname="" uni="TM" class="" gp="1" code="198">
+      <pass comp="0" att="0" int="0" yds="-11" td="0" long="0" sacks="0" sackyds="0"/>
+      <fumbles no="1" lost="1"/>
+    </player>
+  </team>
+  <scores>
+    <score vh="V" team="RF" qtr="1" clock="05:52" type="TD" how="PASS" yds="8" scorer="T. Knuettel" passer="M. Adam" patby="D. Schuhmacher" pattype="KICK" patres="BLKD" plays="4" drive="70" top="2:39" vscore="6" hscore="0" driveindex="3"/>
+    <score vh="H" team="FG" qtr="2" clock="09:48" type="FG" yds="40" scorer="R. Rimmler" plays="6" drive="25" top="3:24" vscore="6" hscore="3" driveindex="8"/>
+    <score vh="V" team="RF" qtr="2" clock="06:32" type="TD" how="RUSH" yds="1" scorer="M. Adam" patby="D. Schuhmacher" pattype="KICK" patres="GOOD" plays="6" drive="50" top="3:08" vscore="13" hscore="3" driveindex="9"/>
+    <score vh="V" team="RF" qtr="2" clock="06:16" type="TD" how="INT" yds="35" scorer="L. Ruoss" patby="M. Adam" pattype="PASS" patres="FAIL" vscore="19" hscore="3" driveindex="11"/>
+    <score vh="H" team="FG" qtr="2" clock="01:50" type="TD" how="PASS" yds="3" scorer="G. Adams" passer="J. Sullivan" patby="J. Sullivan" pattype="PASS" patres="FAIL" plays="11" drive="0" top="4:26" vscore="19" hscore="9" driveindex="12"/>
+    <score vh="H" team="FG" qtr="2" clock="00:21" type="FG" yds="55" scorer="R. Rimmler" plays="5" drive="14" top="0:32" vscore="19" hscore="12" driveindex="14"/>
+    <score vh="H" team="FG" qtr="3" clock="08:43" type="TD" how="RUSH" yds="1" scorer="J. Sullivan" patby="R. Rimmler" pattype="KICK" patres="GOOD" plays="11" drive="70" top="6:17" vscore="19" hscore="19" driveindex="16"/>
+    <score vh="V" team="RF" qtr="3" clock="05:48" type="TD" how="RUSH" yds="1" scorer="J. Aguemon" patby="D. Schuhmacher" pattype="KICK" patres="GOOD" plays="6" drive="58" top="2:44" vscore="26" hscore="19" driveindex="17"/>
+    <score vh="H" team="FG" qtr="4" clock="05:07" type="TD" how="RUSH" yds="1" scorer="J. Sullivan" patby="R. Rimmler" pattype="KICK" patres="GOOD" plays="16" drive="99" top="9:01" vscore="26" hscore="26" driveindex="22"/>
+    <score vh="V" team="RF" qtr="4" clock="00:08" type="FG" yds="29" scorer="D. Schuhmacher" plays="5" drive="33" top="1:52" vscore="29" hscore="26" driveindex="25"/>
+  </scores>
+  <fgas>
+    <fga vh="V" team="RF" kicker="D. Schuhmacher" qtr="1" clock="00:45" distance="43" result="missed"/>
+    <fga vh="H" team="FG" kicker="R. Rimmler" qtr="2" clock="09:48" distance="40" result="good"/>
+    <fga vh="H" team="FG" kicker="R. Rimmler" qtr="2" clock="00:21" distance="55" result="good"/>
+    <fga vh="V" team="RF" kicker="D. Schuhmacher" qtr="4" clock="00:08" distance="29" result="good"/>
+  </fgas>
+  <drives>
+    <drive vh="V" team="RF" start="KO,1,15:00,28" end="INT,1,10:56,79" plays="8" yards="51" top="4:04" start_how="KO" start_qtr="1" start_time="15:00" start_spot="RF28" end_how="INT" end_qtr="1" end_time="10:56" end_spot="FG21" driveindex="1"/>
+    <drive vh="H" team="FG" start="INT,1,10:56,20" end="PUNT,1,08:31,34" plays="5" yards="14" top="2:25" start_how="INT" start_qtr="1" start_time="10:56" start_spot="FG20" end_how="PUNT" end_qtr="1" end_time="08:31" end_spot="FG34" driveindex="2"/>
+    <drive vh="V" team="RF" start="PUNT,1,08:31,30" end="TD,1,05:52,100" plays="4" yards="70" top="2:39" start_how="PUNT" start_qtr="1" start_time="08:31" start_spot="RF30" end_how="TD" end_qtr="1" end_time="05:52" end_spot="FG00" rz="1" driveindex="3"/>
+    <drive vh="H" team="FG" start="KO,1,05:52,20" end="PUNT,1,04:28,26" plays="3" yards="6" top="1:24" start_how="KO" start_qtr="1" start_time="05:52" start_spot="FG20" end_how="PUNT" end_qtr="1" end_time="04:28" end_spot="FG26" driveindex="4"/>
+    <drive vh="V" team="RF" start="PUNT,1,04:28,37" end="FGA,1,00:45,74" plays="8" yards="37" top="3:43" start_how="PUNT" start_qtr="1" start_time="04:28" start_spot="RF37" end_how="FGA" end_qtr="1" end_time="00:45" end_spot="FG26" driveindex="5"/>
+    <drive vh="H" team="FG" start="FGA,1,00:45,32" end="PUNT,2,14:42,37" plays="3" yards="5" top="1:03" start_how="FGA" start_qtr="1" start_time="00:45" start_spot="FG32" end_how="PUNT" end_qtr="2" end_time="14:42" end_spot="FG37" driveindex="6"/>
+    <drive vh="V" team="RF" start="PUNT,2,14:42,7" end="PUNT,2,13:12,11" plays="3" yards="4" top="1:30" start_how="PUNT" start_qtr="2" start_time="14:42" start_spot="RF07" end_how="PUNT" end_qtr="2" end_time="13:12" end_spot="RF11" driveindex="7"/>
+    <drive vh="H" team="FG" start="PUNT,2,13:12,53" end="FG,2,09:48,78" plays="6" yards="25" top="3:24" start_how="PUNT" start_qtr="2" start_time="13:12" start_spot="RF47" end_how="FG" end_qtr="2" end_time="09:48" end_spot="RF22" driveindex="8"/>
+    <drive vh="V" team="RF" start="KO,2,09:40,50" end="TD,2,06:32,100" plays="6" yards="50" top="3:08" start_how="KO" start_qtr="2" start_time="09:40" start_spot="RF50" end_how="TD" end_qtr="2" end_time="06:32" end_spot="FG00" rz="1" driveindex="9"/>
+    <drive vh="H" team="FG" start="KO,2,06:24,30" end="INT,2,06:16,30" plays="1" yards="0" top="0:08" start_how="KO" start_qtr="2" start_time="06:24" start_spot="FG30" end_how="INT" end_qtr="2" end_time="06:16" end_spot="FG30" driveindex="10"/>
+    <drive vh="V" team="RF" start="INT,2,06:16,98" end="TD,2,06:16,98" plays="0" yards="0" top="0:00" start_how="INT" start_qtr="2" start_time="06:16" start_spot="FG02" end_how="TD" end_qtr="2" end_time="06:16" end_spot="FG02" driveindex="11"/>
+    <drive vh="H" team="FG" start="KO,2,06:16,98" end="TD,2,01:50,98" plays="11" yards="0" top="4:26" start_how="KO" start_qtr="2" start_time="06:16" start_spot="RF02" end_how="TD" end_qtr="2" end_time="01:50" end_spot="RF02" rz="1" driveindex="12"/>
+    <drive vh="V" team="RF" start="KO,2,01:44,37" end="PUNT,2,00:53,28" plays="3" yards="-9" top="0:51" start_how="KO" start_qtr="2" start_time="01:44" start_spot="RF37" end_how="PUNT" end_qtr="2" end_time="00:53" end_spot="RF28" driveindex="13"/>
+    <drive vh="H" team="FG" start="PUNT,2,00:53,48" end="FG,2,00:21,62" plays="5" yards="14" top="0:32" start_how="PUNT" start_qtr="2" start_time="00:53" start_spot="FG48" end_how="FG" end_qtr="2" end_time="00:21" end_spot="RF38" driveindex="14"/>
+    <drive vh="V" team="RF" start="KO,2,00:21,30" end="HALF,2,00:00,29" plays="1" yards="-1" top="0:21" start_how="KO" start_qtr="2" start_time="00:21" start_spot="RF30" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="RF29" driveindex="15"/>
+    <drive vh="H" team="FG" start="KO,3,15:00,30" end="TD,3,08:43,100" plays="11" yards="70" top="6:17" start_how="KO" start_qtr="3" start_time="15:00" start_spot="FG30" end_how="TD" end_qtr="3" end_time="08:43" end_spot="RF00" rz="1" driveindex="16"/>
+    <drive vh="V" team="RF" start="KO,3,08:32,42" end="TD,3,05:48,100" plays="6" yards="58" top="2:44" start_how="KO" start_qtr="3" start_time="08:32" start_spot="RF42" end_how="TD" end_qtr="3" end_time="05:48" end_spot="FG00" rz="1" driveindex="17"/>
+    <drive vh="H" team="FG" start="KO,3,05:39,32" end="INT,3,04:49,36" plays="2" yards="4" top="0:50" start_how="KO" start_qtr="3" start_time="05:39" start_spot="FG32" end_how="INT" end_qtr="3" end_time="04:49" end_spot="FG36" driveindex="18"/>
+    <drive vh="V" team="RF" start="INT,3,04:49,45" end="PUNT,3,02:13,51" plays="3" yards="6" top="2:36" start_how="INT" start_qtr="3" start_time="04:49" start_spot="RF45" end_how="PUNT" end_qtr="3" end_time="02:13" end_spot="FG49" driveindex="19"/>
+    <drive vh="H" team="FG" start="PUNT,3,02:13,20" end="FUMB,3,00:49,9" plays="3" yards="-11" top="1:24" start_how="PUNT" start_qtr="3" start_time="02:13" start_spot="FG20" end_how="FUMB" end_qtr="3" end_time="00:49" end_spot="FG09" driveindex="20"/>
+    <drive vh="V" team="RF" start="FUMB,3,00:49,91" end="DOWNS,4,14:08,99" plays="4" yards="8" top="1:41" start_how="FUMB" start_qtr="3" start_time="00:49" start_spot="FG09" end_how="DOWNS" end_qtr="4" end_time="14:08" end_spot="FG01" rz="1" driveindex="21"/>
+    <drive vh="H" team="FG" start="DOWNS,4,14:08,1" end="TD,4,05:07,100" plays="16" yards="99" top="9:01" start_how="DOWNS" start_qtr="4" start_time="14:08" start_spot="FG01" end_how="TD" end_qtr="4" end_time="05:07" end_spot="RF00" rz="1" driveindex="22"/>
+    <drive vh="V" team="RF" start="KO,4,05:01,33" end="PUNT,4,03:21,40" plays="3" yards="7" top="1:40" start_how="KO" start_qtr="4" start_time="05:01" start_spot="RF33" end_how="PUNT" end_qtr="4" end_time="03:21" end_spot="RF40" driveindex="23"/>
+    <drive vh="H" team="FG" start="PUNT,4,03:21,14" end="PUNT,4,02:00,9" plays="3" yards="-5" top="1:21" start_how="PUNT" start_qtr="4" start_time="03:21" start_spot="FG14" end_how="PUNT" end_qtr="4" end_time="02:00" end_spot="FG09" driveindex="24"/>
+    <drive vh="V" team="RF" start="PUNT,4,02:00,55" end="FG,4,00:08,88" plays="5" yards="33" top="1:52" start_how="PUNT" start_qtr="4" start_time="02:00" start_spot="FG45" end_how="FG" end_qtr="4" end_time="00:08" end_spot="FG12" rz="1" driveindex="25"/>
+    <drive vh="H" team="FG" start="KO,4,00:01,32" end="INT,4,00:00,32" plays="1" yards="0" top="0:01" start_how="KO" start_qtr="4" start_time="00:01" start_spot="FG32" end_how="INT" end_qtr="4" end_time="00:00" end_spot="FG32" driveindex="26"/>
+    <drive vh="V" team="RF" start="INT,4,00:00,25" end=",0,00:00,25" plays="0" yards="0" top="0:00" start_how="INT" start_qtr="4" start_time="00:00" start_spot="RF25" end_how="" end_qtr="0" end_time="00:00" end_spot="RF25" driveindex="27"/>
+  </drives>
+  <plays format="summary">
+    <qtr number="1" text="1st">
+      <play hasball="RF" down="1" togo="10" spot="RF30" context="V,1,10,V30" playid="0,1,0" tokens="CMT:FG wins toss and defers - RF elects to receive and FG to defend S goal" text="FG wins toss and defers - RF elects to receive and FG to defend S goal" newcontext="V,1,10,V30">
+   </play>
+      <play hasball="RF" down="1" togo="10" spot="RF30" context="V,1,10,V30" playid="0,2,1" tokens="SPOT:H,H30,Y" text="FG ball on FG30." newcontext="H,1,10,H30">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG30" context="H,1,10,H30" playid="0,3,2" type="K" tokens="KO:1,V05 RET:22,V28 TACK:30" text="R. Rimmler kickoff 65 yards to the RF5, O. Williams return 23 yards to the RF28 (F. Reuter)." newcontext="V,1,10,V28">
+        <p_ko vh="H" name="R. Rimmler" gain="65"/>
+        <p_kr vh="V" name="O. Williams" gain="23"/>
+        <p_tk vh="H" name="F. Reuter"/>
+      </play>
+      <drivestart poss="V,V28,15:00" vh="V" spot="V28" clock="15:00" driveindex="1,2"/>
+      <play hasball="RF" down="1" togo="10" spot="RF28" context="V,1,10,V28" playid="1,1,3" type="R" tokens="RUSH:21,V33, TACK:41" text="J. Aguemon rush for 5 yards to the RF33 (S. Gauthier)." newcontext="V,2,5,V33">
+        <p_ru vh="V" name="J. Aguemon" gain="5"/>
+        <p_tk vh="H" name="S. Gauthier"/>
+      </play>
+      <play hasball="RF" down="2" togo="5" spot="RF33" context="V,2,5,V33" playid="1,2,4" type="R" first="R" tokens="RUSH:11,V41, TACK:52,56" text="M. Adam rush for 8 yards to the RF41, 1ST DOWN RF (W. Nasri;S. Silva Gomez)." newcontext="V,1,10,V41">
+        <p_ru vh="V" name="M. Adam" gain="8"/>
+        <p_tk vh="H" name="W. Nasri" assist="Y"/>
+        <p_tk vh="H" name="S. Silva Gomez" assist="Y"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="RF41" context="V,1,10,V41" playid="1,3,5" type="R" tokens="RUSH:21,V43, TACK:40" text="J. Aguemon rush for 2 yards to the RF43 (L. Achaintre)." newcontext="V,2,8,V43">
+        <p_ru vh="V" name="J. Aguemon" gain="2"/>
+        <p_tk vh="H" name="L. Achaintre"/>
+      </play>
+      <play hasball="RF" down="2" togo="8" spot="RF43" context="V,2,8,V43" playid="1,4,6" type="R" first="R" tokens="RUSH:21,H42, OB:" text="J. Aguemon rush for 15 yards to the FG42, 1ST DOWN RF, out-of-bounds." ob="Y" newcontext="V,1,10,H42">
+        <p_ru vh="V" name="J. Aguemon" gain="15"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="FG42" context="V,1,10,H42" playid="1,5,7" type="P" first="P" tokens="PASS:11,C,86,H24 TACK:18,52" text="M. Adam pass complete to N. Robitaille for 18 yards to the FG24, 1ST DOWN RF (F. Lowery;W. Nasri)." newcontext="V,1,10,H24">
+        <p_pa vh="V" qb="M. Adam" result="COMP" rcv="N. Robitaille" gain="18"/>
+        <p_tk vh="H" name="F. Lowery" assist="Y"/>
+        <p_tk vh="H" name="W. Nasri" assist="Y"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="FG24" context="V,1,10,H24" playid="1,6,8" type="P" tokens="PASS:11,I,TM,*" text="M. Adam pass incomplete." newcontext="V,2,10,H24">
+        <p_pa vh="V" qb="M. Adam" result="INC"/>
+      </play>
+      <play hasball="RF" down="2" togo="10" spot="FG24" context="V,2,10,H24" playid="1,7,9" type="R" tokens="RUSH:21,H21, TACK:55" text="J. Aguemon rush for 3 yards to the FG21 (M. Sy)." newcontext="V,3,7,H21">
+        <p_ru vh="V" name="J. Aguemon" gain="3"/>
+        <p_tk vh="H" name="M. Sy"/>
+      </play>
+      <play hasball="RF" down="3" togo="7" spot="FG21" context="V,3,7,H21" playid="1,8,10" type="P" turnover="I" tokens="PASS:11,X,14,H00 RET:14,H20 TACK:82" text="M. Adam pass intercepted by J. Poznanski at the FG0, J. Poznanski return 20 yards to the FG20 (D. Rofalski)." newcontext="H,1,10,H20">
+        <p_pa vh="V" qb="M. Adam" result="INT"/>
+        <p_ir vh="H" name="J. Poznanski" at="H00" gain="20"/>
+        <p_tk vh="V" name="D. Rofalski"/>
+      </play>
+      <drivesum plays="8" yards="51" top="4:04" driveindex="1" complete="Y"/>
+      <drivestart poss="H,H20,10:56" vh="H" spot="H20" clock="10:56" driveindex="2,10"/>
+      <play hasball="FG" down="1" togo="10" spot="FG20" context="H,1,10,H20" playid="2,1,11" clock="10:56" tokens="{DRIVE}:10:56" text="FRANKFURT GALAXY drive start at 10:56." newcontext="H,1,10,H20">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG20" context="H,1,10,H20" playid="2,2,12" type="E" tokens="PEN:H,UC,O PEN:V,UC,O NOPLAY:" text="PENALTY FG Unsportsmanlike Conduct off-setting, PENALTY RF Unsportsmanlike Conduct off-setting, NO PLAY." newcontext="H,1,10,H20">
+        <p_pn vh="H" code="UC" type="Unsportsmanlike Conduct" result="OFFSET"/>
+        <p_pn vh="V" code="UC" type="Unsportsmanlike Conduct" result="OFFSET"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="FG20" context="H,1,10,H20" playid="2,3,13" type="R" tokens="RUSH:21,H26, TACK:90" text="G. Adams rush for 6 yards to the FG26 (R. Feltes)." newcontext="H,2,4,H26">
+        <p_ru vh="H" name="G. Adams" gain="6"/>
+        <p_tk vh="V" name="R. Feltes"/>
+      </play>
+      <play hasball="FG" down="2" togo="4" spot="FG26" context="H,2,4,H26" playid="2,4,14" type="P" first="P" tokens="PASS:7,C,10,H33 TACK:59" text="J. Sullivan pass complete to T. Benschuh for 7 yards to the FG33, 1ST DOWN FG (E. Zengin)." newcontext="H,1,10,H33">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="T. Benschuh" gain="7"/>
+        <p_tk vh="V" name="E. Zengin"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="FG33" context="H,1,10,H33" playid="2,5,15" type="P" tokens="PASS:7,I,87,*" text="J. Sullivan pass incomplete to K. Mwamba." newcontext="H,2,10,H33">
+        <p_pa vh="H" qb="J. Sullivan" result="INC" rcv="K. Mwamba"/>
+      </play>
+      <play hasball="FG" down="2" togo="10" spot="FG33" context="H,2,10,H33" playid="2,6,16" type="R" tokens="RUSH:7,H34, TACK:95,96" text="J. Sullivan rush for 1 yard to the FG34 (C. van Horn;T. Owusu-Bediak)." newcontext="H,3,9,H34">
+        <p_ru vh="H" name="J. Sullivan" gain="1"/>
+        <p_tk vh="V" name="C. van Horn" assist="Y"/>
+        <p_tk vh="V" name="T. Owusu-Bediak" assist="Y"/>
+      </play>
+      <play hasball="FG" down="3" togo="9" spot="FG34" context="H,3,9,H34" playid="2,7,17" type="P" tokens="PASS:7,I,84,* BRUP:25" text="J. Sullivan pass incomplete to C. Sow (L. Meyer)." newcontext="H,4,9,H34">
+        <p_pa vh="H" qb="J. Sullivan" result="INC" rcv="C. Sow"/>
+        <p_bu vh="V" name="L. Meyer"/>
+      </play>
+      <play hasball="FG" down="4" togo="9" spot="FG34" context="H,4,9,H34" playid="2,8,18" type="U" tokens="PUNT:82,V30 FC:86" text="H. Schwarz punt 36 yards to the RF30, fair catch by N. Robitaille." newcontext="V,1,10,V30">
+        <p_pu vh="H" name="H. Schwarz" gain="36" fc="N. Robitaille"/>
+      </play>
+      <drivesum plays="5" yards="14" top="2:25" driveindex="2" complete="Y"/>
+      <drivestart poss="V,V30,08:31" vh="V" spot="V30" clock="08:31" driveindex="3,18"/>
+      <play hasball="RF" down="1" togo="10" spot="RF30" context="V,1,10,V30" playid="3,1,19" clock="08:31" tokens="{DRIVE}:08:31" text="RHEIN FIRE drive start at 08:31." newcontext="V,1,10,V30">
+   </play>
+      <play hasball="RF" down="1" togo="10" spot="RF30" context="V,1,10,V30" playid="3,2,20" type="#" clock="08:31" tokens="TOUT:H T:08:31" text="Timeout Frankfurt Galaxy, clock 08:31." newcontext="V,1,10,V30">
+        <p_to vh="H" team="Frankfurt Galaxy"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="RF30" context="V,1,10,V30" playid="3,3,21" type="E" tokens="RUSH:21,V33, TACK:31,52 PEN:V,OH,A,TM,V20,N NOPLAY:" text="J. Aguemon rush for 3 yards to the RF33 (K. Katz;W. Nasri), PENALTY RF Offensive Holding 10 yards to the RF20, NO PLAY." newcontext="V,1,20,V20">
+        <p_pn vh="V" code="OH" type="Offensive Holding" result="ACCEPT" at="V30" yards="10"/>
+      </play>
+      <play hasball="RF" down="1" togo="20" spot="RF20" context="V,1,20,V20" playid="3,4,22" type="P" first="P" tokens="PASS:11,C,86,H12 TACK:18" text="M. Adam pass complete to N. Robitaille for 68 yards to the FG12, 1ST DOWN RF (F. Lowery)." newcontext="V,1,10,H12">
+        <p_pa vh="V" qb="M. Adam" result="COMP" rcv="N. Robitaille" gain="68"/>
+        <p_tk vh="H" name="F. Lowery"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="FG12" context="V,1,10,H12" playid="3,5,23" type="R" tokens="RUSH:21,H10, TACK:99,52" text="J. Aguemon rush for 2 yards to the FG10 (K. Maier;W. Nasri)." newcontext="V,2,8,H10">
+        <p_ru vh="V" name="J. Aguemon" gain="2"/>
+        <p_tk vh="H" name="K. Maier" assist="Y"/>
+        <p_tk vh="H" name="W. Nasri" assist="Y"/>
+      </play>
+      <play hasball="RF" down="2" togo="8" spot="FG10" context="V,2,8,H10" playid="3,6,24" type="R" tokens="RUSH:21,H08, TACK:91" text="J. Aguemon rush for 2 yards to the FG8 (V. Buffet)." newcontext="V,3,6,H08">
+        <p_ru vh="V" name="J. Aguemon" gain="2"/>
+        <p_tk vh="H" name="V. Buffet"/>
+      </play>
+      <play hasball="RF" down="3" togo="6" spot="FG08" context="V,3,6,H08" playid="3,7,25" type="#" clock="05:56" tokens="TOUT:V T:05:56" text="Timeout Rhein Fire, clock 05:56." newcontext="V,3,6,H08">
+        <p_to vh="V" team="Rhein Fire"/>
+      </play>
+      <play hasball="RF" down="3" togo="6" spot="FG08" context="V,3,6,H08" playid="3,8,26" type="P" first="P" score="Y" vscore="6" hscore="0" clock="05:52" tokens="PASS:11,C,6,H00 T:05:52" text="M. Adam pass complete to T. Knuettel for 8 yards to the FG0, 1ST DOWN RF, TOUCHDOWN, clock 05:52." newcontext="V,1,10,H15">
+        <p_pa vh="V" qb="M. Adam" result="COMP" rcv="T. Knuettel" gain="8"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="FG15" context="V,1,10,H15" playid="3,9,27" type="X" tokens="PAT:K,2,B BLOCK:18" text="D. Schuhmacher kick attempt failed (blocked) (blocked by F. Lowery)." newcontext="V,1,0,V30">
+        <p_pat vh="V" name="D. Schuhmacher" qb="D. Schuhmacher" type="K" result="BLOCKED"/>
+      </play>
+      <score V="6" H="0"/>
+      <drivesum plays="4" yards="70" top="2:39" driveindex="3" complete="Y"/>
+      <play hasball="RF" down="1" togo="0" spot="RF30" context="V,1,0,V30" playid="3,10,28" type="K" tokens="KO:23,H00 TB:" text="D. Rennich kickoff 70 yards to the FG0, touchback." newcontext="H,1,10,H20">
+        <p_ko vh="V" name="D. Rennich" gain="70" result="T"/>
+      </play>
+      <drivestart poss="H,H20,05:52" vh="H" spot="H20" clock="05:52" driveindex="4,28"/>
+      <play hasball="FG" down="1" togo="10" spot="FG20" context="H,1,10,H20" playid="4,1,29" clock="05:52" tokens="{DRIVE}:05:52" text="FRANKFURT GALAXY drive start at 05:52." newcontext="H,1,10,H20">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG20" context="H,1,10,H20" playid="4,2,30" type="R" tokens="RUSH:21,H23, TACK:95,3" text="G. Adams rush for 3 yards to the FG23 (C. van Horn;L. Ruoss)." newcontext="H,2,7,H23">
+        <p_ru vh="H" name="G. Adams" gain="3"/>
+        <p_tk vh="V" name="C. van Horn" assist="Y"/>
+        <p_tk vh="V" name="L. Ruoss" assist="Y"/>
+      </play>
+      <play hasball="FG" down="2" togo="7" spot="FG23" context="H,2,7,H23" playid="4,3,31" type="E" tokens="PEN:H,FS,A,87,H18,N" text="PENALTY FG False Start (K. Mwamba) 5 yards to the FG18." newcontext="H,2,12,H18">
+        <p_pn vh="H" code="FS" type="False Start" name="K. Mwamba" result="ACCEPT" at="H23" yards="5"/>
+      </play>
+      <play hasball="FG" down="2" togo="12" spot="FG18" context="H,2,12,H18" playid="4,4,32" type="R" tokens="RUSH:7,H26, OB:" text="J. Sullivan rush for 8 yards to the FG26, out-of-bounds." ob="Y" newcontext="H,3,4,H26">
+        <p_ru vh="H" name="J. Sullivan" gain="8"/>
+      </play>
+      <play hasball="FG" down="3" togo="4" spot="FG26" context="H,3,4,H26" playid="4,5,33" type="P" tokens="PASS:7,I,13,*" text="J. Sullivan pass incomplete to M. Rutsch." newcontext="H,4,4,H26">
+        <p_pa vh="H" qb="J. Sullivan" result="INC" rcv="M. Rutsch"/>
+      </play>
+      <play hasball="FG" down="4" togo="4" spot="FG26" context="H,4,4,H26" playid="4,6,34" type="U" tokens="PUNT:82,V34 RET:86,V37 TACK:53" text="H. Schwarz punt 40 yards to the RF34, N. Robitaille return 3 yards to the RF37 (D. Josiah)." newcontext="V,1,10,V37">
+        <p_pu vh="H" name="H. Schwarz" gain="40"/>
+        <p_pr vh="V" name="N. Robitaille" gain="3"/>
+        <p_tk vh="H" name="D. Josiah"/>
+      </play>
+      <drivesum plays="3" yards="6" top="1:24" driveindex="4" complete="Y"/>
+      <drivestart poss="V,V37,04:28" vh="V" spot="V37" clock="04:28" driveindex="5,34"/>
+      <play hasball="RF" down="1" togo="10" spot="RF37" context="V,1,10,V37" playid="5,1,35" clock="04:28" tokens="{DRIVE}:04:28" text="RHEIN FIRE drive start at 04:28." newcontext="V,1,10,V37">
+   </play>
+      <play hasball="RF" down="1" togo="10" spot="RF37" context="V,1,10,V37" playid="5,2,36" type="P" tokens="PASS:11,D,87,* BRUP:18" text="M. Adam pass incomplete to F. Eichhorn, dropped pass (F. Lowery)." newcontext="V,2,10,V37">
+        <p_pa vh="V" qb="M. Adam" result="DROP" rcv="F. Eichhorn"/>
+        <p_bu vh="H" name="F. Lowery"/>
+      </play>
+      <play hasball="RF" down="2" togo="10" spot="RF37" context="V,2,10,V37" playid="5,3,37" type="R" first="R" tokens="RUSH:23,H45, TACK:14,31" text="D. Rennich rush for 18 yards to the FG45, 1ST DOWN RF (J. Poznanski;K. Katz)." newcontext="V,1,10,H45">
+        <p_ru vh="V" name="D. Rennich" gain="18"/>
+        <p_tk vh="H" name="J. Poznanski" assist="Y"/>
+        <p_tk vh="H" name="K. Katz" assist="Y"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="FG45" context="V,1,10,H45" playid="5,4,38" type="P" tokens="PASS:11,C,6,H37 TACK:41" text="M. Adam pass complete to T. Knuettel for 8 yards to the FG37 (S. Gauthier)." newcontext="V,2,2,H37">
+        <p_pa vh="V" qb="M. Adam" result="COMP" rcv="T. Knuettel" gain="8"/>
+        <p_tk vh="H" name="S. Gauthier"/>
+      </play>
+      <play hasball="RF" down="2" togo="2" spot="FG37" context="V,2,2,H37" playid="5,5,39" type="R" first="R" tokens="RUSH:23,H31, TACK:41,99" text="D. Rennich rush for 6 yards to the FG31, 1ST DOWN RF (S. Gauthier;K. Maier)." newcontext="V,1,10,H31">
+        <p_ru vh="V" name="D. Rennich" gain="6"/>
+        <p_tk vh="H" name="S. Gauthier" assist="Y"/>
+        <p_tk vh="H" name="K. Maier" assist="Y"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="FG31" context="V,1,10,H31" playid="5,6,40" type="R" tokens="RUSH:21,H31, TACK:53,90" text="J. Aguemon rush for no gain to the FG31 (D. Josiah;M. A. Hor)." newcontext="V,2,10,H31">
+        <p_ru vh="V" name="J. Aguemon" gain="0"/>
+        <p_tk vh="H" name="D. Josiah" assist="Y"/>
+        <p_tk vh="H" name="M. A. Hor" assist="Y"/>
+      </play>
+      <play hasball="RF" down="2" togo="10" spot="FG31" context="V,2,10,H31" playid="5,7,41" type="R" tokens="RUSH:21,H32, TACK:53,31" text="J. Aguemon rush for loss of 1 yard to the FG32 (D. Josiah;K. Katz)." newcontext="V,3,11,H32">
+        <p_ru vh="V" name="J. Aguemon" gain="-1"/>
+        <p_tk vh="H" name="D. Josiah" assist="Y"/>
+        <p_tk vh="H" name="K. Katz" assist="Y"/>
+      </play>
+      <play hasball="RF" down="3" togo="11" spot="FG32" context="V,3,11,H32" playid="5,8,42" type="#" clock="01:18" tokens="TOUT:H T:01:18" text="Timeout Frankfurt Galaxy, clock 01:18." newcontext="V,3,11,H32">
+        <p_to vh="H" team="Frankfurt Galaxy"/>
+      </play>
+      <play hasball="RF" down="3" togo="11" spot="FG32" context="V,3,11,H32" playid="5,9,43" type="R" tokens="RUSH:11,H26, TACK:40" text="M. Adam rush for 6 yards to the FG26 (L. Achaintre)." newcontext="V,4,5,H26">
+        <p_ru vh="V" name="M. Adam" gain="6"/>
+        <p_tk vh="H" name="L. Achaintre"/>
+      </play>
+      <play hasball="RF" down="4" togo="5" spot="FG26" context="V,4,5,H26" playid="5,10,44" type="F" clock="00:45" tokens="FGA:2,43,M,H32,R T:00:45" text="D. Schuhmacher field goal attempt from 43 MISSED - wide right, spot at FG32, clock 00:45." newcontext="H,1,10,H32">
+        <p_fg vh="V" name="D. Schuhmacher" distance="43" result="MISSED"/>
+      </play>
+      <drivesum plays="8" yards="37" top="3:43" driveindex="5" complete="Y"/>
+      <drivestart poss="H,H32,00:45" vh="H" spot="H32" clock="00:45" driveindex="6,44"/>
+      <play hasball="FG" down="1" togo="10" spot="FG32" context="H,1,10,H32" playid="6,1,45" clock="00:45" tokens="{DRIVE}:00:45" text="FRANKFURT GALAXY drive start at 00:45." newcontext="H,1,10,H32">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG32" context="H,1,10,H32" playid="6,2,46" type="R" tokens="RUSH:21,H37, TACK:97,22" text="G. Adams rush for 5 yards to the FG37 (J. Chikere;O. Williams)." newcontext="H,2,5,H37">
+        <p_ru vh="H" name="G. Adams" gain="5"/>
+        <p_tk vh="V" name="J. Chikere" assist="Y"/>
+        <p_tk vh="V" name="O. Williams" assist="Y"/>
+      </play>
+      <play hasball="FG" down="2" togo="5" spot="FG37" context="H,2,5,H37" playid="6,3,47" type="P" tokens="PASS:7,I,TM,* BRUP:90" text="J. Sullivan pass incomplete (R. Feltes)." newcontext="H,3,5,H37">
+        <p_pa vh="H" qb="J. Sullivan" result="INC"/>
+        <p_bu vh="V" name="R. Feltes"/>
+      </play>
+      <score qtr="1" V="6" H="0"/>
+      <endqtr/>
+      <qtrsummary vh="V" id="RF">
+        <firstdowns no="7" rush="4" pass="3" penalty="0"/>
+        <penalties no="1" yds="10"/>
+        <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="10:26"/>
+        <rush att="12" yds="66" gain="67" loss="1" td="0" long="18"/>
+        <pass comp="4" att="7" int="1" yds="102" td="1" long="68" sacks="0" sackyds="0"/>
+        <rcv no="4" yds="102" td="1" long="68"/>
+        <ko no="1" yds="70" ob="0" tb="1" fcyds="8192"/>
+        <fg made="0" att="1" long="0" blkd="0"/>
+        <pat kickatt="1" kickmade="0"/>
+        <defense tackua="3" tacka="6" tot_tack="9" sacks="0" sackyds="0" brup="2"/>
+        <kr no="1" yds="23" td="0" long="23"/>
+        <pr no="1" yds="3" td="0" long="3"/>
+        <scoring td="1"/>
+      </qtrsummary>
+      <qtrsummary vh="H" id="FG">
+        <firstdowns no="1" rush="0" pass="1" penalty="0"/>
+        <penalties no="1" yds="5"/>
+        <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="04:34"/>
+        <rush att="5" yds="23" gain="23" loss="0" td="0" long="8"/>
+        <pass comp="1" att="5" int="0" yds="7" td="0" long="7" sacks="0" sackyds="0"/>
+        <rcv no="1" yds="7" td="0" long="7"/>
+        <punt no="2" yds="76" long="40" blkd="0" tb="0" fc="1" plus50="0" inside20="0" avg="38.0"/>
+        <ko no="1" yds="65" ob="0" tb="0" fcyds="8224"/>
+        <defense tackua="9" tacka="14" tot_tack="23" tflua="0" tfla="2" tflyds="1" sacks="0" sackyds="0" brup="1" blkd="1" int="1" intyds="20"/>
+        <ir no="1" yds="20" td="0" long="20"/>
+      </qtrsummary>
+    </qtr>
+    <qtr number="2" text="2nd">
+      <play hasball="FG" down="3" togo="5" spot="FG37" context="H,3,5,H37" playid="6,4,48" type="#" clock="15:00" tokens="Q:2 T:15:00" text="Start of 2nd quarter, clock 15:00." newcontext="H,3,5,H37">
+   </play>
+      <play hasball="FG" down="3" togo="5" spot="FG37" context="H,3,5,H37" playid="6,5,49" type="P" tokens="PASS:7,I,10,*" text="J. Sullivan pass incomplete to T. Benschuh." newcontext="H,4,5,H37">
+        <p_pa vh="H" qb="J. Sullivan" result="INC" rcv="T. Benschuh"/>
+      </play>
+      <play hasball="FG" down="4" togo="5" spot="FG37" context="H,4,5,H37" playid="6,6,50" type="U" tokens="PUNT:82,V07" text="H. Schwarz punt 56 yards to the RF7." newcontext="V,1,10,V07">
+        <p_pu vh="H" name="H. Schwarz" gain="56" in20="Y"/>
+      </play>
+      <drivesum plays="3" yards="5" top="1:03" driveindex="6" complete="Y"/>
+      <drivestart poss="V,V07,14:42" vh="V" spot="V07" clock="14:42" driveindex="7,50"/>
+      <play hasball="RF" down="1" togo="10" spot="RF07" context="V,1,10,V07" playid="7,1,51" clock="14:42" tokens="{DRIVE}:14:42" text="RHEIN FIRE drive start at 14:42." newcontext="V,1,10,V07">
+   </play>
+      <play hasball="RF" down="1" togo="10" spot="RF07" context="V,1,10,V07" playid="7,2,52" type="R" tokens="RUSH:23,V08, TACK:41,52" text="D. Rennich rush for 1 yard to the RF8 (S. Gauthier;W. Nasri)." newcontext="V,2,9,V08">
+        <p_ru vh="V" name="D. Rennich" gain="1"/>
+        <p_tk vh="H" name="S. Gauthier" assist="Y"/>
+        <p_tk vh="H" name="W. Nasri" assist="Y"/>
+      </play>
+      <play hasball="RF" down="2" togo="9" spot="RF08" context="V,2,9,V08" playid="7,3,53" type="R" tokens="RUSH:23,V11, TACK:41,55" text="D. Rennich rush for 3 yards to the RF11 (S. Gauthier;M. Sy)." newcontext="V,3,6,V11">
+        <p_ru vh="V" name="D. Rennich" gain="3"/>
+        <p_tk vh="H" name="S. Gauthier" assist="Y"/>
+        <p_tk vh="H" name="M. Sy" assist="Y"/>
+      </play>
+      <play hasball="RF" down="3" togo="6" spot="RF11" context="V,3,6,V11" playid="7,4,54" type="P" tokens="PASS:11,I,6,*" text="M. Adam pass incomplete to T. Knuettel." newcontext="V,4,6,V11">
+        <p_pa vh="V" qb="M. Adam" result="INC" rcv="T. Knuettel"/>
+      </play>
+      <play hasball="RF" down="4" togo="6" spot="RF11" context="V,4,6,V11" playid="7,5,55" type="U" tokens="PUNT:14,V47" text="M. Eisenhut punt 36 yards to the RF47." newcontext="H,1,10,V47">
+        <p_pu vh="V" name="M. Eisenhut" gain="36"/>
+      </play>
+      <drivesum plays="3" yards="4" top="1:30" driveindex="7" complete="Y"/>
+      <drivestart poss="H,V47,13:12" vh="H" spot="V47" clock="13:12" driveindex="8,55"/>
+      <play hasball="FG" down="1" togo="10" spot="RF47" context="H,1,10,V47" playid="8,1,56" clock="13:12" tokens="{DRIVE}:13:12" text="FRANKFURT GALAXY drive start at 13:12." newcontext="H,1,10,V47">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="RF47" context="H,1,10,V47" playid="8,2,57" type="R" tokens="RUSH:21,V46, TACK:95,90" text="G. Adams rush for 1 yard to the RF46 (C. van Horn;R. Feltes)." newcontext="H,2,9,V46">
+        <p_ru vh="H" name="G. Adams" gain="1"/>
+        <p_tk vh="V" name="C. van Horn" assist="Y"/>
+        <p_tk vh="V" name="R. Feltes" assist="Y"/>
+      </play>
+      <play hasball="FG" down="2" togo="9" spot="RF46" context="H,2,9,V46" playid="8,3,58" type="P" first="P" tokens="PASS:7,C,13,V30 TACK:22" text="J. Sullivan pass complete to M. Rutsch for 16 yards to the RF30, 1ST DOWN FG (O. Williams)." newcontext="H,1,10,V30">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="M. Rutsch" gain="16"/>
+        <p_tk vh="V" name="O. Williams"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF30" context="H,1,10,V30" playid="8,4,59" type="R" tokens="RUSH:21,V25, TACK:97,51" text="G. Adams rush for 5 yards to the RF25 (J. Chikere;M. Pinter)." newcontext="H,2,5,V25">
+        <p_ru vh="H" name="G. Adams" gain="5"/>
+        <p_tk vh="V" name="J. Chikere" assist="Y"/>
+        <p_tk vh="V" name="M. Pinter" assist="Y"/>
+      </play>
+      <play hasball="FG" down="2" togo="5" spot="RF25" context="H,2,5,V25" playid="8,5,60" type="R" tokens="RUSH:21,V23, FORCE:90 FUMB:H,V24,7" text="G. Adams rush for 2 yards to the RF23, fumble forced by R. Feltes, fumble by G. Adams recovered by FG J. Sullivan at RF24." newcontext="H,3,4,V24">
+        <p_ru vh="H" name="G. Adams" gain="2"/>
+        <p_fumb vh="H" name="G. Adams" at="V24" frvh="H" frname="J. Sullivan"/>
+        <p_tk vh="V" name="R. Feltes" ff="Y"/>
+      </play>
+      <play hasball="FG" down="3" togo="4" spot="RF24" context="H,3,4,V24" playid="8,6,61" type="R" tokens="RUSH:21,V22, TACK:90,51" text="G. Adams rush for 2 yards to the RF22 (R. Feltes;M. Pinter)." newcontext="H,4,2,V22">
+        <p_ru vh="H" name="G. Adams" gain="2"/>
+        <p_tk vh="V" name="R. Feltes" assist="Y"/>
+        <p_tk vh="V" name="M. Pinter" assist="Y"/>
+      </play>
+      <play hasball="FG" down="4" togo="2" spot="RF22" context="H,4,2,V22" playid="8,7,62" type="F" score="Y" vscore="6" hscore="3" clock="09:48" tokens="FGA:1,40,G T:09:48" text="R. Rimmler field goal attempt from 40 GOOD, clock 09:48." newcontext="H,1,0,H30">
+        <p_fg vh="H" name="R. Rimmler" distance="40" result="GOOD" score="Y"/>
+      </play>
+      <score V="6" H="3"/>
+      <drivesum plays="6" yards="25" top="3:24" driveindex="8" complete="Y"/>
+      <play hasball="FG" down="1" togo="0" spot="FG30" context="H,1,0,H30" playid="8,8,63" type="K" tokens="KO:1,V05 RET:22,H50 OB:" text="R. Rimmler kickoff 65 yards to the RF5, O. Williams return 45 yards to the 50 yardline, out-of-bounds." ob="Y" newcontext="V,1,10,V50">
+        <p_ko vh="H" name="R. Rimmler" gain="65"/>
+        <p_kr vh="V" name="O. Williams" gain="45"/>
+      </play>
+      <drivestart poss="V,V50,09:40" vh="V" spot="V50" clock="09:40" driveindex="9,63"/>
+      <play hasball="RF" down="1" togo="10" spot="RF50" context="V,1,10,V50" playid="9,1,64" clock="09:40" tokens="{DRIVE}:09:40" text="RHEIN FIRE drive start at 09:40." newcontext="V,1,10,V50">
+   </play>
+      <play hasball="RF" down="1" togo="10" spot="RF50" context="V,1,10,V50" playid="9,2,65" type="P" tokens="PASS:11,C,43,H43 TACK:52,40" text="M. Adam pass complete to P. Poetsch for 7 yards to the FG43 (W. Nasri;L. Achaintre)." newcontext="V,2,3,H43">
+        <p_pa vh="V" qb="M. Adam" result="COMP" rcv="P. Poetsch" gain="7"/>
+        <p_tk vh="H" name="W. Nasri" assist="Y"/>
+        <p_tk vh="H" name="L. Achaintre" assist="Y"/>
+      </play>
+      <play hasball="RF" down="2" togo="3" spot="FG43" context="V,2,3,H43" playid="9,3,66" type="R" tokens="RUSH:21,H41, TACK:90,40" text="J. Aguemon rush for 2 yards to the FG41 (M. A. Hor;L. Achaintre)." newcontext="V,3,1,H41">
+        <p_ru vh="V" name="J. Aguemon" gain="2"/>
+        <p_tk vh="H" name="M. A. Hor" assist="Y"/>
+        <p_tk vh="H" name="L. Achaintre" assist="Y"/>
+      </play>
+      <play hasball="RF" down="3" togo="1" spot="FG41" context="V,3,1,H41" playid="9,4,67" type="R" first="R" tokens="RUSH:11,H39, TACK:52,95" text="M. Adam rush for 2 yards to the FG39, 1ST DOWN RF (W. Nasri;M. Konya)." newcontext="V,1,10,H39">
+        <p_ru vh="V" name="M. Adam" gain="2"/>
+        <p_tk vh="H" name="W. Nasri" assist="Y"/>
+        <p_tk vh="H" name="M. Konya" assist="Y"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="FG39" context="V,1,10,H39" playid="9,5,68" type="R" tokens="RUSH:21,H37, TACK:90,41" text="J. Aguemon rush for 2 yards to the FG37 (M. A. Hor;S. Gauthier)." newcontext="V,2,8,H37">
+        <p_ru vh="V" name="J. Aguemon" gain="2"/>
+        <p_tk vh="H" name="M. A. Hor" assist="Y"/>
+        <p_tk vh="H" name="S. Gauthier" assist="Y"/>
+      </play>
+      <play hasball="RF" down="2" togo="8" spot="FG37" context="V,2,8,H37" playid="9,6,69" type="#" clock="06:46" tokens="PASS:11,C,6,H00 T:06:46 NOPLAY:" text="M. Adam pass complete to T. Knuettel for 37 yards to the FG0, clock 06:46, NO PLAY." newcontext="V,2,8,H37">
+   </play>
+      <comment text="Official Review. Ruling reversed."/>
+      <play hasball="RF" down="2" togo="8" spot="FG37" context="V,2,8,H37" playid="9,7,71" type="P" first="P" tokens="PASS:11,C,6,H01 TACK:28" text="M. Adam pass complete to T. Knuettel for 36 yards to the FG1, 1ST DOWN RF (S. Otto)." newcontext="V,1,0,H01">
+        <p_pa vh="V" qb="M. Adam" result="COMP" rcv="T. Knuettel" gain="36"/>
+        <p_tk vh="H" name="S. Otto"/>
+      </play>
+      <play hasball="RF" down="1" togo="0" spot="FG01" context="V,1,0,H01" playid="9,8,72" type="R" first="R" score="Y" vscore="12" hscore="3" clock="06:32" tokens="RUSH:11,H00, T:06:32" text="M. Adam rush for 1 yard to the FG0, 1ST DOWN RF, TOUCHDOWN, clock 06:32." newcontext="V,1,10,H15">
+        <p_ru vh="V" name="M. Adam" gain="1"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="FG15" context="V,1,10,H15" playid="9,9,73" type="X" score="Y" vscore="13" hscore="3" tokens="PAT:K,2,G" text="D. Schuhmacher kick attempt good." newcontext="V,1,0,V30">
+        <p_pat vh="V" name="D. Schuhmacher" qb="D. Schuhmacher" type="K" result="GOOD" score="Y"/>
+      </play>
+      <score V="13" H="3"/>
+      <drivesum plays="6" yards="50" top="3:08" driveindex="9" complete="Y"/>
+      <play hasball="RF" down="1" togo="0" spot="RF30" context="V,1,0,V30" playid="9,10,74" type="K" tokens="KO:23,H05 RET:33,H30 TACK:41,34" text="D. Rennich kickoff 65 yards to the FG5, J. Rodney return 25 yards to the FG30 (A. Sobotta;F. Umetelli)." newcontext="H,1,10,H30">
+        <p_ko vh="V" name="D. Rennich" gain="65"/>
+        <p_kr vh="H" name="J. Rodney" gain="25"/>
+        <p_tk vh="V" name="A. Sobotta" assist="Y"/>
+        <p_tk vh="V" name="F. Umetelli" assist="Y"/>
+      </play>
+      <drivestart poss="H,H30,06:24" vh="H" spot="H30" clock="06:24" driveindex="10,74"/>
+      <play hasball="FG" down="1" togo="10" spot="FG30" context="H,1,10,H30" playid="10,1,75" clock="06:24" tokens="{DRIVE}:06:24" text="FRANKFURT GALAXY drive start at 06:24." newcontext="H,1,10,H30">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG30" context="H,1,10,H30" playid="10,2,76" type="P" score="Y" vscore="19" hscore="3" turnover="I" clock="06:16" tokens="PASS:7,X,3,H35 RET:3,H00 T:06:16" text="J. Sullivan pass intercepted by L. Ruoss at the FG35, L. Ruoss return 35 yards to the FG0, TOUCHDOWN, clock 06:16." newcontext="V,1,10,H15">
+        <p_pa vh="H" qb="J. Sullivan" result="INT"/>
+        <p_ir vh="V" name="L. Ruoss" at="H35" gain="35"/>
+      </play>
+      <drivesum plays="1" yards="0" top="0:08" driveindex="10" complete="Y"/>
+      <drivestart poss="V,H15,06:16" vh="V" spot="H15" clock="06:16" driveindex="11,76"/>
+      <play hasball="RF" down="1" togo="10" spot="FG15" context="V,1,10,H15" playid="11,1,77" type="#" clock="06:16" tokens="TOUT:V T:06:16" text="Timeout Rhein Fire, clock 06:16." newcontext="V,1,10,H15">
+        <p_to vh="V" team="Rhein Fire"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="FG15" context="V,1,10,H15" playid="11,2,78" type="X" tokens="SPOT:V,H02,Y PAT:P,11,M" text="RF ball on FG2, M. Adam pass attempt failed." newcontext="V,1,0,V30">
+        <p_pat vh="V" name="M. Adam" qb="M. Adam" type="P" result="MISSED"/>
+      </play>
+      <score V="19" H="3"/>
+      <drivesum plays="0" yards="0" top="0:00" driveindex="11" complete="Y"/>
+      <play hasball="RF" down="1" togo="0" spot="RF30" context="V,1,0,V30" playid="11,3,79" type="K" tokens="KO:23,H00 TB: SPOT:H,H30,Y" text="D. Rennich kickoff 70 yards to the FG0, touchback, FG ball on FG30." newcontext="H,1,10,H30">
+        <p_ko vh="V" name="D. Rennich" gain="70" result="T"/>
+      </play>
+      <drivestart poss="H,H30,06:16" vh="H" spot="H30" clock="06:16" driveindex="12,79"/>
+      <play hasball="FG" down="1" togo="10" spot="FG30" context="H,1,10,H30" playid="12,1,80" clock="06:16" tokens="{DRIVE}:06:16" text="FRANKFURT GALAXY drive start at 06:16." newcontext="H,1,10,H30">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG30" context="H,1,10,H30" playid="12,2,81" type="P" first="P" tokens="PASS:7,C,19,H41 TACK:55" text="J. Sullivan pass complete to N. Strahmann for 11 yards to the FG41, 1ST DOWN FG (T. van den Oort)." newcontext="H,1,10,H41">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="N. Strahmann" gain="11"/>
+        <p_tk vh="V" name="T. van den Oort"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="FG41" context="H,1,10,H41" playid="12,3,82" type="P" first="E" tokens="PASS:7,C,87,V48 TACK:22,9 PEN:H,PF,A,87,H37,1" text="J. Sullivan pass complete to K. Mwamba for 11 yards to the RF48 (O. Williams;R. Grooten), PENALTY FG Personal Foul (K. Mwamba) 15 yards to the FG37, 1ST DOWN FG." newcontext="H,1,10,H37">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="K. Mwamba" gain="11"/>
+        <p_tk vh="V" name="O. Williams" assist="Y"/>
+        <p_tk vh="V" name="R. Grooten" assist="Y"/>
+        <p_pn vh="H" code="PF" type="Personal Foul" name="K. Mwamba" result="ACCEPT" at="V48" yards="15"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="FG37" context="H,1,10,H37" playid="12,4,83" tokens="D:1,10" text="1st and 10." newcontext="H,1,10,H37">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG37" context="H,1,10,H37" playid="12,5,84" type="P" tokens="PASS:7,I,44,*" text="J. Sullivan pass incomplete to L. Helm." newcontext="H,2,10,H37">
+        <p_pa vh="H" qb="J. Sullivan" result="INC" rcv="L. Helm"/>
+      </play>
+      <play hasball="FG" down="2" togo="10" spot="FG37" context="H,2,10,H37" playid="12,6,85" type="R" tokens="RUSH:21,H44, TACK:59" text="G. Adams rush for 7 yards to the FG44 (E. Zengin)." newcontext="H,3,3,H44">
+        <p_ru vh="H" name="G. Adams" gain="7"/>
+        <p_tk vh="V" name="E. Zengin"/>
+      </play>
+      <play hasball="FG" down="3" togo="3" spot="FG44" context="H,3,3,H44" playid="12,7,86" type="E" first="E" tokens="PASS:7,I,86,* BRUP:7 PEN:V,DPI,A,7,V30,1 NOPLAY:" text="J. Sullivan pass incomplete to L. Regler (T. Janssen), PENALTY RF Defensive Pass Interference (T. Janssen) 26 yards to the RF30, 1ST DOWN FG, NO PLAY." newcontext="H,1,10,V30">
+        <p_pn vh="V" code="DPI" type="Defensive Pass Interference" name="T. Janssen" result="ACCEPT" at="H44" yards="26"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF30" context="H,1,10,V30" playid="12,8,87" type="#" clock="04:13" tokens="TOUT:V T:04:13" text="Timeout Rhein Fire, clock 04:13." newcontext="H,1,10,V30">
+        <p_to vh="V" team="Rhein Fire"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF30" context="H,1,10,V30" playid="12,9,88" type="R" tokens="RUSH:21,V26, TACK:3,55" text="G. Adams rush for 4 yards to the RF26 (L. Ruoss;T. van den Oort)." newcontext="H,2,6,V26">
+        <p_ru vh="H" name="G. Adams" gain="4"/>
+        <p_tk vh="V" name="L. Ruoss" assist="Y"/>
+        <p_tk vh="V" name="T. van den Oort" assist="Y"/>
+      </play>
+      <play hasball="FG" down="2" togo="6" spot="RF26" context="H,2,6,V26" playid="12,10,89" type="P" tokens="PASS:7,I,13,*" text="J. Sullivan pass incomplete to M. Rutsch." newcontext="H,3,6,V26">
+        <p_pa vh="H" qb="J. Sullivan" result="INC" rcv="M. Rutsch"/>
+      </play>
+      <play hasball="FG" down="3" togo="6" spot="RF26" context="H,3,6,V26" playid="12,11,90" type="P" first="P" tokens="PASS:7,C,84,V15 TACK:51,4" text="J. Sullivan pass complete to C. Sow for 11 yards to the RF15, 1ST DOWN FG (M. Pinter;J. Seibel)." newcontext="H,1,10,V15">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="C. Sow" gain="11"/>
+        <p_tk vh="V" name="M. Pinter" assist="Y"/>
+        <p_tk vh="V" name="J. Seibel" assist="Y"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF15" context="H,1,10,V15" playid="12,12,91" type="E" tokens="PEN:H,DG,A,7,V20,N" text="PENALTY FG Delay of Game (J. Sullivan) 5 yards to the RF20." newcontext="H,1,15,V20">
+        <p_pn vh="H" code="DG" type="Delay of Game" name="J. Sullivan" result="ACCEPT" at="V15" yards="5"/>
+      </play>
+      <play hasball="FG" down="1" togo="15" spot="RF20" context="H,1,15,V20" playid="12,13,92" type="P" tokens="PASS:7,C,87,V14 TACK:9,22" text="J. Sullivan pass complete to K. Mwamba for 6 yards to the RF14 (R. Grooten;O. Williams)." newcontext="H,2,9,V14">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="K. Mwamba" gain="6"/>
+        <p_tk vh="V" name="R. Grooten" assist="Y"/>
+        <p_tk vh="V" name="O. Williams" assist="Y"/>
+      </play>
+      <play hasball="FG" down="2" togo="9" spot="RF14" context="H,2,9,V14" playid="12,14,93" type="P" tokens="PASS:7,C,10,V07 TACK:4" text="J. Sullivan pass complete to T. Benschuh for 7 yards to the RF7 (J. Seibel)." newcontext="H,3,2,V07">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="T. Benschuh" gain="7"/>
+        <p_tk vh="V" name="J. Seibel"/>
+      </play>
+      <comment text="Two-Minute Warning"/>
+      <play hasball="FG" down="3" togo="2" spot="RF07" context="H,3,2,V07" playid="12,15,95" type="P" first="P" tokens="PASS:7,C,19,V03 TACK:7" text="J. Sullivan pass complete to N. Strahmann for 4 yards to the RF3, 1ST DOWN FG (T. Janssen)." newcontext="H,1,0,V03">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="N. Strahmann" gain="4"/>
+        <p_tk vh="V" name="T. Janssen"/>
+      </play>
+      <play hasball="FG" down="1" togo="0" spot="RF03" context="H,1,0,V03" playid="12,16,96" type="P" first="P" score="Y" vscore="19" hscore="9" clock="01:50" tokens="PASS:7,C,21,V00 T:01:50" text="J. Sullivan pass complete to G. Adams for 3 yards to the RF0, 1ST DOWN FG, TOUCHDOWN, clock 01:50." newcontext="H,1,10,V15">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="G. Adams" gain="3"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF15" context="H,1,10,V15" playid="12,17,97" type="X" tokens="SPOT:H,V02,Y PAT:P,7,M" text="FG ball on RF2, J. Sullivan pass attempt failed." newcontext="H,1,0,H30">
+        <p_pat vh="H" name="J. Sullivan" qb="J. Sullivan" type="P" result="MISSED"/>
+      </play>
+      <score V="19" H="9"/>
+      <drivesum plays="11" yards="0" top="4:26" driveindex="12" complete="Y"/>
+      <play hasball="FG" down="1" togo="0" spot="FG30" context="H,1,0,H30" playid="12,18,98" type="K" tokens="KO:1,V09 RET:22,V37 TACK:35,51" text="R. Rimmler kickoff 61 yards to the RF9, O. Williams return 28 yards to the RF37 (M. Schlabitz;M. Adjei)." newcontext="V,1,10,V37">
+        <p_ko vh="H" name="R. Rimmler" gain="61"/>
+        <p_kr vh="V" name="O. Williams" gain="28"/>
+        <p_tk vh="H" name="M. Schlabitz" assist="Y"/>
+        <p_tk vh="H" name="M. Adjei" assist="Y"/>
+      </play>
+      <drivestart poss="V,V37,01:44" vh="V" spot="V37" clock="01:44" driveindex="13,98"/>
+      <play hasball="RF" down="1" togo="10" spot="RF37" context="V,1,10,V37" playid="13,1,99" clock="01:44" tokens="{DRIVE}:01:44" text="RHEIN FIRE drive start at 01:44." newcontext="V,1,10,V37">
+   </play>
+      <play hasball="RF" down="1" togo="10" spot="RF37" context="V,1,10,V37" playid="13,2,100" type="P" tokens="PASS:11,S,TM,V28 SACK:91" text="M. Adam sacked for loss of 9 yards to the RF28 (V. Buffet)." newcontext="V,2,19,V28">
+        <p_pa vh="V" qb="M. Adam" result="SACK" gain="-9"/>
+        <p_tk vh="H" name="V. Buffet" sack="Y"/>
+      </play>
+      <play hasball="RF" down="2" togo="19" spot="RF28" context="V,2,19,V28" playid="13,3,101" type="P" tokens="PASS:11,D,82,*" text="M. Adam pass incomplete to D. Rofalski, dropped pass." newcontext="V,3,19,V28">
+        <p_pa vh="V" qb="M. Adam" result="DROP" rcv="D. Rofalski"/>
+      </play>
+      <play hasball="RF" down="3" togo="19" spot="RF28" context="V,3,19,V28" playid="13,4,102" type="P" tokens="PASS:11,I,TM,* BRUP:31" text="M. Adam pass incomplete (K. Katz)." newcontext="V,4,19,V28">
+        <p_pa vh="V" qb="M. Adam" result="INC"/>
+        <p_bu vh="H" name="K. Katz"/>
+      </play>
+      <play hasball="RF" down="4" togo="19" spot="RF28" context="V,4,19,V28" playid="13,5,103" type="U" tokens="PUNT:14,H48" text="M. Eisenhut punt 24 yards to the FG48." newcontext="H,1,10,H48">
+        <p_pu vh="V" name="M. Eisenhut" gain="24"/>
+      </play>
+      <drivesum plays="3" yards="-9" top="0:51" driveindex="13" complete="Y"/>
+      <drivestart poss="H,H48,00:53" vh="H" spot="H48" clock="00:53" driveindex="14,103"/>
+      <play hasball="FG" down="1" togo="10" spot="FG48" context="H,1,10,H48" playid="14,1,104" clock="00:53" tokens="{DRIVE}:00:53" text="FRANKFURT GALAXY drive start at 00:53." newcontext="H,1,10,H48">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG48" context="H,1,10,H48" playid="14,2,105" type="P" first="P" tokens="PASS:7,C,10,V38 TACK:9" text="J. Sullivan pass complete to T. Benschuh for 14 yards to the RF38, 1ST DOWN FG (R. Grooten)." newcontext="H,1,10,V38">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="T. Benschuh" gain="14"/>
+        <p_tk vh="V" name="R. Grooten"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF38" context="H,1,10,V38" playid="14,3,106" type="P" tokens="PASS:7,I,TM,*" text="J. Sullivan pass incomplete." newcontext="H,2,10,V38">
+        <p_pa vh="H" qb="J. Sullivan" result="INC"/>
+      </play>
+      <comment text="QB spiked ball"/>
+      <play hasball="FG" down="2" togo="10" spot="RF38" context="H,2,10,V38" playid="14,4,108" type="P" tokens="PASS:7,D,86,*" text="J. Sullivan pass incomplete to L. Regler, dropped pass." newcontext="H,3,10,V38">
+        <p_pa vh="H" qb="J. Sullivan" result="DROP" rcv="L. Regler"/>
+      </play>
+      <play hasball="FG" down="3" togo="10" spot="RF38" context="H,3,10,V38" playid="14,5,109" type="P" tokens="PASS:7,I,10,*" text="J. Sullivan pass incomplete to T. Benschuh." newcontext="H,4,10,V38">
+        <p_pa vh="H" qb="J. Sullivan" result="INC" rcv="T. Benschuh"/>
+      </play>
+      <play hasball="FG" down="4" togo="10" spot="RF38" context="H,4,10,V38" playid="14,6,110" type="F" score="Y" vscore="19" hscore="12" clock="00:21" tokens="FGA:1,55,G T:00:21" text="R. Rimmler field goal attempt from 55 GOOD, clock 00:21." newcontext="H,1,0,H30">
+        <p_fg vh="H" name="R. Rimmler" distance="55" result="GOOD" score="Y"/>
+      </play>
+      <score V="19" H="12"/>
+      <drivesum plays="5" yards="14" top="0:32" driveindex="14" complete="Y"/>
+      <play hasball="FG" down="1" togo="0" spot="FG30" context="H,1,0,H30" playid="14,7,111" type="K" tokens="KO:1,V00 TB: SPOT:V,V30,Y" text="R. Rimmler kickoff 70 yards to the RF0, touchback, RF ball on RF30." newcontext="V,1,10,V30">
+        <p_ko vh="H" name="R. Rimmler" gain="70" result="T"/>
+      </play>
+      <drivestart poss="V,V30,00:21" vh="V" spot="V30" clock="00:21" driveindex="15,111"/>
+      <play hasball="RF" down="1" togo="10" spot="RF30" context="V,1,10,V30" playid="15,1,112" clock="00:21" tokens="{DRIVE}:00:21" text="RHEIN FIRE drive start at 00:21." newcontext="V,1,10,V30">
+   </play>
+      <play hasball="RF" down="1" togo="10" spot="RF30" context="V,1,10,V30" playid="15,2,113" type="R" tokens="RUSH:11,V29," text="M. Adam rush for loss of 1 yard to the RF29." newcontext="V,2,11,V29">
+        <p_ru vh="V" name="M. Adam" gain="-1"/>
+      </play>
+      <comment text="QB kneel"/>
+      <play hasball="RF" down="2" togo="11" spot="RF29" context="V,2,11,V29" playid="15,3,115" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of half, clock 00:00." newcontext="V,2,11,V29">
+   </play>
+      <drivesum plays="1" yards="-1" top="0:21" driveindex="15" complete="Y"/>
+      <score qtr="2" V="19" H="12"/>
+      <endqtr/>
+      <qtrsummary vh="V" id="RF">
+        <firstdowns no="3" rush="2" pass="1" penalty="0"/>
+        <penalties no="1" yds="26"/>
+        <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="06:04"/>
+        <rush att="7" yds="10" gain="11" loss="1" td="1" long="0"/>
+        <pass comp="2" att="5" int="0" yds="34" td="0" long="0" sacks="1" sackyds="9"/>
+        <rcv no="2" yds="43" td="0" long="0"/>
+        <punt no="2" yds="60" long="36" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="30.0"/>
+        <ko no="2" yds="135" ob="0" tb="1" fcyds="8192"/>
+        <pat kickatt="1" kickmade="1" passatt="1" passmade="0"/>
+        <defense tackua="7" tacka="16" tot_tack="23" sacks="0" sackyds="0" ff="1" int="1" intyds="35"/>
+        <kr no="2" yds="73" td="0" long="22"/>
+        <ir no="1" yds="35" td="1" long="35"/>
+        <scoring td="2" patkick="1"/>
+      </qtrsummary>
+      <qtrsummary vh="H" id="FG">
+        <firstdowns no="8" rush="0" pass="6" penalty="2"/>
+        <penalties no="2" yds="20"/>
+        <conversions thirdconv="2" thirdatt="5" fourthconv="0" fourthatt="0"/>
+        <fumbles no="1" lost="0"/>
+        <misc yds="-1" top="08:56"/>
+        <rush att="6" yds="21" gain="21" loss="0" td="0" long="0"/>
+        <pass comp="9" att="16" int="1" yds="83" td="1" long="9" sacks="0" sackyds="0"/>
+        <rcv no="9" yds="83" td="1" long="9"/>
+        <punt no="1" yds="56" long="16" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="56.0"/>
+        <ko no="3" yds="196" ob="0" tb="1" fcyds="8224"/>
+        <fg made="2" att="2" long="55" blkd="0"/>
+        <pat passatt="1" passmade="0"/>
+        <defense tackua="2" tacka="14" tot_tack="16" tflua="1" tfla="0" tflyds="9" sacks="1" sackyds="9" brup="1"/>
+        <kr no="1" yds="25" td="0" long="25"/>
+        <fumbles no="1" lost="0"/>
+        <scoring td="1" fg="2"/>
+      </qtrsummary>
+    </qtr>
+    <qtr number="3" text="3rd">
+      <play hasball="RF" down="2" togo="11" spot="RF29" context="V,2,11,V29" playid="15,4,116" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:V,V30,N" text="Start of 3rd quarter, clock 15:00, RF ball on RF30." newcontext="V,2,11,V30">
+   </play>
+      <play hasball="RF" down="2" togo="11" spot="RF30" context="V,2,11,V30" playid="15,5,117" type="K" tokens="KO:23,H00 TB: SPOT:H,H30,Y" text="D. Rennich kickoff 70 yards to the FG0, touchback, FG ball on FG30." newcontext="H,1,10,H30">
+        <p_ko vh="V" name="D. Rennich" gain="70" result="T"/>
+      </play>
+      <drivestart poss="H,H30,15:00" vh="H" spot="H30" clock="15:00" driveindex="16,117"/>
+      <play hasball="FG" down="1" togo="10" spot="FG30" context="H,1,10,H30" playid="16,1,118" clock="15:00" tokens="{DRIVE}:15:00" text="FRANKFURT GALAXY drive start at 15:00." newcontext="H,1,10,H30">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG30" context="H,1,10,H30" playid="16,2,119" type="R" tokens="RUSH:21,H30, TACK:90,59" text="G. Adams rush for no gain to the FG30 (R. Feltes;E. Zengin)." newcontext="H,2,10,H30">
+        <p_ru vh="H" name="G. Adams" gain="0"/>
+        <p_tk vh="V" name="R. Feltes" assist="Y"/>
+        <p_tk vh="V" name="E. Zengin" assist="Y"/>
+      </play>
+      <play hasball="FG" down="2" togo="10" spot="FG30" context="H,2,10,H30" playid="16,3,120" type="P" first="P" tokens="PASS:7,C,19,H46 TACK:3,9" text="J. Sullivan pass complete to N. Strahmann for 16 yards to the FG46, 1ST DOWN FG (L. Ruoss;R. Grooten)." newcontext="H,1,10,H46">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="N. Strahmann" gain="16"/>
+        <p_tk vh="V" name="L. Ruoss" assist="Y"/>
+        <p_tk vh="V" name="R. Grooten" assist="Y"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="FG46" context="H,1,10,H46" playid="16,4,121" type="R" tokens="RUSH:21,V49, TACK:55,9" text="G. Adams rush for 5 yards to the RF49 (T. van den Oort;R. Grooten)." newcontext="H,2,5,V49">
+        <p_ru vh="H" name="G. Adams" gain="5"/>
+        <p_tk vh="V" name="T. van den Oort" assist="Y"/>
+        <p_tk vh="V" name="R. Grooten" assist="Y"/>
+      </play>
+      <play hasball="FG" down="2" togo="5" spot="RF49" context="H,2,5,V49" playid="16,5,122" type="P" first="P" tokens="PASS:7,C,87,V43 TACK:7" text="J. Sullivan pass complete to K. Mwamba for 6 yards to the RF43, 1ST DOWN FG (T. Janssen)." newcontext="H,1,10,V43">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="K. Mwamba" gain="6"/>
+        <p_tk vh="V" name="T. Janssen"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF43" context="H,1,10,V43" playid="16,6,123" type="R" tokens="RUSH:21,V45, TACK:95" text="G. Adams rush for loss of 2 yards to the RF45 (C. van Horn)." newcontext="H,2,12,V45">
+        <p_ru vh="H" name="G. Adams" gain="-2"/>
+        <p_tk vh="V" name="C. van Horn"/>
+      </play>
+      <play hasball="FG" down="2" togo="12" spot="RF45" context="H,2,12,V45" playid="16,7,124" type="P" first="P" tokens="PASS:7,C,10,V33 TACK:7" text="J. Sullivan pass complete to T. Benschuh for 12 yards to the RF33, 1ST DOWN FG (T. Janssen)." newcontext="H,1,10,V33">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="T. Benschuh" gain="12"/>
+        <p_tk vh="V" name="T. Janssen"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF33" context="H,1,10,V33" playid="16,8,125" type="R" tokens="RUSH:7,V28, TACK:90" text="J. Sullivan rush for 5 yards to the RF28 (R. Feltes)." newcontext="H,2,5,V28">
+        <p_ru vh="H" name="J. Sullivan" gain="5"/>
+        <p_tk vh="V" name="R. Feltes"/>
+      </play>
+      <play hasball="FG" down="2" togo="5" spot="RF28" context="H,2,5,V28" playid="16,9,126" type="R" tokens="RUSH:21,V25, TACK:92" text="G. Adams rush for 3 yards to the RF25 (E. Adam)." newcontext="H,3,2,V25">
+        <p_ru vh="H" name="G. Adams" gain="3"/>
+        <p_tk vh="V" name="E. Adam"/>
+      </play>
+      <play hasball="FG" down="3" togo="2" spot="RF25" context="H,3,2,V25" playid="16,10,127" type="P" first="P" tokens="PASS:7,C,19,V15 TACK:22" text="J. Sullivan pass complete to N. Strahmann for 10 yards to the RF15, 1ST DOWN FG (O. Williams)." newcontext="H,1,10,V15">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="N. Strahmann" gain="10"/>
+        <p_tk vh="V" name="O. Williams"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF15" context="H,1,10,V15" playid="16,11,128" type="P" first="P" tokens="PASS:7,C,87,V01 TACK:22" text="J. Sullivan pass complete to K. Mwamba for 14 yards to the RF1, 1ST DOWN FG (O. Williams)." newcontext="H,1,0,V01">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="K. Mwamba" gain="14"/>
+        <p_tk vh="V" name="O. Williams"/>
+      </play>
+      <play hasball="FG" down="1" togo="0" spot="RF01" context="H,1,0,V01" playid="16,12,129" type="R" first="R" score="Y" vscore="19" hscore="18" clock="08:43" tokens="RUSH:7,V00, T:08:43" text="J. Sullivan rush for 1 yard to the RF0, 1ST DOWN FG, TOUCHDOWN, clock 08:43." newcontext="H,1,10,V15">
+        <p_ru vh="H" name="J. Sullivan" gain="1"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF15" context="H,1,10,V15" playid="16,13,130" type="X" score="Y" vscore="19" hscore="19" tokens="PAT:K,1,G" text="R. Rimmler kick attempt good." newcontext="H,1,0,H30">
+        <p_pat vh="H" name="R. Rimmler" qb="R. Rimmler" type="K" result="GOOD" score="Y"/>
+      </play>
+      <score V="19" H="19"/>
+      <drivesum plays="11" yards="70" top="6:17" driveindex="16" complete="Y"/>
+      <play hasball="FG" down="1" togo="0" spot="FG30" context="H,1,0,H30" playid="16,14,131" type="K" tokens="KO:1,V09 RET:22,H48 OB: PEN:V,IBW,A,23,V42,N D:1,10 SPOT:V,V42,Y" text="R. Rimmler kickoff 61 yards to the RF9, O. Williams return 43 yards to the FG48, out-of-bounds, PENALTY RF Illegal Block Above Waist (D. Rennich) 10 yards to the RF42, 1st and 10, RF ball on RF42." ob="Y" newcontext="V,1,10,V42">
+        <p_ko vh="H" name="R. Rimmler" gain="61"/>
+        <p_kr vh="V" name="O. Williams" gain="43"/>
+        <p_pn vh="V" code="IBW" type="Illegal Block Above Waist" name="D. Rennich" result="ACCEPT" at="H48" yards="10"/>
+      </play>
+      <drivestart poss="V,V42,08:32" vh="V" spot="V42" clock="08:32" driveindex="17,131"/>
+      <play hasball="RF" down="1" togo="10" spot="RF42" context="V,1,10,V42" playid="17,1,132" clock="08:32" tokens="{DRIVE}:08:32" text="RHEIN FIRE drive start at 08:32." newcontext="V,1,10,V42">
+   </play>
+      <play hasball="RF" down="1" togo="10" spot="RF42" context="V,1,10,V42" playid="17,2,133" type="E" tokens="PASS:11,I,TM,* PEN:H,DO,A,24,V47,N NOPLAY:" text="M. Adam pass incomplete, PENALTY FG Defensive Offside (K. Ben El Ghali) 5 yards to the RF47, NO PLAY." newcontext="V,1,5,V47">
+        <p_pn vh="H" code="DO" type="Defensive Offside" name="K. Ben El Ghali" result="ACCEPT" at="V42" yards="5"/>
+      </play>
+      <play hasball="RF" down="1" togo="5" spot="RF47" context="V,1,5,V47" playid="17,3,134" type="R" first="R" tokens="RUSH:21,H29, TACK:18" text="J. Aguemon rush for 24 yards to the FG29, 1ST DOWN RF (F. Lowery)." newcontext="V,1,10,H29">
+        <p_ru vh="V" name="J. Aguemon" gain="24"/>
+        <p_tk vh="H" name="F. Lowery"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="FG29" context="V,1,10,H29" playid="17,4,135" type="R" first="R" tokens="RUSH:23,H14, TACK:31" text="D. Rennich rush for 15 yards to the FG14, 1ST DOWN RF (K. Katz)." newcontext="V,1,10,H14">
+        <p_ru vh="V" name="D. Rennich" gain="15"/>
+        <p_tk vh="H" name="K. Katz"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="FG14" context="V,1,10,H14" playid="17,5,136" type="R" tokens="RUSH:23,H10, TACK:40,90" text="D. Rennich rush for 4 yards to the FG10 (L. Achaintre;M. A. Hor)." newcontext="V,2,6,H10">
+        <p_ru vh="V" name="D. Rennich" gain="4"/>
+        <p_tk vh="H" name="L. Achaintre" assist="Y"/>
+        <p_tk vh="H" name="M. A. Hor" assist="Y"/>
+      </play>
+      <play hasball="RF" down="2" togo="6" spot="FG10" context="V,2,6,H10" playid="17,6,137" type="P" tokens="PASS:11,I,6,* BRUP:18" text="M. Adam pass incomplete to T. Knuettel (F. Lowery)." newcontext="V,3,6,H10">
+        <p_pa vh="V" qb="M. Adam" result="INC" rcv="T. Knuettel"/>
+        <p_bu vh="H" name="F. Lowery"/>
+      </play>
+      <play hasball="RF" down="3" togo="6" spot="FG10" context="V,3,6,H10" playid="17,7,138" type="R" first="R" tokens="RUSH:23,H01, TACK:14" text="D. Rennich rush for 9 yards to the FG1, 1ST DOWN RF (J. Poznanski)." newcontext="V,1,0,H01">
+        <p_ru vh="V" name="D. Rennich" gain="9"/>
+        <p_tk vh="H" name="J. Poznanski"/>
+      </play>
+      <play hasball="RF" down="1" togo="0" spot="FG01" context="V,1,0,H01" playid="17,8,139" type="R" first="R" score="Y" vscore="25" hscore="19" clock="05:48" tokens="RUSH:21,H00, T:05:48" text="J. Aguemon rush for 1 yard to the FG0, 1ST DOWN RF, TOUCHDOWN, clock 05:48." newcontext="V,1,10,H15">
+        <p_ru vh="V" name="J. Aguemon" gain="1"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="FG15" context="V,1,10,H15" playid="17,9,140" type="X" score="Y" vscore="26" hscore="19" tokens="PAT:K,2,G" text="D. Schuhmacher kick attempt good." newcontext="V,1,0,V30">
+        <p_pat vh="V" name="D. Schuhmacher" qb="D. Schuhmacher" type="K" result="GOOD" score="Y"/>
+      </play>
+      <score V="26" H="19"/>
+      <drivesum plays="6" yards="58" top="2:44" driveindex="17" complete="Y"/>
+      <play hasball="RF" down="1" togo="0" spot="RF30" context="V,1,0,V30" playid="17,10,141" type="K" tokens="KO:23,H03 RET:18,H12 +:13,H32 TACK:57" text="D. Rennich kickoff 67 yards to the FG3, F. Lowery return 9 yards to the FG12, M. Rutsch for 20 yards to the FG32 (L. Fiedler)." newcontext="H,1,10,H32">
+        <p_ko vh="V" name="D. Rennich" gain="67"/>
+        <p_kr vh="H" name="F. Lowery" gain="9"/>
+        <p_cont vh="H" name="M. Rutsch" context="KO" at="H12" gain="20"/>
+        <p_tk vh="V" name="L. Fiedler"/>
+      </play>
+      <drivestart poss="H,H32,05:39" vh="H" spot="H32" clock="05:39" driveindex="18,141"/>
+      <play hasball="FG" down="1" togo="10" spot="FG32" context="H,1,10,H32" playid="18,1,142" clock="05:39" tokens="{DRIVE}:05:39 SPOT:H,H32,Y" text="FRANKFURT GALAXY drive start at 05:39, FG ball on FG32." newcontext="H,1,10,H32">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG32" context="H,1,10,H32" playid="18,2,143" type="R" tokens="RUSH:21,H36, TACK:59" text="G. Adams rush for 4 yards to the FG36 (E. Zengin)." newcontext="H,2,6,H36">
+        <p_ru vh="H" name="G. Adams" gain="4"/>
+        <p_tk vh="V" name="E. Zengin"/>
+      </play>
+      <play hasball="FG" down="2" togo="6" spot="FG36" context="H,2,6,H36" playid="18,3,144" type="P" turnover="I" tokens="PASS:7,X,7,V45 RET:7,V45 TACK:19" text="J. Sullivan pass intercepted by T. Janssen at the RF45, T. Janssen return 0 yards to the RF45 (N. Strahmann)." newcontext="V,1,10,V45">
+        <p_pa vh="H" qb="J. Sullivan" result="INT"/>
+        <p_ir vh="V" name="T. Janssen" at="V45" gain="0"/>
+        <p_tk vh="H" name="N. Strahmann"/>
+      </play>
+      <drivesum plays="2" yards="4" top="0:50" driveindex="18" complete="Y"/>
+      <drivestart poss="V,V45,04:49" vh="V" spot="V45" clock="04:49" driveindex="19,144"/>
+      <play hasball="RF" down="1" togo="10" spot="RF45" context="V,1,10,V45" playid="19,1,145" clock="04:49" tokens="{DRIVE}:04:49" text="RHEIN FIRE drive start at 04:49." newcontext="V,1,10,V45">
+   </play>
+      <play hasball="RF" down="1" togo="10" spot="RF45" context="V,1,10,V45" playid="19,2,146" type="R" tokens="RUSH:21,V49, TACK:90" text="J. Aguemon rush for 4 yards to the RF49 (M. A. Hor)." newcontext="V,2,6,V49">
+        <p_ru vh="V" name="J. Aguemon" gain="4"/>
+        <p_tk vh="H" name="M. A. Hor"/>
+      </play>
+      <play hasball="RF" down="2" togo="6" spot="RF49" context="V,2,6,V49" playid="19,3,147" tokens="QB:V,12" text="R. Dagdelen at QB for Rhein Fire." newcontext="V,2,6,V49">
+   </play>
+      <play hasball="RF" down="2" togo="6" spot="RF49" context="V,2,6,V49" playid="19,4,148" type="E" tokens="PEN:V,DG,A,12,V44,N" text="PENALTY RF Delay of Game (R. Dagdelen) 5 yards to the RF44." newcontext="V,2,11,V44">
+        <p_pn vh="V" code="DG" type="Delay of Game" name="R. Dagdelen" result="ACCEPT" at="V49" yards="5"/>
+      </play>
+      <play hasball="RF" down="2" togo="11" spot="RF44" context="V,2,11,V44" playid="19,5,149" type="P" tokens="PASS:12,C,21,V48 TACK:52" text="R. Dagdelen pass complete to J. Aguemon for 4 yards to the RF48 (W. Nasri)." newcontext="V,3,7,V48">
+        <p_pa vh="V" qb="R. Dagdelen" result="COMP" rcv="J. Aguemon" gain="4"/>
+        <p_tk vh="H" name="W. Nasri"/>
+      </play>
+      <play hasball="RF" down="3" togo="7" spot="RF48" context="V,3,7,V48" playid="19,6,150" type="R" tokens="RUSH:23,H49, TACK:14,90" text="D. Rennich rush for 3 yards to the FG49 (J. Poznanski;M. A. Hor)." newcontext="V,4,4,H49">
+        <p_ru vh="V" name="D. Rennich" gain="3"/>
+        <p_tk vh="H" name="J. Poznanski" assist="Y"/>
+        <p_tk vh="H" name="M. A. Hor" assist="Y"/>
+      </play>
+      <play hasball="RF" down="4" togo="4" spot="FG49" context="V,4,4,H49" playid="19,7,151" type="U" tokens="PUNT:14,H00 TB:" text="M. Eisenhut punt 49 yards to the FG0, touchback." newcontext="H,1,10,H20">
+        <p_pu vh="V" name="M. Eisenhut" gain="49" tb="Y"/>
+      </play>
+      <drivesum plays="3" yards="6" top="2:36" driveindex="19" complete="Y"/>
+      <drivestart poss="H,H20,02:13" vh="H" spot="H20" clock="02:13" driveindex="20,151"/>
+      <play hasball="FG" down="1" togo="10" spot="FG20" context="H,1,10,H20" playid="20,1,152" clock="02:13" tokens="{DRIVE}:02:13" text="FRANKFURT GALAXY drive start at 02:13." newcontext="H,1,10,H20">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG20" context="H,1,10,H20" playid="20,2,153" type="R" tokens="RUSH:21,H23, TACK:59,3" text="G. Adams rush for 3 yards to the FG23 (E. Zengin;L. Ruoss)." newcontext="H,2,7,H23">
+        <p_ru vh="H" name="G. Adams" gain="3"/>
+        <p_tk vh="V" name="E. Zengin" assist="Y"/>
+        <p_tk vh="V" name="L. Ruoss" assist="Y"/>
+      </play>
+      <play hasball="FG" down="2" togo="7" spot="FG23" context="H,2,7,H23" playid="20,3,154" type="P" tokens="PASS:7,C,21,H27 TACK:51" text="J. Sullivan pass complete to G. Adams for 4 yards to the FG27 (M. Pinter)." newcontext="H,3,3,H27">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="G. Adams" gain="4"/>
+        <p_tk vh="V" name="M. Pinter"/>
+      </play>
+      <play hasball="FG" down="3" togo="3" spot="FG27" context="H,3,3,H27" playid="20,4,155" type="P" turnover="F" tokens="PASS:7,F,TM,H16 SACK:51 FUMB:V,H09,58 TACK:77" text="J. Sullivan sacked for loss of 11 yards to the FG16 (M. Pinter), fumble by TM recovered by RF J. Sleiman at FG9 (Y. Kiehl)." newcontext="V,1,0,H09">
+        <p_pa vh="H" qb="J. Sullivan" result="FUMB" gain="-11"/>
+        <p_fumb vh="H" name="TM" at="H09" frvh="V" frname="J. Sleiman"/>
+        <p_tk vh="V" name="M. Pinter" sack="Y"/>
+        <p_tk vh="H" name="Y. Kiehl"/>
+      </play>
+      <drivesum plays="3" yards="-11" top="1:24" driveindex="20" complete="Y"/>
+      <drivestart poss="V,H09,00:49" vh="V" spot="H09" clock="00:49" driveindex="21,155"/>
+      <play hasball="RF" down="1" togo="0" spot="FG09" context="V,1,0,H09" playid="21,1,156" clock="00:49" tokens="{DRIVE}:00:49" text="RHEIN FIRE drive start at 00:49." newcontext="V,1,0,H09">
+   </play>
+      <play hasball="RF" down="1" togo="0" spot="FG09" context="V,1,0,H09" playid="21,2,157" type="R" tokens="RUSH:21,H09, TACK:41,99" text="J. Aguemon rush for no gain to the FG9 (S. Gauthier;K. Maier)." newcontext="V,2,0,H09">
+        <p_ru vh="V" name="J. Aguemon" gain="0"/>
+        <p_tk vh="H" name="S. Gauthier" assist="Y"/>
+        <p_tk vh="H" name="K. Maier" assist="Y"/>
+      </play>
+      <play hasball="RF" down="2" togo="0" spot="FG09" context="V,2,0,H09" playid="21,3,158" type="R" tokens="RUSH:23,H02, TACK:52" text="D. Rennich rush for 7 yards to the FG2 (W. Nasri)." newcontext="V,3,0,H02">
+        <p_ru vh="V" name="D. Rennich" gain="7"/>
+        <p_tk vh="H" name="W. Nasri"/>
+      </play>
+      <score qtr="3" V="26" H="19"/>
+      <endqtr/>
+      <qtrsummary vh="V" id="RF">
+        <firstdowns no="4" rush="4" pass="0" penalty="0"/>
+        <penalties no="2" yds="15"/>
+        <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="06:20"/>
+        <rush att="9" yds="67" gain="67" loss="0" td="1" long="6"/>
+        <pass comp="1" att="2" int="0" yds="4" td="0" long="0" sacks="0" sackyds="0"/>
+        <rcv no="1" yds="4" td="0" long="0"/>
+        <punt no="1" yds="49" long="13" blkd="0" tb="1" fc="0" plus50="0" inside20="0" avg="49.0"/>
+        <ko no="2" yds="137" ob="0" tb="1" fcyds="8192"/>
+        <pat kickatt="1" kickmade="1"/>
+        <defense tackua="11" tacka="8" tot_tack="19" tflua="2" tfla="0" tflyds="13" sacks="1" sackyds="11" ff="1" fr="1" fryds="0" int="1" intyds="0"/>
+        <kr no="1" yds="43" td="0" long="0"/>
+        <ir no="1" yds="0" td="0" long="0"/>
+        <scoring td="1" patkick="1"/>
+      </qtrsummary>
+      <qtrsummary vh="H" id="FG">
+        <firstdowns no="6" rush="1" pass="5" penalty="0"/>
+        <penalties no="1" yds="5"/>
+        <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"/>
+        <fumbles no="1" lost="1"/>
+        <misc yds="-7" top="08:40"/>
+        <rush att="8" yds="19" gain="21" loss="2" td="1" long="0"/>
+        <pass comp="6" att="7" int="1" yds="51" td="0" long="0" sacks="1" sackyds="11"/>
+        <rcv no="6" yds="62" td="0" long="0"/>
+        <ko no="1" yds="61" ob="0" tb="0" fcyds="8224"/>
+        <pat kickatt="1" kickmade="1"/>
+        <defense tackua="8" tacka="6" tot_tack="14" sacks="0" sackyds="0" brup="1"/>
+        <kr no="1" yds="29" td="0" long="0"/>
+        <fumbles no="1" lost="1"/>
+        <scoring td="1" patkick="1"/>
+      </qtrsummary>
+    </qtr>
+    <qtr number="4" text="4th">
+      <play hasball="RF" down="3" togo="0" spot="FG02" context="V,3,0,H02" playid="21,4,159" type="#" clock="15:00" tokens="Q:4 T:15:00" text="Start of 4th quarter, clock 15:00." newcontext="V,3,0,H02">
+   </play>
+      <play hasball="RF" down="3" togo="0" spot="FG02" context="V,3,0,H02" playid="21,5,160" tokens="QB:V,11" text="M. Adam at QB for Rhein Fire." newcontext="V,3,0,H02">
+   </play>
+      <play hasball="RF" down="3" togo="0" spot="FG02" context="V,3,0,H02" playid="21,6,161" type="R" tokens="RUSH:23,H01, TACK:91,90" text="D. Rennich rush for 1 yard to the FG1 (V. Buffet;M. A. Hor)." newcontext="V,4,0,H01">
+        <p_ru vh="V" name="D. Rennich" gain="1"/>
+        <p_tk vh="H" name="V. Buffet" assist="Y"/>
+        <p_tk vh="H" name="M. A. Hor" assist="Y"/>
+      </play>
+      <play hasball="RF" down="4" togo="0" spot="FG01" context="V,4,0,H01" playid="21,7,162" type="P" tokens="PASS:11,I,85,* BRUP:24" text="M. Adam pass incomplete to S. Barelds (K. Ben El Ghali)." newcontext="H,1,10,H01">
+        <p_pa vh="V" qb="M. Adam" result="INC" rcv="S. Barelds"/>
+        <p_bu vh="H" name="K. Ben El Ghali"/>
+      </play>
+      <drivesum plays="4" yards="8" top="1:41" driveindex="21" complete="Y"/>
+      <drivestart poss="H,H01,14:08" vh="H" spot="H01" clock="14:08" driveindex="22,162"/>
+      <play hasball="FG" down="1" togo="10" spot="FG01" context="H,1,10,H01" playid="22,1,163" clock="14:08" tokens="{DRIVE}:14:08" text="FRANKFURT GALAXY drive start at 14:08." newcontext="H,1,10,H01">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG01" context="H,1,10,H01" playid="22,2,164" type="R" tokens="RUSH:21,H08, TACK:57" text="G. Adams rush for 7 yards to the FG8 (L. Fiedler)." newcontext="H,2,3,H08">
+        <p_ru vh="H" name="G. Adams" gain="7"/>
+        <p_tk vh="V" name="L. Fiedler"/>
+      </play>
+      <play hasball="FG" down="2" togo="3" spot="FG08" context="H,2,3,H08" playid="22,3,165" type="R" first="R" tokens="RUSH:21,H14, TACK:9,57" text="G. Adams rush for 6 yards to the FG14, 1ST DOWN FG (R. Grooten;L. Fiedler)." newcontext="H,1,10,H14">
+        <p_ru vh="H" name="G. Adams" gain="6"/>
+        <p_tk vh="V" name="R. Grooten" assist="Y"/>
+        <p_tk vh="V" name="L. Fiedler" assist="Y"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="FG14" context="H,1,10,H14" playid="22,4,166" type="R" tokens="RUSH:21,H20, TACK:59" text="G. Adams rush for 6 yards to the FG20 (E. Zengin)." newcontext="H,2,4,H20">
+        <p_ru vh="H" name="G. Adams" gain="6"/>
+        <p_tk vh="V" name="E. Zengin"/>
+      </play>
+      <play hasball="FG" down="2" togo="4" spot="FG20" context="H,2,4,H20" playid="22,5,167" type="R" tokens="RUSH:21,H23, TACK:97" text="G. Adams rush for 3 yards to the FG23 (J. Chikere)." newcontext="H,3,1,H23">
+        <p_ru vh="H" name="G. Adams" gain="3"/>
+        <p_tk vh="V" name="J. Chikere"/>
+      </play>
+      <play hasball="FG" down="3" togo="1" spot="FG23" context="H,3,1,H23" playid="22,6,168" type="R" first="R" tokens="RUSH:21,H25, TACK:9" text="G. Adams rush for 2 yards to the FG25, 1ST DOWN FG (R. Grooten)." newcontext="H,1,10,H25">
+        <p_ru vh="H" name="G. Adams" gain="2"/>
+        <p_tk vh="V" name="R. Grooten"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="FG25" context="H,1,10,H25" playid="22,7,169" type="P" tokens="PASS:7,C,10,H34 TACK:25" text="J. Sullivan pass complete to T. Benschuh for 9 yards to the FG34 (L. Meyer)." newcontext="H,2,1,H34">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="T. Benschuh" gain="9"/>
+        <p_tk vh="V" name="L. Meyer"/>
+      </play>
+      <play hasball="FG" down="2" togo="1" spot="FG34" context="H,2,1,H34" playid="22,8,170" type="P" first="P" tokens="PASS:7,C,86,H38 TACK:29" text="J. Sullivan pass complete to L. Regler for 4 yards to the FG38, 1ST DOWN FG (R. Hanssen)." newcontext="H,1,10,H38">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="L. Regler" gain="4"/>
+        <p_tk vh="V" name="R. Hanssen"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="FG38" context="H,1,10,H38" playid="22,9,171" type="P" tokens="PASS:7,C,22,H42 TACK:7" text="J. Sullivan pass complete to K. Hunter for 4 yards to the FG42 (T. Janssen)." newcontext="H,2,6,H42">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="K. Hunter" gain="4"/>
+        <p_tk vh="V" name="T. Janssen"/>
+      </play>
+      <play hasball="FG" down="2" togo="6" spot="FG42" context="H,2,6,H42" playid="22,10,172" type="P" first="P" tokens="PASS:7,C,13,V48 OB:" text="J. Sullivan pass complete to M. Rutsch for 10 yards to the RF48, 1ST DOWN FG, out-of-bounds." ob="Y" newcontext="H,1,10,V48">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="M. Rutsch" gain="10"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF48" context="H,1,10,V48" playid="22,11,173" type="P" tokens="PASS:7,C,10,V45 TACK:25" text="J. Sullivan pass complete to T. Benschuh for 3 yards to the RF45 (L. Meyer)." newcontext="H,2,7,V45">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="T. Benschuh" gain="3"/>
+        <p_tk vh="V" name="L. Meyer"/>
+      </play>
+      <play hasball="FG" down="2" togo="7" spot="RF45" context="H,2,7,V45" playid="22,12,174" type="P" tokens="PASS:7,C,22,V44 TACK:25,3" text="J. Sullivan pass complete to K. Hunter for 1 yard to the RF44 (L. Meyer;L. Ruoss)." newcontext="H,3,6,V44">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="K. Hunter" gain="1"/>
+        <p_tk vh="V" name="L. Meyer" assist="Y"/>
+        <p_tk vh="V" name="L. Ruoss" assist="Y"/>
+      </play>
+      <play hasball="FG" down="3" togo="6" spot="RF44" context="H,3,6,V44" playid="22,13,175" type="P" tokens="PASS:7,I,16,*" text="J. Sullivan pass incomplete to N. Schumm." newcontext="H,4,6,V44">
+        <p_pa vh="H" qb="J. Sullivan" result="INC" rcv="N. Schumm"/>
+      </play>
+      <play hasball="FG" down="4" togo="6" spot="RF44" context="H,4,6,V44" playid="22,14,176" type="P" first="P" tokens="PASS:7,C,21,V21 TACK:22" text="J. Sullivan pass complete to G. Adams for 23 yards to the RF21, 1ST DOWN FG (O. Williams)." newcontext="H,1,10,V21">
+        <p_pa vh="H" qb="J. Sullivan" result="COMP" rcv="G. Adams" gain="23"/>
+        <p_tk vh="V" name="O. Williams"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF21" context="H,1,10,V21" playid="22,15,177" type="R" first="E" tokens="RUSH:7,V21, TACK:51,25 PEN:V,FM,A,25,V11,1" text="J. Sullivan rush for no gain to the RF21 (M. Pinter;L. Meyer), PENALTY RF Facemask (L. Meyer) 10 yards to the RF11, 1ST DOWN FG." newcontext="H,1,10,V11">
+        <p_ru vh="H" name="J. Sullivan" gain="0"/>
+        <p_tk vh="V" name="M. Pinter" assist="Y"/>
+        <p_tk vh="V" name="L. Meyer" assist="Y"/>
+        <p_pn vh="V" code="FM" type="Facemask" name="L. Meyer" result="ACCEPT" at="V21" yards="10"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF11" context="H,1,10,V11" playid="22,16,178" tokens="D:1,10" text="1st and 10." newcontext="H,1,10,V11">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="RF11" context="H,1,10,V11" playid="22,17,179" type="E" first="E" tokens="PASS:7,I,13,* PEN:V,RP,A,25,V05,1 NOPLAY:" text="J. Sullivan pass incomplete to M. Rutsch, PENALTY RF Roughing the Passer (L. Meyer) 6 yards to the RF5, 1ST DOWN FG, NO PLAY." newcontext="H,1,0,V05">
+        <p_pn vh="V" code="RP" type="Roughing the Passer" name="L. Meyer" result="ACCEPT" at="V11" yards="6"/>
+      </play>
+      <play hasball="FG" down="1" togo="0" spot="RF05" context="H,1,0,V05" playid="22,18,180" type="R" tokens="RUSH:7,V01, TACK:58,9" text="J. Sullivan rush for 4 yards to the RF1 (J. Sleiman;R. Grooten)." newcontext="H,2,0,V01">
+        <p_ru vh="H" name="J. Sullivan" gain="4"/>
+        <p_tk vh="V" name="J. Sleiman" assist="Y"/>
+        <p_tk vh="V" name="R. Grooten" assist="Y"/>
+      </play>
+      <play hasball="FG" down="2" togo="0" spot="RF01" context="H,2,0,V01" playid="22,19,181" type="R" first="R" score="Y" vscore="26" hscore="25" clock="05:07" tokens="RUSH:7,V00, T:05:07" text="J. Sullivan rush for 1 yard to the RF0, 1ST DOWN FG, TOUCHDOWN, clock 05:07." newcontext="H,1,10,V15">
+        <p_ru vh="H" name="J. Sullivan" gain="1"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="RF15" context="H,1,10,V15" playid="22,20,182" type="X" score="Y" vscore="26" hscore="26" tokens="PAT:K,1,G" text="R. Rimmler kick attempt good." newcontext="H,1,0,H30">
+        <p_pat vh="H" name="R. Rimmler" qb="R. Rimmler" type="K" result="GOOD" score="Y"/>
+      </play>
+      <score V="26" H="26"/>
+      <drivesum plays="16" yards="99" top="9:01" driveindex="22" complete="Y"/>
+      <play hasball="FG" down="1" togo="0" spot="FG30" context="H,1,0,H30" playid="22,21,183" type="K" tokens="KO:1,V03 RET:22,V33 OB:" text="R. Rimmler kickoff 67 yards to the RF3, O. Williams return 30 yards to the RF33, out-of-bounds." ob="Y" newcontext="V,1,10,V33">
+        <p_ko vh="H" name="R. Rimmler" gain="67"/>
+        <p_kr vh="V" name="O. Williams" gain="30"/>
+      </play>
+      <drivestart poss="V,V33,05:01" vh="V" spot="V33" clock="05:01" driveindex="23,183"/>
+      <play hasball="RF" down="1" togo="10" spot="RF33" context="V,1,10,V33" playid="23,1,184" clock="05:01" tokens="{DRIVE}:05:01" text="RHEIN FIRE drive start at 05:01." newcontext="V,1,10,V33">
+   </play>
+      <play hasball="RF" down="1" togo="10" spot="RF33" context="V,1,10,V33" playid="23,2,185" type="P" tokens="PASS:11,S,TM,V27 SACK:41" text="M. Adam sacked for loss of 6 yards to the RF27 (S. Gauthier)." newcontext="V,2,16,V27">
+        <p_pa vh="V" qb="M. Adam" result="SACK" gain="-6"/>
+        <p_tk vh="H" name="S. Gauthier" sack="Y"/>
+      </play>
+      <play hasball="RF" down="2" togo="16" spot="RF27" context="V,2,16,V27" playid="23,3,186" tokens="QB:V,12" text="R. Dagdelen at QB for Rhein Fire." newcontext="V,2,16,V27">
+   </play>
+      <play hasball="RF" down="2" togo="16" spot="RF27" context="V,2,16,V27" playid="23,4,187" type="R" tokens="RUSH:21,V23, TACK:95,90" text="J. Aguemon rush for loss of 4 yards to the RF23 (M. Konya;M. A. Hor)." newcontext="V,3,20,V23">
+        <p_ru vh="V" name="J. Aguemon" gain="-4"/>
+        <p_tk vh="H" name="M. Konya" assist="Y"/>
+        <p_tk vh="H" name="M. A. Hor" assist="Y"/>
+      </play>
+      <play hasball="RF" down="3" togo="20" spot="RF23" context="V,3,20,V23" playid="23,5,188" type="P" tokens="PASS:12,C,6,V40 TACK:14" text="R. Dagdelen pass complete to T. Knuettel for 17 yards to the RF40 (J. Poznanski)." newcontext="V,4,3,V40">
+        <p_pa vh="V" qb="R. Dagdelen" result="COMP" rcv="T. Knuettel" gain="17"/>
+        <p_tk vh="H" name="J. Poznanski"/>
+      </play>
+      <play hasball="RF" down="4" togo="3" spot="RF40" context="V,4,3,V40" playid="23,6,189" type="#" clock="03:28" tokens="TOUT:H T:03:28" text="Timeout Frankfurt Galaxy, clock 03:28." newcontext="V,4,3,V40">
+        <p_to vh="H" team="Frankfurt Galaxy"/>
+      </play>
+      <play hasball="RF" down="4" togo="3" spot="RF40" context="V,4,3,V40" playid="23,7,190" type="U" tokens="PUNT:14,H14 RET:18,H14 TACK:43,34" text="M. Eisenhut punt 46 yards to the FG14, F. Lowery return 0 yards to the FG14 (P. Poetsch;F. Umetelli)." newcontext="H,1,10,H14">
+        <p_pu vh="V" name="M. Eisenhut" gain="46" in20="Y"/>
+        <p_pr vh="H" name="F. Lowery" gain="0"/>
+        <p_tk vh="V" name="P. Poetsch" assist="Y"/>
+        <p_tk vh="V" name="F. Umetelli" assist="Y"/>
+      </play>
+      <drivesum plays="3" yards="7" top="1:40" driveindex="23" complete="Y"/>
+      <drivestart poss="H,H14,03:21" vh="H" spot="H14" clock="03:21" driveindex="24,190"/>
+      <play hasball="FG" down="1" togo="10" spot="FG14" context="H,1,10,H14" playid="24,1,191" clock="03:21" tokens="{DRIVE}:03:21" text="FRANKFURT GALAXY drive start at 03:21." newcontext="H,1,10,H14">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG14" context="H,1,10,H14" playid="24,2,192" type="E" tokens="PASS:7,C,10,H16 TACK:4 PEN:H,IBW,A,21,H07,N NOPLAY:" text="J. Sullivan pass complete to T. Benschuh for 2 yards to the FG16 (J. Seibel), PENALTY FG Illegal Block Above Waist (G. Adams) 7 yards to the FG7, NO PLAY." newcontext="H,1,17,H07">
+        <p_pn vh="H" code="IBW" type="Illegal Block Above Waist" name="G. Adams" result="ACCEPT" at="H14" yards="7"/>
+      </play>
+      <play hasball="FG" down="1" togo="17" spot="FG07" context="H,1,17,H07" playid="24,3,193" type="R" tokens="RUSH:21,H09, TACK:41,90" text="G. Adams rush for 2 yards to the FG9 (A. Sobotta;R. Feltes)." newcontext="H,2,15,H09">
+        <p_ru vh="H" name="G. Adams" gain="2"/>
+        <p_tk vh="V" name="A. Sobotta" assist="Y"/>
+        <p_tk vh="V" name="R. Feltes" assist="Y"/>
+      </play>
+      <play hasball="FG" down="2" togo="15" spot="FG09" context="H,2,15,H09" playid="24,4,194" type="P" tokens="PASS:7,I,21,*" text="J. Sullivan pass incomplete to G. Adams." newcontext="H,3,15,H09">
+        <p_pa vh="H" qb="J. Sullivan" result="INC" rcv="G. Adams"/>
+      </play>
+      <play hasball="FG" down="3" togo="15" spot="FG09" context="H,3,15,H09" playid="24,5,195" type="R" tokens="RUSH:7,H09, TACK:3" text="J. Sullivan rush for no gain to the FG9 (L. Ruoss)." newcontext="H,4,15,H09">
+        <p_ru vh="H" name="J. Sullivan" gain="0"/>
+        <p_tk vh="V" name="L. Ruoss"/>
+      </play>
+      <play hasball="FG" down="4" togo="15" spot="FG09" context="H,4,15,H09" playid="24,6,196" type="#" clock="02:14" tokens="TOUT:V T:02:14" text="Timeout Rhein Fire, clock 02:14." newcontext="H,4,15,H09">
+        <p_to vh="V" team="Rhein Fire"/>
+      </play>
+      <play hasball="FG" down="4" togo="15" spot="FG09" context="H,4,15,H09" playid="24,7,197" type="U" tokens="PUNT:82,V45 RET:86,H45 TACK:99,58" text="H. Schwarz punt 46 yards to the RF45, N. Robitaille return 10 yards to the FG45 (K. Maier;A. Williams)." newcontext="V,1,10,H45">
+        <p_pu vh="H" name="H. Schwarz" gain="46"/>
+        <p_pr vh="V" name="N. Robitaille" gain="10"/>
+        <p_tk vh="H" name="K. Maier" assist="Y"/>
+        <p_tk vh="H" name="A. Williams" assist="Y"/>
+      </play>
+      <drivesum plays="3" yards="-5" top="1:21" driveindex="24" complete="Y"/>
+      <drivestart poss="V,H45,02:00" vh="V" spot="H45" clock="02:00" driveindex="25,197"/>
+      <play hasball="RF" down="1" togo="10" spot="FG45" context="V,1,10,H45" playid="25,1,198" clock="02:00" tokens="{DRIVE}:02:00" text="RHEIN FIRE drive start at 02:00." newcontext="V,1,10,H45">
+   </play>
+      <comment text="Two-Minute Warning"/>
+      <play hasball="RF" down="1" togo="10" spot="FG45" context="V,1,10,H45" playid="25,2,200" type="R" tokens="RUSH:21,H46, TACK:55,94" text="J. Aguemon rush for loss of 1 yard to the FG46 (M. Sy;C. Udegbe)." newcontext="V,2,11,H46">
+        <p_ru vh="V" name="J. Aguemon" gain="-1"/>
+        <p_tk vh="H" name="M. Sy" assist="Y"/>
+        <p_tk vh="H" name="C. Udegbe" assist="Y"/>
+      </play>
+      <play hasball="RF" down="2" togo="11" spot="FG46" context="V,2,11,H46" playid="25,3,201" type="#" clock="01:52" tokens="TOUT:H T:01:52" text="Timeout Frankfurt Galaxy, clock 01:52." newcontext="V,2,11,H46">
+        <p_to vh="H" team="Frankfurt Galaxy"/>
+      </play>
+      <play hasball="RF" down="2" togo="11" spot="FG46" context="V,2,11,H46" playid="25,4,202" type="P" first="P" tokens="PASS:12,C,86,H17 TACK:18" text="R. Dagdelen pass complete to N. Robitaille for 29 yards to the FG17, 1ST DOWN RF (F. Lowery)." newcontext="V,1,10,H17">
+        <p_pa vh="V" qb="R. Dagdelen" result="COMP" rcv="N. Robitaille" gain="29"/>
+        <p_tk vh="H" name="F. Lowery"/>
+      </play>
+      <play hasball="RF" down="1" togo="10" spot="FG17" context="V,1,10,H17" playid="25,5,203" type="P" tokens="PASS:12,I,6,* BRUP:24" text="R. Dagdelen pass incomplete to T. Knuettel (K. Ben El Ghali)." newcontext="V,2,10,H17">
+        <p_pa vh="V" qb="R. Dagdelen" result="INC" rcv="T. Knuettel"/>
+        <p_bu vh="H" name="K. Ben El Ghali"/>
+      </play>
+      <play hasball="RF" down="2" togo="10" spot="FG17" context="V,2,10,H17" playid="25,6,204" type="R" first="R" tokens="RUSH:23,H07, TACK:24" text="D. Rennich rush for 10 yards to the FG7, 1ST DOWN RF (K. Ben El Ghali)." newcontext="V,1,0,H07">
+        <p_ru vh="V" name="D. Rennich" gain="10"/>
+        <p_tk vh="H" name="K. Ben El Ghali"/>
+      </play>
+      <play hasball="RF" down="1" togo="0" spot="FG07" context="V,1,0,H07" playid="25,7,205" type="E" tokens="PEN:V,DG,A,12,H12,N" text="PENALTY RF Delay of Game (R. Dagdelen) 5 yards to the FG12." newcontext="V,1,0,H12">
+        <p_pn vh="V" code="DG" type="Delay of Game" name="R. Dagdelen" result="ACCEPT" at="H07" yards="5"/>
+      </play>
+      <play hasball="RF" down="1" togo="0" spot="FG12" context="V,1,0,H12" playid="25,8,206" type="#" clock="00:13" tokens="TOUT:V T:00:13" text="Timeout Rhein Fire, clock 00:13." newcontext="V,1,0,H12">
+        <p_to vh="V" team="Rhein Fire"/>
+      </play>
+      <play hasball="RF" down="1" togo="0" spot="FG12" context="V,1,0,H12" playid="25,9,207" type="F" score="Y" vscore="29" hscore="26" clock="00:08" tokens="FGA:2,29,G T:00:08" text="D. Schuhmacher field goal attempt from 29 GOOD, clock 00:08." newcontext="V,1,0,V30">
+        <p_fg vh="V" name="D. Schuhmacher" distance="29" result="GOOD" score="Y"/>
+      </play>
+      <score V="29" H="26"/>
+      <drivesum plays="5" yards="33" top="1:52" driveindex="25" complete="Y"/>
+      <play hasball="RF" down="1" togo="0" spot="RF30" context="V,1,0,V30" playid="25,10,208" type="K" tokens="KO:2,H10 RET:33,H32 TACK:22,41" text="D. Schuhmacher kickoff 60 yards to the FG10, J. Rodney return 22 yards to the FG32 (O. Williams;A. Sobotta)." newcontext="H,1,10,H32">
+        <p_ko vh="V" name="D. Schuhmacher" gain="60"/>
+        <p_kr vh="H" name="J. Rodney" gain="22"/>
+        <p_tk vh="V" name="O. Williams" assist="Y"/>
+        <p_tk vh="V" name="A. Sobotta" assist="Y"/>
+      </play>
+      <drivestart poss="H,H32,00:01" vh="H" spot="H32" clock="00:01" driveindex="26,208"/>
+      <play hasball="FG" down="1" togo="10" spot="FG32" context="H,1,10,H32" playid="26,1,209" clock="00:01" tokens="{DRIVE}:00:01" text="FRANKFURT GALAXY drive start at 00:01." newcontext="H,1,10,H32">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG32" context="H,1,10,H32" playid="26,2,210" type="#" clock="00:01" tokens="TOUT:H T:00:01" text="Timeout Frankfurt Galaxy, clock 00:01." newcontext="H,1,10,H32">
+        <p_to vh="H" team="Frankfurt Galaxy"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="FG32" context="H,1,10,H32" playid="26,3,211" type="#" clock="00:01" tokens="TOUT:V T:00:01" text="Timeout Rhein Fire, clock 00:01." newcontext="H,1,10,H32">
+        <p_to vh="V" team="Rhein Fire"/>
+      </play>
+      <play hasball="FG" down="1" togo="10" spot="FG32" context="H,1,10,H32" playid="26,4,212" tokens="QB:H,16" text="N. Schumm at QB for Frankfurt Galaxy." newcontext="H,1,10,H32">
+   </play>
+      <play hasball="FG" down="1" togo="10" spot="FG32" context="H,1,10,H32" playid="26,5,213" type="P" turnover="I" tokens="PASS:16,X,25,V25 RET:25,V25 TACK:13" text="N. Schumm pass intercepted by L. Meyer at the RF25, L. Meyer return 0 yards to the RF25 (M. Rutsch)." newcontext="V,1,10,V25">
+        <p_pa vh="H" qb="N. Schumm" result="INT"/>
+        <p_ir vh="V" name="L. Meyer" at="V25" gain="0"/>
+        <p_tk vh="H" name="M. Rutsch"/>
+      </play>
+      <drivesum plays="1" yards="0" top="0:01" driveindex="26" complete="Y"/>
+      <drivestart poss="V,V25,00:00" vh="V" spot="V25" clock="00:00" driveindex="27,213"/>
+      <play hasball="RF" down="1" togo="10" spot="RF25" context="V,1,10,V25" playid="27,1,214" clock="00:00" tokens="{DRIVE}:00:00" text="RHEIN FIRE drive start at 00:00." newcontext="V,1,10,V25">
+   </play>
+      <drivesum plays="0" yards="0" top="0:00" driveindex="27" complete="Y"/>
+      <score final="Y" V="29" H="26"/>
+      <endqtr/>
+      <qtrsummary vh="V" id="RF">
+        <firstdowns no="2" rush="1" pass="1" penalty="0"/>
+        <penalties no="3" yds="21"/>
+        <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="04:30"/>
+        <rush att="4" yds="6" gain="11" loss="5" td="0" long="0"/>
+        <pass comp="2" att="4" int="0" yds="40" td="0" long="0" sacks="1" sackyds="6"/>
+        <rcv no="2" yds="46" td="0" long="0"/>
+        <punt no="1" yds="46" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="46.0"/>
+        <ko no="1" yds="60" ob="0" tb="0" fcyds="8192"/>
+        <fg made="1" att="1" long="29" blkd="0"/>
+        <defense tackua="10" tacka="14" tot_tack="24" sacks="0" sackyds="0" int="1" intyds="0"/>
+        <kr no="1" yds="30" td="0" long="0"/>
+        <pr no="1" yds="10" td="0" long="7"/>
+        <ir no="1" yds="0" td="0" long="0"/>
+        <scoring fg="1"/>
+      </qtrsummary>
+      <qtrsummary vh="H" id="FG">
+        <firstdowns no="8" rush="3" pass="3" penalty="2"/>
+        <penalties no="1" yds="7"/>
+        <conversions thirdconv="1" thirdatt="3" fourthconv="1" fourthatt="1"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="10:30"/>
+        <rush att="10" yds="31" gain="31" loss="0" td="1" long="0"/>
+        <pass comp="7" att="10" int="1" yds="54" td="0" long="7" sacks="0" sackyds="0"/>
+        <rcv no="7" yds="54" td="0" long="7"/>
+        <punt no="1" yds="46" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="46.0"/>
+        <ko no="1" yds="67" ob="0" tb="0" fcyds="8224"/>
+        <pat kickatt="1" kickmade="1"/>
+        <defense tackua="5" tacka="8" tot_tack="13" tflua="1" tfla="4" tflyds="11" sacks="1" sackyds="6" brup="2"/>
+        <kr no="1" yds="22" td="0" long="0"/>
+        <pr no="1" yds="0" td="0" long="0"/>
+        <scoring td="1" patkick="1"/>
+      </qtrsummary>
+    </qtr>
+    <downtogo hasball="V" id="RF" down="1" togo="10" spot="RF25" context="V,1,10,V25" qtr="4" clock="00:00" vtoh="3" htoh="3" lastplay="RHEIN FIRE drive start at 00:00."/>
+  </plays>
+  <message text=""/>
+</fbgame>

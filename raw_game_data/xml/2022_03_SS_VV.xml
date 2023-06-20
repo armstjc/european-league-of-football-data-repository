@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fbgame source="Tas Football" version="4.20.01" generated="6/19/2022">
+  <venue gameid="VVSS2203" visid="SS" homeid="VV" visname="Stuttgart Surge" homename="Vienna Vikings" date="6/19/2022" location="Vienna" stadium="Generali-Arena" start="15:00" end="17.54" leaguegame="Y" duration="2h39" attend="2400" temp="29 C" wind="NW 27kmh" weather="sunny">
+    <officials ref="K. Walentynowic" ump="B. Jovanovic" line="E. Walentynowic" lj="T. Frehar" bj="D. Jurzyk" fj="A. Mazrekaj" sj="H. Romanczyk"/>
+    <notes>
+      <note text="Clock Operator: A. Arsenijevic"/>
+      <note text="Review Official: P. Jukic"/>
+    </notes>
+    <rules qtrs="4" mins="15" downs="4" yds="10" kospot="30" tbspot="25" kotbspot="20" patspot="15" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="N" fgaplay="Y" netpunttb="Y"/>
+  </venue>
+  <team vh="V" code="" id="SS" name="Stuttgart Surge" record="0-3" abb="S">
+    <linescore prds="4" line="0,10,3,0" score="13">
+      <lineprd prd="1" score="0"/>
+      <lineprd prd="2" score="10"/>
+      <lineprd prd="3" score="3"/>
+      <lineprd prd="4" score="0"/>
+    </linescore>
+    <totals totoff_plays="61" totoff_yards="244" totoff_avg="4.0">
+      <firstdowns no="10" rush="2" pass="7" penalty="1"/>
+      <penalties no="7" yds="75"/>
+      <conversions thirdconv="5" thirdatt="16" fourthconv="0" fourthatt="1"/>
+      <fumbles no="2" lost="0"/>
+      <misc yds="0" top="29:49" ona="0" onm="0" ptsto="3"/>
+      <redzone att="3" scores="3" points="13" tdrush="0" tdpass="1" fgmade="2" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"/>
+      <rush att="20" yds="21" gain="49" loss="28" td="0" long="13"/>
+      <pass comp="17" att="41" int="1" yds="223" td="1" long="76" sacks="0" sackyds="0"/>
+      <rcv no="17" yds="223" td="1" long="76"/>
+      <punt no="8" yds="285" long="46" blkd="0" tb="1" fc="1" plus50="0" inside20="1" avg="35.6"/>
+      <ko no="3" yds="195" ob="0" tb="1" fcyds="0"/>
+      <fg made="2" att="2" long="34" blkd="0"/>
+      <pat kickatt="1" kickmade="1"/>
+      <defense tackua="50" tacka="10" tot_tack="60" tflua="2" tfla="4" tflyds="18" sacks="2" sackyds="10" brup="4" qbh="2" int="3" intyds="0"/>
+      <kr no="5" yds="99" td="0" long="35"/>
+      <pr no="2" yds="23" td="0" long="14"/>
+      <ir no="3" yds="0" td="0" long="1"/>
+      <scoring td="1" fg="2" patkick="1"/>
+    </totals>
+    <player name="M. Washington" shortname="M. Washington" checkname="WASHINGTON,M" uni="2" class="SR" gp="1" gs="1" dpos="CB" code="2">
+      <defense tackua="6" tacka="1" tot_tack="7" int="1" intyds="0"/>
+      <pr no="2" yds="23" td="0" long="14"/>
+      <ir no="1" yds="0" td="0" long="0"/>
+    </player>
+    <player name="D. Meza" shortname="D. Meza" checkname="MEZA,D" uni="5" class="SR" gp="1" gs="1" opos="TE" code="5">
+      <rcv no="3" yds="12" td="0" long="5"/>
+    </player>
+    <player name="J. Moukouri" shortname="J. Moukouri" checkname="MOUKOURI,J" uni="6" class="SR" gp="1" code="6">
+      <rush att="4" yds="15" gain="15" loss="0" td="0" long="13"/>
+    </player>
+    <player name="R. Schroeder" shortname="R. Schroeder" checkname="SCHROEDER,R" uni="8" class="SR" gp="1" gs="1" opos="QB" code="8">
+      <rush att="1" yds="5" gain="5" loss="0" td="0" long="5"/>
+      <pass comp="17" att="41" int="1" yds="223" td="1" long="76" sacks="0" sackyds="0"/>
+    </player>
+    <player name="J. Loria" shortname="J. Loria" checkname="LORIA,J" uni="9" class="SR" gp="1" code="9">
+      <rush att="1" yds="-28" gain="0" loss="28" td="0" long="0"/>
+      <punt no="8" yds="285" long="46" blkd="0" tb="1" fc="1" plus50="0" inside20="1" avg="35.6"/>
+      <ko no="3" yds="195" ob="0" tb="1"/>
+      <fg made="2" att="2" long="34" blkd="0"/>
+      <pat kickatt="1" kickmade="1"/>
+      <fumbles no="1" lost="0"/>
+      <scoring fg="2" patkick="1"/>
+    </player>
+    <player name="J. Hackenberg" shortname="J. Hackenberg" checkname="HACKENBERG,J" uni="10" class="SR" gp="1" code="10">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="R. Lakalaka" shortname="R. Lakalaka" checkname="LAKALAKA,R" uni="11" class="SR" gp="1" gs="1" dpos="LB" code="11">
+      <defense tackua="7" tacka="2" tot_tack="9" brup="1"/>
+    </player>
+    <player name="L. Faschian" shortname="L. Faschian" checkname="FASCHIAN,L" uni="12" class="SR" gp="1" code="12"/>
+    <player name="N. Bomba" shortname="N. Bomba" checkname="BOMBA,N" uni="13" class="SR" gp="1" code="13">
+      <rcv no="2" yds="83" td="0" long="76"/>
+    </player>
+    <player name="E. Pascual" shortname="E. Pascual" checkname="PASCUAL,E" uni="15" class="SR" gp="1" code="15">
+      <rcv no="2" yds="6" td="0" long="7"/>
+    </player>
+    <player name="M. Winterlik" shortname="M. Winterlik" checkname="WINTERLIK,M" uni="16" class="SR" gp="1" code="16">
+  </player>
+    <player name="M. Riedinger" shortname="M. Riedinger" checkname="RIEDINGER,M" uni="17" class="SR" gp="1" gs="1" opos="WR" code="17">
+      <rcv no="3" yds="43" td="0" long="38"/>
+    </player>
+    <player name="P. Steigerwald" shortname="P. Steigerwald" checkname="STEIGERWALD,P" uni="18" class="SR" gp="1" gs="1" opos="WR" code="18">
+      <rcv no="5" yds="57" td="1" long="26"/>
+      <scoring td="1"/>
+    </player>
+    <player name="C. Perron" shortname="C. Perron" checkname="PERRON,C" uni="22" class="SR" gp="1" gs="1" dpos="FS" code="22">
+      <defense tackua="6" tacka="0" tot_tack="6" brup="1"/>
+    </player>
+    <player name="C. Voumbo" shortname="C. Voumbo" checkname="VOUMBO,C" uni="23" class="SR" gp="1" gs="1" opos="RB" code="23">
+      <rush att="8" yds="21" gain="21" loss="0" td="0" long="8"/>
+      <kr no="4" yds="79" td="0" long="35"/>
+      <fumbles no="1" lost="0"/>
+    </player>
+    <player name="B. Barnes" shortname="B. Barnes" checkname="BARNES,B" uni="25" class="SR" gp="1" gs="1" dpos="SS" code="25">
+      <defense tackua="3" tacka="1" tot_tack="4" tflua="1" tfla="1" tflyds="6"/>
+      <kr no="1" yds="20" td="0" long="20"/>
+    </player>
+    <player name="T. Becker" shortname="T. Becker" checkname="BECKER,T" uni="30" class="SR" gp="1" gs="1" dpos="LB" code="30">
+      <defense tackua="3" tacka="0" tot_tack="3" tflua="1" tfla="0" tflyds="4" sackua="1" sacka="0" sackyds="4"/>
+    </player>
+    <player name="N. Wenzelburger" shortname="N. Wenzelburger" checkname="WENZELBURGER,N" uni="31" class="SR" gp="1" code="31">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="B. Wenzler" shortname="B. Wenzler" checkname="WENZLER,B" uni="33" class="SR" gp="1" gs="1" dpos="CB" code="33">
+      <defense tackua="5" tacka="1" tot_tack="6" brup="2"/>
+    </player>
+    <player name="B. Yankson" shortname="B. Yankson" checkname="YANKSON,B" uni="41" class="SR" gp="1" code="41">
+      <rush att="6" yds="8" gain="8" loss="0" td="0" long="4"/>
+    </player>
+    <player name="P. Ogbevoen" shortname="P. Ogbevoen" checkname="OGBEVOEN,P" uni="43" class="SR" gp="1" gs="1" dpos="LB" code="43">
+      <defense tackua="3" tacka="0" tot_tack="3" int="1" intyds="1"/>
+      <ir no="1" yds="1" td="0" long="1"/>
+    </player>
+    <player name="M. Mbala" shortname="M. Mbala" checkname="MBALA,M" uni="44" class="SR" gp="1" gs="1" dpos="LB" code="44">
+      <defense tackua="7" tacka="1" tot_tack="8" tflua="0" tfla="1" tflyds="2" int="1" intyds="-1"/>
+      <ir no="1" yds="-1" td="0" long="0"/>
+    </player>
+    <player name="T. Stickel" shortname="T. Stickel" checkname="STICKEL,T" uni="48" class="SR" gp="1" code="48"/>
+    <player name="M. Fischer" shortname="M. Fischer" checkname="FISCHER,M" uni="51" class="SR" gp="1" code="51">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="D. Gratza" shortname="D. Gratza" checkname="GRATZA,D" uni="55" class="SR" gp="1" code="55">
+      <defense tackua="1" tacka="1" tot_tack="2"/>
+    </player>
+    <player name="J. Steiger" shortname="J. Steiger" checkname="STEIGER,J" uni="71" class="SR" gp="1" gs="1" opos="LT" code="71"/>
+    <player name="B. Ayra" shortname="B. Ayra" checkname="AYRA,B" uni="78" class="SR" gp="1" gs="1" opos="LG" code="78"/>
+    <player name="P. Weiblen" shortname="P. Weiblen" checkname="WEIBLEN,P" uni="85" class="SR" gp="1" gs="1" opos="WR" code="85">
+      <rcv no="2" yds="22" td="0" long="14"/>
+    </player>
+    <player name="M. Kimpiabi" shortname="M. Kimpiabi" checkname="KIMPIABI,M" uni="90" class="SR" gp="1" gs="1" dpos="DL" code="90">
+      <defense tackua="0" tacka="1" tot_tack="1" tflua="0" tfla="1" tflyds="3" sackua="0" sacka="1" sackyds="3"/>
+    </player>
+    <player name="P. Ungericht" shortname="P. Ungericht" checkname="UNGERICHT,P" uni="97" class="SR" gp="1" code="97">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="M. Fuerst" shortname="M. Fuerst" checkname="FUERST,M" uni="98" class="SR" gp="1" gs="1" dpos="DL" code="98">
+      <defense tackua="2" tacka="0" tot_tack="2"/>
+    </player>
+    <player name="S. Vardar" shortname="S. Vardar" checkname="VARDAR,S" uni="99" class="SR" gp="1" gs="1" dpos="DL" code="99">
+      <defense tackua="3" tacka="2" tot_tack="5" tflua="0" tfla="1" tflyds="3" sackua="0" sacka="1" sackyds="3" qbh="2"/>
+    </player>
+  </team>
+  <team vh="H" code="" id="VV" name="Vienna Vikings" record="3.0" abb="V">
+    <linescore prds="4" line="10,9,6,17" score="42">
+      <lineprd prd="1" score="10"/>
+      <lineprd prd="2" score="9"/>
+      <lineprd prd="3" score="6"/>
+      <lineprd prd="4" score="17"/>
+    </linescore>
+    <totals totoff_plays="74" totoff_yards="442" totoff_avg="6.0">
+      <firstdowns no="28" rush="16" pass="9" penalty="3"/>
+      <penalties no="3" yds="35"/>
+      <conversions thirdconv="1" thirdatt="10" fourthconv="3" fourthatt="3"/>
+      <fumbles no="0" lost="0"/>
+      <misc yds="0" top="30:11" ona="0" onm="0" ptsto="0"/>
+      <redzone att="6" scores="6" points="36" tdrush="4" tdpass="1" fgmade="1" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"/>
+      <rush att="37" yds="231" gain="239" loss="8" td="4" long="31"/>
+      <pass comp="20" att="35" int="3" yds="211" td="1" long="45" sacks="2" sackyds="10"/>
+      <rcv no="20" yds="221" td="1" long="45"/>
+      <punt no="3" yds="125" long="44" blkd="0" tb="0" fc="1" plus50="0" inside20="1" avg="41.7"/>
+      <ko no="8" yds="512" ob="0" tb="3" fcyds="0"/>
+      <fg made="3" att="3" long="43" blkd="0"/>
+      <pat kickatt="4" kickmade="1" passatt="1" passmade="1" rcvatt="1" rcvmade="1"/>
+      <defense tackua="37" tacka="10" tot_tack="47" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0" brup="7" qbh="5" int="1" intyds="40"/>
+      <kr no="2" yds="61" td="0" long="37"/>
+      <pr no="2" yds="37" td="0" long="39"/>
+      <ir no="1" yds="40" td="0" long="40"/>
+      <scoring td="5" fg="3" patkick="1" patrcv="1"/>
+    </totals>
+    <player name="L. Balogh" shortname="L. Balogh" checkname="BALOGH,L" uni="1" class="SR" gp="1" gs="1" dpos="OLB" code="1">
+      <defense tackua="2" tacka="1" tot_tack="3" brup="1" qbh="2"/>
+    </player>
+    <player name="S. Daum" shortname="S. Daum" checkname="DAUM,S" uni="2C" class="SR" gp="1" code="2C">
+      <fg made="3" att="3" long="43" blkd="0"/>
+      <pat kickatt="3" kickmade="1"/>
+      <scoring fg="3" patkick="1"/>
+    </player>
+    <player name="J. Bouah" shortname="J. Bouah" checkname="BOUAH,J" uni="4" class="SR" gp="1" gs="1" opos="WR" code="4">
+      <rcv no="7" yds="83" td="1" long="25"/>
+      <kr no="2" yds="61" td="0" long="37"/>
+      <pr no="2" yds="37" td="0" long="39"/>
+      <scoring td="1"/>
+    </player>
+    <player name="A. Wegan" shortname="A. Wegan" checkname="WEGAN,A" uni="5" class="SR" gp="1" code="5">
+      <rush att="7" yds="70" gain="70" loss="0" td="1" long="31"/>
+      <rcv no="2" yds="26" td="0" long="21"/>
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+      <scoring td="1"/>
+    </player>
+    <player name="M. Breuler" shortname="M. Breuler" checkname="BREULER,M" uni="6" class="SR" gp="1" code="6">
+      <rush att="2" yds="14" gain="14" loss="0" td="0" long="12"/>
+      <rcv no="6" yds="33" td="0" long="15"/>
+    </player>
+    <player name="E. Edwards" shortname="E. Edwards" checkname="EDWARDS,E" uni="7" class="SR" gp="1" gs="1" dpos="CB" code="7">
+      <defense tackua="4" tacka="0" tot_tack="4" int="1" intyds="40"/>
+      <ir no="1" yds="40" td="0" long="40"/>
+    </player>
+    <player name="A. Botella M" shortname="A. Botella M" checkname="M,A BOTELLA" uni="8" class="SR" gp="1" gs="1" opos="TE" code="8">
+      <rcv no="2" yds="17" td="0" long="9"/>
+      <pat rcvatt="1" rcvmade="1"/>
+      <scoring patrcv="1"/>
+    </player>
+    <player name="J. Erdmann" shortname="J. Erdmann" checkname="ERDMANN,J" uni="9" class="SR" gp="1" gs="1" opos="QB" code="9">
+      <rush att="3" yds="27" gain="27" loss="0" td="0" long="16"/>
+      <pass comp="20" att="35" int="3" yds="221" td="1" long="45" sacks="1" sackyds="6"/>
+      <pat passatt="1" passmade="1"/>
+    </player>
+    <player name="F. Reisacher" shortname="F. Reisacher" checkname="REISACHER,F" uni="11" class="SR" gp="1" code="11"/>
+    <player name="A. Reischl" shortname="A. Reischl" checkname="REISCHL,A" uni="12" class="SR" gp="1" code="12">
+      <rush att="1" yds="3" gain="3" loss="0" td="1" long="3"/>
+      <scoring td="1"/>
+    </player>
+    <player name="F. Wegan" shortname="F. Wegan" checkname="WEGAN,F" uni="13" class="SR" gp="1" gs="1" opos="RB" code="13">
+      <rush att="19" yds="95" gain="98" loss="3" td="2" long="17"/>
+      <scoring td="2"/>
+    </player>
+    <player name="R. Frey" shortname="R. Frey" checkname="FREY,R" uni="15" class="SR" gp="1" code="15">
+      <pass comp="0" att="0" int="0" yds="0" td="0" long="0" sacks="1" sackyds="4"/>
+    </player>
+    <player name="K. Linnainmaa" shortname="K. Linnainmaa" checkname="LINNAINMAA,K" uni="17" class="SR" gp="1" gs="1" opos="WR" code="17">
+      <rcv no="1" yds="8" td="0" long="8"/>
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="N. Rabitsch" shortname="N. Rabitsch" checkname="RABITSCH,N" uni="19" class="SR" gp="1" code="19"/>
+    <player name="O. Herz" shortname="O. Herz" checkname="HERZ,O" uni="20" class="SR" gp="1" code="20">
+      <pat kickatt="1" kickmade="0"/>
+    </player>
+    <player name="L. Gerner" shortname="L. Gerner" checkname="GERNER,L" uni="21" class="SR" gp="1" code="21">
+      <defense tackua="2" tacka="1" tot_tack="3" brup="1"/>
+    </player>
+    <player name="C. Kellner" shortname="C. Kellner" checkname="KELLNER,C" uni="22" class="SR" gp="1" code="22">
+      <defense tackua="3" tacka="0" tot_tack="3" brup="1"/>
+    </player>
+    <player name="B. Straight" shortname="B. Straight" checkname="STRAIGHT,B" uni="23" class="SR" gp="1" gs="1" dpos="N" code="23">
+      <punt no="3" yds="125" long="44" blkd="0" tb="0" fc="1" plus50="0" inside20="1" avg="41.7"/>
+      <ko no="8" yds="512" ob="0" tb="3"/>
+      <defense tackua="4" tacka="0" tot_tack="4" tflua="1" tfla="0" tflyds="1"/>
+    </player>
+    <player name="F. Albrecht" shortname="F. Albrecht" checkname="ALBRECHT,F" uni="24" class="SR" gp="1" code="24"/>
+    <player name="N. Huszar" shortname="N. Huszar" checkname="HUSZAR,N" uni="27" class="SR" gp="1" gs="1" dpos="CB" code="27">
+      <defense tackua="3" tacka="1" tot_tack="4"/>
+    </player>
+    <player name="L. Horvath" shortname="L. Horvath" checkname="HORVATH,L" uni="32" class="SR" gp="1" gs="1" dpos="S" code="32">
+      <defense tackua="4" tacka="0" tot_tack="4" brup="1"/>
+    </player>
+    <player name="K. Rathonyi" shortname="K. Rathonyi" checkname="RATHONYI,K" uni="33" class="SR" gp="1" code="33">
+      <rush att="5" yds="22" gain="27" loss="5" td="0" long="17"/>
+    </player>
+    <player name="F. Tartarotti" shortname="F. Tartarotti" checkname="TARTAROTTI,F" uni="36" class="SR" gp="1" gs="1" dpos="S" code="36">
+      <defense tackua="1" tacka="1" tot_tack="2"/>
+    </player>
+    <player name="S. Wimmer" shortname="S. Wimmer" checkname="WIMMER,S" uni="37" class="SR" gp="1" code="37"/>
+    <player name="S. Huber" shortname="S. Huber" checkname="HUBER,S" uni="39" class="SR" gp="1" code="39"/>
+    <player name="T. Schnurrer" shortname="T. Schnurrer" checkname="SCHNURRER,T" uni="40" class="SR" gp="1" gs="1" dpos="ILB" code="40">
+      <defense tackua="3" tacka="3" tot_tack="6" brup="2"/>
+    </player>
+    <player name="L. Huber" shortname="L. Huber" checkname="HUBER,L" uni="44" class="SR" gp="1" code="44"/>
+    <player name="A. Watholowitsc" shortname="A. Watholowitsc" checkname="WATHOLOWITSC,A" uni="49" class="SR" gp="1" gs="1" dpos="ILB" code="49">
+      <defense tackua="3" tacka="1" tot_tack="4" qbh="1"/>
+    </player>
+    <player name="O. Kranich" shortname="O. Kranich" checkname="KRANICH,O" uni="52" class="SR" gp="1" gs="1" dpos="DL" code="52">
+      <defense tackua="1" tacka="1" tot_tack="2"/>
+    </player>
+    <player name="M. Daltrey" shortname="M. Daltrey" checkname="DALTREY,M" uni="56" class="SR" gp="1" gs="1" opos="C" code="56"/>
+    <player name="M. Haider" shortname="M. Haider" checkname="HAIDER,M" uni="57" class="SR" gp="1" gs="1" opos="LG" code="57"/>
+    <player name="A. Milanovic" shortname="A. Milanovic" checkname="MILANOVIC,A" uni="61" class="SR" gp="1" gs="1" opos="LT" code="61"/>
+    <player name="L. Holub" shortname="L. Holub" checkname="HOLUB,L" uni="71" class="SR" gp="1" gs="1" opos="RT" code="71"/>
+    <player name="F. Sudi" shortname="F. Sudi" checkname="SUDI,F" uni="75" class="SR" gp="1" code="75">
+      <defense tackua="1" tacka="1" tot_tack="2"/>
+    </player>
+    <player name="T. Lettman" shortname="T. Lettman" checkname="LETTMAN,T" uni="77" class="SR" gp="1" code="77"/>
+    <player name="F. Bierbaumer" shortname="F. Bierbaumer" checkname="BIERBAUMER,F" uni="89" class="SR" gp="1" gs="1" opos="WR" code="89">
+      <rcv no="2" yds="54" td="0" long="45"/>
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="M. Schmahel" shortname="M. Schmahel" checkname="SCHMAHEL,M" uni="90" class="SR" gp="1" code="90">
+      <defense qbh="1"/>
+    </player>
+    <player name="D. Siegel" shortname="D. Siegel" checkname="SIEGEL,D" uni="91" class="SR" gp="1" gs="1" dpos="DE" code="91">
+      <defense brup="1" qbh="1"/>
+    </player>
+    <player name="F. Gruensteidl" shortname="F. Gruensteidl" checkname="GRUENSTEIDL,F" uni="94" class="SR" gp="1" code="94">
+      <defense tackua="2" tacka="0" tot_tack="2"/>
+    </player>
+    <player name="M.Mueller" shortname="M.Mueller" checkname="MUELLER,M" uni="99" class="" gp="1" gs="1" dpos="DL" code="99">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="SR" gp="1" code="198">
+      <pass comp="0" att="0" int="0" yds="-10" td="0" long="0" sacks="0" sackyds="0"/>
+    </player>
+  </team>
+  <scores>
+    <score vh="H" team="VV" qtr="1" clock="11:08" type="FG" yds="21" scorer="S. Daum" vscore="0" hscore="3" driveindex="0"/>
+    <score vh="H" team="VV" qtr="1" clock="01:07" type="TD" how="RUSH" yds="4" scorer="F. Wegan" patby="S. Daum" pattype="KICK" patres="GOOD" plays="11" drive="50" top="4:57" vscore="0" hscore="10" driveindex="6"/>
+    <score vh="V" team="SS" qtr="2" clock="13:58" type="TD" how="PASS" yds="10" scorer="P. Steigerwald" passer="R. Schroeder" patby="J. Loria" pattype="KICK" patres="GOOD" plays="5" drive="89" top="2:01" vscore="7" hscore="10" driveindex="7"/>
+    <score vh="V" team="SS" qtr="2" clock="09:19" type="FG" yds="34" scorer="J. Loria" plays="9" drive="30" top="4:00" vscore="10" hscore="10" driveindex="9"/>
+    <score vh="H" team="VV" qtr="2" clock="03:46" type="TD" how="RUSH" yds="6" scorer="F. Wegan" patby="S. Daum" pattype="KICK" patres="FAIL" plays="8" drive="44" top="3:29" vscore="10" hscore="16" driveindex="12"/>
+    <score vh="H" team="VV" qtr="2" clock="00:00" type="FG" yds="18" scorer="S. Daum" plays="6" drive="79" top="1:15" vscore="10" hscore="19" driveindex="14"/>
+    <score vh="V" team="SS" qtr="3" clock="09:55" type="FG" yds="26" scorer="J. Loria" plays="10" drive="42" top="4:55" vscore="13" hscore="19" driveindex="15"/>
+    <score vh="H" team="VV" qtr="3" clock="08:34" type="TD" how="RUSH" yds="10" scorer="A. Wegan" patby="S. Daum" pattype="KICK" patres="FAIL" plays="5" drive="58" top="1:13" vscore="13" hscore="25" driveindex="16"/>
+    <score vh="H" team="VV" qtr="4" clock="12:21" type="TD" how="PASS" yds="5" scorer="J. Bouah" passer="J. Erdmann" patby="A. Botella M" pattype="PASS" patres="GOOD" plays="9" drive="71" top="5:07" vscore="13" hscore="33" driveindex="20"/>
+    <score vh="H" team="VV" qtr="4" clock="05:05" type="FG" yds="43" scorer="S. Daum" plays="5" drive="15" top="2:08" vscore="13" hscore="36" driveindex="24"/>
+    <score vh="H" team="VV" qtr="4" clock="01:56" type="TD" how="RUSH" yds="3" scorer="A. Reischl" patby="O. Herz" pattype="KICK" patres="FAIL" plays="3" drive="10" top="1:24" vscore="13" hscore="42" driveindex="26"/>
+  </scores>
+  <fgas>
+    <fga vh="H" team="VV" kicker="S. Daum" qtr="1" clock="11:08" distance="21" result="good"/>
+    <fga vh="V" team="SS" kicker="J. Loria" qtr="2" clock="09:19" distance="34" result="good"/>
+    <fga vh="H" team="VV" kicker="S. Daum" qtr="2" clock="00:00" distance="18" result="good"/>
+    <fga vh="V" team="SS" kicker="J. Loria" qtr="3" clock="09:55" distance="26" result="good"/>
+    <fga vh="H" team="VV" kicker="S. Daum" qtr="4" clock="05:05" distance="43" result="good"/>
+  </fgas>
+  <drives>
+    <drive vh="V" team="SS" start="KO,1,11:08,28" end="PUNT,1,09:41,32" plays="3" yards="4" top="1:27" start_how="KO" start_qtr="1" start_time="11:08" start_spot="SS28" end_how="PUNT" end_qtr="1" end_time="09:41" end_spot="SS32" driveindex="1"/>
+    <drive vh="H" team="VV" start="PUNT,1,09:41,35" end="INT,1,09:33,35" plays="1" yards="0" top="0:08" start_how="PUNT" start_qtr="1" start_time="09:41" start_spot="VV35" end_how="INT" end_qtr="1" end_time="09:33" end_spot="VV35" driveindex="2"/>
+    <drive vh="V" team="SS" start="INT,1,09:33,58" end="INT,1,09:19,58" plays="1" yards="0" top="0:14" start_how="INT" start_qtr="1" start_time="09:33" start_spot="VV42" end_how="INT" end_qtr="1" end_time="09:19" end_spot="VV42" driveindex="3"/>
+    <drive vh="H" team="VV" start="INT,1,09:19,44" end="PUNT,1,07:51,42" plays="3" yards="-2" top="1:28" start_how="INT" start_qtr="1" start_time="09:19" start_spot="VV44" end_how="PUNT" end_qtr="1" end_time="07:51" end_spot="VV42" driveindex="4"/>
+    <drive vh="V" team="SS" start="PUNT,1,07:51,23" end="PUNT,1,06:04,31" plays="3" yards="8" top="1:47" start_how="PUNT" start_qtr="1" start_time="07:51" start_spot="SS23" end_how="PUNT" end_qtr="1" end_time="06:04" end_spot="SS31" driveindex="5"/>
+    <drive vh="H" team="VV" start="PUNT,1,06:04,50" end="TD,1,01:07,100" plays="11" yards="50" top="4:57" start_how="PUNT" start_qtr="1" start_time="06:04" start_spot="VV50" end_how="TD" end_qtr="1" end_time="01:07" end_spot="SS00" rz="1" driveindex="6"/>
+    <drive vh="V" team="SS" start="KO,1,00:59,11" end="TD,2,13:58,100" plays="5" yards="89" top="2:01" start_how="KO" start_qtr="1" start_time="00:59" start_spot="SS11" end_how="TD" end_qtr="2" end_time="13:58" end_spot="VV00" rz="1" driveindex="7"/>
+    <drive vh="H" team="VV" start="KO,2,13:57,30" end="INT,2,13:19,32" plays="2" yards="2" top="0:38" start_how="KO" start_qtr="2" start_time="13:57" start_spot="VV30" end_how="INT" end_qtr="2" end_time="13:19" end_spot="VV32" driveindex="8"/>
+    <drive vh="V" team="SS" start="INT,2,13:19,53" end="FG,2,09:19,83" plays="9" yards="30" top="4:00" start_how="INT" start_qtr="2" start_time="13:19" start_spot="VV47" end_how="FG" end_qtr="2" end_time="09:19" end_spot="VV17" rz="1" driveindex="9"/>
+    <drive vh="H" team="VV" start="KO,2,09:14,34" end="INT,2,08:21,36" plays="2" yards="2" top="0:53" start_how="KO" start_qtr="2" start_time="09:14" start_spot="VV34" end_how="INT" end_qtr="2" end_time="08:21" end_spot="VV36" driveindex="10"/>
+    <drive vh="V" team="SS" start="INT,2,08:21,38" end="PUNT,2,07:15,38" plays="3" yards="0" top="1:06" start_how="INT" start_qtr="2" start_time="08:21" start_spot="SS38" end_how="PUNT" end_qtr="2" end_time="07:15" end_spot="SS38" driveindex="11"/>
+    <drive vh="H" team="VV" start="PUNT,2,07:15,56" end="TD,2,03:46,100" plays="8" yards="44" top="3:29" start_how="PUNT" start_qtr="2" start_time="07:15" start_spot="SS44" end_how="TD" end_qtr="2" end_time="03:46" end_spot="SS00" rz="1" driveindex="12"/>
+    <drive vh="V" team="SS" start="KO,2,03:42,30" end="PUNT,2,01:15,59" plays="8" yards="29" top="2:27" start_how="KO" start_qtr="2" start_time="03:42" start_spot="SS30" end_how="PUNT" end_qtr="2" end_time="01:15" end_spot="VV41" driveindex="13"/>
+    <drive vh="H" team="VV" start="PUNT,2,01:15,20" end="FG,3,15:00,99" plays="6" yards="79" top="1:15" start_how="PUNT" start_qtr="2" start_time="01:15" start_spot="VV20" end_how="FG" end_qtr="3" end_time="15:00" end_spot="SS01" rz="1" driveindex="14"/>
+    <drive vh="V" team="SS" start="KO,3,14:50,49" end="FG,3,09:55,91" plays="10" yards="42" top="4:55" start_how="KO" start_qtr="3" start_time="14:50" start_spot="SS49" end_how="FG" end_qtr="3" end_time="09:55" end_spot="VV09" rz="1" driveindex="15"/>
+    <drive vh="H" team="VV" start="KO,3,09:47,42" end="TD,3,08:34,100" plays="5" yards="58" top="1:13" start_how="KO" start_qtr="3" start_time="09:47" start_spot="VV42" end_how="TD" end_qtr="3" end_time="08:34" end_spot="SS00" rz="1" driveindex="16"/>
+    <drive vh="V" team="SS" start="KO,3,08:26,29" end="PUNT,3,07:15,28" plays="4" yards="-1" top="1:11" start_how="KO" start_qtr="3" start_time="08:26" start_spot="SS29" end_how="PUNT" end_qtr="3" end_time="07:15" end_spot="SS28" driveindex="17"/>
+    <drive vh="H" team="VV" start="PUNT,3,07:15,31" end="PUNT,3,03:11,50" plays="6" yards="19" top="4:04" start_how="PUNT" start_qtr="3" start_time="07:15" start_spot="VV31" end_how="PUNT" end_qtr="3" end_time="03:11" end_spot="VV50" driveindex="18"/>
+    <drive vh="V" team="SS" start="PUNT,3,03:11,23" end="PUNT,3,02:28,25" plays="3" yards="2" top="0:43" start_how="PUNT" start_qtr="3" start_time="03:11" start_spot="SS23" end_how="PUNT" end_qtr="3" end_time="02:28" end_spot="SS25" driveindex="19"/>
+    <drive vh="H" team="VV" start="PUNT,3,02:28,29" end="TD,4,12:21,100" plays="9" yards="71" top="5:07" start_how="PUNT" start_qtr="3" start_time="02:28" start_spot="VV29" end_how="TD" end_qtr="4" end_time="12:21" end_spot="SS00" rz="1" driveindex="20"/>
+    <drive vh="V" team="SS" start="KO,4,12:21,20" end="PUNT,4,10:44,53" plays="4" yards="33" top="1:37" start_how="KO" start_qtr="4" start_time="12:21" start_spot="SS20" end_how="PUNT" end_qtr="4" end_time="10:44" end_spot="VV47" driveindex="21"/>
+    <drive vh="H" team="VV" start="PUNT,4,10:44,14" end="PUNT,4,07:31,48" plays="6" yards="34" top="3:13" start_how="PUNT" start_qtr="4" start_time="10:44" start_spot="VV14" end_how="PUNT" end_qtr="4" end_time="07:31" end_spot="VV48" driveindex="22"/>
+    <drive vh="V" team="SS" start="PUNT,4,07:31,12" end="PUNT,4,07:13,12" plays="3" yards="0" top="0:18" start_how="PUNT" start_qtr="4" start_time="07:31" start_spot="SS12" end_how="PUNT" end_qtr="4" end_time="07:13" end_spot="SS12" driveindex="23"/>
+    <drive vh="H" team="VV" start="PUNT,4,07:13,59" end="FG,4,05:05,74" plays="5" yards="15" top="2:08" start_how="PUNT" start_qtr="4" start_time="07:13" start_spot="SS41" end_how="FG" end_qtr="4" end_time="05:05" end_spot="SS26" driveindex="24"/>
+    <drive vh="V" team="SS" start="KO,4,05:05,30" end="DOWNS,4,03:20,10" plays="4" yards="-20" top="1:45" start_how="KO" start_qtr="4" start_time="05:05" start_spot="SS30" end_how="DOWNS" end_qtr="4" end_time="03:20" end_spot="SS10" driveindex="25"/>
+    <drive vh="H" team="VV" start="DOWNS,4,03:20,90" end="TD,4,01:56,100" plays="3" yards="10" top="1:24" start_how="DOWNS" start_qtr="4" start_time="03:20" start_spot="SS10" end_how="TD" end_qtr="4" end_time="01:56" end_spot="SS00" rz="1" driveindex="26"/>
+    <drive vh="V" team="SS" start="KO,4,01:56,20" end="HALF,4,00:00,34" plays="3" yards="14" top="1:56" start_how="KO" start_qtr="4" start_time="01:56" start_spot="SS20" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="SS34" driveindex="27"/>
+  </drives>
+  <plays format="summary">
+    <qtr number="1" text="1st">
+      <play hasball="SS" down="1" togo="10" spot="SS30" context="V,1,10,V30" playid="0,1,0" tokens="CMT:Stuttgart won the coin toss, defer second half" text="Stuttgart won the coin toss, defer second half" newcontext="V,1,10,V30">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS30" context="V,1,10,V30" playid="0,2,1" tokens="UNI:H,2C,16" text="VV       2C now wearing 16." newcontext="V,1,10,V30">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS30" context="V,1,10,V30" playid="0,3,2" tokens="SPOT:V,V30,N" text="SS ball on SS30." newcontext="V,1,10,V30">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS30" context="V,1,10,V30" playid="0,4,3" type="E" tokens="KO:9,H21 DN: PEN:V,KK,A,8,H40,N NOPLAY:" text="J. Loria kickoff 49 yards to the VV21, downed, PENALTY SS illegal kicking (R. Schroeder) 30 yards to the VV40, NO PLAY." newcontext="V,1,10,H40">
+        <p_pn vh="V" code="KK" type="illegal kicking" name="R. Schroeder" result="ACCEPT" at="V30" yards="30"/>
+      </play>
+      <play hasball="SS" down="1" togo="10" spot="VV40" context="V,1,10,H40" playid="0,5,4" tokens="SPOT:H,H40,Y" text="VV ball on VV40." newcontext="H,1,10,H40">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="VV40" context="H,1,10,H40" playid="0,6,5" type="P" tokens="PASS:9,I,89,* BRUP:22" text="J. Erdmann pass incomplete to F. Bierbaumer (C. Perron)." newcontext="H,2,10,H40">
+        <p_pa vh="H" qb="J. Erdmann" result="INC" rcv="F. Bierbaumer"/>
+        <p_bu vh="V" name="C. Perron"/>
+      </play>
+      <play hasball="VV" down="2" togo="10" spot="VV40" context="H,2,10,H40" playid="0,7,6" type="R" first="R" tokens="RUSH:9,V44, TACK:43" text="J. Erdmann rush for 16 yards to the SS44, 1ST DOWN VV (P. Ogbevoen)." newcontext="H,1,10,V44">
+        <p_ru vh="H" name="J. Erdmann" gain="16"/>
+        <p_tk vh="V" name="P. Ogbevoen"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS44" context="H,1,10,V44" playid="0,8,7" type="R" first="R" tokens="RUSH:6,V32, OB: TACK:22" text="M. Breuler rush for 12 yards to the SS32, 1ST DOWN VV, out-of-bounds (C. Perron)." ob="Y" newcontext="H,1,10,V32">
+        <p_ru vh="H" name="M. Breuler" gain="12"/>
+        <p_tk vh="V" name="C. Perron"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS32" context="H,1,10,V32" playid="0,9,8" type="P" tokens="PASS:9,C,6,V23 TACK:33" text="J. Erdmann pass complete to M. Breuler for 9 yards to the SS23 (B. Wenzler)." newcontext="H,2,1,V23">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="M. Breuler" gain="9"/>
+        <p_tk vh="V" name="B. Wenzler"/>
+      </play>
+      <play hasball="VV" down="2" togo="1" spot="SS23" context="H,2,1,V23" playid="0,10,9" type="P" first="P" tokens="PASS:9,C,4,V18 TACK:22" text="J. Erdmann pass complete to J. Bouah for 5 yards to the SS18, 1ST DOWN VV (C. Perron)." newcontext="H,1,10,V18">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="J. Bouah" gain="5"/>
+        <p_tk vh="V" name="C. Perron"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS18" context="H,1,10,V18" playid="0,11,10" type="R" first="R" tokens="RUSH:13,V01, TACK:25" text="F. Wegan rush for 17 yards to the SS1, 1ST DOWN VV (B. Barnes)." newcontext="H,1,0,V01">
+        <p_ru vh="H" name="F. Wegan" gain="17"/>
+        <p_tk vh="V" name="B. Barnes"/>
+      </play>
+      <play hasball="VV" down="1" togo="0" spot="SS01" context="H,1,0,V01" playid="0,12,11" type="R" tokens="RUSH:13,V01, TACK:44" text="F. Wegan rush for no gain to the SS1 (M. Mbala)." newcontext="H,2,0,V01">
+        <p_ru vh="H" name="F. Wegan" gain="0"/>
+        <p_tk vh="V" name="M. Mbala"/>
+      </play>
+      <play hasball="VV" down="2" togo="0" spot="SS01" context="H,2,0,V01" playid="0,13,12" type="R" tokens="RUSH:13,V04, TACK:44,25" text="F. Wegan rush for loss of 3 yards to the SS4 (M. Mbala;B. Barnes)." newcontext="H,3,0,V04">
+        <p_ru vh="H" name="F. Wegan" gain="-3"/>
+        <p_tk vh="V" name="M. Mbala" assist="Y"/>
+        <p_tk vh="V" name="B. Barnes" assist="Y"/>
+      </play>
+      <play hasball="VV" down="3" togo="0" spot="SS04" context="H,3,0,V04" playid="0,14,13" type="P" tokens="PASS:9,I,89,*" text="J. Erdmann pass incomplete to F. Bierbaumer." newcontext="H,4,0,V04">
+        <p_pa vh="H" qb="J. Erdmann" result="INC" rcv="F. Bierbaumer"/>
+      </play>
+      <comment text="Team Challenge Ruling on the field stands Team Vikings charged TO"/>
+      <play hasball="VV" down="4" togo="0" spot="SS04" context="H,4,0,V04" playid="0,15,15" type="F" score="Y" vscore="0" hscore="3" clock="11:08" tokens="FGA:16,21,G T:11:08" text="S. Daum field goal attempt from 21 GOOD, clock 11:08." newcontext="H,1,0,H30">
+        <p_fg vh="H" name="S. Daum" distance="21" result="GOOD" score="Y"/>
+      </play>
+      <score V="0" H="3"/>
+      <play hasball="VV" down="1" togo="0" spot="VV30" context="H,1,0,H30" playid="0,16,16" type="K" tokens="KO:23,V02 RET:23,V28 TACK:32" text="B. Straight kickoff 68 yards to the SS2, C. Voumbo return 26 yards to the SS28 (L. Horvath)." newcontext="V,1,10,V28">
+        <p_ko vh="H" name="B. Straight" gain="68"/>
+        <p_kr vh="V" name="C. Voumbo" gain="26"/>
+        <p_tk vh="H" name="L. Horvath"/>
+      </play>
+      <drivestart poss="V,V28,11:08" vh="V" spot="V28" clock="11:08" driveindex="1,16"/>
+      <play hasball="SS" down="1" togo="10" spot="SS28" context="V,1,10,V28" playid="1,1,17" type="R" tokens="RUSH:41,V32, TACK:23" text="B. Yankson rush for 4 yards to the SS32 (B. Straight)." newcontext="V,2,6,V32">
+        <p_ru vh="V" name="B. Yankson" gain="4"/>
+        <p_tk vh="H" name="B. Straight"/>
+      </play>
+      <play hasball="SS" down="2" togo="6" spot="SS32" context="V,2,6,V32" playid="1,2,18" type="P" tokens="PASS:8,D,5,*" text="R. Schroeder pass incomplete to D. Meza, dropped pass." newcontext="V,3,6,V32">
+        <p_pa vh="V" qb="R. Schroeder" result="DROP" rcv="D. Meza"/>
+      </play>
+      <play hasball="SS" down="3" togo="6" spot="SS32" context="V,3,6,V32" playid="1,3,19" type="R" tokens="RUSH:41,V32, TACK:40,52" text="B. Yankson rush for no gain to the SS32 (T. Schnurrer;O. Kranich)." newcontext="V,4,6,V32">
+        <p_ru vh="V" name="B. Yankson" gain="0"/>
+        <p_tk vh="H" name="T. Schnurrer" assist="Y"/>
+        <p_tk vh="H" name="O. Kranich" assist="Y"/>
+      </play>
+      <play hasball="SS" down="4" togo="6" spot="SS32" context="V,4,6,V32" playid="1,4,20" type="U" tokens="PUNT:9,H35 DN:" text="J. Loria punt 33 yards to the VV35, downed." newcontext="H,1,10,H35">
+        <p_pu vh="V" name="J. Loria" gain="33"/>
+      </play>
+      <drivesum plays="3" yards="4" top="1:27" driveindex="1" complete="Y"/>
+      <drivestart poss="H,H35,09:41" vh="H" spot="H35" clock="09:41" driveindex="2,20"/>
+      <play hasball="VV" down="1" togo="10" spot="VV35" context="H,1,10,H35" playid="2,1,21" clock="09:41" tokens="{DRIVE}:09:41" text="VIENNA VIKINGS drive start at 09:41." newcontext="H,1,10,H35">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="VV35" context="H,1,10,H35" playid="2,2,22" type="P" turnover="I" tokens="PASS:9,X,43,H43 RET:43,H42 TACK:17" text="J. Erdmann pass intercepted by P. Ogbevoen at the VV43, P. Ogbevoen return 1 yards to the VV42 (K. Linnainmaa)." newcontext="V,1,10,H42">
+        <p_pa vh="H" qb="J. Erdmann" result="INT"/>
+        <p_ir vh="V" name="P. Ogbevoen" at="H43" gain="1"/>
+        <p_tk vh="H" name="K. Linnainmaa"/>
+      </play>
+      <drivesum plays="1" yards="0" top="0:08" driveindex="2" complete="Y"/>
+      <drivestart poss="V,H42,09:33" vh="V" spot="H42" clock="09:33" driveindex="3,22"/>
+      <play hasball="SS" down="1" togo="10" spot="VV42" context="V,1,10,H42" playid="3,1,23" clock="09:33" tokens="{DRIVE}:09:33" text="STUTTGART SURGE drive start at 09:33." newcontext="V,1,10,H42">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="VV42" context="V,1,10,H42" playid="3,2,24" type="P" turnover="I" tokens="PASS:8,X,7,H04 RET:7,H44 OB:" text="R. Schroeder pass intercepted by E. Edwards at the VV4, E. Edwards return 40 yards to the VV44, out-of-bounds." ob="Y" newcontext="H,1,10,H44">
+        <p_pa vh="V" qb="R. Schroeder" result="INT"/>
+        <p_ir vh="H" name="E. Edwards" at="H04" gain="40"/>
+      </play>
+      <drivesum plays="1" yards="0" top="0:14" driveindex="3" complete="Y"/>
+      <drivestart poss="H,H44,09:19" vh="H" spot="H44" clock="09:19" driveindex="4,24"/>
+      <play hasball="VV" down="1" togo="10" spot="VV44" context="H,1,10,H44" playid="4,1,25" clock="09:19" tokens="{DRIVE}:09:19" text="VIENNA VIKINGS drive start at 09:19." newcontext="H,1,10,H44">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="VV44" context="H,1,10,H44" playid="4,2,26" type="R" tokens="RUSH:6,H46, OB: TACK:33" text="M. Breuler rush for 2 yards to the VV46, out-of-bounds (B. Wenzler)." ob="Y" newcontext="H,2,8,H46">
+        <p_ru vh="H" name="M. Breuler" gain="2"/>
+        <p_tk vh="V" name="B. Wenzler"/>
+      </play>
+      <play hasball="VV" down="2" togo="8" spot="VV46" context="H,2,8,H46" playid="4,3,27" type="P" tokens="PASS:9,D,4,*" text="J. Erdmann pass incomplete to J. Bouah, dropped pass." newcontext="H,3,8,H46">
+        <p_pa vh="H" qb="J. Erdmann" result="DROP" rcv="J. Bouah"/>
+      </play>
+      <play hasball="VV" down="3" togo="8" spot="VV46" context="H,3,8,H46" playid="4,4,28" type="P" tokens="PASS:15,S,TM,H42 SACK:30" text="R. Frey sacked for loss of 4 yards to the VV42 (T. Becker)." newcontext="H,4,12,H42">
+        <p_pa vh="H" qb="R. Frey" result="SACK" gain="-4"/>
+        <p_tk vh="V" name="T. Becker" sack="Y"/>
+      </play>
+      <play hasball="VV" down="4" togo="12" spot="VV42" context="H,4,12,H42" playid="4,5,29" type="U" tokens="PUNT:23,V14 RET:2,V23 TACK:27" text="B. Straight punt 44 yards to the SS14, M. Washington return 9 yards to the SS23 (N. Huszar)." newcontext="V,1,10,V23">
+        <p_pu vh="H" name="B. Straight" gain="44"/>
+        <p_pr vh="V" name="M. Washington" gain="9"/>
+        <p_tk vh="H" name="N. Huszar"/>
+      </play>
+      <drivesum plays="3" yards="-2" top="1:28" driveindex="4" complete="Y"/>
+      <drivestart poss="V,V23,07:51" vh="V" spot="V23" clock="07:51" driveindex="5,29"/>
+      <play hasball="SS" down="1" togo="10" spot="SS23" context="V,1,10,V23" playid="5,1,30" clock="07:51" tokens="{DRIVE}:07:51" text="STUTTGART SURGE drive start at 07:51." newcontext="V,1,10,V23">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS23" context="V,1,10,V23" playid="5,2,31" type="R" tokens="RUSH:23,V27, TACK:32" text="C. Voumbo rush for 4 yards to the SS27 (L. Horvath)." newcontext="V,2,6,V27">
+        <p_ru vh="V" name="C. Voumbo" gain="4"/>
+        <p_tk vh="H" name="L. Horvath"/>
+      </play>
+      <play hasball="SS" down="2" togo="6" spot="SS27" context="V,2,6,V27" playid="5,3,32" type="P" tokens="PASS:8,C,17,V31 OB: TACK:7" text="R. Schroeder pass complete to M. Riedinger for 4 yards to the SS31, out-of-bounds (E. Edwards)." ob="Y" newcontext="V,3,2,V31">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="M. Riedinger" gain="4"/>
+        <p_tk vh="H" name="E. Edwards"/>
+      </play>
+      <play hasball="SS" down="3" togo="2" spot="SS31" context="V,3,2,V31" playid="5,4,33" type="R" tokens="RUSH:23,V31, TACK:1" text="C. Voumbo rush for no gain to the SS31 (L. Balogh)." newcontext="V,4,2,V31">
+        <p_ru vh="V" name="C. Voumbo" gain="0"/>
+        <p_tk vh="H" name="L. Balogh"/>
+      </play>
+      <play hasball="SS" down="4" togo="2" spot="SS31" context="V,4,2,V31" playid="5,5,34" type="U" tokens="PUNT:9,H50 OB:" text="J. Loria punt 19 yards to the 50 yardline, out-of-bounds." ob="Y" newcontext="H,1,10,H50">
+        <p_pu vh="V" name="J. Loria" gain="19" ob="Y"/>
+      </play>
+      <drivesum plays="3" yards="8" top="1:47" driveindex="5" complete="Y"/>
+      <drivestart poss="H,H50,06:04" vh="H" spot="H50" clock="06:04" driveindex="6,34"/>
+      <play hasball="VV" down="1" togo="10" spot="VV50" context="H,1,10,H50" playid="6,1,35" clock="06:04" tokens="{DRIVE}:06:04" text="VIENNA VIKINGS drive start at 06:04." newcontext="H,1,10,H50">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="VV50" context="H,1,10,H50" playid="6,2,36" type="R" tokens="RUSH:13,V42, TACK:25" text="F. Wegan rush for 8 yards to the SS42 (B. Barnes)." newcontext="H,2,2,V42">
+        <p_ru vh="H" name="F. Wegan" gain="8"/>
+        <p_tk vh="V" name="B. Barnes"/>
+      </play>
+      <play hasball="VV" down="2" togo="2" spot="SS42" context="H,2,2,V42" playid="6,3,37" type="P" first="P" tokens="PASS:9,C,4,V30 OB: TACK:2" text="J. Erdmann pass complete to J. Bouah for 12 yards to the SS30, 1ST DOWN VV, out-of-bounds (M. Washington)." ob="Y" newcontext="H,1,10,V30">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="J. Bouah" gain="12"/>
+        <p_tk vh="V" name="M. Washington"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS30" context="H,1,10,V30" playid="6,4,38" type="R" tokens="RUSH:13,V30," text="F. Wegan rush for no gain to the SS30." newcontext="H,2,10,V30">
+        <p_ru vh="H" name="F. Wegan" gain="0"/>
+      </play>
+      <play hasball="VV" down="2" togo="10" spot="SS30" context="H,2,10,V30" playid="6,5,39" type="P" tokens="PASS:9,I,4,* BRUP:11" text="J. Erdmann pass incomplete to J. Bouah (R. Lakalaka)." newcontext="H,3,10,V30">
+        <p_pa vh="H" qb="J. Erdmann" result="INC" rcv="J. Bouah"/>
+        <p_bu vh="V" name="R. Lakalaka"/>
+      </play>
+      <play hasball="VV" down="3" togo="10" spot="SS30" context="H,3,10,V30" playid="6,6,40" type="P" tokens="PASS:9,C,8,V21 TACK:2" text="J. Erdmann pass complete to A. Botella M for 9 yards to the SS21 (M. Washington)." newcontext="H,4,1,V21">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="A. Botella M" gain="9"/>
+        <p_tk vh="V" name="M. Washington"/>
+      </play>
+      <play hasball="VV" down="4" togo="1" spot="SS21" context="H,4,1,V21" playid="6,7,41" type="#" clock="03:25" tokens="TOUT:V T:03:25" text="Timeout Stuttgart Surge, clock 03:25." newcontext="H,4,1,V21">
+        <p_to vh="V" team="Stuttgart Surge"/>
+      </play>
+      <play hasball="VV" down="4" togo="1" spot="SS21" context="H,4,1,V21" playid="6,8,42" type="R" first="R" tokens="RUSH:5,V20, TACK:98" text="A. Wegan rush for 1 yard to the SS20, 1ST DOWN VV (M. Fuerst)." newcontext="H,1,10,V20">
+        <p_ru vh="H" name="A. Wegan" gain="1"/>
+        <p_tk vh="V" name="M. Fuerst"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS20" context="H,1,10,V20" playid="6,9,43" type="P" tokens="PASS:9,I,4,*" text="J. Erdmann pass incomplete to J. Bouah." newcontext="H,2,10,V20">
+        <p_pa vh="H" qb="J. Erdmann" result="INC" rcv="J. Bouah"/>
+      </play>
+      <play hasball="VV" down="2" togo="10" spot="SS20" context="H,2,10,V20" playid="6,10,44" type="R" tokens="RUSH:9,V13, TACK:11 QBH:V,99" text="J. Erdmann rush for 7 yards to the SS13 (R. Lakalaka), QB hurry by S. Vardar." newcontext="H,3,3,V13">
+        <p_ru vh="H" name="J. Erdmann" gain="7"/>
+        <p_tk vh="V" name="R. Lakalaka"/>
+        <p_qbh vh="V" name="S. Vardar"/>
+      </play>
+      <play hasball="VV" down="3" togo="3" spot="SS13" context="H,3,3,V13" playid="6,11,45" type="P" tokens="PASS:9,D,89,*" text="J. Erdmann pass incomplete to F. Bierbaumer, dropped pass." newcontext="H,4,3,V13">
+        <p_pa vh="H" qb="J. Erdmann" result="DROP" rcv="F. Bierbaumer"/>
+      </play>
+      <play hasball="VV" down="4" togo="3" spot="SS13" context="H,4,3,V13" playid="6,12,46" type="P" first="P" tokens="PASS:9,C,89,V04 OB: TACK:33" text="J. Erdmann pass complete to F. Bierbaumer for 9 yards to the SS4, 1ST DOWN VV, out-of-bounds (B. Wenzler)." ob="Y" newcontext="H,1,0,V04">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="F. Bierbaumer" gain="9"/>
+        <p_tk vh="V" name="B. Wenzler"/>
+      </play>
+      <play hasball="VV" down="1" togo="0" spot="SS04" context="H,1,0,V04" playid="6,13,47" type="R" first="R" score="Y" vscore="0" hscore="9" clock="01:07" tokens="RUSH:13,V00, T:01:07" text="F. Wegan rush for 4 yards to the SS0, 1ST DOWN VV, TOUCHDOWN, clock 01:07." newcontext="H,1,10,V15">
+        <p_ru vh="H" name="F. Wegan" gain="4"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS15" context="H,1,10,V15" playid="6,14,48" type="X" score="Y" vscore="0" hscore="10" tokens="PAT:K,16,G" text="S. Daum kick attempt good." newcontext="H,1,0,H30">
+        <p_pat vh="H" name="S. Daum" qb="S. Daum" type="K" result="GOOD" score="Y"/>
+      </play>
+      <score V="0" H="10"/>
+      <drivesum plays="11" yards="50" top="4:57" driveindex="6" complete="Y"/>
+      <play hasball="VV" down="1" togo="0" spot="VV30" context="H,1,0,H30" playid="6,15,49" type="K" tokens="KO:23,V04 RET:23,V02 FUMB:V,V01,23 +:23,V11 TACK:7" text="B. Straight kickoff 66 yards to the SS4, C. Voumbo return -2 yards to the SS2, fumble by C. Voumbo recovered by SS C. Voumbo at SS1, C. Voumbo for 10 yards to the SS11 (E. Edwards)." newcontext="V,1,10,V11">
+        <p_ko vh="H" name="B. Straight" gain="66"/>
+        <p_kr vh="V" name="C. Voumbo" gain="-2"/>
+        <p_fumb vh="V" name="C. Voumbo" at="V01" frvh="V" frname="C. Voumbo"/>
+        <p_cont vh="V" name="C. Voumbo" context="KO" at="V01" gain="10"/>
+        <p_tk vh="H" name="E. Edwards"/>
+      </play>
+      <drivestart poss="V,V11,00:59" vh="V" spot="V11" clock="00:59" driveindex="7,49"/>
+      <play hasball="SS" down="1" togo="10" spot="SS11" context="V,1,10,V11" playid="7,1,50" clock="00:59" tokens="{DRIVE}:00:59 SPOT:V,V11,Y" text="STUTTGART SURGE drive start at 00:59, SS ball on SS11." newcontext="V,1,10,V11">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS11" context="V,1,10,V11" playid="7,2,51" type="R" tokens="RUSH:41,V12, TACK:49,40" text="B. Yankson rush for 1 yard to the SS12 (A. Watholowitsc;T. Schnurrer)." newcontext="V,2,9,V12">
+        <p_ru vh="V" name="B. Yankson" gain="1"/>
+        <p_tk vh="H" name="A. Watholowitsc" assist="Y"/>
+        <p_tk vh="H" name="T. Schnurrer" assist="Y"/>
+      </play>
+      <play hasball="SS" down="2" togo="9" spot="SS12" context="V,2,9,V12" playid="7,3,52" type="P" tokens="PASS:8,C,18,V14 OB: TACK:7" text="R. Schroeder pass complete to P. Steigerwald for 2 yards to the SS14, out-of-bounds (E. Edwards)." ob="Y" newcontext="V,3,7,V14">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="P. Steigerwald" gain="2"/>
+        <p_tk vh="H" name="E. Edwards"/>
+      </play>
+      <score qtr="1" V="0" H="10"/>
+      <endqtr/>
+      <qtrsummary vh="V" id="SS">
+        <firstdowns no="0" rush="0" pass="0" penalty="0"/>
+        <penalties no="1" yds="30"/>
+        <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"/>
+        <fumbles no="1" lost="0"/>
+        <misc yds="0" top="08:27"/>
+        <rush att="5" yds="9" gain="9" loss="0" td="0" long="4"/>
+        <pass comp="2" att="4" int="1" yds="6" td="0" long="4" sacks="0" sackyds="0"/>
+        <rcv no="2" yds="6" td="0" long="4"/>
+        <punt no="2" yds="52" long="33" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="26.0"/>
+        <defense tackua="14" tacka="2" tot_tack="16" tflua="1" tfla="2" tflyds="7" sacks="1" sackyds="4" brup="2" qbh="1" int="1" intyds="1"/>
+        <kr no="2" yds="33" td="0" long="26"/>
+        <pr no="1" yds="9" td="0" long="9"/>
+        <ir no="1" yds="1" td="0" long="1"/>
+        <fumbles no="1" lost="0"/>
+      </qtrsummary>
+      <qtrsummary vh="H" id="VV">
+        <firstdowns no="8" rush="5" pass="3" penalty="0"/>
+        <penalties no="0" yds="0"/>
+        <conversions thirdconv="0" thirdatt="4" fourthconv="2" fourthatt="2"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="06:33"/>
+        <rush att="11" yds="64" gain="67" loss="3" td="1" long="17"/>
+        <pass comp="5" att="12" int="1" yds="40" td="0" long="12" sacks="1" sackyds="4"/>
+        <rcv no="5" yds="44" td="0" long="12"/>
+        <punt no="1" yds="44" long="44" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="44.0"/>
+        <ko no="2" yds="134" ob="0" tb="0" fcyds="8224"/>
+        <fg made="1" att="1" long="21" blkd="0"/>
+        <pat kickatt="1" kickmade="1"/>
+        <defense tackua="9" tacka="4" tot_tack="13" sacks="0" sackyds="0" int="1" intyds="40"/>
+        <ir no="1" yds="40" td="0" long="40"/>
+        <scoring td="1" fg="1" patkick="1"/>
+      </qtrsummary>
+    </qtr>
+    <qtr number="2" text="2nd">
+      <play hasball="SS" down="3" togo="7" spot="SS14" context="V,3,7,V14" playid="7,4,53" type="#" clock="15:00" tokens="Q:2 T:15:00" text="Start of 2nd quarter, clock 15:00." newcontext="V,3,7,V14">
+   </play>
+      <play hasball="SS" down="3" togo="7" spot="SS14" context="V,3,7,V14" playid="7,5,54" type="P" first="P" tokens="PASS:8,C,13,H10 TACK:32" text="R. Schroeder pass complete to N. Bomba for 76 yards to the VV10, 1ST DOWN SS (L. Horvath)." newcontext="V,1,0,H10">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="N. Bomba" gain="76"/>
+        <p_tk vh="H" name="L. Horvath"/>
+      </play>
+      <play hasball="SS" down="1" togo="0" spot="VV10" context="V,1,0,H10" playid="7,6,55" type="P" tokens="PASS:8,D,85,*" text="R. Schroeder pass incomplete to P. Weiblen, dropped pass." newcontext="V,2,0,H10">
+        <p_pa vh="V" qb="R. Schroeder" result="DROP" rcv="P. Weiblen"/>
+      </play>
+      <play hasball="SS" down="2" togo="0" spot="VV10" context="V,2,0,H10" playid="7,7,56" type="P" first="P" score="Y" vscore="6" hscore="10" clock="13:58" tokens="PASS:8,C,18,H00 T:13:58" text="R. Schroeder pass complete to P. Steigerwald for 10 yards to the VV0, 1ST DOWN SS, TOUCHDOWN, clock 13:58." newcontext="V,1,10,H15">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="P. Steigerwald" gain="10"/>
+      </play>
+      <play hasball="SS" down="1" togo="10" spot="VV15" context="V,1,10,H15" playid="7,8,57" type="X" score="Y" vscore="7" hscore="10" tokens="PAT:K,9,G" text="J. Loria kick attempt good." newcontext="V,1,0,V30">
+        <p_pat vh="V" name="J. Loria" qb="J. Loria" type="K" result="GOOD" score="Y"/>
+      </play>
+      <score V="7" H="10"/>
+      <drivesum plays="5" yards="89" top="2:01" driveindex="7" complete="Y"/>
+      <play hasball="SS" down="1" togo="0" spot="SS30" context="V,1,0,V30" playid="7,9,58" type="K" tokens="KO:9,H00 TB:" text="J. Loria kickoff 70 yards to the VV0, touchback." newcontext="H,1,10,H20">
+        <p_ko vh="V" name="J. Loria" gain="70" result="T"/>
+      </play>
+      <drivestart poss="H,H20,13:57" vh="H" spot="H20" clock="13:57" driveindex="8,58"/>
+      <play hasball="VV" down="1" togo="10" spot="VV20" context="H,1,10,H20" playid="8,1,59" clock="13:57" tokens="{DRIVE}:13:57" text="VIENNA VIKINGS drive start at 13:57." newcontext="H,1,10,H20">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="VV20" context="H,1,10,H20" playid="8,2,60" tokens="SPOT:H,H30,Y" text="VV ball on VV30." newcontext="H,1,10,H30">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="VV30" context="H,1,10,H30" playid="8,3,61" type="R" tokens="RUSH:5,H32, TACK:99" text="A. Wegan rush for 2 yards to the VV32 (S. Vardar)." newcontext="H,2,8,H32">
+        <p_ru vh="H" name="A. Wegan" gain="2"/>
+        <p_tk vh="V" name="S. Vardar"/>
+      </play>
+      <play hasball="VV" down="2" togo="8" spot="VV32" context="H,2,8,H32" playid="8,4,62" type="P" turnover="I" tokens="PASS:9,X,44,H46 RET:44,H47 TACK:5" text="J. Erdmann pass intercepted by M. Mbala at the VV46, M. Mbala return -1 yards to the VV47 (A. Wegan)." newcontext="V,1,10,H47">
+        <p_pa vh="H" qb="J. Erdmann" result="INT"/>
+        <p_ir vh="V" name="M. Mbala" at="H46" gain="-1"/>
+        <p_tk vh="H" name="A. Wegan"/>
+      </play>
+      <drivesum plays="2" yards="2" top="0:38" driveindex="8" complete="Y"/>
+      <drivestart poss="V,H47,13:19" vh="V" spot="H47" clock="13:19" driveindex="9,62"/>
+      <play hasball="SS" down="1" togo="10" spot="VV47" context="V,1,10,H47" playid="9,1,63" clock="13:19" tokens="{DRIVE}:13:19" text="STUTTGART SURGE drive start at 13:19." newcontext="V,1,10,H47">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="VV47" context="V,1,10,H47" playid="9,2,64" type="P" tokens="PASS:8,I,6,*" text="R. Schroeder pass incomplete to J. Moukouri." newcontext="V,2,10,H47">
+        <p_pa vh="V" qb="R. Schroeder" result="INC" rcv="J. Moukouri"/>
+      </play>
+      <play hasball="SS" down="2" togo="10" spot="VV47" context="V,2,10,H47" playid="9,3,65" type="P" first="P" tokens="PASS:8,C,85,H33 OB: TACK:23" text="R. Schroeder pass complete to P. Weiblen for 14 yards to the VV33, 1ST DOWN SS, out-of-bounds (B. Straight)." ob="Y" newcontext="V,1,10,H33">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="P. Weiblen" gain="14"/>
+        <p_tk vh="H" name="B. Straight"/>
+      </play>
+      <play hasball="SS" down="1" togo="10" spot="VV33" context="V,1,10,H33" playid="9,4,66" type="R" tokens="RUSH:23,H33, TACK:1,40" text="C. Voumbo rush for no gain to the VV33 (L. Balogh;T. Schnurrer)." newcontext="V,2,10,H33">
+        <p_ru vh="V" name="C. Voumbo" gain="0"/>
+        <p_tk vh="H" name="L. Balogh" assist="Y"/>
+        <p_tk vh="H" name="T. Schnurrer" assist="Y"/>
+      </play>
+      <play hasball="SS" down="2" togo="10" spot="VV33" context="V,2,10,H33" playid="9,5,67" type="P" tokens="PASS:8,C,13,H26 TACK:21" text="R. Schroeder pass complete to N. Bomba for 7 yards to the VV26 (L. Gerner)." newcontext="V,3,3,H26">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="N. Bomba" gain="7"/>
+        <p_tk vh="H" name="L. Gerner"/>
+      </play>
+      <play hasball="SS" down="3" togo="3" spot="VV26" context="V,3,3,H26" playid="9,6,68" type="P" first="P" tokens="PASS:8,C,15,H19" text="R. Schroeder pass complete to E. Pascual for 7 yards to the VV19, 1ST DOWN SS." newcontext="V,1,10,H19">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="E. Pascual" gain="7"/>
+      </play>
+      <play hasball="SS" down="1" togo="10" spot="VV19" context="V,1,10,H19" playid="9,7,69" type="R" tokens="RUSH:6,H17, TACK:75" text="J. Moukouri rush for 2 yards to the VV17 (F. Sudi)." newcontext="V,2,8,H17">
+        <p_ru vh="V" name="J. Moukouri" gain="2"/>
+        <p_tk vh="H" name="F. Sudi"/>
+      </play>
+      <play hasball="SS" down="2" togo="8" spot="VV17" context="V,2,8,H17" playid="9,8,70" type="R" tokens="RUSH:6,H17, TACK:40" text="J. Moukouri rush for no gain to the VV17 (T. Schnurrer)." newcontext="V,3,8,H17">
+        <p_ru vh="V" name="J. Moukouri" gain="0"/>
+        <p_tk vh="H" name="T. Schnurrer"/>
+      </play>
+      <play hasball="SS" down="3" togo="8" spot="VV17" context="V,3,8,H17" playid="9,9,71" type="P" tokens="PASS:8,I,18,* BRUP:40 QBH:H,91" text="R. Schroeder pass incomplete to P. Steigerwald (T. Schnurrer), QB hurry by D. Siegel." newcontext="V,4,8,H17">
+        <p_pa vh="V" qb="R. Schroeder" result="INC" rcv="P. Steigerwald"/>
+        <p_bu vh="H" name="T. Schnurrer"/>
+        <p_qbh vh="H" name="D. Siegel"/>
+      </play>
+      <play hasball="SS" down="4" togo="8" spot="VV17" context="V,4,8,H17" playid="9,10,72" type="F" score="Y" vscore="10" hscore="10" clock="09:19" tokens="FGA:9,34,G T:09:19" text="J. Loria field goal attempt from 34 GOOD, clock 09:19." newcontext="V,1,0,V30">
+        <p_fg vh="V" name="J. Loria" distance="34" result="GOOD" score="Y"/>
+      </play>
+      <score V="10" H="10"/>
+      <drivesum plays="9" yards="30" top="4:00" driveindex="9" complete="Y"/>
+      <play hasball="SS" down="1" togo="0" spot="SS30" context="V,1,0,V30" playid="9,11,73" type="K" tokens="KO:9,H10 RET:4,H34 TACK:22" text="J. Loria kickoff 60 yards to the VV10, J. Bouah return 24 yards to the VV34 (C. Perron)." newcontext="H,1,10,H34">
+        <p_ko vh="V" name="J. Loria" gain="60"/>
+        <p_kr vh="H" name="J. Bouah" gain="24"/>
+        <p_tk vh="V" name="C. Perron"/>
+      </play>
+      <drivestart poss="H,H34,09:14" vh="H" spot="H34" clock="09:14" driveindex="10,73"/>
+      <play hasball="VV" down="1" togo="10" spot="VV34" context="H,1,10,H34" playid="10,1,74" clock="09:14" tokens="{DRIVE}:09:14" text="VIENNA VIKINGS drive start at 09:14." newcontext="H,1,10,H34">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="VV34" context="H,1,10,H34" playid="10,2,75" type="P" tokens="PASS:9,C,6,H36 TACK:11 QBH:V,99" text="J. Erdmann pass complete to M. Breuler for 2 yards to the VV36 (R. Lakalaka), QB hurry by S. Vardar." newcontext="H,2,8,H36">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="M. Breuler" gain="2"/>
+        <p_tk vh="V" name="R. Lakalaka"/>
+        <p_qbh vh="V" name="S. Vardar"/>
+      </play>
+      <play hasball="VV" down="2" togo="8" spot="VV36" context="H,2,8,H36" playid="10,3,76" type="P" turnover="I" tokens="PASS:9,X,2,V38 RET:2,V38 TACK:89 BRUP:33" text="J. Erdmann pass intercepted by M. Washington at the SS38, M. Washington return 0 yards to the SS38 (F. Bierbaumer) (B. Wenzler)." newcontext="V,1,10,V38">
+        <p_pa vh="H" qb="J. Erdmann" result="INT"/>
+        <p_ir vh="V" name="M. Washington" at="V38" gain="0"/>
+        <p_tk vh="H" name="F. Bierbaumer"/>
+        <p_bu vh="V" name="B. Wenzler"/>
+      </play>
+      <drivesum plays="2" yards="2" top="0:53" driveindex="10" complete="Y"/>
+      <drivestart poss="V,V38,08:21" vh="V" spot="V38" clock="08:21" driveindex="11,76"/>
+      <play hasball="SS" down="1" togo="10" spot="SS38" context="V,1,10,V38" playid="11,1,77" clock="08:21" tokens="{DRIVE}:08:21" text="STUTTGART SURGE drive start at 08:21." newcontext="V,1,10,V38">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS38" context="V,1,10,V38" playid="11,2,78" type="P" tokens="PASS:8,I,17,*" text="R. Schroeder pass incomplete to M. Riedinger." newcontext="V,2,10,V38">
+        <p_pa vh="V" qb="R. Schroeder" result="INC" rcv="M. Riedinger"/>
+      </play>
+      <play hasball="SS" down="2" togo="10" spot="SS38" context="V,2,10,V38" playid="11,3,79" type="R" tokens="RUSH:41,V38, TACK:49" text="B. Yankson rush for no gain to the SS38 (A. Watholowitsc)." newcontext="V,3,10,V38">
+        <p_ru vh="V" name="B. Yankson" gain="0"/>
+        <p_tk vh="H" name="A. Watholowitsc"/>
+      </play>
+      <play hasball="SS" down="3" togo="10" spot="SS38" context="V,3,10,V38" playid="11,4,80" type="P" tokens="PASS:8,I,85,*" text="R. Schroeder pass incomplete to P. Weiblen." newcontext="V,4,10,V38">
+        <p_pa vh="V" qb="R. Schroeder" result="INC" rcv="P. Weiblen"/>
+      </play>
+      <play hasball="SS" down="4" togo="10" spot="SS38" context="V,4,10,V38" playid="11,5,81" type="U" tokens="PUNT:9,H17 RET:4,V44 OB: TACK:51" text="J. Loria punt 45 yards to the VV17, J. Bouah return 39 yards to the SS44, out-of-bounds (M. Fischer)." ob="Y" newcontext="H,1,10,V44">
+        <p_pu vh="V" name="J. Loria" gain="45"/>
+        <p_pr vh="H" name="J. Bouah" gain="39"/>
+        <p_tk vh="V" name="M. Fischer"/>
+      </play>
+      <drivesum plays="3" yards="0" top="1:06" driveindex="11" complete="Y"/>
+      <drivestart poss="H,V44,07:15" vh="H" spot="V44" clock="07:15" driveindex="12,81"/>
+      <play hasball="VV" down="1" togo="10" spot="SS44" context="H,1,10,V44" playid="12,1,82" clock="07:15" tokens="{DRIVE}:07:15" text="VIENNA VIKINGS drive start at 07:15." newcontext="H,1,10,V44">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="SS44" context="H,1,10,V44" playid="12,2,83" type="R" tokens="RUSH:13,V44, TACK:11,99" text="F. Wegan rush for no gain to the SS44 (R. Lakalaka;S. Vardar)." newcontext="H,2,10,V44">
+        <p_ru vh="H" name="F. Wegan" gain="0"/>
+        <p_tk vh="V" name="R. Lakalaka" assist="Y"/>
+        <p_tk vh="V" name="S. Vardar" assist="Y"/>
+      </play>
+      <play hasball="VV" down="2" togo="10" spot="SS44" context="H,2,10,V44" playid="12,3,84" type="P" tokens="PASS:9,C,5,V39 TACK:43" text="J. Erdmann pass complete to A. Wegan for 5 yards to the SS39 (P. Ogbevoen)." newcontext="H,3,5,V39">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="A. Wegan" gain="5"/>
+        <p_tk vh="V" name="P. Ogbevoen"/>
+      </play>
+      <play hasball="VV" down="3" togo="5" spot="SS39" context="H,3,5,V39" playid="12,4,85" type="P" tokens="PASS:9,D,8,*" text="J. Erdmann pass incomplete to A. Botella M, dropped pass." newcontext="H,4,5,V39">
+        <p_pa vh="H" qb="J. Erdmann" result="DROP" rcv="A. Botella M"/>
+      </play>
+      <play hasball="VV" down="4" togo="5" spot="SS39" context="H,4,5,V39" playid="12,5,86" type="P" first="P" tokens="PASS:9,C,4,V25 TACK:22" text="J. Erdmann pass complete to J. Bouah for 14 yards to the SS25, 1ST DOWN VV (C. Perron)." newcontext="H,1,10,V25">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="J. Bouah" gain="14"/>
+        <p_tk vh="V" name="C. Perron"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS25" context="H,1,10,V25" playid="12,6,87" type="P" tokens="PASS:9,C,6,V19 TACK:22" text="J. Erdmann pass complete to M. Breuler for 6 yards to the SS19 (C. Perron)." newcontext="H,2,4,V19">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="M. Breuler" gain="6"/>
+        <p_tk vh="V" name="C. Perron"/>
+      </play>
+      <play hasball="VV" down="2" togo="4" spot="SS19" context="H,2,4,V19" playid="12,7,88" type="R" first="R" tokens="RUSH:13,V10, TACK:44" text="F. Wegan rush for 9 yards to the SS10, 1ST DOWN VV (M. Mbala)." newcontext="H,1,0,V10">
+        <p_ru vh="H" name="F. Wegan" gain="9"/>
+        <p_tk vh="V" name="M. Mbala"/>
+      </play>
+      <play hasball="VV" down="1" togo="0" spot="SS10" context="H,1,0,V10" playid="12,8,89" type="R" tokens="RUSH:13,V06, TACK:44" text="F. Wegan rush for 4 yards to the SS6 (M. Mbala)." newcontext="H,2,0,V06">
+        <p_ru vh="H" name="F. Wegan" gain="4"/>
+        <p_tk vh="V" name="M. Mbala"/>
+      </play>
+      <play hasball="VV" down="2" togo="0" spot="SS06" context="H,2,0,V06" playid="12,9,90" type="R" first="R" score="Y" vscore="10" hscore="16" clock="03:46" tokens="RUSH:13,V00, T:03:46" text="F. Wegan rush for 6 yards to the SS0, 1ST DOWN VV, TOUCHDOWN, clock 03:46." newcontext="H,1,10,V15">
+        <p_ru vh="H" name="F. Wegan" gain="6"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS15" context="H,1,10,V15" playid="12,10,91" type="X" tokens="PAT:K,16,M" text="S. Daum kick attempt failed." newcontext="H,1,0,H30">
+        <p_pat vh="H" name="S. Daum" qb="S. Daum" type="K" result="MISSED"/>
+      </play>
+      <score V="10" H="16"/>
+      <drivesum plays="8" yards="44" top="3:29" driveindex="12" complete="Y"/>
+      <play hasball="VV" down="1" togo="0" spot="VV30" context="H,1,0,H30" playid="12,11,92" type="K" tokens="KO:23,V10 RET:25,V30 OB: TACK:22" text="B. Straight kickoff 60 yards to the SS10, B. Barnes return 20 yards to the SS30, out-of-bounds (C. Kellner)." ob="Y" newcontext="V,1,10,V30">
+        <p_ko vh="H" name="B. Straight" gain="60"/>
+        <p_kr vh="V" name="B. Barnes" gain="20"/>
+        <p_tk vh="H" name="C. Kellner"/>
+      </play>
+      <drivestart poss="V,V30,03:42" vh="V" spot="V30" clock="03:42" driveindex="13,92"/>
+      <play hasball="SS" down="1" togo="10" spot="SS30" context="V,1,10,V30" playid="13,1,93" clock="03:42" tokens="{DRIVE}:03:42" text="STUTTGART SURGE drive start at 03:42." newcontext="V,1,10,V30">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS30" context="V,1,10,V30" playid="13,2,94" type="P" tokens="PASS:8,C,5,V32 TACK:36" text="R. Schroeder pass complete to D. Meza for 2 yards to the SS32 (F. Tartarotti)." newcontext="V,2,8,V32">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="D. Meza" gain="2"/>
+        <p_tk vh="H" name="F. Tartarotti"/>
+      </play>
+      <play hasball="SS" down="2" togo="8" spot="SS32" context="V,2,8,V32" playid="13,3,95" type="P" tokens="PASS:8,C,17,V33 TACK:32" text="R. Schroeder pass complete to M. Riedinger for 1 yard to the SS33 (L. Horvath)." newcontext="V,3,7,V33">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="M. Riedinger" gain="1"/>
+        <p_tk vh="H" name="L. Horvath"/>
+      </play>
+      <play hasball="SS" down="3" togo="7" spot="SS33" context="V,3,7,V33" playid="13,4,96" type="P" first="P" tokens="PASS:8,C,18,V45 OB: TACK:27" text="R. Schroeder pass complete to P. Steigerwald for 12 yards to the SS45, 1ST DOWN SS, out-of-bounds (N. Huszar)." ob="Y" newcontext="V,1,10,V45">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="P. Steigerwald" gain="12"/>
+        <p_tk vh="H" name="N. Huszar"/>
+      </play>
+      <comment text="2 Minute Warning"/>
+      <play hasball="SS" down="1" togo="10" spot="SS45" context="V,1,10,V45" playid="13,5,98" type="P" tokens="PASS:8,C,15,V44 OB: TACK:23" text="R. Schroeder pass complete to E. Pascual for loss of 1 yard to the SS44, out-of-bounds (B. Straight)." ob="Y" newcontext="V,2,11,V44">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="E. Pascual" gain="-1"/>
+        <p_tk vh="H" name="B. Straight"/>
+      </play>
+      <comment text="Injury TO Vikings"/>
+      <play hasball="SS" down="2" togo="11" spot="SS44" context="V,2,11,V44" playid="13,6,100" type="#" clock="01:42" tokens="TOUT:H T:01:42" text="Timeout Vienna Vikings, clock 01:42." newcontext="V,2,11,V44">
+        <p_to vh="H" team="Vienna Vikings"/>
+      </play>
+      <play hasball="SS" down="2" togo="11" spot="SS44" context="V,2,11,V44" playid="13,7,101" type="P" tokens="PASS:8,I,5,*" text="R. Schroeder pass incomplete to D. Meza." newcontext="V,3,11,V44">
+        <p_pa vh="V" qb="R. Schroeder" result="INC" rcv="D. Meza"/>
+      </play>
+      <play hasball="SS" down="3" togo="11" spot="SS44" context="V,3,11,V44" playid="13,8,102" type="E" first="E" tokens="PASS:8,I,18,* PEN:H,RP,A,1,H41,1 NOPLAY:" text="R. Schroeder pass incomplete to P. Steigerwald, PENALTY VV roughing passer (L. Balogh) 15 yards to the VV41, 1ST DOWN SS, NO PLAY." newcontext="V,1,10,H41">
+        <p_pn vh="H" code="RP" type="roughing passer" name="L. Balogh" result="ACCEPT" at="V44" yards="15"/>
+      </play>
+      <play hasball="SS" down="1" togo="10" spot="VV41" context="V,1,10,H41" playid="13,9,103" type="P" tokens="PASS:8,D,13,*" text="R. Schroeder pass incomplete to N. Bomba, dropped pass." newcontext="V,2,10,H41">
+        <p_pa vh="V" qb="R. Schroeder" result="DROP" rcv="N. Bomba"/>
+      </play>
+      <play hasball="SS" down="2" togo="10" spot="VV41" context="V,2,10,H41" playid="13,10,104" type="P" tokens="PASS:8,I,TM,* QBH:H,90" text="R. Schroeder pass incomplete, QB hurry by M. Schmahel." newcontext="V,3,10,H41">
+        <p_pa vh="V" qb="R. Schroeder" result="INC"/>
+        <p_qbh vh="H" name="M. Schmahel"/>
+      </play>
+      <play hasball="SS" down="3" togo="10" spot="VV41" context="V,3,10,H41" playid="13,11,105" type="#" clock="01:23" tokens="TOUT:V T:01:23" text="Timeout Stuttgart Surge, clock 01:23." newcontext="V,3,10,H41">
+        <p_to vh="V" team="Stuttgart Surge"/>
+      </play>
+      <play hasball="SS" down="3" togo="10" spot="VV41" context="V,3,10,H41" playid="13,12,106" type="P" tokens="PASS:8,B,TM,* BRUP:1" text="R. Schroeder pass incomplete (L. Balogh)." newcontext="V,4,10,H41">
+        <p_pa vh="V" qb="R. Schroeder" result="BRUP"/>
+        <p_bu vh="H" name="L. Balogh"/>
+      </play>
+      <play hasball="SS" down="4" togo="10" spot="VV41" context="V,4,10,H41" playid="13,13,107" type="U" tokens="PUNT:9,H00 TB:" text="J. Loria punt 41 yards to the VV0, touchback." newcontext="H,1,10,H25">
+        <p_pu vh="V" name="J. Loria" gain="41" tb="Y"/>
+      </play>
+      <drivesum plays="8" yards="29" top="2:27" driveindex="13" complete="Y"/>
+      <drivestart poss="H,H25,01:15" vh="H" spot="H25" clock="01:15" driveindex="14,107"/>
+      <play hasball="VV" down="1" togo="10" spot="VV25" context="H,1,10,H25" playid="14,1,108" clock="01:15" tokens="{DRIVE}:01:15" text="VIENNA VIKINGS drive start at 01:15." newcontext="H,1,10,H25">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="VV25" context="H,1,10,H25" playid="14,2,109" tokens="SPOT:H,H20,Y" text="VV ball on VV20." newcontext="H,1,10,H20">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="VV20" context="H,1,10,H20" playid="14,3,110" type="E" tokens="RUSH:9,H25, TACK:90,43 PEN:H,FM,A,75,H10,N NOPLAY:" text="J. Erdmann rush for 5 yards to the VV25 (M. Kimpiabi;P. Ogbevoen), PENALTY VV face mask (F. Sudi) 10 yards to the VV10, NO PLAY." newcontext="H,1,20,H10">
+        <p_pn vh="H" code="FM" type="face mask" name="F. Sudi" result="ACCEPT" at="H20" yards="10"/>
+      </play>
+      <play hasball="VV" down="1" togo="20" spot="VV10" context="H,1,20,H10" playid="14,4,111" type="P" tokens="PASS:9,C,4,H25 TACK:11" text="J. Erdmann pass complete to J. Bouah for 15 yards to the VV25 (R. Lakalaka)." newcontext="H,2,5,H25">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="J. Bouah" gain="15"/>
+        <p_tk vh="V" name="R. Lakalaka"/>
+      </play>
+      <play hasball="VV" down="2" togo="5" spot="VV25" context="H,2,5,H25" playid="14,5,112" type="P" first="P" tokens="PASS:9,C,5,H46 OB:" text="J. Erdmann pass complete to A. Wegan for 21 yards to the VV46, 1ST DOWN VV, out-of-bounds." ob="Y" newcontext="H,1,10,H46">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="A. Wegan" gain="21"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="VV46" context="H,1,10,H46" playid="14,6,113" type="P" tokens="PASS:9,C,17,V46 OB:" text="J. Erdmann pass complete to K. Linnainmaa for 8 yards to the SS46, out-of-bounds." ob="Y" newcontext="H,2,2,V46">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="K. Linnainmaa" gain="8"/>
+      </play>
+      <play hasball="VV" down="2" togo="2" spot="SS46" context="H,2,2,V46" playid="14,7,114" type="P" first="P" tokens="PASS:9,C,89,V01 TACK:33" text="J. Erdmann pass complete to F. Bierbaumer for 45 yards to the SS1, 1ST DOWN VV (B. Wenzler)." newcontext="H,1,0,V01">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="F. Bierbaumer" gain="45"/>
+        <p_tk vh="V" name="B. Wenzler"/>
+      </play>
+      <play hasball="VV" down="1" togo="0" spot="SS01" context="H,1,0,V01" playid="14,8,115" type="#" clock="00:09" tokens="TOUT:H T:00:09" text="Timeout Vienna Vikings, clock 00:09." newcontext="H,1,0,V01">
+        <p_to vh="H" team="Vienna Vikings"/>
+      </play>
+      <play hasball="VV" down="1" togo="0" spot="SS01" context="H,1,0,V01" playid="14,9,116" type="P" tokens="PASS:9,I,6,*" text="J. Erdmann pass incomplete to M. Breuler." newcontext="H,2,0,V01">
+        <p_pa vh="H" qb="J. Erdmann" result="INC" rcv="M. Breuler"/>
+      </play>
+      <play hasball="VV" down="2" togo="0" spot="SS01" context="H,2,0,V01" playid="14,10,117" type="F" score="Y" vscore="10" hscore="19" clock="00:00" tokens="FGA:16,18,G T:00:00" text="S. Daum field goal attempt from 18 GOOD, clock 00:00." newcontext="H,1,0,H30">
+        <p_fg vh="H" name="S. Daum" distance="18" result="GOOD" score="Y"/>
+      </play>
+      <score V="10" H="19"/>
+      <play hasball="VV" down="1" togo="0" spot="VV30" context="H,1,0,H30" playid="14,11,118" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of half, clock 00:00." newcontext="H,1,0,H30">
+   </play>
+      <drivesum plays="6" yards="79" top="1:15" driveindex="14" complete="Y"/>
+      <score qtr="2" V="10" H="19"/>
+      <endqtr/>
+      <qtrsummary vh="V" id="SS">
+        <firstdowns no="6" rush="0" pass="5" penalty="1"/>
+        <penalties no="0" yds="0"/>
+        <conversions thirdconv="3" thirdatt="6" fourthconv="0" fourthatt="0"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="08:39"/>
+        <rush att="4" yds="2" gain="2" loss="0" td="0" long="0"/>
+        <pass comp="9" att="18" int="0" yds="128" td="1" long="72" sacks="0" sackyds="0"/>
+        <rcv no="9" yds="128" td="1" long="72"/>
+        <punt no="2" yds="86" long="12" blkd="0" tb="1" fc="0" plus50="0" inside20="0" avg="43.0"/>
+        <ko no="2" yds="130" ob="0" tb="1" fcyds="8192"/>
+        <fg made="1" att="1" long="34" blkd="0"/>
+        <pat kickatt="1" kickmade="1"/>
+        <defense tackua="11" tacka="2" tot_tack="13" sacks="0" sackyds="0" brup="1" qbh="1" int="2" intyds="-1"/>
+        <kr no="1" yds="20" td="0" long="0"/>
+        <ir no="2" yds="-1" td="0" long="0"/>
+        <scoring td="1" fg="1" patkick="1"/>
+      </qtrsummary>
+      <qtrsummary vh="H" id="VV">
+        <firstdowns no="5" rush="2" pass="3" penalty="0"/>
+        <penalties no="2" yds="25"/>
+        <conversions thirdconv="0" thirdatt="1" fourthconv="1" fourthatt="1"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="06:21"/>
+        <rush att="5" yds="21" gain="21" loss="0" td="1" long="0"/>
+        <pass comp="8" att="12" int="2" yds="116" td="0" long="33" sacks="0" sackyds="0"/>
+        <rcv no="8" yds="116" td="0" long="33"/>
+        <ko no="1" yds="60" ob="0" tb="0" fcyds="8224"/>
+        <fg made="1" att="1" long="0" blkd="0"/>
+        <pat kickatt="1" kickmade="0"/>
+        <defense tackua="13" tacka="2" tot_tack="15" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0" brup="2" qbh="2"/>
+        <kr no="1" yds="24" td="0" long="24"/>
+        <pr no="1" yds="39" td="0" long="39"/>
+        <scoring td="1" fg="1"/>
+      </qtrsummary>
+    </qtr>
+    <qtr number="3" text="3rd">
+      <play hasball="VV" down="1" togo="0" spot="VV30" context="H,1,0,H30" playid="14,12,119" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:H,H30,N" text="Start of 3rd quarter, clock 15:00, VV ball on VV30." newcontext="H,1,0,H30">
+   </play>
+      <play hasball="VV" down="1" togo="0" spot="VV30" context="H,1,0,H30" playid="14,13,120" type="K" tokens="KO:23,V14 RET:23,V49 OB: TACK:22" text="B. Straight kickoff 56 yards to the SS14, C. Voumbo return 35 yards to the SS49, out-of-bounds (C. Kellner)." ob="Y" newcontext="V,1,10,V49">
+        <p_ko vh="H" name="B. Straight" gain="56"/>
+        <p_kr vh="V" name="C. Voumbo" gain="35"/>
+        <p_tk vh="H" name="C. Kellner"/>
+      </play>
+      <drivestart poss="V,V49,14:50" vh="V" spot="V49" clock="14:50" driveindex="15,120"/>
+      <play hasball="SS" down="1" togo="10" spot="SS49" context="V,1,10,V49" playid="15,1,121" clock="14:50" tokens="{DRIVE}:14:50" text="STUTTGART SURGE drive start at 14:50." newcontext="V,1,10,V49">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS49" context="V,1,10,V49" playid="15,2,122" type="R" tokens="RUSH:41,V50, TACK:40" text="B. Yankson rush for 1 yard to the 50 yardline (T. Schnurrer)." newcontext="V,2,9,V50">
+        <p_ru vh="V" name="B. Yankson" gain="1"/>
+        <p_tk vh="H" name="T. Schnurrer"/>
+      </play>
+      <play hasball="SS" down="2" togo="9" spot="SS50" context="V,2,9,V50" playid="15,3,123" type="P" tokens="PASS:8,I,85,* BRUP:32 PEN:V,ID,D" text="R. Schroeder pass incomplete to P. Weiblen (L. Horvath), PENALTY SS ineligible downfield on pass declined." newcontext="V,3,9,V50">
+        <p_pa vh="V" qb="R. Schroeder" result="INC" rcv="P. Weiblen"/>
+        <p_pn vh="V" code="ID" type="ineligible downfield on pass" name="P. Weiblen" result="DECLINE"/>
+        <p_bu vh="H" name="L. Horvath"/>
+      </play>
+      <play hasball="SS" down="3" togo="9" spot="SS50" context="V,3,9,V50" playid="15,4,124" type="P" first="P" tokens="PASS:8,C,18,H24" text="R. Schroeder pass complete to P. Steigerwald for 26 yards to the VV24, 1ST DOWN SS." newcontext="V,1,10,H24">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="P. Steigerwald" gain="26"/>
+      </play>
+      <play hasball="SS" down="1" togo="10" spot="VV24" context="V,1,10,H24" playid="15,5,125" type="P" tokens="PASS:8,I,18,* BRUP:91" text="R. Schroeder pass incomplete to P. Steigerwald (D. Siegel)." newcontext="V,2,10,H24">
+        <p_pa vh="V" qb="R. Schroeder" result="INC" rcv="P. Steigerwald"/>
+        <p_bu vh="H" name="D. Siegel"/>
+      </play>
+      <play hasball="SS" down="2" togo="10" spot="VV24" context="V,2,10,H24" playid="15,6,126" type="P" tokens="PASS:8,C,85,H16 TACK:7" text="R. Schroeder pass complete to P. Weiblen for 8 yards to the VV16 (E. Edwards)." newcontext="V,3,2,H16">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="P. Weiblen" gain="8"/>
+        <p_tk vh="H" name="E. Edwards"/>
+      </play>
+      <play hasball="SS" down="3" togo="2" spot="VV16" context="V,3,2,H16" playid="15,7,127" type="R" first="R" tokens="RUSH:23,H13, TACK:75,36" text="C. Voumbo rush for 3 yards to the VV13, 1ST DOWN SS (F. Sudi;F. Tartarotti)." newcontext="V,1,10,H13">
+        <p_ru vh="V" name="C. Voumbo" gain="3"/>
+        <p_tk vh="H" name="F. Sudi" assist="Y"/>
+        <p_tk vh="H" name="F. Tartarotti" assist="Y"/>
+      </play>
+      <play hasball="SS" down="1" togo="10" spot="VV13" context="V,1,10,H13" playid="15,8,128" type="P" tokens="PASS:8,I,5,*" text="R. Schroeder pass incomplete to D. Meza." newcontext="V,2,10,H13">
+        <p_pa vh="V" qb="R. Schroeder" result="INC" rcv="D. Meza"/>
+      </play>
+      <play hasball="SS" down="2" togo="10" spot="VV13" context="V,2,10,H13" playid="15,9,129" type="R" tokens="RUSH:23,H11, TACK:99" text="C. Voumbo rush for 2 yards to the VV11 (M.Mueller)." newcontext="V,3,8,H11">
+        <p_ru vh="V" name="C. Voumbo" gain="2"/>
+        <p_tk vh="H" name="M.Mueller"/>
+      </play>
+      <play hasball="SS" down="3" togo="8" spot="VV11" context="V,3,8,H11" playid="15,10,130" type="E" tokens="PEN:V,DG,A,8,H16,N" text="PENALTY SS delay of game (R. Schroeder) 5 yards to the VV16." newcontext="V,3,13,H16">
+        <p_pn vh="V" code="DG" type="delay of game" name="R. Schroeder" result="ACCEPT" at="H11" yards="5"/>
+      </play>
+      <play hasball="SS" down="3" togo="13" spot="VV16" context="V,3,13,H16" playid="15,11,131" type="P" tokens="PASS:8,C,18,H09 TACK:27,21" text="R. Schroeder pass complete to P. Steigerwald for 7 yards to the VV9 (N. Huszar;L. Gerner)." newcontext="V,4,6,H09">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="P. Steigerwald" gain="7"/>
+        <p_tk vh="H" name="N. Huszar" assist="Y"/>
+        <p_tk vh="H" name="L. Gerner" assist="Y"/>
+      </play>
+      <play hasball="SS" down="4" togo="6" spot="VV09" context="V,4,6,H09" playid="15,12,132" type="F" score="Y" vscore="13" hscore="19" clock="09:55" tokens="FGA:9,26,G T:09:55" text="J. Loria field goal attempt from 26 GOOD, clock 09:55." newcontext="V,1,0,V30">
+        <p_fg vh="V" name="J. Loria" distance="26" result="GOOD" score="Y"/>
+      </play>
+      <score V="13" H="19"/>
+      <drivesum plays="10" yards="42" top="4:55" driveindex="15" complete="Y"/>
+      <play hasball="SS" down="1" togo="0" spot="SS30" context="V,1,0,V30" playid="15,13,133" type="K" tokens="KO:9,H05 RET:4,H42 OB: TACK:10" text="J. Loria kickoff 65 yards to the VV5, J. Bouah return 37 yards to the VV42, out-of-bounds (J. Hackenberg)." ob="Y" newcontext="H,1,10,H42">
+        <p_ko vh="V" name="J. Loria" gain="65"/>
+        <p_kr vh="H" name="J. Bouah" gain="37"/>
+        <p_tk vh="V" name="J. Hackenberg"/>
+      </play>
+      <drivestart poss="H,H42,09:47" vh="H" spot="H42" clock="09:47" driveindex="16,133"/>
+      <play hasball="VV" down="1" togo="10" spot="VV42" context="H,1,10,H42" playid="16,1,134" clock="09:47" tokens="{DRIVE}:09:47" text="VIENNA VIKINGS drive start at 09:47." newcontext="H,1,10,H42">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="VV42" context="H,1,10,H42" playid="16,2,135" type="R" tokens="RUSH:13,H44, TACK:11" text="F. Wegan rush for 2 yards to the VV44 (R. Lakalaka)." newcontext="H,2,8,H44">
+        <p_ru vh="H" name="F. Wegan" gain="2"/>
+        <p_tk vh="V" name="R. Lakalaka"/>
+      </play>
+      <play hasball="VV" down="2" togo="8" spot="VV44" context="H,2,8,H44" playid="16,3,136" type="P" first="P" tokens="PASS:9,C,6,V41 TACK:2" text="J. Erdmann pass complete to M. Breuler for 15 yards to the SS41, 1ST DOWN VV (M. Washington)." newcontext="H,1,10,V41">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="M. Breuler" gain="15"/>
+        <p_tk vh="V" name="M. Washington"/>
+      </play>
+      <comment text="Team Challenge STUTTGART rULING STANDS"/>
+      <play hasball="VV" down="1" togo="10" spot="SS41" context="H,1,10,V41" playid="16,4,138" type="R" first="R" tokens="RUSH:5,V10, OB: TACK:33,2" text="A. Wegan rush for 31 yards to the SS10, 1ST DOWN VV, out-of-bounds (B. Wenzler;M. Washington)." ob="Y" newcontext="H,1,0,V10">
+        <p_ru vh="H" name="A. Wegan" gain="31"/>
+        <p_tk vh="V" name="B. Wenzler" assist="Y"/>
+        <p_tk vh="V" name="M. Washington" assist="Y"/>
+      </play>
+      <play hasball="VV" down="1" togo="0" spot="SS10" context="H,1,0,V10" playid="16,5,139" type="P" tokens="PASS:9,I,6,*" text="J. Erdmann pass incomplete to M. Breuler." newcontext="H,2,0,V10">
+        <p_pa vh="H" qb="J. Erdmann" result="INC" rcv="M. Breuler"/>
+      </play>
+      <play hasball="VV" down="2" togo="0" spot="SS10" context="H,2,0,V10" playid="16,6,140" type="R" first="R" score="Y" vscore="13" hscore="25" clock="08:34" tokens="RUSH:5,V00, T:08:34" text="A. Wegan rush for 10 yards to the SS0, 1ST DOWN VV, TOUCHDOWN, clock 08:34." newcontext="H,1,10,V15">
+        <p_ru vh="H" name="A. Wegan" gain="10"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS15" context="H,1,10,V15" playid="16,7,141" type="X" tokens="PAT:K,16,M" text="S. Daum kick attempt failed." newcontext="H,1,0,H30">
+        <p_pat vh="H" name="S. Daum" qb="S. Daum" type="K" result="MISSED"/>
+      </play>
+      <score V="13" H="25"/>
+      <drivesum plays="5" yards="58" top="1:13" driveindex="16" complete="Y"/>
+      <play hasball="VV" down="1" togo="0" spot="VV30" context="H,1,0,H30" playid="16,8,142" type="K" tokens="KO:23,V18 RET:23,V29 TACK:23" text="B. Straight kickoff 52 yards to the SS18, C. Voumbo return 11 yards to the SS29 (B. Straight)." newcontext="V,1,10,V29">
+        <p_ko vh="H" name="B. Straight" gain="52"/>
+        <p_kr vh="V" name="C. Voumbo" gain="11"/>
+        <p_tk vh="H" name="B. Straight"/>
+      </play>
+      <drivestart poss="V,V29,08:26" vh="V" spot="V29" clock="08:26" driveindex="17,142"/>
+      <play hasball="SS" down="1" togo="10" spot="SS29" context="V,1,10,V29" playid="17,1,143" clock="08:26" tokens="{DRIVE}:08:26" text="STUTTGART SURGE drive start at 08:26." newcontext="V,1,10,V29">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS29" context="V,1,10,V29" playid="17,2,144" type="P" tokens="PASS:8,C,5,V34 TACK:40" text="R. Schroeder pass complete to D. Meza for 5 yards to the SS34 (T. Schnurrer)." newcontext="V,2,5,V34">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="D. Meza" gain="5"/>
+        <p_tk vh="H" name="T. Schnurrer"/>
+      </play>
+      <play hasball="SS" down="2" togo="5" spot="SS34" context="V,2,5,V34" playid="17,3,145" type="R" tokens="RUSH:23,V42, TACK:21 PEN:V,HO,A,13,V28,N" text="C. Voumbo rush for 8 yards to the SS42 (L. Gerner), PENALTY SS holding (N. Bomba) 14 yards to the SS28." newcontext="V,2,11,V28">
+        <p_ru vh="V" name="C. Voumbo" gain="8"/>
+        <p_tk vh="H" name="L. Gerner"/>
+        <p_pn vh="V" code="HO" type="holding" name="N. Bomba" result="ACCEPT" at="V42" yards="14"/>
+      </play>
+      <play hasball="SS" down="2" togo="11" spot="SS28" context="V,2,11,V28" playid="17,4,146" tokens="D:2,11" text="2nd and 11." newcontext="V,2,11,V28">
+   </play>
+      <play hasball="SS" down="2" togo="11" spot="SS28" context="V,2,11,V28" playid="17,5,147" type="P" tokens="PASS:8,D,18,*" text="R. Schroeder pass incomplete to P. Steigerwald, dropped pass." newcontext="V,3,11,V28">
+        <p_pa vh="V" qb="R. Schroeder" result="DROP" rcv="P. Steigerwald"/>
+      </play>
+      <play hasball="SS" down="3" togo="11" spot="SS28" context="V,3,11,V28" playid="17,6,148" type="P" tokens="PASS:8,D,16,* QBH:H,49" text="R. Schroeder pass incomplete to M. Winterlik, dropped pass, QB hurry by A. Watholowitsc." newcontext="V,4,11,V28">
+        <p_pa vh="V" qb="R. Schroeder" result="DROP" rcv="M. Winterlik"/>
+        <p_qbh vh="H" name="A. Watholowitsc"/>
+      </play>
+      <play hasball="SS" down="4" togo="11" spot="SS28" context="V,4,11,V28" playid="17,7,149" type="U" tokens="PUNT:9,H33 RET:4,H31 TACK:31" text="J. Loria punt 39 yards to the VV33, J. Bouah return -2 yards to the VV31 (N. Wenzelburger)." newcontext="H,1,10,H31">
+        <p_pu vh="V" name="J. Loria" gain="39"/>
+        <p_pr vh="H" name="J. Bouah" gain="-2"/>
+        <p_tk vh="V" name="N. Wenzelburger"/>
+      </play>
+      <drivesum plays="4" yards="-1" top="1:11" driveindex="17" complete="Y"/>
+      <drivestart poss="H,H31,07:15" vh="H" spot="H31" clock="07:15" driveindex="18,149"/>
+      <play hasball="VV" down="1" togo="10" spot="VV31" context="H,1,10,H31" playid="18,1,150" clock="07:15" tokens="{DRIVE}:07:15" text="VIENNA VIKINGS drive start at 07:15." newcontext="H,1,10,H31">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="VV31" context="H,1,10,H31" playid="18,2,151" type="R" first="R" tokens="RUSH:13,H42, TACK:99" text="F. Wegan rush for 11 yards to the VV42, 1ST DOWN VV (S. Vardar)." newcontext="H,1,10,H42">
+        <p_ru vh="H" name="F. Wegan" gain="11"/>
+        <p_tk vh="V" name="S. Vardar"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="VV42" context="H,1,10,H42" playid="18,3,152" type="P" tokens="PASS:9,C,4,H49 TACK:44" text="J. Erdmann pass complete to J. Bouah for 7 yards to the VV49 (M. Mbala)." newcontext="H,2,3,H49">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="J. Bouah" gain="7"/>
+        <p_tk vh="V" name="M. Mbala"/>
+      </play>
+      <play hasball="VV" down="2" togo="3" spot="VV49" context="H,2,3,H49" playid="18,4,153" type="P" tokens="PASS:9,C,6,H49 OB: TACK:30" text="J. Erdmann pass complete to M. Breuler for no gain to the VV49, out-of-bounds (T. Becker)." ob="Y" newcontext="H,3,3,H49">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="M. Breuler" gain="0"/>
+        <p_tk vh="V" name="T. Becker"/>
+      </play>
+      <play hasball="VV" down="3" togo="3" spot="VV49" context="H,3,3,H49" playid="18,5,154" type="E" first="E" tokens="PEN:V,OD,A,90,V46,N" text="PENALTY SS offside defense (M. Kimpiabi) 5 yards to the SS46, 1ST DOWN VV." newcontext="H,1,10,V46">
+        <p_pn vh="V" code="OD" type="offside defense" name="M. Kimpiabi" result="ACCEPT" at="H49" yards="5"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS46" context="H,1,10,V46" playid="18,6,155" type="E" tokens="PASS:9,I,8,* PEN:H,HO,A,61,H44,N NOPLAY:" text="J. Erdmann pass incomplete to A. Botella M, PENALTY VV holding (A. Milanovic) 10 yards to the VV44, NO PLAY." newcontext="H,1,20,H44">
+        <p_pn vh="H" code="HO" type="holding" name="A. Milanovic" result="ACCEPT" at="V46" yards="10"/>
+      </play>
+      <play hasball="VV" down="1" togo="20" spot="VV44" context="H,1,20,H44" playid="18,7,156" type="P" tokens="PASS:9,C,6,H45 TACK:43" text="J. Erdmann pass complete to M. Breuler for 1 yard to the VV45 (P. Ogbevoen)." newcontext="H,2,19,H45">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="M. Breuler" gain="1"/>
+        <p_tk vh="V" name="P. Ogbevoen"/>
+      </play>
+      <play hasball="VV" down="2" togo="19" spot="VV45" context="H,2,19,H45" playid="18,8,157" type="R" tokens="RUSH:13,V44, TACK:2" text="F. Wegan rush for 11 yards to the SS44 (M. Washington)." newcontext="H,3,8,V44">
+        <p_ru vh="H" name="F. Wegan" gain="11"/>
+        <p_tk vh="V" name="M. Washington"/>
+      </play>
+      <play hasball="VV" down="3" togo="8" spot="SS44" context="H,3,8,V44" playid="18,9,158" type="P" tokens="PASS:9,S,TM,V50 SACK:99,90" text="J. Erdmann sacked for loss of 6 yards to the 50 yardline (S. Vardar;M. Kimpiabi)." newcontext="H,4,14,H50">
+        <p_pa vh="H" qb="J. Erdmann" result="SACK" gain="-6"/>
+        <p_tk vh="V" name="S. Vardar" sack="Y" assist="Y"/>
+        <p_tk vh="V" name="M. Kimpiabi" sack="Y" assist="Y"/>
+      </play>
+      <play hasball="VV" down="4" togo="14" spot="VV50" context="H,4,14,H50" playid="18,10,159" type="U" tokens="PUNT:23,V09 RET:2,V23 TACK:52" text="B. Straight punt 41 yards to the SS9, M. Washington return 14 yards to the SS23 (O. Kranich)." newcontext="V,1,10,V23">
+        <p_pu vh="H" name="B. Straight" gain="41"/>
+        <p_pr vh="V" name="M. Washington" gain="14"/>
+        <p_tk vh="H" name="O. Kranich"/>
+      </play>
+      <drivesum plays="6" yards="19" top="4:04" driveindex="18" complete="Y"/>
+      <drivestart poss="V,V23,03:11" vh="V" spot="V23" clock="03:11" driveindex="19,159"/>
+      <play hasball="SS" down="1" togo="10" spot="SS23" context="V,1,10,V23" playid="19,1,160" clock="03:11" tokens="{DRIVE}:03:11" text="STUTTGART SURGE drive start at 03:11." newcontext="V,1,10,V23">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS23" context="V,1,10,V23" playid="19,2,161" type="R" tokens="RUSH:41,V25, TACK:49" text="B. Yankson rush for 2 yards to the SS25 (A. Watholowitsc)." newcontext="V,2,8,V25">
+        <p_ru vh="V" name="B. Yankson" gain="2"/>
+        <p_tk vh="H" name="A. Watholowitsc"/>
+      </play>
+      <play hasball="SS" down="2" togo="8" spot="SS25" context="V,2,8,V25" playid="19,3,162" type="P" tokens="PASS:8,I,85,* BRUP:22" text="R. Schroeder pass incomplete to P. Weiblen (C. Kellner)." newcontext="V,3,8,V25">
+        <p_pa vh="V" qb="R. Schroeder" result="INC" rcv="P. Weiblen"/>
+        <p_bu vh="H" name="C. Kellner"/>
+      </play>
+      <play hasball="SS" down="3" togo="8" spot="SS25" context="V,3,8,V25" playid="19,4,163" type="P" tokens="PASS:8,D,18,* BRUP:40" text="R. Schroeder pass incomplete to P. Steigerwald, dropped pass (T. Schnurrer)." newcontext="V,4,8,V25">
+        <p_pa vh="V" qb="R. Schroeder" result="DROP" rcv="P. Steigerwald"/>
+        <p_bu vh="H" name="T. Schnurrer"/>
+      </play>
+      <play hasball="SS" down="4" togo="8" spot="SS25" context="V,4,8,V25" playid="19,5,164" type="U" tokens="PUNT:9,H29 OB:" text="J. Loria punt 46 yards to the VV29, out-of-bounds." ob="Y" newcontext="H,1,10,H29">
+        <p_pu vh="V" name="J. Loria" gain="46" ob="Y"/>
+      </play>
+      <drivesum plays="3" yards="2" top="0:43" driveindex="19" complete="Y"/>
+      <drivestart poss="H,H29,02:28" vh="H" spot="H29" clock="02:28" driveindex="20,164"/>
+      <play hasball="VV" down="1" togo="10" spot="VV29" context="H,1,10,H29" playid="20,1,165" clock="02:28" tokens="{DRIVE}:02:28" text="VIENNA VIKINGS drive start at 02:28." newcontext="H,1,10,H29">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="VV29" context="H,1,10,H29" playid="20,2,166" type="R" tokens="RUSH:13,H36, TACK:44" text="F. Wegan rush for 7 yards to the VV36 (M. Mbala)." newcontext="H,2,3,H36">
+        <p_ru vh="H" name="F. Wegan" gain="7"/>
+        <p_tk vh="V" name="M. Mbala"/>
+      </play>
+      <play hasball="VV" down="2" togo="3" spot="VV36" context="H,2,3,H36" playid="20,3,167" type="R" first="R" tokens="RUSH:9,H40, TACK:97" text="J. Erdmann rush for 4 yards to the VV40, 1ST DOWN VV (P. Ungericht)." newcontext="H,1,10,H40">
+        <p_ru vh="H" name="J. Erdmann" gain="4"/>
+        <p_tk vh="V" name="P. Ungericht"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="VV40" context="H,1,10,H40" playid="20,4,168" type="P" first="P" tokens="PASS:9,C,4,V35 TACK:2" text="J. Erdmann pass complete to J. Bouah for 25 yards to the SS35, 1ST DOWN VV (M. Washington)." newcontext="H,1,10,V35">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="J. Bouah" gain="25"/>
+        <p_tk vh="V" name="M. Washington"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS35" context="H,1,10,V35" playid="20,5,169" type="P" tokens="PASS:9,D,8,*" text="J. Erdmann pass incomplete to A. Botella M, dropped pass." newcontext="H,2,10,V35">
+        <p_pa vh="H" qb="J. Erdmann" result="DROP" rcv="A. Botella M"/>
+      </play>
+      <play hasball="VV" down="2" togo="10" spot="SS35" context="H,2,10,V35" playid="20,6,170" type="R" tokens="RUSH:13,V34, TACK:44" text="F. Wegan rush for 1 yard to the SS34 (M. Mbala)." newcontext="H,3,9,V34">
+        <p_ru vh="H" name="F. Wegan" gain="1"/>
+        <p_tk vh="V" name="M. Mbala"/>
+      </play>
+      <score qtr="3" V="13" H="25"/>
+      <endqtr/>
+      <qtrsummary vh="V" id="SS">
+        <firstdowns no="2" rush="1" pass="1" penalty="0"/>
+        <penalties no="3" yds="24"/>
+        <conversions thirdconv="2" thirdatt="5" fourthconv="0" fourthatt="0"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="07:07"/>
+        <rush att="5" yds="16" gain="16" loss="0" td="0" long="4"/>
+        <pass comp="4" att="11" int="0" yds="46" td="0" long="0" sacks="0" sackyds="0"/>
+        <rcv no="4" yds="46" td="0" long="0"/>
+        <punt no="2" yds="85" long="1" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="42.5"/>
+        <ko no="1" yds="65" ob="0" tb="0" fcyds="8192"/>
+        <fg made="1" att="1" long="0" blkd="0"/>
+        <defense tackua="13" tacka="4" tot_tack="17" tflua="0" tfla="2" tflyds="6" sacks="1" sackyds="6"/>
+        <kr no="2" yds="46" td="0" long="9"/>
+        <pr no="1" yds="14" td="0" long="5"/>
+        <scoring fg="1"/>
+      </qtrsummary>
+      <qtrsummary vh="H" id="VV">
+        <firstdowns no="7" rush="4" pass="2" penalty="1"/>
+        <penalties no="1" yds="10"/>
+        <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="07:53"/>
+        <rush att="8" yds="77" gain="77" loss="0" td="1" long="14"/>
+        <pass comp="5" att="7" int="0" yds="42" td="0" long="0" sacks="1" sackyds="6"/>
+        <rcv no="5" yds="48" td="0" long="0"/>
+        <punt no="1" yds="41" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="41.0"/>
+        <ko no="2" yds="108" ob="0" tb="0" fcyds="8224"/>
+        <pat kickatt="1" kickmade="0"/>
+        <defense tackua="9" tacka="4" tot_tack="13" sacks="0" sackyds="0" brup="4" qbh="1"/>
+        <kr no="1" yds="37" td="0" long="13"/>
+        <pr no="1" yds="-2" td="0" long="0"/>
+        <scoring td="1"/>
+      </qtrsummary>
+    </qtr>
+    <qtr number="4" text="4th">
+      <play hasball="VV" down="3" togo="9" spot="SS34" context="H,3,9,V34" playid="20,7,171" type="#" clock="15:00" tokens="Q:4 T:15:00" text="Start of 4th quarter, clock 15:00." newcontext="H,3,9,V34">
+   </play>
+      <play hasball="VV" down="3" togo="9" spot="SS34" context="H,3,9,V34" playid="20,8,172" type="P" tokens="PASS:9,C,8,V26 TACK:44" text="J. Erdmann pass complete to A. Botella M for 8 yards to the SS26 (M. Mbala)." newcontext="H,4,1,V26">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="A. Botella M" gain="8"/>
+        <p_tk vh="V" name="M. Mbala"/>
+      </play>
+      <play hasball="VV" down="4" togo="1" spot="SS26" context="H,4,1,V26" playid="20,9,173" type="E" first="E" tokens="PEN:V,OD,A,30,V21,N" text="PENALTY SS offside defense (T. Becker) 5 yards to the SS21, 1ST DOWN VV." newcontext="H,1,10,V21">
+        <p_pn vh="V" code="OD" type="offside defense" name="T. Becker" result="ACCEPT" at="V26" yards="5"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS21" context="H,1,10,V21" playid="20,10,174" type="R" tokens="RUSH:13,V17, TACK:30" text="F. Wegan rush for 4 yards to the SS17 (T. Becker)." newcontext="H,2,6,V17">
+        <p_ru vh="H" name="F. Wegan" gain="4"/>
+        <p_tk vh="V" name="T. Becker"/>
+      </play>
+      <play hasball="VV" down="2" togo="6" spot="SS17" context="H,2,6,V17" playid="20,11,175" type="R" first="R" tokens="RUSH:13,V11, TACK:11" text="F. Wegan rush for 6 yards to the SS11, 1ST DOWN VV (R. Lakalaka)." newcontext="H,1,10,V11">
+        <p_ru vh="H" name="F. Wegan" gain="6"/>
+        <p_tk vh="V" name="R. Lakalaka"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS11" context="H,1,10,V11" playid="20,12,176" type="E" first="E" tokens="PASS:9,S,TM,V22 SACK:97 PEN:V,FM,A,90,V05,1 NOPLAY:" text="J. Erdmann sacked for loss of 11 yards to the SS22 (P. Ungericht), PENALTY SS face mask (M. Kimpiabi) 6 yards to the SS5, 1ST DOWN VV, NO PLAY." newcontext="H,1,0,V05">
+        <p_pn vh="V" code="FM" type="face mask" name="M. Kimpiabi" result="ACCEPT" at="V11" yards="6"/>
+      </play>
+      <play hasball="VV" down="1" togo="0" spot="SS05" context="H,1,0,V05" playid="20,13,177" type="P" first="P" score="Y" vscore="13" hscore="31" clock="12:21" tokens="PASS:9,C,4,V00 T:12:21" text="J. Erdmann pass complete to J. Bouah for 5 yards to the SS0, 1ST DOWN VV, TOUCHDOWN, clock 12:21." newcontext="H,1,10,V15">
+        <p_pa vh="H" qb="J. Erdmann" result="COMP" rcv="J. Bouah" gain="5"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS15" context="H,1,10,V15" playid="20,14,178" type="X" score="Y" vscore="13" hscore="33" tokens="PAT:P,9/8,G" text="J. Erdmann pass attempt to A. Botella M good." newcontext="H,1,0,H30">
+        <p_pat vh="H" name="A. Botella M" qb="J. Erdmann" type="P" result="GOOD" score="Y"/>
+      </play>
+      <score V="13" H="33"/>
+      <drivesum plays="9" yards="71" top="5:07" driveindex="20" complete="Y"/>
+      <play hasball="VV" down="1" togo="0" spot="VV30" context="H,1,0,H30" playid="20,15,179" type="K" tokens="KO:23,V00 TB:" text="B. Straight kickoff 70 yards to the SS0, touchback." newcontext="V,1,10,V20">
+        <p_ko vh="H" name="B. Straight" gain="70" result="T"/>
+      </play>
+      <drivestart poss="V,V20,12:21" vh="V" spot="V20" clock="12:21" driveindex="21,179"/>
+      <play hasball="SS" down="1" togo="10" spot="SS20" context="V,1,10,V20" playid="21,1,180" clock="12:21" tokens="{DRIVE}:12:21" text="STUTTGART SURGE drive start at 12:21." newcontext="V,1,10,V20">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS20" context="V,1,10,V20" playid="21,2,181" type="P" first="P" tokens="PASS:8,C,17,H42 OB: TACK:27" text="R. Schroeder pass complete to M. Riedinger for 38 yards to the VV42, 1ST DOWN SS, out-of-bounds (N. Huszar)." ob="Y" newcontext="V,1,10,H42">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="M. Riedinger" gain="38"/>
+        <p_tk vh="H" name="N. Huszar"/>
+      </play>
+      <play hasball="SS" down="1" togo="10" spot="VV42" context="V,1,10,H42" playid="21,3,182" type="P" tokens="PASS:8,I,TM,* QBH:H,1 PEN:V,IG,A,8,V48,+" text="R. Schroeder pass incomplete, QB hurry by L. Balogh, PENALTY SS intentional grounding (R. Schroeder) 10 yards to the SS48." newcontext="V,2,20,V48">
+        <p_pa vh="V" qb="R. Schroeder" result="INC"/>
+        <p_pn vh="V" code="IG" type="intentional grounding" name="R. Schroeder" result="ACCEPT" at="H42" yards="10"/>
+        <p_qbh vh="H" name="L. Balogh"/>
+      </play>
+      <play hasball="SS" down="2" togo="20" spot="SS48" context="V,2,20,V48" playid="21,4,183" type="P" tokens="PASS:8,C,5,H47 TACK:49" text="R. Schroeder pass complete to D. Meza for 5 yards to the VV47 (A. Watholowitsc)." newcontext="V,3,15,H47">
+        <p_pa vh="V" qb="R. Schroeder" result="COMP" rcv="D. Meza" gain="5"/>
+        <p_tk vh="H" name="A. Watholowitsc"/>
+      </play>
+      <play hasball="SS" down="3" togo="15" spot="VV47" context="V,3,15,H47" playid="21,5,184" type="P" tokens="PASS:8,D,17,*" text="R. Schroeder pass incomplete to M. Riedinger, dropped pass." newcontext="V,4,15,H47">
+        <p_pa vh="V" qb="R. Schroeder" result="DROP" rcv="M. Riedinger"/>
+      </play>
+      <play hasball="SS" down="4" togo="15" spot="VV47" context="V,4,15,H47" playid="21,6,185" type="U" tokens="PUNT:9,H14 FC:4" text="J. Loria punt 33 yards to the VV14, fair catch by J. Bouah." newcontext="H,1,10,H14">
+        <p_pu vh="V" name="J. Loria" gain="33" in20="Y" fc="J. Bouah"/>
+      </play>
+      <drivesum plays="4" yards="33" top="1:37" driveindex="21" complete="Y"/>
+      <drivestart poss="H,H14,10:44" vh="H" spot="H14" clock="10:44" driveindex="22,185"/>
+      <play hasball="VV" down="1" togo="10" spot="VV14" context="H,1,10,H14" playid="22,1,186" clock="10:44" tokens="{DRIVE}:10:44" text="VIENNA VIKINGS drive start at 10:44." newcontext="H,1,10,H14">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="VV14" context="H,1,10,H14" playid="22,2,187" type="R" first="R" tokens="RUSH:5,H28, TACK:22" text="A. Wegan rush for 14 yards to the VV28, 1ST DOWN VV (C. Perron)." newcontext="H,1,10,H28">
+        <p_ru vh="H" name="A. Wegan" gain="14"/>
+        <p_tk vh="V" name="C. Perron"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="VV28" context="H,1,10,H28" playid="22,3,188" type="R" tokens="RUSH:5,H30, TACK:99" text="A. Wegan rush for 2 yards to the VV30 (S. Vardar)." newcontext="H,2,8,H30">
+        <p_ru vh="H" name="A. Wegan" gain="2"/>
+        <p_tk vh="V" name="S. Vardar"/>
+      </play>
+      <play hasball="VV" down="2" togo="8" spot="VV30" context="H,2,8,H30" playid="22,4,189" type="R" first="R" tokens="RUSH:5,H40, OB: TACK:33" text="A. Wegan rush for 10 yards to the VV40, 1ST DOWN VV, out-of-bounds (B. Wenzler)." ob="Y" newcontext="H,1,10,H40">
+        <p_ru vh="H" name="A. Wegan" gain="10"/>
+        <p_tk vh="V" name="B. Wenzler"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="VV40" context="H,1,10,H40" playid="22,5,190" type="R" tokens="RUSH:13,H44, TACK:98" text="F. Wegan rush for 4 yards to the VV44 (M. Fuerst)." newcontext="H,2,6,H44">
+        <p_ru vh="H" name="F. Wegan" gain="4"/>
+        <p_tk vh="V" name="M. Fuerst"/>
+      </play>
+      <play hasball="VV" down="2" togo="6" spot="VV44" context="H,2,6,H44" playid="22,6,191" type="R" tokens="RUSH:13,H48, TACK:55,11" text="F. Wegan rush for 4 yards to the VV48 (D. Gratza;R. Lakalaka)." newcontext="H,3,2,H48">
+        <p_ru vh="H" name="F. Wegan" gain="4"/>
+        <p_tk vh="V" name="D. Gratza" assist="Y"/>
+        <p_tk vh="V" name="R. Lakalaka" assist="Y"/>
+      </play>
+      <play hasball="VV" down="3" togo="2" spot="VV48" context="H,3,2,H48" playid="22,7,192" type="P" tokens="PASS:9,I,19,* BRUP:33" text="J. Erdmann pass incomplete to N. Rabitsch (B. Wenzler)." newcontext="H,4,2,H48">
+        <p_pa vh="H" qb="J. Erdmann" result="INC" rcv="N. Rabitsch"/>
+        <p_bu vh="V" name="B. Wenzler"/>
+      </play>
+      <play hasball="VV" down="4" togo="2" spot="VV48" context="H,4,2,H48" playid="22,8,193" type="U" tokens="PUNT:23,V12 FC:2" text="B. Straight punt 40 yards to the SS12, fair catch by M. Washington." newcontext="V,1,10,V12">
+        <p_pu vh="H" name="B. Straight" gain="40" in20="Y" fc="M. Washington"/>
+      </play>
+      <drivesum plays="6" yards="34" top="3:13" driveindex="22" complete="Y"/>
+      <drivestart poss="V,V12,07:31" vh="V" spot="V12" clock="07:31" driveindex="23,193"/>
+      <play hasball="SS" down="1" togo="10" spot="SS12" context="V,1,10,V12" playid="23,1,194" clock="07:31" tokens="{DRIVE}:07:31" text="STUTTGART SURGE drive start at 07:31." newcontext="V,1,10,V12">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS12" context="V,1,10,V12" playid="23,2,195" type="P" tokens="PASS:8,I,TM,* QBH:H,1" text="R. Schroeder pass incomplete, QB hurry by L. Balogh." newcontext="V,2,10,V12">
+        <p_pa vh="V" qb="R. Schroeder" result="INC"/>
+        <p_qbh vh="H" name="L. Balogh"/>
+      </play>
+      <play hasball="SS" down="2" togo="10" spot="SS12" context="V,2,10,V12" playid="23,3,196" type="P" tokens="PASS:8,I,18,*" text="R. Schroeder pass incomplete to P. Steigerwald." newcontext="V,3,10,V12">
+        <p_pa vh="V" qb="R. Schroeder" result="INC" rcv="P. Steigerwald"/>
+      </play>
+      <play hasball="SS" down="3" togo="10" spot="SS12" context="V,3,10,V12" playid="23,4,197" type="P" tokens="PASS:8,I,5,* BRUP:21" text="R. Schroeder pass incomplete to D. Meza (L. Gerner)." newcontext="V,4,10,V12">
+        <p_pa vh="V" qb="R. Schroeder" result="INC" rcv="D. Meza"/>
+        <p_bu vh="H" name="L. Gerner"/>
+      </play>
+      <play hasball="SS" down="4" togo="10" spot="SS12" context="V,4,10,V12" playid="23,5,198" type="U" tokens="PUNT:9,V41 OB:" text="J. Loria punt 29 yards to the SS41, out-of-bounds." ob="Y" newcontext="H,1,10,V41">
+        <p_pu vh="V" name="J. Loria" gain="29" ob="Y"/>
+      </play>
+      <drivesum plays="3" yards="0" top="0:18" driveindex="23" complete="Y"/>
+      <drivestart poss="H,V41,07:13" vh="H" spot="V41" clock="07:13" driveindex="24,198"/>
+      <play hasball="VV" down="1" togo="10" spot="SS41" context="H,1,10,V41" playid="24,1,199" clock="07:13" tokens="{DRIVE}:07:13" text="VIENNA VIKINGS drive start at 07:13." newcontext="H,1,10,V41">
+   </play>
+      <play hasball="VV" down="1" togo="10" spot="SS41" context="H,1,10,V41" playid="24,2,200" type="R" first="R" tokens="RUSH:33,V24, TACK:2" text="K. Rathonyi rush for 17 yards to the SS24, 1ST DOWN VV (M. Washington)." newcontext="H,1,10,V24">
+        <p_ru vh="H" name="K. Rathonyi" gain="17"/>
+        <p_tk vh="V" name="M. Washington"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS24" context="H,1,10,V24" playid="24,3,201" type="R" tokens="RUSH:33,V21, TACK:11" text="K. Rathonyi rush for 3 yards to the SS21 (R. Lakalaka)." newcontext="H,2,7,V21">
+        <p_ru vh="H" name="K. Rathonyi" gain="3"/>
+        <p_tk vh="V" name="R. Lakalaka"/>
+      </play>
+      <play hasball="VV" down="2" togo="7" spot="SS21" context="H,2,7,V21" playid="24,4,202" type="R" tokens="RUSH:33,V26, TACK:25" text="K. Rathonyi rush for loss of 5 yards to the SS26 (B. Barnes)." newcontext="H,3,12,V26">
+        <p_ru vh="H" name="K. Rathonyi" gain="-5"/>
+        <p_tk vh="V" name="B. Barnes"/>
+      </play>
+      <play hasball="VV" down="3" togo="12" spot="SS26" context="H,3,12,V26" playid="24,5,203" type="P" tokens="PASS:9,I,15,*" text="J. Erdmann pass incomplete to R. Frey." newcontext="H,4,12,V26">
+        <p_pa vh="H" qb="J. Erdmann" result="INC" rcv="R. Frey"/>
+      </play>
+      <play hasball="VV" down="4" togo="12" spot="SS26" context="H,4,12,V26" playid="24,6,204" type="F" score="Y" vscore="13" hscore="36" clock="05:05" tokens="FGA:16,43,G T:05:05" text="S. Daum field goal attempt from 43 GOOD, clock 05:05." newcontext="H,1,0,H30">
+        <p_fg vh="H" name="S. Daum" distance="43" result="GOOD" score="Y"/>
+      </play>
+      <score V="13" H="36"/>
+      <drivesum plays="5" yards="15" top="2:08" driveindex="24" complete="Y"/>
+      <play hasball="VV" down="1" togo="0" spot="VV30" context="H,1,0,H30" playid="24,7,205" type="K" tokens="KO:23,V00 TB:" text="B. Straight kickoff 70 yards to the SS0, touchback." newcontext="V,1,10,V20">
+        <p_ko vh="H" name="B. Straight" gain="70" result="T"/>
+      </play>
+      <drivestart poss="V,V20,05:05" vh="V" spot="V20" clock="05:05" driveindex="25,205"/>
+      <play hasball="SS" down="1" togo="10" spot="SS20" context="V,1,10,V20" playid="25,1,206" clock="05:05" tokens="{DRIVE}:05:05" text="STUTTGART SURGE drive start at 05:05." newcontext="V,1,10,V20">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS20" context="V,1,10,V20" playid="25,2,207" tokens="SPOT:V,V30,Y" text="SS ball on SS30." newcontext="V,1,10,V30">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS30" context="V,1,10,V30" playid="25,3,208" type="P" tokens="PASS:8,D,5,*" text="R. Schroeder pass incomplete to D. Meza, dropped pass." newcontext="V,2,10,V30">
+        <p_pa vh="V" qb="R. Schroeder" result="DROP" rcv="D. Meza"/>
+      </play>
+      <play hasball="SS" down="2" togo="10" spot="SS30" context="V,2,10,V30" playid="25,4,209" type="R" tokens="RUSH:23,V33, TACK:94" text="C. Voumbo rush for 3 yards to the SS33 (F. Gruensteidl)." newcontext="V,3,7,V33">
+        <p_ru vh="V" name="C. Voumbo" gain="3"/>
+        <p_tk vh="H" name="F. Gruensteidl"/>
+      </play>
+      <play hasball="SS" down="3" togo="7" spot="SS33" context="V,3,7,V33" playid="25,5,210" type="R" tokens="RUSH:8,V38," text="R. Schroeder rush for 5 yards to the SS38." newcontext="V,4,2,V38">
+        <p_ru vh="V" name="R. Schroeder" gain="5"/>
+      </play>
+      <play hasball="SS" down="4" togo="2" spot="SS38" context="V,4,2,V38" playid="25,6,211" type="R" tokens="RUSH:9,V24, FUMB:V,V10,9 PEN:V,KK,D" text="J. Loria rush for loss of 14 yards to the SS24, fumble by J. Loria recovered by SS J. Loria at SS10, PENALTY SS illegal kicking declined." newcontext="H,1,0,V10">
+        <p_ru vh="V" name="J. Loria" gain="-14"/>
+        <p_fumb vh="V" name="J. Loria" at="V10" frvh="V" frname="J. Loria"/>
+        <p_pn vh="V" code="KK" type="illegal kicking" result="DECLINE"/>
+      </play>
+      <drivesum plays="4" yards="-20" top="1:45" driveindex="25" complete="Y"/>
+      <drivestart poss="H,V10,03:20" vh="H" spot="V10" clock="03:20" driveindex="26,211"/>
+      <play hasball="VV" down="1" togo="0" spot="SS10" context="H,1,0,V10" playid="26,1,212" clock="03:20" tokens="{DRIVE}:03:20" text="VIENNA VIKINGS drive start at 03:20." newcontext="H,1,0,V10">
+   </play>
+      <play hasball="VV" down="1" togo="0" spot="SS10" context="H,1,0,V10" playid="26,2,213" tokens="SPOT:H,V10,Y" text="VV ball on SS10." newcontext="H,1,0,V10">
+   </play>
+      <play hasball="VV" down="1" togo="0" spot="SS10" context="H,1,0,V10" playid="26,3,214" type="R" tokens="RUSH:33,V04, TACK:55" text="K. Rathonyi rush for 6 yards to the SS4 (D. Gratza)." newcontext="H,2,0,V04">
+        <p_ru vh="H" name="K. Rathonyi" gain="6"/>
+        <p_tk vh="V" name="D. Gratza"/>
+      </play>
+      <play hasball="VV" down="2" togo="0" spot="SS04" context="H,2,0,V04" playid="26,4,215" type="R" tokens="RUSH:33,V03, TACK:11" text="K. Rathonyi rush for 1 yard to the SS3 (R. Lakalaka)." newcontext="H,3,0,V03">
+        <p_ru vh="H" name="K. Rathonyi" gain="1"/>
+        <p_tk vh="V" name="R. Lakalaka"/>
+      </play>
+      <comment text="2 Minute Warning"/>
+      <play hasball="VV" down="3" togo="0" spot="SS03" context="H,3,0,V03" playid="26,5,217" type="R" first="R" score="Y" vscore="13" hscore="42" clock="01:56" tokens="RUSH:12,V00, T:01:56" text="A. Reischl rush for 3 yards to the SS0, 1ST DOWN VV, TOUCHDOWN, clock 01:56." newcontext="H,1,10,V15">
+        <p_ru vh="H" name="A. Reischl" gain="3"/>
+      </play>
+      <play hasball="VV" down="1" togo="10" spot="SS15" context="H,1,10,V15" playid="26,6,218" type="X" tokens="PAT:K,20,M" text="O. Herz kick attempt failed." newcontext="H,1,0,H30">
+        <p_pat vh="H" name="O. Herz" qb="O. Herz" type="K" result="MISSED"/>
+      </play>
+      <score V="13" H="42"/>
+      <drivesum plays="3" yards="10" top="1:24" driveindex="26" complete="Y"/>
+      <play hasball="VV" down="1" togo="0" spot="VV30" context="H,1,0,H30" playid="26,7,219" type="K" tokens="KO:23,V00 TB:" text="B. Straight kickoff 70 yards to the SS0, touchback." newcontext="V,1,10,V20">
+        <p_ko vh="H" name="B. Straight" gain="70" result="T"/>
+      </play>
+      <drivestart poss="V,V20,01:56" vh="V" spot="V20" clock="01:56" driveindex="27,219"/>
+      <play hasball="SS" down="1" togo="10" spot="SS20" context="V,1,10,V20" playid="27,1,220" clock="01:56" tokens="{DRIVE}:01:56" text="STUTTGART SURGE drive start at 01:56." newcontext="V,1,10,V20">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS20" context="V,1,10,V20" playid="27,2,221" tokens="SPOT:V,V20,Y" text="SS ball on SS20." newcontext="V,1,10,V20">
+   </play>
+      <play hasball="SS" down="1" togo="10" spot="SS20" context="V,1,10,V20" playid="27,3,222" type="R" first="R" tokens="RUSH:6,V33, TACK:22" text="J. Moukouri rush for 13 yards to the SS33, 1ST DOWN SS (C. Kellner)." newcontext="V,1,10,V33">
+        <p_ru vh="V" name="J. Moukouri" gain="13"/>
+        <p_tk vh="H" name="C. Kellner"/>
+      </play>
+      <play hasball="SS" down="1" togo="10" spot="SS33" context="V,1,10,V33" playid="27,4,223" type="R" tokens="RUSH:6,V33, TACK:1" text="J. Moukouri rush for no gain to the SS33 (L. Balogh)." newcontext="V,2,10,V33">
+        <p_ru vh="V" name="J. Moukouri" gain="0"/>
+        <p_tk vh="H" name="L. Balogh"/>
+      </play>
+      <play hasball="SS" down="2" togo="10" spot="SS33" context="V,2,10,V33" playid="27,5,224" type="R" tokens="RUSH:23,V34, TACK:94" text="C. Voumbo rush for 1 yard to the SS34 (F. Gruensteidl)." newcontext="V,3,9,V34">
+        <p_ru vh="V" name="C. Voumbo" gain="1"/>
+        <p_tk vh="H" name="F. Gruensteidl"/>
+      </play>
+      <play hasball="SS" down="3" togo="9" spot="SS34" context="V,3,9,V34" playid="27,6,225" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of game, clock 00:00." newcontext="V,3,9,V34">
+   </play>
+      <drivesum plays="3" yards="14" top="1:56" driveindex="27" complete="Y"/>
+      <score final="Y" V="13" H="42"/>
+      <endqtr/>
+      <qtrsummary vh="V" id="SS">
+        <firstdowns no="2" rush="1" pass="1" penalty="0"/>
+        <penalties no="3" yds="21"/>
+        <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="1"/>
+        <fumbles no="1" lost="0"/>
+        <misc yds="0" top="05:36"/>
+        <rush att="6" yds="-6" gain="22" loss="28" td="0" long="5"/>
+        <pass comp="2" att="8" int="0" yds="43" td="0" long="0" sacks="0" sackyds="0"/>
+        <rcv no="2" yds="43" td="0" long="0"/>
+        <punt no="2" yds="62" long="0" blkd="0" tb="0" fc="1" plus50="0" inside20="1" avg="31.0"/>
+        <defense tackua="12" tacka="2" tot_tack="14" tflua="1" tfla="0" tflyds="5" sacks="0" sackyds="0" brup="1"/>
+        <fumbles no="1" lost="0"/>
+      </qtrsummary>
+      <qtrsummary vh="H" id="VV">
+        <firstdowns no="8" rush="5" pass="1" penalty="2"/>
+        <penalties no="0" yds="0"/>
+        <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"/>
+        <fumbles no="0" lost="0"/>
+        <misc yds="0" top="09:24"/>
+        <rush att="13" yds="69" gain="74" loss="5" td="1" long="0"/>
+        <pass comp="2" att="4" int="0" yds="13" td="1" long="0" sacks="0" sackyds="0"/>
+        <rcv no="2" yds="13" td="1" long="0"/>
+        <punt no="1" yds="40" long="0" blkd="0" tb="0" fc="1" plus50="0" inside20="1" avg="40.0"/>
+        <ko no="3" yds="210" ob="0" tb="3" fcyds="8224"/>
+        <fg made="1" att="1" long="22" blkd="0"/>
+        <pat kickatt="1" kickmade="0" passatt="1" passmade="1" rcvatt="1" rcvmade="1"/>
+        <defense tackua="6" tacka="0" tot_tack="6" sacks="0" sackyds="0" brup="1" qbh="2"/>
+        <scoring td="2" fg="1" patrcv="1"/>
+      </qtrsummary>
+    </qtr>
+    <downtogo hasball="V" id="SS" down="3" togo="9" spot="SS34" context="V,3,9,V34" qtr="4" clock="00:00" vtoh="0" htoh="0" lastplay="End of game, clock 00:00."/>
+  </plays>
+  <message text=""/>
+</fbgame>

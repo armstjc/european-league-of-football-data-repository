@@ -123,3 +123,29 @@ def get_json_in_folder(folder_path="") -> list:
         del json_file
 
     return json_files
+
+
+def get_csv_in_folder(folder_path: str) -> list:
+    """
+
+    """
+
+    if len(folder_path) > 0:
+        pass
+    else:
+        raise ValueError(
+            'Cannot run `get_csv_in_folder()` without an inputted directory.')
+
+    csv_dir = os.path.abspath(folder_path)
+    csv_dir = reformat_folder_string(csv_dir)
+    print(csv_dir)
+    csv_files = []
+    csv_file_list = glob(f"{csv_dir}/*.csv")
+
+    for j in csv_file_list:
+        csv_file = reformat_folder_string(j)
+
+        csv_files.append(csv_file)
+        del csv_file
+
+    return csv_files
