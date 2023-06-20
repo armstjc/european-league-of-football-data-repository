@@ -11,65 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-from elf_utils import parse_names
-
-
-def parse_position_names(position: str) -> str:
-    match position:
-        case "Quarterback":
-            return "QB"
-        case "Running Back":
-            return "RB"
-        case "Halfback":
-            return "HB"
-        case "Fullback":
-            return "FB"
-        case "Wide Receiver":
-            return "WR"
-        case "Tight End":
-            return "TE"
-        case "Offensive Tackle":
-            return "OT"
-        case "Offensive Guard":
-            return "OG"
-        case "Center":
-            return "C"
-        case "Defensive Line":
-            return "DL"
-        case "Defensive End":
-            return "DE"
-        case "Defensive Tackle":
-            return "DT"
-        case "Linebacker":
-            return "LB"
-        case "Outside Linebacker":
-            return "OLB"
-        case "Inside Linebacker":
-            return "ILB"
-        case "Middle Linebacker":
-            return "MLB"
-        case "Cornerback":
-            return "CB"
-        case "Safety":
-            return "SAF"
-        case "Free Safety":
-            return "FS"
-        case "Strong Safety":
-            return "SS"
-        case "Kicker":
-            return "K"
-        case "Punter":
-            return "P"
-        case "Long Snapper":
-            return "LS"
-        case "PR":
-            return "PR"
-        case "KR":
-            return "KR"
-        case "OTHERS":
-            return "ATH"
-        case default:
-            raise ValueError(f'Unhandled player position:\n\t{position}')
+from elf_utils import parse_position_names
 
 
 def get_elf_rosters(save=False, season=0):

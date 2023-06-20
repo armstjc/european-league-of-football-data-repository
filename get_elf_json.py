@@ -1,16 +1,10 @@
-import glob
 import json
-import os
 import time
-from datetime import datetime
 
-import numpy as np
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
-
-from elf_utils import parse_names
 
 
 def save_elf_game_json(game_id: str):
@@ -32,10 +26,10 @@ def save_elf_game_json(game_id: str):
     del json_string
 
     with open(f'raw_game_data/JSON/{game_id}.json', 'w+') as f:
-        f.write(json.dumps(json_data, indent=2))
+        f.write(json.dumps(json_data['props']['pageProps'], indent=2))
 
     # print(json_data)
-    time.sleep(0.5)
+    time.sleep(2)
     return json_data
 
 

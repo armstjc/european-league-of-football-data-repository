@@ -2,8 +2,6 @@ import urllib.request
 import pandas as pd
 from tqdm import tqdm
 
-import numpy as np
-
 
 def get_elf_gamebooks(season: int):
     sched_df = pd.read_csv(f'schedule/csv/{season}_elf_schedule.csv')
