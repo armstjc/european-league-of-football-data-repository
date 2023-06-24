@@ -109,8 +109,8 @@ def get_elf_schedule(season_filter= 0, return_all_games=False, save=False):
         season_arr = np.unique(season_arr)
         for s in tqdm(season_arr):
             season_df = finished_df.loc[finished_df['season']== s]
-            season_df.to_csv(f'schedule/csv/{s}_elf_schedule.csv',index=False)
-            season_df.to_parquet(f'schedule/parquet/{s}_elf_schedule.parquet',index=False)
+            season_df.to_csv(f'schedule/{s}_elf_schedule.csv',index=False)
+            # season_df.to_parquet(f'schedule/{s}_elf_schedule.parquet',index=False)
 
         del season_arr
 

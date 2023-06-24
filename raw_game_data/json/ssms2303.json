@@ -292,7 +292,7 @@
           "type": "TD",
           "how": "PASS",
           "yds": "9",
-          "scorer": "T. Seck",
+          "scorer": "J. Calderon",
           "passer": "L. Zahradka",
           "patby": "M. Felli",
           "pattype": "KICK",
@@ -7346,8 +7346,8 @@
               "vscore": "25",
               "hscore": "40",
               "clock": "05:19",
-              "tokens": "PASS:7,C,17,H00 T:05:19 PEN:H,OS,D",
-              "text": "L. Zahradka pass complete to T. Seck for 9 yards to the SS0, 1ST DOWN MS, TOUCHDOWN, clock 05:19, PENALTY SS Offensive Offside declined.",
+              "tokens": "PASS:7,C,81,H00 T:05:19 PEN:H,DO,D",
+              "text": "L. Zahradka pass complete to J. Calderon for 9 yards to the SS0, 1ST DOWN MS, TOUCHDOWN, clock 05:19, PENALTY SS Defensive Offside declined.",
               "newcontext": "V,1,10,H15"
             },
             "p_pa": {
@@ -7355,16 +7355,16 @@
                 "vh": "V",
                 "qb": "L. Zahradka",
                 "result": "COMP",
-                "rcv": "T. Seck",
+                "rcv": "J. Calderon",
                 "gain": "9"
               }
             },
             "p_pn": {
               "_attributes": {
                 "vh": "H",
-                "code": "OS",
-                "type": "Offensive Offside",
-                "name": "17",
+                "code": "DO",
+                "type": "Defensive Offside",
+                "name": "81",
                 "result": "DECLINE"
               }
             }
@@ -8739,15 +8739,10 @@
       },
       "rcv": {
         "_attributes": {
-          "no": "5",
-          "yds": "42",
-          "td": "1",
+          "no": "4",
+          "yds": "33",
+          "td": "0",
           "long": "14"
-        }
-      },
-      "scoring": {
-        "_attributes": {
-          "td": "1"
         }
       }
     },
@@ -9148,15 +9143,15 @@
       },
       "rcv": {
         "_attributes": {
-          "no": "8",
-          "yds": "113",
-          "td": "1",
+          "no": "9",
+          "yds": "122",
+          "td": "2",
           "long": "38"
         }
       },
       "scoring": {
         "_attributes": {
-          "td": "1"
+          "td": "2"
         }
       }
     },
@@ -11278,15 +11273,10 @@
         },
         "rcv": {
           "_attributes": {
-            "no": "5",
-            "yds": "42",
-            "td": "1",
+            "no": "4",
+            "yds": "33",
+            "td": "0",
             "long": "14"
-          }
-        },
-        "scoring": {
-          "_attributes": {
-            "td": "1"
           }
         }
       },
@@ -11687,15 +11677,15 @@
         },
         "rcv": {
           "_attributes": {
-            "no": "8",
-            "yds": "113",
-            "td": "1",
+            "no": "9",
+            "yds": "122",
+            "td": "2",
             "long": "38"
           }
         },
         "scoring": {
           "_attributes": {
-            "td": "1"
+            "td": "2"
           }
         }
       },

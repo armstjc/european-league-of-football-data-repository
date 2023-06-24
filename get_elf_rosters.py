@@ -481,6 +481,9 @@ def generate_elf_roster_files(save=False):
         zip(team_info_df['team_name'], team_info_df['team_abv']))
     old_rosters_df['team_abv'] = old_rosters_df['team'].map(team_name_abv_dict)
 
+    old_rosters_df['player_short_name'] = old_rosters_df[[
+        'player_first_name', 'player_last_name']].apply(lambda x: f'{x[0][0]}. {x[1]}', axis=1)
+
     old_rosters_df = pd.merge(
         old_rosters_df,
         player_hist_df,
@@ -503,9 +506,9 @@ def generate_elf_roster_files(save=False):
 
         for i in seasons_arr:
             season_df = rosters_df.loc[rosters_df['season'] == i]
-            season_df.to_csv(f'rosters/csv/{i}_elf_rosters.csv', index=False)
-            season_df.to_parquet(
-                f'rosters/parquet/{i}_elf_rosters.parquet', index=False)
+            season_df.to_csv(f'rosters/{i}_elf_rosters.csv', index=False)
+            # season_df.to_parquet(
+            #     f'rosters/{i}_elf_rosters.parquet', index=False)
 
     return rosters_df
 

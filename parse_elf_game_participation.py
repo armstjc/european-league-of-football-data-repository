@@ -10,6 +10,9 @@ from elf_utils import get_csv_in_folder, get_json_in_folder
 
 
 def parse_elf_game_participation(save=False):
+    """
+
+    """
     json_file_list = get_json_in_folder()
     participation_df = pd.DataFrame()
     row_df = pd.DataFrame()
@@ -50,30 +53,32 @@ def parse_elf_game_participation(save=False):
                 },
                 index=[0]
             )
-            row_df['player_uni'] = i['_attributes']['uni']
-            row_df['player_name'] = i['_attributes']['name']
-            row_df['player_short_name'] = i['_attributes']['shortname']
-            row_df['player_check_name'] = i['_attributes']['checkname']
-            row_df['player_GP'] = i['_attributes']['gp']
 
-            try:
-                row_df['player_GS'] = int(i['_attributes']['gs'])
-            except:
-                row_df['player_GS'] = 0
+            if str(i['_attributes']['name']).lower() != 'team' and str(i['_attributes']['name']).lower() != 'tm':
+                row_df['player_uni'] = i['_attributes']['uni']
+                row_df['player_name'] = i['_attributes']['name']
+                row_df['player_short_name'] = i['_attributes']['shortname']
+                row_df['player_check_name'] = i['_attributes']['checkname']
+                row_df['player_GP'] = i['_attributes']['gp']
 
-            try:
-                row_df['player_pos'] = i['_attributes']['opos']
-            except:
                 try:
-                    row_df['player_pos'] = i['_attributes']['dpos']
+                    row_df['player_GS'] = int(i['_attributes']['gs'])
                 except:
-                    row_df['player_pos'] = None
+                    row_df['player_GS'] = 0
 
-            participation_df = pd.concat(
-                [participation_df, row_df],
-                ignore_index=True
-            )
-            del row_df
+                try:
+                    row_df['player_pos'] = i['_attributes']['opos']
+                except:
+                    try:
+                        row_df['player_pos'] = i['_attributes']['dpos']
+                    except:
+                        row_df['player_pos'] = None
+
+                participation_df = pd.concat(
+                    [participation_df, row_df],
+                    ignore_index=True
+                )
+                del row_df
 
         for i in json_data['visitor_players']:
             row_df = pd.DataFrame(
@@ -88,30 +93,56 @@ def parse_elf_game_participation(save=False):
                 },
                 index=[0]
             )
-            row_df['player_uni'] = i['_attributes']['uni']
-            row_df['player_name'] = i['_attributes']['name']
-            row_df['player_short_name'] = i['_attributes']['shortname']
-            row_df['player_check_name'] = i['_attributes']['checkname']
-            row_df['player_GP'] = i['_attributes']['gp']
 
-            try:
-                row_df['player_GS'] = int(i['_attributes']['gs'])
-            except:
-                row_df['player_GS'] = 0
+            if str(i['_attributes']['name']).lower() != 'team' and str(i['_attributes']['name']).lower() != 'tm':
 
-            try:
-                row_df['player_pos'] = i['_attributes']['opos']
-            except:
+                row_df['player_uni'] = i['_attributes']['uni']
+                row_df['player_name'] = i['_attributes']['name']
+                row_df['player_short_name'] = i['_attributes']['shortname']
+                row_df['player_check_name'] = i['_attributes']['checkname']
+                row_df['player_GP'] = i['_attributes']['gp']
+
                 try:
-                    row_df['player_pos'] = i['_attributes']['dpos']
+                    row_df['player_GS'] = int(i['_attributes']['gs'])
                 except:
-                    row_df['player_pos'] = None
+                    row_df['player_GS'] = 0
 
-            participation_df = pd.concat(
-                [participation_df, row_df],
-                ignore_index=True
-            )
-            del row_df
+                try:
+                    row_df['player_pos'] = i['_attributes']['opos']
+                except:
+                    try:
+                        row_df['player_pos'] = i['_attributes']['dpos']
+                    except:
+                        row_df['player_pos'] = None
+
+                participation_df = pd.concat(
+                    [participation_df, row_df],
+                    ignore_index=True
+                )
+                del row_df
+
+    # Roster Data (to map player IDs)
+    roster_file_list = get_csv_in_folder('rosters/csv/')
+    all_rosters_df = pd.DataFrame()
+    r_df = pd.DataFrame()
+
+    for roster_file in roster_file_list:
+        r_df = pd.read_csv(roster_file)
+        all_rosters_df = pd.concat([all_rosters_df, r_df], ignore_index=True)
+        del r_df
+
+    all_rosters_df = all_rosters_df[[
+        'season', 'player_id', 'old_player_id', 'team', 'player_short_name']]
+    all_rosters_df = all_rosters_df.rename(columns={'team': 'team_name'})
+
+    participation_df = pd.merge(
+        participation_df,
+        all_rosters_df,
+        how='left',
+        on=['season', 'team_name', 'player_short_name']
+    )
+
+    del all_rosters_df
 
     if save == True:
         seasons_arr = participation_df['season'].to_numpy()
@@ -120,14 +151,14 @@ def parse_elf_game_participation(save=False):
         for s in seasons_arr:
             season_df = participation_df.loc[participation_df['season'] == s]
             season_df.to_csv(
-                f'player_info/participation_data/csv/{s}_elf_participation.csv',
+                f'player_info/participation_data/{s}_elf_participation.csv',
                 index=False
             )
 
-            season_df.to_parquet(
-                f'player_info/participation_data/parquet/{s}_elf_participation.parquet',
-                index=False
-            )
+            # season_df.to_parquet(
+            #     f'player_info/participation_data/{s}_elf_participation.parquet',
+            #     index=False
+            # )
 
     # print(participation_df)
     return participation_df

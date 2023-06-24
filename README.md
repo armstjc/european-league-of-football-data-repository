@@ -9,50 +9,30 @@ european-league-of-football-data
 |
 ├── game_stats
 |   ├── player
-|   |   ├── csv
-|   |   └── parquet
 |   └── team
-|       ├── csv
-|       └── parquet
 |
 ├── gamebooks
 |
 ├── pbp
 |   ├── raw
-|   |   ├── csv
-|   |   └── parquet
 |   ├── season
-|   |   ├── csv
-|   |   └── parquet
 |   └── single_game
-|       ├── csv
-|       └── parquet
 |
 ├── player_info
 |   ├── participation_data
-|   |   ├── csv
-|   |   └── parquet
 |   ├── photos
 |   └── transactions
-|       ├── csv
-|       └── parquet
 |
 ├── raw_game_data
 |   ├── json
 |   └── xml
 |
 ├── rosters
-|   ├── csv
-|   ├── parquet
 |   └── raw
 |
 ├── schedule
-|   ├── csv
-|   └── parquet
 |
 ├── standings
-|   ├── csv
-|   └── parquet
 |
 └── teams
 

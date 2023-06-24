@@ -10,11 +10,11 @@
       "location": "Leipzig",
       "stadium": "Bruno-Plache-Stadion",
       "start": "18:00",
-      "end": "20:44",
+      "end": "20:55",
       "leaguegame": "Y",
       "nitegame": "Y",
-      "duration": "2:44",
-      "attend": "0",
+      "duration": "2:55",
+      "attend": "1423",
       "temp": "22",
       "wind": "no",
       "weather": "cloudy"
@@ -85,7 +85,7 @@
           "clock": "13:09",
           "type": "TD",
           "how": "RUSH",
-          "yds": "2",
+          "yds": "1",
           "scorer": "S. Mcshane",
           "patby": "F. Finke",
           "pattype": "KICK",
@@ -299,6 +299,9 @@
           "how": "RUSH",
           "yds": "13",
           "scorer": "K. Rathonyi",
+          "patby": "M. Hegedus",
+          "pattype": "PASS",
+          "patres": "FAIL",
           "plays": "11",
           "drive": "74",
           "top": "4:16",
@@ -420,9 +423,9 @@
           "vh": "V",
           "team": "FE",
           "start": "KO,2,10:17,30",
-          "end": "PUNT,2,07:58,33",
+          "end": "PUNT,2,07:58,27",
           "plays": "3",
-          "yards": "3",
+          "yards": "-3",
           "top": "2:19",
           "start_how": "KO",
           "start_qtr": "2",
@@ -431,7 +434,7 @@
           "end_how": "PUNT",
           "end_qtr": "2",
           "end_time": "07:58",
-          "end_spot": "FE33",
+          "end_spot": "FE27",
           "driveindex": "6"
         }
       },
@@ -457,21 +460,21 @@
       },
       {
         "_attributes": {
-          "vh": "V",
-          "team": "FE",
-          "start": "PUNT,2,04:49,20",
+          "vh": "H",
+          "team": "LK",
+          "start": "PUNT,2,04:49,26",
           "end": "PUNT,2,00:59,51",
           "plays": "9",
-          "yards": "31",
+          "yards": "25",
           "top": "3:50",
           "start_how": "PUNT",
           "start_qtr": "2",
           "start_time": "04:49",
-          "start_spot": "FE20",
+          "start_spot": "LK26",
           "end_how": "PUNT",
           "end_qtr": "2",
           "end_time": "00:59",
-          "end_spot": "LK49",
+          "end_spot": "FE49",
           "driveindex": "8"
         }
       },
@@ -880,15 +883,15 @@
               "context": "H,1,0,V06",
               "playid": "1,3,6",
               "type": "R",
-              "tokens": "RUSH:5,V02, TACK:26",
-              "text": "S. Mcshane rush for 4 yards to the FE2 (M. N\u00e9meth).",
-              "newcontext": "H,2,0,V02"
+              "tokens": "RUSH:5,V01, TACK:26",
+              "text": "S. Mcshane rush for 5 yards to the FE1 (M. N\u00e9meth).",
+              "newcontext": "H,2,0,V01"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "S. Mcshane",
-                "gain": "4"
+                "gain": "5"
               }
             },
             "p_tk": {
@@ -903,8 +906,8 @@
               "hasball": "LK",
               "down": "2",
               "togo": "0",
-              "spot": "FE02",
-              "context": "H,2,0,V02",
+              "spot": "FE01",
+              "context": "H,2,0,V01",
               "playid": "1,4,7",
               "type": "R",
               "first": "R",
@@ -913,14 +916,14 @@
               "hscore": "6",
               "clock": "13:09",
               "tokens": "RUSH:5,V00, T:13:09",
-              "text": "S. Mcshane rush for 2 yards to the FE0, 1ST DOWN LK, TOUCHDOWN, clock 13:09.",
+              "text": "S. Mcshane rush for 1 yard to the FE0, 1ST DOWN LK, TOUCHDOWN, clock 13:09.",
               "newcontext": "H,1,10,V15"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "S. Mcshane",
-                "gain": "2"
+                "gain": "1"
               }
             }
           },
@@ -960,22 +963,22 @@
               "context": "H,1,0,H30",
               "playid": "1,6,9",
               "type": "K",
-              "tokens": "KO:18,V14 RET:88,V30 TACK:24",
-              "text": "M. Ulbrich kickoff 56 yards to the FE14, J. Griffin return 16 yards to the FE30 (W. James).",
+              "tokens": "KO:18,V15 RET:88,V30 TACK:24",
+              "text": "M. Ulbrich kickoff 55 yards to the FE15, J. Griffin return 15 yards to the FE30 (W. James).",
               "newcontext": "V,1,10,V30"
             },
             "p_ko": {
               "_attributes": {
                 "vh": "H",
                 "name": "M. Ulbrich",
-                "gain": "56"
+                "gain": "55"
               }
             },
             "p_kr": {
               "_attributes": {
                 "vh": "V",
                 "name": "J. Griffin",
-                "gain": "16"
+                "gain": "15"
               }
             },
             "p_tk": {
@@ -1094,8 +1097,8 @@
               "context": "V,2,10,V42",
               "playid": "2,5,14",
               "type": "P",
-              "tokens": "PASS:3,C,36,V45 TACK:28,49",
-              "text": "J. Evans pass complete to E. Madaras for 3 yards to the FE45 (D. Aboagye-Duah;A.J. Wentland).",
+              "tokens": "PASS:3,C,36,V45 TACK:28,15",
+              "text": "J. Evans pass complete to E. Madaras for 3 yards to the FE45 (D. Aboagye-Duah;D. Banse).",
               "newcontext": "V,3,7,V45"
             },
             "p_pa": {
@@ -1118,7 +1121,7 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "A.J. Wentland",
+                  "name": "D. Banse",
                   "assist": "Y"
                 }
               }
@@ -1133,15 +1136,16 @@
               "context": "V,3,7,V45",
               "playid": "2,6,15",
               "type": "P",
-              "tokens": "PASS:3,I,TM,* BRUP:37",
-              "text": "J. Evans pass incomplete (M. Bausch).",
+              "tokens": "PASS:3,I,86,* BRUP:37",
+              "text": "J. Evans pass incomplete to L. Boros (M. Bausch).",
               "newcontext": "V,4,7,V45"
             },
             "p_pa": {
               "_attributes": {
                 "vh": "V",
                 "qb": "J. Evans",
-                "result": "INC"
+                "result": "INC",
+                "rcv": "L. Boros"
               }
             },
             "p_bu": {
@@ -1197,8 +1201,8 @@
               "context": "H,1,10,H30",
               "playid": "3,2,18",
               "type": "R",
-              "tokens": "RUSH:5,H34, TACK:59",
-              "text": "S. Mcshane rush for 4 yards to the LK34 (V. Nosza).",
+              "tokens": "RUSH:5,H34, TACK:59,26",
+              "text": "S. Mcshane rush for 4 yards to the LK34 (V. Nosza;M. N\u00e9meth).",
               "newcontext": "H,2,6,H34"
             },
             "p_ru": {
@@ -1208,12 +1212,22 @@
                 "gain": "4"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "V. Nosza"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "V. Nosza",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "M. N\u00e9meth",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -1356,8 +1370,8 @@
               "context": "H,1,10,V45",
               "playid": "3,7,23",
               "type": "R",
-              "tokens": "RUSH:5,V39, TACK:51,26",
-              "text": "S. Mcshane rush for 6 yards to the FE39 (J. Zilai;M. N\u00e9meth).",
+              "tokens": "RUSH:5,V39, TACK:26",
+              "text": "S. Mcshane rush for 6 yards to the FE39 (M. N\u00e9meth).",
               "newcontext": "H,2,4,V39"
             },
             "p_ru": {
@@ -1367,22 +1381,12 @@
                 "gain": "6"
               }
             },
-            "p_tk": [
-              {
-                "_attributes": {
-                  "vh": "V",
-                  "name": "J. Zilai",
-                  "assist": "Y"
-                }
-              },
-              {
-                "_attributes": {
-                  "vh": "V",
-                  "name": "M. N\u00e9meth",
-                  "assist": "Y"
-                }
+            "p_tk": {
+              "_attributes": {
+                "vh": "V",
+                "name": "M. N\u00e9meth"
               }
-            ]
+            }
           },
           {
             "_attributes": {
@@ -1424,8 +1428,8 @@
               "playid": "3,9,25",
               "type": "R",
               "first": "R",
-              "tokens": "RUSH:5,V02, TACK:23,50",
-              "text": "S. Mcshane rush for 21 yards to the FE2, 1ST DOWN LK (E. Moody;J. Regan).",
+              "tokens": "RUSH:5,V02, TACK:5",
+              "text": "S. Mcshane rush for 21 yards to the FE2, 1ST DOWN LK (B. Horv\u00e1th).",
               "newcontext": "H,1,0,V02"
             },
             "p_ru": {
@@ -1435,22 +1439,12 @@
                 "gain": "21"
               }
             },
-            "p_tk": [
-              {
-                "_attributes": {
-                  "vh": "V",
-                  "name": "E. Moody",
-                  "assist": "Y"
-                }
-              },
-              {
-                "_attributes": {
-                  "vh": "V",
-                  "name": "J. Regan",
-                  "assist": "Y"
-                }
+            "p_tk": {
+              "_attributes": {
+                "vh": "V",
+                "name": "B. Horv\u00e1th"
               }
-            ]
+            }
           },
           {
             "_attributes": {
@@ -1599,8 +1593,8 @@
               "context": "V,2,9,V27",
               "playid": "4,3,31",
               "type": "R",
-              "tokens": "RUSH:39,V29, TACK:49,63",
-              "text": "K. Rathonyi rush for 2 yards to the FE29 (A.J. Wentland;P. Meischter).",
+              "tokens": "RUSH:39,V29, TACK:49,24",
+              "text": "K. Rathonyi rush for 2 yards to the FE29 (A.J. Wentland;W. James).",
               "newcontext": "V,3,7,V29"
             },
             "p_ru": {
@@ -1621,7 +1615,7 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "P. Meischter",
+                  "name": "W. James",
                   "assist": "Y"
                 }
               }
@@ -1659,8 +1653,8 @@
               "context": "V,1,10,V36",
               "playid": "4,5,33",
               "type": "P",
-              "tokens": "PASS:3,C,82,V38 TACK:37",
-              "text": "J. Evans pass complete to N. T\u00f3th for 2 yards to the FE38 (M. Bausch).",
+              "tokens": "PASS:3,C,82,V38 TACK:24",
+              "text": "J. Evans pass complete to N. T\u00f3th for 2 yards to the FE38 (W. James).",
               "newcontext": "V,2,8,V38"
             },
             "p_pa": {
@@ -1675,7 +1669,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "H",
-                "name": "M. Bausch"
+                "name": "W. James"
               }
             }
           },
@@ -1808,8 +1802,8 @@
               "context": "H,1,10,H16",
               "playid": "5,2,39",
               "type": "E",
-              "tokens": "RUSH:4,H30, TACK:90 PEN:H,OH,A,TM,H08,N NOPLAY:",
-              "text": "K. Allen rush for 14 yards to the LK30 (F. Hirsch), PENALTY LK Offensive Holding 8 yards to the LK8, NO PLAY.",
+              "tokens": "RUSH:4,H30, TACK:90 PEN:H,OH,A,74,H08,N NOPLAY:",
+              "text": "K. Allen rush for 14 yards to the LK30 (F. Hirsch), PENALTY LK Offensive Holding (T. Bruetsch) 8 yards to the LK8, NO PLAY.",
               "newcontext": "H,1,18,H08"
             },
             "p_pn": {
@@ -1817,6 +1811,7 @@
                 "vh": "H",
                 "code": "OH",
                 "type": "Offensive Holding",
+                "name": "T. Bruetsch",
                 "result": "ACCEPT",
                 "at": "H16",
                 "yards": "8"
@@ -1832,15 +1827,16 @@
               "context": "H,1,18,H08",
               "playid": "5,3,40",
               "type": "P",
-              "tokens": "PASS:4,I,TM,*",
-              "text": "K. Allen pass incomplete.",
+              "tokens": "PASS:4,I,7,*",
+              "text": "K. Allen pass incomplete to L. Winter.",
               "newcontext": "H,2,18,H08"
             },
             "p_pa": {
               "_attributes": {
                 "vh": "H",
                 "qb": "K. Allen",
-                "result": "INC"
+                "result": "INC",
+                "rcv": "L. Winter"
               }
             }
           },
@@ -1935,10 +1931,34 @@
               "spot": "LK19",
               "context": "H,4,7,H19",
               "playid": "5,7,44",
+              "type": "E",
+              "tokens": "PEN:H,FS,A,TM,H14,N",
+              "text": "PENALTY LK False Start 5 yards to the LK14.",
+              "newcontext": "H,4,12,H14"
+            },
+            "p_pn": {
+              "_attributes": {
+                "vh": "H",
+                "code": "FS",
+                "type": "False Start",
+                "result": "ACCEPT",
+                "at": "H19",
+                "yards": "5"
+              }
+            }
+          },
+          {
+            "_attributes": {
+              "hasball": "LK",
+              "down": "4",
+              "togo": "12",
+              "spot": "LK14",
+              "context": "H,4,12,H14",
+              "playid": "5,8,45",
               "type": "P",
               "first": "P",
               "tokens": "PASS:4,C,7,H32 TACK:22",
-              "text": "K. Allen pass complete to L. Winter for 13 yards to the LK32, 1ST DOWN LK (P. Baranyai).",
+              "text": "K. Allen pass complete to L. Winter for 18 yards to the LK32, 1ST DOWN LK (P. Baranyai).",
               "newcontext": "H,1,10,H32"
             },
             "p_pa": {
@@ -1947,7 +1967,7 @@
                 "qb": "K. Allen",
                 "result": "COMP",
                 "rcv": "L. Winter",
-                "gain": "13"
+                "gain": "18"
               }
             },
             "p_tk": {
@@ -1964,7 +1984,7 @@
               "togo": "10",
               "spot": "LK32",
               "context": "H,1,10,H32",
-              "playid": "5,8,45",
+              "playid": "5,9,46",
               "type": "R",
               "tokens": "RUSH:5,H39, TACK:57",
               "text": "S. Mcshane rush for 7 yards to the LK39 (\u00c1. Ill\u00e9s).",
@@ -2198,9 +2218,9 @@
             },
             "defense": {
               "_attributes": {
-                "tackua": "12",
-                "tacka": "10",
-                "tot_tack": "22",
+                "tackua": "13",
+                "tacka": "8",
+                "tot_tack": "21",
                 "sacks": "0",
                 "sackyds": "0"
               }
@@ -2208,9 +2228,9 @@
             "kr": {
               "_attributes": {
                 "no": "2",
-                "yds": "27",
+                "yds": "26",
                 "td": "0",
-                "long": "16"
+                "long": "15"
               }
             },
             "scoring": {
@@ -2234,8 +2254,8 @@
             },
             "penalties": {
               "_attributes": {
-                "no": "2",
-                "yds": "13"
+                "no": "3",
+                "yds": "18"
               }
             },
             "conversions": {
@@ -2273,9 +2293,9 @@
                 "comp": "5",
                 "att": "6",
                 "int": "0",
-                "yds": "51",
+                "yds": "56",
                 "td": "0",
-                "long": "16",
+                "long": "18",
                 "sacks": "0",
                 "sackyds": "0"
               }
@@ -2283,15 +2303,15 @@
             "rcv": {
               "_attributes": {
                 "no": "5",
-                "yds": "51",
+                "yds": "56",
                 "td": "0",
-                "long": "16"
+                "long": "18"
               }
             },
             "ko": {
               "_attributes": {
                 "no": "2",
-                "yds": "111",
+                "yds": "110",
                 "ob": "0",
                 "tb": "0",
                 "fcyds": "8224"
@@ -2343,7 +2363,7 @@
               "togo": "3",
               "spot": "LK39",
               "context": "H,2,3,H39",
-              "playid": "5,9,46",
+              "playid": "5,10,47",
               "type": "#",
               "clock": "15:00",
               "tokens": "Q:2 T:15:00",
@@ -2358,7 +2378,7 @@
               "togo": "3",
               "spot": "LK39",
               "context": "H,2,3,H39",
-              "playid": "5,10,47",
+              "playid": "5,11,48",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:22,H45, TACK:35,51",
@@ -2396,11 +2416,11 @@
               "togo": "10",
               "spot": "LK45",
               "context": "H,1,10,H45",
-              "playid": "5,11,48",
+              "playid": "5,12,49",
               "type": "R",
               "first": "R",
-              "tokens": "RUSH:5,V45, TACK:26",
-              "text": "S. Mcshane rush for 10 yards to the FE45, 1ST DOWN LK (M. N\u00e9meth).",
+              "tokens": "RUSH:5,V45, TACK:26,35",
+              "text": "S. Mcshane rush for 10 yards to the FE45, 1ST DOWN LK (M. N\u00e9meth;B. Bodn\u00e1r).",
               "newcontext": "H,1,10,V45"
             },
             "p_ru": {
@@ -2410,12 +2430,22 @@
                 "gain": "10"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "M. N\u00e9meth"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "M. N\u00e9meth",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "B. Bodn\u00e1r",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -2424,7 +2454,7 @@
               "togo": "10",
               "spot": "FE45",
               "context": "H,1,10,V45",
-              "playid": "5,12,49",
+              "playid": "5,13,50",
               "type": "E",
               "tokens": "RUSH:5,V45, TACK:96,5 PEN:H,FO,A,TM,H50,N NOPLAY:",
               "text": "S. Mcshane rush for no gain to the FE45 (B. Kov\u00e1cs;B. Horv\u00e1th), PENALTY LK Illegal Formation 5 yards to the 50 yardline, NO PLAY.",
@@ -2448,10 +2478,10 @@
               "togo": "15",
               "spot": "LK50",
               "context": "H,1,15,H50",
-              "playid": "5,13,50",
+              "playid": "5,14,51",
               "type": "R",
-              "tokens": "RUSH:22,V42,",
-              "text": "O. Bahr rush for 8 yards to the FE42.",
+              "tokens": "RUSH:22,V42, TACK:26",
+              "text": "O. Bahr rush for 8 yards to the FE42 (M. N\u00e9meth).",
               "newcontext": "H,2,7,V42"
             },
             "p_ru": {
@@ -2459,6 +2489,12 @@
                 "vh": "H",
                 "name": "O. Bahr",
                 "gain": "8"
+              }
+            },
+            "p_tk": {
+              "_attributes": {
+                "vh": "V",
+                "name": "M. N\u00e9meth"
               }
             }
           },
@@ -2469,7 +2505,7 @@
               "togo": "7",
               "spot": "FE42",
               "context": "H,2,7,V42",
-              "playid": "5,14,51",
+              "playid": "5,15,52",
               "type": "R",
               "tokens": "RUSH:22,V36, TACK:90,51",
               "text": "O. Bahr rush for 6 yards to the FE36 (F. Hirsch;J. Zilai).",
@@ -2506,12 +2542,12 @@
               "togo": "1",
               "spot": "FE36",
               "context": "H,3,1,V36",
-              "playid": "5,15,52",
+              "playid": "5,16,53",
               "type": "E",
               "first": "E",
-              "tokens": "PASS:4,C,7,V26 TACK:5 PEN:V,FM,A,5,V12,N NOPLAY:",
-              "text": "K. Allen pass complete to L. Winter for 10 yards to the FE26 (B. Horv\u00e1th), PENALTY FE Facemask (B. Horv\u00e1th) 24 yards to the FE12, 1ST DOWN LK, NO PLAY.",
-              "newcontext": "H,1,10,V12"
+              "tokens": "PASS:4,C,7,V26 TACK:5 PEN:V,FM,A,5,V13,N NOPLAY:",
+              "text": "K. Allen pass complete to L. Winter for 10 yards to the FE26 (B. Horv\u00e1th), PENALTY FE Facemask (B. Horv\u00e1th) 23 yards to the FE13, 1ST DOWN LK, NO PLAY.",
+              "newcontext": "H,1,10,V13"
             },
             "p_pn": {
               "_attributes": {
@@ -2521,7 +2557,7 @@
                 "name": "B. Horv\u00e1th",
                 "result": "ACCEPT",
                 "at": "V36",
-                "yards": "24"
+                "yards": "23"
               }
             }
           },
@@ -2530,13 +2566,13 @@
               "hasball": "LK",
               "down": "1",
               "togo": "10",
-              "spot": "FE12",
-              "context": "H,1,10,V12",
-              "playid": "5,16,53",
+              "spot": "FE13",
+              "context": "H,1,10,V13",
+              "playid": "5,17,54",
               "type": "P",
-              "tokens": "PASS:4,C,88,V05 TACK:24,51",
-              "text": "K. Allen pass complete to J. Walter for 7 yards to the FE5 (B. G\u00e1sp\u00e1r;J. Zilai).",
-              "newcontext": "H,2,3,V05"
+              "tokens": "PASS:4,C,88,V04 TACK:24,51",
+              "text": "K. Allen pass complete to J. Walter for 9 yards to the FE4 (B. G\u00e1sp\u00e1r;J. Zilai).",
+              "newcontext": "H,2,1,V04"
             },
             "p_pa": {
               "_attributes": {
@@ -2544,7 +2580,7 @@
                 "qb": "K. Allen",
                 "result": "COMP",
                 "rcv": "J. Walter",
-                "gain": "7"
+                "gain": "9"
               }
             },
             "p_tk": [
@@ -2568,21 +2604,22 @@
             "_attributes": {
               "hasball": "LK",
               "down": "2",
-              "togo": "3",
-              "spot": "FE05",
-              "context": "H,2,3,V05",
-              "playid": "5,17,54",
+              "togo": "1",
+              "spot": "FE04",
+              "context": "H,2,1,V04",
+              "playid": "5,18,55",
               "type": "R",
+              "pcode": "35",
               "first": "R",
-              "tokens": "RUSH:5,V01,",
-              "text": "S. Mcshane rush for 4 yards to the FE1, 1ST DOWN LK.",
+              "tokens": "RUSH:5,V01,35,26",
+              "text": "S. Mcshane rush 35 for 3 yards to the FE1, 1ST DOWN LK.",
               "newcontext": "H,1,0,V01"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "S. Mcshane",
-                "gain": "4"
+                "gain": "3"
               }
             }
           },
@@ -2593,7 +2630,7 @@
               "togo": "0",
               "spot": "FE01",
               "context": "H,1,0,V01",
-              "playid": "5,18,55",
+              "playid": "5,19,56",
               "type": "R",
               "first": "R",
               "score": "Y",
@@ -2619,7 +2656,7 @@
               "togo": "10",
               "spot": "FE15",
               "context": "H,1,10,V15",
-              "playid": "5,19,56",
+              "playid": "5,20,57",
               "type": "X",
               "score": "Y",
               "vscore": "6",
@@ -2646,7 +2683,7 @@
               "togo": "0",
               "spot": "LK30",
               "context": "H,1,0,H30",
-              "playid": "5,20,57",
+              "playid": "5,21,58",
               "type": "K",
               "tokens": "KO:18,V15 RET:88,V30 TACK:49,24",
               "text": "M. Ulbrich kickoff 55 yards to the FE15, J. Griffin return 15 yards to the FE30 (A.J. Wentland;W. James).",
@@ -2690,7 +2727,7 @@
               "togo": "10",
               "spot": "FE30",
               "context": "V,1,10,V30",
-              "playid": "6,1,58",
+              "playid": "6,1,59",
               "clock": "10:17",
               "tokens": "{DRIVE}:10:17",
               "text": "FEHERVAR ENTHRONERS drive start at 10:17.",
@@ -2704,7 +2741,7 @@
               "togo": "10",
               "spot": "FE30",
               "context": "V,1,10,V30",
-              "playid": "6,2,59",
+              "playid": "6,2,60",
               "type": "R",
               "tokens": "RUSH:36,V31, TACK:24,37",
               "text": "E. Madaras rush for 1 yard to the FE31 (W. James;M. Bausch).",
@@ -2741,7 +2778,7 @@
               "togo": "9",
               "spot": "FE31",
               "context": "V,2,9,V31",
-              "playid": "6,3,60",
+              "playid": "6,3,61",
               "type": "R",
               "tokens": "RUSH:3,V33, TACK:8,49",
               "text": "J. Evans rush for 2 yards to the FE33 (A. Zetterberg;A.J. Wentland).",
@@ -2778,18 +2815,18 @@
               "togo": "7",
               "spot": "FE33",
               "context": "V,3,7,V33",
-              "playid": "6,4,61",
+              "playid": "6,4,62",
               "type": "P",
-              "tokens": "PASS:3,S,TM,V33 SACK:30",
-              "text": "J. Evans sacked for no gain to the FE33 (R. Mohamed).",
-              "newcontext": "V,4,7,V33"
+              "tokens": "PASS:3,S,TM,V27 SACK:30",
+              "text": "J. Evans sacked for loss of 6 yards to the FE27 (R. Mohamed).",
+              "newcontext": "V,4,13,V27"
             },
             "p_pa": {
               "_attributes": {
                 "vh": "V",
                 "qb": "J. Evans",
                 "result": "SACK",
-                "gain": "0"
+                "gain": "-6"
               }
             },
             "p_tk": {
@@ -2804,20 +2841,20 @@
             "_attributes": {
               "hasball": "FE",
               "down": "4",
-              "togo": "7",
-              "spot": "FE33",
-              "context": "V,4,7,V33",
-              "playid": "6,5,62",
+              "togo": "13",
+              "spot": "FE27",
+              "context": "V,4,13,V27",
+              "playid": "6,5,63",
               "type": "U",
               "tokens": "PUNT:18,H35 RET:25,H37 TACK:21,26",
-              "text": "L. Benedek punt 32 yards to the LK35, D. Burrell return 2 yards to the LK37 (M. Dzioban;M. N\u00e9meth).",
+              "text": "L. Benedek punt 38 yards to the LK35, D. Burrell return 2 yards to the LK37 (M. Dzioban;M. N\u00e9meth).",
               "newcontext": "H,1,10,H37"
             },
             "p_pu": {
               "_attributes": {
                 "vh": "V",
                 "name": "L. Benedek",
-                "gain": "32"
+                "gain": "38"
               }
             },
             "p_pr": {
@@ -2851,7 +2888,7 @@
               "togo": "10",
               "spot": "LK37",
               "context": "H,1,10,H37",
-              "playid": "7,1,63",
+              "playid": "7,1,64",
               "clock": "07:58",
               "tokens": "{DRIVE}:07:58",
               "text": "LEIPZIG KINGS drive start at 07:58.",
@@ -2865,7 +2902,7 @@
               "togo": "10",
               "spot": "LK37",
               "context": "H,1,10,H37",
-              "playid": "7,2,64",
+              "playid": "7,2,65",
               "type": "E",
               "tokens": "PASS:4,I,7,* PEN:H,IDP,A,59,H32,N NOPLAY:",
               "text": "K. Allen pass incomplete to L. Winter, PENALTY LK Inelegible Downfield Pass (A. Igba) 5 yards to the LK32, NO PLAY.",
@@ -2890,7 +2927,7 @@
               "togo": "15",
               "spot": "LK32",
               "context": "H,1,15,H32",
-              "playid": "7,3,65",
+              "playid": "7,3,66",
               "type": "R",
               "tokens": "RUSH:5,H39, TACK:23",
               "text": "S. Mcshane rush for 7 yards to the LK39 (E. Moody).",
@@ -2917,7 +2954,7 @@
               "togo": "8",
               "spot": "LK39",
               "context": "H,2,8,H39",
-              "playid": "7,4,66",
+              "playid": "7,4,67",
               "type": "P",
               "first": "P",
               "tokens": "PASS:4,C,89,V31 TACK:26",
@@ -2947,10 +2984,10 @@
               "togo": "10",
               "spot": "FE31",
               "context": "H,1,10,V31",
-              "playid": "7,5,67",
+              "playid": "7,5,68",
               "type": "R",
-              "tokens": "RUSH:5,V31, TACK:96",
-              "text": "S. Mcshane rush for no gain to the FE31 (B. Kov\u00e1cs).",
+              "tokens": "RUSH:5,V31, TACK:96,51",
+              "text": "S. Mcshane rush for no gain to the FE31 (B. Kov\u00e1cs;J. Zilai).",
               "newcontext": "H,2,10,V31"
             },
             "p_ru": {
@@ -2960,12 +2997,22 @@
                 "gain": "0"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "B. Kov\u00e1cs"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "B. Kov\u00e1cs",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "J. Zilai",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -2974,7 +3021,7 @@
               "togo": "10",
               "spot": "FE31",
               "context": "H,2,10,V31",
-              "playid": "7,6,68",
+              "playid": "7,6,69",
               "type": "E",
               "tokens": "PASS:4,C,88,V35 TACK:30,50 PEN:H,SH,A,TM,V33,N NOPLAY:",
               "text": "K. Allen pass complete to J. Walter for loss of 4 yards to the FE35 (R. Sap;J. Regan), PENALTY LK Illegal Shift 2 yards to the FE33, NO PLAY.",
@@ -2998,7 +3045,7 @@
               "togo": "12",
               "spot": "FE33",
               "context": "H,2,12,V33",
-              "playid": "7,7,69",
+              "playid": "7,7,70",
               "type": "P",
               "tokens": "PASS:4,S,TM,V49 SACK:50",
               "text": "K. Allen sacked for loss of 16 yards to the FE49 (J. Regan).",
@@ -3027,7 +3074,7 @@
               "togo": "28",
               "spot": "FE49",
               "context": "H,3,28,V49",
-              "playid": "7,8,70",
+              "playid": "7,8,71",
               "type": "U",
               "tokens": "PUNT:9,V00 TB:",
               "text": "F. Finke punt 49 yards to the FE0, touchback.",
@@ -3049,7 +3096,7 @@
               "togo": "10",
               "spot": "FE20",
               "context": "V,1,10,V20",
-              "playid": "8,1,71",
+              "playid": "8,1,72",
               "clock": "04:49",
               "tokens": "{DRIVE}:04:49",
               "text": "FEHERVAR ENTHRONERS drive start at 04:49.",
@@ -3063,7 +3110,7 @@
               "togo": "10",
               "spot": "FE20",
               "context": "V,1,10,V20",
-              "playid": "8,2,72",
+              "playid": "8,2,73",
               "type": "P",
               "tokens": "PASS:3,C,88,V22 TACK:49,24",
               "text": "J. Evans pass complete to J. Griffin for 2 yards to the FE22 (A.J. Wentland;W. James).",
@@ -3102,7 +3149,7 @@
               "togo": "8",
               "spot": "FE22",
               "context": "V,2,8,V22",
-              "playid": "8,3,73",
+              "playid": "8,3,74",
               "type": "R",
               "tokens": "RUSH:3,V25, TACK:49",
               "text": "J. Evans rush for 3 yards to the FE25 (A.J. Wentland).",
@@ -3129,11 +3176,11 @@
               "togo": "5",
               "spot": "FE25",
               "context": "V,3,5,V25",
-              "playid": "8,4,74",
+              "playid": "8,4,75",
               "type": "P",
               "first": "P",
-              "tokens": "PASS:3,C,88,H41 TACK:26,25",
-              "text": "J. Evans pass complete to J. Griffin for 34 yards to the LK41, 1ST DOWN FE (B. Tchiyoko;D. Burrell).",
+              "tokens": "PASS:3,C,88,H41 TACK:26",
+              "text": "J. Evans pass complete to J. Griffin for 34 yards to the LK41, 1ST DOWN FE (B. Tchiyoko).",
               "newcontext": "V,1,10,H41"
             },
             "p_pa": {
@@ -3145,22 +3192,12 @@
                 "gain": "34"
               }
             },
-            "p_tk": [
-              {
-                "_attributes": {
-                  "vh": "H",
-                  "name": "B. Tchiyoko",
-                  "assist": "Y"
-                }
-              },
-              {
-                "_attributes": {
-                  "vh": "H",
-                  "name": "D. Burrell",
-                  "assist": "Y"
-                }
+            "p_tk": {
+              "_attributes": {
+                "vh": "H",
+                "name": "B. Tchiyoko"
               }
-            ]
+            }
           },
           {
             "_attributes": {
@@ -3169,18 +3206,18 @@
               "togo": "10",
               "spot": "LK41",
               "context": "V,1,10,H41",
-              "playid": "8,5,75",
+              "playid": "8,5,76",
               "type": "E",
-              "tokens": "PASS:3,X,25,H14 RET:25,H39 TACK:89 PEN:H,XX,A,90,H26,N NOPLAY:",
-              "text": "J. Evans pass intercepted by D. Burrell at the LK14, D. Burrell return to the LK39 (89), PENALTY LK XX (F. Ntwa) 15 yards to the LK26, NO PLAY.",
+              "tokens": "PASS:3,X,25,H14 RET:25,H39 TACK:82 PEN:V,XX,A,90,H26,N NOPLAY:",
+              "text": "J. Evans pass intercepted by D. Burrell at the LK14, D. Burrell return to the LK39 (N. T\u00f3th), PENALTY FE XX (F. Hirsch) 15 yards to the LK26, NO PLAY.",
               "newcontext": "V,1,10,H26"
             },
             "p_pn": {
               "_attributes": {
-                "vh": "H",
+                "vh": "V",
                 "code": "XX",
                 "type": "XX",
-                "name": "F. Ntwa",
+                "name": "F. Hirsch",
                 "result": "ACCEPT",
                 "at": "H41",
                 "yards": "15"
@@ -3194,85 +3231,99 @@
               "togo": "10",
               "spot": "LK26",
               "context": "V,1,10,H26",
-              "playid": "8,6,76",
+              "playid": "8,6,77",
+              "tokens": "SPOT:H,H26,Y",
+              "text": "LK ball on LK26.",
+              "newcontext": "H,1,10,H26"
+            }
+          },
+          {
+            "_attributes": {
+              "hasball": "LK",
+              "down": "1",
+              "togo": "10",
+              "spot": "LK26",
+              "context": "H,1,10,H26",
+              "playid": "8,7,78",
               "type": "P",
-              "tokens": "PASS:3,I,89,*",
-              "text": "J. Evans pass incomplete to 89.",
-              "newcontext": "V,2,10,H26"
+              "tokens": "PASS:4,I,89,*",
+              "text": "K. Allen pass incomplete to T. Stuewe.",
+              "newcontext": "H,2,10,H26"
             },
             "p_pa": {
               "_attributes": {
-                "vh": "V",
-                "qb": "J. Evans",
+                "vh": "H",
+                "qb": "K. Allen",
                 "result": "INC",
-                "rcv": "89"
+                "rcv": "T. Stuewe"
               }
             }
           },
           {
             "_attributes": {
-              "hasball": "FE",
+              "hasball": "LK",
               "down": "2",
               "togo": "10",
               "spot": "LK26",
-              "context": "V,2,10,H26",
-              "playid": "8,7,77",
+              "context": "H,2,10,H26",
+              "playid": "8,8,79",
               "type": "P",
-              "tokens": "PASS:3,I,5,*",
-              "text": "J. Evans pass incomplete to B. Horv\u00e1th.",
-              "newcontext": "V,3,10,H26"
+              "tokens": "PASS:4,I,5,*",
+              "text": "K. Allen pass incomplete to S. Mcshane.",
+              "newcontext": "H,3,10,H26"
             },
             "p_pa": {
               "_attributes": {
-                "vh": "V",
-                "qb": "J. Evans",
+                "vh": "H",
+                "qb": "K. Allen",
                 "result": "INC",
-                "rcv": "B. Horv\u00e1th"
+                "rcv": "S. Mcshane"
               }
             }
           },
           {
             "_attributes": {
-              "hasball": "FE",
+              "hasball": "LK",
               "down": "3",
               "togo": "10",
               "spot": "LK26",
-              "context": "V,3,10,H26",
-              "playid": "8,8,79",
+              "context": "H,3,10,H26",
+              "playid": "8,9,81",
               "type": "P",
-              "tokens": "PASS:3,C,89,H50 TACK:5",
-              "text": "J. Evans pass complete to 89 for loss of 24 yards to the 50 yardline (S. Mcshane).",
-              "newcontext": "V,4,34,V50"
+              "first": "P",
+              "tokens": "PASS:4,C,89,H50 TACK:5",
+              "text": "K. Allen pass complete to T. Stuewe for 24 yards to the 50 yardline, 1ST DOWN LK (B. Horv\u00e1th).",
+              "newcontext": "H,1,10,H50"
             },
             "p_pa": {
               "_attributes": {
-                "vh": "V",
-                "qb": "J. Evans",
+                "vh": "H",
+                "qb": "K. Allen",
                 "result": "COMP",
-                "rcv": "89",
-                "gain": "-24"
+                "rcv": "T. Stuewe",
+                "gain": "24"
               }
             },
             "p_tk": {
               "_attributes": {
-                "vh": "H",
-                "name": "S. Mcshane"
+                "vh": "V",
+                "name": "B. Horv\u00e1th"
               }
             }
           },
           {
             "_attributes": {
-              "hasball": "FE",
-              "down": "4",
-              "togo": "34",
-              "spot": "FE50",
-              "context": "V,4,34,V50",
-              "playid": "8,9,80",
+              "hasball": "LK",
+              "down": "1",
+              "togo": "10",
+              "spot": "LK50",
+              "context": "H,1,10,H50",
+              "playid": "8,10,82",
               "type": "E",
               "first": "E",
               "tokens": "PEN:H,FS,A,76,H45,1",
-              "text": "PENALTY LK False Start (D. Behrens) 5 yards to the LK45, 1ST DOWN FE.",
-              "newcontext": "V,1,10,H45"
+              "text": "PENALTY LK False Start (D. Behrens) 5 yards to the LK45, 1ST DOWN LK.",
+              "newcontext": "H,1,10,H45"
             },
             "p_pn": {
               "_attributes": {
@@ -3281,53 +3332,53 @@
                 "type": "False Start",
                 "name": "D. Behrens",
                 "result": "ACCEPT",
-                "at": "V50",
+                "at": "H50",
                 "yards": "5"
               }
             }
           },
           {
             "_attributes": {
-              "hasball": "FE",
+              "hasball": "LK",
               "down": "1",
               "togo": "10",
               "spot": "LK45",
-              "context": "V,1,10,H45",
-              "playid": "8,10,81",
+              "context": "H,1,10,H45",
+              "playid": "8,11,83",
               "type": "P",
-              "tokens": "PASS:3,C,5,H42 TACK:30",
-              "text": "J. Evans pass complete to B. Horv\u00e1th for 3 yards to the LK42 (R. Mohamed).",
-              "newcontext": "V,2,7,H42"
+              "tokens": "PASS:4,C,5,H42 TACK:30",
+              "text": "K. Allen pass complete to S. Mcshane for loss of 3 yards to the LK42 (R. Sap).",
+              "newcontext": "H,2,13,H42"
             },
             "p_pa": {
               "_attributes": {
-                "vh": "V",
-                "qb": "J. Evans",
+                "vh": "H",
+                "qb": "K. Allen",
                 "result": "COMP",
-                "rcv": "B. Horv\u00e1th",
-                "gain": "3"
+                "rcv": "S. Mcshane",
+                "gain": "-3"
               }
             },
             "p_tk": {
               "_attributes": {
-                "vh": "H",
-                "name": "R. Mohamed"
+                "vh": "V",
+                "name": "R. Sap"
               }
             }
           },
           {
             "_attributes": {
-              "hasball": "FE",
+              "hasball": "LK",
               "down": "2",
-              "togo": "7",
+              "togo": "13",
               "spot": "LK42",
-              "context": "V,2,7,H42",
-              "playid": "8,11,82",
+              "context": "H,2,13,H42",
+              "playid": "8,12,84",
               "type": "#",
               "clock": "01:44",
               "tokens": "TOUT:H T:01:44",
               "text": "Timeout Leipzig Kings, clock 01:44.",
-              "newcontext": "V,2,7,H42"
+              "newcontext": "H,2,13,H42"
             },
             "p_to": {
               "_attributes": {
@@ -3338,30 +3389,29 @@
           },
           {
             "_attributes": {
-              "hasball": "FE",
+              "hasball": "LK",
               "down": "2",
-              "togo": "7",
+              "togo": "13",
               "spot": "LK42",
-              "context": "V,2,7,H42",
-              "playid": "8,12,83",
+              "context": "H,2,13,H42",
+              "playid": "8,13,85",
               "tokens": "SPOT:H,H42,N",
               "text": "LK ball on LK42.",
-              "newcontext": "H,2,7,H42"
+              "newcontext": "H,2,13,H42"
             }
           },
           {
             "_attributes": {
               "hasball": "LK",
               "down": "2",
-              "togo": "7",
+              "togo": "13",
               "spot": "LK42",
-              "context": "H,2,7,H42",
-              "playid": "8,13,84",
+              "context": "H,2,13,H42",
+              "playid": "8,14,86",
               "type": "R",
-              "first": "R",
               "tokens": "RUSH:5,V49, TACK:51",
-              "text": "S. Mcshane rush for 9 yards to the FE49, 1ST DOWN LK (J. Zilai).",
-              "newcontext": "H,1,10,V49"
+              "text": "S. Mcshane rush for 9 yards to the FE49 (J. Zilai).",
+              "newcontext": "H,3,4,V49"
             },
             "p_ru": {
               "_attributes": {
@@ -3380,16 +3430,16 @@
           {
             "_attributes": {
               "hasball": "LK",
-              "down": "1",
-              "togo": "10",
+              "down": "3",
+              "togo": "4",
               "spot": "FE49",
-              "context": "H,1,10,V49",
-              "playid": "8,14,85",
+              "context": "H,3,4,V49",
+              "playid": "8,15,87",
               "type": "#",
               "clock": "01:16",
               "tokens": "TOUT:V T:01:16",
               "text": "Timeout Fehervar Enthroners, clock 01:16.",
-              "newcontext": "H,1,10,V49"
+              "newcontext": "H,3,4,V49"
             },
             "p_to": {
               "_attributes": {
@@ -3401,15 +3451,15 @@
           {
             "_attributes": {
               "hasball": "LK",
-              "down": "1",
-              "togo": "10",
+              "down": "3",
+              "togo": "4",
               "spot": "FE49",
-              "context": "H,1,10,V49",
-              "playid": "8,15,86",
+              "context": "H,3,4,V49",
+              "playid": "8,16,88",
               "type": "P",
               "tokens": "PASS:4,I,5,*",
               "text": "K. Allen pass incomplete to S. Mcshane.",
-              "newcontext": "H,2,10,V49"
+              "newcontext": "H,4,4,V49"
             },
             "p_pa": {
               "_attributes": {
@@ -3423,11 +3473,11 @@
           {
             "_attributes": {
               "hasball": "LK",
-              "down": "2",
-              "togo": "10",
+              "down": "4",
+              "togo": "4",
               "spot": "FE49",
-              "context": "H,2,10,V49",
-              "playid": "8,16,87",
+              "context": "H,4,4,V49",
+              "playid": "8,17,89",
               "type": "U",
               "tokens": "PUNT:9,V08 FC:88",
               "text": "F. Finke punt 41 yards to the FE8, fair catch by J. Griffin.",
@@ -3450,7 +3500,7 @@
               "togo": "10",
               "spot": "FE08",
               "context": "V,1,10,V08",
-              "playid": "9,1,88",
+              "playid": "9,1,90",
               "clock": "00:59",
               "tokens": "{DRIVE}:00:59",
               "text": "FEHERVAR ENTHRONERS drive start at 00:59.",
@@ -3464,10 +3514,10 @@
               "togo": "10",
               "spot": "FE08",
               "context": "V,1,10,V08",
-              "playid": "9,2,89",
+              "playid": "9,2,91",
               "type": "E",
-              "tokens": "PASS:3,I,TM,* PEN:V,FO,A,TM,V08,N NOPLAY:",
-              "text": "J. Evans pass incomplete, PENALTY FE Illegal Formation 0 yards to the FE8, NO PLAY.",
+              "tokens": "PASS:3,I,TM,* PEN:V,FO,D,TM,V08,N NOPLAY:",
+              "text": "J. Evans pass incomplete, PENALTY FE Illegal Formation declined, NO PLAY.",
               "newcontext": "V,1,10,V08"
             },
             "p_pn": {
@@ -3475,7 +3525,7 @@
                 "vh": "V",
                 "code": "FO",
                 "type": "Illegal Formation",
-                "result": "ACCEPT"
+                "result": "DECLINE"
               }
             }
           },
@@ -3486,7 +3536,7 @@
               "togo": "10",
               "spot": "FE08",
               "context": "V,1,10,V08",
-              "playid": "9,3,90",
+              "playid": "9,3,92",
               "type": "R",
               "tokens": "RUSH:36,V12, TACK:25",
               "text": "E. Madaras rush for 4 yards to the FE12 (D. Burrell).",
@@ -3513,7 +3563,7 @@
               "togo": "6",
               "spot": "FE12",
               "context": "V,2,6,V12",
-              "playid": "9,4,91",
+              "playid": "9,4,93",
               "type": "E",
               "tokens": "PEN:V,DG,A,3,V07,N",
               "text": "PENALTY FE Delay of Game (J. Evans) 5 yards to the FE7.",
@@ -3538,7 +3588,7 @@
               "togo": "11",
               "spot": "FE07",
               "context": "V,2,11,V07",
-              "playid": "9,5,92",
+              "playid": "9,5,94",
               "type": "#",
               "clock": "00:00",
               "tokens": "HALF: T:00:00",
@@ -3575,7 +3625,7 @@
           {
             "_attributes": {
               "plays": "3",
-              "yards": "3",
+              "yards": "-3",
               "top": "2:19",
               "driveindex": "6",
               "complete": "Y"
@@ -3593,7 +3643,7 @@
           {
             "_attributes": {
               "plays": "9",
-              "yards": "47",
+              "yards": "25",
               "top": "3:50",
               "driveindex": "8",
               "complete": "Y"
@@ -3616,7 +3666,7 @@
               "vh": "V",
               "spot": "V30",
               "clock": "10:17",
-              "driveindex": "6,57"
+              "driveindex": "6,58"
             }
           },
           {
@@ -3625,7 +3675,7 @@
               "vh": "H",
               "spot": "H37",
               "clock": "07:58",
-              "driveindex": "7,62"
+              "driveindex": "7,63"
             }
           },
           {
@@ -3634,7 +3684,7 @@
               "vh": "V",
               "spot": "V20",
               "clock": "04:49",
-              "driveindex": "8,70"
+              "driveindex": "8,71"
             }
           },
           {
@@ -3643,7 +3693,7 @@
               "vh": "V",
               "spot": "V08",
               "clock": "00:59",
-              "driveindex": "9,87"
+              "driveindex": "9,89"
             }
           }
         ],
@@ -3661,22 +3711,22 @@
             },
             "firstdowns": {
               "_attributes": {
-                "no": "2",
+                "no": "1",
                 "rush": "0",
                 "pass": "1",
-                "penalty": "1"
+                "penalty": "0"
               }
             },
             "penalties": {
               "_attributes": {
                 "no": "3",
-                "yds": "29"
+                "yds": "43"
               }
             },
             "conversions": {
               "_attributes": {
                 "thirdconv": "1",
-                "thirdatt": "3",
+                "thirdatt": "2",
                 "fourthconv": "0",
                 "fourthatt": "0"
               }
@@ -3690,7 +3740,7 @@
             "misc": {
               "_attributes": {
                 "yds": "0",
-                "top": "07:53"
+                "top": "04:03"
               }
             },
             "rush": {
@@ -3705,20 +3755,20 @@
             },
             "pass": {
               "_attributes": {
-                "comp": "4",
-                "att": "6",
+                "comp": "2",
+                "att": "2",
                 "int": "0",
-                "yds": "15",
+                "yds": "30",
                 "td": "0",
                 "long": "0",
                 "sacks": "1",
-                "sackyds": "0"
+                "sackyds": "6"
               }
             },
             "rcv": {
               "_attributes": {
-                "no": "4",
-                "yds": "15",
+                "no": "2",
+                "yds": "36",
                 "td": "0",
                 "long": "0"
               }
@@ -3726,24 +3776,24 @@
             "punt": {
               "_attributes": {
                 "no": "1",
-                "yds": "32",
-                "long": "7",
+                "yds": "38",
+                "long": "13",
                 "blkd": "0",
                 "tb": "0",
                 "fc": "0",
                 "plus50": "0",
                 "inside20": "0",
-                "avg": "32.0"
+                "avg": "38.0"
               }
             },
             "defense": {
               "_attributes": {
-                "tackua": "6",
-                "tacka": "8",
-                "tot_tack": "14",
-                "tflua": "1",
+                "tackua": "7",
+                "tacka": "12",
+                "tot_tack": "19",
+                "tflua": "2",
                 "tfla": "0",
-                "tflyds": "16",
+                "tflyds": "19",
                 "sacks": "1",
                 "sackyds": "16"
               }
@@ -3764,22 +3814,22 @@
             },
             "firstdowns": {
               "_attributes": {
-                "no": "7",
-                "rush": "5",
-                "pass": "1",
-                "penalty": "1"
+                "no": "8",
+                "rush": "4",
+                "pass": "2",
+                "penalty": "2"
               }
             },
             "penalties": {
               "_attributes": {
-                "no": "5",
-                "yds": "32"
+                "no": "4",
+                "yds": "17"
               }
             },
             "conversions": {
               "_attributes": {
-                "thirdconv": "0",
-                "thirdatt": "1",
+                "thirdconv": "1",
+                "thirdatt": "3",
                 "fourthconv": "1",
                 "fourthatt": "1"
               }
@@ -3793,14 +3843,14 @@
             "misc": {
               "_attributes": {
                 "yds": "0",
-                "top": "07:07"
+                "top": "10:57"
               }
             },
             "rush": {
               "_attributes": {
                 "att": "9",
-                "yds": "51",
-                "gain": "51",
+                "yds": "50",
+                "gain": "50",
                 "loss": "0",
                 "td": "1",
                 "long": "0"
@@ -3808,22 +3858,22 @@
             },
             "pass": {
               "_attributes": {
-                "comp": "2",
-                "att": "3",
+                "comp": "4",
+                "att": "7",
                 "int": "0",
-                "yds": "21",
+                "yds": "44",
                 "td": "0",
-                "long": "14",
+                "long": "12",
                 "sacks": "1",
                 "sackyds": "16"
               }
             },
             "rcv": {
               "_attributes": {
-                "no": "2",
-                "yds": "37",
+                "no": "4",
+                "yds": "60",
                 "td": "0",
-                "long": "14"
+                "long": "12"
               }
             },
             "punt": {
@@ -3856,14 +3906,14 @@
             },
             "defense": {
               "_attributes": {
-                "tackua": "5",
-                "tacka": "10",
-                "tot_tack": "15",
+                "tackua": "4",
+                "tacka": "8",
+                "tot_tack": "12",
                 "tflua": "1",
                 "tfla": "0",
-                "tflyds": "24",
+                "tflyds": "6",
                 "sacks": "1",
-                "sackyds": "0"
+                "sackyds": "6"
               }
             },
             "pr": {
@@ -3896,7 +3946,7 @@
               "togo": "11",
               "spot": "FE07",
               "context": "V,2,11,V07",
-              "playid": "9,6,93",
+              "playid": "9,6,95",
               "type": "#",
               "clock": "15:00",
               "tokens": "Q:3 T:15:00 SPOT:H,H30,N",
@@ -3911,7 +3961,7 @@
               "togo": "11",
               "spot": "LK30",
               "context": "H,2,11,H30",
-              "playid": "9,7,94",
+              "playid": "9,7,96",
               "type": "K",
               "tokens": "KO:18,V06 RET:88,V28 TACK:26,25",
               "text": "M. Ulbrich kickoff 64 yards to the FE6, J. Griffin return 22 yards to the FE28 (B. Tchiyoko;D. Burrell).",
@@ -3955,7 +4005,7 @@
               "togo": "10",
               "spot": "FE28",
               "context": "V,1,10,V28",
-              "playid": "10,1,95",
+              "playid": "10,1,97",
               "clock": "14:51",
               "tokens": "{DRIVE}:14:51",
               "text": "FEHERVAR ENTHRONERS drive start at 14:51.",
@@ -3969,7 +4019,7 @@
               "togo": "10",
               "spot": "FE28",
               "context": "V,1,10,V28",
-              "playid": "10,2,96",
+              "playid": "10,2,98",
               "type": "R",
               "tokens": "RUSH:36,V34, TACK:49",
               "text": "E. Madaras rush for 6 yards to the FE34 (A.J. Wentland).",
@@ -3996,7 +4046,7 @@
               "togo": "4",
               "spot": "FE34",
               "context": "V,2,4,V34",
-              "playid": "10,3,97",
+              "playid": "10,3,99",
               "type": "R",
               "tokens": "RUSH:36,V37, TACK:37,63",
               "text": "E. Madaras rush for 3 yards to the FE37 (M. Bausch;P. Meischter).",
@@ -4033,7 +4083,7 @@
               "togo": "1",
               "spot": "FE37",
               "context": "V,3,1,V37",
-              "playid": "10,4,98",
+              "playid": "10,4,100",
               "type": "P",
               "score": "Y",
               "vscore": "6",
@@ -4067,7 +4117,7 @@
               "togo": "10",
               "spot": "FE15",
               "context": "H,1,10,V15",
-              "playid": "11,1,99",
+              "playid": "11,1,101",
               "type": "X",
               "score": "Y",
               "vscore": "6",
@@ -4094,7 +4144,7 @@
               "togo": "0",
               "spot": "LK30",
               "context": "H,1,0,H30",
-              "playid": "11,2,100",
+              "playid": "11,2,102",
               "type": "K",
               "tokens": "KO:18,V18 RET:88,V30 TACK:10,26",
               "text": "M. Ulbrich kickoff 52 yards to the FE18, J. Griffin return 12 yards to the FE30 (C. Roemer;B. Tchiyoko).",
@@ -4138,7 +4188,7 @@
               "togo": "10",
               "spot": "FE30",
               "context": "V,1,10,V30",
-              "playid": "12,1,101",
+              "playid": "12,1,103",
               "clock": "12:54",
               "tokens": "{DRIVE}:12:54",
               "text": "FEHERVAR ENTHRONERS drive start at 12:54.",
@@ -4152,7 +4202,7 @@
               "togo": "10",
               "spot": "FE30",
               "context": "V,1,10,V30",
-              "playid": "12,2,102",
+              "playid": "12,2,104",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:3,V30, FUMB:V,H30,3",
@@ -4183,7 +4233,7 @@
               "togo": "10",
               "spot": "LK30",
               "context": "V,1,10,H30",
-              "playid": "12,3,103",
+              "playid": "12,3,105",
               "type": "P",
               "tokens": "PASS:3,I,88,*",
               "text": "J. Evans pass incomplete to J. Griffin.",
@@ -4205,7 +4255,7 @@
               "togo": "10",
               "spot": "LK30",
               "context": "V,2,10,H30",
-              "playid": "12,4,104",
+              "playid": "12,4,106",
               "type": "#",
               "clock": "12:03",
               "tokens": "TOUT:V T:12:03",
@@ -4226,7 +4276,7 @@
               "togo": "10",
               "spot": "LK30",
               "context": "V,2,10,H30",
-              "playid": "12,5,105",
+              "playid": "12,5,107",
               "type": "P",
               "tokens": "PASS:3,I,12,*",
               "text": "J. Evans pass incomplete to B. Plu.",
@@ -4248,7 +4298,7 @@
               "togo": "10",
               "spot": "LK30",
               "context": "V,3,10,H30",
-              "playid": "12,6,106",
+              "playid": "12,6,108",
               "type": "U",
               "tokens": "PUNT:18,H39 RET:25,H40 TACK:22",
               "text": "L. Benedek punt -9 yards to the LK39, D. Burrell return 1 yards to the LK40 (P. Baranyai).",
@@ -4282,7 +4332,7 @@
               "togo": "10",
               "spot": "LK40",
               "context": "H,1,10,H40",
-              "playid": "13,1,107",
+              "playid": "13,1,109",
               "clock": "11:39",
               "tokens": "{DRIVE}:11:39",
               "text": "LEIPZIG KINGS drive start at 11:39.",
@@ -4296,7 +4346,7 @@
               "togo": "10",
               "spot": "LK40",
               "context": "H,1,10,H40",
-              "playid": "13,2,108",
+              "playid": "13,2,110",
               "type": "P",
               "first": "P",
               "score": "Y",
@@ -4324,7 +4374,7 @@
               "togo": "10",
               "spot": "FE15",
               "context": "H,1,10,V15",
-              "playid": "13,3,109",
+              "playid": "13,3,111",
               "type": "X",
               "tokens": "PAT:K,9,M",
               "text": "F. Finke kick attempt failed.",
@@ -4347,7 +4397,7 @@
               "togo": "0",
               "spot": "LK30",
               "context": "H,1,0,H30",
-              "playid": "13,4,110",
+              "playid": "13,4,112",
               "type": "K",
               "tokens": "KO:18,V15 RET:88,V28 TACK:49",
               "text": "M. Ulbrich kickoff 55 yards to the FE15, J. Griffin return 13 yards to the FE28 (A.J. Wentland).",
@@ -4381,7 +4431,7 @@
               "togo": "10",
               "spot": "FE28",
               "context": "V,1,10,V28",
-              "playid": "14,1,111",
+              "playid": "14,1,113",
               "clock": "11:25",
               "tokens": "{DRIVE}:11:25",
               "text": "FEHERVAR ENTHRONERS drive start at 11:25.",
@@ -4395,7 +4445,7 @@
               "togo": "10",
               "spot": "FE28",
               "context": "V,1,10,V28",
-              "playid": "14,2,112",
+              "playid": "14,2,114",
               "type": "R",
               "tokens": "RUSH:36,V27, TACK:11",
               "text": "E. Madaras rush for loss of 1 yard to the FE27 (N. Riiter).",
@@ -4422,11 +4472,11 @@
               "togo": "11",
               "spot": "FE27",
               "context": "V,2,11,V27",
-              "playid": "14,3,113",
+              "playid": "14,3,115",
               "type": "E",
-              "tokens": "RUSH:3,V40, TACK:15,28 PEN:V,OH,A,64,V18,N NOPLAY:",
-              "text": "J. Evans rush for 13 yards to the FE40 (D. Banse;D. Aboagye-Duah), PENALTY FE Offensive Holding (B. K\u00e9ri) 9 yards to the FE18, NO PLAY.",
-              "newcontext": "V,2,20,V18"
+              "tokens": "RUSH:3,V40, TACK:15,28 PEN:V,OH,A,64,V17,N NOPLAY:",
+              "text": "J. Evans rush for 13 yards to the FE40 (D. Banse;D. Aboagye-Duah), PENALTY FE Offensive Holding (B. K\u00e9ri) 10 yards to the FE17, NO PLAY.",
+              "newcontext": "V,2,21,V17"
             },
             "p_pn": {
               "_attributes": {
@@ -4436,7 +4486,7 @@
                 "name": "B. K\u00e9ri",
                 "result": "ACCEPT",
                 "at": "V27",
-                "yards": "9"
+                "yards": "10"
               }
             }
           },
@@ -4444,14 +4494,14 @@
             "_attributes": {
               "hasball": "FE",
               "down": "2",
-              "togo": "20",
-              "spot": "FE18",
-              "context": "V,2,20,V18",
-              "playid": "14,4,114",
+              "togo": "21",
+              "spot": "FE17",
+              "context": "V,2,21,V17",
+              "playid": "14,4,116",
               "type": "P",
               "tokens": "PASS:3,I,88,* BRUP:26",
               "text": "J. Evans pass incomplete to J. Griffin (B. Tchiyoko).",
-              "newcontext": "V,3,20,V18"
+              "newcontext": "V,3,21,V17"
             },
             "p_pa": {
               "_attributes": {
@@ -4472,13 +4522,13 @@
             "_attributes": {
               "hasball": "FE",
               "down": "3",
-              "togo": "20",
-              "spot": "FE18",
-              "context": "V,3,20,V18",
-              "playid": "14,5,115",
+              "togo": "21",
+              "spot": "FE17",
+              "context": "V,3,21,V17",
+              "playid": "14,5,117",
               "type": "E",
               "tokens": "PEN:V,DG,A,3,V13,N",
-              "text": "PENALTY FE Delay of Game (J. Evans) 5 yards to the FE13.",
+              "text": "PENALTY FE Delay of Game (J. Evans) 4 yards to the FE13.",
               "newcontext": "V,3,25,V13"
             },
             "p_pn": {
@@ -4488,8 +4538,8 @@
                 "type": "Delay of Game",
                 "name": "J. Evans",
                 "result": "ACCEPT",
-                "at": "V18",
-                "yards": "5"
+                "at": "V17",
+                "yards": "4"
               }
             }
           },
@@ -4500,7 +4550,7 @@
               "togo": "25",
               "spot": "FE13",
               "context": "V,3,25,V13",
-              "playid": "14,6,116",
+              "playid": "14,6,118",
               "type": "R",
               "tokens": "RUSH:3,V34, TACK:24,15",
               "text": "J. Evans rush for 21 yards to the FE34 (W. James;D. Banse).",
@@ -4537,7 +4587,7 @@
               "togo": "4",
               "spot": "FE34",
               "context": "V,4,4,V34",
-              "playid": "14,7,117",
+              "playid": "14,7,119",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:18,V39, OB:",
@@ -4560,7 +4610,7 @@
               "togo": "10",
               "spot": "FE39",
               "context": "V,1,10,V39",
-              "playid": "14,8,118",
+              "playid": "14,8,120",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:36,H45, TACK:24",
@@ -4588,7 +4638,7 @@
               "togo": "10",
               "spot": "LK45",
               "context": "V,1,10,H45",
-              "playid": "14,9,119",
+              "playid": "14,9,121",
               "type": "#",
               "clock": "08:19",
               "tokens": "TOUT:H T:08:19",
@@ -4609,7 +4659,7 @@
               "togo": "10",
               "spot": "LK45",
               "context": "V,1,10,H45",
-              "playid": "14,10,120",
+              "playid": "14,10,122",
               "type": "R",
               "tokens": "RUSH:36,H45, TACK:49,50",
               "text": "E. Madaras rush for no gain to the LK45 (A.J. Wentland;J. Schultes).",
@@ -4646,7 +4696,7 @@
               "togo": "10",
               "spot": "LK45",
               "context": "V,2,10,H45",
-              "playid": "14,11,121",
+              "playid": "14,11,123",
               "type": "R",
               "tokens": "RUSH:3,H43, OB: TACK:25",
               "text": "J. Evans rush for 2 yards to the LK43, out-of-bounds (D. Burrell).",
@@ -4674,7 +4724,7 @@
               "togo": "8",
               "spot": "LK43",
               "context": "V,3,8,H43",
-              "playid": "14,12,122",
+              "playid": "14,12,124",
               "type": "E",
               "tokens": "PEN:V,DG,A,3,H48,N",
               "text": "PENALTY FE Delay of Game (J. Evans) 5 yards to the LK48.",
@@ -4699,11 +4749,11 @@
               "togo": "13",
               "spot": "LK48",
               "context": "V,3,13,H48",
-              "playid": "14,13,123",
+              "playid": "14,13,125",
               "type": "P",
               "turnover": "I",
-              "tokens": "PASS:3,X,28,H40 RET:28,H48 TACK:82",
-              "text": "J. Evans pass intercepted by D. Aboagye-Duah at the LK40, D. Aboagye-Duah return 8 yards to the LK48 (N. T\u00f3th).",
+              "tokens": "PASS:3,X,82,H40 RET:28,H48 TACK:82",
+              "text": "J. Evans pass intercepted by D. Rofalski at the LK40, D. Aboagye-Duah return 8 yards to the LK48 (N. T\u00f3th).",
               "newcontext": "H,1,10,H48"
             },
             "p_pa": {
@@ -4735,7 +4785,7 @@
               "togo": "10",
               "spot": "LK48",
               "context": "H,1,10,H48",
-              "playid": "15,1,124",
+              "playid": "15,1,126",
               "clock": "06:26",
               "tokens": "{DRIVE}:06:26",
               "text": "LEIPZIG KINGS drive start at 06:26.",
@@ -4749,10 +4799,10 @@
               "togo": "10",
               "spot": "LK48",
               "context": "H,1,10,H48",
-              "playid": "15,2,125",
+              "playid": "15,2,127",
               "type": "R",
-              "tokens": "RUSH:5,V47, TACK:35",
-              "text": "S. Mcshane rush for 5 yards to the FE47 (B. Bodn\u00e1r).",
+              "tokens": "RUSH:5,V47, TACK:51,35",
+              "text": "S. Mcshane rush for 5 yards to the FE47 (J. Zilai;B. Bodn\u00e1r).",
               "newcontext": "H,2,5,V47"
             },
             "p_ru": {
@@ -4762,12 +4812,22 @@
                 "gain": "5"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "B. Bodn\u00e1r"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "J. Zilai",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "B. Bodn\u00e1r",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -4776,7 +4836,7 @@
               "togo": "5",
               "spot": "FE47",
               "context": "H,2,5,V47",
-              "playid": "15,3,126",
+              "playid": "15,3,128",
               "type": "R",
               "tokens": "RUSH:22,V44, TACK:50",
               "text": "O. Bahr rush for 3 yards to the FE44 (J. Regan).",
@@ -4803,7 +4863,7 @@
               "togo": "2",
               "spot": "FE44",
               "context": "H,3,2,V44",
-              "playid": "15,4,127",
+              "playid": "15,4,129",
               "type": "P",
               "first": "P",
               "tokens": "PASS:4,C,88,V34 TACK:26,51",
@@ -4843,7 +4903,7 @@
               "togo": "10",
               "spot": "FE34",
               "context": "H,1,10,V34",
-              "playid": "15,5,128",
+              "playid": "15,5,130",
               "type": "P",
               "tokens": "PASS:4,C,7,V27 TACK:43",
               "text": "K. Allen pass complete to L. Winter for 7 yards to the FE27 (B. Hansel).",
@@ -4872,7 +4932,7 @@
               "togo": "3",
               "spot": "FE27",
               "context": "H,2,3,V27",
-              "playid": "15,6,129",
+              "playid": "15,6,131",
               "type": "P",
               "tokens": "PASS:4,I,89,*",
               "text": "K. Allen pass incomplete to T. Stuewe.",
@@ -4894,7 +4954,7 @@
               "togo": "3",
               "spot": "FE27",
               "context": "H,3,3,V27",
-              "playid": "15,7,130",
+              "playid": "15,7,132",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:22,V16, TACK:35,21",
@@ -4932,7 +4992,7 @@
               "togo": "10",
               "spot": "FE16",
               "context": "H,1,10,V16",
-              "playid": "15,8,131",
+              "playid": "15,8,133",
               "type": "R",
               "tokens": "RUSH:20,V15, TACK:35",
               "text": "L. Carstensen rush for 1 yard to the FE15 (B. Bodn\u00e1r).",
@@ -4959,7 +5019,7 @@
               "togo": "9",
               "spot": "FE15",
               "context": "H,2,9,V15",
-              "playid": "15,9,132",
+              "playid": "15,9,134",
               "type": "#",
               "clock": "03:28",
               "tokens": "TOUT:H T:03:28",
@@ -4980,7 +5040,7 @@
               "togo": "9",
               "spot": "FE15",
               "context": "H,2,9,V15",
-              "playid": "15,10,133",
+              "playid": "15,10,135",
               "type": "P",
               "first": "P",
               "score": "Y",
@@ -5008,7 +5068,7 @@
               "togo": "10",
               "spot": "FE15",
               "context": "H,1,10,V15",
-              "playid": "15,11,134",
+              "playid": "15,11,136",
               "type": "X",
               "score": "Y",
               "vscore": "6",
@@ -5035,7 +5095,7 @@
               "togo": "0",
               "spot": "LK30",
               "context": "H,1,0,H30",
-              "playid": "15,12,135",
+              "playid": "15,12,137",
               "type": "K",
               "tokens": "KO:18,V15 OB: SPOT:V,V40,Y",
               "text": "M. Ulbrich kickoff 55 yards to the FE15, out-of-bounds, FE ball on FE40.",
@@ -5058,7 +5118,30 @@
               "togo": "10",
               "spot": "FE40",
               "context": "V,1,10,V40",
-              "playid": "16,1,136",
+              "playid": "16,1,138",
+              "type": "E",
+              "tokens": "PEN:H,FTL,A,18,V40,N",
+              "text": "PENALTY LK Failure to Reach Target Line (M. Ulbrich) 0 yards to the FE40.",
+              "newcontext": "V,1,10,V40"
+            },
+            "p_pn": {
+              "_attributes": {
+                "vh": "H",
+                "code": "FTL",
+                "type": "Failure to Reach Target Line",
+                "name": "M. Ulbrich",
+                "result": "ACCEPT"
+              }
+            }
+          },
+          {
+            "_attributes": {
+              "hasball": "FE",
+              "down": "1",
+              "togo": "10",
+              "spot": "FE40",
+              "context": "V,1,10,V40",
+              "playid": "16,2,139",
               "clock": "03:15",
               "tokens": "{DRIVE}:03:15",
               "text": "FEHERVAR ENTHRONERS drive start at 03:15.",
@@ -5072,10 +5155,10 @@
               "togo": "10",
               "spot": "FE40",
               "context": "V,1,10,V40",
-              "playid": "16,2,137",
+              "playid": "16,3,140",
               "type": "P",
-              "tokens": "PASS:3,C,88,V49 TACK:25,49",
-              "text": "J. Evans pass complete to J. Griffin for 9 yards to the FE49 (D. Burrell;A.J. Wentland).",
+              "tokens": "PASS:3,C,88,V49 TACK:26,49",
+              "text": "J. Evans pass complete to J. Griffin for 9 yards to the FE49 (B. Tchiyoko;A.J. Wentland).",
               "newcontext": "V,2,1,V49"
             },
             "p_pa": {
@@ -5091,7 +5174,7 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "D. Burrell",
+                  "name": "B. Tchiyoko",
                   "assist": "Y"
                 }
               },
@@ -5111,7 +5194,7 @@
               "togo": "1",
               "spot": "FE49",
               "context": "V,2,1,V49",
-              "playid": "16,3,138",
+              "playid": "16,4,141",
               "type": "P",
               "tokens": "PASS:3,S,TM,V48 SACK:8",
               "text": "J. Evans sacked for loss of 1 yard to the FE48 (A. Zetterberg).",
@@ -5140,7 +5223,7 @@
               "togo": "2",
               "spot": "FE48",
               "context": "V,3,2,V48",
-              "playid": "16,4,139",
+              "playid": "16,5,142",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:3,H45, TACK:37",
@@ -5168,7 +5251,7 @@
               "togo": "10",
               "spot": "LK45",
               "context": "V,1,10,H45",
-              "playid": "16,5,140",
+              "playid": "16,6,143",
               "type": "R",
               "tokens": "RUSH:39,H44, TACK:50,63",
               "text": "K. Rathonyi rush for 1 yard to the LK44 (J. Schultes;P. Meischter).",
@@ -5205,7 +5288,7 @@
               "togo": "9",
               "spot": "LK44",
               "context": "V,2,9,H44",
-              "playid": "16,6,141",
+              "playid": "16,7,144",
               "type": "P",
               "tokens": "PASS:3,C,88,H36 OB: TACK:26",
               "text": "J. Evans pass complete to J. Griffin for 8 yards to the LK36, out-of-bounds (B. Tchiyoko).",
@@ -5236,7 +5319,7 @@
               "vh": "V",
               "spot": "V28",
               "clock": "14:51",
-              "driveindex": "10,94"
+              "driveindex": "10,96"
             }
           },
           {
@@ -5245,7 +5328,7 @@
               "vh": "H",
               "spot": "V15",
               "clock": "13:03",
-              "driveindex": "11,98"
+              "driveindex": "11,100"
             }
           },
           {
@@ -5254,7 +5337,7 @@
               "vh": "V",
               "spot": "V30",
               "clock": "12:54",
-              "driveindex": "12,100"
+              "driveindex": "12,102"
             }
           },
           {
@@ -5263,7 +5346,7 @@
               "vh": "H",
               "spot": "H40",
               "clock": "11:39",
-              "driveindex": "13,106"
+              "driveindex": "13,108"
             }
           },
           {
@@ -5272,7 +5355,7 @@
               "vh": "V",
               "spot": "V28",
               "clock": "11:25",
-              "driveindex": "14,110"
+              "driveindex": "14,112"
             }
           },
           {
@@ -5281,16 +5364,16 @@
               "vh": "H",
               "spot": "H48",
               "clock": "06:26",
-              "driveindex": "15,123"
+              "driveindex": "15,125"
             }
           },
           {
             "_attributes": {
-              "poss": "V,V40,03:15",
+              "poss": "V,V40,03:16",
               "vh": "V",
               "spot": "V40",
-              "clock": "03:15",
-              "driveindex": "16,135"
+              "clock": "03:16",
+              "driveindex": "16,137"
             }
           }
         ],
@@ -5471,9 +5554,9 @@
             },
             "defense": {
               "_attributes": {
-                "tackua": "6",
-                "tacka": "4",
-                "tot_tack": "10",
+                "tackua": "5",
+                "tacka": "6",
+                "tot_tack": "11",
                 "sacks": "0",
                 "sackyds": "0"
               }
@@ -5483,7 +5566,7 @@
                 "no": "3",
                 "yds": "47",
                 "td": "0",
-                "long": "6"
+                "long": "7"
               }
             }
           },
@@ -5502,7 +5585,7 @@
             },
             "penalties": {
               "_attributes": {
-                "no": "0",
+                "no": "1",
                 "yds": "0"
               }
             },
@@ -5624,7 +5707,7 @@
               "togo": "1",
               "spot": "LK36",
               "context": "V,3,1,H36",
-              "playid": "16,7,142",
+              "playid": "16,8,145",
               "type": "#",
               "clock": "15:00",
               "tokens": "Q:4 T:15:00",
@@ -5639,7 +5722,7 @@
               "togo": "1",
               "spot": "LK36",
               "context": "V,3,1,H36",
-              "playid": "16,8,143",
+              "playid": "16,9,146",
               "type": "P",
               "first": "P",
               "tokens": "PASS:3,C,12,H27 TACK:15,28",
@@ -5679,7 +5762,7 @@
               "togo": "10",
               "spot": "LK27",
               "context": "V,1,10,H27",
-              "playid": "16,9,144",
+              "playid": "16,10,147",
               "type": "E",
               "first": "E",
               "tokens": "RUSH:3,H13, OB: PEN:H,IC,A,24,H09,N NOPLAY:",
@@ -5706,7 +5789,7 @@
               "togo": "0",
               "spot": "LK09",
               "context": "V,1,0,H09",
-              "playid": "16,10,145",
+              "playid": "16,11,148",
               "type": "P",
               "first": "P",
               "score": "Y",
@@ -5734,7 +5817,7 @@
               "togo": "10",
               "spot": "LK15",
               "context": "V,1,10,H15",
-              "playid": "16,11,146",
+              "playid": "16,12,149",
               "type": "X",
               "tokens": "PAT:K,16,B BLOCK:63",
               "text": "P. Szoke kick attempt failed (blocked) (blocked by P. Meischter).",
@@ -5757,19 +5840,19 @@
               "togo": "0",
               "spot": "FE30",
               "context": "V,1,0,V30",
-              "playid": "16,12,147",
+              "playid": "16,13,150",
               "type": "E",
-              "tokens": "KO:16,H04 RET:25,H11 FUMB:H,V40,TM +:25,H15 PEN:H,FO,A,44,H06,N NOPLAY:",
-              "text": "P. Szoke kickoff 66 yards to the LK4, D. Burrell return to the LK11, fumble by D. Burrell recovered by LK Team at FE40, D. Burrell for loss of 45 yards to the LK15, PENALTY LK Illegal Formation (44) 64 yards to the LK6, NO PLAY.",
+              "tokens": "KO:16,H04 RET:25,H11 FUMB:H,H11,25 +:25,H15 PEN:H,FO,A,44,H06,N NOPLAY:",
+              "text": "P. Szoke kickoff 66 yards to the LK4, D. Burrell return to the LK11, fumble by D. Burrell recovered by LK D. Burrell at LK11, D. Burrell for 4 yards to the LK15, PENALTY LK Illegal Formation (44) 64 yards to the LK6, NO PLAY.",
               "newcontext": "V,1,0,H06"
             },
             "p_fumb": {
               "_attributes": {
                 "vh": "H",
                 "name": "D. Burrell",
-                "at": "V40",
+                "at": "H11",
                 "frvh": "H",
-                "frname": "Team"
+                "frname": "D. Burrell"
               }
             },
             "p_pn": {
@@ -5791,7 +5874,7 @@
               "togo": "0",
               "spot": "LK06",
               "context": "V,1,0,H06",
-              "playid": "16,13,148",
+              "playid": "16,14,151",
               "tokens": "SPOT:H,H06,N",
               "text": "LK ball on LK6.",
               "newcontext": "H,1,6,H06"
@@ -5804,10 +5887,11 @@
               "togo": "6",
               "spot": "LK06",
               "context": "H,1,6,H06",
-              "playid": "16,14,149",
+              "playid": "16,15,152",
               "type": "R",
-              "tokens": "RUSH:20,H06,",
-              "text": "L. Carstensen rush for no gain to the LK6.",
+              "pcode": "35",
+              "tokens": "RUSH:20,H06,35,90",
+              "text": "L. Carstensen rush 35 for no gain to the LK6.",
               "newcontext": "H,2,6,H06"
             },
             "p_ru": {
@@ -5825,17 +5909,18 @@
               "togo": "6",
               "spot": "LK06",
               "context": "H,2,6,H06",
-              "playid": "16,15,150",
+              "playid": "16,16,153",
               "type": "P",
-              "tokens": "PASS:12,I,TM,*",
-              "text": "F. El-Hendi pass incomplete.",
+              "tokens": "PASS:12,I,3,*",
+              "text": "F. El-Hendi pass incomplete to L. Moreno.",
               "newcontext": "H,3,6,H06"
             },
             "p_pa": {
               "_attributes": {
                 "vh": "H",
                 "qb": "F. El-Hendi",
-                "result": "INC"
+                "result": "INC",
+                "rcv": "L. Moreno"
               }
             }
           },
@@ -5846,7 +5931,7 @@
               "togo": "6",
               "spot": "LK06",
               "context": "H,3,6,H06",
-              "playid": "16,16,151",
+              "playid": "16,17,154",
               "type": "P",
               "tokens": "PASS:12,I,TM,*",
               "text": "F. El-Hendi pass incomplete.",
@@ -5867,7 +5952,7 @@
               "togo": "6",
               "spot": "LK06",
               "context": "H,4,6,H06",
-              "playid": "16,17,152",
+              "playid": "16,18,155",
               "type": "E",
               "first": "E",
               "tokens": "PUNT:9,H48 RET:88,H08 TACK:22 PEN:V,BL,A,TM,H40,N NOPLAY:",
@@ -5892,7 +5977,7 @@
               "togo": "10",
               "spot": "LK40",
               "context": "H,1,10,H40",
-              "playid": "16,18,153",
+              "playid": "16,19,156",
               "tokens": "SPOT:V,H40,Y",
               "text": "FE ball on LK40.",
               "newcontext": "V,1,10,H40"
@@ -5905,7 +5990,7 @@
               "togo": "10",
               "spot": "LK40",
               "context": "V,1,10,H40",
-              "playid": "16,19,154",
+              "playid": "16,20,157",
               "type": "R",
               "tokens": "RUSH:39,H36, TACK:50,98",
               "text": "K. Rathonyi rush for 4 yards to the LK36 (J. Schultes;C. Reimann).",
@@ -5942,7 +6027,7 @@
               "togo": "6",
               "spot": "LK36",
               "context": "V,2,6,H36",
-              "playid": "16,20,155",
+              "playid": "16,21,158",
               "type": "R",
               "tokens": "RUSH:39,H34, TACK:49",
               "text": "K. Rathonyi rush for 2 yards to the LK34 (A.J. Wentland).",
@@ -5969,7 +6054,7 @@
               "togo": "4",
               "spot": "LK34",
               "context": "V,3,4,H34",
-              "playid": "16,21,156",
+              "playid": "16,22,159",
               "type": "R",
               "tokens": "RUSH:3,H32, TACK:49",
               "text": "J. Evans rush for 2 yards to the LK32 (A.J. Wentland).",
@@ -5996,11 +6081,11 @@
               "togo": "2",
               "spot": "LK32",
               "context": "V,4,2,H32",
-              "playid": "16,22,157",
+              "playid": "16,23,160",
               "type": "P",
               "first": "P",
-              "tokens": "PASS:3,C,12,H18 TACK:28,15",
-              "text": "J. Evans pass complete to B. Plu for 14 yards to the LK18, 1ST DOWN FE (D. Aboagye-Duah;D. Banse).",
+              "tokens": "PASS:3,C,12,H18 TACK:28",
+              "text": "J. Evans pass complete to B. Plu for 14 yards to the LK18, 1ST DOWN FE (D. Aboagye-Duah).",
               "newcontext": "V,1,10,H18"
             },
             "p_pa": {
@@ -6012,22 +6097,12 @@
                 "gain": "14"
               }
             },
-            "p_tk": [
-              {
-                "_attributes": {
-                  "vh": "H",
-                  "name": "D. Aboagye-Duah",
-                  "assist": "Y"
-                }
-              },
-              {
-                "_attributes": {
-                  "vh": "H",
-                  "name": "D. Banse",
-                  "assist": "Y"
-                }
+            "p_tk": {
+              "_attributes": {
+                "vh": "H",
+                "name": "D. Aboagye-Duah"
               }
-            ]
+            }
           },
           {
             "_attributes": {
@@ -6036,7 +6111,7 @@
               "togo": "10",
               "spot": "LK18",
               "context": "V,1,10,H18",
-              "playid": "16,23,158",
+              "playid": "16,24,161",
               "type": "P",
               "first": "P",
               "score": "Y",
@@ -6064,7 +6139,7 @@
               "togo": "10",
               "spot": "LK15",
               "context": "V,1,10,H15",
-              "playid": "16,24,159",
+              "playid": "16,25,162",
               "type": "X",
               "tokens": "PAT:K,16,M",
               "text": "P. Szoke kick attempt failed.",
@@ -6087,7 +6162,7 @@
               "togo": "0",
               "spot": "FE30",
               "context": "V,1,0,V30",
-              "playid": "16,25,160",
+              "playid": "16,26,163",
               "type": "K",
               "score": "Y",
               "vscore": "18",
@@ -6119,7 +6194,7 @@
               "togo": "10",
               "spot": "FE15",
               "context": "H,1,10,V15",
-              "playid": "17,1,161",
+              "playid": "17,1,164",
               "type": "X",
               "tokens": "PAT:K,9,M",
               "text": "F. Finke kick attempt failed.",
@@ -6142,9 +6217,9 @@
               "togo": "0",
               "spot": "LK30",
               "context": "H,1,0,H30",
-              "playid": "17,2,162",
+              "playid": "17,2,165",
               "type": "E",
-              "tokens": "KO:18,V18 RET:88,V18 PEN:H,FTL,A,18,V40,N NOPLAY:",
+              "tokens": "KO:18,V18 RET:88,V18 PEN:H,FTL,A,18,V40,Y NOPLAY:",
               "text": "M. Ulbrich kickoff 52 yards to the FE18, J. Griffin return to the FE18, PENALTY LK Failure to Reach Target Line (M. Ulbrich) 30 yards to the FE40, NO PLAY.",
               "newcontext": "H,1,0,V40"
             },
@@ -6167,32 +6242,32 @@
               "togo": "0",
               "spot": "FE40",
               "context": "H,1,0,V40",
-              "playid": "17,3,163",
-              "type": "P",
-              "tokens": "PASS:3,I,82,*",
-              "text": "L. Moreno pass incomplete to D. Rofalski.",
-              "newcontext": "H,2,0,V40"
-            },
-            "p_pa": {
-              "_attributes": {
-                "vh": "H",
-                "qb": "L. Moreno",
-                "result": "INC",
-                "rcv": "D. Rofalski"
-              }
+              "playid": "17,3,166",
+              "tokens": "SPOT:V,V40,N",
+              "text": "FE ball on FE40.",
+              "newcontext": "V,1,40,V40"
             }
           },
           {
             "_attributes": {
-              "hasball": "LK",
-              "down": "2",
-              "togo": "0",
+              "hasball": "FE",
+              "down": "1",
+              "togo": "40",
               "spot": "FE40",
-              "context": "H,2,0,V40",
-              "playid": "17,4,164",
-              "tokens": "SPOT:V,V40,N",
-              "text": "FE ball on FE40.",
+              "context": "V,1,40,V40",
+              "playid": "17,4,167",
+              "type": "P",
+              "tokens": "PASS:3,I,82,*",
+              "text": "J. Evans pass incomplete to N. T\u00f3th.",
               "newcontext": "V,2,40,V40"
+            },
+            "p_pa": {
+              "_attributes": {
+                "vh": "V",
+                "qb": "J. Evans",
+                "result": "INC",
+                "rcv": "N. T\u00f3th"
+              }
             }
           },
           {
@@ -6202,7 +6277,7 @@
               "togo": "40",
               "spot": "FE40",
               "context": "V,2,40,V40",
-              "playid": "17,5,165",
+              "playid": "17,5,168",
               "type": "R",
               "tokens": "RUSH:36,V42, TACK:50",
               "text": "E. Madaras rush for 2 yards to the FE42 (J. Schultes).",
@@ -6229,7 +6304,7 @@
               "togo": "38",
               "spot": "FE42",
               "context": "V,3,38,V42",
-              "playid": "17,6,166",
+              "playid": "17,6,169",
               "type": "P",
               "tokens": "PASS:3,S,TM,V38 SACK:49,50",
               "text": "J. Evans sacked for loss of 4 yards to the FE38 (A.J. Wentland;J. Schultes).",
@@ -6269,7 +6344,7 @@
               "togo": "42",
               "spot": "FE38",
               "context": "V,4,42,V38",
-              "playid": "17,7,167",
+              "playid": "17,7,170",
               "type": "U",
               "tokens": "PUNT:18,H20 OB:",
               "text": "L. Benedek punt 42 yards to the LK20, out-of-bounds.",
@@ -6292,7 +6367,7 @@
               "togo": "10",
               "spot": "LK20",
               "context": "H,1,10,H20",
-              "playid": "18,1,168",
+              "playid": "18,1,171",
               "clock": "08:00",
               "tokens": "{DRIVE}:08:00",
               "text": "LEIPZIG KINGS drive start at 08:00.",
@@ -6306,19 +6381,19 @@
               "togo": "10",
               "spot": "LK20",
               "context": "H,1,10,H20",
-              "playid": "18,2,169",
+              "playid": "18,2,172",
               "type": "R",
               "first": "R",
-              "tokens": "RUSH:22,H39, OB: TACK:24",
-              "text": "O. Bahr rush for 19 yards to the LK39, 1ST DOWN LK, out-of-bounds (B. G\u00e1sp\u00e1r).",
+              "tokens": "RUSH:22,H40, OB: TACK:24",
+              "text": "O. Bahr rush for 20 yards to the LK40, 1ST DOWN LK, out-of-bounds (B. G\u00e1sp\u00e1r).",
               "ob": "Y",
-              "newcontext": "H,1,10,H39"
+              "newcontext": "H,1,10,H40"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "O. Bahr",
-                "gain": "19"
+                "gain": "20"
               }
             },
             "p_tk": {
@@ -6333,19 +6408,19 @@
               "hasball": "LK",
               "down": "1",
               "togo": "10",
-              "spot": "LK39",
-              "context": "H,1,10,H39",
-              "playid": "18,3,170",
+              "spot": "LK40",
+              "context": "H,1,10,H40",
+              "playid": "18,3,173",
               "type": "R",
               "tokens": "RUSH:22,H41, TACK:98,50",
-              "text": "O. Bahr rush for 2 yards to the LK41 (P. Trembuly\u00e1k;J. Regan).",
-              "newcontext": "H,2,8,H41"
+              "text": "O. Bahr rush for 1 yard to the LK41 (P. Trembuly\u00e1k;J. Regan).",
+              "newcontext": "H,2,9,H41"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "O. Bahr",
-                "gain": "2"
+                "gain": "1"
               }
             },
             "p_tk": [
@@ -6369,15 +6444,15 @@
             "_attributes": {
               "hasball": "LK",
               "down": "2",
-              "togo": "8",
+              "togo": "9",
               "spot": "LK41",
-              "context": "H,2,8,H41",
-              "playid": "18,4,171",
+              "context": "H,2,9,H41",
+              "playid": "18,4,174",
               "type": "#",
               "clock": "06:45",
               "tokens": "TOUT:H T:06:45",
               "text": "Timeout Leipzig Kings, clock 06:45.",
-              "newcontext": "H,2,8,H41"
+              "newcontext": "H,2,9,H41"
             },
             "p_to": {
               "_attributes": {
@@ -6390,14 +6465,14 @@
             "_attributes": {
               "hasball": "LK",
               "down": "2",
-              "togo": "8",
+              "togo": "9",
               "spot": "LK41",
-              "context": "H,2,8,H41",
-              "playid": "18,5,172",
+              "context": "H,2,9,H41",
+              "playid": "18,5,175",
               "type": "R",
               "tokens": "RUSH:20,H41, TACK:52",
               "text": "L. Carstensen rush for no gain to the LK41 (C. P\u00e9ter).",
-              "newcontext": "H,3,8,H41"
+              "newcontext": "H,3,9,H41"
             },
             "p_ru": {
               "_attributes": {
@@ -6417,14 +6492,14 @@
             "_attributes": {
               "hasball": "LK",
               "down": "3",
-              "togo": "8",
+              "togo": "9",
               "spot": "LK41",
-              "context": "H,3,8,H41",
-              "playid": "18,6,173",
+              "context": "H,3,9,H41",
+              "playid": "18,6,176",
               "type": "P",
               "tokens": "PASS:4,C,7,H47 TACK:30,43",
               "text": "K. Allen pass complete to L. Winter for 6 yards to the LK47 (R. Sap;B. Hansel).",
-              "newcontext": "H,4,2,H47"
+              "newcontext": "H,4,3,H47"
             },
             "p_pa": {
               "_attributes": {
@@ -6456,10 +6531,10 @@
             "_attributes": {
               "hasball": "LK",
               "down": "4",
-              "togo": "2",
+              "togo": "3",
               "spot": "LK47",
-              "context": "H,4,2,H47",
-              "playid": "18,7,174",
+              "context": "H,4,3,H47",
+              "playid": "18,7,177",
               "type": "U",
               "tokens": "PUNT:9,V26",
               "text": "F. Finke punt 27 yards to the FE26.",
@@ -6480,7 +6555,7 @@
               "togo": "10",
               "spot": "FE26",
               "context": "V,1,10,V26",
-              "playid": "19,1,175",
+              "playid": "19,1,178",
               "clock": "05:24",
               "tokens": "{DRIVE}:05:24",
               "text": "FEHERVAR ENTHRONERS drive start at 05:24.",
@@ -6494,7 +6569,7 @@
               "togo": "10",
               "spot": "FE26",
               "context": "V,1,10,V26",
-              "playid": "19,2,176",
+              "playid": "19,2,179",
               "type": "R",
               "tokens": "RUSH:39,V29, TACK:11",
               "text": "K. Rathonyi rush for 3 yards to the FE29 (N. Riiter).",
@@ -6521,7 +6596,7 @@
               "togo": "7",
               "spot": "FE29",
               "context": "V,2,7,V29",
-              "playid": "19,3,177",
+              "playid": "19,3,180",
               "type": "P",
               "first": "P",
               "tokens": "PASS:10,C,88,V38 TACK:24",
@@ -6551,7 +6626,7 @@
               "togo": "10",
               "spot": "FE38",
               "context": "V,1,10,V38",
-              "playid": "19,4,178",
+              "playid": "19,4,181",
               "type": "R",
               "tokens": "RUSH:39,V43, TACK:33",
               "text": "K. Rathonyi rush for 5 yards to the FE43 (P. Meissner).",
@@ -6578,11 +6653,11 @@
               "togo": "5",
               "spot": "FE43",
               "context": "V,2,5,V43",
-              "playid": "19,5,179",
+              "playid": "19,5,182",
               "type": "R",
               "first": "R",
-              "tokens": "RUSH:39,H45, TACK:28",
-              "text": "K. Rathonyi rush for 12 yards to the LK45, 1ST DOWN FE (D. Aboagye-Duah).",
+              "tokens": "RUSH:39,H45, TACK:28,25",
+              "text": "K. Rathonyi rush for 12 yards to the LK45, 1ST DOWN FE (D. Aboagye-Duah;D. Burrell).",
               "newcontext": "V,1,10,H45"
             },
             "p_ru": {
@@ -6592,12 +6667,22 @@
                 "gain": "12"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "H",
-                "name": "D. Aboagye-Duah"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "H",
+                  "name": "D. Aboagye-Duah",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "H",
+                  "name": "D. Burrell",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -6606,7 +6691,7 @@
               "togo": "10",
               "spot": "LK45",
               "context": "V,1,10,H45",
-              "playid": "19,6,180",
+              "playid": "19,6,183",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:36,H32, TACK:16",
@@ -6634,7 +6719,7 @@
               "togo": "10",
               "spot": "LK32",
               "context": "V,1,10,H32",
-              "playid": "19,7,181",
+              "playid": "19,7,184",
               "type": "P",
               "tokens": "PASS:10,I,18,*",
               "text": "M. Hegedus pass incomplete to L. Benedek.",
@@ -6656,10 +6741,10 @@
               "togo": "10",
               "spot": "LK32",
               "context": "V,2,10,H32",
-              "playid": "19,8,182",
+              "playid": "19,8,185",
               "type": "R",
-              "tokens": "RUSH:36,H27, TACK:93",
-              "text": "E. Madaras rush for 5 yards to the LK27 (C. Hans).",
+              "tokens": "RUSH:36,H27, TACK:33",
+              "text": "E. Madaras rush for 5 yards to the LK27 (P. Meissner).",
               "newcontext": "V,3,5,H27"
             },
             "p_ru": {
@@ -6672,7 +6757,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "H",
-                "name": "C. Hans"
+                "name": "P. Meissner"
               }
             }
           },
@@ -6683,7 +6768,7 @@
               "togo": "5",
               "spot": "LK27",
               "context": "V,3,5,H27",
-              "playid": "19,9,183",
+              "playid": "19,9,186",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:36,H19, TACK:50,37",
@@ -6721,7 +6806,7 @@
               "togo": "10",
               "spot": "LK19",
               "context": "V,1,10,H19",
-              "playid": "19,10,185",
+              "playid": "19,10,188",
               "type": "P",
               "tokens": "PASS:10,I,TM,*",
               "text": "M. Hegedus pass incomplete.",
@@ -6742,10 +6827,10 @@
               "togo": "10",
               "spot": "LK19",
               "context": "V,2,10,H19",
-              "playid": "19,11,186",
+              "playid": "19,11,189",
               "type": "R",
-              "tokens": "RUSH:39,H13, TACK:50,16",
-              "text": "K. Rathonyi rush for 6 yards to the LK13 (J. Schultes;E. Bauroth).",
+              "tokens": "RUSH:39,H13, TACK:50,90",
+              "text": "K. Rathonyi rush for 6 yards to the LK13 (J. Schultes;F. Ntwa).",
               "newcontext": "V,3,4,H13"
             },
             "p_ru": {
@@ -6766,7 +6851,7 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "E. Bauroth",
+                  "name": "F. Ntwa",
                   "assist": "Y"
                 }
               }
@@ -6779,7 +6864,7 @@
               "togo": "4",
               "spot": "LK13",
               "context": "V,3,4,H13",
-              "playid": "19,12,187",
+              "playid": "19,12,190",
               "type": "R",
               "first": "R",
               "score": "Y",
@@ -6804,12 +6889,35 @@
               "togo": "10",
               "spot": "LK15",
               "context": "V,1,10,H15",
-              "playid": "19,13,188",
+              "playid": "19,13,191",
+              "type": "X",
+              "tokens": "PAT:P,10,M",
+              "text": "M. Hegedus pass attempt failed.",
+              "newcontext": "V,1,0,V30"
+            },
+            "p_pat": {
+              "_attributes": {
+                "vh": "V",
+                "name": "M. Hegedus",
+                "qb": "M. Hegedus",
+                "type": "P",
+                "result": "MISSED"
+              }
+            }
+          },
+          {
+            "_attributes": {
+              "hasball": "FE",
+              "down": "1",
+              "togo": "0",
+              "spot": "FE30",
+              "context": "V,1,0,V30",
+              "playid": "19,14,192",
               "type": "#",
               "clock": "01:08",
               "tokens": "TOUT:V T:01:08",
               "text": "Timeout Fehervar Enthroners, clock 01:08.",
-              "newcontext": "V,1,10,H15"
+              "newcontext": "V,1,0,V30"
             },
             "p_to": {
               "_attributes": {
@@ -6822,13 +6930,13 @@
             "_attributes": {
               "hasball": "FE",
               "down": "1",
-              "togo": "10",
-              "spot": "LK15",
-              "context": "V,1,10,H15",
-              "playid": "19,14,189",
+              "togo": "0",
+              "spot": "FE30",
+              "context": "V,1,0,V30",
+              "playid": "19,15,193",
               "type": "K",
-              "tokens": "KO:16,H25 OB: SPOT:H,H26,Y",
-              "text": "P. Szoke kickoff -10 yards to the LK25, out-of-bounds, LK ball on LK26.",
+              "tokens": "KO:16,H16 OB: SPOT:H,H26,Y",
+              "text": "P. Szoke kickoff 54 yards to the LK16, out-of-bounds, LK ball on LK26.",
               "ob": "Y",
               "newcontext": "H,1,10,H26"
             },
@@ -6836,7 +6944,7 @@
               "_attributes": {
                 "vh": "V",
                 "name": "P. Szoke",
-                "gain": "-10",
+                "gain": "54",
                 "result": "O"
               }
             }
@@ -6848,7 +6956,7 @@
               "togo": "10",
               "spot": "LK26",
               "context": "H,1,10,H26",
-              "playid": "20,1,190",
+              "playid": "20,1,194",
               "clock": "00:50",
               "tokens": "{DRIVE}:00:50",
               "text": "LEIPZIG KINGS drive start at 00:50.",
@@ -6862,7 +6970,7 @@
               "togo": "10",
               "spot": "LK26",
               "context": "H,1,10,H26",
-              "playid": "20,2,191",
+              "playid": "20,2,195",
               "type": "#",
               "clock": "00:00",
               "tokens": "HALF: T:00:00",
@@ -6958,7 +7066,7 @@
               "vh": "H",
               "spot": "V15",
               "clock": "09:29",
-              "driveindex": "17,160"
+              "driveindex": "17,163"
             }
           },
           {
@@ -6967,7 +7075,7 @@
               "vh": "H",
               "spot": "H20",
               "clock": "08:00",
-              "driveindex": "18,167"
+              "driveindex": "18,170"
             }
           },
           {
@@ -6976,7 +7084,7 @@
               "vh": "V",
               "spot": "V26",
               "clock": "05:24",
-              "driveindex": "19,174"
+              "driveindex": "19,177"
             }
           },
           {
@@ -6985,7 +7093,7 @@
               "vh": "H",
               "spot": "H26",
               "clock": "00:50",
-              "driveindex": "20,189"
+              "driveindex": "20,193"
             }
           }
         ],
@@ -7048,7 +7156,7 @@
             "pass": {
               "_attributes": {
                 "comp": "5",
-                "att": "7",
+                "att": "8",
                 "int": "0",
                 "yds": "55",
                 "td": "2",
@@ -7069,7 +7177,7 @@
               "_attributes": {
                 "no": "1",
                 "yds": "42",
-                "long": "10",
+                "long": "4",
                 "blkd": "0",
                 "tb": "0",
                 "fc": "0",
@@ -7081,7 +7189,7 @@
             "ko": {
               "_attributes": {
                 "no": "2",
-                "yds": "50",
+                "yds": "114",
                 "ob": "1",
                 "tb": "0",
                 "fcyds": "8192"
@@ -7090,7 +7198,9 @@
             "pat": {
               "_attributes": {
                 "kickatt": "2",
-                "kickmade": "0"
+                "kickmade": "0",
+                "passatt": "1",
+                "passmade": "0"
               }
             },
             "defense": {
@@ -7160,7 +7270,7 @@
             "pass": {
               "_attributes": {
                 "comp": "1",
-                "att": "4",
+                "att": "3",
                 "int": "0",
                 "yds": "6",
                 "td": "0",
@@ -7267,14 +7377,14 @@
       },
       "pass": {
         "_attributes": {
-          "comp": "13",
-          "att": "22",
+          "comp": "11",
+          "att": "19",
           "int": "2",
-          "yds": "149",
+          "yds": "170",
           "td": "3",
           "long": "62",
           "sacks": "3",
-          "sackyds": "5"
+          "sackyds": "11"
         }
       },
       "fumbles": {
@@ -7296,19 +7406,11 @@
         "dpos": "CB",
         "code": "5"
       },
-      "rcv": {
-        "_attributes": {
-          "no": "1",
-          "yds": "3",
-          "td": "0",
-          "long": "3"
-        }
-      },
       "defense": {
         "_attributes": {
-          "tackua": "1",
+          "tackua": "3",
           "tacka": "0",
-          "tot_tack": "1"
+          "tot_tack": "3"
         }
       }
     },
@@ -7356,6 +7458,12 @@
           "long": "9",
           "sacks": "0",
           "sackyds": "0"
+        }
+      },
+      "pat": {
+        "_attributes": {
+          "passatt": "1",
+          "passmade": "0"
         }
       }
     },
@@ -7428,7 +7536,7 @@
       "ko": {
         "_attributes": {
           "no": "2",
-          "yds": "50",
+          "yds": "114",
           "ob": "1",
           "tb": "0"
         }
@@ -7463,14 +7571,14 @@
       "punt": {
         "_attributes": {
           "no": "4",
-          "yds": "90",
+          "yds": "96",
           "long": "42",
           "blkd": "0",
           "tb": "0",
           "fc": "0",
           "plus50": "0",
           "inside20": "0",
-          "avg": "22.5"
+          "avg": "24.0"
         }
       }
     },
@@ -7525,8 +7633,8 @@
       "defense": {
         "_attributes": {
           "tackua": "2",
-          "tacka": "1",
-          "tot_tack": "3"
+          "tacka": "0",
+          "tot_tack": "2"
         }
       }
     },
@@ -7562,9 +7670,9 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "4",
-          "tacka": "3",
-          "tot_tack": "7"
+          "tackua": "5",
+          "tacka": "4",
+          "tot_tack": "9"
         }
       }
     },
@@ -7580,9 +7688,12 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "0",
+          "tackua": "1",
           "tacka": "1",
-          "tot_tack": "1"
+          "tot_tack": "2",
+          "tflua": "1",
+          "tfla": "0",
+          "tflyds": "3"
         }
       }
     },
@@ -7611,9 +7722,9 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "3",
-          "tacka": "3",
-          "tot_tack": "6"
+          "tackua": "2",
+          "tacka": "5",
+          "tot_tack": "7"
         }
       }
     },
@@ -7718,8 +7829,8 @@
       "defense": {
         "_attributes": {
           "tackua": "2",
-          "tacka": "3",
-          "tot_tack": "5",
+          "tacka": "2",
+          "tot_tack": "4",
           "tflua": "1",
           "tfla": "0",
           "tflyds": "16",
@@ -7744,8 +7855,8 @@
       "defense": {
         "_attributes": {
           "tackua": "2",
-          "tacka": "5",
-          "tot_tack": "7"
+          "tacka": "6",
+          "tot_tack": "8"
         }
       }
     },
@@ -7852,8 +7963,8 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
-          "tacka": "0",
+          "tackua": "0",
+          "tacka": "1",
           "tot_tack": "1"
         }
       }
@@ -8023,7 +8134,7 @@
       "kr": {
         "_attributes": {
           "no": "6",
-          "yds": "89",
+          "yds": "88",
           "td": "0",
           "long": "22"
         }
@@ -8031,25 +8142,6 @@
       "scoring": {
         "_attributes": {
           "td": "1"
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "name": "89",
-        "shortname": "",
-        "checkname": "",
-        "uni": "89",
-        "class": "",
-        "gp": "1",
-        "code": "89"
-      },
-      "rcv": {
-        "_attributes": {
-          "no": "1",
-          "yds": "-24",
-          "td": "0",
-          "long": "0"
         }
       }
     },
@@ -8098,8 +8190,8 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
-          "tacka": "0",
+          "tackua": "0",
+          "tacka": "1",
           "tot_tack": "1"
         }
       }
@@ -8139,7 +8231,7 @@
           "comp": "0",
           "att": "0",
           "int": "0",
-          "yds": "-5",
+          "yds": "-11",
           "td": "0",
           "long": "0",
           "sacks": "0",
@@ -8183,28 +8275,28 @@
   },
   "visitor_totals": {
     "_attributes": {
-      "totoff_plays": "60",
-      "totoff_yards": "360",
-      "totoff_avg": "6.0"
+      "totoff_plays": "57",
+      "totoff_yards": "375",
+      "totoff_avg": "6.6"
     },
     "firstdowns": {
       "_attributes": {
-        "no": "19",
+        "no": "18",
         "rush": "10",
         "pass": "7",
-        "penalty": "2"
+        "penalty": "1"
       }
     },
     "penalties": {
       "_attributes": {
         "no": "7",
-        "yds": "82"
+        "yds": "96"
       }
     },
     "conversions": {
       "_attributes": {
         "thirdconv": "6",
-        "thirdatt": "14",
+        "thirdatt": "13",
         "fourthconv": "2",
         "fourthatt": "2"
       }
@@ -8218,7 +8310,7 @@
     "misc": {
       "_attributes": {
         "yds": "0",
-        "top": "33:38",
+        "top": "29:48",
         "ona": "0",
         "onm": "0",
         "ptsto": "0"
@@ -8252,20 +8344,20 @@
     },
     "pass": {
       "_attributes": {
-        "comp": "14",
-        "att": "25",
+        "comp": "12",
+        "att": "22",
         "int": "2",
-        "yds": "153",
+        "yds": "168",
         "td": "3",
         "long": "62",
         "sacks": "3",
-        "sackyds": "5"
+        "sackyds": "11"
       }
     },
     "rcv": {
       "_attributes": {
-        "no": "14",
-        "yds": "158",
+        "no": "12",
+        "yds": "179",
         "td": "3",
         "long": "62"
       }
@@ -8273,20 +8365,20 @@
     "punt": {
       "_attributes": {
         "no": "4",
-        "yds": "90",
+        "yds": "96",
         "long": "42",
         "blkd": "0",
         "tb": "0",
         "fc": "0",
         "plus50": "0",
         "inside20": "0",
-        "avg": "22.5"
+        "avg": "24.0"
       }
     },
     "ko": {
       "_attributes": {
         "no": "4",
-        "yds": "182",
+        "yds": "246",
         "ob": "1",
         "tb": "0",
         "fcyds": "0"
@@ -8295,17 +8387,19 @@
     "pat": {
       "_attributes": {
         "kickatt": "3",
-        "kickmade": "0"
+        "kickmade": "0",
+        "passatt": "1",
+        "passmade": "0"
       }
     },
     "defense": {
       "_attributes": {
-        "tackua": "26",
-        "tacka": "26",
-        "tot_tack": "52",
-        "tflua": "1",
+        "tackua": "27",
+        "tacka": "30",
+        "tot_tack": "57",
+        "tflua": "2",
         "tfla": "0",
-        "tflyds": "16",
+        "tflyds": "19",
         "sacks": "1",
         "sackyds": "16"
       }
@@ -8313,7 +8407,7 @@
     "kr": {
       "_attributes": {
         "no": "6",
-        "yds": "89",
+        "yds": "88",
         "td": "0",
         "long": "22"
       }
@@ -8368,28 +8462,28 @@
     },
     "totals": {
       "_attributes": {
-        "totoff_plays": "48",
-        "totoff_yards": "339",
-        "totoff_avg": "7.1"
+        "totoff_plays": "51",
+        "totoff_yards": "366",
+        "totoff_avg": "7.2"
       },
       "firstdowns": {
         "_attributes": {
-          "no": "21",
-          "rush": "12",
-          "pass": "7",
-          "penalty": "2"
+          "no": "22",
+          "rush": "11",
+          "pass": "8",
+          "penalty": "3"
         }
       },
       "penalties": {
         "_attributes": {
-          "no": "10",
-          "yds": "157"
+          "no": "11",
+          "yds": "147"
         }
       },
       "conversions": {
         "_attributes": {
-          "thirdconv": "3",
-          "thirdatt": "6",
+          "thirdconv": "4",
+          "thirdatt": "8",
           "fourthconv": "1",
           "fourthatt": "1"
         }
@@ -8403,7 +8497,7 @@
       "misc": {
         "_attributes": {
           "yds": "0",
-          "top": "26:22",
+          "top": "30:12",
           "ona": "0",
           "onm": "0",
           "ptsto": "14"
@@ -8428,8 +8522,8 @@
       "rush": {
         "_attributes": {
           "att": "29",
-          "yds": "169",
-          "gain": "169",
+          "yds": "168",
+          "gain": "168",
           "loss": "0",
           "td": "3",
           "long": "21"
@@ -8437,10 +8531,10 @@
       },
       "pass": {
         "_attributes": {
-          "comp": "12",
-          "att": "18",
+          "comp": "14",
+          "att": "21",
           "int": "0",
-          "yds": "170",
+          "yds": "198",
           "td": "2",
           "long": "60",
           "sacks": "1",
@@ -8449,8 +8543,8 @@
       },
       "rcv": {
         "_attributes": {
-          "no": "12",
-          "yds": "186",
+          "no": "14",
+          "yds": "214",
           "td": "2",
           "long": "60"
         }
@@ -8471,7 +8565,7 @@
       "ko": {
         "_attributes": {
           "no": "7",
-          "yds": "392",
+          "yds": "391",
           "ob": "1",
           "tb": "0",
           "fcyds": "0"
@@ -8485,14 +8579,14 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "26",
-          "tacka": "44",
-          "tot_tack": "70",
+          "tackua": "25",
+          "tacka": "42",
+          "tot_tack": "67",
           "tflua": "3",
           "tfla": "2",
-          "tflyds": "30",
+          "tflyds": "12",
           "sacks": "3",
-          "sackyds": "5",
+          "sackyds": "11",
           "brup": "2",
           "blkd": "1",
           "int": "2",
@@ -8540,18 +8634,6 @@
           "class": "SR",
           "gp": "1",
           "code": "3"
-        },
-        "pass": {
-          "_attributes": {
-            "comp": "0",
-            "att": "1",
-            "int": "0",
-            "yds": "0",
-            "td": "0",
-            "long": "0",
-            "sacks": "0",
-            "sackyds": "0"
-          }
         }
       },
       {
@@ -8578,10 +8660,10 @@
         },
         "pass": {
           "_attributes": {
-            "comp": "12",
-            "att": "15",
+            "comp": "14",
+            "att": "19",
             "int": "0",
-            "yds": "186",
+            "yds": "214",
             "td": "2",
             "long": "60",
             "sacks": "1",
@@ -8604,8 +8686,8 @@
         "rush": {
           "_attributes": {
             "att": "17",
-            "yds": "99",
-            "gain": "99",
+            "yds": "98",
+            "gain": "98",
             "loss": "0",
             "td": "2",
             "long": "21"
@@ -8613,20 +8695,10 @@
         },
         "rcv": {
           "_attributes": {
-            "no": "3",
-            "yds": "76",
+            "no": "4",
+            "yds": "73",
             "td": "1",
             "long": "60"
-          }
-        },
-        "defense": {
-          "_attributes": {
-            "tackua": "1",
-            "tacka": "0",
-            "tot_tack": "1",
-            "tflua": "1",
-            "tfla": "0",
-            "tflyds": "24"
           }
         },
         "scoring": {
@@ -8650,9 +8722,9 @@
         "rcv": {
           "_attributes": {
             "no": "5",
-            "yds": "47",
+            "yds": "52",
             "td": "1",
-            "long": "15"
+            "long": "18"
           }
         },
         "scoring": {
@@ -8854,8 +8926,8 @@
         "defense": {
           "_attributes": {
             "tackua": "1",
-            "tacka": "1",
-            "tot_tack": "2"
+            "tacka": "0",
+            "tot_tack": "1"
           }
         }
       },
@@ -8872,7 +8944,7 @@
         "ko": {
           "_attributes": {
             "no": "7",
-            "yds": "392",
+            "yds": "391",
             "ob": "1",
             "tb": "0"
           }
@@ -8927,7 +8999,7 @@
             "gain": "57",
             "loss": "0",
             "td": "1",
-            "long": "19"
+            "long": "20"
           }
         },
         "scoring": {
@@ -8961,9 +9033,9 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "4",
-            "tacka": "4",
-            "tot_tack": "8"
+            "tackua": "5",
+            "tacka": "5",
+            "tot_tack": "10"
           }
         }
       },
@@ -8982,8 +9054,8 @@
         "defense": {
           "_attributes": {
             "tackua": "2",
-            "tacka": "3",
-            "tot_tack": "5"
+            "tacka": "2",
+            "tot_tack": "4"
           }
         },
         "kr": {
@@ -9022,9 +9094,9 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
+            "tackua": "2",
             "tacka": "3",
-            "tot_tack": "4",
+            "tot_tack": "5",
             "brup": "1"
           }
         }
@@ -9046,7 +9118,7 @@
             "tackua": "1",
             "tacka": "3",
             "tot_tack": "4",
-            "int": "1",
+            "int": "0",
             "intyds": "8"
           }
         },
@@ -9071,12 +9143,15 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "2",
+            "tackua": "1",
             "tacka": "0",
-            "tot_tack": "2",
+            "tot_tack": "1",
+            "tflua": "1",
+            "tfla": "0",
+            "tflyds": "6",
             "sackua": "1",
             "sacka": "0",
-            "sackyds": "0"
+            "sackyds": "6"
           }
         }
       },
@@ -9092,9 +9167,9 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
+            "tackua": "2",
             "tacka": "0",
-            "tot_tack": "1"
+            "tot_tack": "2"
           }
         }
       },
@@ -9123,11 +9198,22 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "2",
+            "tackua": "1",
             "tacka": "3",
-            "tot_tack": "5",
+            "tot_tack": "4",
             "brup": "1"
           }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "R. Mohamed",
+          "shortname": "R. Mohamed",
+          "checkname": "MOHAMED,R",
+          "uni": "45",
+          "class": "",
+          "gp": "1",
+          "code": "45"
         }
       },
       {
@@ -9145,8 +9231,8 @@
         "defense": {
           "_attributes": {
             "tackua": "6",
-            "tacka": "9",
-            "tot_tack": "15",
+            "tacka": "8",
+            "tot_tack": "14",
             "tflua": "0",
             "tfla": "1",
             "tflyds": "2",
@@ -9219,8 +9305,8 @@
         "defense": {
           "_attributes": {
             "tackua": "0",
-            "tacka": "3",
-            "tot_tack": "3",
+            "tacka": "2",
+            "tot_tack": "2",
             "blkd": "1"
           }
         }
@@ -9338,6 +9424,12 @@
           "class": "SR",
           "gp": "1",
           "code": "82"
+        },
+        "defense": {
+          "_attributes": {
+            "int": "1",
+            "intyds": "0"
+          }
         }
       },
       {
@@ -9368,7 +9460,7 @@
         "rcv": {
           "_attributes": {
             "no": "2",
-            "yds": "17",
+            "yds": "19",
             "td": "0",
             "long": "10"
           }
@@ -9388,8 +9480,8 @@
         },
         "rcv": {
           "_attributes": {
-            "no": "1",
-            "yds": "30",
+            "no": "2",
+            "yds": "54",
             "td": "0",
             "long": "30"
           }
@@ -9406,6 +9498,13 @@
           "gs": "1",
           "dpos": "DT",
           "code": "90"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "0",
+            "tacka": "1",
+            "tot_tack": "1"
+          }
         }
       },
       {
@@ -9419,13 +9518,6 @@
           "gs": "1",
           "dpos": "DE",
           "code": "93"
-        },
-        "defense": {
-          "_attributes": {
-            "tackua": "1",
-            "tacka": "0",
-            "tot_tack": "1"
-          }
         }
       },
       {
@@ -9515,28 +9607,28 @@
     },
     "totals": {
       "_attributes": {
-        "totoff_plays": "60",
-        "totoff_yards": "360",
-        "totoff_avg": "6.0"
+        "totoff_plays": "57",
+        "totoff_yards": "375",
+        "totoff_avg": "6.6"
       },
       "firstdowns": {
         "_attributes": {
-          "no": "19",
+          "no": "18",
           "rush": "10",
           "pass": "7",
-          "penalty": "2"
+          "penalty": "1"
         }
       },
       "penalties": {
         "_attributes": {
           "no": "7",
-          "yds": "82"
+          "yds": "96"
         }
       },
       "conversions": {
         "_attributes": {
           "thirdconv": "6",
-          "thirdatt": "14",
+          "thirdatt": "13",
           "fourthconv": "2",
           "fourthatt": "2"
         }
@@ -9550,7 +9642,7 @@
       "misc": {
         "_attributes": {
           "yds": "0",
-          "top": "33:38",
+          "top": "29:48",
           "ona": "0",
           "onm": "0",
           "ptsto": "0"
@@ -9584,20 +9676,20 @@
       },
       "pass": {
         "_attributes": {
-          "comp": "14",
-          "att": "25",
+          "comp": "12",
+          "att": "22",
           "int": "2",
-          "yds": "153",
+          "yds": "168",
           "td": "3",
           "long": "62",
           "sacks": "3",
-          "sackyds": "5"
+          "sackyds": "11"
         }
       },
       "rcv": {
         "_attributes": {
-          "no": "14",
-          "yds": "158",
+          "no": "12",
+          "yds": "179",
           "td": "3",
           "long": "62"
         }
@@ -9605,20 +9697,20 @@
       "punt": {
         "_attributes": {
           "no": "4",
-          "yds": "90",
+          "yds": "96",
           "long": "42",
           "blkd": "0",
           "tb": "0",
           "fc": "0",
           "plus50": "0",
           "inside20": "0",
-          "avg": "22.5"
+          "avg": "24.0"
         }
       },
       "ko": {
         "_attributes": {
           "no": "4",
-          "yds": "182",
+          "yds": "246",
           "ob": "1",
           "tb": "0",
           "fcyds": "0"
@@ -9627,17 +9719,19 @@
       "pat": {
         "_attributes": {
           "kickatt": "3",
-          "kickmade": "0"
+          "kickmade": "0",
+          "passatt": "1",
+          "passmade": "0"
         }
       },
       "defense": {
         "_attributes": {
-          "tackua": "26",
-          "tacka": "26",
-          "tot_tack": "52",
-          "tflua": "1",
+          "tackua": "27",
+          "tacka": "30",
+          "tot_tack": "57",
+          "tflua": "2",
           "tfla": "0",
-          "tflyds": "16",
+          "tflyds": "19",
           "sacks": "1",
           "sackyds": "16"
         }
@@ -9645,7 +9739,7 @@
       "kr": {
         "_attributes": {
           "no": "6",
-          "yds": "89",
+          "yds": "88",
           "td": "0",
           "long": "22"
         }
@@ -9681,14 +9775,14 @@
         },
         "pass": {
           "_attributes": {
-            "comp": "13",
-            "att": "22",
+            "comp": "11",
+            "att": "19",
             "int": "2",
-            "yds": "149",
+            "yds": "170",
             "td": "3",
             "long": "62",
             "sacks": "3",
-            "sackyds": "5"
+            "sackyds": "11"
           }
         },
         "fumbles": {
@@ -9710,19 +9804,11 @@
           "dpos": "CB",
           "code": "5"
         },
-        "rcv": {
-          "_attributes": {
-            "no": "1",
-            "yds": "3",
-            "td": "0",
-            "long": "3"
-          }
-        },
         "defense": {
           "_attributes": {
-            "tackua": "1",
+            "tackua": "3",
             "tacka": "0",
-            "tot_tack": "1"
+            "tot_tack": "3"
           }
         }
       },
@@ -9770,6 +9856,12 @@
             "long": "9",
             "sacks": "0",
             "sackyds": "0"
+          }
+        },
+        "pat": {
+          "_attributes": {
+            "passatt": "1",
+            "passmade": "0"
           }
         }
       },
@@ -9842,7 +9934,7 @@
         "ko": {
           "_attributes": {
             "no": "2",
-            "yds": "50",
+            "yds": "114",
             "ob": "1",
             "tb": "0"
           }
@@ -9877,14 +9969,14 @@
         "punt": {
           "_attributes": {
             "no": "4",
-            "yds": "90",
+            "yds": "96",
             "long": "42",
             "blkd": "0",
             "tb": "0",
             "fc": "0",
             "plus50": "0",
             "inside20": "0",
-            "avg": "22.5"
+            "avg": "24.0"
           }
         }
       },
@@ -9939,8 +10031,8 @@
         "defense": {
           "_attributes": {
             "tackua": "2",
-            "tacka": "1",
-            "tot_tack": "3"
+            "tacka": "0",
+            "tot_tack": "2"
           }
         }
       },
@@ -9976,9 +10068,9 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "4",
-            "tacka": "3",
-            "tot_tack": "7"
+            "tackua": "5",
+            "tacka": "4",
+            "tot_tack": "9"
           }
         }
       },
@@ -9994,9 +10086,12 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "0",
+            "tackua": "1",
             "tacka": "1",
-            "tot_tack": "1"
+            "tot_tack": "2",
+            "tflua": "1",
+            "tfla": "0",
+            "tflyds": "3"
           }
         }
       },
@@ -10025,9 +10120,9 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "3",
-            "tacka": "3",
-            "tot_tack": "6"
+            "tackua": "2",
+            "tacka": "5",
+            "tot_tack": "7"
           }
         }
       },
@@ -10132,8 +10227,8 @@
         "defense": {
           "_attributes": {
             "tackua": "2",
-            "tacka": "3",
-            "tot_tack": "5",
+            "tacka": "2",
+            "tot_tack": "4",
             "tflua": "1",
             "tfla": "0",
             "tflyds": "16",
@@ -10158,8 +10253,8 @@
         "defense": {
           "_attributes": {
             "tackua": "2",
-            "tacka": "5",
-            "tot_tack": "7"
+            "tacka": "6",
+            "tot_tack": "8"
           }
         }
       },
@@ -10266,8 +10361,8 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
-            "tacka": "0",
+            "tackua": "0",
+            "tacka": "1",
             "tot_tack": "1"
           }
         }
@@ -10437,7 +10532,7 @@
         "kr": {
           "_attributes": {
             "no": "6",
-            "yds": "89",
+            "yds": "88",
             "td": "0",
             "long": "22"
           }
@@ -10445,25 +10540,6 @@
         "scoring": {
           "_attributes": {
             "td": "1"
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "name": "89",
-          "shortname": "",
-          "checkname": "",
-          "uni": "89",
-          "class": "",
-          "gp": "1",
-          "code": "89"
-        },
-        "rcv": {
-          "_attributes": {
-            "no": "1",
-            "yds": "-24",
-            "td": "0",
-            "long": "0"
           }
         }
       },
@@ -10512,8 +10588,8 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
-            "tacka": "0",
+            "tackua": "0",
+            "tacka": "1",
             "tot_tack": "1"
           }
         }
@@ -10553,7 +10629,7 @@
             "comp": "0",
             "att": "0",
             "int": "0",
-            "yds": "-5",
+            "yds": "-11",
             "td": "0",
             "long": "0",
             "sacks": "0",
@@ -10573,18 +10649,6 @@
         "class": "SR",
         "gp": "1",
         "code": "3"
-      },
-      "pass": {
-        "_attributes": {
-          "comp": "0",
-          "att": "1",
-          "int": "0",
-          "yds": "0",
-          "td": "0",
-          "long": "0",
-          "sacks": "0",
-          "sackyds": "0"
-        }
       }
     },
     {
@@ -10611,10 +10675,10 @@
       },
       "pass": {
         "_attributes": {
-          "comp": "12",
-          "att": "15",
+          "comp": "14",
+          "att": "19",
           "int": "0",
-          "yds": "186",
+          "yds": "214",
           "td": "2",
           "long": "60",
           "sacks": "1",
@@ -10637,8 +10701,8 @@
       "rush": {
         "_attributes": {
           "att": "17",
-          "yds": "99",
-          "gain": "99",
+          "yds": "98",
+          "gain": "98",
           "loss": "0",
           "td": "2",
           "long": "21"
@@ -10646,20 +10710,10 @@
       },
       "rcv": {
         "_attributes": {
-          "no": "3",
-          "yds": "76",
+          "no": "4",
+          "yds": "73",
           "td": "1",
           "long": "60"
-        }
-      },
-      "defense": {
-        "_attributes": {
-          "tackua": "1",
-          "tacka": "0",
-          "tot_tack": "1",
-          "tflua": "1",
-          "tfla": "0",
-          "tflyds": "24"
         }
       },
       "scoring": {
@@ -10683,9 +10737,9 @@
       "rcv": {
         "_attributes": {
           "no": "5",
-          "yds": "47",
+          "yds": "52",
           "td": "1",
-          "long": "15"
+          "long": "18"
         }
       },
       "scoring": {
@@ -10887,8 +10941,8 @@
       "defense": {
         "_attributes": {
           "tackua": "1",
-          "tacka": "1",
-          "tot_tack": "2"
+          "tacka": "0",
+          "tot_tack": "1"
         }
       }
     },
@@ -10905,7 +10959,7 @@
       "ko": {
         "_attributes": {
           "no": "7",
-          "yds": "392",
+          "yds": "391",
           "ob": "1",
           "tb": "0"
         }
@@ -10960,7 +11014,7 @@
           "gain": "57",
           "loss": "0",
           "td": "1",
-          "long": "19"
+          "long": "20"
         }
       },
       "scoring": {
@@ -10994,9 +11048,9 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "4",
-          "tacka": "4",
-          "tot_tack": "8"
+          "tackua": "5",
+          "tacka": "5",
+          "tot_tack": "10"
         }
       }
     },
@@ -11015,8 +11069,8 @@
       "defense": {
         "_attributes": {
           "tackua": "2",
-          "tacka": "3",
-          "tot_tack": "5"
+          "tacka": "2",
+          "tot_tack": "4"
         }
       },
       "kr": {
@@ -11055,9 +11109,9 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
+          "tackua": "2",
           "tacka": "3",
-          "tot_tack": "4",
+          "tot_tack": "5",
           "brup": "1"
         }
       }
@@ -11079,7 +11133,7 @@
           "tackua": "1",
           "tacka": "3",
           "tot_tack": "4",
-          "int": "1",
+          "int": "0",
           "intyds": "8"
         }
       },
@@ -11104,12 +11158,15 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "2",
+          "tackua": "1",
           "tacka": "0",
-          "tot_tack": "2",
+          "tot_tack": "1",
+          "tflua": "1",
+          "tfla": "0",
+          "tflyds": "6",
           "sackua": "1",
           "sacka": "0",
-          "sackyds": "0"
+          "sackyds": "6"
         }
       }
     },
@@ -11125,9 +11182,9 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
+          "tackua": "2",
           "tacka": "0",
-          "tot_tack": "1"
+          "tot_tack": "2"
         }
       }
     },
@@ -11156,11 +11213,22 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "2",
+          "tackua": "1",
           "tacka": "3",
-          "tot_tack": "5",
+          "tot_tack": "4",
           "brup": "1"
         }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "R. Mohamed",
+        "shortname": "R. Mohamed",
+        "checkname": "MOHAMED,R",
+        "uni": "45",
+        "class": "",
+        "gp": "1",
+        "code": "45"
       }
     },
     {
@@ -11178,8 +11246,8 @@
       "defense": {
         "_attributes": {
           "tackua": "6",
-          "tacka": "9",
-          "tot_tack": "15",
+          "tacka": "8",
+          "tot_tack": "14",
           "tflua": "0",
           "tfla": "1",
           "tflyds": "2",
@@ -11252,8 +11320,8 @@
       "defense": {
         "_attributes": {
           "tackua": "0",
-          "tacka": "3",
-          "tot_tack": "3",
+          "tacka": "2",
+          "tot_tack": "2",
           "blkd": "1"
         }
       }
@@ -11371,6 +11439,12 @@
         "class": "SR",
         "gp": "1",
         "code": "82"
+      },
+      "defense": {
+        "_attributes": {
+          "int": "1",
+          "intyds": "0"
+        }
       }
     },
     {
@@ -11401,7 +11475,7 @@
       "rcv": {
         "_attributes": {
           "no": "2",
-          "yds": "17",
+          "yds": "19",
           "td": "0",
           "long": "10"
         }
@@ -11421,8 +11495,8 @@
       },
       "rcv": {
         "_attributes": {
-          "no": "1",
-          "yds": "30",
+          "no": "2",
+          "yds": "54",
           "td": "0",
           "long": "30"
         }
@@ -11439,6 +11513,13 @@
         "gs": "1",
         "dpos": "DT",
         "code": "90"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "0",
+          "tacka": "1",
+          "tot_tack": "1"
+        }
       }
     },
     {
@@ -11452,13 +11533,6 @@
         "gs": "1",
         "dpos": "DE",
         "code": "93"
-      },
-      "defense": {
-        "_attributes": {
-          "tackua": "1",
-          "tacka": "0",
-          "tot_tack": "1"
-        }
       }
     },
     {
@@ -11538,28 +11612,28 @@
   },
   "home_totals": {
     "_attributes": {
-      "totoff_plays": "48",
-      "totoff_yards": "339",
-      "totoff_avg": "7.1"
+      "totoff_plays": "51",
+      "totoff_yards": "366",
+      "totoff_avg": "7.2"
     },
     "firstdowns": {
       "_attributes": {
-        "no": "21",
-        "rush": "12",
-        "pass": "7",
-        "penalty": "2"
+        "no": "22",
+        "rush": "11",
+        "pass": "8",
+        "penalty": "3"
       }
     },
     "penalties": {
       "_attributes": {
-        "no": "10",
-        "yds": "157"
+        "no": "11",
+        "yds": "147"
       }
     },
     "conversions": {
       "_attributes": {
-        "thirdconv": "3",
-        "thirdatt": "6",
+        "thirdconv": "4",
+        "thirdatt": "8",
         "fourthconv": "1",
         "fourthatt": "1"
       }
@@ -11573,7 +11647,7 @@
     "misc": {
       "_attributes": {
         "yds": "0",
-        "top": "26:22",
+        "top": "30:12",
         "ona": "0",
         "onm": "0",
         "ptsto": "14"
@@ -11598,8 +11672,8 @@
     "rush": {
       "_attributes": {
         "att": "29",
-        "yds": "169",
-        "gain": "169",
+        "yds": "168",
+        "gain": "168",
         "loss": "0",
         "td": "3",
         "long": "21"
@@ -11607,10 +11681,10 @@
     },
     "pass": {
       "_attributes": {
-        "comp": "12",
-        "att": "18",
+        "comp": "14",
+        "att": "21",
         "int": "0",
-        "yds": "170",
+        "yds": "198",
         "td": "2",
         "long": "60",
         "sacks": "1",
@@ -11619,8 +11693,8 @@
     },
     "rcv": {
       "_attributes": {
-        "no": "12",
-        "yds": "186",
+        "no": "14",
+        "yds": "214",
         "td": "2",
         "long": "60"
       }
@@ -11641,7 +11715,7 @@
     "ko": {
       "_attributes": {
         "no": "7",
-        "yds": "392",
+        "yds": "391",
         "ob": "1",
         "tb": "0",
         "fcyds": "0"
@@ -11655,14 +11729,14 @@
     },
     "defense": {
       "_attributes": {
-        "tackua": "26",
-        "tacka": "44",
-        "tot_tack": "70",
+        "tackua": "25",
+        "tacka": "42",
+        "tot_tack": "67",
         "tflua": "3",
         "tfla": "2",
-        "tflyds": "30",
+        "tflyds": "12",
         "sacks": "3",
-        "sackyds": "5",
+        "sackyds": "11",
         "brup": "2",
         "blkd": "1",
         "int": "2",

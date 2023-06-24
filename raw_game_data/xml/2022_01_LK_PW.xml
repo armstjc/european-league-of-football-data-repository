@@ -77,7 +77,7 @@
     </player>
     <player name="D. Banse" shortname="D. Banse" checkname="BANSE,D" uni="15" class="SR" gp="1" code="15"/>
     <player name="L. Kusterer" shortname="L. Kusterer" checkname="KUSTERER,L" uni="16" class="SR" gp="1" code="16">
-  </player>
+    </player>
     <player name="S. Braun" shortname="S. Braun" checkname="BRAUN,S" uni="17" class="SR" gp="1" code="17"/>
     <player name="M. Ulbrich" shortname="M. Ulbrich" checkname="ULBRICH,M" uni="18" class="SR" gp="1" code="18">
       <punt no="3" yds="125" long="58" blkd="0" tb="0" fc="0" plus50="1" inside20="2" avg="41.7"/>
@@ -218,7 +218,7 @@
     <player name="M. Rouyer" shortname="M. Rouyer" checkname="ROUYER,M" uni="9" class="SR" gp="1" code="9">
       <defense tackua="2" tacka="8" tot_tack="10"/>
     </player>
-    <player name="M. Macków" shortname="M. Macków" checkname="MACKóW,M" uni="10" class="SR" gp="1" code="10"/>
+    <player name="M. Mackow" shortname="M. Mackow" checkname="MACKoW,M" uni="10" class="SR" gp="1" code="10"/>
     <player name="J. Hansen" shortname="J. Hansen" checkname="HANSEN,J" uni="11" class="SR" gp="1" gs="1" opos="QB" code="11">
       <rush att="1" yds="8" gain="8" loss="0" td="0" long="8"/>
       <pass comp="26" att="42" int="2" yds="280" td="3" long="53" sacks="6" sackyds="39"/>
@@ -362,11 +362,11 @@
   <plays format="summary">
     <qtr number="1" text="1st">
       <play hasball="LK" down="1" togo="10" spot="LK30" context="V,1,10,V30" playid="0,1,0" tokens="CMT:PW won coin toss, PW to kick" text="PW won coin toss, PW to kick" newcontext="V,1,10,V30">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK30" context="V,1,10,V30" playid="0,2,1" tokens="SPOT:H,H30,N" text="PW ball on PW30." newcontext="H,1,10,H30">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW30" context="H,1,10,H30" playid="0,3,2" type="#" clock="15:00" tokens="Q:1 T:15:00" text="Start of 1st quarter, clock 15:00." newcontext="H,1,10,H30">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW30" context="H,1,10,H30" playid="0,4,3" type="K" tokens="KO:58,V09 RET:24,V21 TACK:4,8" text="K. Stepien kickoff 61 yards to the LK9, W. James return 12 yards to the LK21 (W. Lloyd;H. Ogrodowczyk)." newcontext="V,1,10,V21">
         <p_ko vh="H" name="K. Stepien" gain="61"/>
         <p_kr vh="V" name="W. James" gain="12"/>
@@ -448,7 +448,7 @@
       <drivesum plays="8" yards="30" top="3:49" driveindex="2" complete="Y"/>
       <drivestart poss="V,V08,07:12" vh="V" spot="V08" clock="07:12" driveindex="3,20"/>
       <play hasball="LK" down="1" togo="10" spot="LK08" context="V,1,10,V08" playid="3,1,21" clock="07:12" tokens="{DRIVE}:07:12" text="LEIPZIG KINGS drive start at 07:12." newcontext="V,1,10,V08">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK08" context="V,1,10,V08" playid="3,2,22" type="R" tokens="RUSH:21,V08, TACK:8,4" text="D. McCants rush for no gain to the LK8 (H. Ogrodowczyk;W. Lloyd)." newcontext="V,2,10,V08">
         <p_ru vh="V" name="D. McCants" gain="0"/>
         <p_tk vh="H" name="H. Ogrodowczyk" assist="Y"/>
@@ -476,7 +476,7 @@
       <drivesum plays="3" yards="0" top="3:14" driveindex="3" complete="Y"/>
       <drivestart poss="H,V16,03:58" vh="H" spot="V16" clock="03:58" driveindex="4,26"/>
       <play hasball="PW" down="1" togo="10" spot="LK16" context="H,1,10,V16" playid="4,1,27" clock="03:58" tokens="{DRIVE}:03:58" text="PANTHERS WROCLAW drive start at 03:58." newcontext="H,1,10,V16">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="LK16" context="H,1,10,V16" playid="4,2,28" type="P" tokens="PASS:11,I,82,*" text="J. Hansen pass incomplete to P. Banat." newcontext="H,2,10,V16">
         <p_pa vh="H" qb="J. Hansen" result="INC" rcv="P. Banat"/>
       </play>
@@ -500,7 +500,7 @@
       </play>
       <drivestart poss="V,V16,03:42" vh="V" spot="V16" clock="03:42" driveindex="5,32"/>
       <play hasball="LK" down="1" togo="10" spot="LK16" context="V,1,10,V16" playid="5,1,33" clock="03:42" tokens="{DRIVE}:03:42" text="LEIPZIG KINGS drive start at 03:42." newcontext="V,1,10,V16">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK16" context="V,1,10,V16" playid="5,2,34" type="P" tokens="PASS:8,B,13,* BRUP:26" text="J. Barlow pass incomplete to A. Jallai (G. Lary)." newcontext="V,2,10,V16">
         <p_pa vh="V" qb="J. Barlow" result="BRUP" rcv="A. Jallai"/>
         <p_bu vh="H" name="G. Lary"/>
@@ -519,7 +519,7 @@
       <drivesum plays="3" yards="0" top="0:23" driveindex="5" complete="Y"/>
       <drivestart poss="H,H48,03:19" vh="H" spot="H48" clock="03:19" driveindex="6,37"/>
       <play hasball="PW" down="1" togo="10" spot="PW48" context="H,1,10,H48" playid="6,1,38" clock="03:19" tokens="{DRIVE}:03:19" text="PANTHERS WROCLAW drive start at 03:19." newcontext="H,1,10,H48">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW48" context="H,1,10,H48" playid="6,2,39" type="R" tokens="RUSH:7,V45, TACK:24,92" text="P. Pasqualini rush for 7 yards to the LK45 (W. James;A. Zetterberg)." newcontext="H,2,3,V45">
         <p_ru vh="H" name="P. Pasqualini" gain="7"/>
         <p_tk vh="V" name="W. James" assist="Y"/>
@@ -533,7 +533,7 @@
       <drivesum plays="2" yards="-1" top="0:36" driveindex="6" complete="Y"/>
       <drivestart poss="V,H47,02:43" vh="V" spot="H47" clock="02:43" driveindex="7,40"/>
       <play hasball="LK" down="1" togo="10" spot="PW47" context="V,1,10,H47" playid="7,1,41" clock="02:43" tokens="{DRIVE}:02:43" text="LEIPZIG KINGS drive start at 02:43." newcontext="V,1,10,H47">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="PW47" context="V,1,10,H47" playid="7,2,42" type="P" tokens="PASS:8,I,11,* BRUP:1" text="J. Barlow pass incomplete to A. Dablé-Wolf (D. Robinson)." newcontext="V,2,10,H47">
         <p_pa vh="V" qb="J. Barlow" result="INC" rcv="A. Dablé-Wolf"/>
         <p_bu vh="H" name="D. Robinson"/>
@@ -553,7 +553,7 @@
       <drivesum plays="3" yards="0" top="1:07" driveindex="7" complete="Y"/>
       <drivestart poss="H,H20,01:36" vh="H" spot="H20" clock="01:36" driveindex="8,45"/>
       <play hasball="PW" down="1" togo="10" spot="PW20" context="H,1,10,H20" playid="8,1,46" clock="01:36" tokens="{DRIVE}:01:36" text="PANTHERS WROCLAW drive start at 01:36." newcontext="H,1,10,H20">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW20" context="H,1,10,H20" playid="8,2,47" type="P" tokens="PASS:11,B,23,* BRUP:24" text="J. Hansen pass incomplete to J. Mazan (W. James)." newcontext="H,2,10,H20">
         <p_pa vh="H" qb="J. Hansen" result="BRUP" rcv="J. Mazan"/>
         <p_bu vh="V" name="W. James"/>
@@ -576,7 +576,7 @@
       <drivesum plays="3" yards="2" top="1:03" driveindex="8" complete="Y"/>
       <drivestart poss="V,V50,00:33" vh="V" spot="V50" clock="00:33" driveindex="9,51"/>
       <play hasball="LK" down="1" togo="10" spot="LK50" context="V,1,10,V50" playid="9,1,52" clock="00:33" tokens="{DRIVE}:00:33" text="LEIPZIG KINGS drive start at 00:33." newcontext="V,1,10,V50">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK50" context="V,1,10,V50" playid="9,2,53" type="R" tokens="RUSH:21,H45, TACK:9,19" text="D. McCants rush for 5 yards to the PW45 (M. Rouyer;D. Piatkowski)." newcontext="V,2,5,H45">
         <p_ru vh="V" name="D. McCants" gain="5"/>
         <p_tk vh="H" name="M. Rouyer" assist="Y"/>
@@ -627,7 +627,7 @@
     </qtr>
     <qtr number="2" text="2nd">
       <play hasball="LK" down="1" togo="0" spot="LK30" context="V,1,0,V30" playid="9,5,56" type="#" clock="15:00" tokens="Q:2 T:15:00" text="Start of 2nd quarter, clock 15:00." newcontext="V,1,0,V30">
-   </play>
+      </play>
       <drivesum plays="2" yards="50" top="0:33" driveindex="9" complete="Y"/>
       <play hasball="LK" down="1" togo="0" spot="LK30" context="V,1,0,V30" playid="9,6,57" type="K" tokens="KO:9,H05 RET:1,H22 TACK:49" text="F. Finke kickoff 65 yards to the PW5, D. Robinson return 17 yards to the PW22 (A.J. Wentland)." newcontext="H,1,10,H22">
         <p_ko vh="V" name="F. Finke" gain="65"/>
@@ -636,9 +636,9 @@
       </play>
       <drivestart poss="H,H22,14:54" vh="H" spot="H22" clock="14:54" driveindex="10,57"/>
       <play hasball="PW" down="1" togo="10" spot="PW22" context="H,1,10,H22" playid="10,1,58" clock="14:54" tokens="{DRIVE}:14:54" text="PANTHERS WROCLAW drive start at 14:54." newcontext="H,1,10,H22">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW22" context="H,1,10,H22" playid="10,2,59" clock="14:54" tokens="{DRIVE}:14:54" text="PANTHERS WROCLAW drive start at 14:54." newcontext="H,1,10,H22">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW22" context="H,1,10,H22" playid="10,3,60" type="P" tokens="PASS:11,S,TM,H15 SACK:92" text="J. Hansen sacked for loss of 7 yards to the PW15 (A. Zetterberg)." newcontext="H,2,17,H15">
         <p_pa vh="H" qb="J. Hansen" result="SACK" gain="-7"/>
         <p_tk vh="V" name="A. Zetterberg" sack="Y"/>
@@ -659,7 +659,7 @@
       <drivesum plays="3" yards="-6" top="1:31" driveindex="10" complete="Y"/>
       <drivestart poss="V,H43,13:23" vh="V" spot="H43" clock="13:23" driveindex="11,64"/>
       <play hasball="LK" down="1" togo="10" spot="PW43" context="V,1,10,H43" playid="11,1,65" clock="13:23" tokens="{DRIVE}:13:23" text="LEIPZIG KINGS drive start at 13:23." newcontext="V,1,10,H43">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="PW43" context="V,1,10,H43" playid="11,2,66" type="P" tokens="PASS:8,C,11,H35 TACK:19,4" text="J. Barlow pass complete to A. Dablé-Wolf for 8 yards to the PW35 (D. Piatkowski;W. Lloyd)." newcontext="V,2,2,H35">
         <p_pa vh="V" qb="J. Barlow" result="COMP" rcv="A. Dablé-Wolf" gain="8"/>
         <p_tk vh="H" name="D. Piatkowski" assist="Y"/>
@@ -698,7 +698,7 @@
       </play>
       <drivestart poss="H,H32,11:30" vh="H" spot="H32" clock="11:30" driveindex="12,74"/>
       <play hasball="PW" down="1" togo="10" spot="PW32" context="H,1,10,H32" playid="12,1,75" clock="11:30" tokens="{DRIVE}:11:30" text="PANTHERS WROCLAW drive start at 11:30." newcontext="H,1,10,H32">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW32" context="H,1,10,H32" playid="12,2,76" type="P" first="P" tokens="PASS:11,C,2,H47 TACK:24" text="J. Hansen pass complete to M. Stanley for 15 yards to the PW47, 1ST DOWN PW (W. James)." newcontext="H,1,10,H47">
         <p_pa vh="H" qb="J. Hansen" result="COMP" rcv="M. Stanley" gain="15"/>
         <p_tk vh="V" name="W. James"/>
@@ -765,7 +765,7 @@
       </play>
       <drivestart poss="V,V20,06:38" vh="V" spot="V20" clock="06:38" driveindex="13,89"/>
       <play hasball="LK" down="1" togo="10" spot="LK20" context="V,1,10,V20" playid="13,1,90" clock="06:38" tokens="{DRIVE}:06:38" text="LEIPZIG KINGS drive start at 06:38." newcontext="V,1,10,V20">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK20" context="V,1,10,V20" playid="13,2,91" type="R" tokens="RUSH:22,V19, TACK:35,52" text="O. Bahr rush for loss of 1 yard to the LK19 (K. Wis;F. Snopek)." newcontext="V,2,11,V19">
         <p_ru vh="V" name="O. Bahr" gain="-1"/>
         <p_tk vh="H" name="K. Wis" assist="Y"/>
@@ -788,7 +788,7 @@
       <drivesum plays="3" yards="4" top="2:59" driveindex="13" complete="Y"/>
       <drivestart poss="H,V40,03:39" vh="H" spot="V40" clock="03:39" driveindex="14,95"/>
       <play hasball="PW" down="1" togo="10" spot="LK40" context="H,1,10,V40" playid="14,1,96" clock="03:39" tokens="{DRIVE}:03:39" text="PANTHERS WROCLAW drive start at 03:39." newcontext="H,1,10,V40">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="LK40" context="H,1,10,V40" playid="14,2,97" type="P" first="P" tokens="PASS:11,C,82,V25 TACK:49" text="J. Hansen pass complete to P. Banat for 15 yards to the LK25, 1ST DOWN PW (A.J. Wentland)." newcontext="H,1,10,V25">
         <p_pa vh="H" qb="J. Hansen" result="COMP" rcv="P. Banat" gain="15"/>
         <p_tk vh="V" name="A.J. Wentland"/>
@@ -801,7 +801,7 @@
       <drivesum plays="2" yards="15" top="0:52" driveindex="14" complete="Y"/>
       <drivestart poss="V,V29,02:47" vh="V" spot="V29" clock="02:47" driveindex="15,98"/>
       <play hasball="LK" down="1" togo="10" spot="LK29" context="V,1,10,V29" playid="15,1,99" clock="02:47" tokens="{DRIVE}:02:47" text="LEIPZIG KINGS drive start at 02:47." newcontext="V,1,10,V29">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK29" context="V,1,10,V29" playid="15,2,100" type="P" tokens="PASS:8,B,11,* BRUP:1" text="J. Barlow pass incomplete to A. Dablé-Wolf (D. Robinson)." newcontext="V,2,10,V29">
         <p_pa vh="V" qb="J. Barlow" result="BRUP" rcv="A. Dablé-Wolf"/>
         <p_bu vh="H" name="D. Robinson"/>
@@ -842,7 +842,7 @@
       <drivesum plays="7" yards="26" top="2:00" driveindex="15" complete="Y"/>
       <drivestart poss="H,H10,00:47" vh="H" spot="H10" clock="00:47" driveindex="16,109"/>
       <play hasball="PW" down="1" togo="10" spot="PW10" context="H,1,10,H10" playid="16,1,110" clock="00:47" tokens="{DRIVE}:00:47" text="PANTHERS WROCLAW drive start at 00:47." newcontext="H,1,10,H10">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW10" context="H,1,10,H10" playid="16,2,111" type="P" first="P" tokens="PASS:11,C,16,H22 TACK:23,28" text="J. Hansen pass complete to W. Zieba for 12 yards to the PW22, 1ST DOWN PW (J. Sieveke;J. Dietze)." newcontext="H,1,10,H22">
         <p_pa vh="H" qb="J. Hansen" result="COMP" rcv="W. Zieba" gain="12"/>
         <p_tk vh="V" name="J. Sieveke" assist="Y"/>
@@ -867,7 +867,7 @@
         <p_pn vh="H" code="FM" type="Facemask" name="M. Stanley" result="ACCEPT" at="H21" yards="11"/>
       </play>
       <play hasball="LK" down="1" togo="0" spot="PW10" context="V,1,0,H10" playid="17,2,116" clock="00:16" tokens="{DRIVE}:00:16 SPOT:V,H10,Y" text="LEIPZIG KINGS drive start at 00:16, LK ball on PW10." newcontext="V,1,0,H10">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="0" spot="PW10" context="V,1,0,H10" playid="17,3,117" type="P" first="P" score="Y" vscore="20" hscore="14" clock="00:08" tokens="PASS:8,C,13,H00 T:00:08" text="J. Barlow pass complete to A. Jallai for 10 yards to the PW0, 1ST DOWN LK, TOUCHDOWN, clock 00:08." newcontext="V,1,10,H15">
         <p_pa vh="V" qb="J. Barlow" result="COMP" rcv="A. Jallai" gain="10"/>
       </play>
@@ -881,13 +881,13 @@
       </play>
       <drivestart poss="H,H40,00:08" vh="H" spot="H40" clock="00:08" driveindex="18,119"/>
       <play hasball="PW" down="1" togo="10" spot="PW40" context="H,1,10,H40" playid="18,1,120" clock="00:08" tokens="{DRIVE}:00:08" text="PANTHERS WROCLAW drive start at 00:08." newcontext="H,1,10,H40">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW40" context="H,1,10,H40" playid="18,2,121" type="R" tokens="RUSH:7,H45, TACK:7" text="P. Pasqualini rush for 5 yards to the PW45 (M. Tavarres)." newcontext="H,2,5,H45">
         <p_ru vh="H" name="P. Pasqualini" gain="5"/>
         <p_tk vh="V" name="M. Tavarres"/>
       </play>
       <play hasball="PW" down="2" togo="5" spot="PW45" context="H,2,5,H45" playid="18,3,122" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of half, clock 00:00." newcontext="H,2,5,H45">
-   </play>
+      </play>
       <drivesum plays="1" yards="5" top="0:08" driveindex="18" complete="Y"/>
       <score qtr="2" V="21" H="14"/>
       <endqtr/>
@@ -928,7 +928,7 @@
     </qtr>
     <qtr number="3" text="3rd">
       <play hasball="PW" down="2" togo="5" spot="PW45" context="H,2,5,H45" playid="18,4,123" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:V,V30,N" text="Start of 3rd quarter, clock 15:00, LK ball on LK30." newcontext="V,2,5,V30">
-   </play>
+      </play>
       <play hasball="LK" down="2" togo="5" spot="LK30" context="V,2,5,V30" playid="18,5,124" type="K" tokens="KO:9,H07 RET:1,H31 TACK:10" text="F. Finke kickoff 63 yards to the PW7, D. Robinson return 24 yards to the PW31 (C. Roemer)." newcontext="H,1,10,H31">
         <p_ko vh="V" name="F. Finke" gain="63"/>
         <p_kr vh="H" name="D. Robinson" gain="24"/>
@@ -936,7 +936,7 @@
       </play>
       <drivestart poss="H,H31,14:48" vh="H" spot="H31" clock="14:48" driveindex="19,124"/>
       <play hasball="PW" down="1" togo="10" spot="PW31" context="H,1,10,H31" playid="19,1,125" clock="14:48" tokens="{DRIVE}:14:48" text="PANTHERS WROCLAW drive start at 14:48." newcontext="H,1,10,H31">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW31" context="H,1,10,H31" playid="19,2,126" type="E" tokens="PEN:H,DG,A,15,H25,N" text="PENALTY PW Delay of Game (B. Dziedzic) 6 yards to the PW25." newcontext="H,1,16,H25">
         <p_pn vh="H" code="DG" type="Delay of Game" name="B. Dziedzic" result="ACCEPT" at="H31" yards="6"/>
       </play>
@@ -954,7 +954,7 @@
       <drivesum plays="2" yards="-18" top="0:48" driveindex="19" complete="Y"/>
       <drivestart poss="V,H13,14:00" vh="V" spot="H13" clock="14:00" driveindex="20,128"/>
       <play hasball="LK" down="1" togo="10" spot="PW13" context="V,1,10,H13" playid="20,1,129" clock="14:00" tokens="{DRIVE}:14:00 SPOT:V,H13,Y" text="LEIPZIG KINGS drive start at 14:00, LK ball on PW13." newcontext="V,1,10,H13">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="PW13" context="V,1,10,H13" playid="20,2,130" type="P" tokens="PASS:8,B,11,* BRUP:5" text="J. Barlow pass incomplete to A. Dablé-Wolf (G. Zec)." newcontext="V,2,10,H13">
         <p_pa vh="V" qb="J. Barlow" result="BRUP" rcv="A. Dablé-Wolf"/>
         <p_bu vh="H" name="G. Zec"/>
@@ -982,7 +982,7 @@
       </play>
       <drivestart poss="H,H43,12:01" vh="H" spot="H43" clock="12:01" driveindex="21,134"/>
       <play hasball="PW" down="1" togo="10" spot="PW43" context="H,1,10,H43" playid="21,1,135" clock="12:01" tokens="{DRIVE}:12:01" text="PANTHERS WROCLAW drive start at 12:01." newcontext="H,1,10,H43">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW43" context="H,1,10,H43" playid="21,2,136" type="P" tokens="PASS:11,D,23,*" text="J. Hansen pass incomplete to J. Mazan, dropped pass." newcontext="H,2,10,H43">
         <p_pa vh="H" qb="J. Hansen" result="DROP" rcv="J. Mazan"/>
       </play>
@@ -1017,7 +1017,7 @@
       <drivesum plays="8" yards="32" top="3:03" driveindex="21" complete="Y"/>
       <drivestart poss="V,V25,08:58" vh="V" spot="V25" clock="08:58" driveindex="22,143"/>
       <play hasball="LK" down="1" togo="10" spot="LK25" context="V,1,10,V25" playid="22,1,144" clock="08:58" tokens="{DRIVE}:08:58" text="LEIPZIG KINGS drive start at 08:58." newcontext="V,1,10,V25">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK25" context="V,1,10,V25" playid="22,2,145" type="P" tokens="PASS:8,C,21,V29 TACK:29" text="J. Barlow pass complete to D. McCants for 4 yards to the LK29 (L. Steffen)." newcontext="V,2,6,V29">
         <p_pa vh="V" qb="J. Barlow" result="COMP" rcv="D. McCants" gain="4"/>
         <p_tk vh="H" name="L. Steffen"/>
@@ -1034,7 +1034,7 @@
       <drivesum plays="3" yards="4" top="1:02" driveindex="22" complete="Y"/>
       <drivestart poss="H,H13,07:56" vh="H" spot="H13" clock="07:56" driveindex="23,148"/>
       <play hasball="PW" down="1" togo="10" spot="PW13" context="H,1,10,H13" playid="23,1,149" clock="07:56" tokens="{DRIVE}:07:56" text="PANTHERS WROCLAW drive start at 07:56." newcontext="H,1,10,H13">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW13" context="H,1,10,H13" playid="23,2,150" type="P" first="P" tokens="PASS:11,C,15,H24 TACK:2,5" text="J. Hansen pass complete to B. Dziedzic for 11 yards to the PW24, 1ST DOWN PW (J. Carrasco;J. Bombek)." newcontext="H,1,10,H24">
         <p_pa vh="H" qb="J. Hansen" result="COMP" rcv="B. Dziedzic" gain="11"/>
         <p_tk vh="V" name="J. Carrasco" assist="Y"/>
@@ -1067,7 +1067,7 @@
       <drivesum plays="6" yards="39" top="3:25" driveindex="23" complete="Y"/>
       <drivestart poss="V,V20,04:31" vh="V" spot="V20" clock="04:31" driveindex="24,156"/>
       <play hasball="LK" down="1" togo="10" spot="LK20" context="V,1,10,V20" playid="24,1,157" clock="04:31" tokens="{DRIVE}:04:31" text="LEIPZIG KINGS drive start at 04:31." newcontext="V,1,10,V20">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK20" context="V,1,10,V20" playid="24,2,158" type="P" tokens="PASS:8,D,11,*" text="J. Barlow pass incomplete to A. Dablé-Wolf, dropped pass." newcontext="V,2,10,V20">
         <p_pa vh="V" qb="J. Barlow" result="DROP" rcv="A. Dablé-Wolf"/>
       </play>
@@ -1079,7 +1079,7 @@
       <drivesum plays="2" yards="-1" top="0:13" driveindex="24" complete="Y"/>
       <drivestart poss="H,V19,04:18" vh="H" spot="V19" clock="04:18" driveindex="25,159"/>
       <play hasball="PW" down="1" togo="10" spot="LK19" context="H,1,10,V19" playid="25,1,160" clock="04:18" tokens="{DRIVE}:04:18" text="PANTHERS WROCLAW drive start at 04:18." newcontext="H,1,10,V19">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="LK19" context="H,1,10,V19" playid="25,2,161" type="P" tokens="PASS:11,C,82,V13 TACK:2" text="J. Hansen pass complete to P. Banat for 6 yards to the LK13 (J. Carrasco)." newcontext="H,2,4,V13">
         <p_pa vh="H" qb="J. Hansen" result="COMP" rcv="P. Banat" gain="6"/>
         <p_tk vh="V" name="J. Carrasco"/>
@@ -1113,7 +1113,7 @@
       </play>
       <drivestart poss="V,V24,01:30" vh="V" spot="V24" clock="01:30" driveindex="26,167"/>
       <play hasball="LK" down="1" togo="10" spot="LK24" context="V,1,10,V24" playid="26,1,168" clock="01:30" tokens="{DRIVE}:01:30" text="LEIPZIG KINGS drive start at 01:30." newcontext="V,1,10,V24">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK24" context="V,1,10,V24" playid="26,2,169" type="R" tokens="RUSH:21,V32, TACK:9,5" text="D. McCants rush for 8 yards to the LK32 (M. Rouyer;G. Zec)." newcontext="V,2,2,V32">
         <p_ru vh="V" name="D. McCants" gain="8"/>
         <p_tk vh="H" name="M. Rouyer" assist="Y"/>
@@ -1169,14 +1169,14 @@
     </qtr>
     <qtr number="4" text="4th">
       <play hasball="LK" down="4" togo="4" spot="LK30" context="V,4,4,V30" playid="26,5,172" type="#" clock="15:00" tokens="Q:4 T:15:00" text="Start of 4th quarter, clock 15:00." newcontext="V,4,4,V30">
-   </play>
+      </play>
       <play hasball="LK" down="4" togo="4" spot="LK30" context="V,4,4,V30" playid="26,6,173" type="U" tokens="PUNT:18,H38 OB:" text="M. Ulbrich punt 32 yards to the PW38, out-of-bounds." ob="Y" newcontext="H,1,10,H38">
         <p_pu vh="V" name="M. Ulbrich" gain="32" ob="Y"/>
       </play>
       <drivesum plays="3" yards="6" top="1:38" driveindex="26" complete="Y"/>
       <drivestart poss="H,H38,14:52" vh="H" spot="H38" clock="14:52" driveindex="27,173"/>
       <play hasball="PW" down="1" togo="10" spot="PW38" context="H,1,10,H38" playid="27,1,174" clock="14:52" tokens="{DRIVE}:14:52" text="PANTHERS WROCLAW drive start at 14:52." newcontext="H,1,10,H38">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW38" context="H,1,10,H38" playid="27,2,175" type="R" tokens="RUSH:7,H42, TACK:7,92" text="P. Pasqualini rush for 4 yards to the PW42 (M. Tavarres;A. Zetterberg)." newcontext="H,2,6,H42">
         <p_ru vh="H" name="P. Pasqualini" gain="4"/>
         <p_tk vh="V" name="M. Tavarres" assist="Y"/>
@@ -1211,7 +1211,7 @@
       </play>
       <drivestart poss="V,V10,12:10" vh="V" spot="V10" clock="12:10" driveindex="28,181"/>
       <play hasball="LK" down="1" togo="10" spot="LK10" context="V,1,10,V10" playid="28,1,182" clock="12:10" tokens="{DRIVE}:12:10" text="LEIPZIG KINGS drive start at 12:10." newcontext="V,1,10,V10">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK10" context="V,1,10,V10" playid="28,2,183" type="E" tokens="PEN:V,UC,O PEN:H,UC,O" text="PENALTY LK Unsportsmanlike Conduct off-setting, PENALTY PW Unsportsmanlike Conduct off-setting." newcontext="V,1,10,V10">
         <p_pn vh="V" code="UC" type="Unsportsmanlike Conduct" name="F. Finke" result="OFFSET"/>
         <p_pn vh="H" code="UC" type="Unsportsmanlike Conduct" name="M. Rouyer" result="OFFSET"/>
@@ -1278,9 +1278,9 @@
       <drivesum plays="12" yards="74" top="6:32" driveindex="28" complete="Y"/>
       <drivestart poss="H,H16,05:38" vh="H" spot="H16" clock="05:38" driveindex="29,199"/>
       <play hasball="PW" down="1" togo="10" spot="PW16" context="H,1,10,H16" playid="29,1,200" clock="05:38" tokens="{DRIVE}:05:38" text="PANTHERS WROCLAW drive start at 05:38." newcontext="H,1,10,H16">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW16" context="H,1,10,H16" playid="29,2,201" tokens="SPOT:H,H23,N" text="PW ball on PW23." newcontext="H,1,10,H23">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW23" context="H,1,10,H23" playid="29,3,202" type="P" tokens="PASS:11,B,TM,* BRUP:92" text="J. Hansen pass incomplete (A. Zetterberg)." newcontext="H,2,10,H23">
         <p_pa vh="H" qb="J. Hansen" result="BRUP"/>
         <p_bu vh="V" name="A. Zetterberg"/>
@@ -1299,7 +1299,7 @@
       <drivesum plays="3" yards="4" top="1:14" driveindex="29" complete="Y"/>
       <drivestart poss="V,V37,04:24" vh="V" spot="V37" clock="04:24" driveindex="30,205"/>
       <play hasball="LK" down="1" togo="10" spot="LK37" context="V,1,10,V37" playid="30,1,206" clock="04:24" tokens="{DRIVE}:04:24" text="LEIPZIG KINGS drive start at 04:24." newcontext="V,1,10,V37">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK37" context="V,1,10,V37" playid="30,2,207" type="P" first="P" tokens="PASS:8,C,11,V47 TACK:29" text="J. Barlow pass complete to A. Dablé-Wolf for 10 yards to the LK47, 1ST DOWN LK (L. Steffen)." newcontext="V,1,10,V47">
         <p_pa vh="V" qb="J. Barlow" result="COMP" rcv="A. Dablé-Wolf" gain="10"/>
         <p_tk vh="H" name="L. Steffen"/>
@@ -1345,7 +1345,7 @@
       </play>
       <drivestart poss="H,H30,02:00" vh="H" spot="H30" clock="02:00" driveindex="31,218"/>
       <play hasball="PW" down="1" togo="10" spot="PW30" context="H,1,10,H30" playid="31,1,219" clock="02:00" tokens="{DRIVE}:02:00" text="PANTHERS WROCLAW drive start at 02:00." newcontext="H,1,10,H30">
-   </play>
+      </play>
       <play hasball="PW" down="1" togo="10" spot="PW30" context="H,1,10,H30" playid="31,2,220" type="P" first="P" tokens="PASS:11,C,23,H40 TACK:24" text="J. Hansen pass complete to J. Mazan for 10 yards to the PW40, 1ST DOWN PW (W. James)." newcontext="H,1,10,H40">
         <p_pa vh="H" qb="J. Hansen" result="COMP" rcv="J. Mazan" gain="10"/>
         <p_tk vh="V" name="W. James"/>
@@ -1369,9 +1369,9 @@
       <drivesum plays="4" yards="1" top="1:38" driveindex="31" complete="Y"/>
       <drivestart poss="V,V36,00:22" vh="V" spot="V36" clock="00:22" driveindex="32,224"/>
       <play hasball="LK" down="1" togo="10" spot="LK36" context="V,1,10,V36" playid="32,1,225" clock="00:22" tokens="{DRIVE}:00:22" text="LEIPZIG KINGS drive start at 00:22." newcontext="V,1,10,V36">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK36" context="V,1,10,V36" playid="32,2,226" tokens="SPOT:V,V37,N" text="LK ball on LK37." newcontext="V,1,10,V37">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK37" context="V,1,10,V37" playid="32,3,227" type="P" tokens="PASS:8,I,22,*" text="J. Barlow pass incomplete to O. Bahr." newcontext="V,2,10,V37">
         <p_pa vh="V" qb="J. Barlow" result="INC" rcv="O. Bahr"/>
       </play>
@@ -1396,9 +1396,9 @@
       </play>
       <drivestart poss="V,V25,00:00" vh="V" spot="V25" clock="00:00" driveindex="34,230"/>
       <play hasball="LK" down="1" togo="10" spot="LK25" context="V,1,10,V25" playid="34,1,231" clock="00:00" tokens="{DRIVE}:00:00" text="LEIPZIG KINGS drive start at 00:00." newcontext="V,1,10,V25">
-   </play>
+      </play>
       <play hasball="LK" down="1" togo="10" spot="LK25" context="V,1,10,V25" playid="34,2,232" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of game, clock 00:00." newcontext="V,1,10,V25">
-   </play>
+      </play>
       <drivesum plays="0" yards="0" top="0:00" driveindex="34" complete="Y"/>
       <score final="Y" V="27" H="34"/>
       <endqtr/>

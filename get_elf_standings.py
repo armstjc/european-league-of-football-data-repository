@@ -120,9 +120,9 @@ def get_elf_standings(save=False):
         for i in seasons_arr:
             seasons_df = standings_df.loc[standings_df['season'] == i]
             seasons_df.to_csv(
-                f'standings/csv/{i}_elf_standings.csv', index=False)
-            seasons_df.to_parquet(
-                f'standings/parquet/{i}_elf_standings.parquet', index=False)
+                f'standings/{i}_elf_standings.csv', index=False)
+            # seasons_df.to_parquet(
+            #     f'standings/{i}_elf_standings.parquet', index=False)
 
     return standings_df
 

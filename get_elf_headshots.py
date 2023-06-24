@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 
 def get_elf_player_headshots(season: int):
-    sched_df = pd.read_csv(f'rosters/csv/{season}_elf_rosters.csv')
+    sched_df = pd.read_csv(f'rosters/{season}_elf_rosters.csv')
 
     sched_df = sched_df.dropna(subset=['player_headshot_url'])
 
