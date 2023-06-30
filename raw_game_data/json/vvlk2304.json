@@ -144,7 +144,7 @@
           "patres": "GOOD",
           "plays": "1",
           "drive": "20",
-          "top": "0:03",
+          "top": "0:07",
           "vscore": "0",
           "hscore": "19",
           "driveindex": "10"
@@ -158,14 +158,14 @@
           "clock": "11:34",
           "type": "TD",
           "how": "RUSH",
-          "yds": "3",
+          "yds": "2",
           "scorer": "C. Helbig",
           "patby": "D. Tasic",
           "pattype": "KICK",
           "patres": "GOOD",
           "plays": "9",
           "drive": "46",
-          "top": "3:19",
+          "top": "3:18",
           "vscore": "0",
           "hscore": "26",
           "driveindex": "16"
@@ -176,7 +176,7 @@
           "vh": "H",
           "team": "VV",
           "qtr": "3",
-          "clock": "07:01",
+          "clock": "07:00",
           "type": "TD",
           "how": "PASS",
           "yds": "8",
@@ -186,8 +186,8 @@
           "pattype": "KICK",
           "patres": "GOOD",
           "plays": "8",
-          "drive": "56",
-          "top": "3:18",
+          "drive": "57",
+          "top": "3:19",
           "vscore": "0",
           "hscore": "33",
           "driveindex": "18"
@@ -463,17 +463,17 @@
           "vh": "V",
           "team": "LK",
           "start": "KO,2,08:40,20",
-          "end": "FUMB,2,07:49,20",
+          "end": "FUMB,2,07:53,20",
           "plays": "2",
           "yards": "0",
-          "top": "0:51",
+          "top": "0:47",
           "start_how": "KO",
           "start_qtr": "2",
           "start_time": "08:40",
           "start_spot": "LK20",
           "end_how": "FUMB",
           "end_qtr": "2",
-          "end_time": "07:49",
+          "end_time": "07:53",
           "end_spot": "LK20",
           "driveindex": "9"
         }
@@ -482,14 +482,14 @@
         "_attributes": {
           "vh": "H",
           "team": "VV",
-          "start": "FUMB,2,07:49,80",
+          "start": "FUMB,2,07:53,80",
           "end": "TD,2,07:46,100",
           "plays": "1",
           "yards": "20",
-          "top": "0:03",
+          "top": "0:07",
           "start_how": "FUMB",
           "start_qtr": "2",
-          "start_time": "07:49",
+          "start_time": "07:53",
           "start_spot": "LK20",
           "end_how": "TD",
           "end_qtr": "2",
@@ -602,14 +602,14 @@
         "_attributes": {
           "vh": "H",
           "team": "VV",
-          "start": "KO,3,14:53,54",
+          "start": "KO,3,14:52,54",
           "end": "TD,3,11:34,100",
           "plays": "9",
           "yards": "46",
-          "top": "3:19",
+          "top": "3:18",
           "start_how": "KO",
           "start_qtr": "3",
-          "start_time": "14:53",
+          "start_time": "14:52",
           "start_spot": "LK46",
           "end_how": "TD",
           "end_qtr": "3",
@@ -643,18 +643,18 @@
         "_attributes": {
           "vh": "H",
           "team": "VV",
-          "start": "PUNT,3,10:19,44",
-          "end": "TD,3,07:01,100",
+          "start": "PUNT,3,10:19,43",
+          "end": "TD,3,07:00,100",
           "plays": "8",
-          "yards": "56",
-          "top": "3:18",
+          "yards": "57",
+          "top": "3:19",
           "start_how": "PUNT",
           "start_qtr": "3",
           "start_time": "10:19",
-          "start_spot": "VV44",
+          "start_spot": "VV43",
           "end_how": "TD",
           "end_qtr": "3",
-          "end_time": "07:01",
+          "end_time": "07:00",
           "end_spot": "LK00",
           "rz": "1",
           "driveindex": "18"
@@ -803,8 +803,8 @@
               "spot": "LK30",
               "context": "V,1,10,V30",
               "playid": "0,1,0",
-              "tokens": "CMT:Vikings won the toss, defer second half",
-              "text": "Vikings won the toss, defer second half",
+              "tokens": "UNI:V,77,68",
+              "text": "LK       77 now wearing 68.",
               "newcontext": "V,1,10,V30"
             }
           },
@@ -816,6 +816,84 @@
               "spot": "LK30",
               "context": "V,1,10,V30",
               "playid": "0,2,1",
+              "tokens": "UNI:V,69,77",
+              "text": "LK       69 now wearing 77.",
+              "newcontext": "V,1,10,V30"
+            }
+          },
+          {
+            "_attributes": {
+              "hasball": "LK",
+              "down": "1",
+              "togo": "10",
+              "spot": "LK30",
+              "context": "V,1,10,V30",
+              "playid": "0,3,2",
+              "tokens": "UNI:V,67,55",
+              "text": "LK       67 now wearing 55.",
+              "newcontext": "V,1,10,V30"
+            }
+          },
+          {
+            "_attributes": {
+              "hasball": "LK",
+              "down": "1",
+              "togo": "10",
+              "spot": "LK30",
+              "context": "V,1,10,V30",
+              "playid": "0,4,3",
+              "tokens": "UNI:V,61,76",
+              "text": "LK       61 now wearing 76.",
+              "newcontext": "V,1,10,V30"
+            }
+          },
+          {
+            "_attributes": {
+              "hasball": "LK",
+              "down": "1",
+              "togo": "10",
+              "spot": "LK30",
+              "context": "V,1,10,V30",
+              "playid": "0,5,4",
+              "tokens": "UNI:V,78,61",
+              "text": "LK       78 now wearing 61.",
+              "newcontext": "V,1,10,V30"
+            }
+          },
+          {
+            "_attributes": {
+              "hasball": "LK",
+              "down": "1",
+              "togo": "10",
+              "spot": "LK30",
+              "context": "V,1,10,V30",
+              "playid": "0,6,5",
+              "tokens": "UNI:V,97,43",
+              "text": "LK       97 now wearing 43.",
+              "newcontext": "V,1,10,V30"
+            }
+          },
+          {
+            "_attributes": {
+              "hasball": "LK",
+              "down": "1",
+              "togo": "10",
+              "spot": "LK30",
+              "context": "V,1,10,V30",
+              "playid": "0,7,6",
+              "tokens": "UNI:V,26,17",
+              "text": "LK       26 now wearing 17.",
+              "newcontext": "V,1,10,V30"
+            }
+          },
+          {
+            "_attributes": {
+              "hasball": "LK",
+              "down": "1",
+              "togo": "10",
+              "spot": "LK30",
+              "context": "V,1,10,V30",
+              "playid": "0,8,8",
               "type": "K",
               "tokens": "SPOT:H,H30,N KO:23,V00 TB:",
               "text": "VV ball on VV30, B. Straight kickoff 70 yards to the LK0, touchback.",
@@ -837,7 +915,7 @@
               "togo": "10",
               "spot": "LK30",
               "context": "V,1,10,V30",
-              "playid": "1,1,2",
+              "playid": "1,1,9",
               "tokens": "SPOT:V,V20,Y",
               "text": "LK ball on LK20.",
               "newcontext": "V,1,10,V20"
@@ -850,7 +928,7 @@
               "togo": "10",
               "spot": "LK20",
               "context": "V,1,10,V20",
-              "playid": "1,2,3",
+              "playid": "1,2,10",
               "type": "R",
               "tokens": "RUSH:5,V23, TACK:49,1",
               "text": "S. Mcshane rush for 3 yards to the LK23 (A. Watholowitsc;L. Balogh).",
@@ -887,7 +965,7 @@
               "togo": "7",
               "spot": "LK23",
               "context": "V,2,7,V23",
-              "playid": "1,3,4",
+              "playid": "1,3,11",
               "type": "R",
               "tokens": "RUSH:5,V28, TACK:42",
               "text": "S. Mcshane rush for 5 yards to the LK28 (M. Elmauthaler).",
@@ -914,7 +992,7 @@
               "togo": "2",
               "spot": "LK28",
               "context": "V,3,2,V28",
-              "playid": "1,4,5",
+              "playid": "1,4,12",
               "type": "R",
               "tokens": "RUSH:5,V29, TACK:1,23",
               "text": "S. Mcshane rush for 1 yard to the LK29 (L. Balogh;B. Straight).",
@@ -951,7 +1029,28 @@
               "togo": "1",
               "spot": "LK29",
               "context": "V,4,1,V29",
-              "playid": "1,5,6",
+              "playid": "1,5,13",
+              "type": "#",
+              "clock": "12:56",
+              "tokens": "TOUT:H T:12:56",
+              "text": "Timeout Vienna Vikings, clock 12:56.",
+              "newcontext": "V,4,1,V29"
+            },
+            "p_to": {
+              "_attributes": {
+                "vh": "H",
+                "team": "Vienna Vikings"
+              }
+            }
+          },
+          {
+            "_attributes": {
+              "hasball": "LK",
+              "down": "4",
+              "togo": "1",
+              "spot": "LK29",
+              "context": "V,4,1,V29",
+              "playid": "1,6,14",
               "type": "R",
               "score": "Y",
               "vscore": "0",
@@ -987,7 +1086,7 @@
               "togo": "0",
               "spot": "LK30",
               "context": "V,1,0,V30",
-              "playid": "1,6,7",
+              "playid": "1,7,15",
               "type": "K",
               "tokens": "KO:9,H00 TB:",
               "text": "F. Finke kickoff 70 yards to the VV0, touchback.",
@@ -1009,7 +1108,7 @@
               "togo": "10",
               "spot": "VV30",
               "context": "H,1,10,H30",
-              "playid": "2,1,8",
+              "playid": "2,1,16",
               "clock": "12:49",
               "tokens": "{DRIVE}:12:49",
               "text": "VIENNA VIKINGS drive start at 12:49.",
@@ -1023,10 +1122,10 @@
               "togo": "10",
               "spot": "VV30",
               "context": "H,1,10,H30",
-              "playid": "2,2,9",
+              "playid": "2,2,17",
               "type": "P",
               "tokens": "PASS:8,C,6,H35 OB: TACK:17",
-              "text": "C. Helbig pass complete to R. Kalous for 5 yards to the VV35, out-of-bounds (K. Mouliom).",
+              "text": "C. Helbig pass complete to R. Kalous for 5 yards to the VV35, out-of-bounds (J. Jacob).",
               "ob": "Y",
               "newcontext": "H,2,5,H35"
             },
@@ -1042,7 +1141,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "V",
-                "name": "K. Mouliom"
+                "name": "J. Jacob"
               }
             }
           },
@@ -1053,7 +1152,7 @@
               "togo": "5",
               "spot": "VV35",
               "context": "H,2,5,H35",
-              "playid": "2,3,10",
+              "playid": "2,3,18",
               "type": "R",
               "tokens": "RUSH:24,H39, TACK:49,50",
               "text": "K. Pajarinen rush for 4 yards to the VV39 (A.J. Wentland;J. Schultes).",
@@ -1090,10 +1189,10 @@
               "togo": "1",
               "spot": "VV39",
               "context": "H,3,1,H39",
-              "playid": "2,4,11",
+              "playid": "2,4,19",
               "type": "E",
-              "tokens": "PEN:H,FS,A,TM,H34,N",
-              "text": "PENALTY VV False Start 5 yards to the VV34.",
+              "tokens": "PEN:H,FS,A,61,H34,N",
+              "text": "PENALTY VV False Start (A. Milanovic) 5 yards to the VV34.",
               "newcontext": "H,3,6,H34"
             },
             "p_pn": {
@@ -1101,6 +1200,7 @@
                 "vh": "H",
                 "code": "FS",
                 "type": "False Start",
+                "name": "A. Milanovic",
                 "result": "ACCEPT",
                 "at": "H39",
                 "yards": "5"
@@ -1114,10 +1214,10 @@
               "togo": "6",
               "spot": "VV34",
               "context": "H,3,6,H34",
-              "playid": "2,5,12",
+              "playid": "2,5,20",
               "type": "R",
-              "tokens": "RUSH:8,H38, TACK:15",
-              "text": "C. Helbig rush for 4 yards to the VV38 (D. Banse).",
+              "tokens": "RUSH:8,H38, TACK:15,37",
+              "text": "C. Helbig rush for 4 yards to the VV38 (D. Banse;M. Bausch).",
               "newcontext": "H,4,2,H38"
             },
             "p_ru": {
@@ -1127,12 +1227,22 @@
                 "gain": "4"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "D. Banse"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "D. Banse",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "M. Bausch",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -1141,10 +1251,10 @@
               "togo": "2",
               "spot": "VV38",
               "context": "H,4,2,H38",
-              "playid": "2,6,13",
+              "playid": "2,6,21",
               "type": "U",
-              "tokens": "PUNT:23,V23 RET:25,V25 TACK:32 PEN:V,HO,A,TM,V15,N D:1,10 SPOT:V,V15,Y",
-              "text": "B. Straight punt 39 yards to the LK23, D. Burrell return 2 yards to the LK25 (L. Horvath), PENALTY LK HO 10 yards to the LK15, 1st and 10, LK ball on LK15.",
+              "tokens": "PUNT:23,V23 RET:25,V25 TACK:32 PEN:V,HO,A,3,V15,N D:1,10 SPOT:V,V15,Y",
+              "text": "B. Straight punt 39 yards to the LK23, D. Burrell return 2 yards to the LK25 (L. Horvath), PENALTY LK HO (L. Moreno) 10 yards to the LK15, 1st and 10, LK ball on LK15.",
               "newcontext": "V,1,10,V15"
             },
             "p_pu": {
@@ -1172,6 +1282,7 @@
                 "vh": "V",
                 "code": "HO",
                 "type": "HO",
+                "name": "L. Moreno",
                 "result": "ACCEPT",
                 "at": "V25",
                 "yards": "10"
@@ -1185,7 +1296,7 @@
               "togo": "10",
               "spot": "LK15",
               "context": "V,1,10,V15",
-              "playid": "3,1,14",
+              "playid": "3,1,22",
               "clock": "11:10",
               "tokens": "{DRIVE}:11:10",
               "text": "LEIPZIG KINGS drive start at 11:10.",
@@ -1199,7 +1310,7 @@
               "togo": "10",
               "spot": "LK15",
               "context": "V,1,10,V15",
-              "playid": "3,2,15",
+              "playid": "3,2,23",
               "type": "R",
               "tokens": "RUSH:5,V18, TACK:46",
               "text": "S. Mcshane rush for 3 yards to the LK18 (V. Millauer).",
@@ -1226,7 +1337,7 @@
               "togo": "7",
               "spot": "LK18",
               "context": "V,2,7,V18",
-              "playid": "3,3,16",
+              "playid": "3,3,24",
               "type": "R",
               "tokens": "RUSH:5,V20, TACK:27",
               "text": "S. Mcshane rush for 2 yards to the LK20 (N. Huszar).",
@@ -1253,7 +1364,7 @@
               "togo": "5",
               "spot": "LK20",
               "context": "V,3,5,V20",
-              "playid": "3,4,17",
+              "playid": "3,4,25",
               "type": "P",
               "tokens": "PASS:4,I,7,* BRUP:27",
               "text": "K. Allen pass incomplete to L. Winter (N. Huszar).",
@@ -1281,7 +1392,7 @@
               "togo": "5",
               "spot": "LK20",
               "context": "V,4,5,V20",
-              "playid": "3,5,18",
+              "playid": "3,5,26",
               "type": "U",
               "tokens": "PUNT:9,H44 RET:7,H44 TACK:24",
               "text": "F. Finke punt 36 yards to the VV44, E. Edwards return 0 yards to the VV44 (W. James).",
@@ -1315,7 +1426,7 @@
               "togo": "10",
               "spot": "VV44",
               "context": "H,1,10,H44",
-              "playid": "4,1,19",
+              "playid": "4,1,27",
               "clock": "09:35",
               "tokens": "{DRIVE}:09:35",
               "text": "VIENNA VIKINGS drive start at 09:35.",
@@ -1329,7 +1440,7 @@
               "togo": "10",
               "spot": "VV44",
               "context": "H,1,10,H44",
-              "playid": "4,2,20",
+              "playid": "4,2,28",
               "type": "R",
               "tokens": "RUSH:24,V48, TACK:49",
               "text": "K. Pajarinen rush for 8 yards to the LK48 (A.J. Wentland).",
@@ -1356,7 +1467,7 @@
               "togo": "2",
               "spot": "LK48",
               "context": "H,2,2,V48",
-              "playid": "4,3,21",
+              "playid": "4,3,29",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:24,V43, TACK:8",
@@ -1384,10 +1495,10 @@
               "togo": "10",
               "spot": "LK43",
               "context": "H,1,10,V43",
-              "playid": "4,4,22",
+              "playid": "4,4,30",
               "type": "P",
               "tokens": "PASS:8,C,10,V41 TACK:49,17",
-              "text": "C. Helbig pass complete to W. Carr for 2 yards to the LK41 (A.J. Wentland;K. Mouliom).",
+              "text": "C. Helbig pass complete to W. Carr for 2 yards to the LK41 (A.J. Wentland;J. Jacob).",
               "newcontext": "H,2,8,V41"
             },
             "p_pa": {
@@ -1410,7 +1521,7 @@
               {
                 "_attributes": {
                   "vh": "V",
-                  "name": "K. Mouliom",
+                  "name": "J. Jacob",
                   "assist": "Y"
                 }
               }
@@ -1423,11 +1534,11 @@
               "togo": "8",
               "spot": "LK41",
               "context": "H,2,8,V41",
-              "playid": "4,5,23",
+              "playid": "4,5,31",
               "type": "P",
               "first": "P",
               "tokens": "PASS:8,C,4,V32 TACK:17",
-              "text": "C. Helbig pass complete to J. Bouah for 9 yards to the LK32, 1ST DOWN VV (K. Mouliom).",
+              "text": "C. Helbig pass complete to J. Bouah for 9 yards to the LK32, 1ST DOWN VV (J. Jacob).",
               "newcontext": "H,1,10,V32"
             },
             "p_pa": {
@@ -1442,7 +1553,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "V",
-                "name": "K. Mouliom"
+                "name": "J. Jacob"
               }
             }
           },
@@ -1453,7 +1564,7 @@
               "togo": "10",
               "spot": "LK32",
               "context": "H,1,10,V32",
-              "playid": "4,6,24",
+              "playid": "4,6,32",
               "type": "P",
               "tokens": "PASS:8,C,6,V32 TACK:24",
               "text": "C. Helbig pass complete to R. Kalous for no gain to the LK32 (W. James).",
@@ -1482,7 +1593,7 @@
               "togo": "10",
               "spot": "LK32",
               "context": "H,2,10,V32",
-              "playid": "4,7,25",
+              "playid": "4,7,33",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:24,V15, OB: TACK:25",
@@ -1511,7 +1622,7 @@
               "togo": "10",
               "spot": "LK15",
               "context": "H,1,10,V15",
-              "playid": "4,8,26",
+              "playid": "4,8,34",
               "type": "R",
               "tokens": "RUSH:8,V10, OB: TACK:37",
               "text": "C. Helbig rush for 5 yards to the LK10, out-of-bounds (M. Bausch).",
@@ -1539,7 +1650,7 @@
               "togo": "5",
               "spot": "LK10",
               "context": "H,2,5,V10",
-              "playid": "4,9,27",
+              "playid": "4,9,35",
               "type": "R",
               "tokens": "RUSH:8,V07, TACK:25,49",
               "text": "C. Helbig rush for 3 yards to the LK7 (D. Burrell;A.J. Wentland).",
@@ -1576,10 +1687,10 @@
               "togo": "2",
               "spot": "LK07",
               "context": "H,3,2,V07",
-              "playid": "4,10,28",
+              "playid": "4,10,36",
               "type": "P",
               "tokens": "PASS:8,D,15,* BRUP:17",
-              "text": "C. Helbig pass incomplete to R. Frey, dropped pass (K. Mouliom).",
+              "text": "C. Helbig pass incomplete to R. Frey, dropped pass (J. Jacob).",
               "newcontext": "H,4,2,V07"
             },
             "p_pa": {
@@ -1593,7 +1704,7 @@
             "p_bu": {
               "_attributes": {
                 "vh": "V",
-                "name": "K. Mouliom"
+                "name": "J. Jacob"
               }
             }
           },
@@ -1604,7 +1715,7 @@
               "togo": "2",
               "spot": "LK07",
               "context": "H,4,2,V07",
-              "playid": "4,11,29",
+              "playid": "4,11,37",
               "type": "F",
               "score": "Y",
               "vscore": "0",
@@ -1631,7 +1742,7 @@
               "togo": "0",
               "spot": "VV30",
               "context": "H,1,0,H30",
-              "playid": "4,12,30",
+              "playid": "4,12,38",
               "type": "K",
               "tokens": "KO:23,V02 RET:25,V35 TACK:39,44",
               "text": "B. Straight kickoff 68 yards to the LK2, D. Burrell return 33 yards to the LK35 (V. Leutgeb;L. Huber).",
@@ -1675,7 +1786,7 @@
               "togo": "10",
               "spot": "LK35",
               "context": "V,1,10,V35",
-              "playid": "5,1,31",
+              "playid": "5,1,39",
               "clock": "05:13",
               "tokens": "{DRIVE}:05:13",
               "text": "LEIPZIG KINGS drive start at 05:13.",
@@ -1689,7 +1800,7 @@
               "togo": "10",
               "spot": "LK35",
               "context": "V,1,10,V35",
-              "playid": "5,2,32",
+              "playid": "5,2,40",
               "type": "R",
               "tokens": "RUSH:5,V38, TACK:26",
               "text": "S. Mcshane rush for 3 yards to the LK38 (E. Laalo).",
@@ -1716,7 +1827,7 @@
               "togo": "7",
               "spot": "LK38",
               "context": "V,2,7,V38",
-              "playid": "5,3,33",
+              "playid": "5,3,41",
               "type": "P",
               "turnover": "F",
               "tokens": "PASS:4,F,TM,V34 SACK:1 FUMB:H,V34,42",
@@ -1755,7 +1866,7 @@
               "togo": "10",
               "spot": "LK34",
               "context": "H,1,10,V34",
-              "playid": "6,1,34",
+              "playid": "6,1,42",
               "clock": "04:19",
               "tokens": "{DRIVE}:04:19",
               "text": "VIENNA VIKINGS drive start at 04:19.",
@@ -1769,7 +1880,7 @@
               "togo": "10",
               "spot": "LK34",
               "context": "H,1,10,V34",
-              "playid": "6,2,35",
+              "playid": "6,2,43",
               "type": "P",
               "tokens": "PASS:8,D,15,*",
               "text": "C. Helbig pass incomplete to R. Frey, dropped pass.",
@@ -1791,10 +1902,10 @@
               "togo": "10",
               "spot": "LK34",
               "context": "H,2,10,V34",
-              "playid": "6,3,36",
+              "playid": "6,3,44",
               "type": "P",
               "tokens": "PASS:8,C,24,V27 TACK:24,17",
-              "text": "C. Helbig pass complete to K. Pajarinen for 7 yards to the LK27 (W. James;K. Mouliom).",
+              "text": "C. Helbig pass complete to K. Pajarinen for 7 yards to the LK27 (W. James;J. Jacob).",
               "newcontext": "H,3,3,V27"
             },
             "p_pa": {
@@ -1817,7 +1928,7 @@
               {
                 "_attributes": {
                   "vh": "V",
-                  "name": "K. Mouliom",
+                  "name": "J. Jacob",
                   "assist": "Y"
                 }
               }
@@ -1830,7 +1941,7 @@
               "togo": "3",
               "spot": "LK27",
               "context": "H,3,3,V27",
-              "playid": "6,4,37",
+              "playid": "6,4,45",
               "type": "R",
               "tokens": "RUSH:24,V27, TACK:24,8",
               "text": "K. Pajarinen rush for no gain to the LK27 (W. James;A. Zetterberg).",
@@ -1867,7 +1978,7 @@
               "togo": "3",
               "spot": "LK27",
               "context": "H,4,3,V27",
-              "playid": "6,5,38",
+              "playid": "6,5,46",
               "type": "R",
               "tokens": "RUSH:8,V25, TACK:24,93",
               "text": "C. Helbig rush for 2 yards to the LK25 (W. James;C. Hans).",
@@ -1904,7 +2015,7 @@
               "togo": "10",
               "spot": "LK25",
               "context": "V,1,10,V25",
-              "playid": "7,1,39",
+              "playid": "7,1,47",
               "clock": "03:05",
               "tokens": "{DRIVE}:03:05",
               "text": "LEIPZIG KINGS drive start at 03:05.",
@@ -1918,7 +2029,7 @@
               "togo": "10",
               "spot": "LK25",
               "context": "V,1,10,V25",
-              "playid": "7,2,40",
+              "playid": "7,2,48",
               "type": "P",
               "tokens": "PASS:4,C,7,V24 TACK:7",
               "text": "K. Allen pass complete to L. Winter for loss of 1 yard to the LK24 (E. Edwards).",
@@ -1947,18 +2058,18 @@
               "togo": "11",
               "spot": "LK24",
               "context": "V,2,11,V24",
-              "playid": "7,3,41",
+              "playid": "7,3,49",
               "type": "E",
               "first": "E",
-              "tokens": "RUSH:4,V01, TACK:42 PEN:H,UR,A,42,V39,N NOPLAY:",
-              "text": "K. Allen rush for loss of 23 yards to the LK1 (M. Elmauthaler), PENALTY VV Unnecessary Roughness (M. Elmauthaler) 15 yards to the LK39, 1ST DOWN LK, NO PLAY.",
+              "tokens": "RUSH:4,V01, TACK:42 QBH:H,1 PEN:H,RP,A,42,V39,1 NOPLAY:",
+              "text": "K. Allen rush for loss of 23 yards to the LK1 (M. Elmauthaler), QB hurry by L. Balogh, PENALTY VV Roughing the Passer (M. Elmauthaler) 15 yards to the LK39, 1ST DOWN LK, NO PLAY.",
               "newcontext": "V,1,10,V39"
             },
             "p_pn": {
               "_attributes": {
                 "vh": "H",
-                "code": "UR",
-                "type": "Unnecessary Roughness",
+                "code": "RP",
+                "type": "Roughing the Passer",
                 "name": "M. Elmauthaler",
                 "result": "ACCEPT",
                 "at": "V24",
@@ -1973,7 +2084,7 @@
               "togo": "10",
               "spot": "LK39",
               "context": "V,1,10,V39",
-              "playid": "7,4,42",
+              "playid": "7,4,50",
               "type": "R",
               "tokens": "RUSH:5,V34, TACK:26",
               "text": "S. Mcshane rush for loss of 5 yards to the LK34 (E. Laalo).",
@@ -2000,7 +2111,7 @@
               "togo": "15",
               "spot": "LK34",
               "context": "V,2,15,V34",
-              "playid": "7,5,43",
+              "playid": "7,5,51",
               "type": "P",
               "tokens": "PASS:4,I,3,* BRUP:23",
               "text": "K. Allen pass incomplete to L. Moreno (B. Straight).",
@@ -2028,7 +2139,7 @@
               "togo": "15",
               "spot": "LK34",
               "context": "V,3,15,V34",
-              "playid": "7,6,44",
+              "playid": "7,6,52",
               "type": "P",
               "tokens": "PASS:4,C,88,V37 TACK:26",
               "text": "K. Allen pass complete to J. Walter for 3 yards to the LK37 (E. Laalo).",
@@ -2057,17 +2168,17 @@
               "togo": "12",
               "spot": "LK37",
               "context": "V,4,12,V37",
-              "playid": "7,7,45",
+              "playid": "7,7,53",
               "type": "U",
-              "tokens": "PUNT:9,H11 RET:7,H16 TACK:24",
-              "text": "F. Finke punt 52 yards to the VV11, E. Edwards return 5 yards to the VV16 (W. James).",
+              "tokens": "PUNT:9,H17 RET:7,H16 TACK:24",
+              "text": "F. Finke punt 46 yards to the VV17, E. Edwards return -1 yards to the VV16 (W. James).",
               "newcontext": "H,1,10,H16"
             },
             "p_pu": {
               "_attributes": {
                 "vh": "V",
                 "name": "F. Finke",
-                "gain": "52",
+                "gain": "46",
                 "in20": "Y"
               }
             },
@@ -2075,7 +2186,7 @@
               "_attributes": {
                 "vh": "H",
                 "name": "E. Edwards",
-                "gain": "5"
+                "gain": "-1"
               }
             },
             "p_tk": {
@@ -2092,7 +2203,7 @@
               "togo": "10",
               "spot": "VV16",
               "context": "H,1,10,H16",
-              "playid": "8,1,46",
+              "playid": "8,1,54",
               "clock": "00:32",
               "tokens": "{DRIVE}:00:32",
               "text": "VIENNA VIKINGS drive start at 00:32.",
@@ -2106,7 +2217,7 @@
               "togo": "10",
               "spot": "VV16",
               "context": "H,1,10,H16",
-              "playid": "8,2,47",
+              "playid": "8,2,55",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:24,H29, TACK:15,98",
@@ -2138,6 +2249,11 @@
             ]
           }
         ],
+        "comment": {
+          "_attributes": {
+            "text": "Vikings won the toss, defer second half"
+          }
+        },
         "drivestart": [
           {
             "_attributes": {
@@ -2145,7 +2261,7 @@
               "vh": "V",
               "spot": "V30",
               "clock": "15:00",
-              "driveindex": "1,1"
+              "driveindex": "1,8"
             }
           },
           {
@@ -2154,7 +2270,7 @@
               "vh": "H",
               "spot": "H30",
               "clock": "12:49",
-              "driveindex": "2,7"
+              "driveindex": "2,15"
             }
           },
           {
@@ -2163,7 +2279,7 @@
               "vh": "V",
               "spot": "V15",
               "clock": "11:10",
-              "driveindex": "3,13"
+              "driveindex": "3,21"
             }
           },
           {
@@ -2172,7 +2288,7 @@
               "vh": "H",
               "spot": "H44",
               "clock": "09:35",
-              "driveindex": "4,18"
+              "driveindex": "4,26"
             }
           },
           {
@@ -2181,7 +2297,7 @@
               "vh": "V",
               "spot": "V35",
               "clock": "05:13",
-              "driveindex": "5,30"
+              "driveindex": "5,38"
             }
           },
           {
@@ -2190,7 +2306,7 @@
               "vh": "H",
               "spot": "V34",
               "clock": "04:19",
-              "driveindex": "6,33"
+              "driveindex": "6,41"
             }
           },
           {
@@ -2199,7 +2315,7 @@
               "vh": "V",
               "spot": "V25",
               "clock": "03:05",
-              "driveindex": "7,38"
+              "driveindex": "7,46"
             }
           },
           {
@@ -2208,7 +2324,7 @@
               "vh": "H",
               "spot": "H16",
               "clock": "00:32",
-              "driveindex": "8,45"
+              "driveindex": "8,53"
             }
           }
         ],
@@ -2380,14 +2496,14 @@
             "punt": {
               "_attributes": {
                 "no": "2",
-                "yds": "88",
-                "long": "52",
+                "yds": "82",
+                "long": "46",
                 "blkd": "0",
                 "tb": "0",
                 "fc": "0",
-                "plus50": "1",
+                "plus50": "0",
                 "inside20": "1",
-                "avg": "44.0"
+                "avg": "41.0"
               }
             },
             "ko": {
@@ -2401,9 +2517,9 @@
             },
             "defense": {
               "_attributes": {
-                "tackua": "10",
-                "tacka": "14",
-                "tot_tack": "24",
+                "tackua": "9",
+                "tacka": "16",
+                "tot_tack": "25",
                 "sacks": "0",
                 "sackyds": "0",
                 "brup": "1"
@@ -2545,9 +2661,9 @@
             "pr": {
               "_attributes": {
                 "no": "2",
-                "yds": "5",
+                "yds": "-1",
                 "td": "0",
-                "long": "5"
+                "long": "0"
               }
             },
             "scoring": {
@@ -2572,7 +2688,7 @@
               "togo": "10",
               "spot": "VV29",
               "context": "H,1,10,H29",
-              "playid": "8,3,48",
+              "playid": "8,3,56",
               "type": "#",
               "clock": "15:00",
               "tokens": "Q:2 T:15:00",
@@ -2587,7 +2703,7 @@
               "togo": "10",
               "spot": "VV29",
               "context": "H,1,10,H29",
-              "playid": "8,4,49",
+              "playid": "8,4,57",
               "type": "R",
               "tokens": "RUSH:3,H32, TACK:49,63",
               "text": "F. Wegan rush for 3 yards to the VV32 (A.J. Wentland;P. Meischter).",
@@ -2624,7 +2740,7 @@
               "togo": "7",
               "spot": "VV32",
               "context": "H,2,7,H32",
-              "playid": "8,5,50",
+              "playid": "8,5,58",
               "type": "P",
               "tokens": "PASS:8,I,11,*",
               "text": "C. Helbig pass incomplete to M. Schachermayr.",
@@ -2646,7 +2762,7 @@
               "togo": "7",
               "spot": "VV32",
               "context": "H,3,7,H32",
-              "playid": "8,6,51",
+              "playid": "8,6,59",
               "type": "P",
               "first": "P",
               "tokens": "PASS:8,C,4,H41 OB: TACK:49",
@@ -2677,10 +2793,10 @@
               "togo": "10",
               "spot": "VV41",
               "context": "H,1,10,H41",
-              "playid": "8,7,52",
+              "playid": "8,7,60",
               "type": "P",
-              "tokens": "PASS:8,C,6,H49 TACK:50,25",
-              "text": "C. Helbig pass complete to R. Kalous for 8 yards to the VV49 (J. Schultes;D. Burrell).",
+              "tokens": "PASS:8,C,6,H49 TACK:50,23",
+              "text": "C. Helbig pass complete to R. Kalous for 8 yards to the VV49 (J. Schultes;J. Sieveke).",
               "newcontext": "H,2,2,H49"
             },
             "p_pa": {
@@ -2703,7 +2819,7 @@
               {
                 "_attributes": {
                   "vh": "V",
-                  "name": "D. Burrell",
+                  "name": "J. Sieveke",
                   "assist": "Y"
                 }
               }
@@ -2716,7 +2832,7 @@
               "togo": "2",
               "spot": "VV49",
               "context": "H,2,2,H49",
-              "playid": "8,8,53",
+              "playid": "8,8,61",
               "type": "R",
               "tokens": "RUSH:3,H45, TACK:8,49",
               "text": "F. Wegan rush for loss of 4 yards to the VV45 (A. Zetterberg;A.J. Wentland).",
@@ -2753,7 +2869,7 @@
               "togo": "6",
               "spot": "VV45",
               "context": "H,3,6,H45",
-              "playid": "8,9,54",
+              "playid": "8,9,62",
               "type": "P",
               "first": "P",
               "tokens": "PASS:8,C,10,V46 TACK:24",
@@ -2783,7 +2899,7 @@
               "togo": "10",
               "spot": "LK46",
               "context": "H,1,10,V46",
-              "playid": "8,10,55",
+              "playid": "8,10,63",
               "type": "P",
               "tokens": "PASS:8,D,6,*",
               "text": "C. Helbig pass incomplete to R. Kalous, dropped pass.",
@@ -2805,10 +2921,10 @@
               "togo": "10",
               "spot": "LK46",
               "context": "H,2,10,V46",
-              "playid": "8,11,56",
+              "playid": "8,11,64",
               "type": "P",
               "tokens": "PASS:8,C,15,V40 TACK:17,76",
-              "text": "C. Helbig pass complete to R. Frey for 6 yards to the LK40 (K. Mouliom;D. Behrens).",
+              "text": "C. Helbig pass complete to R. Frey for 6 yards to the LK40 (J. Jacob;N. Koch).",
               "newcontext": "H,3,4,V40"
             },
             "p_pa": {
@@ -2824,14 +2940,14 @@
               {
                 "_attributes": {
                   "vh": "V",
-                  "name": "K. Mouliom",
+                  "name": "J. Jacob",
                   "assist": "Y"
                 }
               },
               {
                 "_attributes": {
                   "vh": "V",
-                  "name": "D. Behrens",
+                  "name": "N. Koch",
                   "assist": "Y"
                 }
               }
@@ -2844,7 +2960,7 @@
               "togo": "4",
               "spot": "LK40",
               "context": "H,3,4,V40",
-              "playid": "8,12,57",
+              "playid": "8,12,65",
               "type": "P",
               "first": "P",
               "tokens": "PASS:8,C,6,V29 TACK:24",
@@ -2874,7 +2990,7 @@
               "togo": "10",
               "spot": "LK29",
               "context": "H,1,10,V29",
-              "playid": "8,13,58",
+              "playid": "8,13,66",
               "type": "P",
               "tokens": "PASS:8,I,4,* QBH:V,14",
               "text": "C. Helbig pass incomplete to J. Bouah, QB hurry by V. Laux.",
@@ -2902,7 +3018,7 @@
               "togo": "10",
               "spot": "LK29",
               "context": "H,2,10,V29",
-              "playid": "8,14,59",
+              "playid": "8,14,67",
               "type": "R",
               "tokens": "RUSH:3,V23, TACK:49",
               "text": "F. Wegan rush for 6 yards to the LK23 (A.J. Wentland).",
@@ -2929,7 +3045,7 @@
               "togo": "4",
               "spot": "LK23",
               "context": "H,3,4,V23",
-              "playid": "8,15,60",
+              "playid": "8,15,68",
               "type": "P",
               "first": "P",
               "tokens": "PASS:8,C,6,V17 TACK:15,25",
@@ -2969,7 +3085,7 @@
               "togo": "10",
               "spot": "LK17",
               "context": "H,1,10,V17",
-              "playid": "8,16,61",
+              "playid": "8,16,69",
               "type": "P",
               "tokens": "PASS:8,I,10,*",
               "text": "C. Helbig pass incomplete to W. Carr.",
@@ -2991,7 +3107,7 @@
               "togo": "10",
               "spot": "LK17",
               "context": "H,2,10,V17",
-              "playid": "8,17,63",
+              "playid": "8,17,71",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:3,V03, TACK:37,24",
@@ -3029,7 +3145,7 @@
               "togo": "0",
               "spot": "LK03",
               "context": "H,1,0,V03",
-              "playid": "8,18,64",
+              "playid": "8,18,72",
               "type": "R",
               "first": "R",
               "score": "Y",
@@ -3055,7 +3171,7 @@
               "togo": "10",
               "spot": "LK15",
               "context": "H,1,10,V15",
-              "playid": "8,19,65",
+              "playid": "8,19,73",
               "type": "X",
               "score": "Y",
               "vscore": "0",
@@ -3082,7 +3198,7 @@
               "togo": "0",
               "spot": "VV30",
               "context": "H,1,0,H30",
-              "playid": "8,20,66",
+              "playid": "8,20,74",
               "type": "K",
               "tokens": "KO:23,V00 TB:",
               "text": "B. Straight kickoff 70 yards to the LK0, touchback.",
@@ -3104,7 +3220,7 @@
               "togo": "10",
               "spot": "LK30",
               "context": "V,1,10,V30",
-              "playid": "9,1,67",
+              "playid": "9,1,75",
               "clock": "08:40",
               "tokens": "{DRIVE}:08:40",
               "text": "LEIPZIG KINGS drive start at 08:40.",
@@ -3118,7 +3234,7 @@
               "togo": "10",
               "spot": "LK30",
               "context": "V,1,10,V30",
-              "playid": "9,2,68",
+              "playid": "9,2,76",
               "tokens": "SPOT:V,V20,Y",
               "text": "LK ball on LK20.",
               "newcontext": "V,1,10,V20"
@@ -3131,7 +3247,7 @@
               "togo": "10",
               "spot": "LK20",
               "context": "V,1,10,V20",
-              "playid": "9,3,69",
+              "playid": "9,3,77",
               "type": "R",
               "tokens": "RUSH:5,V20, TACK:1,52",
               "text": "S. Mcshane rush for no gain to the LK20 (L. Balogh;O. Kranich).",
@@ -3168,11 +3284,11 @@
               "togo": "10",
               "spot": "LK20",
               "context": "V,2,10,V20",
-              "playid": "9,4,70",
+              "playid": "9,4,78",
               "type": "R",
               "turnover": "F",
-              "tokens": "RUSH:4,V23, FORCE:52 FUMB:H,V20,26",
-              "text": "K. Allen rush for 3 yards to the LK23, fumble forced by O. Kranich, fumble by K. Allen recovered by VV E. Laalo at LK20.",
+              "tokens": "RUSH:4,V23, FORCE:32 FUMB:H,V20,26",
+              "text": "K. Allen rush for 3 yards to the LK23, fumble forced by L. Horvath, fumble by K. Allen recovered by VV E. Laalo at LK20.",
               "newcontext": "H,1,10,V20"
             },
             "p_ru": {
@@ -3194,7 +3310,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "H",
-                "name": "O. Kranich",
+                "name": "L. Horvath",
                 "ff": "Y"
               }
             }
@@ -3206,10 +3322,10 @@
               "togo": "10",
               "spot": "LK20",
               "context": "H,1,10,V20",
-              "playid": "10,1,71",
-              "clock": "07:49",
-              "tokens": "{DRIVE}:07:49",
-              "text": "VIENNA VIKINGS drive start at 07:49.",
+              "playid": "10,1,79",
+              "clock": "07:53",
+              "tokens": "{DRIVE}:07:53",
+              "text": "VIENNA VIKINGS drive start at 07:53.",
               "newcontext": "H,1,10,V20"
             }
           },
@@ -3220,7 +3336,7 @@
               "togo": "10",
               "spot": "LK20",
               "context": "H,1,10,V20",
-              "playid": "10,2,72",
+              "playid": "10,2,80",
               "type": "P",
               "first": "P",
               "score": "Y",
@@ -3248,7 +3364,7 @@
               "togo": "10",
               "spot": "LK15",
               "context": "H,1,10,V15",
-              "playid": "10,3,73",
+              "playid": "10,3,81",
               "type": "X",
               "score": "Y",
               "vscore": "0",
@@ -3275,7 +3391,7 @@
               "togo": "0",
               "spot": "VV30",
               "context": "H,1,0,H30",
-              "playid": "10,4,74",
+              "playid": "10,4,82",
               "type": "K",
               "tokens": "KO:23,V04 RET:25,V33 TACK:39",
               "text": "B. Straight kickoff 66 yards to the LK4, D. Burrell return 29 yards to the LK33 (V. Leutgeb).",
@@ -3309,7 +3425,7 @@
               "togo": "10",
               "spot": "LK33",
               "context": "V,1,10,V33",
-              "playid": "11,1,75",
+              "playid": "11,1,83",
               "clock": "07:37",
               "tokens": "{DRIVE}:07:37",
               "text": "LEIPZIG KINGS drive start at 07:37.",
@@ -3323,7 +3439,7 @@
               "togo": "10",
               "spot": "LK33",
               "context": "V,1,10,V33",
-              "playid": "11,2,76",
+              "playid": "11,2,84",
               "type": "R",
               "tokens": "RUSH:5,V37, TACK:49,99",
               "text": "S. Mcshane rush for 4 yards to the LK37 (A. Watholowitsc;M. Muellner).",
@@ -3360,7 +3476,7 @@
               "togo": "6",
               "spot": "LK37",
               "context": "V,2,6,V37",
-              "playid": "11,3,77",
+              "playid": "11,3,85",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:5,V47, TACK:7",
@@ -3388,7 +3504,7 @@
               "togo": "10",
               "spot": "LK47",
               "context": "V,1,10,V47",
-              "playid": "11,4,79",
+              "playid": "11,4,87",
               "type": "R",
               "tokens": "RUSH:5,V47, TACK:52",
               "text": "S. Mcshane rush for no gain to the LK47 (O. Kranich).",
@@ -3415,7 +3531,7 @@
               "togo": "10",
               "spot": "LK47",
               "context": "V,2,10,V47",
-              "playid": "11,5,80",
+              "playid": "11,5,88",
               "type": "P",
               "tokens": "PASS:4,I,3,*",
               "text": "K. Allen pass incomplete to L. Moreno.",
@@ -3437,7 +3553,7 @@
               "togo": "10",
               "spot": "LK47",
               "context": "V,3,10,V47",
-              "playid": "11,6,81",
+              "playid": "11,6,89",
               "type": "#",
               "clock": "05:38",
               "tokens": "TOUT:V T:05:38",
@@ -3458,7 +3574,7 @@
               "togo": "10",
               "spot": "LK47",
               "context": "V,3,10,V47",
-              "playid": "11,7,82",
+              "playid": "11,7,90",
               "type": "P",
               "tokens": "PASS:4,I,7,*",
               "text": "K. Allen pass incomplete to L. Winter.",
@@ -3480,7 +3596,7 @@
               "togo": "10",
               "spot": "LK47",
               "context": "V,4,10,V47",
-              "playid": "11,8,83",
+              "playid": "11,8,91",
               "type": "U",
               "tokens": "PUNT:9,H15 RET:7,H24 TACK:25,49",
               "text": "F. Finke punt 38 yards to the VV15, E. Edwards return 9 yards to the VV24 (D. Burrell;A.J. Wentland).",
@@ -3524,7 +3640,7 @@
               "togo": "10",
               "spot": "VV24",
               "context": "H,1,10,H24",
-              "playid": "12,1,84",
+              "playid": "12,1,92",
               "clock": "05:25",
               "tokens": "{DRIVE}:05:25",
               "text": "VIENNA VIKINGS drive start at 05:25.",
@@ -3538,7 +3654,7 @@
               "togo": "10",
               "spot": "VV24",
               "context": "H,1,10,H24",
-              "playid": "12,2,85",
+              "playid": "12,2,93",
               "type": "P",
               "tokens": "PASS:8,C,6,H33 TACK:28,37",
               "text": "C. Helbig pass complete to R. Kalous for 9 yards to the VV33 (D. Aboagye-Duah;M. Bausch).",
@@ -3577,10 +3693,10 @@
               "togo": "1",
               "spot": "VV33",
               "context": "H,2,1,H33",
-              "playid": "12,3,86",
+              "playid": "12,3,94",
               "type": "E",
-              "tokens": "RUSH:24,H33, PEN:H,HO,A,TM,H23,N NOPLAY:",
-              "text": "K. Pajarinen rush for no gain to the VV33, PENALTY VV HO 10 yards to the VV23, NO PLAY.",
+              "tokens": "RUSH:24,H33, PEN:H,HO,A,15,H23,N NOPLAY:",
+              "text": "K. Pajarinen rush for no gain to the VV33, PENALTY VV HO (R. Frey) 10 yards to the VV23, NO PLAY.",
               "newcontext": "H,2,11,H23"
             },
             "p_pn": {
@@ -3588,6 +3704,7 @@
                 "vh": "H",
                 "code": "HO",
                 "type": "HO",
+                "name": "R. Frey",
                 "result": "ACCEPT",
                 "at": "H33",
                 "yards": "10"
@@ -3601,7 +3718,7 @@
               "togo": "11",
               "spot": "VV23",
               "context": "H,2,11,H23",
-              "playid": "12,4,87",
+              "playid": "12,4,95",
               "type": "P",
               "tokens": "PASS:8,C,24,H24 TACK:24,33",
               "text": "C. Helbig pass complete to K. Pajarinen for 1 yard to the VV24 (W. James;P. Meissner).",
@@ -3640,7 +3757,7 @@
               "togo": "10",
               "spot": "VV24",
               "context": "H,3,10,H24",
-              "playid": "12,5,88",
+              "playid": "12,5,96",
               "type": "P",
               "tokens": "PASS:8,S,TM,H13 SACK:8",
               "text": "C. Helbig sacked for loss of 11 yards to the VV13 (A. Zetterberg).",
@@ -3669,10 +3786,10 @@
               "togo": "21",
               "spot": "VV13",
               "context": "H,4,21,H13",
-              "playid": "12,6,89",
+              "playid": "12,6,97",
               "type": "U",
-              "tokens": "PUNT:23,V35 RET:25,V27 PEN:V,HO,A,TM,V17,N D:1,10 SPOT:V,V17,Y",
-              "text": "B. Straight punt 52 yards to the LK35, D. Burrell return -8 yards to the LK27, PENALTY LK HO 10 yards to the LK17, 1st and 10, LK ball on LK17.",
+              "tokens": "PUNT:23,V35 RET:25,V32 PEN:V,BL,A,3,V17,N D:1,10 SPOT:V,V17,Y",
+              "text": "B. Straight punt 52 yards to the LK35, D. Burrell return -3 yards to the LK32, PENALTY LK Illegal Blindside Block (L. Moreno) 15 yards to the LK17, 1st and 10, LK ball on LK17.",
               "newcontext": "V,1,10,V17"
             },
             "p_pu": {
@@ -3686,17 +3803,18 @@
               "_attributes": {
                 "vh": "V",
                 "name": "D. Burrell",
-                "gain": "-8"
+                "gain": "-3"
               }
             },
             "p_pn": {
               "_attributes": {
                 "vh": "V",
-                "code": "HO",
-                "type": "HO",
+                "code": "BL",
+                "type": "Illegal Blindside Block",
+                "name": "L. Moreno",
                 "result": "ACCEPT",
-                "at": "V27",
-                "yards": "10"
+                "at": "V32",
+                "yards": "15"
               }
             }
           },
@@ -3707,7 +3825,7 @@
               "togo": "10",
               "spot": "LK17",
               "context": "V,1,10,V17",
-              "playid": "13,1,90",
+              "playid": "13,1,98",
               "clock": "03:06",
               "tokens": "{DRIVE}:03:06",
               "text": "LEIPZIG KINGS drive start at 03:06.",
@@ -3721,7 +3839,7 @@
               "togo": "10",
               "spot": "LK17",
               "context": "V,1,10,V17",
-              "playid": "13,2,91",
+              "playid": "13,2,99",
               "type": "P",
               "tokens": "PASS:4,C,7,V23 TACK:27",
               "text": "K. Allen pass complete to L. Winter for 6 yards to the LK23 (N. Huszar).",
@@ -3750,7 +3868,7 @@
               "togo": "4",
               "spot": "LK23",
               "context": "V,2,4,V23",
-              "playid": "13,3,92",
+              "playid": "13,3,100",
               "type": "P",
               "tokens": "PASS:4,I,TM,* QBH:H,75 PEN:V,IG,A,4,V13,+",
               "text": "K. Allen pass incomplete, QB hurry by D. Pozarek, PENALTY LK Intentional Grounding (K. Allen) 10 yards to the LK13.",
@@ -3788,11 +3906,11 @@
               "togo": "14",
               "spot": "LK13",
               "context": "V,3,14,V13",
-              "playid": "13,4,93",
+              "playid": "13,4,101",
               "type": "E",
               "first": "E",
-              "tokens": "PASS:4,S,TM,V02 SACK:1 PEN:H,FM,A,TM,V28,N NOPLAY:",
-              "text": "K. Allen sacked for loss of 11 yards to the LK2 (L. Balogh), PENALTY VV Facemask 15 yards to the LK28, 1ST DOWN LK, NO PLAY.",
+              "tokens": "PASS:4,S,TM,V02 SACK:1 PEN:H,FM,A,49,V28,N NOPLAY:",
+              "text": "K. Allen sacked for loss of 11 yards to the LK2 (L. Balogh), PENALTY VV Facemask (A. Watholowitsc) 15 yards to the LK28, 1ST DOWN LK, NO PLAY.",
               "newcontext": "V,1,10,V28"
             },
             "p_pn": {
@@ -3800,6 +3918,7 @@
                 "vh": "H",
                 "code": "FM",
                 "type": "Facemask",
+                "name": "A. Watholowitsc",
                 "result": "ACCEPT",
                 "at": "V13",
                 "yards": "15"
@@ -3813,7 +3932,7 @@
               "togo": "10",
               "spot": "LK28",
               "context": "V,1,10,V28",
-              "playid": "13,5,94",
+              "playid": "13,5,102",
               "tokens": "D:1,10",
               "text": "1st and 10.",
               "newcontext": "V,1,10,V28"
@@ -3826,7 +3945,7 @@
               "togo": "10",
               "spot": "LK28",
               "context": "V,1,10,V28",
-              "playid": "13,6,95",
+              "playid": "13,6,103",
               "type": "P",
               "tokens": "PASS:4,C,20,V31 TACK:32",
               "text": "K. Allen pass complete to L. Carstensen for 3 yards to the LK31 (L. Horvath).",
@@ -3855,11 +3974,39 @@
               "togo": "7",
               "spot": "LK31",
               "context": "V,2,7,V31",
-              "playid": "13,7,96",
+              "playid": "13,7,105",
+              "type": "P",
+              "tokens": "PASS:4,I,5,* BRUP:27",
+              "text": "K. Allen pass incomplete to S. Mcshane (N. Huszar).",
+              "newcontext": "V,3,7,V31"
+            },
+            "p_pa": {
+              "_attributes": {
+                "vh": "V",
+                "qb": "K. Allen",
+                "result": "INC",
+                "rcv": "S. Mcshane"
+              }
+            },
+            "p_bu": {
+              "_attributes": {
+                "vh": "H",
+                "name": "N. Huszar"
+              }
+            }
+          },
+          {
+            "_attributes": {
+              "hasball": "LK",
+              "down": "3",
+              "togo": "7",
+              "spot": "LK31",
+              "context": "V,3,7,V31",
+              "playid": "13,8,106",
               "type": "P",
               "tokens": "PASS:4,I,81,* BRUP:27",
               "text": "K. Allen pass incomplete to N. Baeumer (N. Huszar).",
-              "newcontext": "V,3,7,V31"
+              "newcontext": "V,4,7,V31"
             },
             "p_pa": {
               "_attributes": {
@@ -3879,33 +4026,11 @@
           {
             "_attributes": {
               "hasball": "LK",
-              "down": "3",
-              "togo": "7",
-              "spot": "LK31",
-              "context": "V,3,7,V31",
-              "playid": "13,8,97",
-              "type": "P",
-              "tokens": "PASS:4,I,5,*",
-              "text": "K. Allen pass incomplete to S. Mcshane.",
-              "newcontext": "V,4,7,V31"
-            },
-            "p_pa": {
-              "_attributes": {
-                "vh": "V",
-                "qb": "K. Allen",
-                "result": "INC",
-                "rcv": "S. Mcshane"
-              }
-            }
-          },
-          {
-            "_attributes": {
-              "hasball": "LK",
               "down": "4",
               "togo": "7",
               "spot": "LK31",
               "context": "V,4,7,V31",
-              "playid": "13,9,99",
+              "playid": "13,9,107",
               "type": "U",
               "tokens": "PUNT:9,H18 RET:7,H19 TACK:49",
               "text": "F. Finke punt 51 yards to the VV18, E. Edwards return 1 yards to the VV19 (A.J. Wentland).",
@@ -3940,7 +4065,7 @@
               "togo": "10",
               "spot": "VV19",
               "context": "H,1,10,H19",
-              "playid": "14,1,100",
+              "playid": "14,1,108",
               "clock": "01:36",
               "tokens": "{DRIVE}:01:36",
               "text": "VIENNA VIKINGS drive start at 01:36.",
@@ -3954,10 +4079,10 @@
               "togo": "10",
               "spot": "VV19",
               "context": "H,1,10,H19",
-              "playid": "14,2,102",
+              "playid": "14,2,110",
               "type": "R",
-              "tokens": "RUSH:24,H18, TACK:50",
-              "text": "K. Pajarinen rush for loss of 1 yard to the VV18 (J. Schultes).",
+              "tokens": "RUSH:24,H18, TACK:50,8",
+              "text": "K. Pajarinen rush for loss of 1 yard to the VV18 (J. Schultes;A. Zetterberg).",
               "newcontext": "H,2,11,H18"
             },
             "p_ru": {
@@ -3967,12 +4092,22 @@
                 "gain": "-1"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "J. Schultes"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "J. Schultes",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "A. Zetterberg",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -3981,7 +4116,7 @@
               "togo": "11",
               "spot": "VV18",
               "context": "H,2,11,H18",
-              "playid": "14,3,103",
+              "playid": "14,3,111",
               "type": "P",
               "tokens": "PASS:8,C,6,H24 TACK:37",
               "text": "C. Helbig pass complete to R. Kalous for 6 yards to the VV24 (M. Bausch).",
@@ -4010,7 +4145,7 @@
               "togo": "5",
               "spot": "VV24",
               "context": "H,3,5,H24",
-              "playid": "14,4,104",
+              "playid": "14,4,112",
               "type": "P",
               "first": "P",
               "tokens": "PASS:8,C,6,H36 OB: TACK:15",
@@ -4041,7 +4176,7 @@
               "togo": "10",
               "spot": "VV36",
               "context": "H,1,10,H36",
-              "playid": "14,5,105",
+              "playid": "14,5,113",
               "type": "P",
               "tokens": "PASS:8,C,11,H42 OB: TACK:33",
               "text": "C. Helbig pass complete to M. Schachermayr for 6 yards to the VV42, out-of-bounds (P. Meissner).",
@@ -4071,7 +4206,7 @@
               "togo": "4",
               "spot": "VV42",
               "context": "H,2,4,H42",
-              "playid": "14,6,106",
+              "playid": "14,6,114",
               "type": "P",
               "tokens": "PASS:8,I,6,*",
               "text": "C. Helbig pass incomplete to R. Kalous.",
@@ -4093,7 +4228,7 @@
               "togo": "4",
               "spot": "VV42",
               "context": "H,3,4,H42",
-              "playid": "14,7,107",
+              "playid": "14,7,115",
               "type": "P",
               "tokens": "PASS:8,I,11,* QBH:V,49",
               "text": "C. Helbig pass incomplete to M. Schachermayr, QB hurry by A.J. Wentland.",
@@ -4121,7 +4256,7 @@
               "togo": "4",
               "spot": "VV42",
               "context": "H,4,4,H42",
-              "playid": "14,8,108",
+              "playid": "14,8,116",
               "type": "U",
               "tokens": "PUNT:23,V16 RET:25,V36 TACK:33",
               "text": "B. Straight punt 42 yards to the LK16, D. Burrell return 20 yards to the LK36 (S. Ernst).",
@@ -4155,7 +4290,7 @@
               "togo": "10",
               "spot": "LK36",
               "context": "V,1,10,V36",
-              "playid": "15,1,109",
+              "playid": "15,1,117",
               "clock": "00:00",
               "tokens": "{DRIVE}:00:00",
               "text": "LEIPZIG KINGS drive start at 00:00.",
@@ -4169,7 +4304,7 @@
               "togo": "10",
               "spot": "LK36",
               "context": "V,1,10,V36",
-              "playid": "15,2,110",
+              "playid": "15,2,118",
               "type": "#",
               "clock": "00:00",
               "tokens": "HALF: T:00:00",
@@ -4191,7 +4326,7 @@
           },
           {
             "_attributes": {
-              "text": "Two minute Warning"
+              "text": "Two Minute Warning"
             }
           },
           {
@@ -4235,7 +4370,7 @@
             "_attributes": {
               "plays": "2",
               "yards": "0",
-              "top": "0:51",
+              "top": "0:47",
               "driveindex": "9",
               "complete": "Y"
             }
@@ -4244,7 +4379,7 @@
             "_attributes": {
               "plays": "1",
               "yards": "20",
-              "top": "0:03",
+              "top": "0:07",
               "driveindex": "10",
               "complete": "Y"
             }
@@ -4302,16 +4437,16 @@
               "vh": "V",
               "spot": "V30",
               "clock": "08:40",
-              "driveindex": "9,66"
+              "driveindex": "9,74"
             }
           },
           {
             "_attributes": {
-              "poss": "H,V20,07:49",
+              "poss": "H,V20,07:53",
               "vh": "H",
               "spot": "V20",
-              "clock": "07:49",
-              "driveindex": "10,70"
+              "clock": "07:53",
+              "driveindex": "10,78"
             }
           },
           {
@@ -4320,7 +4455,7 @@
               "vh": "V",
               "spot": "V33",
               "clock": "07:37",
-              "driveindex": "11,74"
+              "driveindex": "11,82"
             }
           },
           {
@@ -4329,7 +4464,7 @@
               "vh": "H",
               "spot": "H24",
               "clock": "05:25",
-              "driveindex": "12,83"
+              "driveindex": "12,91"
             }
           },
           {
@@ -4338,7 +4473,7 @@
               "vh": "V",
               "spot": "V17",
               "clock": "03:06",
-              "driveindex": "13,89"
+              "driveindex": "13,97"
             }
           },
           {
@@ -4347,7 +4482,7 @@
               "vh": "H",
               "spot": "H19",
               "clock": "01:36",
-              "driveindex": "14,99"
+              "driveindex": "14,107"
             }
           },
           {
@@ -4356,7 +4491,7 @@
               "vh": "V",
               "spot": "V36",
               "clock": "00:00",
-              "driveindex": "15,108"
+              "driveindex": "15,116"
             }
           }
         ],
@@ -4378,7 +4513,7 @@
             "penalties": {
               "_attributes": {
                 "no": "2",
-                "yds": "20"
+                "yds": "25"
               }
             },
             "conversions": {
@@ -4406,7 +4541,7 @@
             "misc": {
               "_attributes": {
                 "yds": "-3",
-                "top": "04:42"
+                "top": "04:38"
               }
             },
             "rush": {
@@ -4443,7 +4578,7 @@
               "_attributes": {
                 "no": "2",
                 "yds": "89",
-                "long": "0",
+                "long": "5",
                 "blkd": "0",
                 "tb": "0",
                 "fc": "0",
@@ -4454,11 +4589,11 @@
             },
             "defense": {
               "_attributes": {
-                "tackua": "10",
-                "tacka": "18",
-                "tot_tack": "28",
-                "tflua": "2",
-                "tfla": "2",
+                "tackua": "9",
+                "tacka": "20",
+                "tot_tack": "29",
+                "tflua": "1",
+                "tfla": "4",
                 "tflyds": "16",
                 "sacks": "1",
                 "sackyds": "11",
@@ -4476,7 +4611,7 @@
             "pr": {
               "_attributes": {
                 "no": "2",
-                "yds": "12",
+                "yds": "17",
                 "td": "0",
                 "long": "18"
               }
@@ -4518,7 +4653,7 @@
             "misc": {
               "_attributes": {
                 "yds": "0",
-                "top": "10:18"
+                "top": "10:22"
               }
             },
             "rush": {
@@ -4586,7 +4721,7 @@
                 "tot_tack": "11",
                 "sacks": "0",
                 "sackyds": "0",
-                "brup": "1",
+                "brup": "2",
                 "qbh": "1",
                 "ff": "1",
                 "fr": "1",
@@ -4598,7 +4733,7 @@
                 "no": "2",
                 "yds": "10",
                 "td": "0",
-                "long": "4"
+                "long": "9"
               }
             },
             "scoring": {
@@ -4623,7 +4758,7 @@
               "togo": "10",
               "spot": "LK36",
               "context": "V,1,10,V36",
-              "playid": "15,3,111",
+              "playid": "15,3,119",
               "type": "#",
               "clock": "15:00",
               "tokens": "Q:3 T:15:00 SPOT:V,V30,N",
@@ -4638,10 +4773,10 @@
               "togo": "10",
               "spot": "LK30",
               "context": "V,1,10,V30",
-              "playid": "15,4,112",
+              "playid": "15,4,120",
               "type": "K",
-              "tokens": "KO:9,H05 RET:7,H39 TACK:45 PEN:V,FM,A,TM,V46,N D:1,10 SPOT:H,V46,Y",
-              "text": "F. Finke kickoff 65 yards to the VV5, E. Edwards return 34 yards to the VV39 (R. Mohamed), PENALTY LK Facemask 15 yards to the LK46, 1st and 10, VV ball on LK46.",
+              "tokens": "KO:9,H05 RET:7,H39 TACK:45 PEN:V,FM,A,45,V46,N D:1,10 SPOT:H,V46,Y",
+              "text": "F. Finke kickoff 65 yards to the VV5, E. Edwards return 34 yards to the VV39 (R. Mohamed), PENALTY LK Facemask (R. Mohamed) 15 yards to the LK46, 1st and 10, VV ball on LK46.",
               "newcontext": "H,1,10,V46"
             },
             "p_ko": {
@@ -4669,6 +4804,7 @@
                 "vh": "V",
                 "code": "FM",
                 "type": "Facemask",
+                "name": "R. Mohamed",
                 "result": "ACCEPT",
                 "at": "H39",
                 "yards": "15"
@@ -4682,10 +4818,10 @@
               "togo": "10",
               "spot": "LK46",
               "context": "H,1,10,V46",
-              "playid": "16,1,113",
-              "clock": "14:53",
-              "tokens": "{DRIVE}:14:53",
-              "text": "VIENNA VIKINGS drive start at 14:53.",
+              "playid": "16,1,121",
+              "clock": "14:52",
+              "tokens": "{DRIVE}:14:52",
+              "text": "VIENNA VIKINGS drive start at 14:52.",
               "newcontext": "H,1,10,V46"
             }
           },
@@ -4696,18 +4832,17 @@
               "togo": "10",
               "spot": "LK46",
               "context": "H,1,10,V46",
-              "playid": "16,2,114",
+              "playid": "16,2,122",
               "type": "R",
-              "first": "R",
-              "tokens": "RUSH:24,V36, TACK:49,17",
-              "text": "K. Pajarinen rush for 10 yards to the LK36, 1ST DOWN VV (A.J. Wentland;K. Mouliom).",
-              "newcontext": "H,1,10,V36"
+              "tokens": "RUSH:24,V37, TACK:49,17",
+              "text": "K. Pajarinen rush for 9 yards to the LK37 (A.J. Wentland;J. Jacob).",
+              "newcontext": "H,2,1,V37"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "K. Pajarinen",
-                "gain": "10"
+                "gain": "9"
               }
             },
             "p_tk": [
@@ -4721,7 +4856,7 @@
               {
                 "_attributes": {
                   "vh": "V",
-                  "name": "K. Mouliom",
+                  "name": "J. Jacob",
                   "assist": "Y"
                 }
               }
@@ -4730,21 +4865,22 @@
           {
             "_attributes": {
               "hasball": "VV",
-              "down": "1",
-              "togo": "10",
-              "spot": "LK36",
-              "context": "H,1,10,V36",
-              "playid": "16,3,116",
+              "down": "2",
+              "togo": "1",
+              "spot": "LK37",
+              "context": "H,2,1,V37",
+              "playid": "16,3,124",
               "type": "R",
+              "first": "R",
               "tokens": "RUSH:3,V28, TACK:49",
-              "text": "F. Wegan rush for 8 yards to the LK28 (A.J. Wentland).",
-              "newcontext": "H,2,2,V28"
+              "text": "F. Wegan rush for 9 yards to the LK28, 1ST DOWN VV (A.J. Wentland).",
+              "newcontext": "H,1,10,V28"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "F. Wegan",
-                "gain": "8"
+                "gain": "9"
               }
             },
             "p_tk": {
@@ -4757,15 +4893,15 @@
           {
             "_attributes": {
               "hasball": "VV",
-              "down": "2",
-              "togo": "2",
+              "down": "1",
+              "togo": "10",
               "spot": "LK28",
-              "context": "H,2,2,V28",
-              "playid": "16,4,117",
+              "context": "H,1,10,V28",
+              "playid": "16,4,125",
               "type": "P",
               "tokens": "PASS:8,I,10,*",
               "text": "C. Helbig pass incomplete to W. Carr.",
-              "newcontext": "H,3,2,V28"
+              "newcontext": "H,2,10,V28"
             },
             "p_pa": {
               "_attributes": {
@@ -4779,17 +4915,16 @@
           {
             "_attributes": {
               "hasball": "VV",
-              "down": "3",
-              "togo": "2",
+              "down": "2",
+              "togo": "10",
               "spot": "LK28",
-              "context": "H,3,2,V28",
-              "playid": "16,5,119",
+              "context": "H,2,10,V28",
+              "playid": "16,5,127",
               "type": "R",
-              "first": "R",
-              "tokens": "RUSH:8,V20, OB: TACK:17",
-              "text": "C. Helbig rush for 8 yards to the LK20, 1ST DOWN VV, out-of-bounds (K. Mouliom).",
+              "tokens": "RUSH:8,V20, OB:",
+              "text": "C. Helbig rush for 8 yards to the LK20, out-of-bounds.",
               "ob": "Y",
-              "newcontext": "H,1,10,V20"
+              "newcontext": "H,3,2,V20"
             },
             "p_ru": {
               "_attributes": {
@@ -4797,39 +4932,20 @@
                 "name": "C. Helbig",
                 "gain": "8"
               }
-            },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "K. Mouliom"
-              }
-            }
-          },
-          {
-            "_attributes": {
-              "hasball": "VV",
-              "down": "1",
-              "togo": "10",
-              "spot": "LK20",
-              "context": "H,1,10,V20",
-              "playid": "16,6,120",
-              "tokens": "D:3,1",
-              "text": "3rd and 1.",
-              "newcontext": "H,3,1,V20"
             }
           },
           {
             "_attributes": {
               "hasball": "VV",
               "down": "3",
-              "togo": "1",
+              "togo": "2",
               "spot": "LK20",
-              "context": "H,3,1,V20",
-              "playid": "16,7,121",
+              "context": "H,3,2,V20",
+              "playid": "16,6,128",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:3,V14, TACK:76",
-              "text": "F. Wegan rush for 6 yards to the LK14, 1ST DOWN VV (D. Behrens).",
+              "text": "F. Wegan rush for 6 yards to the LK14, 1ST DOWN VV (N. Koch).",
               "newcontext": "H,1,10,V14"
             },
             "p_ru": {
@@ -4842,7 +4958,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "V",
-                "name": "D. Behrens"
+                "name": "N. Koch"
               }
             }
           },
@@ -4853,7 +4969,7 @@
               "togo": "10",
               "spot": "LK14",
               "context": "H,1,10,V14",
-              "playid": "16,8,122",
+              "playid": "16,7,129",
               "type": "R",
               "tokens": "RUSH:3,V08, TACK:90",
               "text": "F. Wegan rush for 6 yards to the LK8 (F. Ntwa).",
@@ -4880,7 +4996,7 @@
               "togo": "4",
               "spot": "LK08",
               "context": "H,2,4,V08",
-              "playid": "16,9,123",
+              "playid": "16,8,130",
               "type": "R",
               "tokens": "RUSH:8,V05, OB: TACK:28",
               "text": "C. Helbig rush for 3 yards to the LK5, out-of-bounds (D. Aboagye-Duah).",
@@ -4908,18 +5024,18 @@
               "togo": "1",
               "spot": "LK05",
               "context": "H,3,1,V05",
-              "playid": "16,10,125",
+              "playid": "16,9,132",
               "type": "R",
               "first": "R",
-              "tokens": "RUSH:8,V03, TACK:90,63",
-              "text": "C. Helbig rush for 2 yards to the LK3, 1ST DOWN VV (F. Ntwa;P. Meischter).",
-              "newcontext": "H,1,0,V03"
+              "tokens": "RUSH:8,V02, TACK:90,63",
+              "text": "C. Helbig rush for 3 yards to the LK2, 1ST DOWN VV (F. Ntwa;P. Meischter).",
+              "newcontext": "H,1,0,V02"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "C. Helbig",
-                "gain": "2"
+                "gain": "3"
               }
             },
             "p_tk": [
@@ -4944,9 +5060,9 @@
               "hasball": "VV",
               "down": "1",
               "togo": "0",
-              "spot": "LK03",
-              "context": "H,1,0,V03",
-              "playid": "16,11,126",
+              "spot": "LK02",
+              "context": "H,1,0,V02",
+              "playid": "16,10,133",
               "type": "R",
               "first": "R",
               "score": "Y",
@@ -4954,14 +5070,14 @@
               "hscore": "25",
               "clock": "11:34",
               "tokens": "RUSH:8,V00, T:11:34",
-              "text": "C. Helbig rush for 3 yards to the LK0, 1ST DOWN VV, TOUCHDOWN, clock 11:34.",
+              "text": "C. Helbig rush for 2 yards to the LK0, 1ST DOWN VV, TOUCHDOWN, clock 11:34.",
               "newcontext": "H,1,10,V15"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "C. Helbig",
-                "gain": "3"
+                "gain": "2"
               }
             }
           },
@@ -4972,7 +5088,7 @@
               "togo": "10",
               "spot": "LK15",
               "context": "H,1,10,V15",
-              "playid": "16,12,127",
+              "playid": "16,11,134",
               "type": "X",
               "score": "Y",
               "vscore": "0",
@@ -4999,7 +5115,7 @@
               "togo": "0",
               "spot": "VV30",
               "context": "H,1,0,H30",
-              "playid": "16,13,128",
+              "playid": "16,12,135",
               "type": "K",
               "tokens": "KO:23,V01 RET:25,V36 TACK:49",
               "text": "B. Straight kickoff 69 yards to the LK1, D. Burrell return 35 yards to the LK36 (A. Watholowitsc).",
@@ -5033,7 +5149,7 @@
               "togo": "10",
               "spot": "LK36",
               "context": "V,1,10,V36",
-              "playid": "17,1,129",
+              "playid": "17,1,136",
               "clock": "11:22",
               "tokens": "{DRIVE}:11:22",
               "text": "LEIPZIG KINGS drive start at 11:22.",
@@ -5047,7 +5163,7 @@
               "togo": "10",
               "spot": "LK36",
               "context": "V,1,10,V36",
-              "playid": "17,2,130",
+              "playid": "17,2,137",
               "type": "R",
               "tokens": "RUSH:5,V34, TACK:99,46",
               "text": "S. Mcshane rush for loss of 2 yards to the LK34 (M. Muellner;V. Millauer).",
@@ -5084,7 +5200,7 @@
               "togo": "12",
               "spot": "LK34",
               "context": "V,2,12,V34",
-              "playid": "17,3,131",
+              "playid": "17,3,138",
               "type": "P",
               "tokens": "PASS:4,I,81,* BRUP:49",
               "text": "K. Allen pass incomplete to N. Baeumer (A. Watholowitsc).",
@@ -5112,17 +5228,18 @@
               "togo": "12",
               "spot": "LK34",
               "context": "V,3,12,V34",
-              "playid": "17,4,132",
+              "playid": "17,4,139",
               "type": "P",
-              "tokens": "PASS:4,I,TM,* BRUP:99",
-              "text": "K. Allen pass incomplete (M. Muellner).",
+              "tokens": "PASS:4,I,88,* BRUP:99",
+              "text": "K. Allen pass incomplete to J. Walter (M. Muellner).",
               "newcontext": "V,4,12,V34"
             },
             "p_pa": {
               "_attributes": {
                 "vh": "V",
                 "qb": "K. Allen",
-                "result": "INC"
+                "result": "INC",
+                "rcv": "J. Walter"
               }
             },
             "p_bu": {
@@ -5139,11 +5256,11 @@
               "togo": "12",
               "spot": "LK34",
               "context": "V,4,12,V34",
-              "playid": "17,5,133",
+              "playid": "17,5,140",
               "type": "U",
-              "tokens": "PUNT:9,H21 RET:7,H44 TACK:3",
-              "text": "F. Finke punt 45 yards to the VV21, E. Edwards return 23 yards to the VV44 (L. Moreno).",
-              "newcontext": "H,1,10,H44"
+              "tokens": "PUNT:9,H21 RET:7,H43 TACK:3",
+              "text": "F. Finke punt 45 yards to the VV21, E. Edwards return 22 yards to the VV43 (L. Moreno).",
+              "newcontext": "H,1,10,H43"
             },
             "p_pu": {
               "_attributes": {
@@ -5156,7 +5273,7 @@
               "_attributes": {
                 "vh": "H",
                 "name": "E. Edwards",
-                "gain": "23"
+                "gain": "22"
               }
             },
             "p_tk": {
@@ -5171,13 +5288,13 @@
               "hasball": "VV",
               "down": "1",
               "togo": "10",
-              "spot": "VV44",
-              "context": "H,1,10,H44",
-              "playid": "18,1,134",
+              "spot": "VV43",
+              "context": "H,1,10,H43",
+              "playid": "18,1,141",
               "clock": "10:19",
               "tokens": "{DRIVE}:10:19",
               "text": "VIENNA VIKINGS drive start at 10:19.",
-              "newcontext": "H,1,10,H44"
+              "newcontext": "H,1,10,H43"
             }
           },
           {
@@ -5185,13 +5302,13 @@
               "hasball": "VV",
               "down": "1",
               "togo": "10",
-              "spot": "VV44",
-              "context": "H,1,10,H44",
-              "playid": "18,2,135",
+              "spot": "VV43",
+              "context": "H,1,10,H43",
+              "playid": "18,2,142",
               "type": "P",
               "first": "P",
               "tokens": "PASS:8,C,10,V42 TACK:49,15",
-              "text": "C. Helbig pass complete to W. Carr for 14 yards to the LK42, 1ST DOWN VV (A.J. Wentland;D. Banse).",
+              "text": "C. Helbig pass complete to W. Carr for 15 yards to the LK42, 1ST DOWN VV (A.J. Wentland;D. Banse).",
               "newcontext": "H,1,10,V42"
             },
             "p_pa": {
@@ -5200,7 +5317,7 @@
                 "qb": "C. Helbig",
                 "result": "COMP",
                 "rcv": "W. Carr",
-                "gain": "14"
+                "gain": "15"
               }
             },
             "p_tk": [
@@ -5227,10 +5344,10 @@
               "togo": "10",
               "spot": "LK42",
               "context": "H,1,10,V42",
-              "playid": "18,3,136",
+              "playid": "18,3,143",
               "type": "P",
               "tokens": "PASS:8,C,6,V34 OB: TACK:17",
-              "text": "C. Helbig pass complete to R. Kalous for 8 yards to the LK34, out-of-bounds (K. Mouliom).",
+              "text": "C. Helbig pass complete to R. Kalous for 8 yards to the LK34, out-of-bounds (J. Jacob).",
               "ob": "Y",
               "newcontext": "H,2,2,V34"
             },
@@ -5246,7 +5363,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "V",
-                "name": "K. Mouliom"
+                "name": "J. Jacob"
               }
             }
           },
@@ -5257,7 +5374,7 @@
               "togo": "2",
               "spot": "LK34",
               "context": "H,2,2,V34",
-              "playid": "18,4,137",
+              "playid": "18,4,144",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:3,V23, TACK:14,16",
@@ -5295,7 +5412,7 @@
               "togo": "10",
               "spot": "LK23",
               "context": "H,1,10,V23",
-              "playid": "18,5,138",
+              "playid": "18,5,145",
               "type": "P",
               "tokens": "PASS:8,C,10,V14 OB: TACK:16",
               "text": "C. Helbig pass complete to W. Carr for 9 yards to the LK14, out-of-bounds (E. Bauroth).",
@@ -5325,7 +5442,7 @@
               "togo": "1",
               "spot": "LK14",
               "context": "H,2,1,V14",
-              "playid": "18,6,139",
+              "playid": "18,6,146",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:3,V10, TACK:50,63",
@@ -5363,10 +5480,10 @@
               "togo": "0",
               "spot": "LK10",
               "context": "H,1,0,V10",
-              "playid": "18,7,140",
+              "playid": "18,7,147",
               "type": "R",
-              "tokens": "RUSH:3,V08, TACK:50,8",
-              "text": "F. Wegan rush for 2 yards to the LK8 (J. Schultes;A. Zetterberg).",
+              "tokens": "RUSH:3,V08, TACK:50,14",
+              "text": "F. Wegan rush for 2 yards to the LK8 (J. Schultes;V. Laux).",
               "newcontext": "H,2,0,V08"
             },
             "p_ru": {
@@ -5387,7 +5504,7 @@
               {
                 "_attributes": {
                   "vh": "V",
-                  "name": "A. Zetterberg",
+                  "name": "V. Laux",
                   "assist": "Y"
                 }
               }
@@ -5400,7 +5517,7 @@
               "togo": "0",
               "spot": "LK08",
               "context": "H,2,0,V08",
-              "playid": "18,8,141",
+              "playid": "18,8,148",
               "type": "P",
               "tokens": "PASS:8,D,4,*",
               "text": "C. Helbig pass incomplete to J. Bouah, dropped pass.",
@@ -5422,15 +5539,15 @@
               "togo": "0",
               "spot": "LK08",
               "context": "H,3,0,V08",
-              "playid": "18,9,143",
+              "playid": "18,9,150",
               "type": "P",
               "first": "P",
               "score": "Y",
               "vscore": "0",
               "hscore": "32",
-              "clock": "07:01",
-              "tokens": "PASS:8,C,10,V00 T:07:01",
-              "text": "C. Helbig pass complete to W. Carr for 8 yards to the LK0, 1ST DOWN VV, TOUCHDOWN, clock 07:01.",
+              "clock": "07:00",
+              "tokens": "PASS:8,C,10,V00 T:07:00",
+              "text": "C. Helbig pass complete to W. Carr for 8 yards to the LK0, 1ST DOWN VV, TOUCHDOWN, clock 07:00.",
               "newcontext": "H,1,10,V15"
             },
             "p_pa": {
@@ -5450,21 +5567,21 @@
               "togo": "10",
               "spot": "LK15",
               "context": "H,1,10,V15",
-              "playid": "18,10,144",
+              "playid": "18,10,151",
               "type": "E",
-              "tokens": "PAT:K,2,M PEN:V,RK,A,25,V10,N NOPLAY:",
-              "text": "D. Tasic kick attempt failed, PENALTY LK Roughing the Kicker (D. Burrell) 5 yards to the LK10, NO PLAY.",
-              "newcontext": "H,1,5,V10"
+              "tokens": "PAT:K,2,M PEN:V,RK,A,17,V08,N NOPLAY:",
+              "text": "D. Tasic kick attempt failed, PENALTY LK Roughing the Kicker (J. Jacob) 7 yards to the LK8, NO PLAY.",
+              "newcontext": "H,1,3,V08"
             },
             "p_pn": {
               "_attributes": {
                 "vh": "V",
                 "code": "RK",
                 "type": "Roughing the Kicker",
-                "name": "D. Burrell",
+                "name": "J. Jacob",
                 "result": "ACCEPT",
                 "at": "V15",
-                "yards": "5"
+                "yards": "7"
               }
             }
           },
@@ -5472,10 +5589,10 @@
             "_attributes": {
               "hasball": "VV",
               "down": "1",
-              "togo": "5",
-              "spot": "LK10",
-              "context": "H,1,5,V10",
-              "playid": "18,11,145",
+              "togo": "3",
+              "spot": "LK08",
+              "context": "H,1,3,V08",
+              "playid": "18,11,152",
               "type": "X",
               "score": "Y",
               "vscore": "0",
@@ -5502,10 +5619,10 @@
               "togo": "0",
               "spot": "VV30",
               "context": "H,1,0,H30",
-              "playid": "18,12,146",
+              "playid": "18,12,153",
               "type": "K",
-              "tokens": "KO:23,V07 RET:25,V33 TACK:39,52 PEN:V,HO,A,TM,V23,N D:1,10 SPOT:V,V23,Y",
-              "text": "B. Straight kickoff 63 yards to the LK7, D. Burrell return 26 yards to the LK33 (V. Leutgeb;O. Kranich), PENALTY LK HO 10 yards to the LK23, 1st and 10, LK ball on LK23.",
+              "tokens": "KO:23,V07 RET:25,V33 TACK:39,52 PEN:V,BL,A,3,V23,N D:1,10 SPOT:V,V23,Y",
+              "text": "B. Straight kickoff 63 yards to the LK7, D. Burrell return 26 yards to the LK33 (V. Leutgeb;O. Kranich), PENALTY LK Illegal Blindside Block (L. Moreno) 10 yards to the LK23, 1st and 10, LK ball on LK23.",
               "newcontext": "V,1,10,V23"
             },
             "p_ko": {
@@ -5541,8 +5658,9 @@
             "p_pn": {
               "_attributes": {
                 "vh": "V",
-                "code": "HO",
-                "type": "HO",
+                "code": "BL",
+                "type": "Illegal Blindside Block",
+                "name": "L. Moreno",
                 "result": "ACCEPT",
                 "at": "V33",
                 "yards": "10"
@@ -5556,7 +5674,7 @@
               "togo": "10",
               "spot": "LK23",
               "context": "V,1,10,V23",
-              "playid": "19,1,147",
+              "playid": "19,1,154",
               "clock": "06:45",
               "tokens": "{DRIVE}:06:45",
               "text": "LEIPZIG KINGS drive start at 06:45.",
@@ -5570,7 +5688,7 @@
               "togo": "10",
               "spot": "LK23",
               "context": "V,1,10,V23",
-              "playid": "19,2,148",
+              "playid": "19,2,155",
               "type": "P",
               "tokens": "PASS:4,C,5,V32 TACK:23",
               "text": "K. Allen pass complete to S. Mcshane for 9 yards to the LK32 (B. Straight).",
@@ -5599,7 +5717,7 @@
               "togo": "1",
               "spot": "LK32",
               "context": "V,2,1,V32",
-              "playid": "19,3,149",
+              "playid": "19,3,156",
               "type": "P",
               "first": "P",
               "tokens": "PASS:4,C,5,V41 TACK:42",
@@ -5629,7 +5747,7 @@
               "togo": "10",
               "spot": "LK41",
               "context": "V,1,10,V41",
-              "playid": "19,4,150",
+              "playid": "19,4,157",
               "type": "R",
               "tokens": "RUSH:5,V42, TACK:23",
               "text": "S. Mcshane rush for 1 yard to the LK42 (B. Straight).",
@@ -5656,7 +5774,7 @@
               "togo": "9",
               "spot": "LK42",
               "context": "V,2,9,V42",
-              "playid": "19,5,151",
+              "playid": "19,5,158",
               "type": "P",
               "tokens": "PASS:4,C,7,V48 OB:",
               "text": "K. Allen pass complete to L. Winter for 6 yards to the LK48, out-of-bounds.",
@@ -5680,7 +5798,7 @@
               "togo": "3",
               "spot": "LK48",
               "context": "V,3,3,V48",
-              "playid": "19,6,153",
+              "playid": "19,6,160",
               "type": "P",
               "tokens": "PASS:4,C,5,V49 TACK:36,27",
               "text": "K. Allen pass complete to S. Mcshane for 1 yard to the LK49 (F. Tartarotti;N. Huszar).",
@@ -5719,7 +5837,7 @@
               "togo": "2",
               "spot": "LK49",
               "context": "V,4,2,V49",
-              "playid": "19,7,154",
+              "playid": "19,7,161",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:5,H48, TACK:36,23",
@@ -5757,7 +5875,7 @@
               "togo": "10",
               "spot": "VV48",
               "context": "V,1,10,H48",
-              "playid": "19,8,155",
+              "playid": "19,8,162",
               "type": "R",
               "tokens": "RUSH:5,H47, TACK:49,1",
               "text": "S. Mcshane rush for 1 yard to the VV47 (A. Watholowitsc;L. Balogh).",
@@ -5794,7 +5912,7 @@
               "togo": "9",
               "spot": "VV47",
               "context": "V,2,9,H47",
-              "playid": "19,9,156",
+              "playid": "19,9,163",
               "type": "E",
               "tokens": "PASS:4,C,5,H41 TACK:36 PEN:H,OD,A,1,H43,N NOPLAY:",
               "text": "K. Allen pass complete to S. Mcshane for 6 yards to the VV41 (F. Tartarotti), PENALTY VV OD (L. Balogh) 4 yards to the VV43, NO PLAY.",
@@ -5819,10 +5937,10 @@
               "togo": "5",
               "spot": "VV43",
               "context": "V,2,5,H43",
-              "playid": "19,10,157",
+              "playid": "19,10,164",
               "type": "E",
-              "tokens": "PEN:V,FS,A,TM,H47,N",
-              "text": "PENALTY LK False Start 4 yards to the VV47.",
+              "tokens": "PEN:V,FS,A,77,H47,N",
+              "text": "PENALTY LK False Start (H. Perl) 4 yards to the VV47.",
               "newcontext": "V,2,9,H47"
             },
             "p_pn": {
@@ -5830,6 +5948,7 @@
                 "vh": "V",
                 "code": "FS",
                 "type": "False Start",
+                "name": "H. Perl",
                 "result": "ACCEPT",
                 "at": "H43",
                 "yards": "4"
@@ -5843,11 +5962,11 @@
               "togo": "9",
               "spot": "VV47",
               "context": "V,2,9,H47",
-              "playid": "19,11,158",
+              "playid": "19,11,165",
               "type": "P",
               "turnover": "I",
-              "tokens": "PASS:4,X,7,H07 RET:7,H05 TACK:5",
-              "text": "K. Allen pass intercepted by E. Edwards at the VV7, E. Edwards return -2 yards to the VV5 (S. Mcshane).",
+              "tokens": "PASS:4,X,7,H05 RET:7,H05 TACK:5",
+              "text": "K. Allen pass intercepted by E. Edwards at the VV5, E. Edwards return 0 yards to the VV5 (S. Mcshane).",
               "newcontext": "H,1,10,H05"
             },
             "p_pa": {
@@ -5861,8 +5980,8 @@
               "_attributes": {
                 "vh": "H",
                 "name": "E. Edwards",
-                "at": "H07",
-                "gain": "-2"
+                "at": "H05",
+                "gain": "0"
               }
             },
             "p_tk": {
@@ -5879,7 +5998,7 @@
               "togo": "10",
               "spot": "VV05",
               "context": "H,1,10,H05",
-              "playid": "20,1,159",
+              "playid": "20,1,166",
               "clock": "01:49",
               "tokens": "{DRIVE}:01:49",
               "text": "VIENNA VIKINGS drive start at 01:49.",
@@ -5893,11 +6012,11 @@
               "togo": "10",
               "spot": "VV05",
               "context": "H,1,10,H05",
-              "playid": "20,2,160",
+              "playid": "20,2,167",
               "type": "P",
               "first": "P",
               "tokens": "PASS:8,C,10,H45 TACK:17",
-              "text": "C. Helbig pass complete to W. Carr for 40 yards to the VV45, 1ST DOWN VV (K. Mouliom).",
+              "text": "C. Helbig pass complete to W. Carr for 40 yards to the VV45, 1ST DOWN VV (J. Jacob).",
               "newcontext": "H,1,10,H45"
             },
             "p_pa": {
@@ -5912,7 +6031,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "V",
-                "name": "K. Mouliom"
+                "name": "J. Jacob"
               }
             }
           },
@@ -5923,7 +6042,7 @@
               "togo": "10",
               "spot": "VV45",
               "context": "H,1,10,H45",
-              "playid": "20,3,161",
+              "playid": "20,3,168",
               "type": "R",
               "tokens": "RUSH:3,V48, TACK:49",
               "text": "F. Wegan rush for 7 yards to the LK48 (A.J. Wentland).",
@@ -5950,17 +6069,19 @@
               "togo": "3",
               "spot": "LK48",
               "context": "H,2,3,V48",
-              "playid": "20,4,162",
-              "type": "R",
-              "first": "R",
-              "tokens": "RUSH:3,V39, TACK:14",
-              "text": "F. Wegan rush for 9 yards to the LK39, 1ST DOWN VV (V. Laux).",
+              "playid": "20,4,169",
+              "type": "P",
+              "first": "P",
+              "tokens": "PASS:8,C,3,V39 TACK:14",
+              "text": "C. Helbig pass complete to F. Wegan for 9 yards to the LK39, 1ST DOWN VV (V. Laux).",
               "newcontext": "H,1,10,V39"
             },
-            "p_ru": {
+            "p_pa": {
               "_attributes": {
                 "vh": "H",
-                "name": "F. Wegan",
+                "qb": "C. Helbig",
+                "result": "COMP",
+                "rcv": "F. Wegan",
                 "gain": "9"
               }
             },
@@ -5978,7 +6099,7 @@
               "togo": "10",
               "spot": "LK39",
               "context": "H,1,10,V39",
-              "playid": "20,5,163",
+              "playid": "20,5,170",
               "type": "P",
               "first": "P",
               "tokens": "PASS:8,C,4,V24 TACK:15",
@@ -6005,11 +6126,11 @@
         "drivestart": [
           {
             "_attributes": {
-              "poss": "H,V46,14:53",
+              "poss": "H,V46,14:52",
               "vh": "H",
               "spot": "V46",
-              "clock": "14:53",
-              "driveindex": "16,112"
+              "clock": "14:52",
+              "driveindex": "16,120"
             }
           },
           {
@@ -6018,16 +6139,16 @@
               "vh": "V",
               "spot": "V36",
               "clock": "11:22",
-              "driveindex": "17,128"
+              "driveindex": "17,135"
             }
           },
           {
             "_attributes": {
-              "poss": "H,H44,10:19",
+              "poss": "H,H43,10:19",
               "vh": "H",
-              "spot": "H44",
+              "spot": "H43",
               "clock": "10:19",
-              "driveindex": "18,133"
+              "driveindex": "18,140"
             }
           },
           {
@@ -6036,7 +6157,7 @@
               "vh": "V",
               "spot": "V23",
               "clock": "06:45",
-              "driveindex": "19,146"
+              "driveindex": "19,153"
             }
           },
           {
@@ -6045,7 +6166,7 @@
               "vh": "H",
               "spot": "H05",
               "clock": "01:49",
-              "driveindex": "20,158"
+              "driveindex": "20,165"
             }
           }
         ],
@@ -6102,7 +6223,7 @@
             "_attributes": {
               "plays": "9",
               "yards": "46",
-              "top": "3:19",
+              "top": "3:18",
               "driveindex": "16",
               "complete": "Y"
             }
@@ -6119,8 +6240,8 @@
           {
             "_attributes": {
               "plays": "8",
-              "yards": "56",
-              "top": "3:18",
+              "yards": "57",
+              "top": "3:19",
               "driveindex": "18",
               "complete": "Y"
             }
@@ -6153,7 +6274,7 @@
             "penalties": {
               "_attributes": {
                 "no": "4",
-                "yds": "34"
+                "yds": "36"
               }
             },
             "conversions": {
@@ -6173,7 +6294,7 @@
             "misc": {
               "_attributes": {
                 "yds": "0",
-                "top": "06:27"
+                "top": "06:26"
               }
             },
             "rush": {
@@ -6230,9 +6351,9 @@
             },
             "defense": {
               "_attributes": {
-                "tackua": "14",
+                "tackua": "13",
                 "tacka": "12",
-                "tot_tack": "26",
+                "tot_tack": "25",
                 "sacks": "0",
                 "sackyds": "0"
               }
@@ -6253,9 +6374,9 @@
             },
             "firstdowns": {
               "_attributes": {
-                "no": "12",
-                "rush": "8",
-                "pass": "4",
+                "no": "11",
+                "rush": "6",
+                "pass": "5",
                 "penalty": "0"
               }
             },
@@ -6267,8 +6388,8 @@
             },
             "conversions": {
               "_attributes": {
-                "thirdconv": "4",
-                "thirdatt": "4",
+                "thirdconv": "3",
+                "thirdatt": "3",
                 "fourthconv": "0",
                 "fourthatt": "0"
               }
@@ -6282,14 +6403,14 @@
             "misc": {
               "_attributes": {
                 "yds": "0",
-                "top": "08:33"
+                "top": "08:34"
               }
             },
             "rush": {
               "_attributes": {
-                "att": "13",
-                "yds": "79",
-                "gain": "79",
+                "att": "12",
+                "yds": "70",
+                "gain": "70",
                 "loss": "0",
                 "td": "1",
                 "long": "0"
@@ -6297,10 +6418,10 @@
             },
             "pass": {
               "_attributes": {
-                "comp": "6",
-                "att": "8",
+                "comp": "7",
+                "att": "9",
                 "int": "0",
-                "yds": "94",
+                "yds": "104",
                 "td": "1",
                 "long": "20",
                 "sacks": "0",
@@ -6309,8 +6430,8 @@
             },
             "rcv": {
               "_attributes": {
-                "no": "6",
-                "yds": "94",
+                "no": "7",
+                "yds": "104",
                 "td": "1",
                 "long": "20"
               }
@@ -6342,7 +6463,7 @@
                 "sackyds": "0",
                 "brup": "2",
                 "int": "1",
-                "intyds": "-2"
+                "intyds": "0"
               }
             },
             "kr": {
@@ -6356,15 +6477,15 @@
             "pr": {
               "_attributes": {
                 "no": "1",
-                "yds": "23",
+                "yds": "22",
                 "td": "0",
-                "long": "14"
+                "long": "13"
               }
             },
             "ir": {
               "_attributes": {
                 "no": "1",
-                "yds": "-2",
+                "yds": "0",
                 "td": "0",
                 "long": "0"
               }
@@ -6391,7 +6512,7 @@
               "togo": "10",
               "spot": "LK24",
               "context": "H,1,10,V24",
-              "playid": "20,6,164",
+              "playid": "20,6,171",
               "type": "#",
               "clock": "15:00",
               "tokens": "Q:4 T:15:00",
@@ -6406,7 +6527,7 @@
               "togo": "10",
               "spot": "LK24",
               "context": "H,1,10,V24",
-              "playid": "20,7,165",
+              "playid": "20,7,172",
               "type": "R",
               "tokens": "RUSH:8,V18, OB: TACK:14",
               "text": "C. Helbig rush for 6 yards to the LK18, out-of-bounds (V. Laux).",
@@ -6434,7 +6555,7 @@
               "togo": "4",
               "spot": "LK18",
               "context": "H,2,4,V18",
-              "playid": "20,8,166",
+              "playid": "20,8,173",
               "type": "R",
               "tokens": "RUSH:3,V20, TACK:49",
               "text": "F. Wegan rush for loss of 2 yards to the LK20 (A.J. Wentland).",
@@ -6461,11 +6582,11 @@
               "togo": "6",
               "spot": "LK20",
               "context": "H,3,6,V20",
-              "playid": "20,9,167",
+              "playid": "20,9,174",
               "type": "P",
               "first": "P",
               "tokens": "PASS:8,C,3,V11 TACK:17",
-              "text": "C. Helbig pass complete to F. Wegan for 9 yards to the LK11, 1ST DOWN VV (K. Mouliom).",
+              "text": "C. Helbig pass complete to F. Wegan for 9 yards to the LK11, 1ST DOWN VV (J. Jacob).",
               "newcontext": "H,1,10,V11"
             },
             "p_pa": {
@@ -6480,7 +6601,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "V",
-                "name": "K. Mouliom"
+                "name": "J. Jacob"
               }
             }
           },
@@ -6491,7 +6612,7 @@
               "togo": "10",
               "spot": "LK11",
               "context": "H,1,10,V11",
-              "playid": "20,10,168",
+              "playid": "20,10,175",
               "type": "P",
               "tokens": "PASS:8,C,10,V08 TACK:28",
               "text": "C. Helbig pass complete to W. Carr for 3 yards to the LK8 (D. Aboagye-Duah).",
@@ -6520,7 +6641,7 @@
               "togo": "7",
               "spot": "LK08",
               "context": "H,2,7,V08",
-              "playid": "20,11,169",
+              "playid": "20,11,176",
               "type": "P",
               "tokens": "PASS:8,C,10,V06 TACK:25",
               "text": "C. Helbig pass complete to W. Carr for 2 yards to the LK6 (D. Burrell).",
@@ -6549,7 +6670,7 @@
               "togo": "5",
               "spot": "LK06",
               "context": "H,3,5,V06",
-              "playid": "20,12,170",
+              "playid": "20,12,177",
               "type": "P",
               "tokens": "PASS:8,D,6,*",
               "text": "C. Helbig pass incomplete to R. Kalous, dropped pass.",
@@ -6571,7 +6692,7 @@
               "togo": "5",
               "spot": "LK06",
               "context": "H,4,5,V06",
-              "playid": "20,13,171",
+              "playid": "20,13,178",
               "type": "P",
               "first": "P",
               "score": "Y",
@@ -6599,7 +6720,7 @@
               "togo": "10",
               "spot": "LK15",
               "context": "H,1,10,V15",
-              "playid": "20,14,172",
+              "playid": "20,14,179",
               "type": "X",
               "score": "Y",
               "vscore": "0",
@@ -6626,7 +6747,7 @@
               "togo": "0",
               "spot": "VV30",
               "context": "H,1,0,H30",
-              "playid": "20,15,173",
+              "playid": "20,15,180",
               "type": "K",
               "tokens": "KO:23,V06 RET:5,V28 TACK:49,27",
               "text": "B. Straight kickoff 64 yards to the LK6, S. Mcshane return 22 yards to the LK28 (A. Watholowitsc;N. Huszar).",
@@ -6670,7 +6791,7 @@
               "togo": "10",
               "spot": "LK28",
               "context": "V,1,10,V28",
-              "playid": "21,1,174",
+              "playid": "21,1,181",
               "clock": "11:38",
               "tokens": "{DRIVE}:11:38",
               "text": "LEIPZIG KINGS drive start at 11:38.",
@@ -6684,7 +6805,7 @@
               "togo": "10",
               "spot": "LK28",
               "context": "V,1,10,V28",
-              "playid": "21,2,176",
+              "playid": "21,2,183",
               "type": "R",
               "tokens": "RUSH:20,V30, TACK:94",
               "text": "L. Carstensen rush for 2 yards to the LK30 (F. Gruensteidl).",
@@ -6711,7 +6832,7 @@
               "togo": "8",
               "spot": "LK30",
               "context": "V,2,8,V30",
-              "playid": "21,3,177",
+              "playid": "21,3,184",
               "type": "P",
               "first": "P",
               "tokens": "PASS:4,C,5,V40 TACK:37",
@@ -6741,7 +6862,7 @@
               "togo": "10",
               "spot": "LK40",
               "context": "V,1,10,V40",
-              "playid": "21,4,178",
+              "playid": "21,4,185",
               "type": "R",
               "tokens": "RUSH:5,V48, OB: TACK:36",
               "text": "S. Mcshane rush for 8 yards to the LK48, out-of-bounds (F. Tartarotti).",
@@ -6769,7 +6890,7 @@
               "togo": "2",
               "spot": "LK48",
               "context": "V,2,2,V48",
-              "playid": "21,5,179",
+              "playid": "21,5,186",
               "type": "P",
               "first": "P",
               "tokens": "PASS:4,C,7,H38 TACK:36,27",
@@ -6809,7 +6930,7 @@
               "togo": "10",
               "spot": "VV38",
               "context": "V,1,10,H38",
-              "playid": "21,6,181",
+              "playid": "21,6,188",
               "type": "P",
               "first": "P",
               "tokens": "PASS:4,C,88,H26 TACK:42,75",
@@ -6849,7 +6970,7 @@
               "togo": "10",
               "spot": "VV26",
               "context": "V,1,10,H26",
-              "playid": "21,7,182",
+              "playid": "21,7,189",
               "type": "R",
               "tokens": "RUSH:20,H25, TACK:33,94",
               "text": "L. Carstensen rush for 1 yard to the VV25 (S. Ernst;F. Gruensteidl).",
@@ -6886,7 +7007,7 @@
               "togo": "9",
               "spot": "VV25",
               "context": "V,2,9,H25",
-              "playid": "21,8,183",
+              "playid": "21,8,190",
               "type": "P",
               "tokens": "PASS:4,I,TM,* QBH:H,1",
               "text": "K. Allen pass incomplete, QB hurry by L. Balogh.",
@@ -6913,7 +7034,7 @@
               "togo": "9",
               "spot": "VV25",
               "context": "V,3,9,H25",
-              "playid": "21,9,184",
+              "playid": "21,9,191",
               "type": "R",
               "tokens": "RUSH:20,H26, TACK:36,49",
               "text": "L. Carstensen rush for loss of 1 yard to the VV26 (F. Tartarotti;A. Watholowitsc).",
@@ -6950,7 +7071,7 @@
               "togo": "10",
               "spot": "VV26",
               "context": "V,4,10,H26",
-              "playid": "21,10,185",
+              "playid": "21,10,192",
               "type": "P",
               "first": "P",
               "tokens": "PASS:4,C,20,H15 TACK:36,22",
@@ -6990,7 +7111,7 @@
               "togo": "10",
               "spot": "VV15",
               "context": "V,1,10,H15",
-              "playid": "21,11,186",
+              "playid": "21,11,193",
               "type": "P",
               "tokens": "PASS:4,D,7,*",
               "text": "K. Allen pass incomplete to L. Winter, dropped pass.",
@@ -7012,7 +7133,7 @@
               "togo": "10",
               "spot": "VV15",
               "context": "V,2,10,H15",
-              "playid": "21,12,187",
+              "playid": "21,12,194",
               "type": "P",
               "first": "P",
               "tokens": "PASS:4,C,5,H02 TACK:37",
@@ -7042,7 +7163,7 @@
               "togo": "0",
               "spot": "VV02",
               "context": "V,1,0,H02",
-              "playid": "21,13,188",
+              "playid": "21,13,195",
               "type": "R",
               "tokens": "RUSH:4,H06, TACK:33",
               "text": "K. Allen rush for loss of 4 yards to the VV6 (S. Ernst).",
@@ -7069,7 +7190,7 @@
               "togo": "0",
               "spot": "VV06",
               "context": "V,2,0,H06",
-              "playid": "21,14,189",
+              "playid": "21,14,196",
               "type": "#",
               "clock": "06:15",
               "tokens": "TOUT:V T:06:15",
@@ -7090,7 +7211,7 @@
               "togo": "0",
               "spot": "VV06",
               "context": "V,2,0,H06",
-              "playid": "21,15,190",
+              "playid": "21,15,197",
               "type": "R",
               "tokens": "RUSH:5,H05, TACK:33,13",
               "text": "S. Mcshane rush for 1 yard to the VV5 (S. Ernst;M. Morawetz).",
@@ -7127,7 +7248,7 @@
               "togo": "0",
               "spot": "VV05",
               "context": "V,3,0,H05",
-              "playid": "21,16,191",
+              "playid": "21,16,198",
               "type": "R",
               "first": "R",
               "score": "Y",
@@ -7153,7 +7274,7 @@
               "togo": "10",
               "spot": "VV15",
               "context": "V,1,10,H15",
-              "playid": "21,17,192",
+              "playid": "21,17,199",
               "type": "X",
               "score": "Y",
               "vscore": "7",
@@ -7180,11 +7301,10 @@
               "togo": "0",
               "spot": "LK30",
               "context": "V,1,0,V30",
-              "playid": "21,18,193",
+              "playid": "21,18,200",
               "type": "K",
-              "tokens": "KO:9,H11 RET:6,H40 OB: TACK:7 PEN:H,HO,A,TM,H19,N D:1,10 SPOT:H,H19,Y",
-              "text": "F. Finke kickoff 59 yards to the VV11, R. Kalous return 29 yards to the VV40, out-of-bounds (L. Winter), PENALTY VV HO 21 yards to the VV19, 1st and 10, VV ball on VV19.",
-              "ob": "Y",
+              "tokens": "KO:9,H11 RET:6,H29 PEN:H,HO,A,15,H19,N D:1,10 SPOT:H,H19,Y",
+              "text": "F. Finke kickoff 59 yards to the VV11, R. Kalous return 18 yards to the VV29, PENALTY VV HO (R. Frey) 10 yards to the VV19, 1st and 10, VV ball on VV19.",
               "newcontext": "H,1,10,H19"
             },
             "p_ko": {
@@ -7198,13 +7318,7 @@
               "_attributes": {
                 "vh": "H",
                 "name": "R. Kalous",
-                "gain": "29"
-              }
-            },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "L. Winter"
+                "gain": "18"
               }
             },
             "p_pn": {
@@ -7212,9 +7326,10 @@
                 "vh": "H",
                 "code": "HO",
                 "type": "HO",
+                "name": "R. Frey",
                 "result": "ACCEPT",
-                "at": "H40",
-                "yards": "21"
+                "at": "H29",
+                "yards": "10"
               }
             }
           },
@@ -7225,7 +7340,7 @@
               "togo": "10",
               "spot": "VV19",
               "context": "H,1,10,H19",
-              "playid": "22,1,194",
+              "playid": "22,1,201",
               "clock": "04:58",
               "tokens": "{DRIVE}:04:58 D:1,10",
               "text": "VIENNA VIKINGS drive start at 04:58, 1st and 10.",
@@ -7239,7 +7354,7 @@
               "togo": "10",
               "spot": "VV19",
               "context": "H,1,10,H19",
-              "playid": "22,2,195",
+              "playid": "22,2,202",
               "type": "R",
               "tokens": "RUSH:3,H27, TACK:49",
               "text": "F. Wegan rush for 8 yards to the VV27 (A.J. Wentland).",
@@ -7266,11 +7381,11 @@
               "togo": "2",
               "spot": "VV27",
               "context": "H,2,2,H27",
-              "playid": "22,3,196",
+              "playid": "22,3,203",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:3,H38, TACK:17",
-              "text": "F. Wegan rush for 11 yards to the VV38, 1ST DOWN VV (K. Mouliom).",
+              "text": "F. Wegan rush for 11 yards to the VV38, 1ST DOWN VV (J. Jacob).",
               "newcontext": "H,1,10,H38"
             },
             "p_ru": {
@@ -7283,7 +7398,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "V",
-                "name": "K. Mouliom"
+                "name": "J. Jacob"
               }
             }
           },
@@ -7294,7 +7409,7 @@
               "togo": "10",
               "spot": "VV38",
               "context": "H,1,10,H38",
-              "playid": "22,4,197",
+              "playid": "22,4,204",
               "type": "R",
               "tokens": "RUSH:3,H44, TACK:16,49",
               "text": "F. Wegan rush for 6 yards to the VV44 (E. Bauroth;A.J. Wentland).",
@@ -7331,11 +7446,11 @@
               "togo": "4",
               "spot": "VV44",
               "context": "H,2,4,H44",
-              "playid": "22,5,198",
+              "playid": "22,5,205",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:12,V36, OB: TACK:17",
-              "text": "A. Reischl rush for 20 yards to the LK36, 1ST DOWN VV, out-of-bounds (K. Mouliom).",
+              "text": "A. Reischl rush for 20 yards to the LK36, 1ST DOWN VV, out-of-bounds (J. Jacob).",
               "ob": "Y",
               "newcontext": "H,1,10,V36"
             },
@@ -7349,7 +7464,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "V",
-                "name": "K. Mouliom"
+                "name": "J. Jacob"
               }
             }
           },
@@ -7360,7 +7475,7 @@
               "togo": "10",
               "spot": "LK36",
               "context": "H,1,10,V36",
-              "playid": "22,6,199",
+              "playid": "22,6,206",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:12,V25, TACK:49",
@@ -7388,7 +7503,7 @@
               "togo": "10",
               "spot": "LK25",
               "context": "H,1,10,V25",
-              "playid": "22,7,201",
+              "playid": "22,7,208",
               "type": "R",
               "first": "R",
               "score": "Y",
@@ -7414,7 +7529,7 @@
               "togo": "10",
               "spot": "LK15",
               "context": "H,1,10,V15",
-              "playid": "22,8,202",
+              "playid": "22,8,209",
               "type": "X",
               "score": "Y",
               "vscore": "7",
@@ -7441,10 +7556,10 @@
               "togo": "0",
               "spot": "VV30",
               "context": "H,1,0,H30",
-              "playid": "22,9,203",
+              "playid": "22,9,210",
               "type": "K",
-              "tokens": "KO:23,V13 RET:5,V35 TACK:13 PEN:H,UC,A,TM,V50,N D:1,10 SPOT:V,V50,Y",
-              "text": "B. Straight kickoff 57 yards to the LK13, S. Mcshane return 22 yards to the LK35 (M. Morawetz), PENALTY VV Unsportsmanlike Conduct 15 yards to the 50 yardline, 1st and 10, LK ball on 50 yardline.",
+              "tokens": "KO:23,V13 RET:5,V35 TACK:13 PEN:H,UC,A,39,V50,N D:1,10 SPOT:V,V50,Y",
+              "text": "B. Straight kickoff 57 yards to the LK13, S. Mcshane return 22 yards to the LK35 (M. Morawetz), PENALTY VV Unsportsmanlike Conduct (V. Leutgeb) 15 yards to the 50 yardline, 1st and 10, LK ball on 50 yardline.",
               "newcontext": "V,1,10,V50"
             },
             "p_ko": {
@@ -7472,6 +7587,7 @@
                 "vh": "H",
                 "code": "UC",
                 "type": "Unsportsmanlike Conduct",
+                "name": "V. Leutgeb",
                 "result": "ACCEPT",
                 "at": "V35",
                 "yards": "15"
@@ -7485,7 +7601,7 @@
               "togo": "10",
               "spot": "LK50",
               "context": "V,1,10,V50",
-              "playid": "23,1,204",
+              "playid": "23,1,211",
               "clock": "01:47",
               "tokens": "{DRIVE}:01:47",
               "text": "LEIPZIG KINGS drive start at 01:47.",
@@ -7499,7 +7615,7 @@
               "togo": "10",
               "spot": "LK50",
               "context": "V,1,10,V50",
-              "playid": "23,2,205",
+              "playid": "23,2,212",
               "type": "P",
               "first": "P",
               "score": "Y",
@@ -7527,7 +7643,7 @@
               "togo": "10",
               "spot": "VV15",
               "context": "V,1,10,H15",
-              "playid": "23,3,206",
+              "playid": "23,3,213",
               "type": "X",
               "score": "Y",
               "vscore": "14",
@@ -7554,11 +7670,10 @@
               "togo": "0",
               "spot": "LK30",
               "context": "V,1,0,V30",
-              "playid": "23,4,207",
+              "playid": "23,4,214",
               "type": "K",
-              "tokens": "KO:9,H02 RET:6,H20 OB: TACK:14 PEN:H,HO,A,TM,H10,N D:1,10 SPOT:H,H10,Y",
-              "text": "F. Finke kickoff 68 yards to the VV2, R. Kalous return 18 yards to the VV20, out-of-bounds (V. Laux), PENALTY VV HO 10 yards to the VV10, 1st and 10, VV ball on VV10.",
-              "ob": "Y",
+              "tokens": "KO:9,H02 RET:6,H20 PEN:H,BL,A,36,H10,N D:1,10 SPOT:H,H10,Y",
+              "text": "F. Finke kickoff 68 yards to the VV2, R. Kalous return 18 yards to the VV20, PENALTY VV Illegal Blindside Block (F. Tartarotti) 10 yards to the VV10, 1st and 10, VV ball on VV10.",
               "newcontext": "H,1,10,H10"
             },
             "p_ko": {
@@ -7575,17 +7690,12 @@
                 "gain": "18"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "V. Laux"
-              }
-            },
             "p_pn": {
               "_attributes": {
                 "vh": "H",
-                "code": "HO",
-                "type": "HO",
+                "code": "BL",
+                "type": "Illegal Blindside Block",
+                "name": "F. Tartarotti",
                 "result": "ACCEPT",
                 "at": "H20",
                 "yards": "10"
@@ -7599,7 +7709,7 @@
               "togo": "10",
               "spot": "VV10",
               "context": "H,1,10,H10",
-              "playid": "24,1,208",
+              "playid": "24,1,215",
               "clock": "01:32",
               "tokens": "{DRIVE}:01:32",
               "text": "VIENNA VIKINGS drive start at 01:32.",
@@ -7613,7 +7723,7 @@
               "togo": "10",
               "spot": "VV10",
               "context": "H,1,10,H10",
-              "playid": "24,2,209",
+              "playid": "24,2,216",
               "type": "R",
               "tokens": "RUSH:3,H19, TACK:44",
               "text": "F. Wegan rush for 9 yards to the VV19 (R. Pietsch).",
@@ -7640,7 +7750,7 @@
               "togo": "1",
               "spot": "VV19",
               "context": "H,2,1,H19",
-              "playid": "24,3,210",
+              "playid": "24,3,217",
               "type": "#",
               "clock": "00:43",
               "tokens": "TOUT:H T:00:43",
@@ -7661,7 +7771,7 @@
               "togo": "1",
               "spot": "VV19",
               "context": "H,2,1,H19",
-              "playid": "24,4,211",
+              "playid": "24,4,218",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:3,H23, TACK:7,16",
@@ -7699,7 +7809,7 @@
               "togo": "10",
               "spot": "VV23",
               "context": "H,1,10,H23",
-              "playid": "24,5,212",
+              "playid": "24,5,219",
               "type": "#",
               "clock": "00:00",
               "tokens": "HALF: T:00:00",
@@ -7795,7 +7905,7 @@
               "vh": "V",
               "spot": "V28",
               "clock": "11:38",
-              "driveindex": "21,173"
+              "driveindex": "21,180"
             }
           },
           {
@@ -7804,7 +7914,7 @@
               "vh": "H",
               "spot": "H19",
               "clock": "04:58",
-              "driveindex": "22,193"
+              "driveindex": "22,200"
             }
           },
           {
@@ -7813,7 +7923,7 @@
               "vh": "V",
               "spot": "V50",
               "clock": "01:47",
-              "driveindex": "23,203"
+              "driveindex": "23,210"
             }
           },
           {
@@ -7822,7 +7932,7 @@
               "vh": "H",
               "spot": "H10",
               "clock": "01:32",
-              "driveindex": "24,207"
+              "driveindex": "24,214"
             }
           }
         ],
@@ -7931,9 +8041,9 @@
             },
             "defense": {
               "_attributes": {
-                "tackua": "12",
+                "tackua": "10",
                 "tacka": "4",
-                "tot_tack": "16",
+                "tot_tack": "14",
                 "tflua": "1",
                 "tfla": "0",
                 "tflyds": "2",
@@ -7972,7 +8082,7 @@
             "penalties": {
               "_attributes": {
                 "no": "3",
-                "yds": "46"
+                "yds": "35"
               }
             },
             "conversions": {
@@ -8056,7 +8166,7 @@
             "kr": {
               "_attributes": {
                 "no": "2",
-                "yds": "47",
+                "yds": "36",
                 "td": "0",
                 "long": "0"
               }
@@ -8090,12 +8200,25 @@
   "visitor_players": [
     {
       "_attributes": {
+        "name": "M. Baker",
+        "shortname": "M. Baker",
+        "checkname": "BAKER,M",
+        "uni": "2",
+        "class": "SR",
+        "gp": "1",
+        "code": "2"
+      }
+    },
+    {
+      "_attributes": {
         "name": "L. Moreno",
         "shortname": "L. Moreno",
         "checkname": "MORENO,L",
         "uni": "3",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "opos": "WR",
         "code": "3"
       },
       "defense": {
@@ -8114,6 +8237,8 @@
         "uni": "4",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "opos": "QB",
         "code": "4"
       },
       "rush": {
@@ -8158,6 +8283,8 @@
         "uni": "5",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "opos": "RB",
         "code": "5"
       },
       "rush": {
@@ -8202,6 +8329,8 @@
         "uni": "7",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "opos": "WR",
         "code": "7"
       },
       "rcv": {
@@ -8214,9 +8343,9 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
+          "tackua": "0",
           "tacka": "1",
-          "tot_tack": "2"
+          "tot_tack": "1"
         }
       },
       "scoring": {
@@ -8233,6 +8362,8 @@
         "uni": "8",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "DE",
         "code": "8"
       },
       "defense": {
@@ -8241,7 +8372,7 @@
           "tacka": "3",
           "tot_tack": "5",
           "tflua": "1",
-          "tfla": "1",
+          "tfla": "2",
           "tflyds": "13",
           "sackua": "1",
           "sacka": "0",
@@ -8272,14 +8403,14 @@
       "punt": {
         "_attributes": {
           "no": "5",
-          "yds": "222",
-          "long": "52",
+          "yds": "216",
+          "long": "51",
           "blkd": "0",
           "tb": "0",
           "fc": "0",
-          "plus50": "2",
+          "plus50": "1",
           "inside20": "2",
-          "avg": "44.4"
+          "avg": "43.2"
         }
       },
       "ko": {
@@ -8300,6 +8431,28 @@
         "_attributes": {
           "patkick": "2"
         }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "C. Roemer",
+        "shortname": "C. Roemer",
+        "checkname": "ROEMER,C",
+        "uni": "10",
+        "class": "SR",
+        "gp": "1",
+        "code": "10"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "N. Riiter",
+        "shortname": "N. Riiter",
+        "checkname": "RIITER,N",
+        "uni": "11",
+        "class": "SR",
+        "gp": "1",
+        "code": "11"
       }
     },
     {
@@ -8327,6 +8480,17 @@
     },
     {
       "_attributes": {
+        "name": "N. Bomba",
+        "shortname": "N. Bomba",
+        "checkname": "BOMBA,N",
+        "uni": "13",
+        "class": "SR",
+        "gp": "1",
+        "code": "13"
+      }
+    },
+    {
+      "_attributes": {
         "name": "V. Laux",
         "shortname": "V. Laux",
         "checkname": "LAUX,V",
@@ -8337,8 +8501,8 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "3",
-          "tacka": "1",
+          "tackua": "2",
+          "tacka": "2",
           "tot_tack": "4",
           "qbh": "1"
         }
@@ -8352,12 +8516,14 @@
         "uni": "15",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "CB",
         "code": "15"
       },
       "defense": {
         "_attributes": {
-          "tackua": "3",
-          "tacka": "3",
+          "tackua": "2",
+          "tacka": "4",
           "tot_tack": "6"
         }
       }
@@ -8382,21 +8548,13 @@
     },
     {
       "_attributes": {
-        "name": "K. Mouliom",
-        "shortname": "K. Mouliom",
-        "checkname": "MOULIOM,K",
-        "uni": "17",
-        "class": "",
+        "name": "M. Ulbrich",
+        "shortname": "M. Ulbrich",
+        "checkname": "ULBRICH,M",
+        "uni": "18",
+        "class": "SR",
         "gp": "1",
-        "code": "17"
-      },
-      "defense": {
-        "_attributes": {
-          "tackua": "8",
-          "tacka": "4",
-          "tot_tack": "12",
-          "brup": "1"
-        }
+        "code": "18"
       }
     },
     {
@@ -8430,6 +8588,17 @@
     },
     {
       "_attributes": {
+        "name": "M. Jasperbrink.",
+        "shortname": "M. Jasperbrink.",
+        "checkname": ",M JASPERBRINK",
+        "uni": "21",
+        "class": "SR",
+        "gp": "1",
+        "code": "21"
+      }
+    },
+    {
+      "_attributes": {
         "name": "J. Sieveke",
         "shortname": "J. Sieveke",
         "checkname": "SIEVEKE,J",
@@ -8437,6 +8606,13 @@
         "class": "SR",
         "gp": "1",
         "code": "23"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "0",
+          "tacka": "1",
+          "tot_tack": "1"
+        }
       }
     },
     {
@@ -8447,6 +8623,8 @@
         "uni": "24",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "SS",
         "code": "24"
       },
       "defense": {
@@ -8465,13 +8643,15 @@
         "uni": "25",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "DE",
         "code": "25"
       },
       "defense": {
         "_attributes": {
           "tackua": "2",
-          "tacka": "4",
-          "tot_tack": "6"
+          "tacka": "3",
+          "tot_tack": "5"
         }
       },
       "kr": {
@@ -8485,9 +8665,30 @@
       "pr": {
         "_attributes": {
           "no": "3",
-          "yds": "14",
+          "yds": "19",
           "td": "0",
           "long": "20"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Jacob",
+        "shortname": "J. Jacob",
+        "checkname": "JACOB,J",
+        "uni": "26",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "CB",
+        "code": "26"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "7",
+          "tacka": "4",
+          "tot_tack": "11",
+          "brup": "1"
         }
       }
     },
@@ -8499,6 +8700,8 @@
         "uni": "28",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "DE",
         "code": "28"
       },
       "defense": {
@@ -8529,19 +8732,32 @@
     },
     {
       "_attributes": {
+        "name": "D. Wuensche",
+        "shortname": "D. Wuensche",
+        "checkname": "WUENSCHE,D",
+        "uni": "34",
+        "class": "SR",
+        "gp": "1",
+        "code": "34"
+      }
+    },
+    {
+      "_attributes": {
         "name": "M. Bausch",
         "shortname": "M. Bausch",
         "checkname": "BAUSCH,M",
         "uni": "37",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
         "code": "37"
       },
       "defense": {
         "_attributes": {
           "tackua": "2",
-          "tacka": "2",
-          "tot_tack": "4"
+          "tacka": "3",
+          "tot_tack": "5"
         }
       }
     },
@@ -8569,7 +8785,7 @@
         "shortname": "R. Mohamed",
         "checkname": "MOHAMED,R",
         "uni": "45",
-        "class": "",
+        "class": "SR",
         "gp": "1",
         "code": "45"
       },
@@ -8589,6 +8805,8 @@
         "uni": "49",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
         "code": "49"
       },
       "defense": {
@@ -8611,16 +8829,49 @@
         "uni": "50",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
         "code": "50"
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
-          "tacka": "4",
+          "tackua": "0",
+          "tacka": "5",
           "tot_tack": "5",
-          "tflua": "1",
-          "tfla": "0",
+          "tflua": "0",
+          "tfla": "1",
           "tflyds": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "A. Igba",
+        "shortname": "A. Igba",
+        "checkname": "IGBA,A",
+        "uni": "59",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OG",
+        "code": "59"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "N. Koch",
+        "shortname": "N. Koch",
+        "checkname": "KOCH,N",
+        "uni": "61",
+        "class": "SR",
+        "gp": "1",
+        "code": "61"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "1",
+          "tot_tack": "2"
         }
       }
     },
@@ -8644,20 +8895,89 @@
     },
     {
       "_attributes": {
-        "name": "D. Behrens",
-        "shortname": "D. Behrens",
-        "checkname": "BEHRENS,D",
-        "uni": "76",
+        "name": "O. Inan",
+        "shortname": "O. Inan",
+        "checkname": "INAN,O",
+        "uni": "67",
+        "class": "",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OLB",
+        "code": "67"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "H. Perl",
+        "shortname": "H. Perl",
+        "checkname": "PERL,H",
+        "uni": "69",
         "class": "SR",
         "gp": "1",
-        "code": "76"
-      },
-      "defense": {
-        "_attributes": {
-          "tackua": "1",
-          "tacka": "1",
-          "tot_tack": "2"
-        }
+        "gs": "1",
+        "opos": "OG",
+        "code": "69"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "T. Bruetsch",
+        "shortname": "T. Bruetsch",
+        "checkname": "BRUETSCH,T",
+        "uni": "74",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "C",
+        "code": "74"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Coenes",
+        "shortname": "J. Coenes",
+        "checkname": "COENES,J",
+        "uni": "77",
+        "class": "SR",
+        "gp": "1",
+        "code": "77"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "P. Jakob",
+        "shortname": "P. Jakob",
+        "checkname": "JAKOB,P",
+        "uni": "78",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OG",
+        "code": "78"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "N. Baeumer",
+        "shortname": "N. Baeumer",
+        "checkname": "BAEUMER,N",
+        "uni": "81",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "WR",
+        "code": "81"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "D. Rofalski",
+        "shortname": "D. Rofalski",
+        "checkname": "ROFALSKI,D",
+        "uni": "82",
+        "class": "SR",
+        "gp": "1",
+        "code": "82"
       }
     },
     {
@@ -8668,6 +8988,8 @@
         "uni": "88",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "opos": "TE",
         "code": "88"
       },
       "rcv": {
@@ -8687,6 +9009,8 @@
         "uni": "90",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "DT",
         "code": "90"
       },
       "defense": {
@@ -8717,12 +9041,25 @@
     },
     {
       "_attributes": {
+        "name": "R. Damasch",
+        "shortname": "R. Damasch",
+        "checkname": "DAMASCH,R",
+        "uni": "97",
+        "class": "SR",
+        "gp": "1",
+        "code": "97"
+      }
+    },
+    {
+      "_attributes": {
         "name": "C. Reimann",
         "shortname": "C. Reimann",
         "checkname": "REIMANN,C",
         "uni": "98",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "DT",
         "code": "98"
       },
       "defense": {
@@ -8813,7 +9150,7 @@
     "penalties": {
       "_attributes": {
         "no": "8",
-        "yds": "65"
+        "yds": "72"
       }
     },
     "conversions": {
@@ -8833,7 +9170,7 @@
     "misc": {
       "_attributes": {
         "yds": "-3",
-        "top": "25:23",
+        "top": "25:18",
         "ona": "0",
         "onm": "0",
         "ptsto": "0"
@@ -8888,14 +9225,14 @@
     "punt": {
       "_attributes": {
         "no": "5",
-        "yds": "222",
-        "long": "52",
+        "yds": "216",
+        "long": "51",
         "blkd": "0",
         "tb": "0",
         "fc": "0",
-        "plus50": "2",
+        "plus50": "1",
         "inside20": "2",
-        "avg": "44.4"
+        "avg": "43.2"
       }
     },
     "ko": {
@@ -8915,11 +9252,11 @@
     },
     "defense": {
       "_attributes": {
-        "tackua": "46",
-        "tacka": "48",
-        "tot_tack": "94",
-        "tflua": "3",
-        "tfla": "2",
+        "tackua": "41",
+        "tacka": "52",
+        "tot_tack": "93",
+        "tflua": "2",
+        "tfla": "4",
         "tflyds": "18",
         "sacks": "1",
         "sackyds": "11",
@@ -8938,7 +9275,7 @@
     "pr": {
       "_attributes": {
         "no": "3",
-        "yds": "14",
+        "yds": "19",
         "td": "0",
         "long": "20"
       }
@@ -8995,27 +9332,27 @@
     "totals": {
       "_attributes": {
         "totoff_plays": "78",
-        "totoff_yards": "488",
+        "totoff_yards": "489",
         "totoff_avg": "6.3"
       },
       "firstdowns": {
         "_attributes": {
-          "no": "31",
-          "rush": "18",
-          "pass": "13",
+          "no": "30",
+          "rush": "16",
+          "pass": "14",
           "penalty": "0"
         }
       },
       "penalties": {
         "_attributes": {
           "no": "8",
-          "yds": "95"
+          "yds": "84"
         }
       },
       "conversions": {
         "_attributes": {
-          "thirdconv": "10",
-          "thirdatt": "16",
+          "thirdconv": "9",
+          "thirdatt": "15",
           "fourthconv": "1",
           "fourthatt": "2"
         }
@@ -9029,7 +9366,7 @@
       "misc": {
         "_attributes": {
           "yds": "0",
-          "top": "34:37",
+          "top": "34:42",
           "ona": "0",
           "onm": "0",
           "ptsto": "14"
@@ -9053,9 +9390,9 @@
       },
       "rush": {
         "_attributes": {
-          "att": "39",
-          "yds": "259",
-          "gain": "266",
+          "att": "38",
+          "yds": "250",
+          "gain": "257",
           "loss": "7",
           "td": "3",
           "long": "25"
@@ -9063,10 +9400,10 @@
       },
       "pass": {
         "_attributes": {
-          "comp": "27",
-          "att": "38",
+          "comp": "28",
+          "att": "39",
           "int": "0",
-          "yds": "229",
+          "yds": "239",
           "td": "3",
           "long": "40",
           "sacks": "1",
@@ -9075,8 +9412,8 @@
       },
       "rcv": {
         "_attributes": {
-          "no": "27",
-          "yds": "240",
+          "no": "28",
+          "yds": "250",
           "td": "3",
           "long": "40"
         }
@@ -9127,20 +9464,20 @@
           "tflyds": "17",
           "sacks": "1",
           "sackyds": "4",
-          "brup": "5",
+          "brup": "6",
           "qbh": "2",
           "saf": "1",
           "ff": "2",
           "fr": "2",
           "fryds": "0",
           "int": "1",
-          "intyds": "-2"
+          "intyds": "0"
         }
       },
       "kr": {
         "_attributes": {
           "no": "3",
-          "yds": "81",
+          "yds": "70",
           "td": "0",
           "long": "34"
         }
@@ -9148,15 +9485,15 @@
       "pr": {
         "_attributes": {
           "no": "5",
-          "yds": "38",
+          "yds": "31",
           "td": "0",
-          "long": "23"
+          "long": "22"
         }
       },
       "ir": {
         "_attributes": {
           "no": "1",
-          "yds": "-2",
+          "yds": "0",
           "td": "0",
           "long": "0"
         }
@@ -9179,6 +9516,8 @@
           "uni": "1",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
           "code": "1"
         },
         "defense": {
@@ -9240,9 +9579,9 @@
         },
         "rush": {
           "_attributes": {
-            "att": "19",
-            "yds": "133",
-            "gain": "139",
+            "att": "18",
+            "yds": "125",
+            "gain": "131",
             "loss": "6",
             "td": "1",
             "long": "25"
@@ -9250,8 +9589,8 @@
         },
         "rcv": {
           "_attributes": {
-            "no": "1",
-            "yds": "9",
+            "no": "2",
+            "yds": "18",
             "td": "0",
             "long": "9"
           }
@@ -9270,6 +9609,8 @@
           "uni": "4",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "opos": "WR",
           "code": "4"
         },
         "rcv": {
@@ -9289,6 +9630,8 @@
           "uni": "6",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "opos": "WR",
           "code": "6"
         },
         "rcv": {
@@ -9302,9 +9645,9 @@
         "kr": {
           "_attributes": {
             "no": "2",
-            "yds": "47",
+            "yds": "36",
             "td": "0",
-            "long": "29"
+            "long": "18"
           }
         }
       },
@@ -9316,6 +9659,8 @@
           "uni": "7",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "CB",
           "code": "7"
         },
         "defense": {
@@ -9327,7 +9672,7 @@
             "tfla": "0",
             "tflyds": "1",
             "int": "1",
-            "intyds": "-2"
+            "intyds": "0"
           }
         },
         "kr": {
@@ -9341,15 +9686,15 @@
         "pr": {
           "_attributes": {
             "no": "5",
-            "yds": "38",
+            "yds": "31",
             "td": "0",
-            "long": "23"
+            "long": "22"
           }
         },
         "ir": {
           "_attributes": {
             "no": "1",
-            "yds": "-2",
+            "yds": "0",
             "td": "0",
             "long": "0"
           }
@@ -9363,6 +9708,8 @@
           "uni": "8",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "opos": "QB",
           "code": "8"
         },
         "rush": {
@@ -9377,10 +9724,10 @@
         },
         "pass": {
           "_attributes": {
-            "comp": "27",
-            "att": "38",
+            "comp": "28",
+            "att": "39",
             "int": "0",
-            "yds": "240",
+            "yds": "250",
             "td": "3",
             "long": "40",
             "sacks": "1",
@@ -9395,18 +9742,31 @@
       },
       {
         "_attributes": {
+          "name": "J. Henderson",
+          "shortname": "J. Henderson",
+          "checkname": "HENDERSON,J",
+          "uni": "9",
+          "class": "SR",
+          "gp": "1",
+          "code": "9"
+        }
+      },
+      {
+        "_attributes": {
           "name": "W. Carr",
           "shortname": "W. Carr",
           "checkname": "CARR,W",
           "uni": "10",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "opos": "WR",
           "code": "10"
         },
         "rcv": {
           "_attributes": {
             "no": "10",
-            "yds": "113",
+            "yds": "114",
             "td": "3",
             "long": "40"
           }
@@ -9483,6 +9843,8 @@
           "uni": "15",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "opos": "TE",
           "code": "15"
         },
         "rcv": {
@@ -9492,6 +9854,50 @@
             "td": "0",
             "long": "6"
           }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "P. Dubravec",
+          "shortname": "P. Dubravec",
+          "checkname": "DUBRAVEC,P",
+          "uni": "17",
+          "class": "SR",
+          "gp": "1",
+          "code": "17"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "N. Rabitsch",
+          "shortname": "N. Rabitsch",
+          "checkname": "RABITSCH,N",
+          "uni": "18",
+          "class": "SR",
+          "gp": "1",
+          "code": "18"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "Fl. Jobst",
+          "shortname": "Fl. Jobst",
+          "checkname": "JOBST,FL",
+          "uni": "20",
+          "class": "SR",
+          "gp": "1",
+          "code": "20"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "L. Gerner",
+          "shortname": "L. Gerner",
+          "checkname": "GERNER,L",
+          "uni": "21",
+          "class": "SR",
+          "gp": "1",
+          "code": "21"
         }
       },
       {
@@ -9520,6 +9926,8 @@
           "uni": "23",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "SS",
           "code": "23"
         },
         "punt": {
@@ -9560,13 +9968,15 @@
           "uni": "24",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "opos": "RB",
           "code": "24"
         },
         "rush": {
           "_attributes": {
             "att": "8",
-            "yds": "56",
-            "gain": "57",
+            "yds": "55",
+            "gain": "56",
             "loss": "1",
             "td": "0",
             "long": "17"
@@ -9589,6 +9999,8 @@
           "uni": "26",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "CB",
           "code": "26"
         },
         "defense": {
@@ -9612,6 +10024,8 @@
           "uni": "27",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "CB",
           "code": "27"
         },
         "defense": {
@@ -9619,7 +10033,7 @@
             "tackua": "2",
             "tacka": "3",
             "tot_tack": "5",
-            "brup": "2"
+            "brup": "3"
           }
         }
       },
@@ -9631,13 +10045,16 @@
           "uni": "32",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "FS",
           "code": "32"
         },
         "defense": {
           "_attributes": {
-            "tackua": "2",
+            "tackua": "3",
             "tacka": "0",
-            "tot_tack": "2"
+            "tot_tack": "3",
+            "ff": "1"
           }
         }
       },
@@ -9727,6 +10144,8 @@
           "uni": "42",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
           "code": "42"
         },
         "defense": {
@@ -9765,6 +10184,8 @@
           "uni": "46",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "DE",
           "code": "46"
         },
         "defense": {
@@ -9786,6 +10207,8 @@
           "uni": "49",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
           "code": "49"
         },
         "defense": {
@@ -9802,21 +10225,96 @@
       },
       {
         "_attributes": {
+          "name": "C. Walz",
+          "shortname": "C. Walz",
+          "checkname": "WALZ,C",
+          "uni": "51",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "C",
+          "code": "51"
+        }
+      },
+      {
+        "_attributes": {
           "name": "O. Kranich",
           "shortname": "O. Kranich",
           "checkname": "KRANICH,O",
           "uni": "52",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "DT",
           "code": "52"
         },
         "defense": {
           "_attributes": {
-            "tackua": "2",
+            "tackua": "1",
             "tacka": "2",
-            "tot_tack": "4",
-            "ff": "1"
+            "tot_tack": "3"
           }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Daltrey",
+          "shortname": "M. Daltrey",
+          "checkname": "DALTREY,M",
+          "uni": "56",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OL",
+          "code": "56"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "A. Milanovic",
+          "shortname": "A. Milanovic",
+          "checkname": "MILANOVIC,A",
+          "uni": "61",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OT",
+          "code": "61"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Janda",
+          "shortname": "M. Janda",
+          "checkname": "JANDA,M",
+          "uni": "65",
+          "class": "SR",
+          "gp": "1",
+          "code": "65"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "L. Holub",
+          "shortname": "L. Holub",
+          "checkname": "HOLUB,L",
+          "uni": "71",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OT",
+          "code": "71"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Stockamp",
+          "shortname": "M. Stockamp",
+          "checkname": "STOCKAMP,M",
+          "uni": "73",
+          "class": "SR",
+          "gp": "1",
+          "code": "73"
         }
       },
       {
@@ -9836,6 +10334,63 @@
             "tot_tack": "1",
             "qbh": "1"
           }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "D. Rauter",
+          "shortname": "D. Rauter",
+          "checkname": "RAUTER,D",
+          "uni": "77",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OT",
+          "code": "77"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "B. Rab",
+          "shortname": "B. Rab",
+          "checkname": "RAB,B",
+          "uni": "79",
+          "class": "SR",
+          "gp": "1",
+          "code": "79"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "F. Andrisan",
+          "shortname": "F. Andrisan",
+          "checkname": "ANDRISAN,F",
+          "uni": "83",
+          "class": "SR",
+          "gp": "1",
+          "code": "83"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Schmahel",
+          "shortname": "M. Schmahel",
+          "checkname": "SCHMAHEL,M",
+          "uni": "88",
+          "class": "SR",
+          "gp": "1",
+          "code": "88"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "F. Bierbaumer",
+          "shortname": "F. Bierbaumer",
+          "checkname": "BIERBAUMER,F",
+          "uni": "89",
+          "class": "SR",
+          "gp": "1",
+          "code": "89"
         }
       },
       {
@@ -9864,6 +10419,8 @@
           "uni": "99",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "DT",
           "code": "99"
         },
         "defense": {
@@ -9972,7 +10529,7 @@
       "penalties": {
         "_attributes": {
           "no": "8",
-          "yds": "65"
+          "yds": "72"
         }
       },
       "conversions": {
@@ -9992,7 +10549,7 @@
       "misc": {
         "_attributes": {
           "yds": "-3",
-          "top": "25:23",
+          "top": "25:18",
           "ona": "0",
           "onm": "0",
           "ptsto": "0"
@@ -10047,14 +10604,14 @@
       "punt": {
         "_attributes": {
           "no": "5",
-          "yds": "222",
-          "long": "52",
+          "yds": "216",
+          "long": "51",
           "blkd": "0",
           "tb": "0",
           "fc": "0",
-          "plus50": "2",
+          "plus50": "1",
           "inside20": "2",
-          "avg": "44.4"
+          "avg": "43.2"
         }
       },
       "ko": {
@@ -10074,11 +10631,11 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "46",
-          "tacka": "48",
-          "tot_tack": "94",
-          "tflua": "3",
-          "tfla": "2",
+          "tackua": "41",
+          "tacka": "52",
+          "tot_tack": "93",
+          "tflua": "2",
+          "tfla": "4",
           "tflyds": "18",
           "sacks": "1",
           "sackyds": "11",
@@ -10097,7 +10654,7 @@
       "pr": {
         "_attributes": {
           "no": "3",
-          "yds": "14",
+          "yds": "19",
           "td": "0",
           "long": "20"
         }
@@ -10112,12 +10669,25 @@
     "player": [
       {
         "_attributes": {
+          "name": "M. Baker",
+          "shortname": "M. Baker",
+          "checkname": "BAKER,M",
+          "uni": "2",
+          "class": "SR",
+          "gp": "1",
+          "code": "2"
+        }
+      },
+      {
+        "_attributes": {
           "name": "L. Moreno",
           "shortname": "L. Moreno",
           "checkname": "MORENO,L",
           "uni": "3",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "opos": "WR",
           "code": "3"
         },
         "defense": {
@@ -10136,6 +10706,8 @@
           "uni": "4",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "opos": "QB",
           "code": "4"
         },
         "rush": {
@@ -10180,6 +10752,8 @@
           "uni": "5",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "opos": "RB",
           "code": "5"
         },
         "rush": {
@@ -10224,6 +10798,8 @@
           "uni": "7",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "opos": "WR",
           "code": "7"
         },
         "rcv": {
@@ -10236,9 +10812,9 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
+            "tackua": "0",
             "tacka": "1",
-            "tot_tack": "2"
+            "tot_tack": "1"
           }
         },
         "scoring": {
@@ -10255,6 +10831,8 @@
           "uni": "8",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "DE",
           "code": "8"
         },
         "defense": {
@@ -10263,7 +10841,7 @@
             "tacka": "3",
             "tot_tack": "5",
             "tflua": "1",
-            "tfla": "1",
+            "tfla": "2",
             "tflyds": "13",
             "sackua": "1",
             "sacka": "0",
@@ -10294,14 +10872,14 @@
         "punt": {
           "_attributes": {
             "no": "5",
-            "yds": "222",
-            "long": "52",
+            "yds": "216",
+            "long": "51",
             "blkd": "0",
             "tb": "0",
             "fc": "0",
-            "plus50": "2",
+            "plus50": "1",
             "inside20": "2",
-            "avg": "44.4"
+            "avg": "43.2"
           }
         },
         "ko": {
@@ -10322,6 +10900,28 @@
           "_attributes": {
             "patkick": "2"
           }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "C. Roemer",
+          "shortname": "C. Roemer",
+          "checkname": "ROEMER,C",
+          "uni": "10",
+          "class": "SR",
+          "gp": "1",
+          "code": "10"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "N. Riiter",
+          "shortname": "N. Riiter",
+          "checkname": "RIITER,N",
+          "uni": "11",
+          "class": "SR",
+          "gp": "1",
+          "code": "11"
         }
       },
       {
@@ -10349,6 +10949,17 @@
       },
       {
         "_attributes": {
+          "name": "N. Bomba",
+          "shortname": "N. Bomba",
+          "checkname": "BOMBA,N",
+          "uni": "13",
+          "class": "SR",
+          "gp": "1",
+          "code": "13"
+        }
+      },
+      {
+        "_attributes": {
           "name": "V. Laux",
           "shortname": "V. Laux",
           "checkname": "LAUX,V",
@@ -10359,8 +10970,8 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "3",
-            "tacka": "1",
+            "tackua": "2",
+            "tacka": "2",
             "tot_tack": "4",
             "qbh": "1"
           }
@@ -10374,12 +10985,14 @@
           "uni": "15",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "CB",
           "code": "15"
         },
         "defense": {
           "_attributes": {
-            "tackua": "3",
-            "tacka": "3",
+            "tackua": "2",
+            "tacka": "4",
             "tot_tack": "6"
           }
         }
@@ -10404,21 +11017,13 @@
       },
       {
         "_attributes": {
-          "name": "K. Mouliom",
-          "shortname": "K. Mouliom",
-          "checkname": "MOULIOM,K",
-          "uni": "17",
-          "class": "",
+          "name": "M. Ulbrich",
+          "shortname": "M. Ulbrich",
+          "checkname": "ULBRICH,M",
+          "uni": "18",
+          "class": "SR",
           "gp": "1",
-          "code": "17"
-        },
-        "defense": {
-          "_attributes": {
-            "tackua": "8",
-            "tacka": "4",
-            "tot_tack": "12",
-            "brup": "1"
-          }
+          "code": "18"
         }
       },
       {
@@ -10452,6 +11057,17 @@
       },
       {
         "_attributes": {
+          "name": "M. Jasperbrink.",
+          "shortname": "M. Jasperbrink.",
+          "checkname": ",M JASPERBRINK",
+          "uni": "21",
+          "class": "SR",
+          "gp": "1",
+          "code": "21"
+        }
+      },
+      {
+        "_attributes": {
           "name": "J. Sieveke",
           "shortname": "J. Sieveke",
           "checkname": "SIEVEKE,J",
@@ -10459,6 +11075,13 @@
           "class": "SR",
           "gp": "1",
           "code": "23"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "0",
+            "tacka": "1",
+            "tot_tack": "1"
+          }
         }
       },
       {
@@ -10469,6 +11092,8 @@
           "uni": "24",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "SS",
           "code": "24"
         },
         "defense": {
@@ -10487,13 +11112,15 @@
           "uni": "25",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "DE",
           "code": "25"
         },
         "defense": {
           "_attributes": {
             "tackua": "2",
-            "tacka": "4",
-            "tot_tack": "6"
+            "tacka": "3",
+            "tot_tack": "5"
           }
         },
         "kr": {
@@ -10507,9 +11134,30 @@
         "pr": {
           "_attributes": {
             "no": "3",
-            "yds": "14",
+            "yds": "19",
             "td": "0",
             "long": "20"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Jacob",
+          "shortname": "J. Jacob",
+          "checkname": "JACOB,J",
+          "uni": "26",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "CB",
+          "code": "26"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "7",
+            "tacka": "4",
+            "tot_tack": "11",
+            "brup": "1"
           }
         }
       },
@@ -10521,6 +11169,8 @@
           "uni": "28",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "DE",
           "code": "28"
         },
         "defense": {
@@ -10551,19 +11201,32 @@
       },
       {
         "_attributes": {
+          "name": "D. Wuensche",
+          "shortname": "D. Wuensche",
+          "checkname": "WUENSCHE,D",
+          "uni": "34",
+          "class": "SR",
+          "gp": "1",
+          "code": "34"
+        }
+      },
+      {
+        "_attributes": {
           "name": "M. Bausch",
           "shortname": "M. Bausch",
           "checkname": "BAUSCH,M",
           "uni": "37",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
           "code": "37"
         },
         "defense": {
           "_attributes": {
             "tackua": "2",
-            "tacka": "2",
-            "tot_tack": "4"
+            "tacka": "3",
+            "tot_tack": "5"
           }
         }
       },
@@ -10591,7 +11254,7 @@
           "shortname": "R. Mohamed",
           "checkname": "MOHAMED,R",
           "uni": "45",
-          "class": "",
+          "class": "SR",
           "gp": "1",
           "code": "45"
         },
@@ -10611,6 +11274,8 @@
           "uni": "49",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
           "code": "49"
         },
         "defense": {
@@ -10633,16 +11298,49 @@
           "uni": "50",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
           "code": "50"
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
-            "tacka": "4",
+            "tackua": "0",
+            "tacka": "5",
             "tot_tack": "5",
-            "tflua": "1",
-            "tfla": "0",
+            "tflua": "0",
+            "tfla": "1",
             "tflyds": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "A. Igba",
+          "shortname": "A. Igba",
+          "checkname": "IGBA,A",
+          "uni": "59",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OG",
+          "code": "59"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "N. Koch",
+          "shortname": "N. Koch",
+          "checkname": "KOCH,N",
+          "uni": "61",
+          "class": "SR",
+          "gp": "1",
+          "code": "61"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "1",
+            "tot_tack": "2"
           }
         }
       },
@@ -10666,20 +11364,89 @@
       },
       {
         "_attributes": {
-          "name": "D. Behrens",
-          "shortname": "D. Behrens",
-          "checkname": "BEHRENS,D",
-          "uni": "76",
+          "name": "O. Inan",
+          "shortname": "O. Inan",
+          "checkname": "INAN,O",
+          "uni": "67",
+          "class": "",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OLB",
+          "code": "67"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "H. Perl",
+          "shortname": "H. Perl",
+          "checkname": "PERL,H",
+          "uni": "69",
           "class": "SR",
           "gp": "1",
-          "code": "76"
-        },
-        "defense": {
-          "_attributes": {
-            "tackua": "1",
-            "tacka": "1",
-            "tot_tack": "2"
-          }
+          "gs": "1",
+          "opos": "OG",
+          "code": "69"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "T. Bruetsch",
+          "shortname": "T. Bruetsch",
+          "checkname": "BRUETSCH,T",
+          "uni": "74",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "C",
+          "code": "74"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Coenes",
+          "shortname": "J. Coenes",
+          "checkname": "COENES,J",
+          "uni": "77",
+          "class": "SR",
+          "gp": "1",
+          "code": "77"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "P. Jakob",
+          "shortname": "P. Jakob",
+          "checkname": "JAKOB,P",
+          "uni": "78",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OG",
+          "code": "78"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "N. Baeumer",
+          "shortname": "N. Baeumer",
+          "checkname": "BAEUMER,N",
+          "uni": "81",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "WR",
+          "code": "81"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "D. Rofalski",
+          "shortname": "D. Rofalski",
+          "checkname": "ROFALSKI,D",
+          "uni": "82",
+          "class": "SR",
+          "gp": "1",
+          "code": "82"
         }
       },
       {
@@ -10690,6 +11457,8 @@
           "uni": "88",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "opos": "TE",
           "code": "88"
         },
         "rcv": {
@@ -10709,6 +11478,8 @@
           "uni": "90",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "DT",
           "code": "90"
         },
         "defense": {
@@ -10739,12 +11510,25 @@
       },
       {
         "_attributes": {
+          "name": "R. Damasch",
+          "shortname": "R. Damasch",
+          "checkname": "DAMASCH,R",
+          "uni": "97",
+          "class": "SR",
+          "gp": "1",
+          "code": "97"
+        }
+      },
+      {
+        "_attributes": {
           "name": "C. Reimann",
           "shortname": "C. Reimann",
           "checkname": "REIMANN,C",
           "uni": "98",
           "class": "SR",
           "gp": "1",
+          "gs": "1",
+          "dpos": "DT",
           "code": "98"
         },
         "defense": {
@@ -10795,6 +11579,8 @@
         "uni": "1",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
         "code": "1"
       },
       "defense": {
@@ -10856,9 +11642,9 @@
       },
       "rush": {
         "_attributes": {
-          "att": "19",
-          "yds": "133",
-          "gain": "139",
+          "att": "18",
+          "yds": "125",
+          "gain": "131",
           "loss": "6",
           "td": "1",
           "long": "25"
@@ -10866,8 +11652,8 @@
       },
       "rcv": {
         "_attributes": {
-          "no": "1",
-          "yds": "9",
+          "no": "2",
+          "yds": "18",
           "td": "0",
           "long": "9"
         }
@@ -10886,6 +11672,8 @@
         "uni": "4",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "opos": "WR",
         "code": "4"
       },
       "rcv": {
@@ -10905,6 +11693,8 @@
         "uni": "6",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "opos": "WR",
         "code": "6"
       },
       "rcv": {
@@ -10918,9 +11708,9 @@
       "kr": {
         "_attributes": {
           "no": "2",
-          "yds": "47",
+          "yds": "36",
           "td": "0",
-          "long": "29"
+          "long": "18"
         }
       }
     },
@@ -10932,6 +11722,8 @@
         "uni": "7",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "CB",
         "code": "7"
       },
       "defense": {
@@ -10943,7 +11735,7 @@
           "tfla": "0",
           "tflyds": "1",
           "int": "1",
-          "intyds": "-2"
+          "intyds": "0"
         }
       },
       "kr": {
@@ -10957,15 +11749,15 @@
       "pr": {
         "_attributes": {
           "no": "5",
-          "yds": "38",
+          "yds": "31",
           "td": "0",
-          "long": "23"
+          "long": "22"
         }
       },
       "ir": {
         "_attributes": {
           "no": "1",
-          "yds": "-2",
+          "yds": "0",
           "td": "0",
           "long": "0"
         }
@@ -10979,6 +11771,8 @@
         "uni": "8",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "opos": "QB",
         "code": "8"
       },
       "rush": {
@@ -10993,10 +11787,10 @@
       },
       "pass": {
         "_attributes": {
-          "comp": "27",
-          "att": "38",
+          "comp": "28",
+          "att": "39",
           "int": "0",
-          "yds": "240",
+          "yds": "250",
           "td": "3",
           "long": "40",
           "sacks": "1",
@@ -11011,18 +11805,31 @@
     },
     {
       "_attributes": {
+        "name": "J. Henderson",
+        "shortname": "J. Henderson",
+        "checkname": "HENDERSON,J",
+        "uni": "9",
+        "class": "SR",
+        "gp": "1",
+        "code": "9"
+      }
+    },
+    {
+      "_attributes": {
         "name": "W. Carr",
         "shortname": "W. Carr",
         "checkname": "CARR,W",
         "uni": "10",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "opos": "WR",
         "code": "10"
       },
       "rcv": {
         "_attributes": {
           "no": "10",
-          "yds": "113",
+          "yds": "114",
           "td": "3",
           "long": "40"
         }
@@ -11099,6 +11906,8 @@
         "uni": "15",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "opos": "TE",
         "code": "15"
       },
       "rcv": {
@@ -11108,6 +11917,50 @@
           "td": "0",
           "long": "6"
         }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "P. Dubravec",
+        "shortname": "P. Dubravec",
+        "checkname": "DUBRAVEC,P",
+        "uni": "17",
+        "class": "SR",
+        "gp": "1",
+        "code": "17"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "N. Rabitsch",
+        "shortname": "N. Rabitsch",
+        "checkname": "RABITSCH,N",
+        "uni": "18",
+        "class": "SR",
+        "gp": "1",
+        "code": "18"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "Fl. Jobst",
+        "shortname": "Fl. Jobst",
+        "checkname": "JOBST,FL",
+        "uni": "20",
+        "class": "SR",
+        "gp": "1",
+        "code": "20"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "L. Gerner",
+        "shortname": "L. Gerner",
+        "checkname": "GERNER,L",
+        "uni": "21",
+        "class": "SR",
+        "gp": "1",
+        "code": "21"
       }
     },
     {
@@ -11136,6 +11989,8 @@
         "uni": "23",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "SS",
         "code": "23"
       },
       "punt": {
@@ -11176,13 +12031,15 @@
         "uni": "24",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "opos": "RB",
         "code": "24"
       },
       "rush": {
         "_attributes": {
           "att": "8",
-          "yds": "56",
-          "gain": "57",
+          "yds": "55",
+          "gain": "56",
           "loss": "1",
           "td": "0",
           "long": "17"
@@ -11205,6 +12062,8 @@
         "uni": "26",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "CB",
         "code": "26"
       },
       "defense": {
@@ -11228,6 +12087,8 @@
         "uni": "27",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "CB",
         "code": "27"
       },
       "defense": {
@@ -11235,7 +12096,7 @@
           "tackua": "2",
           "tacka": "3",
           "tot_tack": "5",
-          "brup": "2"
+          "brup": "3"
         }
       }
     },
@@ -11247,13 +12108,16 @@
         "uni": "32",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "FS",
         "code": "32"
       },
       "defense": {
         "_attributes": {
-          "tackua": "2",
+          "tackua": "3",
           "tacka": "0",
-          "tot_tack": "2"
+          "tot_tack": "3",
+          "ff": "1"
         }
       }
     },
@@ -11343,6 +12207,8 @@
         "uni": "42",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
         "code": "42"
       },
       "defense": {
@@ -11381,6 +12247,8 @@
         "uni": "46",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "DE",
         "code": "46"
       },
       "defense": {
@@ -11402,6 +12270,8 @@
         "uni": "49",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
         "code": "49"
       },
       "defense": {
@@ -11418,21 +12288,96 @@
     },
     {
       "_attributes": {
+        "name": "C. Walz",
+        "shortname": "C. Walz",
+        "checkname": "WALZ,C",
+        "uni": "51",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "C",
+        "code": "51"
+      }
+    },
+    {
+      "_attributes": {
         "name": "O. Kranich",
         "shortname": "O. Kranich",
         "checkname": "KRANICH,O",
         "uni": "52",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "DT",
         "code": "52"
       },
       "defense": {
         "_attributes": {
-          "tackua": "2",
+          "tackua": "1",
           "tacka": "2",
-          "tot_tack": "4",
-          "ff": "1"
+          "tot_tack": "3"
         }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Daltrey",
+        "shortname": "M. Daltrey",
+        "checkname": "DALTREY,M",
+        "uni": "56",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OL",
+        "code": "56"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "A. Milanovic",
+        "shortname": "A. Milanovic",
+        "checkname": "MILANOVIC,A",
+        "uni": "61",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OT",
+        "code": "61"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Janda",
+        "shortname": "M. Janda",
+        "checkname": "JANDA,M",
+        "uni": "65",
+        "class": "SR",
+        "gp": "1",
+        "code": "65"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "L. Holub",
+        "shortname": "L. Holub",
+        "checkname": "HOLUB,L",
+        "uni": "71",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OT",
+        "code": "71"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Stockamp",
+        "shortname": "M. Stockamp",
+        "checkname": "STOCKAMP,M",
+        "uni": "73",
+        "class": "SR",
+        "gp": "1",
+        "code": "73"
       }
     },
     {
@@ -11452,6 +12397,63 @@
           "tot_tack": "1",
           "qbh": "1"
         }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "D. Rauter",
+        "shortname": "D. Rauter",
+        "checkname": "RAUTER,D",
+        "uni": "77",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OT",
+        "code": "77"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "B. Rab",
+        "shortname": "B. Rab",
+        "checkname": "RAB,B",
+        "uni": "79",
+        "class": "SR",
+        "gp": "1",
+        "code": "79"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "F. Andrisan",
+        "shortname": "F. Andrisan",
+        "checkname": "ANDRISAN,F",
+        "uni": "83",
+        "class": "SR",
+        "gp": "1",
+        "code": "83"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Schmahel",
+        "shortname": "M. Schmahel",
+        "checkname": "SCHMAHEL,M",
+        "uni": "88",
+        "class": "SR",
+        "gp": "1",
+        "code": "88"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "F. Bierbaumer",
+        "shortname": "F. Bierbaumer",
+        "checkname": "BIERBAUMER,F",
+        "uni": "89",
+        "class": "SR",
+        "gp": "1",
+        "code": "89"
       }
     },
     {
@@ -11480,6 +12482,8 @@
         "uni": "99",
         "class": "SR",
         "gp": "1",
+        "gs": "1",
+        "dpos": "DT",
         "code": "99"
       },
       "defense": {
@@ -11564,27 +12568,27 @@
   "home_totals": {
     "_attributes": {
       "totoff_plays": "78",
-      "totoff_yards": "488",
+      "totoff_yards": "489",
       "totoff_avg": "6.3"
     },
     "firstdowns": {
       "_attributes": {
-        "no": "31",
-        "rush": "18",
-        "pass": "13",
+        "no": "30",
+        "rush": "16",
+        "pass": "14",
         "penalty": "0"
       }
     },
     "penalties": {
       "_attributes": {
         "no": "8",
-        "yds": "95"
+        "yds": "84"
       }
     },
     "conversions": {
       "_attributes": {
-        "thirdconv": "10",
-        "thirdatt": "16",
+        "thirdconv": "9",
+        "thirdatt": "15",
         "fourthconv": "1",
         "fourthatt": "2"
       }
@@ -11598,7 +12602,7 @@
     "misc": {
       "_attributes": {
         "yds": "0",
-        "top": "34:37",
+        "top": "34:42",
         "ona": "0",
         "onm": "0",
         "ptsto": "14"
@@ -11622,9 +12626,9 @@
     },
     "rush": {
       "_attributes": {
-        "att": "39",
-        "yds": "259",
-        "gain": "266",
+        "att": "38",
+        "yds": "250",
+        "gain": "257",
         "loss": "7",
         "td": "3",
         "long": "25"
@@ -11632,10 +12636,10 @@
     },
     "pass": {
       "_attributes": {
-        "comp": "27",
-        "att": "38",
+        "comp": "28",
+        "att": "39",
         "int": "0",
-        "yds": "229",
+        "yds": "239",
         "td": "3",
         "long": "40",
         "sacks": "1",
@@ -11644,8 +12648,8 @@
     },
     "rcv": {
       "_attributes": {
-        "no": "27",
-        "yds": "240",
+        "no": "28",
+        "yds": "250",
         "td": "3",
         "long": "40"
       }
@@ -11696,20 +12700,20 @@
         "tflyds": "17",
         "sacks": "1",
         "sackyds": "4",
-        "brup": "5",
+        "brup": "6",
         "qbh": "2",
         "saf": "1",
         "ff": "2",
         "fr": "2",
         "fryds": "0",
         "int": "1",
-        "intyds": "-2"
+        "intyds": "0"
       }
     },
     "kr": {
       "_attributes": {
         "no": "3",
-        "yds": "81",
+        "yds": "70",
         "td": "0",
         "long": "34"
       }
@@ -11717,15 +12721,15 @@
     "pr": {
       "_attributes": {
         "no": "5",
-        "yds": "38",
+        "yds": "31",
         "td": "0",
-        "long": "23"
+        "long": "22"
       }
     },
     "ir": {
       "_attributes": {
         "no": "1",
-        "yds": "-2",
+        "yds": "0",
         "td": "0",
         "long": "0"
       }

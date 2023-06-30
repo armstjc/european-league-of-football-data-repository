@@ -445,7 +445,7 @@ def generate_player_hist_file():
 
                 del row_df
 
-    rosters_df.to_csv('rosters/player_history.csv', index=False)
+    rosters_df.to_csv('rosters/player_history/player_history.csv', index=False)
     print(rosters_df)
 
 
@@ -453,7 +453,7 @@ def generate_elf_roster_files(save=False):
     team_df = pd.DataFrame()
     rosters_df = pd.DataFrame()
     team_info_df = pd.read_csv('teams/elf_teams.csv')
-    player_hist_df = pd.read_csv('rosters/player_history.csv')
+    player_hist_df = pd.read_csv('rosters/player_history/player_history.csv')
 
     player_hist_df = player_hist_df[[
         'season', 'team', 'player_id', 'player_first_name', 'player_last_name']]

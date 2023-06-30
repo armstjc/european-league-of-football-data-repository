@@ -122,7 +122,7 @@ def parse_elf_game_participation(save=False):
                 del row_df
 
     # Roster Data (to map player IDs)
-    roster_file_list = get_csv_in_folder('rosters/csv/')
+    roster_file_list = get_csv_in_folder('rosters/')
     all_rosters_df = pd.DataFrame()
     r_df = pd.DataFrame()
 

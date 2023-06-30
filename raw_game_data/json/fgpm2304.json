@@ -14,10 +14,10 @@
       "leaguegame": "Y",
       "nitegame": "Y",
       "duration": "2:57",
-      "attend": "0",
+      "attend": "7207",
       "temp": "28 C",
       "wind": "N 9km/h",
-      "weather": "mostly sunny"
+      "weather": "sunny"
     },
     "officials": {
       "_attributes": {
@@ -91,7 +91,7 @@
           "pattype": "KICK",
           "patres": "GOOD",
           "plays": "2",
-          "drive": "11",
+          "drive": "17",
           "top": "0:49",
           "vscore": "0",
           "hscore": "7",
@@ -259,9 +259,9 @@
           "vh": "V",
           "team": "PM",
           "start": "KO,1,15:00,46",
-          "end": "FUMB,1,14:05,11",
+          "end": "FUMB,1,14:05,17",
           "plays": "2",
-          "yards": "-35",
+          "yards": "-29",
           "top": "0:55",
           "start_how": "KO",
           "start_qtr": "1",
@@ -270,7 +270,7 @@
           "end_how": "FUMB",
           "end_qtr": "1",
           "end_time": "14:05",
-          "end_spot": "PM11",
+          "end_spot": "PM17",
           "driveindex": "1"
         }
       },
@@ -278,15 +278,15 @@
         "_attributes": {
           "vh": "H",
           "team": "FG",
-          "start": "FUMB,1,14:05,89",
+          "start": "FUMB,1,14:05,83",
           "end": "TD,1,13:16,100",
           "plays": "2",
-          "yards": "11",
+          "yards": "17",
           "top": "0:49",
           "start_how": "FUMB",
           "start_qtr": "1",
           "start_time": "14:05",
-          "start_spot": "PM11",
+          "start_spot": "PM17",
           "end_how": "TD",
           "end_qtr": "1",
           "end_time": "13:16",
@@ -910,8 +910,8 @@
               "context": "H,1,10,H30",
               "playid": "0,3,2",
               "type": "K",
-              "tokens": "KO:1,V03 RET:15,V46 TACK:51,28",
-              "text": "R. Rimmler kickoff 67 yards to the PM3, S. Fortes return 43 yards to the PM46 (J. Mackeben;C. Schmitt).",
+              "tokens": "KO:1,V03 RET:15,V46 TACK:28,50",
+              "text": "R. Rimmler kickoff 67 yards to the PM3, S. Fortes return 43 yards to the PM46 (C. Schmitt;Dav. Miletic).",
               "newcontext": "V,1,10,V46"
             },
             "p_ko": {
@@ -932,14 +932,14 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "J. Mackeben",
+                  "name": "C. Schmitt",
                   "assist": "Y"
                 }
               },
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "C. Schmitt",
+                  "name": "Dav. Miletic",
                   "assist": "Y"
                 }
               }
@@ -984,8 +984,8 @@
               "playid": "1,2,4",
               "type": "P",
               "turnover": "F",
-              "tokens": "PASS:1,F,TM,V26 FUMB:H,V11,41 +:41,V03 TACK:1",
-              "text": "Z. Edwards sacked for loss of 20 yards to the PM26, fumble by Z. Edwards recovered by FG S. Gauthier at PM11, S. Gauthier for 8 yards to the PM3 (Z. Edwards).",
+              "tokens": "PASS:1,F,TM,V26 FUMB:H,V17,41 +:41,V03 TACK:2",
+              "text": "Z. Edwards sacked for loss of 20 yards to the PM26, fumble by Z. Edwards recovered by FG S. Gauthier at PM17, S. Gauthier for 14 yards to the PM3 (J. Aguemon).",
               "newcontext": "H,1,0,V03"
             },
             "p_pa": {
@@ -1000,14 +1000,14 @@
               "_attributes": {
                 "vh": "H",
                 "name": "S. Gauthier",
-                "gain": "8"
+                "gain": "14"
               }
             },
             "p_fumb": {
               "_attributes": {
                 "vh": "V",
                 "name": "Z. Edwards",
-                "at": "V11",
+                "at": "V17",
                 "frvh": "H",
                 "frname": "S. Gauthier"
               }
@@ -1015,7 +1015,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "V",
-                "name": "Z. Edwards"
+                "name": "J. Aguemon"
               }
             }
           },
@@ -1042,8 +1042,8 @@
               "context": "H,1,0,V03",
               "playid": "2,2,6",
               "type": "R",
-              "tokens": "RUSH:44,V01, TACK:4,98",
-              "text": "L. Helm rush for 2 yards to the PM1 (D. Gomis;E. Elio).",
+              "tokens": "RUSH:44,V01, TACK:54,4",
+              "text": "L. Helm rush for 2 yards to the PM1 (J. Loew;D. Gomis).",
               "newcontext": "H,2,0,V01"
             },
             "p_ru": {
@@ -1057,14 +1057,14 @@
               {
                 "_attributes": {
                   "vh": "V",
-                  "name": "D. Gomis",
+                  "name": "J. Loew",
                   "assist": "Y"
                 }
               },
               {
                 "_attributes": {
                   "vh": "V",
-                  "name": "E. Elio",
+                  "name": "D. Gomis",
                   "assist": "Y"
                 }
               }
@@ -1108,7 +1108,7 @@
               "vscore": "0",
               "hscore": "7",
               "tokens": "PAT:K,1,G PEN:V,DO,D",
-              "text": "R. Rimmler kick attempt good, PENALTY PM defensive offside declined.",
+              "text": "R. Rimmler kick attempt good, PENALTY PM Defensive Offside declined.",
               "newcontext": "H,1,0,H30"
             },
             "p_pat": {
@@ -1125,7 +1125,7 @@
               "_attributes": {
                 "vh": "V",
                 "code": "DO",
-                "type": "defensive offside",
+                "type": "Defensive Offside",
                 "result": "DECLINE"
               }
             }
@@ -1140,14 +1140,14 @@
               "playid": "2,5,9",
               "type": "E",
               "tokens": "PEN:V,FO,A,77,H35,N",
-              "text": "PENALTY PM illegal formation (S. Jallier) 5 yards to the FG35.",
+              "text": "PENALTY PM Illegal Formation (S. Jallier) 5 yards to the FG35.",
               "newcontext": "H,1,0,H35"
             },
             "p_pn": {
               "_attributes": {
                 "vh": "V",
                 "code": "FO",
-                "type": "illegal formation",
+                "type": "Illegal Formation",
                 "name": "S. Jallier",
                 "result": "ACCEPT",
                 "at": "H30",
@@ -1164,8 +1164,8 @@
               "context": "H,1,0,H35",
               "playid": "2,6,10",
               "type": "K",
-              "tokens": "KO:1,V01 RET:15,V38 TACK:28",
-              "text": "R. Rimmler kickoff 64 yards to the PM1, S. Fortes return 37 yards to the PM38 (C. Schmitt).",
+              "tokens": "KO:1,V01 RET:15,V38 TACK:52,96",
+              "text": "R. Rimmler kickoff 64 yards to the PM1, S. Fortes return 37 yards to the PM38 (W. Nasri;T. Gaye).",
               "newcontext": "V,1,10,V38"
             },
             "p_ko": {
@@ -1182,12 +1182,22 @@
                 "gain": "37"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "H",
-                "name": "C. Schmitt"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "H",
+                  "name": "W. Nasri",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "H",
+                  "name": "T. Gaye",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -1212,8 +1222,8 @@
               "context": "V,1,10,V38",
               "playid": "3,2,12",
               "type": "R",
-              "tokens": "RUSH:1,V44, TACK:4",
-              "text": "Z. Edwards rush for 6 yards to the PM44 (T. Anderson).",
+              "tokens": "RUSH:1,V44, TACK:54,4",
+              "text": "Z. Edwards rush for 6 yards to the PM44 (K. Brauns;T. Anderson).",
               "newcontext": "V,2,4,V44"
             },
             "p_ru": {
@@ -1223,12 +1233,22 @@
                 "gain": "6"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "H",
-                "name": "T. Anderson"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "H",
+                  "name": "K. Brauns",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "H",
+                  "name": "T. Anderson",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -1269,14 +1289,14 @@
               "playid": "3,4,14",
               "type": "E",
               "tokens": "PEN:V,FS,A,63,V42,N",
-              "text": "PENALTY PM false start (K. Ebanks) 5 yards to the PM42.",
+              "text": "PENALTY PM False Start (K. Ebanks) 5 yards to the PM42.",
               "newcontext": "V,3,6,V42"
             },
             "p_pn": {
               "_attributes": {
                 "vh": "V",
                 "code": "FS",
-                "type": "false start",
+                "type": "False Start",
                 "name": "K. Ebanks",
                 "result": "ACCEPT",
                 "at": "V47",
@@ -1293,8 +1313,8 @@
               "context": "V,3,6,V42",
               "playid": "3,5,15",
               "type": "P",
-              "tokens": "PASS:1,S,TM,V39 SACK:90,8",
-              "text": "Z. Edwards sacked for loss of 3 yards to the PM39 (M. A. Hor;M. Konya).",
+              "tokens": "PASS:1,S,TM,V39 SACK:52,90",
+              "text": "Z. Edwards sacked for loss of 3 yards to the PM39 (W. Nasri;M. A. Hor).",
               "newcontext": "V,4,9,V39"
             },
             "p_pa": {
@@ -1309,7 +1329,7 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "M. A. Hor",
+                  "name": "W. Nasri",
                   "sack": "Y",
                   "assist": "Y"
                 }
@@ -1317,7 +1337,7 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "M. Konya",
+                  "name": "M. A. Hor",
                   "sack": "Y",
                   "assist": "Y"
                 }
@@ -1333,22 +1353,22 @@
               "context": "V,4,9,V39",
               "playid": "3,6,16",
               "type": "U",
-              "tokens": "PUNT:5,H17 RET:3,H36 TACK:35,4",
-              "text": "R. Bertellin punt 44 yards to the FG17, B. Robins return 19 yards to the FG36 (P. Veritas;D. Gomis).",
+              "tokens": "PUNT:5,H16 RET:3,H36 TACK:35,4",
+              "text": "R. Bertellin punt 45 yards to the FG16, B. Robins return 20 yards to the FG36 (P. Veritas;D. Gomis).",
               "newcontext": "H,1,10,H36"
             },
             "p_pu": {
               "_attributes": {
                 "vh": "V",
                 "name": "R. Bertellin",
-                "gain": "44"
+                "gain": "45"
               }
             },
             "p_pr": {
               "_attributes": {
                 "vh": "H",
                 "name": "B. Robins",
-                "gain": "19"
+                "gain": "20"
               }
             },
             "p_tk": [
@@ -1586,14 +1606,14 @@
               "playid": "5,2,26",
               "type": "E",
               "tokens": "PEN:V,OTM,A,TM,V25,N",
-              "text": "PENALTY PM offensive too many men on field 5 yards to the PM25.",
+              "text": "PENALTY PM Offensive Too Many Men on Field 5 yards to the PM25.",
               "newcontext": "V,1,15,V25"
             },
             "p_pn": {
               "_attributes": {
                 "vh": "V",
                 "code": "OTM",
-                "type": "offensive too many men on field",
+                "type": "Offensive Too Many Men on Field",
                 "result": "ACCEPT",
                 "at": "V30",
                 "yards": "5"
@@ -1659,8 +1679,8 @@
               "context": "V,2,4,V31",
               "playid": "5,5,29",
               "type": "R",
-              "tokens": "RUSH:1,V30, TACK:41,91",
-              "text": "Z. Edwards rush for loss of 1 yard to the PM30 (S. Gauthier;M. Djeri).",
+              "tokens": "RUSH:1,V30, TACK:91,41",
+              "text": "Z. Edwards rush for loss of 1 yard to the PM30 (M. Djeri;S. Gauthier).",
               "newcontext": "V,3,5,V30"
             },
             "p_ru": {
@@ -1674,14 +1694,14 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "S. Gauthier",
+                  "name": "M. Djeri",
                   "assist": "Y"
                 }
               },
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "M. Djeri",
+                  "name": "S. Gauthier",
                   "assist": "Y"
                 }
               }
@@ -1698,7 +1718,7 @@
               "type": "P",
               "turnover": "I",
               "tokens": "PASS:1,X,5,H45 RET:5,V39 TACK:5 PEN:H,UR,A,8,H46,N D:1,10 SPOT:H,H46,Y",
-              "text": "Z. Edwards pass intercepted by J. Liggins at the FG45, J. Liggins return 16 yards to the PM39 (R. Bertellin), PENALTY FG unnecessary roughness (M. Konya) 15 yards to the FG46, 1st and 10, FG ball on FG46.",
+              "text": "Z. Edwards pass intercepted by J. Liggins at the FG45, J. Liggins return 16 yards to the PM39 (R. Bertellin), PENALTY FG Unnecessary Roughness (M. Konya) 15 yards to the FG46, 1st and 10, FG ball on FG46.",
               "newcontext": "H,1,10,H46"
             },
             "p_pa": {
@@ -1726,7 +1746,7 @@
               "_attributes": {
                 "vh": "H",
                 "code": "UR",
-                "type": "unnecessary roughness",
+                "type": "Unnecessary Roughness",
                 "name": "M. Konya",
                 "result": "ACCEPT",
                 "at": "V39",
@@ -1758,15 +1778,15 @@
               "playid": "6,2,32",
               "type": "R",
               "turnover": "F",
-              "tokens": "RUSH:27,H42, FORCE:56 FUMB:V,H42,56",
-              "text": "T. Fischbach rush for loss of 4 yards to the FG42, fumble forced by G. Nanguy, fumble by T. Fischbach recovered by PM G. Nanguy at FG42.",
+              "tokens": "RUSH:27,H44, FORCE:94 FUMB:V,H42,56",
+              "text": "T. Fischbach rush for loss of 2 yards to the FG44, fumble forced by V. Gnahoua, fumble by T. Fischbach recovered by PM G. Nanguy at FG42.",
               "newcontext": "V,1,10,H42"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "T. Fischbach",
-                "gain": "-4"
+                "gain": "-2"
               }
             },
             "p_fumb": {
@@ -1781,7 +1801,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "V",
-                "name": "G. Nanguy",
+                "name": "V. Gnahoua",
                 "ff": "Y"
               }
             }
@@ -1809,8 +1829,8 @@
               "context": "V,1,10,H42",
               "playid": "7,2,34",
               "type": "R",
-              "tokens": "RUSH:33,H36, TACK:50",
-              "text": "J. Bofunda rush for 6 yards to the FG36 (Dav. Miletic).",
+              "tokens": "RUSH:33,H36, TACK:95,50",
+              "text": "J. Bofunda rush for 6 yards to the FG36 (D. Bartmann;Dav. Miletic).",
               "newcontext": "V,2,4,H36"
             },
             "p_ru": {
@@ -1820,12 +1840,22 @@
                 "gain": "6"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "H",
-                "name": "Dav. Miletic"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "H",
+                  "name": "D. Bartmann",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "H",
+                  "name": "Dav. Miletic",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -1874,8 +1904,8 @@
               "playid": "7,4,36",
               "type": "R",
               "first": "R",
-              "tokens": "RUSH:1,H30, TACK:56",
-              "text": "Z. Edwards rush for 3 yards to the FG30, 1ST DOWN PM (S. Silva Gomez).",
+              "tokens": "RUSH:1,H30, TACK:52",
+              "text": "Z. Edwards rush for 3 yards to the FG30, 1ST DOWN PM (W. Nasri).",
               "newcontext": "V,1,10,H30"
             },
             "p_ru": {
@@ -1888,7 +1918,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "H",
-                "name": "S. Silva Gomez"
+                "name": "W. Nasri"
               }
             }
           },
@@ -1903,7 +1933,7 @@
               "type": "R",
               "first": "R",
               "tokens": "RUSH:1,H16, TACK:14 PEN:H,HC,A,14,H08,1",
-              "text": "Z. Edwards rush for 14 yards to the FG16, 1ST DOWN PM (J. Poznanski), PENALTY FG horse collar (J. Poznanski) 8 yards to the FG8, 1ST DOWN PM.",
+              "text": "Z. Edwards rush for 14 yards to the FG16, 1ST DOWN PM (J. Poznanski), PENALTY FG Horse Collar (J. Poznanski) 8 yards to the FG8, 1ST DOWN PM.",
               "newcontext": "V,1,0,H08"
             },
             "p_ru": {
@@ -1923,7 +1953,7 @@
               "_attributes": {
                 "vh": "H",
                 "code": "HC",
-                "type": "horse collar",
+                "type": "Horse Collar",
                 "name": "J. Poznanski",
                 "result": "ACCEPT",
                 "at": "H16",
@@ -2103,15 +2133,15 @@
               "playid": "8,3,45",
               "type": "R",
               "first": "R",
-              "tokens": "RUSH:27,H40, TACK:36,9",
-              "text": "T. Fischbach rush for 19 yards to the FG40, 1ST DOWN FG (M. Roger;K. Floret).",
-              "newcontext": "H,1,10,H40"
+              "tokens": "RUSH:27,H39, TACK:36,9",
+              "text": "T. Fischbach rush for 18 yards to the FG39, 1ST DOWN FG (M. Roger;K. Floret).",
+              "newcontext": "H,1,10,H39"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "T. Fischbach",
-                "gain": "19"
+                "gain": "18"
               }
             },
             "p_tk": [
@@ -2136,13 +2166,13 @@
               "hasball": "FG",
               "down": "1",
               "togo": "10",
-              "spot": "FG40",
-              "context": "H,1,10,H40",
+              "spot": "FG39",
+              "context": "H,1,10,H39",
               "playid": "8,4,46",
               "type": "P",
               "tokens": "PASS:10,C,19,H45 TACK:22,41",
-              "text": "S. Cluley pass complete to N. Strahmann for 5 yards to the FG45 (F. Proulx;D. Larochel).",
-              "newcontext": "H,2,5,H45"
+              "text": "S. Cluley pass complete to N. Strahmann for 6 yards to the FG45 (F. Proulx;D. Larochel).",
+              "newcontext": "H,2,4,H45"
             },
             "p_pa": {
               "_attributes": {
@@ -2150,7 +2180,7 @@
                 "qb": "S. Cluley",
                 "result": "COMP",
                 "rcv": "N. Strahmann",
-                "gain": "5"
+                "gain": "6"
               }
             },
             "p_tk": [
@@ -2174,14 +2204,14 @@
             "_attributes": {
               "hasball": "FG",
               "down": "2",
-              "togo": "5",
+              "togo": "4",
               "spot": "FG45",
-              "context": "H,2,5,H45",
+              "context": "H,2,4,H45",
               "playid": "8,5,47",
               "type": "R",
               "tokens": "RUSH:27,H45, TACK:27,56",
               "text": "T. Fischbach rush for no gain to the FG45 (R. Khefif;G. Nanguy).",
-              "newcontext": "H,3,5,H45"
+              "newcontext": "H,3,4,H45"
             },
             "p_ru": {
               "_attributes": {
@@ -2211,9 +2241,9 @@
             "_attributes": {
               "hasball": "FG",
               "down": "3",
-              "togo": "5",
+              "togo": "4",
               "spot": "FG45",
-              "context": "H,3,5,H45",
+              "context": "H,3,4,H45",
               "playid": "8,6,48",
               "type": "R",
               "first": "R",
@@ -2422,7 +2452,7 @@
           {
             "_attributes": {
               "plays": "2",
-              "yards": "-35",
+              "yards": "-29",
               "top": "0:55",
               "driveindex": "1",
               "complete": "Y"
@@ -2562,9 +2592,9 @@
             "rush": {
               "_attributes": {
                 "att": "10",
-                "yds": "7",
+                "yds": "13",
                 "gain": "46",
-                "loss": "39",
+                "loss": "33",
                 "td": "1",
                 "long": "14"
               }
@@ -2592,14 +2622,14 @@
             "punt": {
               "_attributes": {
                 "no": "1",
-                "yds": "44",
-                "long": "44",
+                "yds": "45",
+                "long": "45",
                 "blkd": "0",
                 "tb": "0",
                 "fc": "0",
                 "plus50": "0",
                 "inside20": "0",
-                "avg": "44.0"
+                "avg": "45.0"
               }
             },
             "ko": {
@@ -2624,7 +2654,7 @@
                 "tot_tack": "20",
                 "tflua": "2",
                 "tfla": "0",
-                "tflyds": "6",
+                "tflyds": "4",
                 "sacks": "0",
                 "sackyds": "0",
                 "brup": "1",
@@ -2699,8 +2729,8 @@
             "rush": {
               "_attributes": {
                 "att": "7",
-                "yds": "42",
-                "gain": "48",
+                "yds": "41",
+                "gain": "47",
                 "loss": "6",
                 "td": "1",
                 "long": "26"
@@ -2711,7 +2741,7 @@
                 "comp": "6",
                 "att": "8",
                 "int": "0",
-                "yds": "92",
+                "yds": "93",
                 "td": "1",
                 "long": "53",
                 "sacks": "0",
@@ -2721,7 +2751,7 @@
             "rcv": {
               "_attributes": {
                 "no": "6",
-                "yds": "92",
+                "yds": "93",
                 "td": "1",
                 "long": "53"
               }
@@ -2743,16 +2773,16 @@
             },
             "defense": {
               "_attributes": {
-                "tackua": "7",
-                "tacka": "10",
-                "tot_tack": "17",
+                "tackua": "4",
+                "tacka": "16",
+                "tot_tack": "20",
                 "tflua": "0",
                 "tfla": "4",
                 "tflyds": "4",
                 "sacks": "1",
                 "sackyds": "3",
                 "fr": "1",
-                "fryds": "8",
+                "fryds": "14",
                 "int": "1",
                 "intyds": "16"
               }
@@ -2768,9 +2798,9 @@
             "pr": {
               "_attributes": {
                 "no": "1",
-                "yds": "19",
+                "yds": "20",
                 "td": "0",
-                "long": "19"
+                "long": "20"
               }
             },
             "ir": {
@@ -2784,9 +2814,9 @@
             "fr": {
               "_attributes": {
                 "no": "1",
-                "yds": "8",
+                "yds": "14",
                 "td": "0",
-                "long": "8"
+                "long": "14"
               }
             },
             "scoring": {
@@ -2828,15 +2858,16 @@
               "context": "H,2,0,V08",
               "playid": "8,12,54",
               "type": "P",
-              "tokens": "PASS:10,I,TM,*",
-              "text": "S. Cluley pass incomplete.",
+              "tokens": "PASS:10,I,17,*",
+              "text": "S. Cluley pass incomplete to R. Horn.",
               "newcontext": "H,3,0,V08"
             },
             "p_pa": {
               "_attributes": {
                 "vh": "H",
                 "qb": "S. Cluley",
-                "result": "INC"
+                "result": "INC",
+                "rcv": "R. Horn"
               }
             }
           },
@@ -3050,14 +3081,14 @@
               "type": "E",
               "first": "E",
               "tokens": "PASS:1,I,14,* BRUP:35 PEN:H,RP,A,41,H46,1 NOPLAY:",
-              "text": "Z. Edwards pass incomplete to C. Sow (M. Schlabitz), PENALTY FG roughing the passer (S. Gauthier) 15 yards to the FG46, 1ST DOWN PM, NO PLAY.",
+              "text": "Z. Edwards pass incomplete to C. Sow (M. Schlabitz), PENALTY FG Roughing the Passer (S. Gauthier) 15 yards to the FG46, 1ST DOWN PM, NO PLAY.",
               "newcontext": "V,1,10,H46"
             },
             "p_pn": {
               "_attributes": {
                 "vh": "H",
                 "code": "RP",
-                "type": "roughing the passer",
+                "type": "Roughing the Passer",
                 "name": "S. Gauthier",
                 "result": "ACCEPT",
                 "at": "V39",
@@ -3075,14 +3106,14 @@
               "playid": "9,6,63",
               "type": "E",
               "tokens": "PASS:1,C,14,H33 TACK:56,4 PEN:V,IDP,A,72,V49,N NOPLAY:",
-              "text": "Z. Edwards pass complete to C. Sow for 13 yards to the FG33 (S. Silva Gomez;T. Anderson), PENALTY PM ineligible downfield on pass (W. Camara) 5 yards to the PM49, NO PLAY.",
+              "text": "Z. Edwards pass complete to C. Sow for 13 yards to the FG33 (S. Silva Gomez;T. Anderson), PENALTY PM Inelegible Downfield Pass (W. Camara) 5 yards to the PM49, NO PLAY.",
               "newcontext": "V,1,15,V49"
             },
             "p_pn": {
               "_attributes": {
                 "vh": "V",
                 "code": "IDP",
-                "type": "ineligible downfield on pass",
+                "type": "Inelegible Downfield Pass",
                 "name": "W. Camara",
                 "result": "ACCEPT",
                 "at": "H46",
@@ -3101,14 +3132,14 @@
               "type": "E",
               "first": "E",
               "tokens": "PEN:H,UC,A,54,H36,1",
-              "text": "PENALTY FG unsportsmanlike conduct (K. Brauns) 15 yards to the FG36, 1ST DOWN PM.",
+              "text": "PENALTY FG Unsportsmanlike Conduct (K. Brauns) 15 yards to the FG36, 1ST DOWN PM.",
               "newcontext": "V,1,10,H36"
             },
             "p_pn": {
               "_attributes": {
                 "vh": "H",
                 "code": "UC",
-                "type": "unsportsmanlike conduct",
+                "type": "Unsportsmanlike Conduct",
                 "name": "K. Brauns",
                 "result": "ACCEPT",
                 "at": "V49",
@@ -3288,14 +3319,14 @@
               "playid": "10,3,73",
               "type": "E",
               "tokens": "PEN:H,OTM,A,TM,H01,N",
-              "text": "PENALTY FG offensive too many men on field 1 yards to the FG1.",
+              "text": "PENALTY FG Offensive Too Many Men on Field 1 yards to the FG1.",
               "newcontext": "H,2,15,H01"
             },
             "p_pn": {
               "_attributes": {
                 "vh": "H",
                 "code": "OTM",
-                "type": "offensive too many men on field",
+                "type": "Offensive Too Many Men on Field",
                 "result": "ACCEPT",
                 "at": "H02",
                 "yards": "1"
@@ -3312,14 +3343,14 @@
               "playid": "10,4,74",
               "type": "E",
               "tokens": "PEN:H,FS,A,71,H01,N",
-              "text": "PENALTY FG false start (F. Atunlese) 0 yards to the FG1.",
+              "text": "PENALTY FG False Start (F. Atunlese) 0 yards to the FG1.",
               "newcontext": "H,2,15,H01"
             },
             "p_pn": {
               "_attributes": {
                 "vh": "H",
                 "code": "FS",
-                "type": "false start",
+                "type": "False Start",
                 "name": "F. Atunlese",
                 "result": "ACCEPT"
               }
@@ -3357,7 +3388,7 @@
               "playid": "10,6,76",
               "type": "U",
               "tokens": "PUNT:10,H37 DN: PEN:H,IDK,A,TM,H32,N D:1,10 SPOT:V,H32,Y",
-              "text": "S. Cluley punt 36 yards to the FG37, downed, PENALTY FG ineligible downfield on kick 5 yards to the FG32, 1st and 10, PM ball on FG32.",
+              "text": "S. Cluley punt 36 yards to the FG37, downed, PENALTY FG Inelegible Downfield Kick 5 yards to the FG32, 1st and 10, PM ball on FG32.",
               "newcontext": "V,1,10,H32"
             },
             "p_pu": {
@@ -3371,7 +3402,7 @@
               "_attributes": {
                 "vh": "H",
                 "code": "IDK",
-                "type": "ineligible downfield on kick",
+                "type": "Inelegible Downfield Kick",
                 "result": "ACCEPT",
                 "at": "H37",
                 "yards": "5"
@@ -3489,8 +3520,8 @@
               "playid": "11,5,81",
               "type": "R",
               "first": "R",
-              "tokens": "RUSH:1,H17, TACK:90,54",
-              "text": "Z. Edwards rush for 7 yards to the FG17, 1ST DOWN PM (M. A. Hor;K. Brauns).",
+              "tokens": "RUSH:1,H17, TACK:95,14",
+              "text": "Z. Edwards rush for 7 yards to the FG17, 1ST DOWN PM (D. Bartmann;J. Poznanski).",
               "newcontext": "V,1,10,H17"
             },
             "p_ru": {
@@ -3504,14 +3535,14 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "M. A. Hor",
+                  "name": "D. Bartmann",
                   "assist": "Y"
                 }
               },
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "K. Brauns",
+                  "name": "J. Poznanski",
                   "assist": "Y"
                 }
               }
@@ -3659,15 +3690,16 @@
               "context": "H,1,10,H16",
               "playid": "12,2,87",
               "type": "P",
-              "tokens": "PASS:10,I,TM,* BRUP:56",
-              "text": "S. Cluley pass incomplete (G. Nanguy).",
+              "tokens": "PASS:10,I,81,* BRUP:56",
+              "text": "S. Cluley pass incomplete to J. von Renesse (G. Nanguy).",
               "newcontext": "H,2,10,H16"
             },
             "p_pa": {
               "_attributes": {
                 "vh": "H",
                 "qb": "S. Cluley",
-                "result": "INC"
+                "result": "INC",
+                "rcv": "J. von Renesse"
               }
             },
             "p_bu": {
@@ -3686,8 +3718,8 @@
               "context": "H,2,10,H16",
               "playid": "12,3,88",
               "type": "R",
-              "tokens": "RUSH:27,H16, TACK:27,4",
-              "text": "T. Fischbach rush for no gain to the FG16 (R. Khefif;D. Gomis).",
+              "tokens": "RUSH:27,H16, TACK:27,41",
+              "text": "T. Fischbach rush for no gain to the FG16 (R. Khefif;D. Larochel).",
               "newcontext": "H,3,10,H16"
             },
             "p_ru": {
@@ -3708,7 +3740,7 @@
               {
                 "_attributes": {
                   "vh": "V",
-                  "name": "D. Gomis",
+                  "name": "D. Larochel",
                   "assist": "Y"
                 }
               }
@@ -3761,7 +3793,7 @@
               "playid": "12,5,90",
               "type": "U",
               "tokens": "PUNT:82,V41 FC:7 PEN:H,IDK,A,44,V46,N D:1,10 SPOT:V,V46,Y",
-              "text": "H. Schwarz punt 40 yards to the PM41, fair catch by K. Sweet, PENALTY FG ineligible downfield on kick (L. Helm) 5 yards to the PM46, 1st and 10, PM ball on PM46.",
+              "text": "H. Schwarz punt 40 yards to the PM41, fair catch by K. Sweet, PENALTY FG Inelegible Downfield Kick (L. Helm) 5 yards to the PM46, 1st and 10, PM ball on PM46.",
               "newcontext": "V,1,10,V46"
             },
             "p_pu": {
@@ -3776,7 +3808,7 @@
               "_attributes": {
                 "vh": "H",
                 "code": "IDK",
-                "type": "ineligible downfield on kick",
+                "type": "Inelegible Downfield Kick",
                 "name": "L. Helm",
                 "result": "ACCEPT",
                 "at": "V41",
@@ -3835,8 +3867,8 @@
               "playid": "13,3,93",
               "type": "R",
               "first": "R",
-              "tokens": "RUSH:1,H41, TACK:51,52",
-              "text": "Z. Edwards rush for 8 yards to the FG41, 1ST DOWN PM (J. Mackeben;W. Nasri).",
+              "tokens": "RUSH:1,H41, TACK:56,51",
+              "text": "Z. Edwards rush for 8 yards to the FG41, 1ST DOWN PM (S. Silva Gomez;J. Mackeben).",
               "newcontext": "V,1,10,H41"
             },
             "p_ru": {
@@ -3850,14 +3882,14 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "J. Mackeben",
+                  "name": "S. Silva Gomez",
                   "assist": "Y"
                 }
               },
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "W. Nasri",
+                  "name": "J. Mackeben",
                   "assist": "Y"
                 }
               }
@@ -3921,15 +3953,15 @@
               "context": "V,1,10,H31",
               "playid": "13,6,96",
               "type": "R",
-              "tokens": "RUSH:33,H29, TACK:56,52",
-              "text": "J. Bofunda rush for 2 yards to the FG29 (S. Silva Gomez;W. Nasri).",
-              "newcontext": "V,2,8,H29"
+              "tokens": "RUSH:33,H28, TACK:56,14",
+              "text": "J. Bofunda rush for 3 yards to the FG28 (S. Silva Gomez;J. Poznanski).",
+              "newcontext": "V,2,7,H28"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "V",
                 "name": "J. Bofunda",
-                "gain": "2"
+                "gain": "3"
               }
             },
             "p_tk": [
@@ -3943,7 +3975,7 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "W. Nasri",
+                  "name": "J. Poznanski",
                   "assist": "Y"
                 }
               }
@@ -3953,13 +3985,13 @@
             "_attributes": {
               "hasball": "PM",
               "down": "2",
-              "togo": "8",
-              "spot": "FG29",
-              "context": "V,2,8,H29",
+              "togo": "7",
+              "spot": "FG28",
+              "context": "V,2,7,H28",
               "playid": "13,7,97",
               "type": "P",
               "tokens": "PASS:1,S,TM,H39 SACK:56",
-              "text": "Z. Edwards sacked for loss of 10 yards to the FG39 (S. Silva Gomez).",
+              "text": "Z. Edwards sacked for loss of 11 yards to the FG39 (S. Silva Gomez).",
               "newcontext": "V,3,18,H39"
             },
             "p_pa": {
@@ -3967,7 +3999,7 @@
                 "vh": "V",
                 "qb": "Z. Edwards",
                 "result": "SACK",
-                "gain": "-10"
+                "gain": "-11"
               }
             },
             "p_tk": {
@@ -4009,7 +4041,7 @@
               "playid": "13,9,99",
               "type": "P",
               "tokens": "PASS:1,C,33,H33 TACK:56 PEN:V,IDP,D",
-              "text": "Z. Edwards pass complete to J. Bofunda for 6 yards to the FG33 (S. Silva Gomez), PENALTY PM ineligible downfield on pass declined.",
+              "text": "Z. Edwards pass complete to J. Bofunda for 6 yards to the FG33 (S. Silva Gomez), PENALTY PM Inelegible Downfield Pass declined.",
               "newcontext": "V,4,12,H33"
             },
             "p_pa": {
@@ -4031,7 +4063,7 @@
               "_attributes": {
                 "vh": "V",
                 "code": "IDP",
-                "type": "ineligible downfield on pass",
+                "type": "Inelegible Downfield Pass",
                 "result": "DECLINE"
               }
             }
@@ -4046,7 +4078,7 @@
               "playid": "13,10,100",
               "type": "U",
               "tokens": "PUNT:1,H00 TB: PEN:V,IDK,A,17,H25,N D:1,10 SPOT:H,H25,Y",
-              "text": "Z. Edwards punt 33 yards to the FG0, touchback, PENALTY PM ineligible downfield on kick (A. Abandzounou) 5 yards to the FG25, 1st and 10, FG ball on FG25.",
+              "text": "Z. Edwards punt 33 yards to the FG0, touchback, PENALTY PM Inelegible Downfield Kick (A. Abandzounou) 5 yards to the FG25, 1st and 10, FG ball on FG25.",
               "newcontext": "H,1,10,H25"
             },
             "p_pu": {
@@ -4061,7 +4093,7 @@
               "_attributes": {
                 "vh": "V",
                 "code": "IDK",
-                "type": "ineligible downfield on kick",
+                "type": "Inelegible Downfield Kick",
                 "name": "A. Abandzounou",
                 "result": "ACCEPT",
                 "at": "H20",
@@ -4092,8 +4124,9 @@
               "context": "H,1,10,H25",
               "playid": "14,2,102",
               "type": "P",
-              "tokens": "PASS:10,C,16,H32 TACK:36",
-              "text": "S. Cluley pass complete to N. Schumm for 7 yards to the FG32 (M. Roger).",
+              "tokens": "PASS:10,C,16,H32 OB:",
+              "text": "S. Cluley pass complete to N. Schumm for 7 yards to the FG32, out-of-bounds.",
+              "ob": "Y",
               "newcontext": "H,2,3,H32"
             },
             "p_pa": {
@@ -4103,12 +4136,6 @@
                 "result": "COMP",
                 "rcv": "N. Schumm",
                 "gain": "7"
-              }
-            },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "M. Roger"
               }
             }
           },
@@ -4122,8 +4149,8 @@
               "playid": "14,3,103",
               "type": "R",
               "first": "R",
-              "tokens": "RUSH:27,H37, TACK:90",
-              "text": "T. Fischbach rush for 5 yards to the FG37, 1ST DOWN FG (V. Buffet).",
+              "tokens": "RUSH:27,H37, TACK:41,90",
+              "text": "T. Fischbach rush for 5 yards to the FG37, 1ST DOWN FG (D. Larochel;V. Buffet).",
               "newcontext": "H,1,10,H37"
             },
             "p_ru": {
@@ -4133,12 +4160,22 @@
                 "gain": "5"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "V. Buffet"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "D. Larochel",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "V. Buffet",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -4174,22 +4211,22 @@
               "context": "H,1,10,V28",
               "playid": "14,5,106",
               "type": "R",
-              "tokens": "RUSH:27,V32, FUMB:H,V31,71",
-              "text": "T. Fischbach rush for loss of 4 yards to the PM32, fumble by T. Fischbach recovered by FG F. Atunlese at PM31.",
-              "newcontext": "H,2,13,V31"
+              "tokens": "RUSH:27,V28, FUMB:H,V27,71",
+              "text": "T. Fischbach rush for no gain to the PM28, fumble by T. Fischbach recovered by FG F. Atunlese at PM27.",
+              "newcontext": "H,2,9,V27"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "T. Fischbach",
-                "gain": "-4"
+                "gain": "0"
               }
             },
             "p_fumb": {
               "_attributes": {
                 "vh": "H",
                 "name": "T. Fischbach",
-                "at": "V31",
+                "at": "V27",
                 "frvh": "H",
                 "frname": "F. Atunlese"
               }
@@ -4199,14 +4236,27 @@
             "_attributes": {
               "hasball": "FG",
               "down": "2",
-              "togo": "13",
-              "spot": "PM31",
-              "context": "H,2,13,V31",
+              "togo": "9",
+              "spot": "PM27",
+              "context": "H,2,9,V27",
               "playid": "14,6,107",
+              "tokens": "SPOT:H,V31,N D:3,12",
+              "text": "FG ball on PM31, 3rd and 12.",
+              "newcontext": "H,3,12,V31"
+            }
+          },
+          {
+            "_attributes": {
+              "hasball": "FG",
+              "down": "3",
+              "togo": "12",
+              "spot": "PM31",
+              "context": "H,3,12,V31",
+              "playid": "14,7,108",
               "type": "P",
               "tokens": "PASS:10,I,87,*",
               "text": "S. Cluley pass incomplete to K. Mwamba.",
-              "newcontext": "H,3,13,V31"
+              "newcontext": "H,4,12,V31"
             },
             "p_pa": {
               "_attributes": {
@@ -4220,11 +4270,11 @@
           {
             "_attributes": {
               "hasball": "FG",
-              "down": "3",
-              "togo": "13",
+              "down": "4",
+              "togo": "12",
               "spot": "PM31",
-              "context": "H,3,13,V31",
-              "playid": "14,7,108",
+              "context": "H,4,12,V31",
+              "playid": "14,8,109",
               "type": "F",
               "clock": "01:13",
               "tokens": "FGA:1,49,M,V39,L T:01:13",
@@ -4247,7 +4297,7 @@
               "togo": "10",
               "spot": "PM39",
               "context": "V,1,10,V39",
-              "playid": "15,1,109",
+              "playid": "15,1,110",
               "clock": "01:13",
               "tokens": "{DRIVE}:01:13",
               "text": "PARIS MUSKETEERS drive start at 01:13.",
@@ -4261,7 +4311,7 @@
               "togo": "10",
               "spot": "PM39",
               "context": "V,1,10,V39",
-              "playid": "15,2,110",
+              "playid": "15,2,111",
               "type": "P",
               "tokens": "PASS:1,C,7,V42 OB:",
               "text": "Z. Edwards pass complete to K. Sweet for 3 yards to the PM42, out-of-bounds.",
@@ -4285,7 +4335,7 @@
               "togo": "7",
               "spot": "PM42",
               "context": "V,2,7,V42",
-              "playid": "15,3,111",
+              "playid": "15,3,112",
               "type": "P",
               "tokens": "PASS:1,I,15,*",
               "text": "Z. Edwards pass incomplete to S. Fortes.",
@@ -4307,7 +4357,7 @@
               "togo": "7",
               "spot": "PM42",
               "context": "V,3,7,V42",
-              "playid": "15,4,112",
+              "playid": "15,4,113",
               "type": "R",
               "tokens": "RUSH:1,V43, TACK:41",
               "text": "Z. Edwards rush for 1 yard to the PM43 (S. Gauthier).",
@@ -4334,16 +4384,16 @@
               "togo": "6",
               "spot": "PM43",
               "context": "V,4,6,V43",
-              "playid": "15,5,113",
+              "playid": "15,5,114",
               "type": "U",
-              "tokens": "PUNT:5,H08 RET:3,H04 TACK:36",
-              "text": "R. Bertellin punt 49 yards to the FG8, B. Robins return -4 yards to the FG4 (M. Roger).",
+              "tokens": "PUNT:25,H08 RET:3,H04 TACK:36",
+              "text": "B. Bono punt 49 yards to the FG8, B. Robins return -4 yards to the FG4 (M. Roger).",
               "newcontext": "H,1,10,H04"
             },
             "p_pu": {
               "_attributes": {
                 "vh": "V",
-                "name": "R. Bertellin",
+                "name": "B. Bono",
                 "gain": "49",
                 "in20": "Y"
               }
@@ -4369,7 +4419,7 @@
               "togo": "10",
               "spot": "FG04",
               "context": "H,1,10,H04",
-              "playid": "16,1,114",
+              "playid": "16,1,115",
               "clock": "00:26",
               "tokens": "{DRIVE}:00:26",
               "text": "FRANKFURT GALAXY drive start at 00:26.",
@@ -4383,7 +4433,7 @@
               "togo": "10",
               "spot": "FG04",
               "context": "H,1,10,H04",
-              "playid": "16,2,115",
+              "playid": "16,2,116",
               "type": "R",
               "tokens": "RUSH:10,H02,",
               "text": "S. Cluley rush for loss of 2 yards to the FG2.",
@@ -4404,7 +4454,7 @@
               "togo": "12",
               "spot": "FG02",
               "context": "H,2,12,H02",
-              "playid": "16,3,117",
+              "playid": "16,3,118",
               "type": "#",
               "clock": "00:00",
               "tokens": "HALF: T:00:00",
@@ -4492,7 +4542,7 @@
           {
             "_attributes": {
               "plays": "6",
-              "yards": "44",
+              "yards": "48",
               "top": "1:32",
               "driveindex": "14",
               "complete": "Y"
@@ -4578,7 +4628,7 @@
               "vh": "V",
               "spot": "V39",
               "clock": "01:13",
-              "driveindex": "15,108"
+              "driveindex": "15,109"
             }
           },
           {
@@ -4587,7 +4637,7 @@
               "vh": "H",
               "spot": "H04",
               "clock": "00:26",
-              "driveindex": "16,113"
+              "driveindex": "16,114"
             }
           }
         ],
@@ -4653,8 +4703,8 @@
               "_attributes": {
                 "att": "7",
                 "yds": "13",
-                "gain": "23",
-                "loss": "10",
+                "gain": "24",
+                "loss": "11",
                 "td": "0",
                 "long": "0"
               }
@@ -4668,7 +4718,7 @@
                 "td": "1",
                 "long": "14",
                 "sacks": "1",
-                "sackyds": "10"
+                "sackyds": "11"
               }
             },
             "rcv": {
@@ -4683,7 +4733,7 @@
               "_attributes": {
                 "no": "3",
                 "yds": "112",
-                "long": "5",
+                "long": "4",
                 "blkd": "0",
                 "tb": "1",
                 "fc": "0",
@@ -4709,8 +4759,8 @@
             },
             "defense": {
               "_attributes": {
-                "tackua": "5",
-                "tacka": "4",
+                "tackua": "3",
+                "tacka": "6",
                 "tot_tack": "9",
                 "tflua": "1",
                 "tfla": "0",
@@ -4756,7 +4806,7 @@
             "conversions": {
               "_attributes": {
                 "thirdconv": "2",
-                "thirdatt": "3",
+                "thirdatt": "4",
                 "fourthconv": "0",
                 "fourthatt": "0"
               }
@@ -4784,9 +4834,9 @@
             "rush": {
               "_attributes": {
                 "att": "6",
-                "yds": "-1",
-                "gain": "8",
-                "loss": "9",
+                "yds": "3",
+                "gain": "9",
+                "loss": "6",
                 "td": "0",
                 "long": "0"
               }
@@ -4854,9 +4904,9 @@
                 "tot_tack": "18",
                 "tflua": "2",
                 "tfla": "0",
-                "tflyds": "11",
+                "tflyds": "12",
                 "sacks": "1",
-                "sackyds": "10",
+                "sackyds": "11",
                 "brup": "3",
                 "qbh": "1"
               }
@@ -4899,7 +4949,7 @@
               "togo": "12",
               "spot": "FG02",
               "context": "H,2,12,H02",
-              "playid": "16,4,118",
+              "playid": "16,4,119",
               "type": "#",
               "clock": "15:00",
               "tokens": "Q:3 T:15:00 SPOT:V,V30,N",
@@ -4914,7 +4964,7 @@
               "togo": "12",
               "spot": "PM30",
               "context": "V,2,12,V30",
-              "playid": "16,5,119",
+              "playid": "16,5,120",
               "type": "K",
               "tokens": "KO:25,H08 RET:3,H21 TACK:35",
               "text": "B. Bono kickoff 62 yards to the FG8, B. Robins return 13 yards to the FG21 (P. Veritas).",
@@ -4948,7 +4998,7 @@
               "togo": "10",
               "spot": "FG21",
               "context": "H,1,10,H21",
-              "playid": "17,1,120",
+              "playid": "17,1,121",
               "clock": "14:55",
               "tokens": "{DRIVE}:14:55",
               "text": "FRANKFURT GALAXY drive start at 14:55.",
@@ -4962,7 +5012,7 @@
               "togo": "10",
               "spot": "FG21",
               "context": "H,1,10,H21",
-              "playid": "17,2,121",
+              "playid": "17,2,122",
               "type": "P",
               "tokens": "PASS:10,I,27,*",
               "text": "S. Cluley pass incomplete to T. Fischbach.",
@@ -4984,7 +5034,7 @@
               "togo": "10",
               "spot": "FG21",
               "context": "H,2,10,H21",
-              "playid": "17,3,122",
+              "playid": "17,3,123",
               "type": "P",
               "first": "P",
               "tokens": "PASS:10,C,17,H34 TACK:22",
@@ -5014,7 +5064,7 @@
               "togo": "10",
               "spot": "FG34",
               "context": "H,1,10,H34",
-              "playid": "17,4,123",
+              "playid": "17,4,124",
               "type": "P",
               "tokens": "PASS:10,C,27,H37 TACK:41",
               "text": "S. Cluley pass complete to T. Fischbach for 3 yards to the FG37 (D. Larochel).",
@@ -5043,11 +5093,11 @@
               "togo": "7",
               "spot": "FG37",
               "context": "H,2,7,H37",
-              "playid": "17,5,124",
+              "playid": "17,5,125",
               "type": "P",
-              "tokens": "PASS:10,C,27,H37 TACK:22",
-              "text": "S. Cluley pass complete to T. Fischbach for no gain to the FG37 (F. Proulx).",
-              "newcontext": "H,3,7,H37"
+              "tokens": "PASS:10,C,27,H38 TACK:22",
+              "text": "S. Cluley pass complete to T. Fischbach for 1 yard to the FG38 (F. Proulx).",
+              "newcontext": "H,3,6,H38"
             },
             "p_pa": {
               "_attributes": {
@@ -5055,7 +5105,7 @@
                 "qb": "S. Cluley",
                 "result": "COMP",
                 "rcv": "T. Fischbach",
-                "gain": "0"
+                "gain": "1"
               }
             },
             "p_tk": {
@@ -5069,21 +5119,21 @@
             "_attributes": {
               "hasball": "FG",
               "down": "3",
-              "togo": "7",
-              "spot": "FG37",
-              "context": "H,3,7,H37",
-              "playid": "17,6,125",
+              "togo": "6",
+              "spot": "FG38",
+              "context": "H,3,6,H38",
+              "playid": "17,6,126",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:10,H47,",
-              "text": "S. Cluley rush for 10 yards to the FG47, 1ST DOWN FG.",
+              "text": "S. Cluley rush for 9 yards to the FG47, 1ST DOWN FG.",
               "newcontext": "H,1,10,H47"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "S. Cluley",
-                "gain": "10"
+                "gain": "9"
               }
             }
           },
@@ -5094,7 +5144,7 @@
               "togo": "10",
               "spot": "FG47",
               "context": "H,1,10,H47",
-              "playid": "17,7,126",
+              "playid": "17,7,127",
               "type": "R",
               "tokens": "RUSH:27,H49, TACK:55,90",
               "text": "T. Fischbach rush for 2 yards to the FG49 (M. Sy;V. Buffet).",
@@ -5131,7 +5181,7 @@
               "togo": "8",
               "spot": "FG49",
               "context": "H,2,8,H49",
-              "playid": "17,8,127",
+              "playid": "17,8,128",
               "type": "P",
               "first": "P",
               "tokens": "PASS:10,C,19,V41 TACK:22,90",
@@ -5171,7 +5221,7 @@
               "togo": "10",
               "spot": "PM41",
               "context": "H,1,10,V41",
-              "playid": "17,9,128",
+              "playid": "17,9,129",
               "type": "P",
               "first": "P",
               "score": "Y",
@@ -5199,7 +5249,7 @@
               "togo": "10",
               "spot": "PM15",
               "context": "H,1,10,V15",
-              "playid": "17,10,129",
+              "playid": "17,10,130",
               "type": "X",
               "score": "Y",
               "vscore": "13",
@@ -5226,7 +5276,7 @@
               "togo": "0",
               "spot": "FG30",
               "context": "H,1,0,H30",
-              "playid": "17,11,130",
+              "playid": "17,11,131",
               "type": "K",
               "tokens": "KO:1,V01 RET:15,V23 TACK:52",
               "text": "R. Rimmler kickoff 69 yards to the PM1, S. Fortes return 22 yards to the PM23 (W. Nasri).",
@@ -5260,7 +5310,7 @@
               "togo": "10",
               "spot": "PM23",
               "context": "V,1,10,V23",
-              "playid": "18,1,131",
+              "playid": "18,1,132",
               "clock": "10:35",
               "tokens": "{DRIVE}:10:35",
               "text": "PARIS MUSKETEERS drive start at 10:35.",
@@ -5274,7 +5324,7 @@
               "togo": "10",
               "spot": "PM23",
               "context": "V,1,10,V23",
-              "playid": "18,2,132",
+              "playid": "18,2,133",
               "type": "P",
               "tokens": "PASS:1,I,15,*",
               "text": "Z. Edwards pass incomplete to S. Fortes.",
@@ -5296,10 +5346,10 @@
               "togo": "10",
               "spot": "PM23",
               "context": "V,2,10,V23",
-              "playid": "18,3,133",
+              "playid": "18,3,134",
               "type": "R",
-              "tokens": "RUSH:2,V26, TACK:52",
-              "text": "J. Aguemon rush for 3 yards to the PM26 (W. Nasri).",
+              "tokens": "RUSH:2,V26, TACK:56",
+              "text": "J. Aguemon rush for 3 yards to the PM26 (S. Silva Gomez).",
               "newcontext": "V,3,7,V26"
             },
             "p_ru": {
@@ -5312,7 +5362,7 @@
             "p_tk": {
               "_attributes": {
                 "vh": "H",
-                "name": "W. Nasri"
+                "name": "S. Silva Gomez"
               }
             }
           },
@@ -5323,7 +5373,7 @@
               "togo": "7",
               "spot": "PM26",
               "context": "V,3,7,V26",
-              "playid": "18,4,134",
+              "playid": "18,4,135",
               "type": "P",
               "tokens": "PASS:1,I,7,*",
               "text": "Z. Edwards pass incomplete to K. Sweet.",
@@ -5345,7 +5395,7 @@
               "togo": "7",
               "spot": "PM26",
               "context": "V,4,7,V26",
-              "playid": "18,5,135",
+              "playid": "18,5,136",
               "type": "U",
               "tokens": "PUNT:25,H26 RET:3,H40 TACK:2,28",
               "text": "B. Bono punt 48 yards to the FG26, B. Robins return 14 yards to the FG40 (J. Aguemon;V. Lemoine).",
@@ -5389,7 +5439,7 @@
               "togo": "10",
               "spot": "FG40",
               "context": "H,1,10,H40",
-              "playid": "19,1,136",
+              "playid": "19,1,137",
               "clock": "09:33",
               "tokens": "{DRIVE}:09:33",
               "text": "FRANKFURT GALAXY drive start at 09:33.",
@@ -5403,7 +5453,7 @@
               "togo": "10",
               "spot": "FG40",
               "context": "H,1,10,H40",
-              "playid": "19,2,137",
+              "playid": "19,2,138",
               "type": "#",
               "clock": "09:33",
               "tokens": "TOUT:V T:09:33",
@@ -5424,7 +5474,7 @@
               "togo": "10",
               "spot": "FG40",
               "context": "H,1,10,H40",
-              "playid": "19,3,138",
+              "playid": "19,3,139",
               "type": "P",
               "tokens": "PASS:10,I,17,*",
               "text": "S. Cluley pass incomplete to R. Horn.",
@@ -5446,7 +5496,7 @@
               "togo": "10",
               "spot": "FG40",
               "context": "H,2,10,H40",
-              "playid": "19,4,139",
+              "playid": "19,4,140",
               "type": "R",
               "tokens": "RUSH:27,H40, TACK:27",
               "text": "T. Fischbach rush for no gain to the FG40 (R. Khefif).",
@@ -5473,12 +5523,12 @@
               "togo": "10",
               "spot": "FG40",
               "context": "H,3,10,H40",
-              "playid": "19,5,140",
+              "playid": "19,5,141",
               "type": "P",
               "first": "P",
-              "tokens": "PASS:10,C,19,V36 TACK:4,9",
-              "text": "S. Cluley pass complete to N. Strahmann for 24 yards to the PM36, 1ST DOWN FG (D. Gomis;K. Floret).",
-              "newcontext": "H,1,10,V36"
+              "tokens": "PASS:10,C,19,V35 TACK:4,9",
+              "text": "S. Cluley pass complete to N. Strahmann for 25 yards to the PM35, 1ST DOWN FG (D. Gomis;K. Floret).",
+              "newcontext": "H,1,10,V35"
             },
             "p_pa": {
               "_attributes": {
@@ -5486,7 +5536,7 @@
                 "qb": "S. Cluley",
                 "result": "COMP",
                 "rcv": "N. Strahmann",
-                "gain": "24"
+                "gain": "25"
               }
             },
             "p_tk": [
@@ -5511,24 +5561,24 @@
               "hasball": "FG",
               "down": "1",
               "togo": "10",
-              "spot": "PM36",
-              "context": "H,1,10,V36",
-              "playid": "19,6,141",
+              "spot": "PM35",
+              "context": "H,1,10,V35",
+              "playid": "19,6,142",
               "type": "E",
               "first": "E",
               "tokens": "PASS:10,I,17,* PEN:V,DPI,A,9,V01,1 NOPLAY:",
-              "text": "S. Cluley pass incomplete to R. Horn, PENALTY PM defensive pass interference (K. Floret) 35 yards to the PM1, 1ST DOWN FG, NO PLAY.",
+              "text": "S. Cluley pass incomplete to R. Horn, PENALTY PM Defensive Pass Interference (K. Floret) 34 yards to the PM1, 1ST DOWN FG, NO PLAY.",
               "newcontext": "H,1,0,V01"
             },
             "p_pn": {
               "_attributes": {
                 "vh": "V",
                 "code": "DPI",
-                "type": "defensive pass interference",
+                "type": "Defensive Pass Interference",
                 "name": "K. Floret",
                 "result": "ACCEPT",
-                "at": "V36",
-                "yards": "35"
+                "at": "V35",
+                "yards": "34"
               }
             }
           },
@@ -5539,18 +5589,18 @@
               "togo": "0",
               "spot": "PM01",
               "context": "H,1,0,V01",
-              "playid": "19,7,142",
+              "playid": "19,7,143",
               "type": "R",
               "turnover": "F",
-              "tokens": "RUSH:10,V05, FORCE:4 FUMB:V,V05,55",
-              "text": "S. Cluley rush for loss of 4 yards to the PM5, fumble forced by D. Gomis, fumble by S. Cluley recovered by PM M. Sy at PM5.",
+              "tokens": "RUSH:10,V03, FUMB:V,V05,55",
+              "text": "S. Cluley rush for loss of 2 yards to the PM3, fumble by S. Cluley recovered by PM M. Sy at PM5.",
               "newcontext": "V,1,10,V05"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
                 "name": "S. Cluley",
-                "gain": "-4"
+                "gain": "-2"
               }
             },
             "p_fumb": {
@@ -5561,13 +5611,6 @@
                 "frvh": "V",
                 "frname": "M. Sy"
               }
-            },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "D. Gomis",
-                "ff": "Y"
-              }
             }
           },
           {
@@ -5577,7 +5620,7 @@
               "togo": "10",
               "spot": "PM05",
               "context": "V,1,10,V05",
-              "playid": "20,1,143",
+              "playid": "20,1,144",
               "clock": "07:52",
               "tokens": "{DRIVE}:07:52",
               "text": "PARIS MUSKETEERS drive start at 07:52.",
@@ -5591,7 +5634,7 @@
               "togo": "10",
               "spot": "PM05",
               "context": "V,1,10,V05",
-              "playid": "20,2,144",
+              "playid": "20,2,145",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:33,H38, TACK:5",
@@ -5619,7 +5662,7 @@
               "togo": "10",
               "spot": "FG38",
               "context": "V,1,10,H38",
-              "playid": "20,3,145",
+              "playid": "20,3,146",
               "type": "R",
               "tokens": "RUSH:1,H36, TACK:8,52",
               "text": "Z. Edwards rush for 2 yards to the FG36 (M. Konya;W. Nasri).",
@@ -5656,18 +5699,18 @@
               "togo": "8",
               "spot": "FG36",
               "context": "V,2,8,H36",
-              "playid": "20,4,146",
+              "playid": "20,4,147",
               "type": "E",
               "first": "E",
               "tokens": "PASS:1,D,7,* QBH:H,56 PEN:H,RP,A,56,H21,1 NOPLAY:",
-              "text": "Z. Edwards pass incomplete to K. Sweet, dropped pass, QB hurry by S. Silva Gomez, PENALTY FG roughing the passer (S. Silva Gomez) 15 yards to the FG21, 1ST DOWN PM, NO PLAY.",
+              "text": "Z. Edwards pass incomplete to K. Sweet, dropped pass, QB hurry by S. Silva Gomez, PENALTY FG Roughing the Passer (S. Silva Gomez) 15 yards to the FG21, 1ST DOWN PM, NO PLAY.",
               "newcontext": "V,1,10,H21"
             },
             "p_pn": {
               "_attributes": {
                 "vh": "H",
                 "code": "RP",
-                "type": "roughing the passer",
+                "type": "Roughing the Passer",
                 "name": "S. Silva Gomez",
                 "result": "ACCEPT",
                 "at": "H36",
@@ -5682,10 +5725,10 @@
               "togo": "10",
               "spot": "FG21",
               "context": "V,1,10,H21",
-              "playid": "20,5,147",
+              "playid": "20,5,148",
               "type": "R",
-              "tokens": "RUSH:33,H19, TACK:90,41",
-              "text": "J. Bofunda rush for 2 yards to the FG19 (M. A. Hor;S. Gauthier).",
+              "tokens": "RUSH:33,H19, TACK:90,50",
+              "text": "J. Bofunda rush for 2 yards to the FG19 (M. A. Hor;Dav. Miletic).",
               "newcontext": "V,2,8,H19"
             },
             "p_ru": {
@@ -5706,7 +5749,7 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "S. Gauthier",
+                  "name": "Dav. Miletic",
                   "assist": "Y"
                 }
               }
@@ -5719,11 +5762,11 @@
               "togo": "8",
               "spot": "FG19",
               "context": "V,2,8,H19",
-              "playid": "20,6,148",
+              "playid": "20,6,149",
               "type": "P",
               "turnover": "I",
-              "tokens": "PASS:1,X,5,H08 RET:5,H19 TACK:8 PEN:V,DH,A,TM,H29,N D:1,10 SPOT:H,H29,Y",
-              "text": "Z. Edwards pass intercepted by J. Liggins at the FG8, J. Liggins return 11 yards to the FG19 (A. Botella M), PENALTY PM defensive holding 10 yards to the FG29, 1st and 10, FG ball on FG29.",
+              "tokens": "PASS:1,X,5,H08 RET:5,H14 TACK:8 PEN:V,UR,A,8,H29,N D:1,10 SPOT:H,H29,Y",
+              "text": "Z. Edwards pass intercepted by J. Liggins at the FG8, J. Liggins return 6 yards to the FG14 (A. Botella M), PENALTY PM Unnecessary Roughness (A. Botella M) 15 yards to the FG29, 1st and 10, FG ball on FG29.",
               "newcontext": "H,1,10,H29"
             },
             "p_pa": {
@@ -5738,7 +5781,7 @@
                 "vh": "H",
                 "name": "J. Liggins",
                 "at": "H08",
-                "gain": "11"
+                "gain": "6"
               }
             },
             "p_tk": {
@@ -5750,11 +5793,12 @@
             "p_pn": {
               "_attributes": {
                 "vh": "V",
-                "code": "DH",
-                "type": "defensive holding",
+                "code": "UR",
+                "type": "Unnecessary Roughness",
+                "name": "A. Botella M",
                 "result": "ACCEPT",
-                "at": "H19",
-                "yards": "10"
+                "at": "H14",
+                "yards": "15"
               }
             }
           },
@@ -5765,7 +5809,7 @@
               "togo": "10",
               "spot": "FG29",
               "context": "H,1,10,H29",
-              "playid": "21,1,149",
+              "playid": "21,1,150",
               "clock": "05:27",
               "tokens": "{DRIVE}:05:27",
               "text": "FRANKFURT GALAXY drive start at 05:27.",
@@ -5779,7 +5823,7 @@
               "togo": "10",
               "spot": "FG29",
               "context": "H,1,10,H29",
-              "playid": "21,2,150",
+              "playid": "21,2,151",
               "type": "P",
               "tokens": "PASS:10,C,27,H33 TACK:22",
               "text": "S. Cluley pass complete to T. Fischbach for 4 yards to the FG33 (F. Proulx).",
@@ -5808,7 +5852,7 @@
               "togo": "6",
               "spot": "FG33",
               "context": "H,2,6,H33",
-              "playid": "21,3,151",
+              "playid": "21,3,152",
               "type": "R",
               "tokens": "RUSH:27,H36, TACK:56",
               "text": "T. Fischbach rush for 3 yards to the FG36 (G. Nanguy).",
@@ -5835,7 +5879,7 @@
               "togo": "3",
               "spot": "FG36",
               "context": "H,3,3,H36",
-              "playid": "21,4,152",
+              "playid": "21,4,153",
               "type": "P",
               "tokens": "PASS:10,I,17,*",
               "text": "S. Cluley pass incomplete to R. Horn.",
@@ -5857,7 +5901,7 @@
               "togo": "3",
               "spot": "FG36",
               "context": "H,4,3,H36",
-              "playid": "21,5,153",
+              "playid": "21,5,154",
               "type": "U",
               "tokens": "PUNT:82,V26 DN:",
               "text": "H. Schwarz punt 38 yards to the PM26, downed.",
@@ -5878,7 +5922,7 @@
               "togo": "10",
               "spot": "PM26",
               "context": "V,1,10,V26",
-              "playid": "22,1,154",
+              "playid": "22,1,155",
               "clock": "04:12",
               "tokens": "{DRIVE}:04:12",
               "text": "PARIS MUSKETEERS drive start at 04:12.",
@@ -5892,11 +5936,11 @@
               "togo": "10",
               "spot": "PM26",
               "context": "V,1,10,V26",
-              "playid": "22,2,155",
+              "playid": "22,2,156",
               "type": "P",
               "first": "P",
-              "tokens": "PASS:1,C,15,V45 TACK:41",
-              "text": "Z. Edwards pass complete to S. Fortes for 19 yards to the PM45, 1ST DOWN PM (S. Gauthier).",
+              "tokens": "PASS:1,C,15,V45 TACK:41,3",
+              "text": "Z. Edwards pass complete to S. Fortes for 19 yards to the PM45, 1ST DOWN PM (S. Gauthier;B. Robins).",
               "newcontext": "V,1,10,V45"
             },
             "p_pa": {
@@ -5908,12 +5952,22 @@
                 "gain": "19"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "H",
-                "name": "S. Gauthier"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "H",
+                  "name": "S. Gauthier",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "H",
+                  "name": "B. Robins",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -5922,7 +5976,7 @@
               "togo": "10",
               "spot": "PM45",
               "context": "V,1,10,V45",
-              "playid": "22,3,156",
+              "playid": "22,3,157",
               "type": "#",
               "clock": "03:39",
               "tokens": "TOUT:H T:03:39",
@@ -5943,7 +5997,7 @@
               "togo": "10",
               "spot": "PM45",
               "context": "V,1,10,V45",
-              "playid": "22,4,157",
+              "playid": "22,4,158",
               "type": "P",
               "tokens": "PASS:1,C,7,H46 TACK:14",
               "text": "Z. Edwards pass complete to K. Sweet for 9 yards to the FG46 (J. Poznanski).",
@@ -5972,7 +6026,7 @@
               "togo": "1",
               "spot": "FG46",
               "context": "V,2,1,H46",
-              "playid": "22,5,158",
+              "playid": "22,5,159",
               "type": "P",
               "tokens": "PASS:1,I,14,*",
               "text": "Z. Edwards pass incomplete to C. Sow.",
@@ -5994,7 +6048,7 @@
               "togo": "1",
               "spot": "FG46",
               "context": "V,3,1,H46",
-              "playid": "22,6,159",
+              "playid": "22,6,160",
               "type": "#",
               "clock": "02:49",
               "tokens": "PASS:1,C,7,H00 T:02:49 NOPLAY:",
@@ -6009,7 +6063,7 @@
               "togo": "1",
               "spot": "FG46",
               "context": "V,3,1,H46",
-              "playid": "22,7,161",
+              "playid": "22,7,162",
               "type": "P",
               "first": "P",
               "tokens": "PASS:1,C,7,H31 OB:",
@@ -6034,7 +6088,7 @@
               "togo": "10",
               "spot": "FG31",
               "context": "V,1,10,H31",
-              "playid": "22,8,162",
+              "playid": "22,8,163",
               "type": "P",
               "tokens": "PASS:1,D,85,*",
               "text": "Z. Edwards pass incomplete to S. Delaval, dropped pass.",
@@ -6056,17 +6110,18 @@
               "togo": "10",
               "spot": "FG31",
               "context": "V,2,10,H31",
-              "playid": "22,9,163",
+              "playid": "22,9,164",
               "type": "P",
-              "tokens": "PASS:1,I,TM,* BRUP:56",
-              "text": "Z. Edwards pass incomplete (S. Silva Gomez).",
+              "tokens": "PASS:1,I,13,* BRUP:56",
+              "text": "Z. Edwards pass incomplete to F. Larose (S. Silva Gomez).",
               "newcontext": "V,3,10,H31"
             },
             "p_pa": {
               "_attributes": {
                 "vh": "V",
                 "qb": "Z. Edwards",
-                "result": "INC"
+                "result": "INC",
+                "rcv": "F. Larose"
               }
             },
             "p_bu": {
@@ -6083,10 +6138,10 @@
               "togo": "10",
               "spot": "FG31",
               "context": "V,3,10,H31",
-              "playid": "22,10,164",
+              "playid": "22,10,165",
               "type": "P",
-              "tokens": "PASS:1,I,8,*",
-              "text": "Z. Edwards pass incomplete to A. Botella M.",
+              "tokens": "PASS:1,I,8,* BRUP:41",
+              "text": "Z. Edwards pass incomplete to A. Botella M (S. Gauthier).",
               "newcontext": "V,4,10,H31"
             },
             "p_pa": {
@@ -6095,6 +6150,12 @@
                 "qb": "Z. Edwards",
                 "result": "INC",
                 "rcv": "A. Botella M"
+              }
+            },
+            "p_bu": {
+              "_attributes": {
+                "vh": "H",
+                "name": "S. Gauthier"
               }
             }
           },
@@ -6105,7 +6166,7 @@
               "togo": "10",
               "spot": "FG31",
               "context": "V,4,10,H31",
-              "playid": "22,11,165",
+              "playid": "22,11,166",
               "type": "P",
               "tokens": "PASS:1,C,7,H22 TACK:4",
               "text": "Z. Edwards pass complete to K. Sweet for 9 yards to the FG22 (T. Anderson).",
@@ -6134,7 +6195,7 @@
               "togo": "10",
               "spot": "FG22",
               "context": "H,1,10,H22",
-              "playid": "23,1,166",
+              "playid": "23,1,167",
               "clock": "02:23",
               "tokens": "{DRIVE}:02:23",
               "text": "FRANKFURT GALAXY drive start at 02:23.",
@@ -6148,10 +6209,10 @@
               "togo": "10",
               "spot": "FG22",
               "context": "H,1,10,H22",
-              "playid": "23,2,167",
+              "playid": "23,2,168",
               "type": "R",
-              "tokens": "RUSH:27,H21, TACK:94",
-              "text": "T. Fischbach rush for loss of 1 yard to the FG21 (V. Gnahoua).",
+              "tokens": "RUSH:27,H21, TACK:97,94",
+              "text": "T. Fischbach rush for loss of 1 yard to the FG21 (A. Mizius;V. Gnahoua).",
               "newcontext": "H,2,11,H21"
             },
             "p_ru": {
@@ -6161,12 +6222,22 @@
                 "gain": "-1"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "V. Gnahoua"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "A. Mizius",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "V. Gnahoua",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -6175,7 +6246,7 @@
               "togo": "11",
               "spot": "FG21",
               "context": "H,2,11,H21",
-              "playid": "23,3,168",
+              "playid": "23,3,169",
               "type": "P",
               "tokens": "PASS:10,C,19,H25 TACK:20",
               "text": "S. Cluley pass complete to N. Strahmann for 4 yards to the FG25 (W. Said).",
@@ -6204,7 +6275,7 @@
               "togo": "7",
               "spot": "FG25",
               "context": "H,3,7,H25",
-              "playid": "23,4,169",
+              "playid": "23,4,170",
               "tokens": "RUSH:10,H32, NOPLAY:",
               "text": "S. Cluley rush for 7 yards to the FG32, NO PLAY.",
               "newcontext": "H,3,7,H25"
@@ -6217,7 +6288,7 @@
               "togo": "7",
               "spot": "FG25",
               "context": "H,3,7,H25",
-              "playid": "23,5,171",
+              "playid": "23,5,172",
               "type": "R",
               "tokens": "RUSH:10,H31,",
               "text": "S. Cluley rush for 6 yards to the FG31.",
@@ -6238,17 +6309,17 @@
               "togo": "1",
               "spot": "FG31",
               "context": "H,4,1,H31",
-              "playid": "23,6,172",
+              "playid": "23,6,173",
               "type": "E",
               "tokens": "PEN:H,DG,A,10,H26,N",
-              "text": "PENALTY FG delay of game (S. Cluley) 5 yards to the FG26.",
+              "text": "PENALTY FG Delay of Game (S. Cluley) 5 yards to the FG26.",
               "newcontext": "H,4,6,H26"
             },
             "p_pn": {
               "_attributes": {
                 "vh": "H",
                 "code": "DG",
-                "type": "delay of game",
+                "type": "Delay of Game",
                 "name": "S. Cluley",
                 "result": "ACCEPT",
                 "at": "H31",
@@ -6263,7 +6334,7 @@
               "togo": "6",
               "spot": "FG26",
               "context": "H,4,6,H26",
-              "playid": "23,7,173",
+              "playid": "23,7,174",
               "type": "U",
               "tokens": "PUNT:82,V34 FC:7",
               "text": "H. Schwarz punt 40 yards to the PM34, fair catch by K. Sweet.",
@@ -6285,7 +6356,7 @@
               "togo": "10",
               "spot": "PM34",
               "context": "V,1,10,V34",
-              "playid": "24,1,174",
+              "playid": "24,1,175",
               "clock": "00:06",
               "tokens": "{DRIVE}:00:06",
               "text": "PARIS MUSKETEERS drive start at 00:06.",
@@ -6299,7 +6370,7 @@
               "togo": "10",
               "spot": "PM34",
               "context": "V,1,10,V34",
-              "playid": "24,2,175",
+              "playid": "24,2,176",
               "type": "R",
               "tokens": "RUSH:2,V35, TACK:91,51",
               "text": "J. Aguemon rush for 1 yard to the PM35 (M. Djeri;J. Mackeben).",
@@ -6337,7 +6408,7 @@
               "vh": "H",
               "spot": "H21",
               "clock": "14:55",
-              "driveindex": "17,119"
+              "driveindex": "17,120"
             }
           },
           {
@@ -6346,7 +6417,7 @@
               "vh": "V",
               "spot": "V23",
               "clock": "10:35",
-              "driveindex": "18,130"
+              "driveindex": "18,131"
             }
           },
           {
@@ -6355,7 +6426,7 @@
               "vh": "H",
               "spot": "H40",
               "clock": "09:33",
-              "driveindex": "19,135"
+              "driveindex": "19,136"
             }
           },
           {
@@ -6364,7 +6435,7 @@
               "vh": "V",
               "spot": "V05",
               "clock": "07:52",
-              "driveindex": "20,142"
+              "driveindex": "20,143"
             }
           },
           {
@@ -6373,7 +6444,7 @@
               "vh": "H",
               "spot": "H29",
               "clock": "05:27",
-              "driveindex": "21,148"
+              "driveindex": "21,149"
             }
           },
           {
@@ -6382,7 +6453,7 @@
               "vh": "V",
               "spot": "V26",
               "clock": "04:12",
-              "driveindex": "22,153"
+              "driveindex": "22,154"
             }
           },
           {
@@ -6391,7 +6462,7 @@
               "vh": "H",
               "spot": "H22",
               "clock": "02:23",
-              "driveindex": "23,165"
+              "driveindex": "23,166"
             }
           },
           {
@@ -6400,7 +6471,7 @@
               "vh": "V",
               "spot": "V34",
               "clock": "00:06",
-              "driveindex": "24,173"
+              "driveindex": "24,174"
             }
           }
         ],
@@ -6514,7 +6585,7 @@
             "penalties": {
               "_attributes": {
                 "no": "2",
-                "yds": "45"
+                "yds": "49"
               }
             },
             "conversions": {
@@ -6591,15 +6662,14 @@
             },
             "defense": {
               "_attributes": {
-                "tackua": "11",
-                "tacka": "8",
+                "tackua": "9",
+                "tacka": "10",
                 "tot_tack": "19",
-                "tflua": "2",
-                "tfla": "0",
-                "tflyds": "5",
+                "tflua": "0",
+                "tfla": "2",
+                "tflyds": "1",
                 "sacks": "0",
                 "sackyds": "0",
-                "ff": "1",
                 "fr": "1",
                 "fryds": "0"
               }
@@ -6663,8 +6733,8 @@
             "rush": {
               "_attributes": {
                 "att": "7",
-                "yds": "16",
-                "gain": "21",
+                "yds": "15",
+                "gain": "20",
                 "loss": "5",
                 "td": "0",
                 "long": "0"
@@ -6675,7 +6745,7 @@
                 "comp": "8",
                 "att": "11",
                 "int": "0",
-                "yds": "99",
+                "yds": "101",
                 "td": "1",
                 "long": "0",
                 "sacks": "0",
@@ -6685,7 +6755,7 @@
             "rcv": {
               "_attributes": {
                 "no": "8",
-                "yds": "99",
+                "yds": "101",
                 "td": "1",
                 "long": "0"
               }
@@ -6720,14 +6790,14 @@
             },
             "defense": {
               "_attributes": {
-                "tackua": "6",
-                "tacka": "6",
-                "tot_tack": "12",
+                "tackua": "5",
+                "tacka": "8",
+                "tot_tack": "13",
                 "sacks": "0",
                 "sackyds": "0",
-                "brup": "1",
+                "brup": "2",
                 "int": "1",
-                "intyds": "11"
+                "intyds": "6"
               }
             },
             "kr": {
@@ -6749,7 +6819,7 @@
             "ir": {
               "_attributes": {
                 "no": "1",
-                "yds": "11",
+                "yds": "6",
                 "td": "0",
                 "long": "0"
               }
@@ -6776,7 +6846,7 @@
               "togo": "9",
               "spot": "PM35",
               "context": "V,2,9,V35",
-              "playid": "24,3,176",
+              "playid": "24,3,177",
               "type": "#",
               "clock": "15:00",
               "tokens": "Q:4 T:15:00",
@@ -6791,10 +6861,10 @@
               "togo": "9",
               "spot": "PM35",
               "context": "V,2,9,V35",
-              "playid": "24,4,177",
+              "playid": "24,4,178",
               "type": "P",
-              "tokens": "PASS:1,S,TM,V31 SACK:56,41",
-              "text": "Z. Edwards sacked for loss of 4 yards to the PM31 (S. Silva Gomez;S. Gauthier).",
+              "tokens": "PASS:1,S,TM,V31 SACK:41,97",
+              "text": "Z. Edwards sacked for loss of 4 yards to the PM31 (S. Gauthier;S. Rieger).",
               "newcontext": "V,3,13,V31"
             },
             "p_pa": {
@@ -6809,7 +6879,7 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "S. Silva Gomez",
+                  "name": "S. Gauthier",
                   "sack": "Y",
                   "assist": "Y"
                 }
@@ -6817,7 +6887,7 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "S. Gauthier",
+                  "name": "S. Rieger",
                   "sack": "Y",
                   "assist": "Y"
                 }
@@ -6831,7 +6901,7 @@
               "togo": "13",
               "spot": "PM31",
               "context": "V,3,13,V31",
-              "playid": "24,5,178",
+              "playid": "24,5,179",
               "type": "P",
               "tokens": "PASS:1,C,7,V35 TACK:4",
               "text": "Z. Edwards pass complete to K. Sweet for 4 yards to the PM35 (T. Anderson).",
@@ -6860,7 +6930,7 @@
               "togo": "9",
               "spot": "PM35",
               "context": "V,4,9,V35",
-              "playid": "24,6,179",
+              "playid": "24,6,180",
               "type": "U",
               "tokens": "PUNT:25,H16 RET:3,H34 TACK:27",
               "text": "B. Bono punt 49 yards to the FG16, B. Robins return 18 yards to the FG34 (R. Khefif).",
@@ -6894,7 +6964,7 @@
               "togo": "10",
               "spot": "FG34",
               "context": "H,1,10,H34",
-              "playid": "25,1,180",
+              "playid": "25,1,181",
               "clock": "13:25",
               "tokens": "{DRIVE}:13:25",
               "text": "FRANKFURT GALAXY drive start at 13:25.",
@@ -6908,7 +6978,7 @@
               "togo": "10",
               "spot": "FG34",
               "context": "H,1,10,H34",
-              "playid": "25,2,181",
+              "playid": "25,2,182",
               "type": "P",
               "tokens": "PASS:10,C,17,H40 TACK:27",
               "text": "S. Cluley pass complete to R. Horn for 6 yards to the FG40 (R. Khefif).",
@@ -6937,7 +7007,7 @@
               "togo": "4",
               "spot": "FG40",
               "context": "H,2,4,H40",
-              "playid": "25,3,182",
+              "playid": "25,3,183",
               "type": "P",
               "first": "P",
               "tokens": "PASS:10,C,17,V32 TACK:9",
@@ -6967,7 +7037,7 @@
               "togo": "10",
               "spot": "PM32",
               "context": "H,1,10,V32",
-              "playid": "25,4,183",
+              "playid": "25,4,184",
               "type": "P",
               "tokens": "PASS:10,C,81,V25 TACK:4,9",
               "text": "S. Cluley pass complete to J. von Renesse for 7 yards to the PM25 (D. Gomis;K. Floret).",
@@ -7006,11 +7076,11 @@
               "togo": "3",
               "spot": "PM25",
               "context": "H,2,3,V25",
-              "playid": "25,5,184",
+              "playid": "25,5,185",
               "type": "P",
               "first": "P",
-              "tokens": "PASS:10,C,86,V19 TACK:27",
-              "text": "S. Cluley pass complete to L. Regler for 6 yards to the PM19, 1ST DOWN FG (R. Khefif).",
+              "tokens": "PASS:10,C,86,V19 TACK:27,4",
+              "text": "S. Cluley pass complete to L. Regler for 6 yards to the PM19, 1ST DOWN FG (R. Khefif;D. Gomis).",
               "newcontext": "H,1,10,V19"
             },
             "p_pa": {
@@ -7022,12 +7092,22 @@
                 "gain": "6"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "R. Khefif"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "R. Khefif",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "D. Gomis",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -7036,7 +7116,7 @@
               "togo": "10",
               "spot": "PM19",
               "context": "H,1,10,V19",
-              "playid": "25,6,185",
+              "playid": "25,6,186",
               "type": "P",
               "tokens": "PASS:10,C,16,V15 TACK:22",
               "text": "S. Cluley pass complete to N. Schumm for 4 yards to the PM15 (F. Proulx).",
@@ -7065,10 +7145,10 @@
               "togo": "6",
               "spot": "PM15",
               "context": "H,2,6,V15",
-              "playid": "25,7,186",
+              "playid": "25,7,187",
               "type": "P",
-              "tokens": "PASS:10,C,81,V13 TACK:27,54",
-              "text": "S. Cluley pass complete to J. von Renesse for 2 yards to the PM13 (R. Khefif;J. Loew).",
+              "tokens": "PASS:10,C,81,V13 TACK:27",
+              "text": "S. Cluley pass complete to J. von Renesse for 2 yards to the PM13 (R. Khefif).",
               "newcontext": "H,3,4,V13"
             },
             "p_pa": {
@@ -7080,22 +7160,12 @@
                 "gain": "2"
               }
             },
-            "p_tk": [
-              {
-                "_attributes": {
-                  "vh": "V",
-                  "name": "R. Khefif",
-                  "assist": "Y"
-                }
-              },
-              {
-                "_attributes": {
-                  "vh": "V",
-                  "name": "J. Loew",
-                  "assist": "Y"
-                }
+            "p_tk": {
+              "_attributes": {
+                "vh": "V",
+                "name": "R. Khefif"
               }
-            ]
+            }
           },
           {
             "_attributes": {
@@ -7104,7 +7174,7 @@
               "togo": "4",
               "spot": "PM13",
               "context": "H,3,4,V13",
-              "playid": "25,8,187",
+              "playid": "25,8,188",
               "type": "P",
               "tokens": "PASS:10,S,TM,V21 SACK:44",
               "text": "S. Cluley sacked for loss of 8 yards to the PM21 (S. Zeregbe).",
@@ -7133,7 +7203,7 @@
               "togo": "12",
               "spot": "PM21",
               "context": "H,4,12,V21",
-              "playid": "25,9,188",
+              "playid": "25,9,189",
               "type": "F",
               "score": "Y",
               "vscore": "13",
@@ -7160,7 +7230,7 @@
               "togo": "0",
               "spot": "FG30",
               "context": "H,1,0,H30",
-              "playid": "25,10,189",
+              "playid": "25,10,190",
               "type": "K",
               "tokens": "KO:1,V02 RET:14,V35 TACK:38",
               "text": "R. Rimmler kickoff 68 yards to the PM2, C. Sow return 33 yards to the PM35 (S. Brand).",
@@ -7194,7 +7264,7 @@
               "togo": "10",
               "spot": "PM35",
               "context": "V,1,10,V35",
-              "playid": "26,1,190",
+              "playid": "26,1,191",
               "clock": "08:33",
               "tokens": "{DRIVE}:08:33",
               "text": "PARIS MUSKETEERS drive start at 08:33.",
@@ -7208,7 +7278,7 @@
               "togo": "10",
               "spot": "PM35",
               "context": "V,1,10,V35",
-              "playid": "26,2,191",
+              "playid": "26,2,192",
               "type": "P",
               "tokens": "PASS:1,S,TM,V28 SACK:8",
               "text": "Z. Edwards sacked for loss of 7 yards to the PM28 (M. Konya).",
@@ -7237,7 +7307,7 @@
               "togo": "17",
               "spot": "PM28",
               "context": "V,2,17,V28",
-              "playid": "26,3,192",
+              "playid": "26,3,193",
               "type": "P",
               "tokens": "PASS:1,I,TM,*",
               "text": "Z. Edwards pass incomplete.",
@@ -7258,10 +7328,10 @@
               "togo": "17",
               "spot": "PM28",
               "context": "V,3,17,V28",
-              "playid": "26,4,193",
+              "playid": "26,4,194",
               "type": "P",
-              "tokens": "PASS:1,I,8,* BRUP:52",
-              "text": "Z. Edwards pass incomplete to A. Botella M (W. Nasri).",
+              "tokens": "PASS:1,I,8,* BRUP:52 QBH:H,54",
+              "text": "Z. Edwards pass incomplete to A. Botella M (W. Nasri), QB hurry by K. Brauns.",
               "newcontext": "V,4,17,V28"
             },
             "p_pa": {
@@ -7277,6 +7347,12 @@
                 "vh": "H",
                 "name": "W. Nasri"
               }
+            },
+            "p_qbh": {
+              "_attributes": {
+                "vh": "H",
+                "name": "K. Brauns"
+              }
             }
           },
           {
@@ -7286,7 +7362,7 @@
               "togo": "17",
               "spot": "PM28",
               "context": "V,4,17,V28",
-              "playid": "26,5,194",
+              "playid": "26,5,195",
               "type": "U",
               "tokens": "PUNT:25,H20 TB:",
               "text": "B. Bono punt 52 yards to the FG20, touchback.",
@@ -7308,7 +7384,7 @@
               "togo": "10",
               "spot": "FG20",
               "context": "H,1,10,H20",
-              "playid": "27,1,195",
+              "playid": "27,1,196",
               "clock": "07:34",
               "tokens": "{DRIVE}:07:34",
               "text": "FRANKFURT GALAXY drive start at 07:34.",
@@ -7322,7 +7398,7 @@
               "togo": "10",
               "spot": "FG20",
               "context": "H,1,10,H20",
-              "playid": "27,2,196",
+              "playid": "27,2,197",
               "type": "P",
               "tokens": "PASS:10,I,19,*",
               "text": "S. Cluley pass incomplete to N. Strahmann.",
@@ -7344,7 +7420,7 @@
               "togo": "10",
               "spot": "FG20",
               "context": "H,2,10,H20",
-              "playid": "27,3,197",
+              "playid": "27,3,198",
               "type": "R",
               "tokens": "RUSH:27,H25, TACK:41",
               "text": "T. Fischbach rush for 5 yards to the FG25 (D. Larochel).",
@@ -7371,7 +7447,7 @@
               "togo": "5",
               "spot": "FG25",
               "context": "H,3,5,H25",
-              "playid": "27,4,198",
+              "playid": "27,4,199",
               "type": "P",
               "tokens": "PASS:10,C,19,H28 TACK:41,9",
               "text": "S. Cluley pass complete to N. Strahmann for 3 yards to the FG28 (D. Larochel;K. Floret).",
@@ -7410,7 +7486,7 @@
               "togo": "2",
               "spot": "FG28",
               "context": "H,4,2,H28",
-              "playid": "27,5,199",
+              "playid": "27,5,200",
               "type": "U",
               "tokens": "PUNT:82,V29 DN:",
               "text": "H. Schwarz punt 43 yards to the PM29, downed.",
@@ -7431,7 +7507,7 @@
               "togo": "10",
               "spot": "PM29",
               "context": "V,1,10,V29",
-              "playid": "28,1,200",
+              "playid": "28,1,201",
               "clock": "05:46",
               "tokens": "{DRIVE}:05:46",
               "text": "PARIS MUSKETEERS drive start at 05:46.",
@@ -7445,7 +7521,7 @@
               "togo": "10",
               "spot": "PM29",
               "context": "V,1,10,V29",
-              "playid": "28,2,201",
+              "playid": "28,2,202",
               "tokens": "QB:V,12",
               "text": "H. Tekedam at QB for Paris Musketeers.",
               "newcontext": "V,1,10,V29"
@@ -7458,10 +7534,10 @@
               "togo": "10",
               "spot": "PM29",
               "context": "V,1,10,V29",
-              "playid": "28,3,202",
+              "playid": "28,3,203",
               "type": "R",
-              "tokens": "RUSH:12,V31, TACK:92,96",
-              "text": "H. Tekedam rush for 2 yards to the PM31 (F. Mousel;T. Gaye).",
+              "tokens": "RUSH:12,V31, TACK:56,92",
+              "text": "H. Tekedam rush for 2 yards to the PM31 (S. Silva Gomez;F. Mousel).",
               "newcontext": "V,2,8,V31"
             },
             "p_ru": {
@@ -7475,14 +7551,14 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "F. Mousel",
+                  "name": "S. Silva Gomez",
                   "assist": "Y"
                 }
               },
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "T. Gaye",
+                  "name": "F. Mousel",
                   "assist": "Y"
                 }
               }
@@ -7495,7 +7571,7 @@
               "togo": "8",
               "spot": "PM31",
               "context": "V,2,8,V31",
-              "playid": "28,4,203",
+              "playid": "28,4,204",
               "type": "R",
               "first": "R",
               "tokens": "RUSH:2,V40, TACK:38,56",
@@ -7533,10 +7609,10 @@
               "togo": "10",
               "spot": "PM40",
               "context": "V,1,10,V40",
-              "playid": "28,5,204",
+              "playid": "28,5,205",
               "type": "R",
-              "tokens": "RUSH:2,V45, TACK:90,52",
-              "text": "J. Aguemon rush for 5 yards to the PM45 (M. A. Hor;W. Nasri).",
+              "tokens": "RUSH:2,V45, TACK:90,41",
+              "text": "J. Aguemon rush for 5 yards to the PM45 (M. A. Hor;S. Gauthier).",
               "newcontext": "V,2,5,V45"
             },
             "p_ru": {
@@ -7557,7 +7633,7 @@
               {
                 "_attributes": {
                   "vh": "H",
-                  "name": "W. Nasri",
+                  "name": "S. Gauthier",
                   "assist": "Y"
                 }
               }
@@ -7570,7 +7646,7 @@
               "togo": "5",
               "spot": "PM45",
               "context": "V,2,5,V45",
-              "playid": "28,6,205",
+              "playid": "28,6,206",
               "type": "R",
               "tokens": "RUSH:12,V46, TACK:90,52",
               "text": "H. Tekedam rush for 1 yard to the PM46 (M. A. Hor;W. Nasri).",
@@ -7607,7 +7683,7 @@
               "togo": "4",
               "spot": "PM46",
               "context": "V,3,4,V46",
-              "playid": "28,7,206",
+              "playid": "28,7,207",
               "type": "R",
               "tokens": "RUSH:33,V46, TACK:51,90",
               "text": "J. Bofunda rush for no gain to the PM46 (J. Mackeben;M. A. Hor).",
@@ -7644,7 +7720,7 @@
               "togo": "4",
               "spot": "PM46",
               "context": "V,4,4,V46",
-              "playid": "28,8,207",
+              "playid": "28,8,208",
               "type": "#",
               "clock": "02:45",
               "tokens": "TOUT:V T:02:45",
@@ -7665,7 +7741,7 @@
               "togo": "4",
               "spot": "PM46",
               "context": "V,4,4,V46",
-              "playid": "28,9,208",
+              "playid": "28,9,209",
               "type": "U",
               "tokens": "PUNT:25,H36 OB:",
               "text": "B. Bono punt 18 yards to the FG36, out-of-bounds.",
@@ -7688,7 +7764,7 @@
               "togo": "10",
               "spot": "FG36",
               "context": "H,1,10,H36",
-              "playid": "29,1,209",
+              "playid": "29,1,210",
               "clock": "02:37",
               "tokens": "{DRIVE}:02:37",
               "text": "FRANKFURT GALAXY drive start at 02:37.",
@@ -7702,9 +7778,9 @@
               "togo": "10",
               "spot": "FG36",
               "context": "H,1,10,H36",
-              "playid": "29,2,210",
+              "playid": "29,2,211",
               "tokens": "QB:H,6",
-              "text": "L. Heidrich at QB for Frankfurt Galaxy.",
+              "text": "L. Hedrich at QB for Frankfurt Galaxy.",
               "newcontext": "H,1,10,H36"
             }
           },
@@ -7715,16 +7791,16 @@
               "togo": "10",
               "spot": "FG36",
               "context": "H,1,10,H36",
-              "playid": "29,3,211",
+              "playid": "29,3,212",
               "type": "R",
               "tokens": "RUSH:20,H40, TACK:17,35",
-              "text": "N. Kaufman rush for 4 yards to the FG40 (A. Abandzounou;P. Veritas).",
+              "text": "N. Kaufmann rush for 4 yards to the FG40 (A. Abandzounou;P. Veritas).",
               "newcontext": "H,2,6,H40"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
-                "name": "N. Kaufman",
+                "name": "N. Kaufmann",
                 "gain": "4"
               }
             },
@@ -7752,16 +7828,16 @@
               "togo": "6",
               "spot": "FG40",
               "context": "H,2,6,H40",
-              "playid": "29,4,213",
+              "playid": "29,4,214",
               "type": "R",
               "tokens": "RUSH:20,H39, TACK:99",
-              "text": "N. Kaufman rush for loss of 1 yard to the FG39 (W. Dendele).",
+              "text": "N. Kaufmann rush for loss of 1 yard to the FG39 (W. Dendele).",
               "newcontext": "H,3,7,H39"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
-                "name": "N. Kaufman",
+                "name": "N. Kaufmann",
                 "gain": "-1"
               }
             },
@@ -7779,25 +7855,35 @@
               "togo": "7",
               "spot": "FG39",
               "context": "H,3,7,H39",
-              "playid": "29,5,214",
+              "playid": "29,5,215",
               "type": "R",
-              "tokens": "RUSH:20,H42, TACK:90",
-              "text": "N. Kaufman rush for 3 yards to the FG42 (V. Buffet).",
+              "tokens": "RUSH:20,H42, TACK:90,41",
+              "text": "N. Kaufmann rush for 3 yards to the FG42 (V. Buffet;D. Larochel).",
               "newcontext": "H,4,4,H42"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "H",
-                "name": "N. Kaufman",
+                "name": "N. Kaufmann",
                 "gain": "3"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "V",
-                "name": "V. Buffet"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "V. Buffet",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "V",
+                  "name": "D. Larochel",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -7806,17 +7892,17 @@
               "togo": "4",
               "spot": "FG42",
               "context": "H,4,4,H42",
-              "playid": "29,6,215",
+              "playid": "29,6,216",
               "type": "U",
-              "tokens": "PUNT:82,V08 RET:7,V06 TACK:38",
-              "text": "H. Schwarz punt 50 yards to the PM8, K. Sweet return -2 yards to the PM6 (S. Brand).",
+              "tokens": "PUNT:82,V09 RET:7,V06 TACK:38",
+              "text": "H. Schwarz punt 49 yards to the PM9, K. Sweet return -3 yards to the PM6 (S. Brand).",
               "newcontext": "V,1,10,V06"
             },
             "p_pu": {
               "_attributes": {
                 "vh": "H",
                 "name": "H. Schwarz",
-                "gain": "50",
+                "gain": "49",
                 "in20": "Y"
               }
             },
@@ -7824,7 +7910,7 @@
               "_attributes": {
                 "vh": "V",
                 "name": "K. Sweet",
-                "gain": "-2"
+                "gain": "-3"
               }
             },
             "p_tk": {
@@ -7841,7 +7927,7 @@
               "togo": "10",
               "spot": "PM06",
               "context": "V,1,10,V06",
-              "playid": "30,1,216",
+              "playid": "30,1,217",
               "clock": "00:20",
               "tokens": "{DRIVE}:00:20",
               "text": "PARIS MUSKETEERS drive start at 00:20.",
@@ -7855,25 +7941,35 @@
               "togo": "10",
               "spot": "PM06",
               "context": "V,1,10,V06",
-              "playid": "30,2,217",
+              "playid": "30,2,218",
               "type": "R",
-              "tokens": "RUSH:2,V10, TACK:92",
-              "text": "J. Aguemon rush for 4 yards to the PM10 (F. Mousel).",
+              "tokens": "RUSH:21,V10 TACK:91,92",
+              "text": "M. Zero rush for 4 yards to the PM10 (M. Djeri;F. Mousel).",
               "newcontext": "V,2,6,V10"
             },
             "p_ru": {
               "_attributes": {
                 "vh": "V",
-                "name": "J. Aguemon",
+                "name": "M. Zero",
                 "gain": "4"
               }
             },
-            "p_tk": {
-              "_attributes": {
-                "vh": "H",
-                "name": "F. Mousel"
+            "p_tk": [
+              {
+                "_attributes": {
+                  "vh": "H",
+                  "name": "M. Djeri",
+                  "assist": "Y"
+                }
+              },
+              {
+                "_attributes": {
+                  "vh": "H",
+                  "name": "F. Mousel",
+                  "assist": "Y"
+                }
               }
-            }
+            ]
           },
           {
             "_attributes": {
@@ -7882,7 +7978,7 @@
               "togo": "6",
               "spot": "PM10",
               "context": "V,2,6,V10",
-              "playid": "30,3,218",
+              "playid": "30,3,219",
               "type": "#",
               "clock": "00:00",
               "tokens": "HALF: T:00:00",
@@ -7963,7 +8059,7 @@
               "vh": "H",
               "spot": "H34",
               "clock": "13:25",
-              "driveindex": "25,179"
+              "driveindex": "25,180"
             }
           },
           {
@@ -7972,7 +8068,7 @@
               "vh": "V",
               "spot": "V35",
               "clock": "08:33",
-              "driveindex": "26,189"
+              "driveindex": "26,190"
             }
           },
           {
@@ -7981,7 +8077,7 @@
               "vh": "H",
               "spot": "H20",
               "clock": "07:34",
-              "driveindex": "27,194"
+              "driveindex": "27,195"
             }
           },
           {
@@ -7990,7 +8086,7 @@
               "vh": "V",
               "spot": "V29",
               "clock": "05:46",
-              "driveindex": "28,199"
+              "driveindex": "28,200"
             }
           },
           {
@@ -7999,7 +8095,7 @@
               "vh": "H",
               "spot": "H36",
               "clock": "02:37",
-              "driveindex": "29,208"
+              "driveindex": "29,209"
             }
           },
           {
@@ -8008,7 +8104,7 @@
               "vh": "V",
               "spot": "V06",
               "clock": "00:20",
-              "driveindex": "30,215"
+              "driveindex": "30,216"
             }
           }
         ],
@@ -8118,9 +8214,9 @@
             },
             "defense": {
               "_attributes": {
-                "tackua": "9",
-                "tacka": "8",
-                "tot_tack": "17",
+                "tackua": "8",
+                "tacka": "10",
+                "tot_tack": "18",
                 "tflua": "2",
                 "tfla": "0",
                 "tflyds": "9",
@@ -8139,7 +8235,7 @@
             "pr": {
               "_attributes": {
                 "no": "1",
-                "yds": "-2",
+                "yds": "-3",
                 "td": "0",
                 "long": "0"
               }
@@ -8217,14 +8313,14 @@
             "punt": {
               "_attributes": {
                 "no": "2",
-                "yds": "93",
-                "long": "10",
+                "yds": "92",
+                "long": "9",
                 "blkd": "0",
                 "tb": "0",
                 "fc": "0",
-                "plus50": "1",
+                "plus50": "0",
                 "inside20": "1",
-                "avg": "46.5"
+                "avg": "46.0"
               }
             },
             "ko": {
@@ -8246,15 +8342,16 @@
             },
             "defense": {
               "_attributes": {
-                "tackua": "5",
-                "tacka": "12",
-                "tot_tack": "17",
+                "tackua": "4",
+                "tacka": "14",
+                "tot_tack": "18",
                 "tflua": "1",
                 "tfla": "2",
                 "tflyds": "11",
                 "sacks": "2",
                 "sackyds": "11",
-                "brup": "1"
+                "brup": "1",
+                "qbh": "1"
               }
             },
             "pr": {
@@ -8293,7 +8390,7 @@
   "visitor_players": [
     {
       "_attributes": {
-        "name": "Zachary Edwards",
+        "name": "Z. Edwards",
         "shortname": "Z. Edwards",
         "checkname": "EDWARDS,Z",
         "uni": "1",
@@ -8306,9 +8403,9 @@
       "rush": {
         "_attributes": {
           "att": "14",
-          "yds": "-16",
+          "yds": "-11",
           "gain": "44",
-          "loss": "60",
+          "loss": "55",
           "td": "0",
           "long": "14"
         }
@@ -8322,7 +8419,7 @@
           "td": "1",
           "long": "19",
           "sacks": "5",
-          "sackyds": "44"
+          "sackyds": "45"
         }
       },
       "punt": {
@@ -8338,13 +8435,6 @@
           "avg": "31.5"
         }
       },
-      "defense": {
-        "_attributes": {
-          "tackua": "1",
-          "tacka": "0",
-          "tot_tack": "1"
-        }
-      },
       "fumbles": {
         "_attributes": {
           "no": "1",
@@ -8354,7 +8444,7 @@
     },
     {
       "_attributes": {
-        "name": "Jason Rilwann Aguemo",
+        "name": "J. Aguemon",
         "shortname": "J. Aguemon",
         "checkname": "AGUEMON,J",
         "uni": "2",
@@ -8366,9 +8456,9 @@
       },
       "rush": {
         "_attributes": {
-          "att": "7",
-          "yds": "27",
-          "gain": "27",
+          "att": "6",
+          "yds": "23",
+          "gain": "23",
           "loss": "0",
           "td": "0",
           "long": "9"
@@ -8376,15 +8466,15 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "0",
+          "tackua": "1",
           "tacka": "1",
-          "tot_tack": "1"
+          "tot_tack": "2"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Digaan Gomis",
+        "name": "D. Gomis",
         "shortname": "D. Gomis",
         "checkname": "GOMIS,D",
         "uni": "4",
@@ -8396,19 +8486,15 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
+          "tackua": "0",
           "tacka": "6",
-          "tot_tack": "7",
-          "tflua": "1",
-          "tfla": "0",
-          "tflyds": "4",
-          "ff": "1"
+          "tot_tack": "6"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Remi Bertellin",
+        "name": "R. Bertellin",
         "shortname": "R. Bertellin",
         "checkname": "BERTELLIN,R",
         "uni": "5",
@@ -8420,15 +8506,15 @@
       },
       "punt": {
         "_attributes": {
-          "no": "2",
-          "yds": "93",
-          "long": "49",
+          "no": "1",
+          "yds": "45",
+          "long": "45",
           "blkd": "0",
           "tb": "0",
           "fc": "0",
           "plus50": "0",
-          "inside20": "1",
-          "avg": "46.5"
+          "inside20": "0",
+          "avg": "45.0"
         }
       },
       "defense": {
@@ -8441,7 +8527,7 @@
     },
     {
       "_attributes": {
-        "name": "Ibel Ahidazan",
+        "name": "I. Ahidazan",
         "shortname": "I. Ahidazan",
         "checkname": "AHIDAZAN,I",
         "uni": "6",
@@ -8459,7 +8545,7 @@
     },
     {
       "_attributes": {
-        "name": "Kyle Sweet",
+        "name": "K. Sweet",
         "shortname": "K. Sweet",
         "checkname": "SWEET,K",
         "uni": "7",
@@ -8480,7 +8566,7 @@
       "pr": {
         "_attributes": {
           "no": "1",
-          "yds": "-2",
+          "yds": "-3",
           "td": "0",
           "long": "0"
         }
@@ -8488,7 +8574,7 @@
     },
     {
       "_attributes": {
-        "name": "Adria Botella Moreno",
+        "name": "A. Botella M",
         "shortname": "A. Botella M",
         "checkname": "M,A BOTELLA",
         "uni": "8",
@@ -8521,7 +8607,7 @@
     },
     {
       "_attributes": {
-        "name": "Kenny Floret",
+        "name": "K. Floret",
         "shortname": "K. Floret",
         "checkname": "FLORET,K",
         "uni": "9",
@@ -8541,7 +8627,18 @@
     },
     {
       "_attributes": {
-        "name": "Hugo Tekedam",
+        "name": "M. Doukoure",
+        "shortname": "M. Doukoure",
+        "checkname": "DOUKOURE,M",
+        "uni": "10",
+        "class": "SR",
+        "gp": "1",
+        "code": "10"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "H. Tekedam",
         "shortname": "H. Tekedam",
         "checkname": "TEKEDAM,H",
         "uni": "12",
@@ -8562,7 +8659,18 @@
     },
     {
       "_attributes": {
-        "name": "Cheikhou Sow",
+        "name": "F. Larose",
+        "shortname": "F. Larose",
+        "checkname": "LAROSE,F",
+        "uni": "13",
+        "class": "SR",
+        "gp": "1",
+        "code": "13"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "C. Sow",
         "shortname": "C. Sow",
         "checkname": "SOW,C",
         "uni": "14",
@@ -8581,7 +8689,7 @@
     },
     {
       "_attributes": {
-        "name": "Stephane Fortes",
+        "name": "S. Fortes",
         "shortname": "S. Fortes",
         "checkname": "FORTES,S",
         "uni": "15",
@@ -8608,7 +8716,7 @@
     },
     {
       "_attributes": {
-        "name": "Randy Abandzounou",
+        "name": "A. Abandzounou",
         "shortname": "A. Abandzounou",
         "checkname": "ABANDZOUNOU,A",
         "uni": "17",
@@ -8626,7 +8734,7 @@
     },
     {
       "_attributes": {
-        "name": "Jefferson Alexandre",
+        "name": "J. Alexandre",
         "shortname": "J. Alexandre",
         "checkname": "ALEXANDRE,J",
         "uni": "18",
@@ -8639,7 +8747,7 @@
     },
     {
       "_attributes": {
-        "name": "Wadjihe Said",
+        "name": "W. Said",
         "shortname": "W. Said",
         "checkname": "SAID,W",
         "uni": "20",
@@ -8659,7 +8767,28 @@
     },
     {
       "_attributes": {
-        "name": "Felix Proulx",
+        "name": "M. Zero",
+        "shortname": "M. Zero",
+        "checkname": "ZERO,M",
+        "uni": "21",
+        "class": "SR",
+        "gp": "1",
+        "code": "21"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "1",
+          "yds": "4",
+          "gain": "4",
+          "loss": "0",
+          "td": "0",
+          "long": "4"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "F. Proulx",
         "shortname": "F. Proulx",
         "checkname": "PROULX,F",
         "uni": "22",
@@ -8679,7 +8808,7 @@
     },
     {
       "_attributes": {
-        "name": "Benjamin Bono",
+        "name": "B. Bono",
         "shortname": "B. Bono",
         "checkname": "BONO,B",
         "uni": "25",
@@ -8689,15 +8818,15 @@
       },
       "punt": {
         "_attributes": {
-          "no": "4",
-          "yds": "167",
+          "no": "5",
+          "yds": "216",
           "long": "52",
           "blkd": "0",
           "tb": "1",
           "fc": "0",
           "plus50": "1",
-          "inside20": "0",
-          "avg": "41.8"
+          "inside20": "1",
+          "avg": "43.2"
         }
       },
       "ko": {
@@ -8722,7 +8851,7 @@
     },
     {
       "_attributes": {
-        "name": "Rayan Khefif",
+        "name": "R. Khefif",
         "shortname": "R. Khefif",
         "checkname": "KHEFIF,R",
         "uni": "27",
@@ -8743,7 +8872,7 @@
     },
     {
       "_attributes": {
-        "name": "Vincent  Lemoine",
+        "name": "V. Lemoine",
         "shortname": "V. Lemoine",
         "checkname": "LEMOINE,V",
         "uni": "28",
@@ -8761,7 +8890,7 @@
     },
     {
       "_attributes": {
-        "name": "Jason Bofunda",
+        "name": "J. Bofunda",
         "shortname": "J. Bofunda",
         "checkname": "BOFUNDA,J",
         "uni": "33",
@@ -8772,8 +8901,8 @@
       "rush": {
         "_attributes": {
           "att": "7",
-          "yds": "81",
-          "gain": "81",
+          "yds": "82",
+          "gain": "82",
           "loss": "0",
           "td": "1",
           "long": "57"
@@ -8795,7 +8924,7 @@
     },
     {
       "_attributes": {
-        "name": "Paul Veritas",
+        "name": "P. Veritas",
         "shortname": "P. Veritas",
         "checkname": "VERITAS,P",
         "uni": "35",
@@ -8813,7 +8942,7 @@
     },
     {
       "_attributes": {
-        "name": "Maxime Roger",
+        "name": "M. Roger",
         "shortname": "M. Roger",
         "checkname": "ROGER,M",
         "uni": "36",
@@ -8825,15 +8954,26 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "3",
+          "tackua": "2",
           "tacka": "2",
-          "tot_tack": "5"
+          "tot_tack": "4"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Davidson  Larochel",
+        "name": "B. Nekili",
+        "shortname": "B. Nekili",
+        "checkname": "NEKILI,B",
+        "uni": "39",
+        "class": "SR",
+        "gp": "1",
+        "code": "39"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "D. Larochel",
         "shortname": "D. Larochel",
         "checkname": "LAROCHEL,D",
         "uni": "41",
@@ -8846,14 +8986,14 @@
       "defense": {
         "_attributes": {
           "tackua": "4",
-          "tacka": "3",
-          "tot_tack": "7"
+          "tacka": "6",
+          "tot_tack": "10"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Stanley Zeregbe",
+        "name": "S. Zeregbe",
         "shortname": "S. Zeregbe",
         "checkname": "ZEREGBE,S",
         "uni": "44",
@@ -8879,7 +9019,18 @@
     },
     {
       "_attributes": {
-        "name": "Nabil  Marzougui",
+        "name": "C. Voumbo",
+        "shortname": "C. Voumbo",
+        "checkname": "VOUMBO,C",
+        "uni": "45",
+        "class": "SR",
+        "gp": "1",
+        "code": "45"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "N. Marzougui",
         "shortname": "N. Marzougui",
         "checkname": "MARZOUGUI,N",
         "uni": "52",
@@ -8892,7 +9043,7 @@
     },
     {
       "_attributes": {
-        "name": "Jack Loew",
+        "name": "J. Loew",
         "shortname": "J. Loew",
         "checkname": "LOEW,J",
         "uni": "54",
@@ -8915,11 +9066,11 @@
     },
     {
       "_attributes": {
-        "name": "Mamadou Sy",
+        "name": "M. Sy",
         "shortname": "M. Sy",
         "checkname": "SY,M",
         "uni": "55",
-        "class": "SR",
+        "class": "",
         "gp": "1",
         "code": "55"
       },
@@ -8935,7 +9086,7 @@
     },
     {
       "_attributes": {
-        "name": "Giovanni Nanguy",
+        "name": "G. Nanguy",
         "shortname": "G. Nanguy",
         "checkname": "NANGUY,G",
         "uni": "56",
@@ -8945,14 +9096,10 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "2",
+          "tackua": "1",
           "tacka": "1",
-          "tot_tack": "3",
-          "tflua": "1",
-          "tfla": "0",
-          "tflyds": "4",
+          "tot_tack": "2",
           "brup": "1",
-          "ff": "1",
           "fr": "1",
           "fryds": "0"
         }
@@ -8960,7 +9107,7 @@
     },
     {
       "_attributes": {
-        "name": "Celestin Ngimbi",
+        "name": "C. Ngimbi",
         "shortname": "C. Ngimbi",
         "checkname": "NGIMBI,C",
         "uni": "60",
@@ -8973,7 +9120,18 @@
     },
     {
       "_attributes": {
-        "name": "Ryan Iguedjtal",
+        "name": "K. Ebanks",
+        "shortname": "K. Ebanks",
+        "checkname": "EBANKS,K",
+        "uni": "63",
+        "class": "SR",
+        "gp": "1",
+        "code": "63"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "R. Iguedjtal",
         "shortname": "R. Iguedjtal",
         "checkname": "IGUEDJTAL,R",
         "uni": "64",
@@ -8986,7 +9144,18 @@
     },
     {
       "_attributes": {
-        "name": "Diaboudouba Mamoudou",
+        "name": "W. Elas",
+        "shortname": "W. Elas",
+        "checkname": "ELAS,W",
+        "uni": "65",
+        "class": "SR",
+        "gp": "1",
+        "code": "65"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "D. Doumbouya",
         "shortname": "D. Doumbouya",
         "checkname": "DOUMBOUYA,D",
         "uni": "71",
@@ -8999,7 +9168,18 @@
     },
     {
       "_attributes": {
-        "name": "Sebastien  Jallier",
+        "name": "W. Camara",
+        "shortname": "W. Camara",
+        "checkname": "CAMARA,W",
+        "uni": "72",
+        "class": "SR",
+        "gp": "1",
+        "code": "72"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "S. Jallier",
         "shortname": "S. Jallier",
         "checkname": "JALLIER,S",
         "uni": "77",
@@ -9012,7 +9192,18 @@
     },
     {
       "_attributes": {
-        "name": "Steve Delaval",
+        "name": "M. Gaye",
+        "shortname": "M. Gaye",
+        "checkname": "GAYE,M",
+        "uni": "78",
+        "class": "SR",
+        "gp": "1",
+        "code": "78"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "S. Delaval",
         "shortname": "S. Delaval",
         "checkname": "DELAVAL,S",
         "uni": "85",
@@ -9023,7 +9214,7 @@
     },
     {
       "_attributes": {
-        "name": "Vincent Buffet",
+        "name": "V. Buffet",
         "shortname": "V. Buffet",
         "checkname": "BUFFET,V",
         "uni": "90",
@@ -9033,15 +9224,15 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "2",
-          "tacka": "2",
+          "tackua": "0",
+          "tacka": "4",
           "tot_tack": "4"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Valentin Gnahoua",
+        "name": "V. Gnahoua",
         "shortname": "V. Gnahoua",
         "checkname": "GNAHOUA,V",
         "uni": "94",
@@ -9052,18 +9243,19 @@
       "defense": {
         "_attributes": {
           "tackua": "1",
-          "tacka": "0",
-          "tot_tack": "1",
+          "tacka": "1",
+          "tot_tack": "2",
           "tflua": "1",
-          "tfla": "0",
-          "tflyds": "1",
-          "blkd": "1"
+          "tfla": "1",
+          "tflyds": "2",
+          "blkd": "1",
+          "ff": "1"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Averdie Mizius",
+        "name": "A. Mizius",
         "shortname": "A. Mizius",
         "checkname": "MIZIUS,A",
         "uni": "97",
@@ -9076,17 +9268,17 @@
       "defense": {
         "_attributes": {
           "tackua": "1",
-          "tacka": "0",
-          "tot_tack": "1",
+          "tacka": "1",
+          "tot_tack": "2",
           "tflua": "1",
-          "tfla": "0",
-          "tflyds": "2"
+          "tfla": "1",
+          "tflyds": "3"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Edwin Elio",
+        "name": "E. Elio",
         "shortname": "E. Elio",
         "checkname": "ELIO,E",
         "uni": "98",
@@ -9095,18 +9287,11 @@
         "gs": "1",
         "dpos": "DL",
         "code": "98"
-      },
-      "defense": {
-        "_attributes": {
-          "tackua": "0",
-          "tacka": "1",
-          "tot_tack": "1"
-        }
       }
     },
     {
       "_attributes": {
-        "name": "Willem Dendele",
+        "name": "W. Dendele",
         "shortname": "W. Dendele",
         "checkname": "DENDELE,W",
         "uni": "99",
@@ -9162,8 +9347,8 @@
   "visitor_totals": {
     "_attributes": {
       "totoff_plays": "61",
-      "totoff_yards": "202",
-      "totoff_avg": "3.3"
+      "totoff_yards": "208",
+      "totoff_avg": "3.4"
     },
     "firstdowns": {
       "_attributes": {
@@ -9176,7 +9361,7 @@
     "penalties": {
       "_attributes": {
         "no": "7",
-        "yds": "70"
+        "yds": "74"
       }
     },
     "conversions": {
@@ -9221,9 +9406,9 @@
     "rush": {
       "_attributes": {
         "att": "30",
-        "yds": "95",
-        "gain": "155",
-        "loss": "60",
+        "yds": "101",
+        "gain": "156",
+        "loss": "55",
         "td": "1",
         "long": "57"
       }
@@ -9237,7 +9422,7 @@
         "td": "1",
         "long": "19",
         "sacks": "5",
-        "sackyds": "44"
+        "sackyds": "45"
       }
     },
     "rcv": {
@@ -9251,14 +9436,14 @@
     "punt": {
       "_attributes": {
         "no": "8",
-        "yds": "323",
+        "yds": "324",
         "long": "52",
         "blkd": "0",
         "tb": "2",
         "fc": "0",
         "plus50": "1",
         "inside20": "2",
-        "avg": "40.4"
+        "avg": "40.5"
       }
     },
     "ko": {
@@ -9278,17 +9463,17 @@
     },
     "defense": {
       "_attributes": {
-        "tackua": "33",
-        "tacka": "32",
-        "tot_tack": "65",
-        "tflua": "7",
-        "tfla": "0",
-        "tflyds": "24",
+        "tackua": "28",
+        "tacka": "38",
+        "tot_tack": "66",
+        "tflua": "5",
+        "tfla": "2",
+        "tflyds": "18",
         "sacks": "1",
         "sackyds": "8",
         "brup": "2",
         "blkd": "1",
-        "ff": "2",
+        "ff": "1",
         "fr": "2",
         "fryds": "0"
       }
@@ -9304,7 +9489,7 @@
     "pr": {
       "_attributes": {
         "no": "1",
-        "yds": "-2",
+        "yds": "-3",
         "td": "0",
         "long": "0"
       }
@@ -9361,7 +9546,7 @@
     "totals": {
       "_attributes": {
         "totoff_plays": "59",
-        "totoff_yards": "357",
+        "totoff_yards": "362",
         "totoff_avg": "6.1"
       },
       "firstdowns": {
@@ -9381,7 +9566,7 @@
       "conversions": {
         "_attributes": {
           "thirdconv": "5",
-          "thirdatt": "11",
+          "thirdatt": "12",
           "fourthconv": "0",
           "fourthatt": "0"
         }
@@ -9420,9 +9605,9 @@
       "rush": {
         "_attributes": {
           "att": "25",
-          "yds": "60",
-          "gain": "89",
-          "loss": "29",
+          "yds": "62",
+          "gain": "88",
+          "loss": "26",
           "td": "1",
           "long": "26"
         }
@@ -9432,7 +9617,7 @@
           "comp": "24",
           "att": "34",
           "int": "0",
-          "yds": "297",
+          "yds": "300",
           "td": "3",
           "long": "53",
           "sacks": "1",
@@ -9442,7 +9627,7 @@
       "rcv": {
         "_attributes": {
           "no": "24",
-          "yds": "297",
+          "yds": "300",
           "td": "3",
           "long": "53"
         }
@@ -9450,14 +9635,14 @@
       "punt": {
         "_attributes": {
           "no": "6",
-          "yds": "247",
-          "long": "50",
+          "yds": "246",
+          "long": "49",
           "blkd": "0",
           "tb": "0",
           "fc": "2",
-          "plus50": "1",
+          "plus50": "0",
           "inside20": "1",
-          "avg": "41.2"
+          "avg": "41.0"
         }
       },
       "ko": {
@@ -9485,20 +9670,20 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "26",
-          "tacka": "38",
-          "tot_tack": "64",
+          "tackua": "21",
+          "tacka": "48",
+          "tot_tack": "69",
           "tflua": "3",
           "tfla": "6",
-          "tflyds": "26",
+          "tflyds": "27",
           "sacks": "5",
-          "sackyds": "44",
-          "brup": "5",
-          "qbh": "1",
+          "sackyds": "45",
+          "brup": "6",
+          "qbh": "2",
           "fr": "1",
-          "fryds": "8",
+          "fryds": "14",
           "int": "2",
-          "intyds": "27"
+          "intyds": "22"
         }
       },
       "kr": {
@@ -9512,15 +9697,15 @@
       "pr": {
         "_attributes": {
           "no": "4",
-          "yds": "47",
+          "yds": "48",
           "td": "0",
-          "long": "19"
+          "long": "20"
         }
       },
       "ir": {
         "_attributes": {
           "no": "2",
-          "yds": "27",
+          "yds": "22",
           "td": "0",
           "long": "16"
         }
@@ -9528,9 +9713,9 @@
       "fr": {
         "_attributes": {
           "no": "1",
-          "yds": "8",
+          "yds": "14",
           "td": "0",
-          "long": "8"
+          "long": "14"
         }
       },
       "scoring": {
@@ -9544,7 +9729,7 @@
     "player": [
       {
         "_attributes": {
-          "name": "Ryan Rimmler",
+          "name": "R. Rimmler",
           "shortname": "R. Rimmler",
           "checkname": "RIMMLER,R",
           "uni": "1",
@@ -9583,7 +9768,18 @@
       },
       {
         "_attributes": {
-          "name": "Berdale Robins",
+          "name": "S. Shannon",
+          "shortname": "S. Shannon",
+          "checkname": "SHANNON,S",
+          "uni": "2",
+          "class": "SR",
+          "gp": "1",
+          "code": "2"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "B. Robins",
           "shortname": "B. Robins",
           "checkname": "ROBINS,B",
           "uni": "3",
@@ -9596,8 +9792,8 @@
         "defense": {
           "_attributes": {
             "tackua": "0",
-            "tacka": "1",
-            "tot_tack": "1",
+            "tacka": "2",
+            "tot_tack": "2",
             "brup": "2"
           }
         },
@@ -9612,15 +9808,15 @@
         "pr": {
           "_attributes": {
             "no": "4",
-            "yds": "47",
+            "yds": "48",
             "td": "0",
-            "long": "19"
+            "long": "20"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Tony Anderson",
+          "name": "T. Anderson",
           "shortname": "T. Anderson",
           "checkname": "ANDERSON,T",
           "uni": "4",
@@ -9632,8 +9828,8 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "3",
-            "tacka": "1",
+            "tackua": "2",
+            "tacka": "2",
             "tot_tack": "4",
             "brup": "1"
           }
@@ -9641,7 +9837,7 @@
       },
       {
         "_attributes": {
-          "name": "Jamalcolm Liggins",
+          "name": "J. Liggins",
           "shortname": "J. Liggins",
           "checkname": "LIGGINS,J",
           "uni": "5",
@@ -9657,13 +9853,13 @@
             "tacka": "0",
             "tot_tack": "1",
             "int": "2",
-            "intyds": "27"
+            "intyds": "22"
           }
         },
         "ir": {
           "_attributes": {
             "no": "2",
-            "yds": "27",
+            "yds": "22",
             "td": "0",
             "long": "16"
           }
@@ -9671,7 +9867,18 @@
       },
       {
         "_attributes": {
-          "name": "Mete Konya",
+          "name": "L. Hedrich",
+          "shortname": "L. Hedrich",
+          "checkname": "HEDRICH,L",
+          "uni": "6",
+          "class": "SR",
+          "gp": "1",
+          "code": "6"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Konya",
           "shortname": "M. Konya",
           "checkname": "KONYA,M",
           "uni": "8",
@@ -9682,20 +9889,20 @@
         "defense": {
           "_attributes": {
             "tackua": "1",
-            "tacka": "2",
-            "tot_tack": "3",
+            "tacka": "1",
+            "tot_tack": "2",
             "tflua": "1",
-            "tfla": "1",
-            "tflyds": "8",
+            "tfla": "0",
+            "tflyds": "7",
             "sackua": "1",
-            "sacka": "1",
-            "sackyds": "8"
+            "sacka": "0",
+            "sackyds": "7"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Steve Cluley",
+          "name": "S. Cluley",
           "shortname": "S. Cluley",
           "checkname": "CLULEY,S",
           "uni": "10",
@@ -9708,8 +9915,8 @@
         "rush": {
           "_attributes": {
             "att": "7",
-            "yds": "31",
-            "gain": "45",
+            "yds": "30",
+            "gain": "44",
             "loss": "14",
             "td": "0",
             "long": "26"
@@ -9720,7 +9927,7 @@
             "comp": "24",
             "att": "34",
             "int": "0",
-            "yds": "297",
+            "yds": "300",
             "td": "3",
             "long": "53",
             "sacks": "1",
@@ -9749,7 +9956,18 @@
       },
       {
         "_attributes": {
-          "name": "Joshua Poznanski",
+          "name": "No. Schumm",
+          "shortname": "No. Schumm",
+          "checkname": "SCHUMM,NO",
+          "uni": "11",
+          "class": "SR",
+          "gp": "1",
+          "code": "11"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Poznanski",
           "shortname": "J. Poznanski",
           "checkname": "POZNANSKI,J",
           "uni": "14",
@@ -9762,14 +9980,14 @@
         "defense": {
           "_attributes": {
             "tackua": "4",
-            "tacka": "0",
-            "tot_tack": "4"
+            "tacka": "2",
+            "tot_tack": "6"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Niklas Schumm",
+          "name": "N. Schumm",
           "shortname": "N. Schumm",
           "checkname": "SCHUMM,N",
           "uni": "16",
@@ -9788,7 +10006,7 @@
       },
       {
         "_attributes": {
-          "name": "Reece Horn",
+          "name": "R. Horn",
           "shortname": "R. Horn",
           "checkname": "HORN,R",
           "uni": "17",
@@ -9814,7 +10032,7 @@
       },
       {
         "_attributes": {
-          "name": "Nico Strahmann",
+          "name": "N. Strahmann",
           "shortname": "N. Strahmann",
           "checkname": "STRAHMANN,N",
           "uni": "19",
@@ -9827,9 +10045,9 @@
         "rcv": {
           "_attributes": {
             "no": "6",
-            "yds": "51",
+            "yds": "53",
             "td": "1",
-            "long": "24"
+            "long": "25"
           }
         },
         "scoring": {
@@ -9840,9 +10058,9 @@
       },
       {
         "_attributes": {
-          "name": "Nick Kaufman",
-          "shortname": "N. Kaufman",
-          "checkname": "KAUFMAN,N",
+          "name": "N. Kaufmann",
+          "shortname": "N. Kaufmann",
+          "checkname": "KAUFMANN,N",
           "uni": "20",
           "class": "SR",
           "gp": "1",
@@ -9861,7 +10079,18 @@
       },
       {
         "_attributes": {
-          "name": "Thomas Fischbach",
+          "name": "K. Ben El Ghali",
+          "shortname": "K. Ben El Ghali",
+          "checkname": "GHALI,K BEN EL",
+          "uni": "24",
+          "class": "SR",
+          "gp": "1",
+          "code": "24"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "T. Fischbach",
           "shortname": "T. Fischbach",
           "checkname": "FISCHBACH,T",
           "uni": "27",
@@ -9874,17 +10103,17 @@
         "rush": {
           "_attributes": {
             "att": "14",
-            "yds": "21",
+            "yds": "24",
             "gain": "35",
-            "loss": "14",
+            "loss": "11",
             "td": "1",
-            "long": "19"
+            "long": "18"
           }
         },
         "rcv": {
           "_attributes": {
             "no": "3",
-            "yds": "7",
+            "yds": "8",
             "td": "0",
             "long": "4"
           }
@@ -9903,7 +10132,7 @@
       },
       {
         "_attributes": {
-          "name": "Cedric Schmitt",
+          "name": "C. Schmitt",
           "shortname": "C. Schmitt",
           "checkname": "SCHMITT,C",
           "uni": "28",
@@ -9913,15 +10142,26 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
+            "tackua": "0",
             "tacka": "1",
-            "tot_tack": "2"
+            "tot_tack": "1"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Marcos Schlabitz",
+          "name": "F. Reuter",
+          "shortname": "F. Reuter",
+          "checkname": "REUTER,F",
+          "uni": "30",
+          "class": "SR",
+          "gp": "1",
+          "code": "30"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Schlabitz",
           "shortname": "M. Schlabitz",
           "checkname": "SCHLABITZ,M",
           "uni": "35",
@@ -9939,7 +10179,7 @@
       },
       {
         "_attributes": {
-          "name": "Sebastian Brand",
+          "name": "S. Brand",
           "shortname": "S. Brand",
           "checkname": "BRAND,S",
           "uni": "38",
@@ -9957,7 +10197,7 @@
       },
       {
         "_attributes": {
-          "name": "Sebastian Gauthier",
+          "name": "S. Gauthier",
           "shortname": "S. Gauthier",
           "checkname": "GAUTHIER,S",
           "uni": "41",
@@ -9969,32 +10209,33 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "5",
-            "tacka": "3",
+            "tackua": "4",
+            "tacka": "4",
             "tot_tack": "8",
             "tflua": "1",
             "tfla": "2",
-            "tflyds": "4",
+            "tflyds": "3",
             "sackua": "0",
             "sacka": "1",
             "sackyds": "2",
+            "brup": "1",
             "qbh": "1",
             "fr": "1",
-            "fryds": "8"
+            "fryds": "14"
           }
         },
         "fr": {
           "_attributes": {
             "no": "1",
-            "yds": "8",
+            "yds": "14",
             "td": "0",
-            "long": "8"
+            "long": "14"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Leon Helm",
+          "name": "L. Helm",
           "shortname": "L. Helm",
           "checkname": "HELM,L",
           "uni": "44",
@@ -10015,7 +10256,7 @@
       },
       {
         "_attributes": {
-          "name": "Simeon Gabriel",
+          "name": "S. Gabriel",
           "shortname": "S. Gabriel",
           "checkname": "GABRIEL,S",
           "uni": "45",
@@ -10033,7 +10274,7 @@
       },
       {
         "_attributes": {
-          "name": "David Miletic",
+          "name": "Dav. Miletic",
           "shortname": "Dav. Miletic",
           "checkname": "MILETIC,DAV",
           "uni": "50",
@@ -10045,15 +10286,15 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
-            "tacka": "0",
-            "tot_tack": "1"
+            "tackua": "0",
+            "tacka": "3",
+            "tot_tack": "3"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Joshua Mackeben",
+          "name": "J. Mackeben",
           "shortname": "J. Mackeben",
           "checkname": "MACKEBEN,J",
           "uni": "51",
@@ -10064,14 +10305,14 @@
         "defense": {
           "_attributes": {
             "tackua": "0",
-            "tacka": "4",
-            "tot_tack": "4"
+            "tacka": "3",
+            "tot_tack": "3"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Wael Nasri",
+          "name": "W. Nasri",
           "shortname": "W. Nasri",
           "checkname": "NASRI,W",
           "uni": "52",
@@ -10084,15 +10325,21 @@
         "defense": {
           "_attributes": {
             "tackua": "2",
-            "tacka": "7",
-            "tot_tack": "9",
+            "tacka": "6",
+            "tot_tack": "8",
+            "tflua": "0",
+            "tfla": "1",
+            "tflyds": "2",
+            "sackua": "0",
+            "sacka": "1",
+            "sackyds": "2",
             "brup": "1"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Karlis Brauns",
+          "name": "K. Brauns",
           "shortname": "K. Brauns",
           "checkname": "BRAUNS,K",
           "uni": "54",
@@ -10106,13 +10353,14 @@
           "_attributes": {
             "tackua": "0",
             "tacka": "1",
-            "tot_tack": "1"
+            "tot_tack": "1",
+            "qbh": "1"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Thang Le Minh",
+          "name": "T. Le Minh",
           "shortname": "T. Le Minh",
           "checkname": "MINH,T LE",
           "uni": "55",
@@ -10125,7 +10373,7 @@
       },
       {
         "_attributes": {
-          "name": "Sebastian Silva-Gome",
+          "name": "S. Silva Gomez",
           "shortname": "S. Silva Gomez",
           "checkname": "GOMEZ,S SILVA",
           "uni": "56",
@@ -10138,21 +10386,21 @@
         "defense": {
           "_attributes": {
             "tackua": "3",
-            "tacka": "4",
-            "tot_tack": "7",
+            "tacka": "5",
+            "tot_tack": "8",
             "tflua": "1",
-            "tfla": "1",
-            "tflyds": "12",
+            "tfla": "0",
+            "tflyds": "11",
             "sackua": "1",
-            "sacka": "1",
-            "sackyds": "12",
+            "sacka": "0",
+            "sackyds": "11",
             "brup": "1"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Lars Hampel",
+          "name": "L. Hampel",
           "shortname": "L. Hampel",
           "checkname": "HAMPEL,L",
           "uni": "61",
@@ -10165,7 +10413,18 @@
       },
       {
         "_attributes": {
-          "name": "Frank Atunlese",
+          "name": "Mo. Schmidt",
+          "shortname": "Mo. Schmidt",
+          "checkname": "SCHMIDT,MO",
+          "uni": "64",
+          "class": "SR",
+          "gp": "1",
+          "code": "64"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "F. Atunlese",
           "shortname": "F. Atunlese",
           "checkname": "ATUNLESE,F",
           "uni": "71",
@@ -10178,7 +10437,7 @@
       },
       {
         "_attributes": {
-          "name": "Matej Bencek",
+          "name": "M. Bencek",
           "shortname": "M. Bencek",
           "checkname": "BENCEK,M",
           "uni": "72",
@@ -10191,7 +10450,7 @@
       },
       {
         "_attributes": {
-          "name": "Nils Hampel",
+          "name": "N. Hampel",
           "shortname": "N. Hampel",
           "checkname": "HAMPEL,N",
           "uni": "76",
@@ -10204,7 +10463,18 @@
       },
       {
         "_attributes": {
-          "name": "Janez Von Renesse",
+          "name": "T. Hirsch",
+          "shortname": "T. Hirsch",
+          "checkname": "HIRSCH,T",
+          "uni": "78",
+          "class": "SR",
+          "gp": "1",
+          "code": "78"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. von Renesse",
           "shortname": "J. von Renesse",
           "checkname": "RENESSE,J VON",
           "uni": "81",
@@ -10223,7 +10493,7 @@
       },
       {
         "_attributes": {
-          "name": "Hendrik Schwarz",
+          "name": "H. Schwarz",
           "shortname": "H. Schwarz",
           "checkname": "SCHWARZ,H",
           "uni": "82",
@@ -10234,20 +10504,20 @@
         "punt": {
           "_attributes": {
             "no": "5",
-            "yds": "211",
-            "long": "50",
+            "yds": "210",
+            "long": "49",
             "blkd": "0",
             "tb": "0",
             "fc": "2",
-            "plus50": "1",
+            "plus50": "0",
             "inside20": "1",
-            "avg": "42.2"
+            "avg": "42.0"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Zinedin Bendjabou",
+          "name": "Z. Bendjabou",
           "shortname": "Z. Bendjabou",
           "checkname": "BENDJABOU,Z",
           "uni": "83",
@@ -10266,7 +10536,7 @@
       },
       {
         "_attributes": {
-          "name": "Lorenz Regler",
+          "name": "L. Regler",
           "shortname": "L. Regler",
           "checkname": "REGLER,L",
           "uni": "86",
@@ -10292,7 +10562,7 @@
       },
       {
         "_attributes": {
-          "name": "Kevin Mwamba",
+          "name": "K. Mwamba",
           "shortname": "K. Mwamba",
           "checkname": "MWAMBA,K",
           "uni": "87",
@@ -10305,7 +10575,7 @@
       },
       {
         "_attributes": {
-          "name": "Marc Anthony Hor",
+          "name": "M. A. Hor",
           "shortname": "M. A. Hor",
           "checkname": "HOR,M A",
           "uni": "90",
@@ -10318,20 +10588,20 @@
         "defense": {
           "_attributes": {
             "tackua": "0",
-            "tacka": "7",
-            "tot_tack": "7",
+            "tacka": "6",
+            "tot_tack": "6",
             "tflua": "0",
             "tfla": "1",
-            "tflyds": "2",
+            "tflyds": "1",
             "sackua": "0",
             "sacka": "1",
-            "sackyds": "2"
+            "sackyds": "1"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Moubarak Djeri",
+          "name": "M. Djeri",
           "shortname": "M. Djeri",
           "checkname": "DJERI,M",
           "uni": "91",
@@ -10342,17 +10612,17 @@
         "defense": {
           "_attributes": {
             "tackua": "0",
-            "tacka": "3",
-            "tot_tack": "3",
+            "tacka": "4",
+            "tot_tack": "4",
             "tflua": "0",
             "tfla": "1",
-            "tflyds": "0"
+            "tflyds": "1"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Frank Mousel",
+          "name": "F. Mousel",
           "shortname": "F. Mousel",
           "checkname": "MOUSEL,F",
           "uni": "92",
@@ -10362,15 +10632,15 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
-            "tacka": "1",
+            "tackua": "0",
+            "tacka": "2",
             "tot_tack": "2"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Daniel Bartmann",
+          "name": "D. Bartmann",
           "shortname": "D. Bartmann",
           "checkname": "BARTMANN,D",
           "uni": "95",
@@ -10379,11 +10649,18 @@
           "gs": "1",
           "dpos": "DL",
           "code": "95"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "0",
+            "tacka": "2",
+            "tot_tack": "2"
+          }
         }
       },
       {
         "_attributes": {
-          "name": "Taslim Gaye",
+          "name": "T. Gaye",
           "shortname": "T. Gaye",
           "checkname": "GAYE,T",
           "uni": "96",
@@ -10401,7 +10678,7 @@
       },
       {
         "_attributes": {
-          "name": "Sven Rieger",
+          "name": "S. Rieger",
           "shortname": "S. Rieger",
           "checkname": "RIEGER,S",
           "uni": "97",
@@ -10412,8 +10689,14 @@
         "defense": {
           "_attributes": {
             "tackua": "0",
-            "tacka": "1",
-            "tot_tack": "1"
+            "tacka": "2",
+            "tot_tack": "2",
+            "tflua": "0",
+            "tfla": "1",
+            "tflyds": "2",
+            "sackua": "0",
+            "sacka": "1",
+            "sackyds": "2"
           }
         }
       }
@@ -10464,8 +10747,8 @@
     "totals": {
       "_attributes": {
         "totoff_plays": "61",
-        "totoff_yards": "202",
-        "totoff_avg": "3.3"
+        "totoff_yards": "208",
+        "totoff_avg": "3.4"
       },
       "firstdowns": {
         "_attributes": {
@@ -10478,7 +10761,7 @@
       "penalties": {
         "_attributes": {
           "no": "7",
-          "yds": "70"
+          "yds": "74"
         }
       },
       "conversions": {
@@ -10523,9 +10806,9 @@
       "rush": {
         "_attributes": {
           "att": "30",
-          "yds": "95",
-          "gain": "155",
-          "loss": "60",
+          "yds": "101",
+          "gain": "156",
+          "loss": "55",
           "td": "1",
           "long": "57"
         }
@@ -10539,7 +10822,7 @@
           "td": "1",
           "long": "19",
           "sacks": "5",
-          "sackyds": "44"
+          "sackyds": "45"
         }
       },
       "rcv": {
@@ -10553,14 +10836,14 @@
       "punt": {
         "_attributes": {
           "no": "8",
-          "yds": "323",
+          "yds": "324",
           "long": "52",
           "blkd": "0",
           "tb": "2",
           "fc": "0",
           "plus50": "1",
           "inside20": "2",
-          "avg": "40.4"
+          "avg": "40.5"
         }
       },
       "ko": {
@@ -10580,17 +10863,17 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "33",
-          "tacka": "32",
-          "tot_tack": "65",
-          "tflua": "7",
-          "tfla": "0",
-          "tflyds": "24",
+          "tackua": "28",
+          "tacka": "38",
+          "tot_tack": "66",
+          "tflua": "5",
+          "tfla": "2",
+          "tflyds": "18",
           "sacks": "1",
           "sackyds": "8",
           "brup": "2",
           "blkd": "1",
-          "ff": "2",
+          "ff": "1",
           "fr": "2",
           "fryds": "0"
         }
@@ -10606,7 +10889,7 @@
       "pr": {
         "_attributes": {
           "no": "1",
-          "yds": "-2",
+          "yds": "-3",
           "td": "0",
           "long": "0"
         }
@@ -10621,7 +10904,7 @@
     "player": [
       {
         "_attributes": {
-          "name": "Zachary Edwards",
+          "name": "Z. Edwards",
           "shortname": "Z. Edwards",
           "checkname": "EDWARDS,Z",
           "uni": "1",
@@ -10634,9 +10917,9 @@
         "rush": {
           "_attributes": {
             "att": "14",
-            "yds": "-16",
+            "yds": "-11",
             "gain": "44",
-            "loss": "60",
+            "loss": "55",
             "td": "0",
             "long": "14"
           }
@@ -10650,7 +10933,7 @@
             "td": "1",
             "long": "19",
             "sacks": "5",
-            "sackyds": "44"
+            "sackyds": "45"
           }
         },
         "punt": {
@@ -10666,13 +10949,6 @@
             "avg": "31.5"
           }
         },
-        "defense": {
-          "_attributes": {
-            "tackua": "1",
-            "tacka": "0",
-            "tot_tack": "1"
-          }
-        },
         "fumbles": {
           "_attributes": {
             "no": "1",
@@ -10682,7 +10958,7 @@
       },
       {
         "_attributes": {
-          "name": "Jason Rilwann Aguemo",
+          "name": "J. Aguemon",
           "shortname": "J. Aguemon",
           "checkname": "AGUEMON,J",
           "uni": "2",
@@ -10694,9 +10970,9 @@
         },
         "rush": {
           "_attributes": {
-            "att": "7",
-            "yds": "27",
-            "gain": "27",
+            "att": "6",
+            "yds": "23",
+            "gain": "23",
             "loss": "0",
             "td": "0",
             "long": "9"
@@ -10704,15 +10980,15 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "0",
+            "tackua": "1",
             "tacka": "1",
-            "tot_tack": "1"
+            "tot_tack": "2"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Digaan Gomis",
+          "name": "D. Gomis",
           "shortname": "D. Gomis",
           "checkname": "GOMIS,D",
           "uni": "4",
@@ -10724,19 +11000,15 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
+            "tackua": "0",
             "tacka": "6",
-            "tot_tack": "7",
-            "tflua": "1",
-            "tfla": "0",
-            "tflyds": "4",
-            "ff": "1"
+            "tot_tack": "6"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Remi Bertellin",
+          "name": "R. Bertellin",
           "shortname": "R. Bertellin",
           "checkname": "BERTELLIN,R",
           "uni": "5",
@@ -10748,15 +11020,15 @@
         },
         "punt": {
           "_attributes": {
-            "no": "2",
-            "yds": "93",
-            "long": "49",
+            "no": "1",
+            "yds": "45",
+            "long": "45",
             "blkd": "0",
             "tb": "0",
             "fc": "0",
             "plus50": "0",
-            "inside20": "1",
-            "avg": "46.5"
+            "inside20": "0",
+            "avg": "45.0"
           }
         },
         "defense": {
@@ -10769,7 +11041,7 @@
       },
       {
         "_attributes": {
-          "name": "Ibel Ahidazan",
+          "name": "I. Ahidazan",
           "shortname": "I. Ahidazan",
           "checkname": "AHIDAZAN,I",
           "uni": "6",
@@ -10787,7 +11059,7 @@
       },
       {
         "_attributes": {
-          "name": "Kyle Sweet",
+          "name": "K. Sweet",
           "shortname": "K. Sweet",
           "checkname": "SWEET,K",
           "uni": "7",
@@ -10808,7 +11080,7 @@
         "pr": {
           "_attributes": {
             "no": "1",
-            "yds": "-2",
+            "yds": "-3",
             "td": "0",
             "long": "0"
           }
@@ -10816,7 +11088,7 @@
       },
       {
         "_attributes": {
-          "name": "Adria Botella Moreno",
+          "name": "A. Botella M",
           "shortname": "A. Botella M",
           "checkname": "M,A BOTELLA",
           "uni": "8",
@@ -10849,7 +11121,7 @@
       },
       {
         "_attributes": {
-          "name": "Kenny Floret",
+          "name": "K. Floret",
           "shortname": "K. Floret",
           "checkname": "FLORET,K",
           "uni": "9",
@@ -10869,7 +11141,18 @@
       },
       {
         "_attributes": {
-          "name": "Hugo Tekedam",
+          "name": "M. Doukoure",
+          "shortname": "M. Doukoure",
+          "checkname": "DOUKOURE,M",
+          "uni": "10",
+          "class": "SR",
+          "gp": "1",
+          "code": "10"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "H. Tekedam",
           "shortname": "H. Tekedam",
           "checkname": "TEKEDAM,H",
           "uni": "12",
@@ -10890,7 +11173,18 @@
       },
       {
         "_attributes": {
-          "name": "Cheikhou Sow",
+          "name": "F. Larose",
+          "shortname": "F. Larose",
+          "checkname": "LAROSE,F",
+          "uni": "13",
+          "class": "SR",
+          "gp": "1",
+          "code": "13"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "C. Sow",
           "shortname": "C. Sow",
           "checkname": "SOW,C",
           "uni": "14",
@@ -10909,7 +11203,7 @@
       },
       {
         "_attributes": {
-          "name": "Stephane Fortes",
+          "name": "S. Fortes",
           "shortname": "S. Fortes",
           "checkname": "FORTES,S",
           "uni": "15",
@@ -10936,7 +11230,7 @@
       },
       {
         "_attributes": {
-          "name": "Randy Abandzounou",
+          "name": "A. Abandzounou",
           "shortname": "A. Abandzounou",
           "checkname": "ABANDZOUNOU,A",
           "uni": "17",
@@ -10954,7 +11248,7 @@
       },
       {
         "_attributes": {
-          "name": "Jefferson Alexandre",
+          "name": "J. Alexandre",
           "shortname": "J. Alexandre",
           "checkname": "ALEXANDRE,J",
           "uni": "18",
@@ -10967,7 +11261,7 @@
       },
       {
         "_attributes": {
-          "name": "Wadjihe Said",
+          "name": "W. Said",
           "shortname": "W. Said",
           "checkname": "SAID,W",
           "uni": "20",
@@ -10987,7 +11281,28 @@
       },
       {
         "_attributes": {
-          "name": "Felix Proulx",
+          "name": "M. Zero",
+          "shortname": "M. Zero",
+          "checkname": "ZERO,M",
+          "uni": "21",
+          "class": "SR",
+          "gp": "1",
+          "code": "21"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "1",
+            "yds": "4",
+            "gain": "4",
+            "loss": "0",
+            "td": "0",
+            "long": "4"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "F. Proulx",
           "shortname": "F. Proulx",
           "checkname": "PROULX,F",
           "uni": "22",
@@ -11007,7 +11322,7 @@
       },
       {
         "_attributes": {
-          "name": "Benjamin Bono",
+          "name": "B. Bono",
           "shortname": "B. Bono",
           "checkname": "BONO,B",
           "uni": "25",
@@ -11017,15 +11332,15 @@
         },
         "punt": {
           "_attributes": {
-            "no": "4",
-            "yds": "167",
+            "no": "5",
+            "yds": "216",
             "long": "52",
             "blkd": "0",
             "tb": "1",
             "fc": "0",
             "plus50": "1",
-            "inside20": "0",
-            "avg": "41.8"
+            "inside20": "1",
+            "avg": "43.2"
           }
         },
         "ko": {
@@ -11050,7 +11365,7 @@
       },
       {
         "_attributes": {
-          "name": "Rayan Khefif",
+          "name": "R. Khefif",
           "shortname": "R. Khefif",
           "checkname": "KHEFIF,R",
           "uni": "27",
@@ -11071,7 +11386,7 @@
       },
       {
         "_attributes": {
-          "name": "Vincent  Lemoine",
+          "name": "V. Lemoine",
           "shortname": "V. Lemoine",
           "checkname": "LEMOINE,V",
           "uni": "28",
@@ -11089,7 +11404,7 @@
       },
       {
         "_attributes": {
-          "name": "Jason Bofunda",
+          "name": "J. Bofunda",
           "shortname": "J. Bofunda",
           "checkname": "BOFUNDA,J",
           "uni": "33",
@@ -11100,8 +11415,8 @@
         "rush": {
           "_attributes": {
             "att": "7",
-            "yds": "81",
-            "gain": "81",
+            "yds": "82",
+            "gain": "82",
             "loss": "0",
             "td": "1",
             "long": "57"
@@ -11123,7 +11438,7 @@
       },
       {
         "_attributes": {
-          "name": "Paul Veritas",
+          "name": "P. Veritas",
           "shortname": "P. Veritas",
           "checkname": "VERITAS,P",
           "uni": "35",
@@ -11141,7 +11456,7 @@
       },
       {
         "_attributes": {
-          "name": "Maxime Roger",
+          "name": "M. Roger",
           "shortname": "M. Roger",
           "checkname": "ROGER,M",
           "uni": "36",
@@ -11153,15 +11468,26 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "3",
+            "tackua": "2",
             "tacka": "2",
-            "tot_tack": "5"
+            "tot_tack": "4"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Davidson  Larochel",
+          "name": "B. Nekili",
+          "shortname": "B. Nekili",
+          "checkname": "NEKILI,B",
+          "uni": "39",
+          "class": "SR",
+          "gp": "1",
+          "code": "39"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "D. Larochel",
           "shortname": "D. Larochel",
           "checkname": "LAROCHEL,D",
           "uni": "41",
@@ -11174,14 +11500,14 @@
         "defense": {
           "_attributes": {
             "tackua": "4",
-            "tacka": "3",
-            "tot_tack": "7"
+            "tacka": "6",
+            "tot_tack": "10"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Stanley Zeregbe",
+          "name": "S. Zeregbe",
           "shortname": "S. Zeregbe",
           "checkname": "ZEREGBE,S",
           "uni": "44",
@@ -11207,7 +11533,18 @@
       },
       {
         "_attributes": {
-          "name": "Nabil  Marzougui",
+          "name": "C. Voumbo",
+          "shortname": "C. Voumbo",
+          "checkname": "VOUMBO,C",
+          "uni": "45",
+          "class": "SR",
+          "gp": "1",
+          "code": "45"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "N. Marzougui",
           "shortname": "N. Marzougui",
           "checkname": "MARZOUGUI,N",
           "uni": "52",
@@ -11220,7 +11557,7 @@
       },
       {
         "_attributes": {
-          "name": "Jack Loew",
+          "name": "J. Loew",
           "shortname": "J. Loew",
           "checkname": "LOEW,J",
           "uni": "54",
@@ -11243,11 +11580,11 @@
       },
       {
         "_attributes": {
-          "name": "Mamadou Sy",
+          "name": "M. Sy",
           "shortname": "M. Sy",
           "checkname": "SY,M",
           "uni": "55",
-          "class": "SR",
+          "class": "",
           "gp": "1",
           "code": "55"
         },
@@ -11263,7 +11600,7 @@
       },
       {
         "_attributes": {
-          "name": "Giovanni Nanguy",
+          "name": "G. Nanguy",
           "shortname": "G. Nanguy",
           "checkname": "NANGUY,G",
           "uni": "56",
@@ -11273,14 +11610,10 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "2",
+            "tackua": "1",
             "tacka": "1",
-            "tot_tack": "3",
-            "tflua": "1",
-            "tfla": "0",
-            "tflyds": "4",
+            "tot_tack": "2",
             "brup": "1",
-            "ff": "1",
             "fr": "1",
             "fryds": "0"
           }
@@ -11288,7 +11621,7 @@
       },
       {
         "_attributes": {
-          "name": "Celestin Ngimbi",
+          "name": "C. Ngimbi",
           "shortname": "C. Ngimbi",
           "checkname": "NGIMBI,C",
           "uni": "60",
@@ -11301,7 +11634,18 @@
       },
       {
         "_attributes": {
-          "name": "Ryan Iguedjtal",
+          "name": "K. Ebanks",
+          "shortname": "K. Ebanks",
+          "checkname": "EBANKS,K",
+          "uni": "63",
+          "class": "SR",
+          "gp": "1",
+          "code": "63"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "R. Iguedjtal",
           "shortname": "R. Iguedjtal",
           "checkname": "IGUEDJTAL,R",
           "uni": "64",
@@ -11314,7 +11658,18 @@
       },
       {
         "_attributes": {
-          "name": "Diaboudouba Mamoudou",
+          "name": "W. Elas",
+          "shortname": "W. Elas",
+          "checkname": "ELAS,W",
+          "uni": "65",
+          "class": "SR",
+          "gp": "1",
+          "code": "65"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "D. Doumbouya",
           "shortname": "D. Doumbouya",
           "checkname": "DOUMBOUYA,D",
           "uni": "71",
@@ -11327,7 +11682,18 @@
       },
       {
         "_attributes": {
-          "name": "Sebastien  Jallier",
+          "name": "W. Camara",
+          "shortname": "W. Camara",
+          "checkname": "CAMARA,W",
+          "uni": "72",
+          "class": "SR",
+          "gp": "1",
+          "code": "72"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "S. Jallier",
           "shortname": "S. Jallier",
           "checkname": "JALLIER,S",
           "uni": "77",
@@ -11340,7 +11706,18 @@
       },
       {
         "_attributes": {
-          "name": "Steve Delaval",
+          "name": "M. Gaye",
+          "shortname": "M. Gaye",
+          "checkname": "GAYE,M",
+          "uni": "78",
+          "class": "SR",
+          "gp": "1",
+          "code": "78"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "S. Delaval",
           "shortname": "S. Delaval",
           "checkname": "DELAVAL,S",
           "uni": "85",
@@ -11351,7 +11728,7 @@
       },
       {
         "_attributes": {
-          "name": "Vincent Buffet",
+          "name": "V. Buffet",
           "shortname": "V. Buffet",
           "checkname": "BUFFET,V",
           "uni": "90",
@@ -11361,15 +11738,15 @@
         },
         "defense": {
           "_attributes": {
-            "tackua": "2",
-            "tacka": "2",
+            "tackua": "0",
+            "tacka": "4",
             "tot_tack": "4"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Valentin Gnahoua",
+          "name": "V. Gnahoua",
           "shortname": "V. Gnahoua",
           "checkname": "GNAHOUA,V",
           "uni": "94",
@@ -11380,18 +11757,19 @@
         "defense": {
           "_attributes": {
             "tackua": "1",
-            "tacka": "0",
-            "tot_tack": "1",
+            "tacka": "1",
+            "tot_tack": "2",
             "tflua": "1",
-            "tfla": "0",
-            "tflyds": "1",
-            "blkd": "1"
+            "tfla": "1",
+            "tflyds": "2",
+            "blkd": "1",
+            "ff": "1"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Averdie Mizius",
+          "name": "A. Mizius",
           "shortname": "A. Mizius",
           "checkname": "MIZIUS,A",
           "uni": "97",
@@ -11404,17 +11782,17 @@
         "defense": {
           "_attributes": {
             "tackua": "1",
-            "tacka": "0",
-            "tot_tack": "1",
+            "tacka": "1",
+            "tot_tack": "2",
             "tflua": "1",
-            "tfla": "0",
-            "tflyds": "2"
+            "tfla": "1",
+            "tflyds": "3"
           }
         }
       },
       {
         "_attributes": {
-          "name": "Edwin Elio",
+          "name": "E. Elio",
           "shortname": "E. Elio",
           "checkname": "ELIO,E",
           "uni": "98",
@@ -11423,18 +11801,11 @@
           "gs": "1",
           "dpos": "DL",
           "code": "98"
-        },
-        "defense": {
-          "_attributes": {
-            "tackua": "0",
-            "tacka": "1",
-            "tot_tack": "1"
-          }
         }
       },
       {
         "_attributes": {
-          "name": "Willem Dendele",
+          "name": "W. Dendele",
           "shortname": "W. Dendele",
           "checkname": "DENDELE,W",
           "uni": "99",
@@ -11458,7 +11829,7 @@
   "home_players": [
     {
       "_attributes": {
-        "name": "Ryan Rimmler",
+        "name": "R. Rimmler",
         "shortname": "R. Rimmler",
         "checkname": "RIMMLER,R",
         "uni": "1",
@@ -11497,7 +11868,18 @@
     },
     {
       "_attributes": {
-        "name": "Berdale Robins",
+        "name": "S. Shannon",
+        "shortname": "S. Shannon",
+        "checkname": "SHANNON,S",
+        "uni": "2",
+        "class": "SR",
+        "gp": "1",
+        "code": "2"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "B. Robins",
         "shortname": "B. Robins",
         "checkname": "ROBINS,B",
         "uni": "3",
@@ -11510,8 +11892,8 @@
       "defense": {
         "_attributes": {
           "tackua": "0",
-          "tacka": "1",
-          "tot_tack": "1",
+          "tacka": "2",
+          "tot_tack": "2",
           "brup": "2"
         }
       },
@@ -11526,15 +11908,15 @@
       "pr": {
         "_attributes": {
           "no": "4",
-          "yds": "47",
+          "yds": "48",
           "td": "0",
-          "long": "19"
+          "long": "20"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Tony Anderson",
+        "name": "T. Anderson",
         "shortname": "T. Anderson",
         "checkname": "ANDERSON,T",
         "uni": "4",
@@ -11546,8 +11928,8 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "3",
-          "tacka": "1",
+          "tackua": "2",
+          "tacka": "2",
           "tot_tack": "4",
           "brup": "1"
         }
@@ -11555,7 +11937,7 @@
     },
     {
       "_attributes": {
-        "name": "Jamalcolm Liggins",
+        "name": "J. Liggins",
         "shortname": "J. Liggins",
         "checkname": "LIGGINS,J",
         "uni": "5",
@@ -11571,13 +11953,13 @@
           "tacka": "0",
           "tot_tack": "1",
           "int": "2",
-          "intyds": "27"
+          "intyds": "22"
         }
       },
       "ir": {
         "_attributes": {
           "no": "2",
-          "yds": "27",
+          "yds": "22",
           "td": "0",
           "long": "16"
         }
@@ -11585,7 +11967,18 @@
     },
     {
       "_attributes": {
-        "name": "Mete Konya",
+        "name": "L. Hedrich",
+        "shortname": "L. Hedrich",
+        "checkname": "HEDRICH,L",
+        "uni": "6",
+        "class": "SR",
+        "gp": "1",
+        "code": "6"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Konya",
         "shortname": "M. Konya",
         "checkname": "KONYA,M",
         "uni": "8",
@@ -11596,20 +11989,20 @@
       "defense": {
         "_attributes": {
           "tackua": "1",
-          "tacka": "2",
-          "tot_tack": "3",
+          "tacka": "1",
+          "tot_tack": "2",
           "tflua": "1",
-          "tfla": "1",
-          "tflyds": "8",
+          "tfla": "0",
+          "tflyds": "7",
           "sackua": "1",
-          "sacka": "1",
-          "sackyds": "8"
+          "sacka": "0",
+          "sackyds": "7"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Steve Cluley",
+        "name": "S. Cluley",
         "shortname": "S. Cluley",
         "checkname": "CLULEY,S",
         "uni": "10",
@@ -11622,8 +12015,8 @@
       "rush": {
         "_attributes": {
           "att": "7",
-          "yds": "31",
-          "gain": "45",
+          "yds": "30",
+          "gain": "44",
           "loss": "14",
           "td": "0",
           "long": "26"
@@ -11634,7 +12027,7 @@
           "comp": "24",
           "att": "34",
           "int": "0",
-          "yds": "297",
+          "yds": "300",
           "td": "3",
           "long": "53",
           "sacks": "1",
@@ -11663,7 +12056,18 @@
     },
     {
       "_attributes": {
-        "name": "Joshua Poznanski",
+        "name": "No. Schumm",
+        "shortname": "No. Schumm",
+        "checkname": "SCHUMM,NO",
+        "uni": "11",
+        "class": "SR",
+        "gp": "1",
+        "code": "11"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Poznanski",
         "shortname": "J. Poznanski",
         "checkname": "POZNANSKI,J",
         "uni": "14",
@@ -11676,14 +12080,14 @@
       "defense": {
         "_attributes": {
           "tackua": "4",
-          "tacka": "0",
-          "tot_tack": "4"
+          "tacka": "2",
+          "tot_tack": "6"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Niklas Schumm",
+        "name": "N. Schumm",
         "shortname": "N. Schumm",
         "checkname": "SCHUMM,N",
         "uni": "16",
@@ -11702,7 +12106,7 @@
     },
     {
       "_attributes": {
-        "name": "Reece Horn",
+        "name": "R. Horn",
         "shortname": "R. Horn",
         "checkname": "HORN,R",
         "uni": "17",
@@ -11728,7 +12132,7 @@
     },
     {
       "_attributes": {
-        "name": "Nico Strahmann",
+        "name": "N. Strahmann",
         "shortname": "N. Strahmann",
         "checkname": "STRAHMANN,N",
         "uni": "19",
@@ -11741,9 +12145,9 @@
       "rcv": {
         "_attributes": {
           "no": "6",
-          "yds": "51",
+          "yds": "53",
           "td": "1",
-          "long": "24"
+          "long": "25"
         }
       },
       "scoring": {
@@ -11754,9 +12158,9 @@
     },
     {
       "_attributes": {
-        "name": "Nick Kaufman",
-        "shortname": "N. Kaufman",
-        "checkname": "KAUFMAN,N",
+        "name": "N. Kaufmann",
+        "shortname": "N. Kaufmann",
+        "checkname": "KAUFMANN,N",
         "uni": "20",
         "class": "SR",
         "gp": "1",
@@ -11775,7 +12179,18 @@
     },
     {
       "_attributes": {
-        "name": "Thomas Fischbach",
+        "name": "K. Ben El Ghali",
+        "shortname": "K. Ben El Ghali",
+        "checkname": "GHALI,K BEN EL",
+        "uni": "24",
+        "class": "SR",
+        "gp": "1",
+        "code": "24"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "T. Fischbach",
         "shortname": "T. Fischbach",
         "checkname": "FISCHBACH,T",
         "uni": "27",
@@ -11788,17 +12203,17 @@
       "rush": {
         "_attributes": {
           "att": "14",
-          "yds": "21",
+          "yds": "24",
           "gain": "35",
-          "loss": "14",
+          "loss": "11",
           "td": "1",
-          "long": "19"
+          "long": "18"
         }
       },
       "rcv": {
         "_attributes": {
           "no": "3",
-          "yds": "7",
+          "yds": "8",
           "td": "0",
           "long": "4"
         }
@@ -11817,7 +12232,7 @@
     },
     {
       "_attributes": {
-        "name": "Cedric Schmitt",
+        "name": "C. Schmitt",
         "shortname": "C. Schmitt",
         "checkname": "SCHMITT,C",
         "uni": "28",
@@ -11827,15 +12242,26 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
+          "tackua": "0",
           "tacka": "1",
-          "tot_tack": "2"
+          "tot_tack": "1"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Marcos Schlabitz",
+        "name": "F. Reuter",
+        "shortname": "F. Reuter",
+        "checkname": "REUTER,F",
+        "uni": "30",
+        "class": "SR",
+        "gp": "1",
+        "code": "30"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Schlabitz",
         "shortname": "M. Schlabitz",
         "checkname": "SCHLABITZ,M",
         "uni": "35",
@@ -11853,7 +12279,7 @@
     },
     {
       "_attributes": {
-        "name": "Sebastian Brand",
+        "name": "S. Brand",
         "shortname": "S. Brand",
         "checkname": "BRAND,S",
         "uni": "38",
@@ -11871,7 +12297,7 @@
     },
     {
       "_attributes": {
-        "name": "Sebastian Gauthier",
+        "name": "S. Gauthier",
         "shortname": "S. Gauthier",
         "checkname": "GAUTHIER,S",
         "uni": "41",
@@ -11883,32 +12309,33 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "5",
-          "tacka": "3",
+          "tackua": "4",
+          "tacka": "4",
           "tot_tack": "8",
           "tflua": "1",
           "tfla": "2",
-          "tflyds": "4",
+          "tflyds": "3",
           "sackua": "0",
           "sacka": "1",
           "sackyds": "2",
+          "brup": "1",
           "qbh": "1",
           "fr": "1",
-          "fryds": "8"
+          "fryds": "14"
         }
       },
       "fr": {
         "_attributes": {
           "no": "1",
-          "yds": "8",
+          "yds": "14",
           "td": "0",
-          "long": "8"
+          "long": "14"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Leon Helm",
+        "name": "L. Helm",
         "shortname": "L. Helm",
         "checkname": "HELM,L",
         "uni": "44",
@@ -11929,7 +12356,7 @@
     },
     {
       "_attributes": {
-        "name": "Simeon Gabriel",
+        "name": "S. Gabriel",
         "shortname": "S. Gabriel",
         "checkname": "GABRIEL,S",
         "uni": "45",
@@ -11947,7 +12374,7 @@
     },
     {
       "_attributes": {
-        "name": "David Miletic",
+        "name": "Dav. Miletic",
         "shortname": "Dav. Miletic",
         "checkname": "MILETIC,DAV",
         "uni": "50",
@@ -11959,15 +12386,15 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
-          "tacka": "0",
-          "tot_tack": "1"
+          "tackua": "0",
+          "tacka": "3",
+          "tot_tack": "3"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Joshua Mackeben",
+        "name": "J. Mackeben",
         "shortname": "J. Mackeben",
         "checkname": "MACKEBEN,J",
         "uni": "51",
@@ -11978,14 +12405,14 @@
       "defense": {
         "_attributes": {
           "tackua": "0",
-          "tacka": "4",
-          "tot_tack": "4"
+          "tacka": "3",
+          "tot_tack": "3"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Wael Nasri",
+        "name": "W. Nasri",
         "shortname": "W. Nasri",
         "checkname": "NASRI,W",
         "uni": "52",
@@ -11998,15 +12425,21 @@
       "defense": {
         "_attributes": {
           "tackua": "2",
-          "tacka": "7",
-          "tot_tack": "9",
+          "tacka": "6",
+          "tot_tack": "8",
+          "tflua": "0",
+          "tfla": "1",
+          "tflyds": "2",
+          "sackua": "0",
+          "sacka": "1",
+          "sackyds": "2",
           "brup": "1"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Karlis Brauns",
+        "name": "K. Brauns",
         "shortname": "K. Brauns",
         "checkname": "BRAUNS,K",
         "uni": "54",
@@ -12020,13 +12453,14 @@
         "_attributes": {
           "tackua": "0",
           "tacka": "1",
-          "tot_tack": "1"
+          "tot_tack": "1",
+          "qbh": "1"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Thang Le Minh",
+        "name": "T. Le Minh",
         "shortname": "T. Le Minh",
         "checkname": "MINH,T LE",
         "uni": "55",
@@ -12039,7 +12473,7 @@
     },
     {
       "_attributes": {
-        "name": "Sebastian Silva-Gome",
+        "name": "S. Silva Gomez",
         "shortname": "S. Silva Gomez",
         "checkname": "GOMEZ,S SILVA",
         "uni": "56",
@@ -12052,21 +12486,21 @@
       "defense": {
         "_attributes": {
           "tackua": "3",
-          "tacka": "4",
-          "tot_tack": "7",
+          "tacka": "5",
+          "tot_tack": "8",
           "tflua": "1",
-          "tfla": "1",
-          "tflyds": "12",
+          "tfla": "0",
+          "tflyds": "11",
           "sackua": "1",
-          "sacka": "1",
-          "sackyds": "12",
+          "sacka": "0",
+          "sackyds": "11",
           "brup": "1"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Lars Hampel",
+        "name": "L. Hampel",
         "shortname": "L. Hampel",
         "checkname": "HAMPEL,L",
         "uni": "61",
@@ -12079,7 +12513,18 @@
     },
     {
       "_attributes": {
-        "name": "Frank Atunlese",
+        "name": "Mo. Schmidt",
+        "shortname": "Mo. Schmidt",
+        "checkname": "SCHMIDT,MO",
+        "uni": "64",
+        "class": "SR",
+        "gp": "1",
+        "code": "64"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "F. Atunlese",
         "shortname": "F. Atunlese",
         "checkname": "ATUNLESE,F",
         "uni": "71",
@@ -12092,7 +12537,7 @@
     },
     {
       "_attributes": {
-        "name": "Matej Bencek",
+        "name": "M. Bencek",
         "shortname": "M. Bencek",
         "checkname": "BENCEK,M",
         "uni": "72",
@@ -12105,7 +12550,7 @@
     },
     {
       "_attributes": {
-        "name": "Nils Hampel",
+        "name": "N. Hampel",
         "shortname": "N. Hampel",
         "checkname": "HAMPEL,N",
         "uni": "76",
@@ -12118,7 +12563,18 @@
     },
     {
       "_attributes": {
-        "name": "Janez Von Renesse",
+        "name": "T. Hirsch",
+        "shortname": "T. Hirsch",
+        "checkname": "HIRSCH,T",
+        "uni": "78",
+        "class": "SR",
+        "gp": "1",
+        "code": "78"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. von Renesse",
         "shortname": "J. von Renesse",
         "checkname": "RENESSE,J VON",
         "uni": "81",
@@ -12137,7 +12593,7 @@
     },
     {
       "_attributes": {
-        "name": "Hendrik Schwarz",
+        "name": "H. Schwarz",
         "shortname": "H. Schwarz",
         "checkname": "SCHWARZ,H",
         "uni": "82",
@@ -12148,20 +12604,20 @@
       "punt": {
         "_attributes": {
           "no": "5",
-          "yds": "211",
-          "long": "50",
+          "yds": "210",
+          "long": "49",
           "blkd": "0",
           "tb": "0",
           "fc": "2",
-          "plus50": "1",
+          "plus50": "0",
           "inside20": "1",
-          "avg": "42.2"
+          "avg": "42.0"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Zinedin Bendjabou",
+        "name": "Z. Bendjabou",
         "shortname": "Z. Bendjabou",
         "checkname": "BENDJABOU,Z",
         "uni": "83",
@@ -12180,7 +12636,7 @@
     },
     {
       "_attributes": {
-        "name": "Lorenz Regler",
+        "name": "L. Regler",
         "shortname": "L. Regler",
         "checkname": "REGLER,L",
         "uni": "86",
@@ -12206,7 +12662,7 @@
     },
     {
       "_attributes": {
-        "name": "Kevin Mwamba",
+        "name": "K. Mwamba",
         "shortname": "K. Mwamba",
         "checkname": "MWAMBA,K",
         "uni": "87",
@@ -12219,7 +12675,7 @@
     },
     {
       "_attributes": {
-        "name": "Marc Anthony Hor",
+        "name": "M. A. Hor",
         "shortname": "M. A. Hor",
         "checkname": "HOR,M A",
         "uni": "90",
@@ -12232,20 +12688,20 @@
       "defense": {
         "_attributes": {
           "tackua": "0",
-          "tacka": "7",
-          "tot_tack": "7",
+          "tacka": "6",
+          "tot_tack": "6",
           "tflua": "0",
           "tfla": "1",
-          "tflyds": "2",
+          "tflyds": "1",
           "sackua": "0",
           "sacka": "1",
-          "sackyds": "2"
+          "sackyds": "1"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Moubarak Djeri",
+        "name": "M. Djeri",
         "shortname": "M. Djeri",
         "checkname": "DJERI,M",
         "uni": "91",
@@ -12256,17 +12712,17 @@
       "defense": {
         "_attributes": {
           "tackua": "0",
-          "tacka": "3",
-          "tot_tack": "3",
+          "tacka": "4",
+          "tot_tack": "4",
           "tflua": "0",
           "tfla": "1",
-          "tflyds": "0"
+          "tflyds": "1"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Frank Mousel",
+        "name": "F. Mousel",
         "shortname": "F. Mousel",
         "checkname": "MOUSEL,F",
         "uni": "92",
@@ -12276,15 +12732,15 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
-          "tacka": "1",
+          "tackua": "0",
+          "tacka": "2",
           "tot_tack": "2"
         }
       }
     },
     {
       "_attributes": {
-        "name": "Daniel Bartmann",
+        "name": "D. Bartmann",
         "shortname": "D. Bartmann",
         "checkname": "BARTMANN,D",
         "uni": "95",
@@ -12293,11 +12749,18 @@
         "gs": "1",
         "dpos": "DL",
         "code": "95"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "0",
+          "tacka": "2",
+          "tot_tack": "2"
+        }
       }
     },
     {
       "_attributes": {
-        "name": "Taslim Gaye",
+        "name": "T. Gaye",
         "shortname": "T. Gaye",
         "checkname": "GAYE,T",
         "uni": "96",
@@ -12315,7 +12778,7 @@
     },
     {
       "_attributes": {
-        "name": "Sven Rieger",
+        "name": "S. Rieger",
         "shortname": "S. Rieger",
         "checkname": "RIEGER,S",
         "uni": "97",
@@ -12326,8 +12789,14 @@
       "defense": {
         "_attributes": {
           "tackua": "0",
-          "tacka": "1",
-          "tot_tack": "1"
+          "tacka": "2",
+          "tot_tack": "2",
+          "tflua": "0",
+          "tfla": "1",
+          "tflyds": "2",
+          "sackua": "0",
+          "sacka": "1",
+          "sackyds": "2"
         }
       }
     }
@@ -12368,7 +12837,7 @@
   "home_totals": {
     "_attributes": {
       "totoff_plays": "59",
-      "totoff_yards": "357",
+      "totoff_yards": "362",
       "totoff_avg": "6.1"
     },
     "firstdowns": {
@@ -12388,7 +12857,7 @@
     "conversions": {
       "_attributes": {
         "thirdconv": "5",
-        "thirdatt": "11",
+        "thirdatt": "12",
         "fourthconv": "0",
         "fourthatt": "0"
       }
@@ -12427,9 +12896,9 @@
     "rush": {
       "_attributes": {
         "att": "25",
-        "yds": "60",
-        "gain": "89",
-        "loss": "29",
+        "yds": "62",
+        "gain": "88",
+        "loss": "26",
         "td": "1",
         "long": "26"
       }
@@ -12439,7 +12908,7 @@
         "comp": "24",
         "att": "34",
         "int": "0",
-        "yds": "297",
+        "yds": "300",
         "td": "3",
         "long": "53",
         "sacks": "1",
@@ -12449,7 +12918,7 @@
     "rcv": {
       "_attributes": {
         "no": "24",
-        "yds": "297",
+        "yds": "300",
         "td": "3",
         "long": "53"
       }
@@ -12457,14 +12926,14 @@
     "punt": {
       "_attributes": {
         "no": "6",
-        "yds": "247",
-        "long": "50",
+        "yds": "246",
+        "long": "49",
         "blkd": "0",
         "tb": "0",
         "fc": "2",
-        "plus50": "1",
+        "plus50": "0",
         "inside20": "1",
-        "avg": "41.2"
+        "avg": "41.0"
       }
     },
     "ko": {
@@ -12492,20 +12961,20 @@
     },
     "defense": {
       "_attributes": {
-        "tackua": "26",
-        "tacka": "38",
-        "tot_tack": "64",
+        "tackua": "21",
+        "tacka": "48",
+        "tot_tack": "69",
         "tflua": "3",
         "tfla": "6",
-        "tflyds": "26",
+        "tflyds": "27",
         "sacks": "5",
-        "sackyds": "44",
-        "brup": "5",
-        "qbh": "1",
+        "sackyds": "45",
+        "brup": "6",
+        "qbh": "2",
         "fr": "1",
-        "fryds": "8",
+        "fryds": "14",
         "int": "2",
-        "intyds": "27"
+        "intyds": "22"
       }
     },
     "kr": {
@@ -12519,15 +12988,15 @@
     "pr": {
       "_attributes": {
         "no": "4",
-        "yds": "47",
+        "yds": "48",
         "td": "0",
-        "long": "19"
+        "long": "20"
       }
     },
     "ir": {
       "_attributes": {
         "no": "2",
-        "yds": "27",
+        "yds": "22",
         "td": "0",
         "long": "16"
       }
@@ -12535,9 +13004,9 @@
     "fr": {
       "_attributes": {
         "no": "1",
-        "yds": "8",
+        "yds": "14",
         "td": "0",
-        "long": "8"
+        "long": "14"
       }
     },
     "scoring": {

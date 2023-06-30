@@ -400,11 +400,9 @@
   </drives>
   <plays format="summary">
     <qtr number="1" text="1st">
-      <play hasball="CC" down="1" togo="10" spot="CC35" context="V,1,10,V35" playid="0,1,0" type="#" clock="00:00" tokens="Q:1 T:00:00" text="Start of 1st quarter, clock 00:00." newcontext="V,1,10,V35">
-   </play>
+      <play hasball="CC" down="1" togo="10" spot="CC35" context="V,1,10,V35" playid="0,1,0" type="#" clock="00:00" tokens="Q:1 T:00:00" text="Start of 1st quarter, clock 00:00." newcontext="V,1,10,V35"></play>
       <comment text="CC won the toss, CC will receive"/>
-      <play hasball="CC" down="1" togo="10" spot="CC35" context="V,1,10,V35" playid="0,2,2" tokens="SPOT:H,H35,N" text="PW ball on PW35." newcontext="H,1,10,H35">
-   </play>
+      <play hasball="CC" down="1" togo="10" spot="CC35" context="V,1,10,V35" playid="0,2,2" tokens="SPOT:H,H35,N" text="PW ball on PW35." newcontext="H,1,10,H35"></play>
       <play hasball="PW" down="1" togo="10" spot="PW35" context="H,1,10,H35" playid="0,3,3" type="K" tokens="KO:11,V05 RET:1,V30 TACK:20" text="D. Panczyszyn kickoff 60 yards to the CC5, Q. Pounds return 25 yards to the CC30 (K. Rokicinski)." newcontext="V,1,10,V30">
         <p_ko vh="H" name="D. Panczyszyn" gain="60"/>
         <p_kr vh="V" name="Q. Pounds" gain="25"/>
@@ -644,8 +642,7 @@
       </qtrsummary>
     </qtr>
     <qtr number="2" text="2nd">
-      <play hasball="PW" down="1" togo="10" spot="PW37" context="H,1,10,H37" playid="10,3,52" type="#" clock="00:00" tokens="Q:2 T:00:00" text="Start of 2nd quarter, clock 00:00." newcontext="H,1,10,H37">
-   </play>
+      <play hasball="PW" down="1" togo="10" spot="PW37" context="H,1,10,H37" playid="10,3,52" type="#" clock="00:00" tokens="Q:2 T:00:00" text="Start of 2nd quarter, clock 00:00." newcontext="H,1,10,H37"></play>
       <play hasball="PW" down="1" togo="10" spot="PW37" context="H,1,10,H37" playid="10,4,53" type="P" first="P" tokens="PASS:2,C,23,V32 TACK:TM" text="L. O'Connor pass complete to J. Mazan for 31 yards to the CC32, 1ST DOWN PW (TEAM)." newcontext="H,1,10,V32">
         <p_pa vh="H" qb="L. O'Connor" result="COMP" rcv="J. Mazan" gain="31"/>
         <p_tk vh="V" name="TEAM"/>
@@ -889,8 +886,7 @@
       </qtrsummary>
     </qtr>
     <qtr number="3" text="3rd">
-      <play hasball="CC" down="1" togo="10" spot="PW37" context="V,1,10,H37" playid="17,9,104" type="#" clock="00:00" tokens="HALF: T:00:00 Q:3 T:00:00 SPOT:V,V35,N Q:3 T:00:00" text="End of half, clock 00:00, start of 3rd quarter, clock 00:00, CC ball on CC35, start of 3rd quarter, clock 00:00." newcontext="V,1,10,V35">
-   </play>
+      <play hasball="CC" down="1" togo="10" spot="PW37" context="V,1,10,H37" playid="17,9,104" type="#" clock="00:00" tokens="HALF: T:00:00 Q:3 T:00:00 SPOT:V,V35,N Q:3 T:00:00" text="End of half, clock 00:00, start of 3rd quarter, clock 00:00, CC ball on CC35, start of 3rd quarter, clock 00:00." newcontext="V,1,10,V35"></play>
       <drivesum plays="8" yards="47" top="0:00" driveindex="17" complete="Y"/>
       <play hasball="CC" down="1" togo="10" spot="CC35" context="V,1,10,V35" playid="17,10,105" type="K" tokens="KO:2,H05 RET:4,H32 TACK:4" text="D. Schuhmacher kickoff 60 yards to the PW5, W. Lloyd return 27 yards to the PW32 (G. Ngovo)." newcontext="H,1,10,H32">
         <p_ko vh="V" name="D. Schuhmacher" gain="60"/>
@@ -1121,8 +1117,7 @@
       </qtrsummary>
     </qtr>
     <qtr number="4" text="4th">
-      <play hasball="CC" down="1" togo="0" spot="CC35" context="V,1,0,V35" playid="25,10,146" type="#" clock="00:00" tokens="Q:4 T:00:00" text="Start of 4th quarter, clock 00:00." newcontext="V,1,0,V35">
-   </play>
+      <play hasball="CC" down="1" togo="0" spot="CC35" context="V,1,0,V35" playid="25,10,146" type="#" clock="00:00" tokens="Q:4 T:00:00" text="Start of 4th quarter, clock 00:00." newcontext="V,1,0,V35"></play>
       <drivesum plays="8" yards="63" top="0:00" driveindex="25" complete="Y"/>
       <play hasball="CC" down="1" togo="0" spot="CC35" context="V,1,0,V35" playid="25,11,147" type="K" tokens="KO:2,H10 RET:23,H40 TACK:28" text="D. Schuhmacher kickoff 55 yards to the PW10, J. Mazan return 30 yards to the PW40 (M. London)." newcontext="H,1,10,H40">
         <p_ko vh="V" name="D. Schuhmacher" gain="55"/>
@@ -1357,8 +1352,7 @@
       <play hasball="PW" down="2" togo="12" spot="PW47" context="H,2,12,H47" playid="34,2,200" type="R" tokens="RUSH:2,H45," text="L. O'Connor rush for loss of 2 yards to the PW45." newcontext="H,3,14,H45">
         <p_ru vh="H" name="L. O'Connor" gain="-2"/>
       </play>
-      <play hasball="PW" down="3" togo="14" spot="PW45" context="H,3,14,H45" playid="34,3,201" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of game, clock 00:00." newcontext="H,3,14,H45">
-   </play>
+      <play hasball="PW" down="3" togo="14" spot="PW45" context="H,3,14,H45" playid="34,3,201" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of game, clock 00:00." newcontext="H,3,14,H45"></play>
       <drivesum plays="2" yards="-4" top="0:00" driveindex="34" complete="Y"/>
       <score final="Y" V="39" H="55"/>
       <endqtr/>

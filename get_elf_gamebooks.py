@@ -4,7 +4,7 @@ from tqdm import tqdm
 
 
 def get_elf_gamebooks(season: int):
-    sched_df = pd.read_csv(f'schedule/csv/{season}_elf_schedule.csv')
+    sched_df = pd.read_csv(f'schedule/{season}_elf_schedule.csv')
 
     sched_df = sched_df.dropna(subset=['gamebook_url'])
 

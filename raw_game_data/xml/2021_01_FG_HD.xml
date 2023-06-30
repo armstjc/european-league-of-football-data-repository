@@ -298,11 +298,11 @@
   <plays format="summary">
     <qtr number="1" text="1st">
       <play hasball="FG" down="1" togo="10" spot="FG35" context="V,1,10,V35" playid="0,1,0" tokens="CMT:Hamburg wins the coin toss and chooses 2nd half option." text="Hamburg wins the coin toss and chooses 2nd half option." newcontext="V,1,10,V35">
-   </play>
+      </play>
       <play hasball="FG" down="1" togo="10" spot="FG35" context="V,1,10,V35" playid="0,2,1" tokens="SPOT:H,H35,N" text="HD ball on HD35." newcontext="H,1,10,H35">
-   </play>
+      </play>
       <play hasball="HD" down="1" togo="10" spot="HD35" context="H,1,10,H35" playid="0,3,2" type="#" clock="15:00" tokens="Q:1 T:15:00" text="Start of 1st quarter, clock 15:00." newcontext="H,1,10,H35">
-   </play>
+      </play>
       <play hasball="HD" down="1" togo="10" spot="HD35" context="H,1,10,H35" playid="0,4,3" type="K" tokens="KO:4,V00 TB:" text="P. Andersen kickoff 65 yards to the FG0, touchback." newcontext="V,1,10,V25">
         <p_ko vh="H" name="P. Andersen" gain="65" result="T"/>
       </play>
@@ -390,7 +390,7 @@
       <drivesum plays="3" yards="4" top="2:23" driveindex="2" complete="Y"/>
       <drivestart poss="V,V20,05:47" vh="V" spot="V20" clock="05:47" driveindex="3,23"/>
       <play hasball="FG" down="1" togo="10" spot="FG20" context="V,1,10,V20" playid="3,1,24" clock="05:47" tokens="{DRIVE}:05:47" text="FRANKFURT GALAXY drive start at 05:47." newcontext="V,1,10,V20">
-   </play>
+      </play>
       <play hasball="FG" down="1" togo="10" spot="FG20" context="V,1,10,V20" playid="3,2,25" type="R" tokens="RUSH:21,V22, TACK:91" text="G. Adams rush for 2 yards to the FG22 (K. Edebali)." newcontext="V,2,8,V22">
         <p_ru vh="V" name="G. Adams" gain="2"/>
         <p_tk vh="H" name="K. Edebali"/>
@@ -434,7 +434,7 @@
       <drivesum plays="7" yards="32" top="4:21" driveindex="3" complete="Y"/>
       <drivestart poss="H,H08,01:26" vh="H" spot="H08" clock="01:26" driveindex="4,34"/>
       <play hasball="HD" down="1" togo="10" spot="HD08" context="H,1,10,H08" playid="4,1,35" clock="01:26" tokens="{DRIVE}:01:26" text="HAMBURG SEA DEVILS drive start at 01:26." newcontext="H,1,10,H08">
-   </play>
+      </play>
       <play hasball="HD" down="1" togo="10" spot="HD08" context="H,1,10,H08" playid="4,2,36" type="R" tokens="RUSH:24,H12, TACK:43" text="X. Johnson rush for 4 yards to the HD12 (J. Silva Gomez)." newcontext="H,2,6,H12">
         <p_ru vh="H" name="X. Johnson" gain="4"/>
         <p_tk vh="V" name="J. Silva Gomez"/>
@@ -474,7 +474,7 @@
     </qtr>
     <qtr number="2" text="2nd">
       <play hasball="HD" down="3" togo="8" spot="HD10" context="H,3,8,H10" playid="4,4,38" type="#" clock="15:00" tokens="Q:2 T:15:00" text="Start of 2nd quarter, clock 15:00." newcontext="H,3,8,H10">
-   </play>
+      </play>
       <play hasball="HD" down="3" togo="8" spot="HD10" context="H,3,8,H10" playid="4,5,39" type="P" turnover="I" tokens="PASS:10,X,14,H20 RET:14,H20 PEN:H,HO,D" text="J. Clark pass intercepted by J. Poznanski at the HD20, J. Poznanski return 0 yards to the HD20, PENALTY HD holding declined." newcontext="V,1,10,H20">
         <p_pa vh="H" qb="J. Clark" result="INT"/>
         <p_ir vh="V" name="J. Poznanski" at="H20" gain="0"/>
@@ -483,7 +483,7 @@
       <drivesum plays="3" yards="2" top="1:33" driveindex="4" complete="Y"/>
       <drivestart poss="V,H20,14:53" vh="V" spot="H20" clock="14:53" driveindex="5,39"/>
       <play hasball="FG" down="1" togo="10" spot="HD20" context="V,1,10,H20" playid="5,1,40" clock="14:53" tokens="{DRIVE}:14:53" text="FRANKFURT GALAXY drive start at 14:53." newcontext="V,1,10,H20">
-   </play>
+      </play>
       <play hasball="FG" down="1" togo="10" spot="HD20" context="V,1,10,H20" playid="5,2,41" type="P" tokens="PASS:7,C,11,H15 TACK:27,52" text="J. Sullivan pass complete to A. Mahoungou for 5 yards to the HD15 (L. Mueller;A. Mati)." newcontext="V,2,5,H15">
         <p_pa vh="V" qb="J. Sullivan" result="COMP" rcv="A. Mahoungou" gain="5"/>
         <p_tk vh="H" name="L. Mueller" assist="Y"/>
@@ -509,7 +509,7 @@
       </play>
       <drivestart poss="H,H27,13:08" vh="H" spot="H27" clock="13:08" driveindex="6,45"/>
       <play hasball="HD" down="1" togo="10" spot="HD27" context="H,1,10,H27" playid="6,1,46" clock="13:08" tokens="{DRIVE}:13:08" text="HAMBURG SEA DEVILS drive start at 13:08." newcontext="H,1,10,H27">
-   </play>
+      </play>
       <play hasball="HD" down="1" togo="10" spot="HD27" context="H,1,10,H27" playid="6,2,47" type="P" tokens="PASS:10,C,88,H33 TACK:14,40" text="J. Clark pass complete to A. Botella M. for 6 yards to the HD33 (J. Poznanski;K. King)." newcontext="H,2,4,H33">
         <p_pa vh="H" qb="J. Clark" result="COMP" rcv="A. Botella M." gain="6"/>
         <p_tk vh="V" name="J. Poznanski" assist="Y"/>
@@ -540,7 +540,7 @@
       <drivesum plays="5" yards="11" top="2:52" driveindex="6" complete="Y"/>
       <drivestart poss="V,V30,10:16" vh="V" spot="V30" clock="10:16" driveindex="7,53"/>
       <play hasball="FG" down="1" togo="10" spot="FG30" context="V,1,10,V30" playid="7,1,54" clock="10:16" tokens="{DRIVE}:10:16" text="FRANKFURT GALAXY drive start at 10:16." newcontext="V,1,10,V30">
-   </play>
+      </play>
       <play hasball="FG" down="1" togo="10" spot="FG30" context="V,1,10,V30" playid="7,2,55" type="P" tokens="PASS:7,C,11,V38 TACK:27" text="J. Sullivan pass complete to A. Mahoungou for 8 yards to the FG38 (L. Mueller)." newcontext="V,2,2,V38">
         <p_pa vh="V" qb="J. Sullivan" result="COMP" rcv="A. Mahoungou" gain="8"/>
         <p_tk vh="H" name="L. Mueller"/>
@@ -575,7 +575,7 @@
       </play>
       <drivestart poss="V,V19,07:25" vh="V" spot="V19" clock="07:25" driveindex="9,60"/>
       <play hasball="FG" down="1" togo="10" spot="FG19" context="V,1,10,V19" playid="9,1,61" clock="07:25" tokens="{DRIVE}:07:25" text="FRANKFURT GALAXY drive start at 07:25." newcontext="V,1,10,V19">
-   </play>
+      </play>
       <play hasball="FG" down="1" togo="10" spot="FG19" context="V,1,10,V19" playid="9,2,62" type="R" tokens="RUSH:21,V23, TACK:98" text="G. Adams rush for 4 yards to the FG23 (H. Awuah)." newcontext="V,2,6,V23">
         <p_ru vh="V" name="G. Adams" gain="4"/>
         <p_tk vh="H" name="H. Awuah"/>
@@ -596,7 +596,7 @@
       <drivesum plays="3" yards="9" top="2:25" driveindex="9" complete="Y"/>
       <drivestart poss="H,V48,05:00" vh="H" spot="V48" clock="05:00" driveindex="10,65"/>
       <play hasball="HD" down="1" togo="10" spot="FG48" context="H,1,10,V48" playid="10,1,66" clock="05:00" tokens="{DRIVE}:05:00" text="HAMBURG SEA DEVILS drive start at 05:00." newcontext="H,1,10,V48">
-   </play>
+      </play>
       <play hasball="HD" down="1" togo="10" spot="FG48" context="H,1,10,V48" playid="10,2,67" type="P" tokens="PASS:10,I,12,* BRUP:10" text="J. Clark pass incomplete to J. Madin Cerezo (O. Williams)." newcontext="H,2,10,V48">
         <p_pa vh="H" qb="J. Clark" result="INC" rcv="J. Madin Cerezo"/>
         <p_bu vh="V" name="O. Williams"/>
@@ -618,7 +618,7 @@
       <drivesum plays="3" yards="0" top="1:57" driveindex="10" complete="Y"/>
       <drivestart poss="V,V18,03:03" vh="V" spot="V18" clock="03:03" driveindex="11,71"/>
       <play hasball="FG" down="1" togo="10" spot="FG18" context="V,1,10,V18" playid="11,1,72" clock="03:03" tokens="{DRIVE}:03:03" text="FRANKFURT GALAXY drive start at 03:03." newcontext="V,1,10,V18">
-   </play>
+      </play>
       <play hasball="FG" down="1" togo="10" spot="FG18" context="V,1,10,V18" playid="11,2,73" type="R" tokens="RUSH:21,V25, TACK:98,57" text="G. Adams rush for 7 yards to the FG25 (H. Awuah;D. Laporte)." newcontext="V,2,3,V25">
         <p_ru vh="V" name="G. Adams" gain="7"/>
         <p_tk vh="H" name="H. Awuah" assist="Y"/>
@@ -672,12 +672,12 @@
       </play>
       <drivestart poss="H,H30,00:06" vh="H" spot="H30" clock="00:06" driveindex="12,85"/>
       <play hasball="HD" down="1" togo="10" spot="HD30" context="H,1,10,H30" playid="12,1,86" clock="00:06" tokens="{DRIVE}:00:06" text="HAMBURG SEA DEVILS drive start at 00:06." newcontext="H,1,10,H30">
-   </play>
+      </play>
       <play hasball="HD" down="1" togo="10" spot="HD30" context="H,1,10,H30" playid="12,2,87" type="R" tokens="RUSH:10,H28," text="J. Clark rush for loss of 2 yards to the HD28." newcontext="H,2,12,H28">
         <p_ru vh="H" name="J. Clark" gain="-2"/>
       </play>
       <play hasball="HD" down="2" togo="12" spot="HD28" context="H,2,12,H28" playid="12,3,88" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of half, clock 00:00." newcontext="H,2,12,H28">
-   </play>
+      </play>
       <drivesum plays="1" yards="-2" top="0:06" driveindex="12" complete="Y"/>
       <score qtr="2" V="9" H="7"/>
       <endqtr/>
@@ -721,13 +721,13 @@
     </qtr>
     <qtr number="3" text="3rd">
       <play hasball="HD" down="2" togo="12" spot="HD28" context="H,2,12,H28" playid="12,4,89" type="#" clock="15:00" tokens="Q:3 T:15:00 SPOT:V,V35,N" text="Start of 3rd quarter, clock 15:00, FG ball on FG35." newcontext="V,2,12,V35">
-   </play>
+      </play>
       <play hasball="FG" down="2" togo="12" spot="FG35" context="V,2,12,V35" playid="12,5,90" type="K" tokens="KO:83,H00 TB:" text="L. Sack kickoff 65 yards to the HD0, touchback." newcontext="H,1,10,H25">
         <p_ko vh="V" name="L. Sack" gain="65" result="T"/>
       </play>
       <drivestart poss="H,H25,15:00" vh="H" spot="H25" clock="15:00" driveindex="13,90"/>
       <play hasball="HD" down="1" togo="10" spot="HD25" context="H,1,10,H25" playid="13,1,91" clock="15:00" tokens="{DRIVE}:15:00" text="HAMBURG SEA DEVILS drive start at 15:00." newcontext="H,1,10,H25">
-   </play>
+      </play>
       <play hasball="HD" down="1" togo="10" spot="HD25" context="H,1,10,H25" playid="13,2,92" type="P" tokens="PASS:10,C,24,H27 TACK:90,56" text="J. Clark pass complete to X. Johnson for 2 yards to the HD27 (M. A. Hor;S. Silva Gomez)." newcontext="H,2,8,H27">
         <p_pa vh="H" qb="J. Clark" result="COMP" rcv="X. Johnson" gain="2"/>
         <p_tk vh="V" name="M. A. Hor" assist="Y"/>
@@ -762,7 +762,7 @@
       <drivesum plays="5" yards="15" top="2:52" driveindex="13" complete="Y"/>
       <drivestart poss="V,V32,12:08" vh="V" spot="V32" clock="12:08" driveindex="14,99"/>
       <play hasball="FG" down="1" togo="10" spot="FG32" context="V,1,10,V32" playid="14,1,100" clock="12:08" tokens="{DRIVE}:12:08" text="FRANKFURT GALAXY drive start at 12:08." newcontext="V,1,10,V32">
-   </play>
+      </play>
       <play hasball="FG" down="1" togo="10" spot="FG32" context="V,1,10,V32" playid="14,2,101" type="R" tokens="RUSH:21,V30, FUMB:V,V30,21 TACK:43,97" text="G. Adams rush for loss of 2 yards to the FG30, fumble by G. Adams recovered by FG G. Adams at FG30 (M. Boock;B. Tchouadje)." newcontext="V,2,12,V30">
         <p_ru vh="V" name="G. Adams" gain="-2"/>
         <p_fumb vh="V" name="G. Adams" at="V30" frvh="V" frname="G. Adams"/>
@@ -785,7 +785,7 @@
       <drivesum plays="3" yards="-2" top="1:39" driveindex="14" complete="Y"/>
       <drivestart poss="H,H40,10:29" vh="H" spot="H40" clock="10:29" driveindex="15,104"/>
       <play hasball="HD" down="1" togo="10" spot="HD40" context="H,1,10,H40" playid="15,1,105" clock="10:29" tokens="{DRIVE}:10:29" text="HAMBURG SEA DEVILS drive start at 10:29." newcontext="H,1,10,H40">
-   </play>
+      </play>
       <play hasball="HD" down="1" togo="10" spot="HD40" context="H,1,10,H40" playid="15,2,106" type="R" tokens="RUSH:24,H47, TACK:97" text="X. Johnson rush for 7 yards to the HD47 (W. Drew)." newcontext="H,2,3,H47">
         <p_ru vh="H" name="X. Johnson" gain="7"/>
         <p_tk vh="V" name="W. Drew"/>
@@ -805,7 +805,7 @@
       <drivesum plays="3" yards="6" top="1:34" driveindex="15" complete="Y"/>
       <drivestart poss="V,V17,08:55" vh="V" spot="V17" clock="08:55" driveindex="16,109"/>
       <play hasball="FG" down="1" togo="10" spot="FG17" context="V,1,10,V17" playid="16,1,110" clock="08:55" tokens="{DRIVE}:08:55" text="FRANKFURT GALAXY drive start at 08:55." newcontext="V,1,10,V17">
-   </play>
+      </play>
       <play hasball="FG" down="1" togo="10" spot="FG17" context="V,1,10,V17" playid="16,2,111" type="R" tokens="RUSH:13,V22, TACK:57" text="M. Rutsch rush for 5 yards to the FG22 (D. Laporte)." newcontext="V,2,5,V22">
         <p_ru vh="V" name="M. Rutsch" gain="5"/>
         <p_tk vh="H" name="D. Laporte"/>
@@ -837,7 +837,7 @@
       <drivesum plays="5" yards="23" top="3:05" driveindex="16" complete="Y"/>
       <drivestart poss="H,H34,05:50" vh="H" spot="H34" clock="05:50" driveindex="17,117"/>
       <play hasball="HD" down="1" togo="10" spot="HD34" context="H,1,10,H34" playid="17,1,118" clock="05:50" tokens="{DRIVE}:05:50" text="HAMBURG SEA DEVILS drive start at 05:50." newcontext="H,1,10,H34">
-   </play>
+      </play>
       <play hasball="HD" down="1" togo="10" spot="HD34" context="H,1,10,H34" playid="17,2,119" type="R" tokens="RUSH:24,H37, TACK:25" text="X. Johnson rush for 3 yards to the HD37 (B. Barnes)." newcontext="H,2,7,H37">
         <p_ru vh="H" name="X. Johnson" gain="3"/>
         <p_tk vh="V" name="B. Barnes"/>
@@ -921,7 +921,7 @@
     </qtr>
     <qtr number="4" text="4th">
       <play hasball="HD" down="1" togo="0" spot="HD35" context="H,1,0,H35" playid="17,14,131" type="#" clock="15:00" tokens="Q:4 T:15:00" text="Start of 4th quarter, clock 15:00." newcontext="H,1,0,H35">
-   </play>
+      </play>
       <drivesum plays="10" yards="66" top="5:55" driveindex="17" complete="Y"/>
       <play hasball="HD" down="1" togo="0" spot="HD35" context="H,1,0,H35" playid="17,15,132" type="K" tokens="KO:4,V00 RET:84,V18 TACK:18" text="P. Andersen kickoff 65 yards to the FG0, C. Sow return 18 yards to the FG18 (M. Amankwah)." newcontext="V,1,10,V18">
         <p_ko vh="H" name="P. Andersen" gain="65"/>
@@ -930,7 +930,7 @@
       </play>
       <drivestart poss="V,V18,15:00" vh="V" spot="V18" clock="15:00" driveindex="18,132"/>
       <play hasball="FG" down="1" togo="10" spot="FG18" context="V,1,10,V18" playid="18,1,133" clock="14:55" tokens="POSS: {DRIVE}:14:55 SPOT:V,V18,Y" text="Change of possession, FRANKFURT GALAXY drive start at 14:55, FG ball on FG18." newcontext="V,1,10,V18">
-   </play>
+      </play>
       <drivesum plays="0" yards="0" top="0:05" driveindex="18" complete="Y"/>
       <drivestart poss="V,V18,14:55" vh="V" spot="V18" clock="14:55" driveindex="19,133"/>
       <play hasball="FG" down="1" togo="10" spot="FG18" context="V,1,10,V18" playid="19,1,134" type="R" tokens="RUSH:21,V26, TACK:57,52" text="G. Adams rush for 8 yards to the FG26 (D. Laporte;A. Mati)." newcontext="V,2,2,V26">
@@ -1001,7 +1001,7 @@
       </play>
       <drivestart poss="H,H25,07:49" vh="H" spot="H25" clock="07:49" driveindex="20,149"/>
       <play hasball="HD" down="1" togo="10" spot="HD25" context="H,1,10,H25" playid="20,1,150" clock="07:49" tokens="{DRIVE}:07:49" text="HAMBURG SEA DEVILS drive start at 07:49." newcontext="H,1,10,H25">
-   </play>
+      </play>
       <play hasball="HD" down="1" togo="10" spot="HD25" context="H,1,10,H25" playid="20,2,151" type="R" tokens="RUSH:24,H31, TACK:94,14" text="X. Johnson rush for 6 yards to the HD31 (C. Udegbe;J. Poznanski)." newcontext="H,2,4,H31">
         <p_ru vh="H" name="X. Johnson" gain="6"/>
         <p_tk vh="V" name="C. Udegbe" assist="Y"/>
@@ -1033,7 +1033,7 @@
       <drivesum plays="5" yards="10" top="2:48" driveindex="20" complete="Y"/>
       <drivestart poss="V,V04,05:01" vh="V" spot="V04" clock="05:01" driveindex="21,157"/>
       <play hasball="FG" down="1" togo="10" spot="FG04" context="V,1,10,V04" playid="21,1,158" clock="05:01" tokens="{DRIVE}:05:01" text="FRANKFURT GALAXY drive start at 05:01." newcontext="V,1,10,V04">
-   </play>
+      </play>
       <play hasball="FG" down="1" togo="10" spot="FG04" context="V,1,10,V04" playid="21,2,159" type="P" tokens="PASS:7,I,TM,*" text="J. Sullivan pass incomplete." newcontext="V,2,10,V04">
         <p_pa vh="V" qb="J. Sullivan" result="INC"/>
       </play>
@@ -1072,7 +1072,7 @@
       <drivesum plays="6" yards="3" top="2:47" driveindex="21" complete="Y"/>
       <drivestart poss="H,V44,02:14" vh="H" spot="V44" clock="02:14" driveindex="22,168"/>
       <play hasball="HD" down="1" togo="10" spot="FG44" context="H,1,10,V44" playid="22,1,169" clock="02:14" tokens="{DRIVE}:02:14" text="HAMBURG SEA DEVILS drive start at 02:14." newcontext="H,1,10,V44">
-   </play>
+      </play>
       <play hasball="HD" down="1" togo="10" spot="FG44" context="H,1,10,V44" playid="22,2,170" type="R" tokens="RUSH:10,V40, TACK:43,23" text="J. Clark rush for 4 yards to the FG40 (J. Silva Gomez;D. Cooper)." newcontext="H,2,6,V40">
         <p_ru vh="H" name="J. Clark" gain="4"/>
         <p_tk vh="V" name="J. Silva Gomez" assist="Y"/>
@@ -1118,7 +1118,7 @@
       </play>
       <drivestart poss="V,V25,00:02" vh="V" spot="V25" clock="00:02" driveindex="23,180"/>
       <play hasball="FG" down="1" togo="10" spot="FG25" context="V,1,10,V25" playid="23,1,181" clock="00:02" tokens="{DRIVE}:00:02" text="FRANKFURT GALAXY drive start at 00:02." newcontext="V,1,10,V25">
-   </play>
+      </play>
       <play hasball="FG" down="1" togo="10" spot="FG25" context="V,1,10,V25" playid="23,2,182" type="E" tokens="PEN:V,DG,A,7,V20,N" text="PENALTY FG delay of game (J. Sullivan) 5 yards to the FG20." newcontext="V,1,15,V20">
         <p_pn vh="V" code="DG" type="delay of game" name="J. Sullivan" result="ACCEPT" at="V25" yards="5"/>
       </play>
@@ -1130,11 +1130,11 @@
       <drivesum plays="1" yards="-5" top="0:02" driveindex="23" complete="Y"/>
       <drivestart poss="H,V20,00:00" vh="H" spot="V20" clock="00:00" driveindex="24,183"/>
       <play hasball="HD" down="1" togo="10" spot="FG20" context="H,1,10,V20" playid="24,1,184" clock="00:00" tokens="{DRIVE}:00:00" text="HAMBURG SEA DEVILS drive start at 00:00." newcontext="H,1,10,V20">
-   </play>
+      </play>
       <play hasball="HD" down="1" togo="10" spot="FG20" context="H,1,10,V20" playid="24,2,185" type="#" clock="00:00" tokens="T:00:00" text="Clock 00:00." newcontext="H,1,10,V20">
-   </play>
+      </play>
       <play hasball="HD" down="1" togo="10" spot="FG20" context="H,1,10,V20" playid="24,3,186" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of game, clock 00:00." newcontext="H,1,10,V20">
-   </play>
+      </play>
       <drivesum plays="0" yards="0" top="0:00" driveindex="24" complete="Y"/>
       <score final="Y" V="15" H="17"/>
       <endqtr/>
