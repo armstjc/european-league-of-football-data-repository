@@ -58,6 +58,8 @@ def parse_position_names(position: str) -> str:
             return "ILB"
         case "Middle Linebacker":
             return "MLB"
+        case "Defensive Back":
+            return "DB"
         case "Cornerback":
             return "CB"
         case "Safety":

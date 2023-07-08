@@ -9,10 +9,22 @@ from tqdm import tqdm
 from elf_utils import get_csv_in_folder, get_json_in_folder
 
 
-def parse_elf_game_participation(save=False):
+def parse_elf_game_participation(season=0, save=False):
     """
 
     """
+    now = datetime.now()
+    filter_by_season = False
+
+    if season == 0:
+        pass
+    elif season > now.year:
+        raise ValueError(f'`season` cannot be greater than {now.year}.')
+    elif season < 2021:
+        raise ValueError(f'`season` cannot be less than 2021.')
+    else:
+        filter_by_season = True
+
     json_file_list = get_json_in_folder()
     participation_df = pd.DataFrame()
     row_df = pd.DataFrame()
@@ -144,6 +156,9 @@ def parse_elf_game_participation(save=False):
 
     del all_rosters_df
 
+    if filter_by_season == True:
+        participation_df = participation_df.loc[participation_df['season'] == season]
+
     if save == True:
         seasons_arr = participation_df['season'].to_numpy()
         seasons_arr = np.unique(seasons_arr)
@@ -165,4 +180,4 @@ def parse_elf_game_participation(save=False):
 
 
 if __name__ == "__main__":
-    parse_elf_game_participation(True)
+    parse_elf_game_participation(2023, True)

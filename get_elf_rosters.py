@@ -426,7 +426,7 @@ def generate_player_hist_file():
                 pass
             else:
                 season = int(str(i['from']).replace(
-                    '-01', '').replace('-04', '').replace('-09', '').replace('-11', ''))
+                    '-01', '').replace('-04', '').replace('-07', '').replace('-09', '').replace('-11', ''))
                 team = i['team']
 
                 row_df = pd.DataFrame(
