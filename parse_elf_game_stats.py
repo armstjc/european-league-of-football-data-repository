@@ -686,7 +686,11 @@ def parse_elf_game_stats(save=False):
         game_id = json_data['venue']['_attributes']['gameid']
 
         game_date = str(json_data['venue']['_attributes']['date'])
-        game_date = datetime.strptime(game_date, '%m/%d/%Y')
+        try:
+            game_date = datetime.strptime(game_date, '%m/%d/%Y')
+        except:
+            game_date = datetime.strptime(game_date, '%m/%d')
+            game_date = game_date.replace(year=2023)
         game_season = game_date.year
 
         home_id = json_data['venue']['_attributes']['homeid']
