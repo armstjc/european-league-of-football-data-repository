@@ -340,6 +340,8 @@ def get_elf_game_pbp_json(json_filepath: str):
 
     if json_data['plays'] == None:
         return pd.DataFrame()
+    if len(json_data['plays']) < 2:
+        return pd.DataFrame()
 
     for i in json_data['plays']['qtr']:
 

@@ -8,7 +8,8 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-def get_elf_schedule(season_filter= 0, return_all_games=False, save=False):
+
+def get_elf_schedule(season_filter=0, return_all_games=False, save=False):
     print('')
     schedule_url = "https://elf-app-89392.web.app/apiPublic/dump/gamedays?"
     games_url = "https://elf-app-89392.web.app/apiPublic/dump/games?"
@@ -27,7 +28,7 @@ def get_elf_schedule(season_filter= 0, return_all_games=False, save=False):
     elif season_filter > now.year:
         raise ValueError(
             'The input for `season_filter` cannot be greater than the current year.')
-    
+
     print('Getting the list of ELF games.')
     time.sleep(0.5)
 
@@ -45,17 +46,17 @@ def get_elf_schedule(season_filter= 0, return_all_games=False, save=False):
         season = int(value['year'])
         week = int(value['gameDayNumber'])
         week_str = value['displayName']
-        
+
         for game_id in value['gameIds']:
-            row_df = pd.DataFrame({'season':season,'week':week,'week_str':week_str,'game_id':game_id},index=[0])
-            sched_df = pd.concat([sched_df,row_df],ignore_index=True)
-            
+            row_df = pd.DataFrame(
+                {'season': season, 'week': week, 'week_str': week_str, 'game_id': game_id}, index=[0])
+            sched_df = pd.concat([sched_df, row_df], ignore_index=True)
+
             del row_df
 
-        del season,week,week_str
+        del season, week, week_str
 
     print('Getting additional ELF game info.')
-
 
     response = urlopen(games_url)
     json_string = response.read()
@@ -66,14 +67,15 @@ def get_elf_schedule(season_filter= 0, return_all_games=False, save=False):
 
     print('Parsing the additional ELF game info.')
 
-    for (key,value) in tqdm(json_data.items()):
-        row_df = pd.DataFrame({'game_id':key},index=[0])
-        
+    for (key, value) in tqdm(json_data.items()):
+        row_df = pd.DataFrame({'game_id': key}, index=[0])
+
         try:
-            row_df['date'] = datetime.fromtimestamp(value['date']['_seconds']) - timedelta(hours=1)
+            row_df['date'] = datetime.fromtimestamp(
+                value['date']['_seconds']) - timedelta(hours=1)
         except:
             row_df['date'] = None
-
+        row_df['is_cancelled'] = value['isCancelled']
         row_df['away_team_id'] = value['away']['teamId']
         row_df['away_team_slug'] = value['away']['slug']
         row_df['away_team_name'] = value['away']['name']
@@ -92,29 +94,31 @@ def get_elf_schedule(season_filter= 0, return_all_games=False, save=False):
         row_df['stats_crew_game_id'] = value['statsCrewGameId']
         row_df['old_game_id'] = value['slug']
 
-        game_info_df = pd.concat([game_info_df,row_df],ignore_index=True)
-    
+        game_info_df = pd.concat([game_info_df, row_df], ignore_index=True)
+
         del row_df
 
-    finished_df = pd.merge(sched_df,game_info_df,left_on=['game_id'],right_on=['game_id'],how='left')
+    finished_df = pd.merge(sched_df, game_info_df, left_on=[
+                           'game_id'], right_on=['game_id'], how='left')
 
     del sched_df, game_info_df
 
     if return_all_games == False:
         finished_df = finished_df.loc[finished_df['season'] == season_filter]
-    
+
     if save == True:
         print('Saving off ELF schedule data.')
         season_arr = finished_df['season'].to_numpy()
         season_arr = np.unique(season_arr)
         for s in tqdm(season_arr):
-            season_df = finished_df.loc[finished_df['season']== s]
-            season_df.to_csv(f'schedule/{s}_elf_schedule.csv',index=False)
+            season_df = finished_df.loc[finished_df['season'] == s]
+            season_df.to_csv(f'schedule/{s}_elf_schedule.csv', index=False)
             # season_df.to_parquet(f'schedule/{s}_elf_schedule.parquet',index=False)
 
         del season_arr
 
     return finished_df
+
 
 def dep_get_elf_schedule(season: int, week=0, save=False):
     """
@@ -123,7 +127,8 @@ def dep_get_elf_schedule(season: int, week=0, save=False):
     Retrives the current European League of Football (ELF) 
     schedule for a given ELF season.
     """
-    raise DeprecationWarning('Due to a sudden, unexpected redesign of the ELF website, this function no longer works as intended. Use `get_elf_schedule()` instead.')
+    raise DeprecationWarning(
+        'Due to a sudden, unexpected redesign of the ELF website, this function no longer works as intended. Use `get_elf_schedule()` instead.')
     now = datetime.now()
     row_df = pd.DataFrame()
     sched_df = pd.DataFrame()
@@ -170,7 +175,7 @@ def dep_get_elf_schedule(season: int, week=0, save=False):
             row_df['is_game_finished'] = j.find(
                 'div', {'class': 'w-embed', 'fs-cmsfilter-field': 'game-over'}).text
             game_date = j.find('h4', {'class': 'g-subheading is-date',
-                                'fs-cmssort-field': 'game-date', 'fs-cmssort-type': 'date'}).text
+                                      'fs-cmssort-field': 'game-date', 'fs-cmssort-type': 'date'}).text
             game_time = j.find_all('h4', {'class': 'g-subheading'})[3].text
             game_time_zone = j.find_all(
                 'h4', {'class': 'g-subheading'})[4].text
@@ -188,9 +193,9 @@ def dep_get_elf_schedule(season: int, week=0, save=False):
             del gdt, game_time, game_time_zone
 
             row_df['away_team'] = str(j.find(
-                'div', {'class': 'g-team-name-wrap is-left'}).find('h4').text).replace('FehÃ©rvÃ¡r','Fehervar').replace('FEHÉRVÁR','Fehervar')
+                'div', {'class': 'g-team-name-wrap is-left'}).find('h4').text).replace('FehÃ©rvÃ¡r', 'Fehervar').replace('FEHÉRVÁR', 'Fehervar')
             row_df['home_team'] = str(j.find(
-                'div', {'class': 'g-team-name-wrap is-right'}).find('h4').text).replace('FehÃ©rvÃ¡r','Fehervar').replace('FEHÉRVÁR','Fehervar')
+                'div', {'class': 'g-team-name-wrap is-right'}).find('h4').text).replace('FehÃ©rvÃ¡r', 'Fehervar').replace('FEHÉRVÁR', 'Fehervar')
 
             scores = j.find_all(
                 'div', {'class': 'g-score is-real'})
@@ -213,8 +218,8 @@ def dep_get_elf_schedule(season: int, week=0, save=False):
         else:
             pass
 
-    ## DEPRICATED
-    ## Reason: New website behaves difreriently. 
+    # DEPRICATED
+    # Reason: New website behaves difreriently.
     # for i in range(1, 4):
     #     normal_url = f"https://europeanleague.football/schedule?92075007_page={i}"
     #     time.sleep(0.5)
@@ -284,8 +289,6 @@ def dep_get_elf_schedule(season: int, week=0, save=False):
 
     #         else:
     #             pass
-
-
 
     if save == True:
         sched_df.to_csv(f'schedule/csv/{season}_elf_schedule.csv', index=False)
