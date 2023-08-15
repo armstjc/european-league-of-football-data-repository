@@ -1,0 +1,4743 @@
+{
+  "venue": {
+    "_attributes": {
+      "gameid": "CCFG2311",
+      "visid": "FG",
+      "homeid": "CC",
+      "visname": "Frankfurt Galaxy",
+      "homename": "Cologne Centurions",
+      "date": "8/12/2023",
+      "location": "Cologne",
+      "stadium": "Suedstadion",
+      "start": "17:00",
+      "end": "20:11",
+      "leaguegame": "Y",
+      "duration": "3:11",
+      "attend": "0",
+      "temp": "23C",
+      "wind": "14kmh",
+      "weather": "rainy"
+    },
+    "officials": {
+      "_attributes": {
+        "ref": "G. Udvardi",
+        "ump": "M. Kattillus",
+        "line": "A. Eriksen",
+        "lj": "I. Lazic",
+        "bj": "C. Ehmer",
+        "fj": "G. Evers",
+        "sj": "P. Haakon"
+      }
+    },
+    "notes": {
+      "note": [
+        {
+          "_attributes": {
+            "text": "Review Official: D. Schweickhardt"
+          }
+        },
+        {
+          "_attributes": {
+            "text": "Clock Operator: P. Mercer"
+          }
+        },
+        {
+          "_attributes": {
+            "text": "Head of Statistics: P. van den Moortel"
+          }
+        }
+      ]
+    },
+    "rules": {
+      "_attributes": {
+        "qtrs": "4",
+        "mins": "15",
+        "downs": "4",
+        "yds": "10",
+        "kospot": "30",
+        "tbspot": "20",
+        "kotbspot": "30",
+        "patspot": "15",
+        "safspot": "30",
+        "td": "6",
+        "fg": "3",
+        "pat": "1",
+        "patx": "2",
+        "saf": "2",
+        "defpat": "2",
+        "rouge": "1",
+        "field": "100",
+        "toh": "3",
+        "sackrush": "N",
+        "fgaplay": "Y",
+        "netpunttb": "Y"
+      }
+    }
+  },
+  "fgas": {
+    "fga": [
+      {
+        "_attributes": {
+          "vh": "H",
+          "team": "CC",
+          "kicker": "J. Appelt",
+          "qtr": "1",
+          "clock": "09:35",
+          "distance": "30",
+          "result": "good"
+        }
+      },
+      {
+        "_attributes": {
+          "vh": "V",
+          "team": "FG",
+          "kicker": "R. Rimmler",
+          "qtr": "1",
+          "clock": "04:45",
+          "distance": "41",
+          "result": "good"
+        }
+      },
+      {
+        "_attributes": {
+          "vh": "H",
+          "team": "CC",
+          "kicker": "J. Appelt",
+          "qtr": "2",
+          "clock": "02:51",
+          "distance": "35",
+          "result": "blkd"
+        }
+      },
+      {
+        "_attributes": {
+          "vh": "V",
+          "team": "FG",
+          "kicker": "R. Rimmler",
+          "qtr": "3",
+          "clock": "03:58",
+          "distance": "37",
+          "result": "good"
+        }
+      },
+      {
+        "_attributes": {
+          "vh": "V",
+          "team": "FG",
+          "kicker": "R. Rimmler",
+          "qtr": "4",
+          "clock": "02:58",
+          "distance": "39",
+          "result": "good"
+        }
+      }
+    ]
+  },
+  "plays": {
+    "_attributes": {
+      "hasball": "H",
+      "id": "CC",
+      "down": "1",
+      "togo": "10",
+      "spot": "FG25",
+      "context": "H,1,10,V25",
+      "qtr": "4",
+      "clock": "00:00",
+      "vtoh": "3",
+      "htoh": "3",
+      "lastplay": "End of game, clock 00:00."
+    }
+  },
+  "visitor_players": [
+    {
+      "_attributes": {
+        "name": "R. Rimmler",
+        "shortname": "R. Rimmler",
+        "checkname": "RIMMLER,R",
+        "uni": "1",
+        "class": "SR",
+        "gp": "1",
+        "code": "1"
+      },
+      "ko": {
+        "_attributes": {
+          "no": "6",
+          "yds": "399",
+          "ob": "1",
+          "tb": "1"
+        }
+      },
+      "fg": {
+        "_attributes": {
+          "made": "3",
+          "att": "3",
+          "long": "41",
+          "blkd": "0"
+        }
+      },
+      "pat": {
+        "_attributes": {
+          "kickatt": "2",
+          "kickmade": "1"
+        }
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1"
+        }
+      },
+      "scoring": {
+        "_attributes": {
+          "fg": "3",
+          "patkick": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "T. Anderson",
+        "shortname": "T. Anderson",
+        "checkname": "ANDERSON,T",
+        "uni": "4",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "SS",
+        "code": "4"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "2",
+          "tacka": "2",
+          "tot_tack": "4",
+          "brup": "2",
+          "int": "1",
+          "intyds": "0"
+        }
+      },
+      "ir": {
+        "_attributes": {
+          "no": "1",
+          "yds": "0",
+          "td": "0",
+          "long": "0"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Liggins",
+        "shortname": "J. Liggins",
+        "checkname": "LIGGINS,J",
+        "uni": "5",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "CB",
+        "code": "5"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "4",
+          "tacka": "1",
+          "tot_tack": "5",
+          "brup": "3",
+          "int": "1",
+          "intyds": "51"
+        }
+      },
+      "ir": {
+        "_attributes": {
+          "no": "1",
+          "yds": "51",
+          "td": "1",
+          "long": "51"
+        }
+      },
+      "scoring": {
+        "_attributes": {
+          "td": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "L. Heidrich",
+        "shortname": "L. Heidrich",
+        "checkname": "HEIDRICH,L",
+        "uni": "6",
+        "class": "SR",
+        "gp": "1",
+        "code": "6"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "5",
+          "yds": "12",
+          "gain": "12",
+          "loss": "0",
+          "td": "0",
+          "long": "8"
+        }
+      },
+      "pass": {
+        "_attributes": {
+          "comp": "17",
+          "att": "31",
+          "int": "2",
+          "yds": "170",
+          "td": "1",
+          "long": "34",
+          "sacks": "2",
+          "sackyds": "17"
+        }
+      },
+      "fumbles": {
+        "_attributes": {
+          "no": "2",
+          "lost": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Konya",
+        "shortname": "M. Konya",
+        "checkname": "KONYA,M",
+        "uni": "8",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "DT",
+        "code": "8"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "2",
+          "tacka": "3",
+          "tot_tack": "5",
+          "tflua": "0",
+          "tfla": "1",
+          "tflyds": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "D. Lynch",
+        "shortname": "D. Lynch",
+        "checkname": "LYNCH,D",
+        "uni": "9",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "CB",
+        "code": "9"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "3",
+          "tacka": "2",
+          "tot_tack": "5"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "No. Schumm",
+        "shortname": "No. Schumm",
+        "checkname": "SCHUMM,NO",
+        "uni": "11",
+        "class": "SR",
+        "gp": "1",
+        "code": "11"
+      },
+      "kr": {
+        "_attributes": {
+          "no": "2",
+          "yds": "31",
+          "td": "0",
+          "long": "22"
+        }
+      },
+      "pr": {
+        "_attributes": {
+          "no": "1",
+          "yds": "17",
+          "td": "0",
+          "long": "17"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Poznanski",
+        "shortname": "J. Poznanski",
+        "checkname": "POZNANSKI,J",
+        "uni": "14",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "SS",
+        "code": "14"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "N. Schumm",
+        "shortname": "N. Schumm",
+        "checkname": "SCHUMM,N",
+        "uni": "16",
+        "class": "SR",
+        "gp": "1",
+        "code": "16"
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "1",
+          "yds": "15",
+          "td": "0",
+          "long": "15"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "R. Horn",
+        "shortname": "R. Horn",
+        "checkname": "HORN,R",
+        "uni": "17",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "WR",
+        "code": "17"
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "7",
+          "yds": "87",
+          "td": "0",
+          "long": "34"
+        }
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "N. Strahmann",
+        "shortname": "N. Strahmann",
+        "checkname": "STRAHMANN,N",
+        "uni": "19",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "WR",
+        "code": "19"
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "3",
+          "yds": "24",
+          "td": "0",
+          "long": "13"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "N. Kaufman",
+        "shortname": "N. Kaufman",
+        "checkname": "KAUFMAN,N",
+        "uni": "20",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "RB",
+        "code": "20"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "6",
+          "yds": "41",
+          "gain": "42",
+          "loss": "1",
+          "td": "0",
+          "long": "16"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "L. Achaintre",
+        "shortname": "L. Achaintre",
+        "checkname": "ACHAINTRE,L",
+        "uni": "22",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
+        "code": "22"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "1",
+          "yds": "3",
+          "gain": "3",
+          "loss": "0",
+          "td": "0",
+          "long": "3"
+        }
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "3",
+          "tacka": "3",
+          "tot_tack": "6",
+          "tflua": "1",
+          "tfla": "0",
+          "tflyds": "2"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "K. Ben El Ghali",
+        "shortname": "K. Ben El Ghali",
+        "checkname": "GHALI,K BEN EL",
+        "uni": "24",
+        "class": "SR",
+        "gp": "1",
+        "code": "24"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Boehmann",
+        "shortname": "J. Boehmann",
+        "checkname": "BOEHMANN,J",
+        "uni": "25",
+        "class": "SR",
+        "gp": "1",
+        "code": "25"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "4",
+          "yds": "5",
+          "gain": "7",
+          "loss": "2",
+          "td": "0",
+          "long": "7"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "C. Schmitt",
+        "shortname": "C. Schmitt",
+        "checkname": "SCHMITT,C",
+        "uni": "28",
+        "class": "SR",
+        "gp": "1",
+        "code": "28"
+      },
+      "defense": {
+        "_attributes": {
+          "blkd": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "F. Reuter",
+        "shortname": "F. Reuter",
+        "checkname": "REUTER,F",
+        "uni": "30",
+        "class": "SR",
+        "gp": "1",
+        "code": "30"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "S. Brand",
+        "shortname": "S. Brand",
+        "checkname": "BRAND,S",
+        "uni": "38",
+        "class": "SR",
+        "gp": "1",
+        "code": "38"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "0",
+          "tacka": "1",
+          "tot_tack": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "S. Gauthier",
+        "shortname": "S. Gauthier",
+        "checkname": "GAUTHIER,S",
+        "uni": "41",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
+        "code": "41"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "5",
+          "tacka": "3",
+          "tot_tack": "8",
+          "tflua": "1",
+          "tfla": "0",
+          "tflyds": "2"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "L. Helm",
+        "shortname": "L. Helm",
+        "checkname": "HELM,L",
+        "uni": "44",
+        "class": "SR",
+        "gp": "1",
+        "code": "44"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "7",
+          "yds": "43",
+          "gain": "43",
+          "loss": "0",
+          "td": "0",
+          "long": "18"
+        }
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "1",
+          "yds": "3",
+          "td": "0",
+          "long": "3"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "S. Gabriel",
+        "shortname": "S. Gabriel",
+        "checkname": "GABRIEL,S",
+        "uni": "45",
+        "class": "SR",
+        "gp": "1",
+        "code": "45"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Mackeben",
+        "shortname": "J. Mackeben",
+        "checkname": "MACKEBEN,J",
+        "uni": "51",
+        "class": "SR",
+        "gp": "1",
+        "code": "51"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "W. Nasri",
+        "shortname": "W. Nasri",
+        "checkname": "NASRI,W",
+        "uni": "52",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
+        "code": "52"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "2",
+          "tacka": "1",
+          "tot_tack": "3",
+          "tflua": "1",
+          "tfla": "0",
+          "tflyds": "11",
+          "sackua": "1",
+          "sacka": "0",
+          "sackyds": "11"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "D. Josiah",
+        "shortname": "D. Josiah",
+        "checkname": "JOSIAH,D",
+        "uni": "53",
+        "class": "SR",
+        "gp": "1",
+        "code": "53"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "1",
+          "tot_tack": "2"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "K. Brauns",
+        "shortname": "K. Brauns",
+        "checkname": "BRAUNS,K",
+        "uni": "54",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "DE",
+        "code": "54"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "1",
+          "tot_tack": "2"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "S. Silva Gomez",
+        "shortname": "S. Silva Gomez",
+        "checkname": "GOMEZ,S SILVA",
+        "uni": "56",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
+        "code": "56"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "6",
+          "tacka": "3",
+          "tot_tack": "9",
+          "tflua": "2",
+          "tfla": "0",
+          "tflyds": "8",
+          "sackua": "1",
+          "sacka": "0",
+          "sackyds": "4"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "A. Williams",
+        "shortname": "A. Williams",
+        "checkname": "WILLIAMS,A",
+        "uni": "58",
+        "class": "SR",
+        "gp": "1",
+        "code": "58"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "K. Timpel",
+        "shortname": "K. Timpel",
+        "checkname": "TIMPEL,K",
+        "uni": "62",
+        "class": "SR",
+        "gp": "1",
+        "code": "62"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "Mo. Schmidt",
+        "shortname": "Mo. Schmidt",
+        "checkname": "SCHMIDT,MO",
+        "uni": "64",
+        "class": "SR",
+        "gp": "1",
+        "code": "64"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "O. Landstr\u00f6m",
+        "shortname": "O. Landstr\u00f6m",
+        "checkname": "LANDSTR\u00f6M,O",
+        "uni": "67",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "C",
+        "code": "67"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "F. Atunlese",
+        "shortname": "F. Atunlese",
+        "checkname": "ATUNLESE,F",
+        "uni": "71",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OG",
+        "code": "71"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Bencek",
+        "shortname": "M. Bencek",
+        "checkname": "BENCEK,M",
+        "uni": "72",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OT",
+        "code": "72"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "S. Fischer",
+        "shortname": "S. Fischer",
+        "checkname": "FISCHER,S",
+        "uni": "74",
+        "class": "SR",
+        "gp": "1",
+        "code": "74"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "N. Hampel",
+        "shortname": "N. Hampel",
+        "checkname": "HAMPEL,N",
+        "uni": "76",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OG",
+        "code": "76"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "T. Hirsch",
+        "shortname": "T. Hirsch",
+        "checkname": "HIRSCH,T",
+        "uni": "78",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OG",
+        "code": "78"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "H. Schwarz",
+        "shortname": "H. Schwarz",
+        "checkname": "SCHWARZ,H",
+        "uni": "82",
+        "class": "SR",
+        "gp": "1",
+        "code": "82"
+      },
+      "punt": {
+        "_attributes": {
+          "no": "4",
+          "yds": "167",
+          "long": "42",
+          "blkd": "0",
+          "tb": "0",
+          "fc": "1",
+          "plus50": "0",
+          "inside20": "1",
+          "avg": "41.8"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "Z. Bendjabou",
+        "shortname": "Z. Bendjabou",
+        "checkname": "BENDJABOU,Z",
+        "uni": "83",
+        "class": "SR",
+        "gp": "1",
+        "code": "83"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Hachenberg",
+        "shortname": "M. Hachenberg",
+        "checkname": "HACHENBERG,M",
+        "uni": "85",
+        "class": "SR",
+        "gp": "1",
+        "code": "85"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "L. Regler",
+        "shortname": "L. Regler",
+        "checkname": "REGLER,L",
+        "uni": "86",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "WR",
+        "code": "86"
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "1",
+          "yds": "10",
+          "td": "0",
+          "long": "10"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "K. Mwamba",
+        "shortname": "K. Mwamba",
+        "checkname": "MWAMBA,K",
+        "uni": "87",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "TE",
+        "code": "87"
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "4",
+          "yds": "31",
+          "td": "1",
+          "long": "15"
+        }
+      },
+      "scoring": {
+        "_attributes": {
+          "td": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. A. Hor",
+        "shortname": "M. A. Hor",
+        "checkname": "HOR,M A",
+        "uni": "90",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "DT",
+        "code": "90"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "1",
+          "tot_tack": "2"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Djeri",
+        "shortname": "M. Djeri",
+        "checkname": "DJERI,M",
+        "uni": "91",
+        "class": "SR",
+        "gp": "1",
+        "code": "91"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "0",
+          "tacka": "1",
+          "tot_tack": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "F. Mousel",
+        "shortname": "F. Mousel",
+        "checkname": "MOUSEL,F",
+        "uni": "92",
+        "class": "SR",
+        "gp": "1",
+        "code": "92"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "S. Rieger",
+        "shortname": "S. Rieger",
+        "checkname": "RIEGER,S",
+        "uni": "97",
+        "class": "SR",
+        "gp": "1",
+        "code": "97"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "K. Giede",
+        "shortname": "K. Giede",
+        "checkname": "GIEDE,K",
+        "uni": "98",
+        "class": "SR",
+        "gp": "1",
+        "code": "98"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "0",
+          "tacka": "1",
+          "tot_tack": "1",
+          "tflua": "0",
+          "tfla": "1",
+          "tflyds": "0"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "Team",
+        "shortname": "Team",
+        "checkname": "TEAM",
+        "uni": "TM",
+        "class": "FR",
+        "gp": "1",
+        "code": "198"
+      },
+      "pass": {
+        "_attributes": {
+          "comp": "0",
+          "att": "0",
+          "int": "0",
+          "yds": "-17",
+          "td": "0",
+          "long": "0",
+          "sacks": "0",
+          "sackyds": "0"
+        }
+      },
+      "fumbles": {
+        "_attributes": {
+          "no": "1",
+          "lost": "1"
+        }
+      }
+    }
+  ],
+  "visitor_linescore": {
+    "_attributes": {
+      "prds": "4",
+      "line": "3,7,9,3",
+      "score": "22"
+    },
+    "lineprd": [
+      {
+        "_attributes": {
+          "prd": "1",
+          "score": "3"
+        }
+      },
+      {
+        "_attributes": {
+          "prd": "2",
+          "score": "7"
+        }
+      },
+      {
+        "_attributes": {
+          "prd": "3",
+          "score": "9"
+        }
+      },
+      {
+        "_attributes": {
+          "prd": "4",
+          "score": "3"
+        }
+      }
+    ]
+  },
+  "visitor_totals": {
+    "_attributes": {
+      "totoff_plays": "56",
+      "totoff_yards": "257",
+      "totoff_avg": "4.6"
+    },
+    "firstdowns": {
+      "_attributes": {
+        "no": "16",
+        "rush": "4",
+        "pass": "8",
+        "penalty": "4"
+      }
+    },
+    "penalties": {
+      "_attributes": {
+        "no": "12",
+        "yds": "120"
+      }
+    },
+    "conversions": {
+      "_attributes": {
+        "thirdconv": "3",
+        "thirdatt": "12",
+        "fourthconv": "0",
+        "fourthatt": "0"
+      }
+    },
+    "fumbles": {
+      "_attributes": {
+        "no": "3",
+        "lost": "2"
+      }
+    },
+    "misc": {
+      "_attributes": {
+        "yds": "-18",
+        "top": "30:42",
+        "ona": "0",
+        "onm": "0",
+        "ptsto": "6"
+      }
+    },
+    "redzone": {
+      "_attributes": {
+        "att": "1",
+        "scores": "1",
+        "points": "7",
+        "tdrush": "0",
+        "tdpass": "1",
+        "fgmade": "0",
+        "endfga": "0",
+        "enddowns": "0",
+        "endint": "0",
+        "endfumb": "0",
+        "endhalf": "0",
+        "endgame": "0"
+      }
+    },
+    "rush": {
+      "_attributes": {
+        "att": "23",
+        "yds": "104",
+        "gain": "107",
+        "loss": "3",
+        "td": "0",
+        "long": "18"
+      }
+    },
+    "pass": {
+      "_attributes": {
+        "comp": "17",
+        "att": "31",
+        "int": "2",
+        "yds": "153",
+        "td": "1",
+        "long": "34",
+        "sacks": "2",
+        "sackyds": "17"
+      }
+    },
+    "rcv": {
+      "_attributes": {
+        "no": "17",
+        "yds": "170",
+        "td": "1",
+        "long": "34"
+      }
+    },
+    "punt": {
+      "_attributes": {
+        "no": "4",
+        "yds": "167",
+        "long": "42",
+        "blkd": "0",
+        "tb": "0",
+        "fc": "1",
+        "plus50": "0",
+        "inside20": "1",
+        "avg": "41.8"
+      }
+    },
+    "ko": {
+      "_attributes": {
+        "no": "6",
+        "yds": "399",
+        "ob": "1",
+        "tb": "1",
+        "fcyds": "0"
+      }
+    },
+    "fg": {
+      "_attributes": {
+        "made": "3",
+        "att": "3",
+        "long": "41",
+        "blkd": "0"
+      }
+    },
+    "pat": {
+      "_attributes": {
+        "kickatt": "2",
+        "kickmade": "1"
+      }
+    },
+    "defense": {
+      "_attributes": {
+        "tackua": "36",
+        "tacka": "24",
+        "tot_tack": "60",
+        "tflua": "5",
+        "tfla": "2",
+        "tflyds": "24",
+        "sacks": "2",
+        "sackyds": "15",
+        "brup": "5",
+        "blkd": "1",
+        "int": "2",
+        "intyds": "51"
+      }
+    },
+    "kr": {
+      "_attributes": {
+        "no": "2",
+        "yds": "31",
+        "td": "0",
+        "long": "22"
+      }
+    },
+    "pr": {
+      "_attributes": {
+        "no": "1",
+        "yds": "17",
+        "td": "0",
+        "long": "17"
+      }
+    },
+    "ir": {
+      "_attributes": {
+        "no": "2",
+        "yds": "51",
+        "td": "1",
+        "long": "51"
+      }
+    },
+    "scoring": {
+      "_attributes": {
+        "td": "2",
+        "fg": "3",
+        "patkick": "1"
+      }
+    }
+  },
+  "home": {
+    "_attributes": {
+      "vh": "H",
+      "code": "",
+      "id": "CC",
+      "name": "Cologne Centurions",
+      "record": "2-7",
+      "abb": "C"
+    },
+    "linescore": {
+      "_attributes": {
+        "prds": "4",
+        "line": "3,0,0,6",
+        "score": "9"
+      },
+      "lineprd": [
+        {
+          "_attributes": {
+            "prd": "1",
+            "score": "3"
+          }
+        },
+        {
+          "_attributes": {
+            "prd": "2",
+            "score": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "prd": "3",
+            "score": "0"
+          }
+        },
+        {
+          "_attributes": {
+            "prd": "4",
+            "score": "6"
+          }
+        }
+      ]
+    },
+    "totals": {
+      "_attributes": {
+        "totoff_plays": "64",
+        "totoff_yards": "219",
+        "totoff_avg": "3.4"
+      },
+      "firstdowns": {
+        "_attributes": {
+          "no": "15",
+          "rush": "2",
+          "pass": "10",
+          "penalty": "3"
+        }
+      },
+      "penalties": {
+        "_attributes": {
+          "no": "9",
+          "yds": "121"
+        }
+      },
+      "conversions": {
+        "_attributes": {
+          "thirdconv": "1",
+          "thirdatt": "13",
+          "fourthconv": "0",
+          "fourthatt": "4"
+        }
+      },
+      "fumbles": {
+        "_attributes": {
+          "no": "0",
+          "lost": "0"
+        }
+      },
+      "misc": {
+        "_attributes": {
+          "yds": "0",
+          "top": "29:18",
+          "ona": "0",
+          "onm": "0",
+          "ptsto": "9"
+        }
+      },
+      "redzone": {
+        "_attributes": {
+          "att": "2",
+          "scores": "1",
+          "points": "3",
+          "tdrush": "0",
+          "tdpass": "0",
+          "fgmade": "1",
+          "endfga": "1",
+          "enddowns": "0",
+          "endint": "0",
+          "endfumb": "0",
+          "endhalf": "0",
+          "endgame": "0"
+        }
+      },
+      "rush": {
+        "_attributes": {
+          "att": "19",
+          "yds": "43",
+          "gain": "52",
+          "loss": "9",
+          "td": "0",
+          "long": "11"
+        }
+      },
+      "pass": {
+        "_attributes": {
+          "comp": "27",
+          "att": "43",
+          "int": "2",
+          "yds": "176",
+          "td": "0",
+          "long": "33",
+          "sacks": "2",
+          "sackyds": "15"
+        }
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "27",
+          "yds": "191",
+          "td": "0",
+          "long": "33"
+        }
+      },
+      "punt": {
+        "_attributes": {
+          "no": "4",
+          "yds": "173",
+          "long": "54",
+          "blkd": "0",
+          "tb": "0",
+          "fc": "0",
+          "plus50": "1",
+          "inside20": "0",
+          "avg": "43.2"
+        }
+      },
+      "ko": {
+        "_attributes": {
+          "no": "3",
+          "yds": "198",
+          "ob": "0",
+          "tb": "1",
+          "fcyds": "0"
+        }
+      },
+      "fg": {
+        "_attributes": {
+          "made": "1",
+          "att": "2",
+          "long": "30",
+          "blkd": "1"
+        }
+      },
+      "pat": {
+        "_attributes": {
+          "passatt": "1",
+          "passmade": "0"
+        }
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "32",
+          "tacka": "6",
+          "tot_tack": "38",
+          "tflua": "4",
+          "tfla": "0",
+          "tflyds": "9",
+          "sacks": "2",
+          "sackyds": "17",
+          "brup": "4",
+          "ff": "1",
+          "fr": "2",
+          "fryds": "0",
+          "int": "2",
+          "intyds": "70"
+        }
+      },
+      "kr": {
+        "_attributes": {
+          "no": "4",
+          "yds": "117",
+          "td": "0",
+          "long": "40"
+        }
+      },
+      "pr": {
+        "_attributes": {
+          "no": "1",
+          "yds": "11",
+          "td": "0",
+          "long": "11"
+        }
+      },
+      "ir": {
+        "_attributes": {
+          "no": "2",
+          "yds": "70",
+          "td": "1",
+          "long": "70"
+        }
+      },
+      "scoring": {
+        "_attributes": {
+          "td": "1",
+          "fg": "1"
+        }
+      }
+    },
+    "player": [
+      {
+        "_attributes": {
+          "name": "D. Owens",
+          "shortname": "D. Owens",
+          "checkname": "OWENS,D",
+          "uni": "1",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "CB",
+          "code": "1"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1",
+            "int": "1",
+            "intyds": "0"
+          }
+        },
+        "ir": {
+          "_attributes": {
+            "no": "1",
+            "yds": "0",
+            "td": "0",
+            "long": "0"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "D. Schuhmacher",
+          "shortname": "D. Schuhmacher",
+          "checkname": "SCHUHMACHER,D",
+          "uni": "2",
+          "class": "SR",
+          "gp": "1",
+          "code": "2"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "C. Walrond",
+          "shortname": "C. Walrond",
+          "checkname": "WALROND,C",
+          "uni": "3",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "SS",
+          "code": "3"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "4",
+            "tacka": "1",
+            "tot_tack": "5",
+            "brup": "1",
+            "fr": "1",
+            "fryds": "0"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "P. Lenhardt",
+          "shortname": "P. Lenhardt",
+          "checkname": "LENHARDT,P",
+          "uni": "5",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "WR",
+          "code": "5"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "1",
+            "yds": "-2",
+            "gain": "0",
+            "loss": "2",
+            "td": "0",
+            "long": "0"
+          }
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "6",
+            "yds": "78",
+            "td": "0",
+            "long": "33"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "T. Robinson",
+          "shortname": "T. Robinson",
+          "checkname": "ROBINSON,T",
+          "uni": "6",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "WR",
+          "code": "6"
+        },
+        "pass": {
+          "_attributes": {
+            "comp": "0",
+            "att": "1",
+            "int": "0",
+            "yds": "0",
+            "td": "0",
+            "long": "0",
+            "sacks": "0",
+            "sackyds": "0"
+          }
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "3",
+            "yds": "24",
+            "td": "0",
+            "long": "11"
+          }
+        },
+        "pr": {
+          "_attributes": {
+            "no": "1",
+            "yds": "11",
+            "td": "0",
+            "long": "11"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "Al. Frisch",
+          "shortname": "Al. Frisch",
+          "checkname": "FRISCH,AL",
+          "uni": "7",
+          "class": "SR",
+          "gp": "1",
+          "code": "7"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "D. Tanwani",
+          "shortname": "D. Tanwani",
+          "checkname": "TANWANI,D",
+          "uni": "8",
+          "class": "SR",
+          "gp": "1",
+          "code": "8"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "C. Erickson",
+          "shortname": "C. Erickson",
+          "checkname": "ERICKSON,C",
+          "uni": "9",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "QB",
+          "code": "9"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "3",
+            "yds": "-4",
+            "gain": "1",
+            "loss": "5",
+            "td": "0",
+            "long": "1"
+          }
+        },
+        "pass": {
+          "_attributes": {
+            "comp": "27",
+            "att": "42",
+            "int": "2",
+            "yds": "191",
+            "td": "0",
+            "long": "33",
+            "sacks": "2",
+            "sackyds": "15"
+          }
+        },
+        "pat": {
+          "_attributes": {
+            "passatt": "1",
+            "passmade": "0"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Siemssen",
+          "shortname": "M. Siemssen",
+          "checkname": "SIEMSSEN,M",
+          "uni": "13",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "WR",
+          "code": "13"
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "4",
+            "yds": "25",
+            "td": "0",
+            "long": "10"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "R. Akhlaghi",
+          "shortname": "R. Akhlaghi",
+          "checkname": "AKHLAGHI,R",
+          "uni": "14",
+          "class": "SR",
+          "gp": "1",
+          "code": "14"
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "3",
+            "yds": "12",
+            "td": "0",
+            "long": "11"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Appelt",
+          "shortname": "J. Appelt",
+          "checkname": "APPELT,J",
+          "uni": "15",
+          "class": "SR",
+          "gp": "1",
+          "code": "15"
+        },
+        "punt": {
+          "_attributes": {
+            "no": "4",
+            "yds": "173",
+            "long": "54",
+            "blkd": "0",
+            "tb": "0",
+            "fc": "0",
+            "plus50": "1",
+            "inside20": "0",
+            "avg": "43.2"
+          }
+        },
+        "ko": {
+          "_attributes": {
+            "no": "3",
+            "yds": "198",
+            "ob": "0",
+            "tb": "1"
+          }
+        },
+        "fg": {
+          "_attributes": {
+            "made": "1",
+            "att": "2",
+            "long": "30",
+            "blkd": "1"
+          }
+        },
+        "scoring": {
+          "_attributes": {
+            "fg": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Ofosuhene",
+          "shortname": "M. Ofosuhene",
+          "checkname": "OFOSUHENE,M",
+          "uni": "17",
+          "class": "SR",
+          "gp": "1",
+          "code": "17"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1",
+            "brup": "2"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "B. Bofenda",
+          "shortname": "B. Bofenda",
+          "checkname": "BOFENDA,B",
+          "uni": "18",
+          "class": "SR",
+          "gp": "1",
+          "code": "18"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "G. Ameln",
+          "shortname": "G. Ameln",
+          "checkname": "AMELN,G",
+          "uni": "20",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "RB",
+          "code": "20"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "8",
+            "yds": "29",
+            "gain": "29",
+            "loss": "0",
+            "td": "0",
+            "long": "11"
+          }
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "3",
+            "yds": "7",
+            "td": "0",
+            "long": "5"
+          }
+        },
+        "kr": {
+          "_attributes": {
+            "no": "4",
+            "yds": "117",
+            "td": "0",
+            "long": "40"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "T. Kleinmann",
+          "shortname": "T. Kleinmann",
+          "checkname": "KLEINMANN,T",
+          "uni": "21",
+          "class": "SR",
+          "gp": "1",
+          "code": "21"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "1",
+            "tot_tack": "2"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "A. Frisch",
+          "shortname": "A. Frisch",
+          "checkname": "FRISCH,A",
+          "uni": "22",
+          "class": "SR",
+          "gp": "1",
+          "code": "22"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "6",
+            "yds": "14",
+            "gain": "16",
+            "loss": "2",
+            "td": "0",
+            "long": "6"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "R. Junior",
+          "shortname": "R. Junior",
+          "checkname": "JUNIOR,R",
+          "uni": "24",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "FS",
+          "code": "24"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "0",
+            "tacka": "1",
+            "tot_tack": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Muntu",
+          "shortname": "M. Muntu",
+          "checkname": "MUNTU,M",
+          "uni": "25",
+          "class": "SR",
+          "gp": "1",
+          "code": "25"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Riepe",
+          "shortname": "M. Riepe",
+          "checkname": "RIEPE,M",
+          "uni": "26",
+          "class": "SR",
+          "gp": "1",
+          "code": "26"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "D. Adom",
+          "shortname": "D. Adom",
+          "checkname": "ADOM,D",
+          "uni": "27",
+          "class": "SR",
+          "gp": "1",
+          "code": "27"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Banjaqui",
+          "shortname": "M. Banjaqui",
+          "checkname": "BANJAQUI,M",
+          "uni": "30",
+          "class": "SR",
+          "gp": "1",
+          "code": "30"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "0",
+            "tacka": "1",
+            "tot_tack": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "D. Okoeguale",
+          "shortname": "D. Okoeguale",
+          "checkname": "OKOEGUALE,D",
+          "uni": "33",
+          "class": "SR",
+          "gp": "1",
+          "code": "33"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Wieding",
+          "shortname": "J. Wieding",
+          "checkname": "WIEDING,J",
+          "uni": "34",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "FS",
+          "code": "34"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "5",
+            "tacka": "0",
+            "tot_tack": "5"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "L. Schnabl",
+          "shortname": "L. Schnabl",
+          "checkname": "SCHNABL,L",
+          "uni": "40",
+          "class": "SR",
+          "gp": "1",
+          "code": "40"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "Z. Blair",
+          "shortname": "Z. Blair",
+          "checkname": "BLAIR,Z",
+          "uni": "42",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
+          "code": "42"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "5",
+            "tacka": "0",
+            "tot_tack": "5",
+            "tflua": "1",
+            "tfla": "0",
+            "tflyds": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Novoberdalij",
+          "shortname": "J. Novoberdalij",
+          "checkname": "NOVOBERDALIJ,J",
+          "uni": "43",
+          "class": "SR",
+          "gp": "1",
+          "code": "43"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "1",
+            "yds": "6",
+            "gain": "6",
+            "loss": "0",
+            "td": "0",
+            "long": "6"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "F. Foedinger",
+          "shortname": "F. Foedinger",
+          "checkname": "FOEDINGER,F",
+          "uni": "44",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
+          "code": "44"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "2",
+            "tacka": "0",
+            "tot_tack": "2",
+            "brup": "1",
+            "int": "1",
+            "intyds": "70"
+          }
+        },
+        "ir": {
+          "_attributes": {
+            "no": "1",
+            "yds": "70",
+            "td": "1",
+            "long": "70"
+          }
+        },
+        "scoring": {
+          "_attributes": {
+            "td": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Jackson",
+          "shortname": "J. Jackson",
+          "checkname": "JACKSON,J",
+          "uni": "45",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "DE",
+          "code": "45"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Wenke",
+          "shortname": "J. Wenke",
+          "checkname": "WENKE,J",
+          "uni": "47",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "DE",
+          "code": "47"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "2",
+            "tacka": "0",
+            "tot_tack": "2",
+            "ff": "1",
+            "fr": "1",
+            "fryds": "0"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "F. Weitz",
+          "shortname": "F. Weitz",
+          "checkname": "WEITZ,F",
+          "uni": "48",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
+          "code": "48"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "3",
+            "tacka": "1",
+            "tot_tack": "4",
+            "tflua": "1",
+            "tfla": "0",
+            "tflyds": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "S. Appelt",
+          "shortname": "S. Appelt",
+          "checkname": "APPELT,S",
+          "uni": "49",
+          "class": "SR",
+          "gp": "1",
+          "code": "49"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Maddock",
+          "shortname": "J. Maddock",
+          "checkname": "MADDOCK,J",
+          "uni": "53",
+          "class": "SR",
+          "gp": "1",
+          "code": "53"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "K. Kreider",
+          "shortname": "K. Kreider",
+          "checkname": "KREIDER,K",
+          "uni": "54",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OT",
+          "code": "54"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "R. Macaj",
+          "shortname": "R. Macaj",
+          "checkname": "MACAJ,R",
+          "uni": "56",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OG",
+          "code": "56"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "L. Weitz",
+          "shortname": "L. Weitz",
+          "checkname": "WEITZ,L",
+          "uni": "58",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
+          "code": "58"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Plum",
+          "shortname": "J. Plum",
+          "checkname": "PLUM,J",
+          "uni": "59",
+          "class": "SR",
+          "gp": "1",
+          "code": "59"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "D.-O. Orere",
+          "shortname": "D.-O. Orere",
+          "checkname": "ORERE,D-O",
+          "uni": "69",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OG",
+          "code": "69"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Schorn",
+          "shortname": "M. Schorn",
+          "checkname": "SCHORN,M",
+          "uni": "70",
+          "class": "SR",
+          "gp": "1",
+          "code": "70"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "R. Marx",
+          "shortname": "R. Marx",
+          "checkname": "MARX,R",
+          "uni": "71",
+          "class": "SR",
+          "gp": "1",
+          "code": "71"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "F. Kratz",
+          "shortname": "F. Kratz",
+          "checkname": "KRATZ,F",
+          "uni": "74",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OT",
+          "code": "74"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "C. Carrasco",
+          "shortname": "C. Carrasco",
+          "checkname": "CARRASCO,C",
+          "uni": "77",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OG",
+          "code": "77"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "81",
+          "shortname": "",
+          "checkname": "",
+          "uni": "81",
+          "class": "",
+          "gp": "1",
+          "code": "81"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "B. Froehlich",
+          "shortname": "B. Froehlich",
+          "checkname": "FROEHLICH,B",
+          "uni": "84",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "WR",
+          "code": "84"
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "8",
+            "yds": "45",
+            "td": "0",
+            "long": "10"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Wilhelm",
+          "shortname": "J. Wilhelm",
+          "checkname": "WILHELM,J",
+          "uni": "85",
+          "class": "SR",
+          "gp": "1",
+          "code": "85"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "T. Goeckus",
+          "shortname": "T. Goeckus",
+          "checkname": "GOECKUS,T",
+          "uni": "92",
+          "class": "SR",
+          "gp": "1",
+          "code": "92"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "0",
+            "tacka": "1",
+            "tot_tack": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Lara Perez",
+          "shortname": "J. Lara Perez",
+          "checkname": "PEREZ,J LARA",
+          "uni": "95",
+          "class": "SR",
+          "gp": "1",
+          "code": "95"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "2",
+            "tacka": "0",
+            "tot_tack": "2",
+            "tflua": "1",
+            "tfla": "0",
+            "tflyds": "6",
+            "sackua": "1",
+            "sacka": "0",
+            "sackyds": "6"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Schorn",
+          "shortname": "J. Schorn",
+          "checkname": "SCHORN,J",
+          "uni": "99",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "DT",
+          "code": "99"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "3",
+            "tacka": "0",
+            "tot_tack": "3",
+            "tflua": "1",
+            "tfla": "0",
+            "tflyds": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "Team",
+          "shortname": "Team",
+          "checkname": "TEAM",
+          "uni": "TM",
+          "class": "FR",
+          "gp": "1",
+          "code": "198"
+        },
+        "pass": {
+          "_attributes": {
+            "comp": "0",
+            "att": "0",
+            "int": "0",
+            "yds": "-15",
+            "td": "0",
+            "long": "0",
+            "sacks": "0",
+            "sackyds": "0"
+          }
+        }
+      }
+    ]
+  },
+  "visitor": {
+    "_attributes": {
+      "vh": "V",
+      "code": "",
+      "id": "FG",
+      "name": "Frankfurt Galaxy",
+      "record": "8-1",
+      "abb": "F"
+    },
+    "linescore": {
+      "_attributes": {
+        "prds": "4",
+        "line": "3,7,9,3",
+        "score": "22"
+      },
+      "lineprd": [
+        {
+          "_attributes": {
+            "prd": "1",
+            "score": "3"
+          }
+        },
+        {
+          "_attributes": {
+            "prd": "2",
+            "score": "7"
+          }
+        },
+        {
+          "_attributes": {
+            "prd": "3",
+            "score": "9"
+          }
+        },
+        {
+          "_attributes": {
+            "prd": "4",
+            "score": "3"
+          }
+        }
+      ]
+    },
+    "totals": {
+      "_attributes": {
+        "totoff_plays": "56",
+        "totoff_yards": "257",
+        "totoff_avg": "4.6"
+      },
+      "firstdowns": {
+        "_attributes": {
+          "no": "16",
+          "rush": "4",
+          "pass": "8",
+          "penalty": "4"
+        }
+      },
+      "penalties": {
+        "_attributes": {
+          "no": "12",
+          "yds": "120"
+        }
+      },
+      "conversions": {
+        "_attributes": {
+          "thirdconv": "3",
+          "thirdatt": "12",
+          "fourthconv": "0",
+          "fourthatt": "0"
+        }
+      },
+      "fumbles": {
+        "_attributes": {
+          "no": "3",
+          "lost": "2"
+        }
+      },
+      "misc": {
+        "_attributes": {
+          "yds": "-18",
+          "top": "30:42",
+          "ona": "0",
+          "onm": "0",
+          "ptsto": "6"
+        }
+      },
+      "redzone": {
+        "_attributes": {
+          "att": "1",
+          "scores": "1",
+          "points": "7",
+          "tdrush": "0",
+          "tdpass": "1",
+          "fgmade": "0",
+          "endfga": "0",
+          "enddowns": "0",
+          "endint": "0",
+          "endfumb": "0",
+          "endhalf": "0",
+          "endgame": "0"
+        }
+      },
+      "rush": {
+        "_attributes": {
+          "att": "23",
+          "yds": "104",
+          "gain": "107",
+          "loss": "3",
+          "td": "0",
+          "long": "18"
+        }
+      },
+      "pass": {
+        "_attributes": {
+          "comp": "17",
+          "att": "31",
+          "int": "2",
+          "yds": "153",
+          "td": "1",
+          "long": "34",
+          "sacks": "2",
+          "sackyds": "17"
+        }
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "17",
+          "yds": "170",
+          "td": "1",
+          "long": "34"
+        }
+      },
+      "punt": {
+        "_attributes": {
+          "no": "4",
+          "yds": "167",
+          "long": "42",
+          "blkd": "0",
+          "tb": "0",
+          "fc": "1",
+          "plus50": "0",
+          "inside20": "1",
+          "avg": "41.8"
+        }
+      },
+      "ko": {
+        "_attributes": {
+          "no": "6",
+          "yds": "399",
+          "ob": "1",
+          "tb": "1",
+          "fcyds": "0"
+        }
+      },
+      "fg": {
+        "_attributes": {
+          "made": "3",
+          "att": "3",
+          "long": "41",
+          "blkd": "0"
+        }
+      },
+      "pat": {
+        "_attributes": {
+          "kickatt": "2",
+          "kickmade": "1"
+        }
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "36",
+          "tacka": "24",
+          "tot_tack": "60",
+          "tflua": "5",
+          "tfla": "2",
+          "tflyds": "24",
+          "sacks": "2",
+          "sackyds": "15",
+          "brup": "5",
+          "blkd": "1",
+          "int": "2",
+          "intyds": "51"
+        }
+      },
+      "kr": {
+        "_attributes": {
+          "no": "2",
+          "yds": "31",
+          "td": "0",
+          "long": "22"
+        }
+      },
+      "pr": {
+        "_attributes": {
+          "no": "1",
+          "yds": "17",
+          "td": "0",
+          "long": "17"
+        }
+      },
+      "ir": {
+        "_attributes": {
+          "no": "2",
+          "yds": "51",
+          "td": "1",
+          "long": "51"
+        }
+      },
+      "scoring": {
+        "_attributes": {
+          "td": "2",
+          "fg": "3",
+          "patkick": "1"
+        }
+      }
+    },
+    "player": [
+      {
+        "_attributes": {
+          "name": "R. Rimmler",
+          "shortname": "R. Rimmler",
+          "checkname": "RIMMLER,R",
+          "uni": "1",
+          "class": "SR",
+          "gp": "1",
+          "code": "1"
+        },
+        "ko": {
+          "_attributes": {
+            "no": "6",
+            "yds": "399",
+            "ob": "1",
+            "tb": "1"
+          }
+        },
+        "fg": {
+          "_attributes": {
+            "made": "3",
+            "att": "3",
+            "long": "41",
+            "blkd": "0"
+          }
+        },
+        "pat": {
+          "_attributes": {
+            "kickatt": "2",
+            "kickmade": "1"
+          }
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1"
+          }
+        },
+        "scoring": {
+          "_attributes": {
+            "fg": "3",
+            "patkick": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "T. Anderson",
+          "shortname": "T. Anderson",
+          "checkname": "ANDERSON,T",
+          "uni": "4",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "SS",
+          "code": "4"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "2",
+            "tacka": "2",
+            "tot_tack": "4",
+            "brup": "2",
+            "int": "1",
+            "intyds": "0"
+          }
+        },
+        "ir": {
+          "_attributes": {
+            "no": "1",
+            "yds": "0",
+            "td": "0",
+            "long": "0"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Liggins",
+          "shortname": "J. Liggins",
+          "checkname": "LIGGINS,J",
+          "uni": "5",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "CB",
+          "code": "5"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "4",
+            "tacka": "1",
+            "tot_tack": "5",
+            "brup": "3",
+            "int": "1",
+            "intyds": "51"
+          }
+        },
+        "ir": {
+          "_attributes": {
+            "no": "1",
+            "yds": "51",
+            "td": "1",
+            "long": "51"
+          }
+        },
+        "scoring": {
+          "_attributes": {
+            "td": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "L. Heidrich",
+          "shortname": "L. Heidrich",
+          "checkname": "HEIDRICH,L",
+          "uni": "6",
+          "class": "SR",
+          "gp": "1",
+          "code": "6"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "5",
+            "yds": "12",
+            "gain": "12",
+            "loss": "0",
+            "td": "0",
+            "long": "8"
+          }
+        },
+        "pass": {
+          "_attributes": {
+            "comp": "17",
+            "att": "31",
+            "int": "2",
+            "yds": "170",
+            "td": "1",
+            "long": "34",
+            "sacks": "2",
+            "sackyds": "17"
+          }
+        },
+        "fumbles": {
+          "_attributes": {
+            "no": "2",
+            "lost": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Konya",
+          "shortname": "M. Konya",
+          "checkname": "KONYA,M",
+          "uni": "8",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "DT",
+          "code": "8"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "2",
+            "tacka": "3",
+            "tot_tack": "5",
+            "tflua": "0",
+            "tfla": "1",
+            "tflyds": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "D. Lynch",
+          "shortname": "D. Lynch",
+          "checkname": "LYNCH,D",
+          "uni": "9",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "CB",
+          "code": "9"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "3",
+            "tacka": "2",
+            "tot_tack": "5"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "No. Schumm",
+          "shortname": "No. Schumm",
+          "checkname": "SCHUMM,NO",
+          "uni": "11",
+          "class": "SR",
+          "gp": "1",
+          "code": "11"
+        },
+        "kr": {
+          "_attributes": {
+            "no": "2",
+            "yds": "31",
+            "td": "0",
+            "long": "22"
+          }
+        },
+        "pr": {
+          "_attributes": {
+            "no": "1",
+            "yds": "17",
+            "td": "0",
+            "long": "17"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Poznanski",
+          "shortname": "J. Poznanski",
+          "checkname": "POZNANSKI,J",
+          "uni": "14",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "SS",
+          "code": "14"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "N. Schumm",
+          "shortname": "N. Schumm",
+          "checkname": "SCHUMM,N",
+          "uni": "16",
+          "class": "SR",
+          "gp": "1",
+          "code": "16"
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "1",
+            "yds": "15",
+            "td": "0",
+            "long": "15"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "R. Horn",
+          "shortname": "R. Horn",
+          "checkname": "HORN,R",
+          "uni": "17",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "WR",
+          "code": "17"
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "7",
+            "yds": "87",
+            "td": "0",
+            "long": "34"
+          }
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "N. Strahmann",
+          "shortname": "N. Strahmann",
+          "checkname": "STRAHMANN,N",
+          "uni": "19",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "WR",
+          "code": "19"
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "3",
+            "yds": "24",
+            "td": "0",
+            "long": "13"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "N. Kaufman",
+          "shortname": "N. Kaufman",
+          "checkname": "KAUFMAN,N",
+          "uni": "20",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "RB",
+          "code": "20"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "6",
+            "yds": "41",
+            "gain": "42",
+            "loss": "1",
+            "td": "0",
+            "long": "16"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "L. Achaintre",
+          "shortname": "L. Achaintre",
+          "checkname": "ACHAINTRE,L",
+          "uni": "22",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
+          "code": "22"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "1",
+            "yds": "3",
+            "gain": "3",
+            "loss": "0",
+            "td": "0",
+            "long": "3"
+          }
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "3",
+            "tacka": "3",
+            "tot_tack": "6",
+            "tflua": "1",
+            "tfla": "0",
+            "tflyds": "2"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "K. Ben El Ghali",
+          "shortname": "K. Ben El Ghali",
+          "checkname": "GHALI,K BEN EL",
+          "uni": "24",
+          "class": "SR",
+          "gp": "1",
+          "code": "24"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Boehmann",
+          "shortname": "J. Boehmann",
+          "checkname": "BOEHMANN,J",
+          "uni": "25",
+          "class": "SR",
+          "gp": "1",
+          "code": "25"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "4",
+            "yds": "5",
+            "gain": "7",
+            "loss": "2",
+            "td": "0",
+            "long": "7"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "C. Schmitt",
+          "shortname": "C. Schmitt",
+          "checkname": "SCHMITT,C",
+          "uni": "28",
+          "class": "SR",
+          "gp": "1",
+          "code": "28"
+        },
+        "defense": {
+          "_attributes": {
+            "blkd": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "F. Reuter",
+          "shortname": "F. Reuter",
+          "checkname": "REUTER,F",
+          "uni": "30",
+          "class": "SR",
+          "gp": "1",
+          "code": "30"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "S. Brand",
+          "shortname": "S. Brand",
+          "checkname": "BRAND,S",
+          "uni": "38",
+          "class": "SR",
+          "gp": "1",
+          "code": "38"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "0",
+            "tacka": "1",
+            "tot_tack": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "S. Gauthier",
+          "shortname": "S. Gauthier",
+          "checkname": "GAUTHIER,S",
+          "uni": "41",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
+          "code": "41"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "5",
+            "tacka": "3",
+            "tot_tack": "8",
+            "tflua": "1",
+            "tfla": "0",
+            "tflyds": "2"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "L. Helm",
+          "shortname": "L. Helm",
+          "checkname": "HELM,L",
+          "uni": "44",
+          "class": "SR",
+          "gp": "1",
+          "code": "44"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "7",
+            "yds": "43",
+            "gain": "43",
+            "loss": "0",
+            "td": "0",
+            "long": "18"
+          }
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "1",
+            "yds": "3",
+            "td": "0",
+            "long": "3"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "S. Gabriel",
+          "shortname": "S. Gabriel",
+          "checkname": "GABRIEL,S",
+          "uni": "45",
+          "class": "SR",
+          "gp": "1",
+          "code": "45"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "J. Mackeben",
+          "shortname": "J. Mackeben",
+          "checkname": "MACKEBEN,J",
+          "uni": "51",
+          "class": "SR",
+          "gp": "1",
+          "code": "51"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "W. Nasri",
+          "shortname": "W. Nasri",
+          "checkname": "NASRI,W",
+          "uni": "52",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
+          "code": "52"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "2",
+            "tacka": "1",
+            "tot_tack": "3",
+            "tflua": "1",
+            "tfla": "0",
+            "tflyds": "11",
+            "sackua": "1",
+            "sacka": "0",
+            "sackyds": "11"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "D. Josiah",
+          "shortname": "D. Josiah",
+          "checkname": "JOSIAH,D",
+          "uni": "53",
+          "class": "SR",
+          "gp": "1",
+          "code": "53"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "1",
+            "tot_tack": "2"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "K. Brauns",
+          "shortname": "K. Brauns",
+          "checkname": "BRAUNS,K",
+          "uni": "54",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "DE",
+          "code": "54"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "1",
+            "tot_tack": "2"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "S. Silva Gomez",
+          "shortname": "S. Silva Gomez",
+          "checkname": "GOMEZ,S SILVA",
+          "uni": "56",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "LB",
+          "code": "56"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "6",
+            "tacka": "3",
+            "tot_tack": "9",
+            "tflua": "2",
+            "tfla": "0",
+            "tflyds": "8",
+            "sackua": "1",
+            "sacka": "0",
+            "sackyds": "4"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "A. Williams",
+          "shortname": "A. Williams",
+          "checkname": "WILLIAMS,A",
+          "uni": "58",
+          "class": "SR",
+          "gp": "1",
+          "code": "58"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "K. Timpel",
+          "shortname": "K. Timpel",
+          "checkname": "TIMPEL,K",
+          "uni": "62",
+          "class": "SR",
+          "gp": "1",
+          "code": "62"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "Mo. Schmidt",
+          "shortname": "Mo. Schmidt",
+          "checkname": "SCHMIDT,MO",
+          "uni": "64",
+          "class": "SR",
+          "gp": "1",
+          "code": "64"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "O. Landstr\u00f6m",
+          "shortname": "O. Landstr\u00f6m",
+          "checkname": "LANDSTR\u00f6M,O",
+          "uni": "67",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "C",
+          "code": "67"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "F. Atunlese",
+          "shortname": "F. Atunlese",
+          "checkname": "ATUNLESE,F",
+          "uni": "71",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OG",
+          "code": "71"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Bencek",
+          "shortname": "M. Bencek",
+          "checkname": "BENCEK,M",
+          "uni": "72",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OT",
+          "code": "72"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "S. Fischer",
+          "shortname": "S. Fischer",
+          "checkname": "FISCHER,S",
+          "uni": "74",
+          "class": "SR",
+          "gp": "1",
+          "code": "74"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "N. Hampel",
+          "shortname": "N. Hampel",
+          "checkname": "HAMPEL,N",
+          "uni": "76",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OG",
+          "code": "76"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "T. Hirsch",
+          "shortname": "T. Hirsch",
+          "checkname": "HIRSCH,T",
+          "uni": "78",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "OG",
+          "code": "78"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "H. Schwarz",
+          "shortname": "H. Schwarz",
+          "checkname": "SCHWARZ,H",
+          "uni": "82",
+          "class": "SR",
+          "gp": "1",
+          "code": "82"
+        },
+        "punt": {
+          "_attributes": {
+            "no": "4",
+            "yds": "167",
+            "long": "42",
+            "blkd": "0",
+            "tb": "0",
+            "fc": "1",
+            "plus50": "0",
+            "inside20": "1",
+            "avg": "41.8"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "Z. Bendjabou",
+          "shortname": "Z. Bendjabou",
+          "checkname": "BENDJABOU,Z",
+          "uni": "83",
+          "class": "SR",
+          "gp": "1",
+          "code": "83"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Hachenberg",
+          "shortname": "M. Hachenberg",
+          "checkname": "HACHENBERG,M",
+          "uni": "85",
+          "class": "SR",
+          "gp": "1",
+          "code": "85"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "L. Regler",
+          "shortname": "L. Regler",
+          "checkname": "REGLER,L",
+          "uni": "86",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "WR",
+          "code": "86"
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "1",
+            "yds": "10",
+            "td": "0",
+            "long": "10"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "K. Mwamba",
+          "shortname": "K. Mwamba",
+          "checkname": "MWAMBA,K",
+          "uni": "87",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "TE",
+          "code": "87"
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "4",
+            "yds": "31",
+            "td": "1",
+            "long": "15"
+          }
+        },
+        "scoring": {
+          "_attributes": {
+            "td": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. A. Hor",
+          "shortname": "M. A. Hor",
+          "checkname": "HOR,M A",
+          "uni": "90",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "dpos": "DT",
+          "code": "90"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "1",
+            "tot_tack": "2"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "M. Djeri",
+          "shortname": "M. Djeri",
+          "checkname": "DJERI,M",
+          "uni": "91",
+          "class": "SR",
+          "gp": "1",
+          "code": "91"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "0",
+            "tacka": "1",
+            "tot_tack": "1"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "F. Mousel",
+          "shortname": "F. Mousel",
+          "checkname": "MOUSEL,F",
+          "uni": "92",
+          "class": "SR",
+          "gp": "1",
+          "code": "92"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "S. Rieger",
+          "shortname": "S. Rieger",
+          "checkname": "RIEGER,S",
+          "uni": "97",
+          "class": "SR",
+          "gp": "1",
+          "code": "97"
+        }
+      },
+      {
+        "_attributes": {
+          "name": "K. Giede",
+          "shortname": "K. Giede",
+          "checkname": "GIEDE,K",
+          "uni": "98",
+          "class": "SR",
+          "gp": "1",
+          "code": "98"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "0",
+            "tacka": "1",
+            "tot_tack": "1",
+            "tflua": "0",
+            "tfla": "1",
+            "tflyds": "0"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "name": "Team",
+          "shortname": "Team",
+          "checkname": "TEAM",
+          "uni": "TM",
+          "class": "FR",
+          "gp": "1",
+          "code": "198"
+        },
+        "pass": {
+          "_attributes": {
+            "comp": "0",
+            "att": "0",
+            "int": "0",
+            "yds": "-17",
+            "td": "0",
+            "long": "0",
+            "sacks": "0",
+            "sackyds": "0"
+          }
+        },
+        "fumbles": {
+          "_attributes": {
+            "no": "1",
+            "lost": "1"
+          }
+        }
+      }
+    ]
+  },
+  "home_players": [
+    {
+      "_attributes": {
+        "name": "D. Owens",
+        "shortname": "D. Owens",
+        "checkname": "OWENS,D",
+        "uni": "1",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "CB",
+        "code": "1"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1",
+          "int": "1",
+          "intyds": "0"
+        }
+      },
+      "ir": {
+        "_attributes": {
+          "no": "1",
+          "yds": "0",
+          "td": "0",
+          "long": "0"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "D. Schuhmacher",
+        "shortname": "D. Schuhmacher",
+        "checkname": "SCHUHMACHER,D",
+        "uni": "2",
+        "class": "SR",
+        "gp": "1",
+        "code": "2"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "C. Walrond",
+        "shortname": "C. Walrond",
+        "checkname": "WALROND,C",
+        "uni": "3",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "SS",
+        "code": "3"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "4",
+          "tacka": "1",
+          "tot_tack": "5",
+          "brup": "1",
+          "fr": "1",
+          "fryds": "0"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "P. Lenhardt",
+        "shortname": "P. Lenhardt",
+        "checkname": "LENHARDT,P",
+        "uni": "5",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "WR",
+        "code": "5"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "1",
+          "yds": "-2",
+          "gain": "0",
+          "loss": "2",
+          "td": "0",
+          "long": "0"
+        }
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "6",
+          "yds": "78",
+          "td": "0",
+          "long": "33"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "T. Robinson",
+        "shortname": "T. Robinson",
+        "checkname": "ROBINSON,T",
+        "uni": "6",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "WR",
+        "code": "6"
+      },
+      "pass": {
+        "_attributes": {
+          "comp": "0",
+          "att": "1",
+          "int": "0",
+          "yds": "0",
+          "td": "0",
+          "long": "0",
+          "sacks": "0",
+          "sackyds": "0"
+        }
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "3",
+          "yds": "24",
+          "td": "0",
+          "long": "11"
+        }
+      },
+      "pr": {
+        "_attributes": {
+          "no": "1",
+          "yds": "11",
+          "td": "0",
+          "long": "11"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "Al. Frisch",
+        "shortname": "Al. Frisch",
+        "checkname": "FRISCH,AL",
+        "uni": "7",
+        "class": "SR",
+        "gp": "1",
+        "code": "7"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "D. Tanwani",
+        "shortname": "D. Tanwani",
+        "checkname": "TANWANI,D",
+        "uni": "8",
+        "class": "SR",
+        "gp": "1",
+        "code": "8"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "C. Erickson",
+        "shortname": "C. Erickson",
+        "checkname": "ERICKSON,C",
+        "uni": "9",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "QB",
+        "code": "9"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "3",
+          "yds": "-4",
+          "gain": "1",
+          "loss": "5",
+          "td": "0",
+          "long": "1"
+        }
+      },
+      "pass": {
+        "_attributes": {
+          "comp": "27",
+          "att": "42",
+          "int": "2",
+          "yds": "191",
+          "td": "0",
+          "long": "33",
+          "sacks": "2",
+          "sackyds": "15"
+        }
+      },
+      "pat": {
+        "_attributes": {
+          "passatt": "1",
+          "passmade": "0"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Siemssen",
+        "shortname": "M. Siemssen",
+        "checkname": "SIEMSSEN,M",
+        "uni": "13",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "WR",
+        "code": "13"
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "4",
+          "yds": "25",
+          "td": "0",
+          "long": "10"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "R. Akhlaghi",
+        "shortname": "R. Akhlaghi",
+        "checkname": "AKHLAGHI,R",
+        "uni": "14",
+        "class": "SR",
+        "gp": "1",
+        "code": "14"
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "3",
+          "yds": "12",
+          "td": "0",
+          "long": "11"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Appelt",
+        "shortname": "J. Appelt",
+        "checkname": "APPELT,J",
+        "uni": "15",
+        "class": "SR",
+        "gp": "1",
+        "code": "15"
+      },
+      "punt": {
+        "_attributes": {
+          "no": "4",
+          "yds": "173",
+          "long": "54",
+          "blkd": "0",
+          "tb": "0",
+          "fc": "0",
+          "plus50": "1",
+          "inside20": "0",
+          "avg": "43.2"
+        }
+      },
+      "ko": {
+        "_attributes": {
+          "no": "3",
+          "yds": "198",
+          "ob": "0",
+          "tb": "1"
+        }
+      },
+      "fg": {
+        "_attributes": {
+          "made": "1",
+          "att": "2",
+          "long": "30",
+          "blkd": "1"
+        }
+      },
+      "scoring": {
+        "_attributes": {
+          "fg": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Ofosuhene",
+        "shortname": "M. Ofosuhene",
+        "checkname": "OFOSUHENE,M",
+        "uni": "17",
+        "class": "SR",
+        "gp": "1",
+        "code": "17"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1",
+          "brup": "2"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "B. Bofenda",
+        "shortname": "B. Bofenda",
+        "checkname": "BOFENDA,B",
+        "uni": "18",
+        "class": "SR",
+        "gp": "1",
+        "code": "18"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "G. Ameln",
+        "shortname": "G. Ameln",
+        "checkname": "AMELN,G",
+        "uni": "20",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "RB",
+        "code": "20"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "8",
+          "yds": "29",
+          "gain": "29",
+          "loss": "0",
+          "td": "0",
+          "long": "11"
+        }
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "3",
+          "yds": "7",
+          "td": "0",
+          "long": "5"
+        }
+      },
+      "kr": {
+        "_attributes": {
+          "no": "4",
+          "yds": "117",
+          "td": "0",
+          "long": "40"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "T. Kleinmann",
+        "shortname": "T. Kleinmann",
+        "checkname": "KLEINMANN,T",
+        "uni": "21",
+        "class": "SR",
+        "gp": "1",
+        "code": "21"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "1",
+          "tot_tack": "2"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "A. Frisch",
+        "shortname": "A. Frisch",
+        "checkname": "FRISCH,A",
+        "uni": "22",
+        "class": "SR",
+        "gp": "1",
+        "code": "22"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "6",
+          "yds": "14",
+          "gain": "16",
+          "loss": "2",
+          "td": "0",
+          "long": "6"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "R. Junior",
+        "shortname": "R. Junior",
+        "checkname": "JUNIOR,R",
+        "uni": "24",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "FS",
+        "code": "24"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "0",
+          "tacka": "1",
+          "tot_tack": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Muntu",
+        "shortname": "M. Muntu",
+        "checkname": "MUNTU,M",
+        "uni": "25",
+        "class": "SR",
+        "gp": "1",
+        "code": "25"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Riepe",
+        "shortname": "M. Riepe",
+        "checkname": "RIEPE,M",
+        "uni": "26",
+        "class": "SR",
+        "gp": "1",
+        "code": "26"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "D. Adom",
+        "shortname": "D. Adom",
+        "checkname": "ADOM,D",
+        "uni": "27",
+        "class": "SR",
+        "gp": "1",
+        "code": "27"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Banjaqui",
+        "shortname": "M. Banjaqui",
+        "checkname": "BANJAQUI,M",
+        "uni": "30",
+        "class": "SR",
+        "gp": "1",
+        "code": "30"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "0",
+          "tacka": "1",
+          "tot_tack": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "D. Okoeguale",
+        "shortname": "D. Okoeguale",
+        "checkname": "OKOEGUALE,D",
+        "uni": "33",
+        "class": "SR",
+        "gp": "1",
+        "code": "33"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Wieding",
+        "shortname": "J. Wieding",
+        "checkname": "WIEDING,J",
+        "uni": "34",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "FS",
+        "code": "34"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "5",
+          "tacka": "0",
+          "tot_tack": "5"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "L. Schnabl",
+        "shortname": "L. Schnabl",
+        "checkname": "SCHNABL,L",
+        "uni": "40",
+        "class": "SR",
+        "gp": "1",
+        "code": "40"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "Z. Blair",
+        "shortname": "Z. Blair",
+        "checkname": "BLAIR,Z",
+        "uni": "42",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
+        "code": "42"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "5",
+          "tacka": "0",
+          "tot_tack": "5",
+          "tflua": "1",
+          "tfla": "0",
+          "tflyds": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Novoberdalij",
+        "shortname": "J. Novoberdalij",
+        "checkname": "NOVOBERDALIJ,J",
+        "uni": "43",
+        "class": "SR",
+        "gp": "1",
+        "code": "43"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "1",
+          "yds": "6",
+          "gain": "6",
+          "loss": "0",
+          "td": "0",
+          "long": "6"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "F. Foedinger",
+        "shortname": "F. Foedinger",
+        "checkname": "FOEDINGER,F",
+        "uni": "44",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
+        "code": "44"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "2",
+          "tacka": "0",
+          "tot_tack": "2",
+          "brup": "1",
+          "int": "1",
+          "intyds": "70"
+        }
+      },
+      "ir": {
+        "_attributes": {
+          "no": "1",
+          "yds": "70",
+          "td": "1",
+          "long": "70"
+        }
+      },
+      "scoring": {
+        "_attributes": {
+          "td": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Jackson",
+        "shortname": "J. Jackson",
+        "checkname": "JACKSON,J",
+        "uni": "45",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "DE",
+        "code": "45"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Wenke",
+        "shortname": "J. Wenke",
+        "checkname": "WENKE,J",
+        "uni": "47",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "DE",
+        "code": "47"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "2",
+          "tacka": "0",
+          "tot_tack": "2",
+          "ff": "1",
+          "fr": "1",
+          "fryds": "0"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "F. Weitz",
+        "shortname": "F. Weitz",
+        "checkname": "WEITZ,F",
+        "uni": "48",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
+        "code": "48"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "3",
+          "tacka": "1",
+          "tot_tack": "4",
+          "tflua": "1",
+          "tfla": "0",
+          "tflyds": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "S. Appelt",
+        "shortname": "S. Appelt",
+        "checkname": "APPELT,S",
+        "uni": "49",
+        "class": "SR",
+        "gp": "1",
+        "code": "49"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Maddock",
+        "shortname": "J. Maddock",
+        "checkname": "MADDOCK,J",
+        "uni": "53",
+        "class": "SR",
+        "gp": "1",
+        "code": "53"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "K. Kreider",
+        "shortname": "K. Kreider",
+        "checkname": "KREIDER,K",
+        "uni": "54",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OT",
+        "code": "54"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "R. Macaj",
+        "shortname": "R. Macaj",
+        "checkname": "MACAJ,R",
+        "uni": "56",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OG",
+        "code": "56"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "L. Weitz",
+        "shortname": "L. Weitz",
+        "checkname": "WEITZ,L",
+        "uni": "58",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "LB",
+        "code": "58"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Plum",
+        "shortname": "J. Plum",
+        "checkname": "PLUM,J",
+        "uni": "59",
+        "class": "SR",
+        "gp": "1",
+        "code": "59"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "D.-O. Orere",
+        "shortname": "D.-O. Orere",
+        "checkname": "ORERE,D-O",
+        "uni": "69",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OG",
+        "code": "69"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "M. Schorn",
+        "shortname": "M. Schorn",
+        "checkname": "SCHORN,M",
+        "uni": "70",
+        "class": "SR",
+        "gp": "1",
+        "code": "70"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "R. Marx",
+        "shortname": "R. Marx",
+        "checkname": "MARX,R",
+        "uni": "71",
+        "class": "SR",
+        "gp": "1",
+        "code": "71"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "F. Kratz",
+        "shortname": "F. Kratz",
+        "checkname": "KRATZ,F",
+        "uni": "74",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OT",
+        "code": "74"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "C. Carrasco",
+        "shortname": "C. Carrasco",
+        "checkname": "CARRASCO,C",
+        "uni": "77",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "OG",
+        "code": "77"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "81",
+        "shortname": "",
+        "checkname": "",
+        "uni": "81",
+        "class": "",
+        "gp": "1",
+        "code": "81"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "B. Froehlich",
+        "shortname": "B. Froehlich",
+        "checkname": "FROEHLICH,B",
+        "uni": "84",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "WR",
+        "code": "84"
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "8",
+          "yds": "45",
+          "td": "0",
+          "long": "10"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Wilhelm",
+        "shortname": "J. Wilhelm",
+        "checkname": "WILHELM,J",
+        "uni": "85",
+        "class": "SR",
+        "gp": "1",
+        "code": "85"
+      }
+    },
+    {
+      "_attributes": {
+        "name": "T. Goeckus",
+        "shortname": "T. Goeckus",
+        "checkname": "GOECKUS,T",
+        "uni": "92",
+        "class": "SR",
+        "gp": "1",
+        "code": "92"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "0",
+          "tacka": "1",
+          "tot_tack": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Lara Perez",
+        "shortname": "J. Lara Perez",
+        "checkname": "PEREZ,J LARA",
+        "uni": "95",
+        "class": "SR",
+        "gp": "1",
+        "code": "95"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "2",
+          "tacka": "0",
+          "tot_tack": "2",
+          "tflua": "1",
+          "tfla": "0",
+          "tflyds": "6",
+          "sackua": "1",
+          "sacka": "0",
+          "sackyds": "6"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "J. Schorn",
+        "shortname": "J. Schorn",
+        "checkname": "SCHORN,J",
+        "uni": "99",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "dpos": "DT",
+        "code": "99"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "3",
+          "tacka": "0",
+          "tot_tack": "3",
+          "tflua": "1",
+          "tfla": "0",
+          "tflyds": "1"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "name": "Team",
+        "shortname": "Team",
+        "checkname": "TEAM",
+        "uni": "TM",
+        "class": "FR",
+        "gp": "1",
+        "code": "198"
+      },
+      "pass": {
+        "_attributes": {
+          "comp": "0",
+          "att": "0",
+          "int": "0",
+          "yds": "-15",
+          "td": "0",
+          "long": "0",
+          "sacks": "0",
+          "sackyds": "0"
+        }
+      }
+    }
+  ],
+  "home_linescore": {
+    "_attributes": {
+      "prds": "4",
+      "line": "3,0,0,6",
+      "score": "9"
+    },
+    "lineprd": [
+      {
+        "_attributes": {
+          "prd": "1",
+          "score": "3"
+        }
+      },
+      {
+        "_attributes": {
+          "prd": "2",
+          "score": "0"
+        }
+      },
+      {
+        "_attributes": {
+          "prd": "3",
+          "score": "0"
+        }
+      },
+      {
+        "_attributes": {
+          "prd": "4",
+          "score": "6"
+        }
+      }
+    ]
+  },
+  "home_totals": {
+    "_attributes": {
+      "totoff_plays": "64",
+      "totoff_yards": "219",
+      "totoff_avg": "3.4"
+    },
+    "firstdowns": {
+      "_attributes": {
+        "no": "15",
+        "rush": "2",
+        "pass": "10",
+        "penalty": "3"
+      }
+    },
+    "penalties": {
+      "_attributes": {
+        "no": "9",
+        "yds": "121"
+      }
+    },
+    "conversions": {
+      "_attributes": {
+        "thirdconv": "1",
+        "thirdatt": "13",
+        "fourthconv": "0",
+        "fourthatt": "4"
+      }
+    },
+    "fumbles": {
+      "_attributes": {
+        "no": "0",
+        "lost": "0"
+      }
+    },
+    "misc": {
+      "_attributes": {
+        "yds": "0",
+        "top": "29:18",
+        "ona": "0",
+        "onm": "0",
+        "ptsto": "9"
+      }
+    },
+    "redzone": {
+      "_attributes": {
+        "att": "2",
+        "scores": "1",
+        "points": "3",
+        "tdrush": "0",
+        "tdpass": "0",
+        "fgmade": "1",
+        "endfga": "1",
+        "enddowns": "0",
+        "endint": "0",
+        "endfumb": "0",
+        "endhalf": "0",
+        "endgame": "0"
+      }
+    },
+    "rush": {
+      "_attributes": {
+        "att": "19",
+        "yds": "43",
+        "gain": "52",
+        "loss": "9",
+        "td": "0",
+        "long": "11"
+      }
+    },
+    "pass": {
+      "_attributes": {
+        "comp": "27",
+        "att": "43",
+        "int": "2",
+        "yds": "176",
+        "td": "0",
+        "long": "33",
+        "sacks": "2",
+        "sackyds": "15"
+      }
+    },
+    "rcv": {
+      "_attributes": {
+        "no": "27",
+        "yds": "191",
+        "td": "0",
+        "long": "33"
+      }
+    },
+    "punt": {
+      "_attributes": {
+        "no": "4",
+        "yds": "173",
+        "long": "54",
+        "blkd": "0",
+        "tb": "0",
+        "fc": "0",
+        "plus50": "1",
+        "inside20": "0",
+        "avg": "43.2"
+      }
+    },
+    "ko": {
+      "_attributes": {
+        "no": "3",
+        "yds": "198",
+        "ob": "0",
+        "tb": "1",
+        "fcyds": "0"
+      }
+    },
+    "fg": {
+      "_attributes": {
+        "made": "1",
+        "att": "2",
+        "long": "30",
+        "blkd": "1"
+      }
+    },
+    "pat": {
+      "_attributes": {
+        "passatt": "1",
+        "passmade": "0"
+      }
+    },
+    "defense": {
+      "_attributes": {
+        "tackua": "32",
+        "tacka": "6",
+        "tot_tack": "38",
+        "tflua": "4",
+        "tfla": "0",
+        "tflyds": "9",
+        "sacks": "2",
+        "sackyds": "17",
+        "brup": "4",
+        "ff": "1",
+        "fr": "2",
+        "fryds": "0",
+        "int": "2",
+        "intyds": "70"
+      }
+    },
+    "kr": {
+      "_attributes": {
+        "no": "4",
+        "yds": "117",
+        "td": "0",
+        "long": "40"
+      }
+    },
+    "pr": {
+      "_attributes": {
+        "no": "1",
+        "yds": "11",
+        "td": "0",
+        "long": "11"
+      }
+    },
+    "ir": {
+      "_attributes": {
+        "no": "2",
+        "yds": "70",
+        "td": "1",
+        "long": "70"
+      }
+    },
+    "scoring": {
+      "_attributes": {
+        "td": "1",
+        "fg": "1"
+      }
+    }
+  }
+}
