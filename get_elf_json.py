@@ -1,3 +1,4 @@
+from datetime import datetime
 import json
 import time
 
@@ -14,7 +15,10 @@ def save_elf_game_json(game_id: str):
     game_url = f"https://www.sportsmetrics.football/games/{game_id}"
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"}
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) " +
+        "AppleWebKit/537.36 (KHTML, like Gecko) " +
+        "Chrome/114.0.0.0 Safari/537.36"
+    }
 
     response = requests.get(game_url, headers=headers)
     soup = BeautifulSoup(response.text, features='lxml')
@@ -47,4 +51,5 @@ def save_all_elf_game_json(season: int):
 
 
 if __name__ == "__main__":
-    save_all_elf_game_json(2023)
+    now = datetime.now()
+    save_all_elf_game_json(now.year)

@@ -1,3 +1,5 @@
+from datetime import datetime
+import logging
 import time
 import urllib.request
 import pandas as pd
@@ -19,12 +21,16 @@ def get_elf_player_headshots(season: int):
 
         try:
             urllib.request.urlretrieve(headshot_url, filename=photo_filepath)
-        except:
-            print(f'Could not get the player headshot for {player_id}.')
+        except Exception as e:
+            logging.warning(
+                f'Could not get the player headshot for {player_id}. ' +
+                f"Full exception `{e}`."
+            )
             time.sleep(4)
 
         time.sleep(1)
 
 
 if __name__ == "__main__":
-    get_elf_player_headshots(2023)
+    now = datetime.now()
+    get_elf_player_headshots(now.year)

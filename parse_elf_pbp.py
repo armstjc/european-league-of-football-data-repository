@@ -1,27 +1,43 @@
-from datetime import datetime
 import json
-import numpy as np
+from datetime import datetime
 
+import numpy as np
 import pandas as pd
+import requests
+from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-from elf_utils import get_csv_in_folder, get_json_in_folder
+# from elf_utils import get_csv_in_folder, get_json_in_folder
+from get_elf_schedule import get_elf_schedule
 
 
-def get_elf_game_pbp_json(json_filepath: str):
+def get_elf_game_pbp_json(game_id: str):
     """
 
     """
-    with open(json_filepath, 'r') as f:
-        json_string = f.read()
+    # with open(json_filepath, 'r') as f:
+    #     json_string = f.read()
 
-    json_data = json.loads(json_string)
-    del json_string
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"}
+    url = f"https://europeanleague.football/game-center/schedule/{game_id}"
+    print(f'\nGetting PBP data from game ID {game_id}.')
+    response = requests.get(url, headers=headers)
+    web_data = BeautifulSoup(response.text, features='lxml')
+    del response
+    print(f'Parsing PBP data from game ID {game_id}')
+    quarters_data = web_data.find_all(
+        'div', {'class': '@container flex flex-col gap-12'})
+
+    with open('test.html', 'w+', encoding='utf-8') as f:
+        f.write(str(web_data))
+    for i in quarters_data:
+        print(i.text)
 
     # Data Variable declarations
     ##################################################################################
     play_id = 0
-    game_id = ""
+    # game_id = ""
     home_team = ""
     away_team = ""
     season_type = "REG"
@@ -338,367 +354,6 @@ def get_elf_game_pbp_json(json_filepath: str):
     # 0/1 Boolean indicating that the play was a ST play.
     special_teams_play = 0
 
-    if json_data['plays'] == None:
-        return pd.DataFrame()
-    if len(json_data['plays']) < 2:
-        return pd.DataFrame()
-
-    for i in json_data['plays']['qtr']:
-
-        for j in tqdm(i['play']):
-            play_id += 1
-            for (key, value) in j.items():
-                if key == "_attributes":  # Base play info
-                    for k in value:
-                        if k == 'hasball':
-                            pass
-                        elif k == 'down':
-                            pass
-                        elif k == 'togo':
-                            pass
-                        elif k == 'spot':
-                            pass
-                        elif k == 'context':
-                            pass
-                        elif k == 'playid':
-                            pass
-                        elif k == 'type':
-                            pass
-                        elif k == 'first':
-                            pass
-                        elif k == 'score':
-                            pass
-                        elif k == 'vscore':
-                            pass
-                        elif k == 'hscore':
-                            pass
-                        elif k == 'turnover':
-                            pass
-                        elif k == 'pcode':
-                            pass
-                        elif k == 'clock':
-                            pass
-                        elif k == 'tokens':
-                            pass
-                        elif k == 'text':
-                            pass
-                        elif k == 'ob':
-                            pass
-                        elif k == 'newcontext':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_pa":  # Player: Passing
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'qb':
-                            pass
-                        elif k == 'result':
-                            pass
-                        elif k == 'rcv':
-                            pass
-                        elif k == 'gain':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_ru":  # Player: Run
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'name':
-                            pass
-                        elif k == 'gain':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_cont":  # Player: Lateral (?)
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'name':
-                            pass
-                        elif k == 'context':
-                            pass
-                        elif k == 'at':
-                            pass
-                        elif k == 'gain':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_fumb":  # Player: Fumbles
-                    try:
-                        for k in value['_attributes']:
-                            if k == 'vh':
-                                pass
-                            elif k == 'name':
-                                pass
-                            elif k == 'at':
-                                pass
-                            elif k == 'frvh':
-                                pass
-                            elif k == 'frname':
-                                pass
-                            else:
-                                raise ValueError(
-                                    f'Unhandled value `{k}` found in this play.')
-                    except:
-                        for k in value:
-                            for x in k['_attributes']:
-                                if x == 'vh':
-                                    pass
-                                elif x == 'name':
-                                    pass
-                                elif x == 'at':
-                                    pass
-                                elif x == 'frvh':
-                                    pass
-                                elif x == 'frname':
-                                    pass
-                                else:
-                                    raise ValueError(
-                                        f'Unhandled value `{x}` found in this play.')
-
-                elif key == "p_tk":  # Player: Tackles
-                    try:
-                        for k in value['_attributes']:
-                            if k == 'vh':
-                                pass
-                            elif k == 'name':
-                                pass
-                            elif k == 'assist':
-                                pass
-                            elif k == 'sack':
-                                pass
-                            elif k == 'ff':
-                                pass
-
-                            else:
-                                raise ValueError(
-                                    f'Unhandled value `{k}` found in this play.')
-                    except:
-                        for x in value:
-                            # print(x)
-                            for k in x['_attributes']:
-                                if k == 'vh':
-                                    pass
-                                elif k == 'name':
-                                    pass
-                                elif k == 'assist':
-                                    pass
-                                elif k == 'sack':
-                                    pass
-                                elif k == 'ff':
-                                    pass
-
-                                else:
-                                    raise ValueError(
-                                        f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_qbh":  # Player: QB Hit
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'name':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_ir":  # Player: Interception Return
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'name':
-                            pass
-                        elif k == 'at':
-                            pass
-                        elif k == 'gain':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_bu":  # Player: Pass Broken Up
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'name':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_fr":  # Player: Pass Broken Up
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'name':
-                            pass
-                        elif k == 'gain':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_pu":  # Player: Punt
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'name':
-                            pass
-                        elif k == 'gain':
-                            pass
-                        elif k == 'in20':
-                            pass
-                        elif k == 'ob':
-                            pass
-                        elif k == 'tb':
-                            pass
-                        elif k == 'fc':
-                            pass
-                        elif k == 'blkd':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_ko":  # Player: Kickoff
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'name':
-                            pass
-                        elif k == 'gain':
-                            pass
-                        elif k == 'result':
-                            pass
-                        elif k == 'fc':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_fg":  # Player: Kickoff
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'name':
-                            pass
-                        elif k == 'distance':
-                            pass
-                        elif k == 'result':
-                            pass
-                        elif k == 'score':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_pat":  # Player: Point After Touchdown
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'name':
-                            pass
-                        elif k == 'qb':
-                            pass
-                        elif k == 'type':
-                            pass
-                        elif k == 'result':
-                            pass
-                        elif k == 'score':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_pr":  # Player: Kickoff Return
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'name':
-                            pass
-                        elif k == 'gain':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_kr":  # Player: Kickoff Return
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'name':
-                            pass
-                        elif k == 'gain':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_pn":  # Player: Penalty
-                    try:
-                        for k in value['_attributes']:
-                            if k == 'vh':
-                                pass
-                            elif k == 'code':
-                                pass
-                            elif k == 'type':
-                                pass
-                            elif k == 'name':
-                                pass
-                            elif k == 'result':
-                                pass
-                            elif k == 'at':
-                                pass
-                            elif k == 'yards':
-                                pass
-                            else:
-                                raise ValueError(
-                                    f'Unhandled value `{k}` found in this play.')
-                    except:
-                        for x in value:
-                            for k in x['_attributes']:
-                                if k == 'vh':
-                                    pass
-                                elif k == 'code':
-                                    pass
-                                elif k == 'type':
-                                    pass
-                                elif k == 'name':
-                                    pass
-                                elif k == 'result':
-                                    pass
-                                elif k == 'at':
-                                    pass
-                                elif k == 'yards':
-                                    pass
-                                else:
-                                    raise ValueError(
-                                        f'Unhandled value `{k}` found in this play.')
-
-                elif key == "p_to":  # Team: Timeout
-                    for k in value['_attributes']:
-                        if k == 'vh':
-                            pass
-                        elif k == 'team':
-                            pass
-                        else:
-                            raise ValueError(
-                                f'Unhandled value `{k}` found in this play.')
-
-                else:
-                    raise ValueError(f'Unhandled key `{key}` found.')
-
 
 def get_season_elf_pbp_json(season: int):
     """
@@ -710,9 +365,11 @@ def get_season_elf_pbp_json(season: int):
     elif season > now.year:
         raise ValueError(f'`season` cannot be greater than {now.year}')
 
-    json_file_list = get_json_in_folder()
+    schedule_df = get_elf_schedule(season_filter=season)
+    game_id_arr = schedule_df['game_id'].to_numpy()
 
-    for j in json_file_list:
+    print('')
+    for j in game_id_arr:
         get_elf_game_pbp_json(j)
 
 

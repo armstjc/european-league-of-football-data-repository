@@ -1,5 +1,6 @@
 import glob
 import json
+import logging
 import os
 import time
 from datetime import datetime
@@ -17,14 +18,15 @@ from elf_utils import parse_position_names
 def get_elf_rosters(save=False, season=0):
     now = datetime.now()
     rosters_df = pd.DataFrame()
+    rosters_df_arr = []
     row_df = pd.DataFrame()
     season = now.year
     players_url = "https://elf-app-89392.web.app/apiPublic/dump/players?"
 
-    filter_out_seasons = False
+    # filter_out_seasons = False
 
-    if season >= 2021 and season <= now.year:
-        filter_out_seasons = True
+    # if season >= 2021 and season <= now.year:
+    #     filter_out_seasons = True
 
     response = urlopen(players_url)
     json_string = response.read()
@@ -45,17 +47,21 @@ def get_elf_rosters(save=False, season=0):
         row_df['player_short_name'] = value['cbsname']
 
         sec_pos = value['secpos']
-        if sec_pos == None:
+        if sec_pos is None:
 
             row_df['player_position'] = parse_position_names(value['pos'])
         else:
             primary_position = parse_position_names(value['pos'])
             secondary_position = parse_position_names(value['secpos'])
-            row_df['player_position'] = f"{primary_position}/{secondary_position}"
+            row_df['player_position'] = f"{
+                primary_position}/{secondary_position}"
 
         try:
             row_df['player_height_m'] = int(value['height']) / 100
-        except:
+        except Exception as e:
+            logging.info(
+                f"Could not get player height in meters. Full exception `{e}`"
+            )
             row_df['player_height_m'] = None
 
         row_df.loc[row_df['player_height_m'] > 0,
@@ -63,20 +69,31 @@ def get_elf_rosters(save=False, season=0):
 
         try:
             row_df['player_height_in'] = row_df['player_height_in'].round(2)
-        except:
+        except Exception as e:
+            logging.info(
+                f"Could not get player height in inches. Full exception `{e}`"
+            )
             row_df['player_height_in'] = None
 
         try:
             row_df['player_weight_kg'] = int(value['weight'])
-        except:
+        except Exception as e:
+            logging.info(
+                f"Could not get player weight in KG. Full exception `{e}`"
+            )
             row_df['player_weight_kg'] = None
 
-        row_df.loc[row_df['player_weight_kg'] > 0,
-                   'player_weight_lbs'] = row_df['player_weight_kg'] / 0.45359237
+        row_df.loc[
+            row_df['player_weight_kg'] > 0,
+            'player_weight_lbs'
+        ] = row_df['player_weight_kg'] / 0.45359237
 
         try:
             row_df['player_weight_lbs'] = row_df['player_weight_lbs'].round(2)
-        except:
+        except Exception as e:
+            logging.info(
+                f"Could not get player weight in pounds. Full exception `{e}`"
+            )
             row_df['player_weight_lbs'] = None
 
         row_df['birth_place'] = value['birthplace']
@@ -92,15 +109,20 @@ def get_elf_rosters(save=False, season=0):
 
         try:
             row_df['awards'] = value['awards']
-        except:
+        except Exception as e:
+            logging.info(
+                "Could not find any awards for this player. " +
+                f"Full exception `{e}`"
+            )
             row_df['awards'] = None
 
         row_df['player_headshot_url'] = value['avatar']
-
-        rosters_df = pd.concat([rosters_df, row_df], ignore_index=True)
+        rosters_df_arr.append(row_df)
         del row_df
 
-    if save == True:
+    rosters_df = pd.concat(rosters_df_arr, ignore_index=True)
+
+    if save is True:
         seasons_arr = rosters_df['season'].to_numpy()
         team_abv_arr = rosters_df['team_abv'].to_numpy()
 
@@ -121,13 +143,17 @@ def get_old_elf_rosters(save=False, season=0):
     now = datetime.now()
 
     rosters_df = pd.DataFrame()
+    rosters_df_arr = []
     row_df = pd.DataFrame()
 
     filter_out_seasons = False
     hit_wall = False
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"}
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) " +
+        "AppleWebKit/537.36 (KHTML, like Gecko) " +
+        "Chrome/83.0.4103.97 Safari/537.36"
+    }
 
     if season >= 2021 and season <= now.year:
         filter_out_seasons = True
@@ -136,9 +162,10 @@ def get_old_elf_rosters(save=False, season=0):
     page_num = 0
     running_count = 0
 
-    while hit_wall == False:
+    while hit_wall is False:
         page_num += 1
-        players_url = f"https://europeanleague.football/league/players?7e78f181_page={page_num}"
+        players_url = "https://europeanleague.football/league/players" +\
+            f"?7e78f181_page={page_num}"
         time.sleep(1)
 
         response = requests.get(players_url, headers=headers, timeout=10)
@@ -170,12 +197,21 @@ def get_old_elf_rosters(save=False, season=0):
                 player_position = player_info.find(
                     'div', {'fs-cmsfilter-field': 'pos'}).text
                 try:
-                    player_height_m = float(str(player_info.find(
-                        'div', {'fs-cmsfilter-field': 'height'}).text).replace(',', '.'))
-                except:
+                    player_height_m = float(
+                        str(
+                            player_info.find(
+                                'div', {'fs-cmsfilter-field': 'height'}
+                            ).text
+                        ).replace(',', '.')
+                    )
+                except Exception as e:
+                    logging.info(
+                        "Could not convert the player's height in meters " +
+                        f"to a float. Full exception `{e}`"
+                    )
                     player_height_m = None
 
-                if player_height_m != None:
+                if player_height_m is not None:
                     player_height_in = round((player_height_m / 0.0254), 2)
                 else:
                     player_height_in = None
@@ -183,10 +219,14 @@ def get_old_elf_rosters(save=False, season=0):
                 try:
                     player_weight_kg = int(player_info.find(
                         'div', {'fs-cmsfilter-field': 'weight'}).text)
-                except:
+                except Exception as e:
+                    logging.info(
+                        "Could not convert the player's weight in KG " +
+                        f"to a float. Full exception `{e}`"
+                    )
                     player_weight_kg = None
 
-                if player_weight_kg != None:
+                if player_weight_kg is not None:
                     player_weight_lbs = round(
                         (player_weight_kg / 0.45359237), 2)
                 else:
@@ -215,50 +255,64 @@ def get_old_elf_rosters(save=False, season=0):
                         index=[0]
                     )
 
-                    player_season = int(str(ps.find_all(
-                        'div', {'class': 'pc-pre-heading is--multi-item'})[0].text).replace(' Team:', ''))
+                    player_season = int(
+                        str(
+                            ps.find_all(
+                                'div',
+                                {'class': 'pc-pre-heading is--multi-item'}
+                            )[0].text
+                        ).replace(' Team:', '')
+                    )
                     player_team = ps.find_all(
-                        'div', {'class': 'pc-pre-heading is--multi-item'})[1].text
+                        'div', {'class': 'pc-pre-heading is--multi-item'}
+                    )[1].text
 
                     if player_team == "-":
                         pass
                     else:
                         row_df['season'] = player_season
                         row_df['team'] = player_team
+                        # rosters_df = pd.concat(
+                        #     [rosters_df, row_df], ignore_index=True)
 
-                        rosters_df = pd.concat(
-                            [rosters_df, row_df], ignore_index=True)
+                    rosters_df_arr.append(row_df)
+                    del row_df
 
-            print(
-                f"{player_count} ELF players loaded in, {running_count} ELF players currently parsed.")
+            logging.info(
+                f"{player_count} ELF players loaded in, " +
+                f"{running_count} ELF players currently parsed."
+            )
 
             if player_count < 50:
-                print('Finished parsing through the ELF players list.')
+                logging.info('Finished parsing through the ELF players list.')
                 hit_wall = True
 
             elif player_count == 0:
-                print('No further ELF players were found.')
+                logging.info('No further ELF players were found.')
                 hit_wall = True
 
-            print('')
         elif retries < 5:
-            print(
-                f"Couldn't load in player cards, attempting to reconnect. (Previous retries: {retries})")
+            logging.warning(
+                "Couldn't load in player cards, attempting to reconnect. " +
+                f"(Previous retries: {retries})")
             retries += 1
 
         elif retries == 5:
-            print(
-                'Aborting download/parsing of ELF player rosters. Maximum retries reached.')
+            logging.warning(
+                "Aborting download/parsing of ELF player rosters. " +
+                "Maximum retries reached."
+            )
         else:
             hit_wall = True
 
-    if filter_out_seasons == True:
+    rosters_df = pd.concat(rosters_df_arr, ignore_index=True)
+    if filter_out_seasons is True:
         team_df = rosters_df.loc[(rosters_df['season'] == season)]
 
     rosters_df = rosters_df.sort_values(
         by=['season', 'team', 'player_number', 'player_id'])
 
-    if save == True:
+    if save is True:
 
         seasons_arr = rosters_df['season'].to_numpy()
         seasons_arr = np.unique(seasons_arr)
@@ -279,18 +333,23 @@ def get_old_elf_rosters(save=False, season=0):
 
 def get_elf_player_ids(save=False):
     rosters_df = pd.DataFrame()
+    rosters_df_arr = []
     row_df = pd.DataFrame()
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"}
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) " +
+        "AppleWebKit/537.36 (KHTML, like Gecko) " +
+        "Chrome/83.0.4103.97 Safari/537.36"
+    }
 
     hit_wall = False
     retries = 0
     page_num = 0
     running_count = 0
-    while hit_wall == False:
+    while hit_wall is False:
         page_num += 1
-        players_url = f"https://europeanleague.football/league/players?7e78f181_page={page_num}"
+        players_url = "https://europeanleague.football/league/players" +\
+            f"?7e78f181_page={page_num}"
         time.sleep(1)
 
         response = requests.get(players_url, headers=headers, timeout=10)
@@ -322,12 +381,22 @@ def get_elf_player_ids(save=False):
                 player_position = player_info.find(
                     'div', {'fs-cmsfilter-field': 'pos'}).text
                 try:
-                    player_height_m = float(str(player_info.find(
-                        'div', {'fs-cmsfilter-field': 'height'}).text).replace(',', '.'))
-                except:
+                    player_height_m = float(
+                        str(
+                            player_info.find(
+                                'div', {'fs-cmsfilter-field': 'height'}
+                            ).text
+                        ).replace(',', '.')
+                    )
+                except Exception as e:
+                    logging.info(
+                        "Could not convert player height " +
+                        "in meters into a float. " +
+                        f"Full exception `{e}`"
+                    )
                     player_height_m = None
 
-                if player_height_m != None:
+                if player_height_m is not None:
                     player_height_in = round((player_height_m / 0.0254), 2)
                 else:
                     player_height_in = None
@@ -335,10 +404,15 @@ def get_elf_player_ids(save=False):
                 try:
                     player_weight_kg = int(player_info.find(
                         'div', {'fs-cmsfilter-field': 'weight'}).text)
-                except:
+                except Exception as e:
+                    logging.info(
+                        "Could not convert player weight " +
+                        "in KG into a float. " +
+                        f"Full exception `{e}`"
+                    )
                     player_weight_kg = None
 
-                if player_weight_kg != None:
+                if player_weight_kg is not None:
                     player_weight_lbs = round(
                         (player_weight_kg / 0.45359237), 2)
                 else:
@@ -363,36 +437,40 @@ def get_elf_player_ids(save=False):
                     },
                     index=[0]
                 )
+                rosters_df_arr.append(row_df)
 
-                rosters_df = pd.concat([rosters_df, row_df], ignore_index=True)
-
-            print(
-                f"{player_count} ELF players loaded in, {running_count} ELF players currently parsed.")
+            logging.info(
+                f"{player_count} ELF players loaded in, " +
+                f"{running_count} ELF players currently parsed."
+            )
 
             if player_count < 50:
-                print('Finished parsing through the ELF players list.')
+                logging.info('Finished parsing through the ELF players list.')
                 hit_wall = True
 
             elif player_count == 0:
-                print('No further ELF players were found.')
+                logging.info('No further ELF players were found.')
                 hit_wall = True
 
-            print('')
         elif retries < 5:
-            print(
-                f"Couldn't load in player cards, attempting to reconnect. (Previous retries: {retries})")
+            logging.warning(
+                "Couldn't load in player cards, attempting to reconnect. " +
+                f"(Previous retries: {retries})"
+            )
             retries += 1
 
         elif retries == 5:
-            print(
-                'Aborting download/parsing of ELF player rosters. Maximum retries reached.')
+            logging.warning(
+                "Aborting download/parsing of ELF player rosters. " +
+                "Maximum retries reached."
+            )
         else:
             hit_wall = True
-
+    rosters_df = pd.concat(rosters_df_arr, ignore_index=True)
     rosters_df = rosters_df.sort_values(
         by=['player_id'])
 
-    if save == True:
+    if save is True:
         rosters_df.to_csv('player_info/elf_players.csv', index=False)
 
     return rosters_df
@@ -401,11 +479,12 @@ def get_elf_player_ids(save=False):
 def generate_player_hist_file():
     now = datetime.now()
     rosters_df = pd.DataFrame()
+    rosters_df_arr = []
     row_df = pd.DataFrame()
 
     players_url = "https://elf-app-89392.web.app/apiPublic/dump/players?"
 
-    filter_out_seasons = False
+    # filter_out_seasons = False
 
     response = urlopen(players_url)
     json_string = response.read()
@@ -422,11 +501,24 @@ def generate_player_hist_file():
         birthday = value['birthdate']
 
         for i in value['teamhist']:
-            if i['from'] == None:
+            if i['from'] is None:
                 pass
             else:
-                season = int(str(i['from']).replace(
-                    '-01', '').replace('-04', '').replace('-07', '').replace('-09', '').replace('-11', ''))
+                season = int(
+                    str(
+                        i['from']
+                    ).replace(
+                        '-01', ''
+                    ).replace(
+                        '-04', ''
+                    ).replace(
+                        '-07', ''
+                    ).replace(
+                        '-09', ''
+                    ).replace(
+                        '-11', ''
+                    )
+                )
                 team = i['team']
 
                 row_df = pd.DataFrame(
@@ -440,11 +532,11 @@ def generate_player_hist_file():
                     },
                     index=[0]
                 )
-
-                rosters_df = pd.concat([rosters_df, row_df], ignore_index=True)
+                rosters_df_arr.append(row_df)
 
                 del row_df
-
+    rosters_df = pd.concat(rosters_df_arr, ignore_index=True)
+    rosters_df["last_updated"] = now.isoformat()
     rosters_df.to_csv('rosters/player_history/player_history.csv', index=False)
     print(rosters_df)
 
@@ -456,7 +548,8 @@ def generate_elf_roster_files(save=False):
     player_hist_df = pd.read_csv('rosters/player_history/player_history.csv')
 
     player_hist_df = player_hist_df[[
-        'season', 'team', 'player_id', 'player_first_name', 'player_last_name']]
+        'season', 'team', 'player_id', 'player_first_name', 'player_last_name'
+    ]]
 
     filepath = os.path.abspath("rosters/raw")
     file_list = glob.iglob(filepath+"/*csv")
@@ -482,7 +575,8 @@ def generate_elf_roster_files(save=False):
     old_rosters_df['team_abv'] = old_rosters_df['team'].map(team_name_abv_dict)
 
     old_rosters_df['player_short_name'] = old_rosters_df[[
-        'player_first_name', 'player_last_name']].apply(lambda x: f'{x[0][0]}. {x[1]}', axis=1)
+        'player_first_name', 'player_last_name'
+    ]].apply(lambda x: f'{x[0][0]}. {x[1]}', axis=1)
 
     old_rosters_df = pd.merge(
         old_rosters_df,
@@ -494,13 +588,14 @@ def generate_elf_roster_files(save=False):
     del team_name_abv_dict, player_hist_df
 
     team_abv_name_dict = dict(
-        zip(team_info_df['team_abv'], team_info_df['team_name']))
+        zip(team_info_df['team_abv'], team_info_df['team_name'])
+    )
     new_rosters_df['team'] = new_rosters_df['team_abv'].map(team_abv_name_dict)
     del team_abv_name_dict
 
     rosters_df = pd.concat([new_rosters_df, old_rosters_df], ignore_index=True)
 
-    if save == True:
+    if save is True:
         seasons_arr = rosters_df['season'].to_numpy()
         seasons_arr = np.unique(seasons_arr)
 
