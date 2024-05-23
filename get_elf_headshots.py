@@ -28,7 +28,7 @@ def get_elf_player_headshots(season: int):
             )
             time.sleep(4)
 
-        time.sleep(1)
+        time.sleep(3)
 
 
 if __name__ == "__main__":

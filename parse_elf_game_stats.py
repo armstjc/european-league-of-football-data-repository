@@ -366,7 +366,10 @@ def check_elf_stats(save=False):
                 player_GS = int(i['_attributes']['gs'])
             except Exception:
                 player_GS = 0
-
+                logging.info(
+                    "Could not find games started"
+                )
+            player_GS = player_GS
             try:
                 player_pos = i['_attributes']['opos']
             except Exception:
@@ -374,6 +377,7 @@ def check_elf_stats(save=False):
                     player_pos = i['_attributes']['dpos']
                 except Exception:
                     player_pos = None
+                player_pos = player_pos
 
                 for (key, value) in i.items():
                     if key == "_attributes":
@@ -456,7 +460,8 @@ def check_elf_stats(save=False):
                                 # Blocked XP, returned for 2 pts by defense.
                                 pass
                             elif j == "patretfumb":
-                                # Fumble on XP/2PC, returned for 2 pts by defense.
+                                # Fumble on XP/2PC,
+                                # returned for 2 pts by defense.
                                 pass
                             else:
                                 raise ValueError(j)
@@ -500,7 +505,7 @@ def check_elf_stats(save=False):
                                 pass
                             elif j == "qbh":  # QB Hits
                                 pass
-                            elif j == "saf":  # Safties recorded
+                            elif j == "saf":  # Safeties recorded
                                 pass
                             else:
                                 raise ValueError(j)
@@ -901,37 +906,40 @@ def parse_elf_game_stats(save=False):
                             del fumbles, fumbles_lost
 
                         elif key == "scoring":  # General Scoring
-                            # There's nothing under this key that isn't in another section.
+                            # There's nothing under this key
+                            # that isn't in another section.
                             pass
 
                         elif key == "defense":  # General Defense
                             try:
                                 defense_solo_tackles = int(
                                     value['_attributes']['tackua'])
-                            except:
+                            except Exception:
                                 defense_solo_tackles = 0
 
                             try:
                                 defense_ast_tackles = int(
                                     value['_attributes']['tacka'])
-                            except:
+                            except Exception:
                                 defense_ast_tackles = 0
 
                             try:
                                 defense_total_tackles = int(
                                     value['_attributes']['tot_tack'])
-                            except:
+                            except Exception:
                                 defense_total_tackles = 0
 
                             try:
                                 defense_solo_tfl = int(
                                     value['_attributes']['tflua'])
-                            except:
+                            except Exception:
                                 defense_solo_tfl = 0
 
                             try:
-                                defense_ast_tfl = int(value['_attributes']['tfla'])
-                            except:
+                                defense_ast_tfl = int(
+                                    value['_attributes']['tfla']
+                                )
+                            except Exception:
                                 defense_ast_tfl = 0
 
                             defense_tfl = round(
@@ -940,68 +948,74 @@ def parse_elf_game_stats(save=False):
                             try:
                                 defense_tfl_yds = int(
                                     value['_attributes']['tflyds'])
-                            except:
+                            except Exception:
                                 defense_tfl_yds = 0
 
                             try:
                                 defense_solo_sack = int(
                                     value['_attributes']['sackua'])
-                            except:
+                            except Exception:
                                 defense_solo_sack = 0
 
                             try:
                                 defense_ast_sack = int(
                                     value['_attributes']['sacka'])
-                            except:
+                            except Exception:
                                 defense_ast_sack = 0
 
                             defense_sacks = round(
                                 defense_solo_sack + (defense_ast_sack / 2), 1)
 
                             try:
-                                defense_qb_hits = int(value['_attributes']['qbh'])
-                            except:
+                                defense_qb_hits = int(
+                                    value['_attributes']['qbh']
+                                )
+                            except Exception:
                                 defense_qb_hits = None
 
                             try:
                                 defense_int = int(value['_attributes']['int'])
-                            except:
+                            except Exception:
                                 defense_int = 0
 
                             try:
                                 defense_int_yds = int(
                                     value['_attributes']['intyds'])
-                            except:
+                            except Exception:
                                 defense_int_yds = 0
 
                             try:
                                 defense_pbu = int(value['_attributes']['brup'])
-                            except:
+                            except Exception:
                                 defense_pbu = 0
 
                             try:
                                 defense_ff = int(value['_attributes']['ff'])
-                            except:
+                            except Exception:
                                 defense_ff = 0
 
                             try:
                                 defense_fr = int(value['_attributes']['fr'])
-                            except:
+                            except Exception:
                                 defense_fr = 0
 
                             try:
-                                defense_fr_yds = int(value['_attributes']['fryds'])
-                            except:
+                                defense_fr_yds = int(
+                                    value['_attributes']['fryds']
+                                )
+                            except Exception:
                                 defense_fr_yds = 0
 
                             try:
                                 defense_saf = int(value['_attributes']['saf'])
-                            except:
+                            except Exception:
                                 defense_saf = 0
 
                             try:
-                                defense_blkd = int(value['_attributes']['blkd'])
-                            except:
+                                defense_blkd = int(
+                                    value['_attributes']['blkd']
+                                )
+                            except Exception:
                                 defense_blkd = 0
 
                             row_df = pd.DataFrame({
@@ -1059,9 +1073,13 @@ def parse_elf_game_stats(save=False):
                         elif key == "ir":  # Interception Return Stats
 
                             # defense_int = int(value['_attributes']['no'])
-                            # defense_int_yds = int(value['_attributes']['yds'])
+                            # defense_int_yds = int(
+                            #     value['_attributes']['yds']
+                            # )
                             defense_int_td = int(value['_attributes']['td'])
-                            defense_int_long = int(value['_attributes']['long'])
+                            defense_int_long = int(
+                                value['_attributes']['long']
+                            )
 
                             row_df = pd.DataFrame({
                                 'season': game_season,
@@ -1122,7 +1140,9 @@ def parse_elf_game_stats(save=False):
                             )
 
                             fumble_recoveries_df = pd.concat(
-                                [fumble_recoveries_df, row_df], ignore_index=True)
+                                [fumble_recoveries_df, row_df],
+                                ignore_index=True
+                            )
                             del row_df
                             # del defense_fr, defense_fr_yds, \
                             #     defense_fr_tds, defense_fr_long
@@ -1167,77 +1187,77 @@ def parse_elf_game_stats(save=False):
                         elif key == "pat":  # Extra Points
                             try:
                                 xp_made = int(value['_attributes']['kickmade'])
-                            except:
+                            except Exception:
                                 xp_made = 0
 
                             try:
                                 xp_att = int(value['_attributes']['kickatt'])
-                            except:
+                            except Exception:
                                 xp_att = 0
 
                             try:
                                 xp_blkd = int(value['_attributes']['blkd'])
-                            except:
+                            except Exception:
                                 xp_blkd = 0
 
                             try:
                                 two_pt_pass_made = int(
                                     value['_attributes']['passmade'])
-                            except:
+                            except Exception:
                                 two_pt_pass_made = 0
 
                             try:
                                 two_pt_pass_att = int(
                                     value['_attributes']['passatt'])
-                            except:
+                            except Exception:
                                 two_pt_pass_att = 0
 
                             try:
                                 two_pt_rush_made = int(
                                     value['_attributes']['rushmade'])
-                            except:
+                            except Exception:
                                 two_pt_rush_made = 0
 
                             try:
                                 two_pt_rush_att = int(
                                     value['_attributes']['rushatt'])
-                            except:
+                            except Exception:
                                 two_pt_rush_att = 0
 
                             try:
                                 two_pt_rec_made = int(
                                     value['_attributes']['rcvmade'])
-                            except:
+                            except Exception:
                                 two_pt_rec_made = 0
 
                             try:
                                 two_pt_rec_att = int(
                                     value['_attributes']['rcvatt'])
-                            except:
+                            except Exception:
                                 two_pt_rec_att = 0
 
                             try:
                                 def_two_pt_fum_made = int(
                                     value['_attributes']['retfmade'])
-                            except:
+                            except Exception:
                                 def_two_pt_fum_made = 0
 
                             try:
                                 def_two_pt_fum_att = int(
                                     value['_attributes']['retfatt'])
-                            except:
+                            except Exception:
                                 def_two_pt_fum_att = 0
 
                             try:
                                 def_two_pt_kick_made = int(
                                     value['_attributes']['retkmade'])
-                            except:
+                            except Exception:
                                 def_two_pt_kick_made = 0
 
                             try:
                                 def_two_pt_kick_att = int(
                                     value['_attributes']['retkatt'])
-                            except:
+                            except Exception:
                                 def_two_pt_kick_att = 0
 
                             row_df = pd.DataFrame({
@@ -1292,7 +1312,7 @@ def parse_elf_game_stats(save=False):
                             # IDK what this value is for, but it exists.
                             try:
                                 ko_fc_yds = int(value['_attributes']['fcyds'])
-                            except:
+                            except Exception:
                                 ko_fc_yds = 0
 
                             row_df = pd.DataFrame({
@@ -1320,7 +1340,9 @@ def parse_elf_game_stats(save=False):
                             )
 
                             kickoffs_df = pd.concat(
-                                [kickoffs_df, row_df], ignore_index=True)
+                                [kickoffs_df, row_df],
+                                ignore_index=True
+                            )
 
                             del row_df
                             del ko_no, ko_yds, \
@@ -1331,10 +1353,14 @@ def parse_elf_game_stats(save=False):
                             punt_no = int(value['_attributes']['long'])
                             punt_gross_yds = int(value['_attributes']['yds'])
                             if punt_no > 0:
-                                punt_gross_avg = round(punt_gross_yds / punt_no, 1)
+                                punt_gross_avg = round(
+                                    punt_gross_yds / punt_no,
+                                    1
+                                )
                             else:
                                 punt_gross_avg = None
-                            # This isn't in the dataset (yet), but I'm adding this
+                            # This isn't in the dataset (yet),
+                            # but I'm adding this
                             # for future reference/expansion.
                             punt_net_yds = None
                             punt_net_avg = None
@@ -1468,11 +1494,11 @@ def parse_elf_game_stats(save=False):
                             fgr_yds = int(value['_attributes']['yds'])
                             try:
                                 fgr_td = int(value['_attributes']['td'])
-                            except:
+                            except Exception:
                                 fgr_td = 0
                             try:
                                 fgr_long = int(value['_attributes']['long'])
-                            except:
+                            except Exception:
                                 fgr_long = 0
 
                             row_df = pd.DataFrame({
@@ -1511,7 +1537,8 @@ def parse_elf_game_stats(save=False):
             for i in json_data['home_players']:
                 team_location = 'H'
 
-                if str(i['_attributes']['name']).lower() != 'team' and str(i['_attributes']['name']).lower() != 'tm':
+                if str(i['_attributes']['name']).lower() != 'team' \
+                        and str(i['_attributes']['name']).lower() != 'tm':
                     player_uni = i['_attributes']['uni']
                     player_name = i['_attributes']['name']
                     player_short_name = i['_attributes']['shortname']
@@ -1520,15 +1547,15 @@ def parse_elf_game_stats(save=False):
 
                     try:
                         player_GS = int(i['_attributes']['gs'])
-                    except:
+                    except Exception:
                         player_GS = 0
 
                     try:
                         player_pos = i['_attributes']['opos']
-                    except:
+                    except Exception:
                         try:
                             player_pos = i['_attributes']['dpos']
-                        except:
+                        except Exception:
                             player_pos = None
 
                     for (key, value) in i.items():
@@ -1543,7 +1570,9 @@ def parse_elf_game_stats(save=False):
                             pass_int = int(value['_attributes']['int'])
                             pass_long = int(value['_attributes']['long'])
                             pass_sacks = int(value['_attributes']['sacks'])
-                            pass_sacked_yds = int(value['_attributes']['sackyds'])
+                            pass_sacked_yds = int(
+                                value['_attributes']['sackyds']
+                            )
 
                             row_df = pd.DataFrame({
                                 'season': game_season,
@@ -1692,37 +1721,40 @@ def parse_elf_game_stats(save=False):
                             del fumbles, fumbles_lost
 
                         elif key == "scoring":  # General Scoring
-                            # There's nothing under this key that isn't in another section.
+                            # There's nothing under this key
+                            # that isn't in another section.
                             pass
 
                         elif key == "defense":  # General Defense
                             try:
                                 defense_solo_tackles = int(
                                     value['_attributes']['tackua'])
-                            except:
+                            except Exception:
                                 defense_solo_tackles = 0
 
                             try:
                                 defense_ast_tackles = int(
                                     value['_attributes']['tacka'])
-                            except:
+                            except Exception:
                                 defense_ast_tackles = 0
 
                             try:
                                 defense_total_tackles = int(
                                     value['_attributes']['tot_tack'])
-                            except:
+                            except Exception:
                                 defense_total_tackles = 0
 
                             try:
                                 defense_solo_tfl = int(
                                     value['_attributes']['tflua'])
-                            except:
+                            except Exception:
                                 defense_solo_tfl = 0
 
                             try:
-                                defense_ast_tfl = int(value['_attributes']['tfla'])
-                            except:
+                                defense_ast_tfl = int(
+                                    value['_attributes']['tfla']
+                                )
+                            except Exception:
                                 defense_ast_tfl = 0
 
                             defense_tfl = round(
@@ -1731,68 +1763,74 @@ def parse_elf_game_stats(save=False):
                             try:
                                 defense_tfl_yds = int(
                                     value['_attributes']['tflyds'])
-                            except:
+                            except Exception:
                                 defense_tfl_yds = 0
 
                             try:
                                 defense_solo_sack = int(
                                     value['_attributes']['sackua'])
-                            except:
+                            except Exception:
                                 defense_solo_sack = 0
 
                             try:
                                 defense_ast_sack = int(
                                     value['_attributes']['sacka'])
-                            except:
+                            except Exception:
                                 defense_ast_sack = 0
 
                             defense_sacks = round(
                                 defense_solo_sack + (defense_ast_sack / 2), 1)
 
                             try:
-                                defense_qb_hits = int(value['_attributes']['qbh'])
-                            except:
+                                defense_qb_hits = int(
+                                    value['_attributes']['qbh']
+                                )
+                            except Exception:
                                 defense_qb_hits = None
 
                             try:
                                 defense_int = int(value['_attributes']['int'])
-                            except:
+                            except Exception:
                                 defense_int = 0
 
                             try:
                                 defense_int_yds = int(
                                     value['_attributes']['intyds'])
-                            except:
+                            except Exception:
                                 defense_int_yds = 0
 
                             try:
                                 defense_pbu = int(value['_attributes']['brup'])
-                            except:
+                            except Exception:
                                 defense_pbu = 0
 
                             try:
                                 defense_ff = int(value['_attributes']['ff'])
-                            except:
+                            except Exception:
                                 defense_ff = 0
 
                             try:
                                 defense_fr = int(value['_attributes']['fr'])
-                            except:
+                            except Exception:
                                 defense_fr = 0
 
                             try:
-                                defense_fr_yds = int(value['_attributes']['fryds'])
-                            except:
+                                defense_fr_yds = int(
+                                    value['_attributes']['fryds']
+                                )
+                            except Exception:
                                 defense_fr_yds = 0
 
                             try:
                                 defense_saf = int(value['_attributes']['saf'])
-                            except:
+                            except Exception:
                                 defense_saf = 0
 
                             try:
-                                defense_blkd = int(value['_attributes']['blkd'])
-                            except:
+                                defense_blkd = int(
+                                    value['_attributes']['blkd']
+                                )
+                            except Exception:
                                 defense_blkd = 0
 
                             row_df = pd.DataFrame({
@@ -1815,7 +1853,7 @@ def parse_elf_game_stats(save=False):
                                 'defense_total_tackles': defense_total_tackles,
                                 'defense_solo_tfl': defense_solo_tfl,
                                 'defense_ast_tfl': defense_ast_tfl,
-                                'defense_tfls': defense_tfl,
+                                'defense_tfl': defense_tfl,
                                 'defense_tfl_yds': defense_tfl_yds,
                                 'defense_solo_sack': defense_solo_sack,
                                 'defense_ast_sack': defense_ast_sack,
@@ -1850,9 +1888,13 @@ def parse_elf_game_stats(save=False):
                         elif key == "ir":  # Interception Return Stats
 
                             # defense_int = int(value['_attributes']['no'])
-                            # defense_int_yds = int(value['_attributes']['yds'])
+                            # defense_int_yds = int(
+                            #     value['_attributes']['yds']
+                            # )
                             defense_int_td = int(value['_attributes']['td'])
-                            defense_int_long = int(value['_attributes']['long'])
+                            defense_int_long = int(
+                                value['_attributes']['long']
+                            )
 
                             row_df = pd.DataFrame({
                                 'season': game_season,
@@ -1915,7 +1957,9 @@ def parse_elf_game_stats(save=False):
                             )
 
                             fumble_recoveries_df = pd.concat(
-                                [fumble_recoveries_df, row_df], ignore_index=True)
+                                [fumble_recoveries_df, row_df],
+                                ignore_index=True
+                            )
                             del row_df
                             # del defense_fr, defense_fr_yds, \
                             #     defense_fr_tds, defense_fr_long
@@ -1960,77 +2004,77 @@ def parse_elf_game_stats(save=False):
                         elif key == "pat":  # Extra Points
                             try:
                                 xp_made = int(value['_attributes']['kickmade'])
-                            except:
+                            except Exception:
                                 xp_made = 0
 
                             try:
                                 xp_att = int(value['_attributes']['kickatt'])
-                            except:
+                            except Exception:
                                 xp_att = 0
 
                             try:
                                 xp_blkd = int(value['_attributes']['blkd'])
-                            except:
+                            except Exception:
                                 xp_blkd = 0
 
                             try:
                                 two_pt_pass_made = int(
                                     value['_attributes']['passmade'])
-                            except:
+                            except Exception:
                                 two_pt_pass_made = 0
 
                             try:
                                 two_pt_pass_att = int(
                                     value['_attributes']['passatt'])
-                            except:
+                            except Exception:
                                 two_pt_pass_att = 0
 
                             try:
                                 two_pt_rush_made = int(
                                     value['_attributes']['rushmade'])
-                            except:
+                            except Exception:
                                 two_pt_rush_made = 0
 
                             try:
                                 two_pt_rush_att = int(
                                     value['_attributes']['rushatt'])
-                            except:
+                            except Exception:
                                 two_pt_rush_att = 0
 
                             try:
                                 two_pt_rec_made = int(
                                     value['_attributes']['rcvmade'])
-                            except:
+                            except Exception:
                                 two_pt_rec_made = 0
 
                             try:
                                 two_pt_rec_att = int(
                                     value['_attributes']['rcvatt'])
-                            except:
+                            except Exception:
                                 two_pt_rec_att = 0
 
                             try:
                                 def_two_pt_fum_made = int(
                                     value['_attributes']['retfmade'])
-                            except:
+                            except Exception:
                                 def_two_pt_fum_made = 0
 
                             try:
                                 def_two_pt_fum_att = int(
                                     value['_attributes']['retfatt'])
-                            except:
+                            except Exception:
                                 def_two_pt_fum_att = 0
 
                             try:
                                 def_two_pt_kick_made = int(
                                     value['_attributes']['retkmade'])
-                            except:
+                            except Exception:
                                 def_two_pt_kick_made = 0
 
                             try:
                                 def_two_pt_kick_att = int(
                                     value['_attributes']['retkatt'])
-                            except:
+                            except Exception:
                                 def_two_pt_kick_att = 0
 
                             row_df = pd.DataFrame({
@@ -2085,7 +2129,7 @@ def parse_elf_game_stats(save=False):
                             # IDK what this value is for, but it exists.
                             try:
                                 ko_fc_yds = int(value['_attributes']['fcyds'])
-                            except:
+                            except Exception:
                                 ko_fc_yds = 0
 
                             row_df = pd.DataFrame({
@@ -2124,10 +2168,13 @@ def parse_elf_game_stats(save=False):
                             punt_no = int(value['_attributes']['long'])
                             punt_gross_yds = int(value['_attributes']['yds'])
                             if punt_no > 0:
-                                punt_gross_avg = round(punt_gross_yds / punt_no, 1)
+                                punt_gross_avg = round(
+                                    punt_gross_yds / punt_no, 1
+                                )
                             else:
                                 punt_gross_avg = None
-                            # This isn't in the dataset (yet), but I'm adding this
+                            # This isn't in the dataset (yet),
+                            # but I'm adding this
                             # for future reference/expansion.
                             punt_net_yds = None
                             punt_net_avg = None
@@ -2261,11 +2308,11 @@ def parse_elf_game_stats(save=False):
                             fgr_yds = int(value['_attributes']['yds'])
                             try:
                                 fgr_td = int(value['_attributes']['td'])
-                            except:
+                            except Exception:
                                 fgr_td = 0
                             try:
                                 fgr_long = int(value['_attributes']['long'])
-                            except:
+                            except Exception:
                                 fgr_long = 0
 
                             row_df = pd.DataFrame({
@@ -2319,37 +2366,52 @@ def parse_elf_game_stats(save=False):
     ]
 
     # Passing Stats
-    #############################################################################################################
+    #######################################################
 
-    pass_df.loc[pass_df['pass_att'] > 0,
-                'pass_comp_pct'] = pass_df['pass_comp'] / pass_df['pass_att']
+    pass_df.loc[
+        pass_df['pass_att'] > 0,
+        'pass_comp_pct'
+    ] = pass_df['pass_comp'] / pass_df['pass_att']
     pass_df['pass_comp_pct'] = pass_df['pass_comp_pct'].round(2)
 
-    pass_df.loc[pass_df['pass_att'] > 0,
-                'pass_ypa'] = pass_df['pass_yds'] / pass_df['pass_att']
+    pass_df.loc[
+        pass_df['pass_att'] > 0,
+        'pass_ypa'
+    ] = pass_df['pass_yds'] / pass_df['pass_att']
     pass_df['pass_ypa'] = pass_df['pass_ypa'].round(2)
 
-    pass_df.loc[pass_df['pass_comp'] > 0,
-                'pass_ypc'] = pass_df['pass_yds'] / pass_df['pass_comp']
+    pass_df.loc[
+        pass_df['pass_comp'] > 0,
+        'pass_ypc'
+    ] = pass_df['pass_yds'] / pass_df['pass_comp']
     pass_df['pass_ypc'] = pass_df['pass_ypc'].round(2)
 
-    pass_df.loc[pass_df['pass_att'] > 0, 'pass_cfb_qbr'] = ((8.4 * pass_df['pass_yds']) + (
-        330 * pass_df['pass_tds']) + (100 * pass_df['pass_comp']) - (200*pass_df['pass_int'])) / pass_df['pass_att']
+    pass_df.loc[pass_df['pass_att'] > 0, 'pass_cfb_qbr'] = (
+        (8.4 * pass_df['pass_yds']) +
+        (330 * pass_df['pass_tds']) +
+        (100 * pass_df['pass_comp']) -
+        (200 * pass_df['pass_int'])
+    ) / pass_df['pass_att']
     pass_df['pass_cfb_qbr'] = pass_df['pass_cfb_qbr'].round(2)
 
     pass_df.loc[pass_df['pass_att'] > 0, 'pass_nfl_qbr'] = 0
     pass_df['pass_nfl_qbr'] = pass_df['pass_nfl_qbr'].round(2)
 
     pass_df.loc[pass_df['pass_att'] > 0, 'pass_ny/a'] = (
-        pass_df['pass_yds'] - pass_df['pass_sacked_yds']) / (pass_df['pass_att'] + pass_df['pass_sacks'])
+        pass_df['pass_yds'] - pass_df['pass_sacked_yds']
+    ) / (pass_df['pass_att'] + pass_df['pass_sacks'])
     pass_df['pass_ny/a'] = pass_df['pass_ny/a'].round(2)
 
     pass_df.loc[pass_df['pass_att'] > 0, 'pass_any/a'] = (
-        pass_df['pass_yds'] - pass_df['pass_sacked_yds'] + (20 * pass_df['pass_tds']) - (45 * pass_df['pass_int'])) / (pass_df['pass_att'] + pass_df['pass_sacks'])
+        pass_df['pass_yds'] -
+        pass_df['pass_sacked_yds'] +
+        (20 * pass_df['pass_tds']) -
+        (45 * pass_df['pass_int'])
+    ) / (pass_df['pass_att'] + pass_df['pass_sacks'])
     pass_df['pass_any/a'] = pass_df['pass_any/a'].round(2)
 
     # Rushing Stats
-    #############################################################################################################
+    #######################################################
 
     rush_df.loc[rush_df['rush_att'] > 0,
                 'rush_avg'] = rush_df['rush_yds'] / rush_df['rush_att']
@@ -2361,21 +2423,28 @@ def parse_elf_game_stats(save=False):
     del pass_df, rush_df
 
     # Rec. Stats
-    #############################################################################################################
+    #######################################################
 
-    rec_df.loc[rec_df['rec_targets'] > 0,
-               'rec_catch_pct'] = rec_df['rec_no'] / rec_df['rec_targets']
+    rec_df.loc[
+        rec_df['rec_targets'] > 0,
+        'rec_catch_pct'
+    ] = rec_df['rec_no'] / rec_df['rec_targets']
     rec_df['rec_catch_pct'] = rec_df['rec_catch_pct'].round(2)
-    rec_df.loc[rec_df['rec_no'] > 0,
-               'rec_avg'] = rec_df['rec_yds'] / rec_df['rec_no']
+    rec_df.loc[
+        rec_df['rec_no'] > 0,
+        'rec_avg'
+    ] = rec_df['rec_yds'] / rec_df['rec_no']
 
     player_stats_df = player_stats_df.merge(
-        right=rec_df, how='outer', on=default_cols_list)
+        right=rec_df,
+        how='outer',
+        on=default_cols_list
+    )
 
     del rec_df
 
     # Fumble Stats
-    #############################################################################################################
+    #######################################################
 
     player_stats_df = player_stats_df.merge(
         right=fumbles_df, how='outer', on=default_cols_list)
@@ -2383,7 +2452,7 @@ def parse_elf_game_stats(save=False):
     del fumbles_df
 
     # Standard Defense Stats
-    #############################################################################################################
+    #######################################################
 
     player_stats_df = player_stats_df.merge(
         right=defense_df, how='outer', on=default_cols_list)
@@ -2391,7 +2460,7 @@ def parse_elf_game_stats(save=False):
     del defense_df
 
     # Interception Return Stats
-    #############################################################################################################
+    #######################################################
 
     # ir_cols_list = default_cols_list.copy()
     # ir_cols_list.append('defense_int')
@@ -2402,7 +2471,7 @@ def parse_elf_game_stats(save=False):
     del interceptions_df
 
     # Fumble Return Stats
-    #############################################################################################################
+    #######################################################
     # fr_cols_list = default_cols_list.copy()
     # fr_cols_list.append('defense_fr')
     # fr_cols_list.append('defense_fr_yds')
@@ -2412,7 +2481,7 @@ def parse_elf_game_stats(save=False):
     del fumble_recoveries_df
 
     # Punting Stats
-    #############################################################################################################
+    #######################################################
 
     player_stats_df = player_stats_df.merge(
         right=punts_df, how='outer', on=default_cols_list)
@@ -2420,7 +2489,7 @@ def parse_elf_game_stats(save=False):
     del punts_df
 
     # Kickoff Stats
-    #############################################################################################################
+    #######################################################
 
     kickoffs_df.loc[kickoffs_df['ko_no'] > 0,
                     'ko_avg'] = kickoffs_df['ko_yds'] / kickoffs_df['ko_no']
@@ -2430,10 +2499,12 @@ def parse_elf_game_stats(save=False):
     del kickoffs_df
 
     # Field Goal Stats
-    #############################################################################################################
+    #######################################################
 
-    field_goals_df.loc[field_goals_df['fg_att'] > 0,
-                       'fg_pct'] = field_goals_df['fg_made']/field_goals_df['fg_att']
+    field_goals_df.loc[
+        field_goals_df['fg_att'] > 0,
+        'fg_pct'
+    ] = field_goals_df['fg_made']/field_goals_df['fg_att']
 
     player_stats_df = player_stats_df.merge(
         right=field_goals_df, how='outer', on=default_cols_list)
@@ -2441,7 +2512,7 @@ def parse_elf_game_stats(save=False):
     del field_goals_df
 
     # Extra Point + 2-Point Conversion Stats
-    #############################################################################################################
+    #######################################################
 
     player_stats_df = player_stats_df.merge(
         right=extra_points_df, how='outer', on=default_cols_list)
@@ -2449,10 +2520,12 @@ def parse_elf_game_stats(save=False):
     del extra_points_df
 
     # Punt Return Stats
-    #############################################################################################################
+    #######################################################
 
-    punt_returns_df.loc[punt_returns_df['pr_no'],
-                        'pr_avg'] = punt_returns_df['pr_yds'] / punt_returns_df['pr_no']
+    punt_returns_df.loc[
+        punt_returns_df['pr_no'],
+        'pr_avg'
+    ] = punt_returns_df['pr_yds'] / punt_returns_df['pr_no']
 
     player_stats_df = player_stats_df.merge(
         right=punt_returns_df, how='outer', on=default_cols_list)
@@ -2460,9 +2533,11 @@ def parse_elf_game_stats(save=False):
     del punt_returns_df
 
     # Kick Return Stats
-    #############################################################################################################
-    kick_returns_df.loc[kick_returns_df['kr_no'],
-                        'kr_avg'] = kick_returns_df['kr_yds'] / kick_returns_df['kr_no']
+    #######################################################
+    kick_returns_df.loc[
+        kick_returns_df['kr_no'],
+        'kr_avg'
+    ] = kick_returns_df['kr_yds'] / kick_returns_df['kr_no']
 
     player_stats_df = player_stats_df.merge(
         right=kick_returns_df, how='outer', on=default_cols_list)
@@ -2470,17 +2545,19 @@ def parse_elf_game_stats(save=False):
     del kick_returns_df
 
     # Missed Field Goal Stats
-    #############################################################################################################
+    #######################################################
 
-    fg_returns_df.loc[fg_returns_df['fgr_no'],
-                      'fgr_avg'] = fg_returns_df['fgr_yds'] / fg_returns_df['fgr_no']
+    fg_returns_df.loc[
+        fg_returns_df['fgr_no'],
+        'fgr_avg'
+    ] = fg_returns_df['fgr_yds'] / fg_returns_df['fgr_no']
 
     player_stats_df = player_stats_df.merge(
         right=fg_returns_df, how='outer', on=default_cols_list)
 
     del fg_returns_df
 
-    player_stats_df.to_csv('test.csv')
+    # player_stats_df.to_csv('test.csv')
     # # print(player_stats_df.columns)
     # print('[')
     # for c in player_stats_df.columns:
@@ -2537,7 +2614,7 @@ def parse_elf_game_stats(save=False):
         'defense_total_tackles',
         'defense_solo_tfl',
         'defense_ast_tfl',
-        'defense_tfls',
+        'defense_tfl',
         'defense_tfl_yds',
         'defense_solo_sack',
         'defense_ast_sack',
@@ -2608,7 +2685,15 @@ def parse_elf_game_stats(save=False):
     ]
 
     player_stats_df = player_stats_df[cols]
-
+    player_stats_df = player_stats_df.sort_values(
+        [
+            'season',
+            'game_id',
+            'loc',
+            'team_id',
+            'player_uni',
+        ]
+    )
     if save is True:
         seasons_arr = player_stats_df['season'].unique()
         for s in seasons_arr:
