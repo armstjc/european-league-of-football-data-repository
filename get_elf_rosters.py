@@ -536,7 +536,7 @@ def generate_player_hist_file():
 
                 del row_df
     rosters_df = pd.concat(rosters_df_arr, ignore_index=True)
-    rosters_df["last_updated"] = now.isoformat()
+    # rosters_df["last_updated"] = now.isoformat()
     rosters_df.to_csv('rosters/player_history/player_history.csv', index=False)
     print(rosters_df)
 
