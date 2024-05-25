@@ -80,6 +80,8 @@ def parse_position_names(position: str) -> str:
             return "KR"
         case "OTHERS":
             return "ATH"
+        case None:
+            return "ATH"
         case default:
             raise ValueError(f'Unhandled player position:\n\t{position}')
 
