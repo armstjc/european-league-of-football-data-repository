@@ -42,8 +42,8 @@ def save_all_elf_game_json(season: int):
 
     """
     games_df = pd.read_csv(f'schedule/{season}_elf_schedule.csv')
-    games_df = games_df.dropna(subset=['gamebook_url'])
-
+    # games_df = games_df.dropna(subset=['gamebook_url'])
+    games_df = games_df.dropna(subset=["away_team_score", "home_team_score"])
     game_ids_arr = games_df['stats_crew_game_id'].to_numpy()
 
     for game_id in tqdm(game_ids_arr):
