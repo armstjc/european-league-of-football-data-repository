@@ -47,14 +47,19 @@ def parse_elf_game_participation(season: int, save=False):
             game_id = json_data['venue']['_attributes']['gameid']
 
             game_date = str(json_data['venue']['_attributes']['date'])
-            try:
+            if "." in game_date:
                 game_date = datetime.strptime(
-                    game_date, '%m/%d/%Y'
+                    game_date, '%m.%d.%Y'
                 )
-            except Exception:
-                game_date = datetime.strptime(
-                    f"{game_date}/{season}", '%m/%d/%Y'
-                )
+            else:
+                try:
+                    game_date = datetime.strptime(
+                        game_date, '%m/%d/%Y'
+                    )
+                except Exception:
+                    game_date = datetime.strptime(
+                        f"{game_date}/{season}", '%m/%d/%Y'
+                    )
             game_season = game_date.year
 
             home_id = json_data['venue']['_attributes']['homeid']
@@ -75,7 +80,7 @@ def parse_elf_game_participation(season: int, save=False):
                         'opponent_id': home_id,
                         'opponent_name': home_name
 
-                    },
+                   },
                     index=[0]
                 )
 

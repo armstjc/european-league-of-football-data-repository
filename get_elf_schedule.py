@@ -108,15 +108,20 @@ def get_elf_schedule(season_filter=0, return_all_games=False, save=False):
         row_df['is_game_over'] = value['gameOver']
         row_df['is_game_tbd'] = value['isTbd']
         row_df['has_game_started'] = value['gameHasStarted']
-        row_df['stats_crew_game_id'] = value['statsCrewGameId']
+        row_df['sports_metrics_game_id'] = value['statsCrewGameId']
         row_df['old_game_id'] = value['slug']
 
         game_info_df = pd.concat([game_info_df, row_df], ignore_index=True)
 
         del row_df
 
-    finished_df = pd.merge(sched_df, game_info_df, left_on=[
-                           'game_id'], right_on=['game_id'], how='left')
+    finished_df = pd.merge(
+        sched_df,
+        game_info_df,
+        left_on=['game_id'],
+        right_on=['game_id'],
+        how='left'
+    )
 
     del sched_df, game_info_df
 

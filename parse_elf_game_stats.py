@@ -700,15 +700,21 @@ def parse_elf_game_stats(save=False):
             game_id = json_data['venue']['_attributes']['gameid']
 
             game_date = str(json_data['venue']['_attributes']['date'])
-            try:
-                game_date = datetime.strptime(game_date, '%m/%d/%Y')
-            except Exception as e:
-                logging.info(
-                    "Could not parse game date normally. " +
-                    f"Full exception {e}"
+            if "." in game_date:
+                game_date = datetime.strptime(
+                    game_date, '%m.%d.%Y'
                 )
-                game_date = datetime.strptime(game_date, '%m/%d')
-                game_date = game_date.replace(year=2023)
+            else:
+
+                try:
+                    game_date = datetime.strptime(game_date, '%m/%d/%Y')
+                except Exception as e:
+                    logging.info(
+                        "Could not parse game date normally. " +
+                        f"Full exception {e}"
+                    )
+                    game_date = datetime.strptime(game_date, '%m/%d')
+                    game_date = game_date.replace(year=2023)
 
             game_season = game_date.year
 
