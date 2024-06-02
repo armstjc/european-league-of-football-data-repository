@@ -2,21 +2,21 @@
   "egrep": true,
   "status": 200,
   "drive": {
-    "vh": "V",
-    "team": "BD",
+    "vh": "H",
+    "team": "MB",
     "start": "",
     "end": "",
-    "plays": "4",
-    "yards": "-5",
-    "top": "01:27",
+    "plays": "2",
+    "yards": "-1",
+    "top": "00:00",
     "start_how": "",
     "start_qtr": "",
-    "start_time": "18:37",
-    "start_spot": "B5",
+    "start_time": "58:59",
+    "start_spot": "M36",
     "end_how": "",
     "end_qtr": "",
-    "end_time": "20:04",
-    "end_spot": "M0"
+    "end_time": "58:59",
+    "end_spot": "M35"
   },
   "homefrandata": {
     "_id": "651b232e904f469c7f0d4fd7",
@@ -45,15 +45,15 @@
       "homeid": "MB",
       "visname": "Barcelona Dragons",
       "homename": "Madrid Bravos",
-      "date": "06/01/2024",
+      "date": "06.01.2024",
       "location": "",
       "stadium": "",
       "start": "17:30",
-      "end": "20:30",
+      "end": "20:24",
       "nitegame": "N",
       "duration": "",
       "attend": "0",
-      "temp": "28.1",
+      "temp": "28,1",
       "wind": "2",
       "weather": "overcast clouds"
     },
@@ -131,39 +131,39 @@
   "visitor_players": [
     {
       "_attributes": {
-        "id": "",
-        "name": "E. Gracia Zapata",
-        "shortname": "E. Gracia Zapata",
+        "id": "808c5b70-fe8d-11ee-832f-3727ab22c4f0",
+        "name": "E. Gracia",
+        "shortname": "E. Gracia",
         "checkname": "E. Gracia Zapata",
         "uni": "0",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "1"
       },
       "kr": {
         "_attributes": {
-          "no": "1",
-          "yds": "15",
+          "no": "3",
+          "yds": "-10",
           "td": "0",
           "long": "15"
         }
       },
       "pr": {
         "_attributes": {
-          "no": "1",
-          "yds": "-1",
+          "no": "2",
+          "yds": "8",
           "td": "0",
-          "long": "-1"
+          "long": "9"
         }
       }
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "J. Fuentes Yepes",
-        "shortname": "J. Fuentes Yepes",
+        "id": "5f9aa160-0df6-11ef-bc95-4f29fe50f7bb",
+        "name": "J. Fuentes",
+        "shortname": "J. Fuentes",
         "checkname": "J. Fuentes Yepes",
         "uni": "97",
         "class": "SR",
@@ -175,23 +175,33 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "L. Lewis",
-        "shortname": "L. Lewis",
+        "id": "955f5ec0-0d43-11ef-b9cc-e37969e87c26",
+        "name": "Le. Lewis",
+        "shortname": "Le. Lewis",
         "checkname": "L. Lewis",
         "uni": "1",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "3"
       },
+      "rush": {
+        "_attributes": {
+          "att": "8",
+          "yds": "40",
+          "gain": "56",
+          "loss": "16",
+          "td": "0",
+          "long": "19"
+        }
+      },
       "pass": {
         "_attributes": {
-          "comp": "6",
-          "att": "10",
-          "int": "0",
-          "yds": "78",
+          "comp": "21",
+          "att": "39",
+          "int": "1",
+          "yds": "252",
           "td": "1",
           "long": "27",
           "sacks": "0",
@@ -201,16 +211,309 @@
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "3353d646-fe1d-41e2-84b9-0f89c00c0480",
         "name": "D. Shelton",
         "shortname": "D. Shelton",
         "checkname": "D. Shelton",
         "uni": "2",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "4"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "6",
+          "tacka": "0",
+          "tot_tack": "6",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "d2371360-fe8e-11ee-aa3e-a3dff8ad1cc6",
+        "name": "I. Telijah",
+        "shortname": "I. Telijah",
+        "checkname": "I. Telijah Donadelle",
+        "uni": "3",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "5"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "1",
+          "yds": "5",
+          "gain": "5",
+          "loss": "0",
+          "td": "0",
+          "long": "5"
+        }
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "5",
+          "yds": "74",
+          "td": "1",
+          "long": "26"
+        }
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      },
+      "kr": {
+        "_attributes": {
+          "no": "1",
+          "yds": "45",
+          "td": "0",
+          "long": "45"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "0bb09250-1985-11ee-bc04-d5835c59d507",
+        "name": "A. Pacheco",
+        "shortname": "A. Pacheco",
+        "checkname": "A. Pacheco ",
+        "uni": "4",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "6"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "9fe77f20-db1c-11ee-921d-5bbdfdba0fe2",
+        "name": "Q. Silver",
+        "shortname": "Q. Silver",
+        "checkname": "Q. Silver Salazar",
+        "uni": "5",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "7"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "e599f293-24a4-4c52-89dd-2876fcb24732",
+        "name": "L. Cereceda",
+        "shortname": "L. Cereceda",
+        "checkname": "L. Cereceda",
+        "uni": "6",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "8"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "552301f0-e070-11ed-ade4-091746eb0e81",
+        "name": "S. Higgs",
+        "shortname": "S. Higgs",
+        "checkname": "S. Higgs",
+        "uni": "7",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "9"
+      },
+      "pass": {
+        "_attributes": {
+          "comp": "0",
+          "att": "1",
+          "int": "0",
+          "yds": "0",
+          "td": "0",
+          "long": "",
+          "sacks": "0",
+          "sackyds": "0"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "d37c1310-df13-11ed-afa6-19d2e068f755",
+        "name": "H. Arias",
+        "shortname": "H. Arias",
+        "checkname": "H. Arias Hern\u00e1ndez",
+        "uni": "8",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "10"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "1",
+          "yds": "9",
+          "gain": "9",
+          "loss": "0",
+          "td": "0",
+          "long": "9"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "a59e4480-ed55-11ee-adf6-49acba0c7327",
+        "name": "I. Iordanov",
+        "shortname": "I. Iordanov",
+        "checkname": "I. Iordanov Rodriguez",
+        "uni": "9",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "11"
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "1",
+          "yds": "23",
+          "td": "0",
+          "long": "23"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "af52d5b2-a90b-4ee2-9770-46a5fec53b4d",
+        "name": "C. Brugnani",
+        "shortname": "C. Brugnani",
+        "checkname": "C. Brugnani",
+        "uni": "10",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "12"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "3",
+          "tacka": "5",
+          "tot_tack": "8",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "bee625c0-fe8a-11ee-beda-b1e24020a37a",
+        "name": "C. Take Hamza",
+        "shortname": "C. Take Hamza",
+        "checkname": "C. Take Hamza",
+        "uni": "11",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "13"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "12",
+          "yds": "51",
+          "gain": "51",
+          "loss": "0",
+          "td": "1",
+          "long": "12"
+        }
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "1",
+          "yds": "5",
+          "td": "0",
+          "long": "5"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "26f84500-fe8e-11ee-a755-fbd419088cd8",
+        "name": "G. Llinares",
+        "shortname": "G. Llinares",
+        "checkname": "G. Llinares Fiol",
+        "uni": "12",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "14"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "0738f080-fe8d-11ee-a616-27f1f8fefa1b",
+        "name": "D. Lliteras",
+        "shortname": "D. Lliteras",
+        "checkname": "D. Lliteras Ferraz",
+        "uni": "13",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "15"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "875dc7a0-de30-11ed-a48f-e36421cf2937",
+        "name": "B. Colom\u00e9",
+        "shortname": "B. Colom\u00e9",
+        "checkname": "B. Colom\u00e9 Carbonell",
+        "uni": "14",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "16"
       },
       "defense": {
         "_attributes": {
@@ -232,242 +535,22 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "I. Telijah Donadelle",
-        "shortname": "I. Telijah Donadelle",
-        "checkname": "I. Telijah Donadelle",
-        "uni": "3",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "5"
-      },
-      "rcv": {
-        "_attributes": {
-          "no": "2",
-          "yds": "24",
-          "td": "1",
-          "long": "21"
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "A. Pacheco ",
-        "shortname": "A. Pacheco ",
-        "checkname": "A. Pacheco ",
-        "uni": "4",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "6"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "Q. Silver Salazar",
-        "shortname": "Q. Silver Salazar",
-        "checkname": "Q. Silver Salazar",
-        "uni": "5",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "7"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "L. Cereceda",
-        "shortname": "L. Cereceda",
-        "checkname": "L. Cereceda",
-        "uni": "6",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "8"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "S. Higgs",
-        "shortname": "S. Higgs",
-        "checkname": "S. Higgs",
-        "uni": "7",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "9"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "H. Arias Hern\u00e1ndez",
-        "shortname": "H. Arias Hern\u00e1ndez",
-        "checkname": "H. Arias Hern\u00e1ndez",
-        "uni": "8",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "10"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "I. Iordanov Rodriguez",
-        "shortname": "I. Iordanov Rodriguez",
-        "checkname": "I. Iordanov Rodriguez",
-        "uni": "9",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "11"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "C. Brugnani",
-        "shortname": "C. Brugnani",
-        "checkname": "C. Brugnani",
-        "uni": "10",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "12"
-      },
-      "defense": {
-        "_attributes": {
-          "tackua": "2",
-          "tacka": "2",
-          "tot_tack": "4",
-          "tflua": "0",
-          "tfla": "0",
-          "tflyds": "0",
-          "sacks": "",
-          "sackyds": "",
-          "brup": "",
-          "blkd": "",
-          "ff": "",
-          "int": "",
-          "intyds": ""
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "C. Take Hamza",
-        "shortname": "C. Take Hamza",
-        "checkname": "C. Take Hamza",
-        "uni": "11",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "13"
-      },
-      "rush": {
-        "_attributes": {
-          "att": "3",
-          "yds": "11",
-          "gain": "11",
-          "loss": "0",
-          "td": "0",
-          "long": "6"
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "G. Llinares Fiol",
-        "shortname": "G. Llinares Fiol",
-        "checkname": "G. Llinares Fiol",
-        "uni": "12",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "14"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "D. Lliteras Ferraz",
-        "shortname": "D. Lliteras Ferraz",
-        "checkname": "D. Lliteras Ferraz",
-        "uni": "13",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "15"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "B. Colom\u00e9 Carbonell",
-        "shortname": "B. Colom\u00e9 Carbonell",
-        "checkname": "B. Colom\u00e9 Carbonell",
-        "uni": "14",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "16"
-      },
-      "defense": {
-        "_attributes": {
-          "tackua": "1",
-          "tacka": "0",
-          "tot_tack": "1",
-          "tflua": "0",
-          "tfla": "0",
-          "tflyds": "0",
-          "sacks": "",
-          "sackyds": "",
-          "brup": "",
-          "blkd": "",
-          "ff": "",
-          "int": "",
-          "intyds": ""
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "A. Gonzalez Posito",
-        "shortname": "A. Gonzalez Posito",
+        "id": "7798f9e7-9fc9-461b-96df-2f884db515e1",
+        "name": "A. Posito",
+        "shortname": "A. Posito",
         "checkname": "A. Gonzalez Posito",
         "uni": "15",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "17"
       },
       "defense": {
         "_attributes": {
-          "tackua": "2",
+          "tackua": "5",
           "tacka": "1",
-          "tot_tack": "3",
+          "tot_tack": "6",
           "tflua": "1",
           "tfla": "0",
           "tflyds": "17",
@@ -483,9 +566,9 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "D. Martinez Rivero",
-        "shortname": "D. Martinez Rivero",
+        "id": "74358d80-fe8b-11ee-93cf-81b4a6603e0f",
+        "name": "D. Martinez",
+        "shortname": "D. Martinez",
         "checkname": "D. Martinez Rivero",
         "uni": "17",
         "class": "SR",
@@ -497,31 +580,31 @@
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "5df38aa0-0e02-11ef-bf70-a9ce6ac3bbb6",
         "name": "S. McCluskey",
         "shortname": "S. McCluskey",
         "checkname": "S. McCluskey",
         "uni": "18",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "19"
       },
       "rcv": {
         "_attributes": {
-          "no": "1",
-          "yds": "9",
+          "no": "2",
+          "yds": "20",
           "td": "0",
-          "long": "9"
+          "long": "11"
         }
       }
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "I. Alsina Virgili",
-        "shortname": "I. Alsina Virgili",
+        "id": "0ed576e0-169a-11ef-b02e-1fdc1622764a",
+        "name": "I. Alsina",
+        "shortname": "I. Alsina",
         "checkname": "I. Alsina Virgili",
         "uni": "19",
         "class": "SR",
@@ -533,22 +616,22 @@
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "2dc23660-13ac-11ef-9e98-1fa366231e18",
         "name": "K. Khalid Adisa",
         "shortname": "K. Khalid Adisa",
         "checkname": "K. Khalid Adisa",
         "uni": "20",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "21"
       },
       "defense": {
         "_attributes": {
-          "tackua": "4",
+          "tackua": "5",
           "tacka": "0",
-          "tot_tack": "4",
+          "tot_tack": "5",
           "tflua": "1",
           "tfla": "0",
           "tflyds": "5",
@@ -564,53 +647,84 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "A. Mont\u00f3n",
-        "shortname": "A. Mont\u00f3n",
+        "id": "bffcfcd8-8b61-4291-8ba4-a6889d348032",
+        "name": "A. Monton",
+        "shortname": "A. Monton",
         "checkname": "A. Mont\u00f3n",
         "uni": "21",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "22"
       },
       "rush": {
         "_attributes": {
-          "att": "4",
-          "yds": "12",
-          "gain": "12",
+          "att": "12",
+          "yds": "46",
+          "gain": "46",
           "loss": "0",
           "td": "0",
-          "long": "5"
+          "long": "8"
         }
       },
       "rcv": {
         "_attributes": {
-          "no": "1",
-          "yds": "2",
+          "no": "5",
+          "yds": "45",
           "td": "0",
-          "long": "2"
+          "long": "21"
         }
       }
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "47e0fb08-aa0c-47a0-b8cd-0493f29cb11a",
         "name": "L. Frecha",
         "shortname": "L. Frecha",
         "checkname": "L. Frecha",
         "uni": "22",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "23"
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
-          "tacka": "1",
+          "tackua": "5",
+          "tacka": "4",
+          "tot_tack": "9",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "6608b092-680f-4104-8069-caba1595132e",
+        "name": "J. Brugnani",
+        "shortname": "J. Brugnani",
+        "checkname": "J. Brugnani",
+        "uni": "23",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "24"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "2",
+          "tacka": "0",
           "tot_tack": "2",
           "tflua": "0",
           "tfla": "0",
@@ -627,40 +741,9 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "J. Brugnani",
-        "shortname": "J. Brugnani",
-        "checkname": "J. Brugnani",
-        "uni": "23",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "24"
-      },
-      "defense": {
-        "_attributes": {
-          "tackua": "1",
-          "tacka": "0",
-          "tot_tack": "1",
-          "tflua": "0",
-          "tfla": "0",
-          "tflyds": "0",
-          "sacks": "",
-          "sackyds": "",
-          "brup": "",
-          "blkd": "",
-          "ff": "",
-          "int": "",
-          "intyds": ""
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "A. Marin Navarro",
-        "shortname": "A. Marin Navarro",
+        "id": "2ff915b0-fe86-11ee-b2b2-6b795e6685d4",
+        "name": "A. Marin",
+        "shortname": "A. Marin",
         "checkname": "A. Marin Navarro",
         "uni": "24",
         "class": "SR",
@@ -672,7 +755,7 @@
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "eb8ba7d0-de33-11ed-a48f-e36421cf2937",
         "name": "P. Sendelbach",
         "shortname": "P. Sendelbach",
         "checkname": "P. Sendelbach",
@@ -686,9 +769,9 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "V. Miller Gonzalez",
-        "shortname": "V. Miller Gonzalez",
+        "id": "3d7233c0-0e03-11ef-a5d9-39fed881ad07",
+        "name": "V. Miller",
+        "shortname": "V. Miller",
         "checkname": "V. Miller Gonzalez",
         "uni": "27",
         "class": "SR",
@@ -700,7 +783,7 @@
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "f4fd65e0-1bfc-11ee-a265-e9eb5f238eca",
         "name": "L. Sagu\u00e9",
         "shortname": "L. Sagu\u00e9",
         "checkname": "L. Sagu\u00e9",
@@ -710,11 +793,28 @@
         "gs": "0",
         "opos": "",
         "code": "28"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "0",
+          "tacka": "0",
+          "tot_tack": "0",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
       }
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "9dc9b0d0-1c01-11ee-a265-e9eb5f238eca",
         "name": "V. Moreno",
         "shortname": "V. Moreno",
         "checkname": "V. Moreno",
@@ -728,22 +828,22 @@
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "df003e9f-5f1a-43bd-847c-419e56ab89d9",
         "name": "D. Brumfield",
         "shortname": "D. Brumfield",
         "checkname": "D. Brumfield",
         "uni": "40",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "30"
       },
       "defense": {
         "_attributes": {
-          "tackua": "2",
-          "tacka": "0",
-          "tot_tack": "2",
+          "tackua": "3",
+          "tacka": "1",
+          "tot_tack": "4",
           "tflua": "1",
           "tfla": "0",
           "tflyds": "3",
@@ -759,22 +859,22 @@
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "ccfcddda-504a-4868-9327-71be43774edf",
         "name": "J. Jackson",
         "shortname": "J. Jackson",
         "checkname": "J. Jackson",
         "uni": "44",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "31"
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
-          "tacka": "0",
-          "tot_tack": "1",
+          "tackua": "2",
+          "tacka": "1",
+          "tot_tack": "3",
           "tflua": "0",
           "tfla": "0",
           "tflyds": "0",
@@ -790,7 +890,7 @@
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "64cc1c60-1c00-11ee-a265-e9eb5f238eca",
         "name": "E. Figueroa",
         "shortname": "E. Figueroa",
         "checkname": "E. Figueroa",
@@ -804,7 +904,7 @@
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "15b4d515-8398-480c-9105-f36665aabf45",
         "name": "R. Hernandez Ruiz",
         "shortname": "R. Hernandez Ruiz",
         "checkname": "R. Hernandez Ruiz",
@@ -818,14 +918,14 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "J. Hernandez Jimenez",
-        "shortname": "J. Hernandez Jimenez",
+        "id": "3b3c3dc0-0dff-11ef-9c7a-5f5c661e7045",
+        "name": "J. Hernandez",
+        "shortname": "J. Hernandez",
         "checkname": "J. Hernandez Jimenez",
         "uni": "53",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "34"
       },
@@ -849,7 +949,7 @@
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "855c4ef5-bf27-4050-b4ae-bc1e86d596f7",
         "name": "A. Novella",
         "shortname": "A. Novella",
         "checkname": "A. Novella",
@@ -863,9 +963,9 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "J. Varela Borges  ",
-        "shortname": "J. Varela Borges  ",
+        "id": "bf4b21b0-0df7-11ef-8acc-abd008721197",
+        "name": "J. Varela B.",
+        "shortname": "J. Varela B.",
         "checkname": "J. Varela Borges  ",
         "uni": "55",
         "class": "SR",
@@ -873,205 +973,6 @@
         "gs": "0",
         "opos": "",
         "code": "36"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "T. Middleton",
-        "shortname": "T. Middleton",
-        "checkname": "T. Middleton",
-        "uni": "62",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "37"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "E. Nu\u00f1ez Vargas",
-        "shortname": "E. Nu\u00f1ez Vargas",
-        "checkname": "E. Nu\u00f1ez Vargas",
-        "uni": "64",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "38"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "J. Ruiz Mart\u00ednez",
-        "shortname": "J. Ruiz Mart\u00ednez",
-        "checkname": "J. Ruiz Mart\u00ednez",
-        "uni": "67",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "39"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "J. Ariza Paredes",
-        "shortname": "J. Ariza Paredes",
-        "checkname": "J. Ariza Paredes",
-        "uni": "72",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "40"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "M. Gomez",
-        "shortname": "M. Gomez",
-        "checkname": "M. Gomez",
-        "uni": "74",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "41"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "I. Santana",
-        "shortname": "I. Santana",
-        "checkname": "I. Santana",
-        "uni": "76",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "42"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "C. Guill\u00e9n Leon",
-        "shortname": "C. Guill\u00e9n Leon",
-        "checkname": "C. Guill\u00e9n Leon",
-        "uni": "77",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "43"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "M. Kabankaya",
-        "shortname": "M. Kabankaya",
-        "checkname": "M. Kabankaya",
-        "uni": "78",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "44"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "C. Martin Augulo",
-        "shortname": "C. Martin Augulo",
-        "checkname": "C. Martin Augulo",
-        "uni": "88",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "45"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "A. David P\u00e9rez ",
-        "shortname": "A. David P\u00e9rez ",
-        "checkname": "A. David P\u00e9rez ",
-        "uni": "89",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "46"
-      },
-      "rcv": {
-        "_attributes": {
-          "no": "2",
-          "yds": "43",
-          "td": "0",
-          "long": "27"
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "S. Rodriguez Romero",
-        "shortname": "S. Rodriguez Romero",
-        "checkname": "S. Rodriguez Romero",
-        "uni": "91",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "47"
-      },
-      "ko": {
-        "_attributes": {
-          "no": "0",
-          "yds": "76",
-          "ob": "0",
-          "tb": "0",
-          "fcyds": ""
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "R. Fernandez Buitrago",
-        "shortname": "R. Fernandez Buitrago",
-        "checkname": "R. Fernandez Buitrago",
-        "uni": "92",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "48"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "M. Nunurai",
-        "shortname": "M. Nunurai",
-        "checkname": "M. Nunurai",
-        "uni": "95",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "49"
       },
       "defense": {
         "_attributes": {
@@ -1093,23 +994,256 @@
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "2dbfac00-0f3a-11ee-af39-2d5c6ffbc113",
+        "name": "T. Middleton",
+        "shortname": "T. Middleton",
+        "checkname": "T. Middleton",
+        "uni": "62",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "37"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "0b850999-c144-4bfa-946f-361235002245",
+        "name": "E. Nunez",
+        "shortname": "E. Nunez",
+        "checkname": "E. Nu\u00f1ez Vargas",
+        "uni": "64",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "38"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "a53997c0-0ded-11ef-a715-8b420afb514b",
+        "name": "J. Ruiz",
+        "shortname": "J. Ruiz",
+        "checkname": "J. Ruiz Mart\u00ednez",
+        "uni": "67",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "39"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "f9fe289f-cb32-4695-83d5-59ad9c235e21",
+        "name": "J. Ariza",
+        "shortname": "J. Ariza",
+        "checkname": "J. Ariza Paredes",
+        "uni": "72",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "40"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "97312180-5e77-40fe-a133-c74a63315b82",
+        "name": "M. Gomez",
+        "shortname": "M. Gomez",
+        "checkname": "M. Gomez",
+        "uni": "74",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "41"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "166a2446-0c80-44ba-a4d4-4e6c96ca7324",
+        "name": "I. Santana",
+        "shortname": "I. Santana",
+        "checkname": "I. Santana",
+        "uni": "76",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "42"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "56f1cee1-de38-4315-8e3a-1c60c2c5ab66",
+        "name": "C. Guillen",
+        "shortname": "C. Guillen",
+        "checkname": "C. Guill\u00e9n Leon",
+        "uni": "77",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "43"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "36c4150d-c088-4cac-87c3-4838889ca336",
+        "name": "M. Kabankaya",
+        "shortname": "M. Kabankaya",
+        "checkname": "M. Kabankaya",
+        "uni": "78",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "44"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "e93bfe00-0f09-11ef-a868-c947e246cde1",
+        "name": "C. Martin",
+        "shortname": "C. Martin",
+        "checkname": "C. Martin Augulo",
+        "uni": "88",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "45"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "ee79dc60-ed59-11ee-a056-a1911c1a448f",
+        "name": "A. David",
+        "shortname": "A. David",
+        "checkname": "A. David P\u00e9rez ",
+        "uni": "89",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "46"
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "7",
+          "yds": "85",
+          "td": "0",
+          "long": "27"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "67c986d0-0e14-11ef-b908-f7d547330eb4",
+        "name": "S. Rodriguez",
+        "shortname": "S. Rodriguez",
+        "checkname": "S. Rodriguez Romero",
+        "uni": "91",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "47"
+      },
+      "ko": {
+        "_attributes": {
+          "no": "1",
+          "yds": "79",
+          "ob": "0",
+          "tb": "1",
+          "fcyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "11037bf0-0dfe-11ef-94bd-356120e3f58a",
+        "name": "R. Fernandez",
+        "shortname": "R. Fernandez",
+        "checkname": "R. Fernandez Buitrago",
+        "uni": "92",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "48"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "5648e2d0-0e04-11ef-8534-47e38007da6e",
+        "name": "M. Nunurai",
+        "shortname": "M. Nunurai",
+        "checkname": "M. Nunurai",
+        "uni": "95",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "49"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "2",
+          "tacka": "0",
+          "tot_tack": "2",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "4aef9173-fecb-4ce2-ab9e-74eb00a2f319",
         "name": "D. Franco",
         "shortname": "D. Franco",
         "checkname": "D. Franco",
         "uni": "98",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "50"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
       }
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "M. Ka Thiobane",
-        "shortname": "M. Ka Thiobane",
+        "id": "765de0f0-df13-11ed-afa6-19d2e068f755",
+        "name": "M. Ka",
+        "shortname": "M. Ka",
         "checkname": "M. Ka Thiobane",
         "uni": "99",
         "class": "SR",
@@ -1117,14 +1251,31 @@
         "gs": "0",
         "opos": "",
         "code": "51"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "0",
+          "tacka": "2",
+          "tot_tack": "2",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
       }
     }
   ],
   "visitor_linescore": {
     "_attributes": {
       "prds": "4",
-      "line": "6,0,0,0",
-      "score": "6"
+      "line": "6,0,6,0",
+      "score": "12"
     },
     "lineprd": [
       {
@@ -1142,7 +1293,7 @@
       {
         "_attributes": {
           "prd": "3",
-          "score": "0"
+          "score": "6"
         }
       },
       {
@@ -1155,16 +1306,16 @@
   },
   "visitor_totals": {
     "_attributes": {
-      "totoff_plays": "17",
-      "totoff_yards": "101",
-      "totoff_avg": "5.94117647058824"
+      "totoff_plays": "74",
+      "totoff_yards": "403",
+      "totoff_avg": "5,44594594594595"
     },
     "firstdowns": {
       "_attributes": {
-        "no": "4",
-        "rush": "1",
-        "pass": "3",
-        "penalty": "0"
+        "no": "24",
+        "rush": "9",
+        "pass": "14",
+        "penalty": "1"
       }
     },
     "penalties": {
@@ -1175,10 +1326,10 @@
     },
     "conversions": {
       "_attributes": {
-        "thirdconv": "0",
-        "thirdatt": "3",
+        "thirdconv": "4",
+        "thirdatt": "13",
         "fourthconv": "0",
-        "fourthatt": "0"
+        "fourthatt": "2"
       }
     },
     "fumbles": {
@@ -1190,7 +1341,7 @@
     "misc": {
       "_attributes": {
         "yds": "",
-        "top": "6:13",
+        "top": "25:33",
         "ona": "",
         "onm": "",
         "ptsto": ""
@@ -1214,20 +1365,20 @@
     },
     "rush": {
       "_attributes": {
-        "att": "7",
-        "yds": "23",
-        "gain": "23",
+        "att": "34",
+        "yds": "151",
+        "gain": "167",
         "loss": "",
-        "td": "0",
+        "td": "1",
         "long": "0"
       }
     },
     "pass": {
       "_attributes": {
-        "comp": "6",
-        "att": "10",
-        "int": "0",
-        "yds": "78",
+        "comp": "21",
+        "att": "40",
+        "int": "1",
+        "yds": "252",
         "td": "1",
         "long": "0",
         "sacks": "0",
@@ -1236,31 +1387,31 @@
     },
     "rcv": {
       "_attributes": {
-        "no": "6",
-        "yds": "78",
+        "no": "21",
+        "yds": "252",
         "td": "1",
         "long": "0"
       }
     },
     "punt": {
       "_attributes": {
-        "no": "3",
-        "yds": "97",
+        "no": "6",
+        "yds": "231",
         "long": "0",
         "blkd": "0",
         "tb": "0",
         "fc": "0",
         "plus50": "1",
         "inside20": "0",
-        "avg": "32.3333333333333"
+        "avg": "38,5"
       }
     },
     "ko": {
       "_attributes": {
-        "no": "2",
-        "yds": "76",
+        "no": "3",
+        "yds": "79",
         "ob": "0",
-        "tb": "0",
+        "tb": "1",
         "fcyds": "0"
       }
     },
@@ -1282,9 +1433,9 @@
     },
     "defense": {
       "_attributes": {
-        "tackua": "19",
-        "tacka": "4",
-        "tot_tack": "23",
+        "tackua": "41",
+        "tacka": "14",
+        "tot_tack": "55",
         "tflua": "",
         "tfla": "",
         "tflyds": "25",
@@ -1299,8 +1450,8 @@
     },
     "kr": {
       "_attributes": {
-        "no": "1",
-        "yds": "15",
+        "no": "4",
+        "yds": "35",
         "td": "0",
         "long": "0"
       }
@@ -1323,7 +1474,7 @@
     },
     "scoring": {
       "_attributes": {
-        "td": "1",
+        "td": "2",
         "fg": "0",
         "patkick": "0",
         "saf": ""
@@ -1342,8 +1493,8 @@
     "linescore": {
       "_attributes": {
         "prds": "4",
-        "line": "14,15,0,0",
-        "score": "29"
+        "line": "14,22,6,0",
+        "score": "42"
       },
       "lineprd": [
         {
@@ -1355,13 +1506,13 @@
         {
           "_attributes": {
             "prd": "2",
-            "score": "15"
+            "score": "22"
           }
         },
         {
           "_attributes": {
             "prd": "3",
-            "score": "0"
+            "score": "6"
           }
         },
         {
@@ -1374,16 +1525,16 @@
     },
     "totals": {
       "_attributes": {
-        "totoff_plays": "27",
-        "totoff_yards": "198",
-        "totoff_avg": "7.33333333333333"
+        "totoff_plays": "67",
+        "totoff_yards": "475",
+        "totoff_avg": "7,08955223880597"
       },
       "firstdowns": {
         "_attributes": {
-          "no": "12",
-          "rush": "4",
-          "pass": "8",
-          "penalty": "0"
+          "no": "26",
+          "rush": "7",
+          "pass": "18",
+          "penalty": "1"
         }
       },
       "penalties": {
@@ -1394,22 +1545,22 @@
       },
       "conversions": {
         "_attributes": {
-          "thirdconv": "1",
-          "thirdatt": "2",
+          "thirdconv": "7",
+          "thirdatt": "10",
           "fourthconv": "0",
           "fourthatt": "0"
         }
       },
       "fumbles": {
         "_attributes": {
-          "no": "1",
-          "lost": "0"
+          "no": "2",
+          "lost": "1"
         }
       },
       "misc": {
         "_attributes": {
           "yds": "",
-          "top": "13:51",
+          "top": "34:27",
           "ona": "",
           "onm": "",
           "ptsto": ""
@@ -1433,9 +1584,9 @@
       },
       "rush": {
         "_attributes": {
-          "att": "13",
-          "yds": "27",
-          "gain": "52",
+          "att": "32",
+          "yds": "117",
+          "gain": "144",
           "loss": "",
           "td": "1",
           "long": "0"
@@ -1443,41 +1594,41 @@
       },
       "pass": {
         "_attributes": {
-          "comp": "12",
-          "att": "14",
+          "comp": "25",
+          "att": "35",
           "int": "0",
-          "yds": "171",
-          "td": "2",
+          "yds": "358",
+          "td": "4",
           "long": "0",
-          "sacks": "0",
-          "sackyds": "0"
+          "sacks": "1",
+          "sackyds": "10"
         }
       },
       "rcv": {
         "_attributes": {
-          "no": "12",
-          "yds": "171",
-          "td": "2",
+          "no": "25",
+          "yds": "358",
+          "td": "4",
           "long": "0"
         }
       },
       "punt": {
         "_attributes": {
-          "no": "1",
-          "yds": "58",
+          "no": "4",
+          "yds": "185",
           "long": "0",
           "blkd": "0",
           "tb": "0",
           "fc": "0",
-          "plus50": "1",
+          "plus50": "2",
           "inside20": "0",
-          "avg": "58"
+          "avg": "46,25"
         }
       },
       "ko": {
         "_attributes": {
-          "no": "3",
-          "yds": "205",
+          "no": "7",
+          "yds": "407",
           "ob": "0",
           "tb": "2",
           "fcyds": "0"
@@ -1501,14 +1652,14 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "10",
-          "tacka": "6",
-          "tot_tack": "16",
+          "tackua": "42",
+          "tacka": "32",
+          "tot_tack": "74",
           "tflua": "",
           "tfla": "",
-          "tflyds": "22",
-          "sacks": "0",
-          "sackyds": "0",
+          "tflyds": "38",
+          "sacks": "1",
+          "sackyds": "10",
           "brup": "",
           "blkd": "",
           "ff": "",
@@ -1542,9 +1693,9 @@
       },
       "scoring": {
         "_attributes": {
-          "td": "3",
+          "td": "5",
           "fg": "0",
-          "patkick": "3",
+          "patkick": "4",
           "saf": ""
         }
       }
@@ -1552,36 +1703,22 @@
     "player": [
       {
         "_attributes": {
-          "id": "",
+          "id": "6bcb84a5-19f4-46d0-b28c-dd6ee6cb275a",
           "name": "Y. Rivero",
           "shortname": "Y. Rivero",
           "checkname": "Y. Rivero",
           "uni": "0",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "1"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "J. Carrasco Sanz",
-          "shortname": "J. Carrasco Sanz",
-          "checkname": "J. Carrasco Sanz",
-          "uni": "2",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "2"
         },
         "defense": {
           "_attributes": {
             "tackua": "0",
-            "tacka": "0",
-            "tot_tack": "0",
+            "tacka": "1",
+            "tot_tack": "1",
             "tflua": "0",
             "tfla": "0",
             "tflyds": "0",
@@ -1597,16 +1734,221 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "P. Araya Matilla",
-          "shortname": "P. Araya Matilla",
-          "checkname": "P. Araya Matilla",
-          "uni": "3",
+          "id": "f4a802f0-e79c-11ee-9b58-838e738bc47d",
+          "name": "J. Carrasco",
+          "shortname": "J. Carrasco",
+          "checkname": "J. Carrasco Sanz",
+          "uni": "2",
           "class": "SR",
           "gp": "1",
           "gs": "0",
           "opos": "",
+          "code": "2"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "4",
+            "tot_tack": "5",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "6b50f507-5965-4676-a17d-d351c860f775",
+          "name": "P. Araya",
+          "shortname": "P. Araya",
+          "checkname": "P. Araya Matilla",
+          "uni": "3",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
           "code": "3"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "6",
+            "tacka": "5",
+            "tot_tack": "11",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "4d570d30-e773-11ee-8c50-577d8b84aaaa",
+          "name": "A. Guiti\u00e1n",
+          "shortname": "A. Guiti\u00e1n",
+          "checkname": "\u00c1. Guiti\u00e1n  Vizoso",
+          "uni": "4",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "4"
+        },
+        "ko": {
+          "_attributes": {
+            "no": "2",
+            "yds": "407",
+            "ob": "0",
+            "tb": "2",
+            "fcyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "07d72832-5eb9-4431-9ba5-c3583cf00bd6",
+          "name": "J. Velasco",
+          "shortname": "J. Velasco",
+          "checkname": "J. Velasco Velo",
+          "uni": "5",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "5"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "fa01ef80-ee3d-11ed-b842-59d266973876",
+          "name": "L. Glenna",
+          "shortname": "L. Glenna",
+          "checkname": "L. Glenna",
+          "uni": "6",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "6"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "4",
+            "tacka": "2",
+            "tot_tack": "6",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        },
+        "ir": {
+          "_attributes": {
+            "no": "1",
+            "yds": "4",
+            "td": "0",
+            "long": "4"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "e0fd67b0-998f-11ed-bf80-6f33335c6375",
+          "name": "C. Helbig",
+          "shortname": "C. Helbig",
+          "checkname": "C. Helbig",
+          "uni": "7",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "7"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "4",
+            "yds": "-10",
+            "gain": "7",
+            "loss": "17",
+            "td": "0",
+            "long": "3"
+          }
+        },
+        "pass": {
+          "_attributes": {
+            "comp": "24",
+            "att": "34",
+            "int": "0",
+            "yds": "343",
+            "td": "4",
+            "long": "34",
+            "sacks": "0",
+            "sackyds": "0"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "a8f5937c-8f0f-4a26-b146-ba889e5a604e",
+          "name": "J. Embry",
+          "shortname": "J. Embry",
+          "checkname": "J. Embry",
+          "uni": "8",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "8"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "3",
+            "tacka": "1",
+            "tot_tack": "4",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "aaf1fc86-790c-446b-8e25-19a14c131b15",
+          "name": "S. Bowen",
+          "shortname": "S. Bowen",
+          "checkname": "S. Bowen",
+          "uni": "9",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "9"
         },
         "defense": {
           "_attributes": {
@@ -1628,122 +1970,29 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "\u00c1. Guiti\u00e1n  Vizoso",
-          "shortname": "\u00c1. Guiti\u00e1n  Vizoso",
-          "checkname": "\u00c1. Guiti\u00e1n  Vizoso",
-          "uni": "4",
+          "id": "36cba73d-f9c5-40f5-b095-6e68f4afb691",
+          "name": "J. Madin Cerezo",
+          "shortname": "J. Madin Cerezo",
+          "checkname": "J. Madin Cerezo",
+          "uni": "10",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
-          "code": "4"
+          "code": "10"
         },
-        "ko": {
+        "rcv": {
           "_attributes": {
-            "no": "2",
-            "yds": "205",
-            "ob": "0",
-            "tb": "2",
-            "fcyds": ""
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "J. Velasco Velo",
-          "shortname": "J. Velasco Velo",
-          "checkname": "J. Velasco Velo",
-          "uni": "5",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "5"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "L. Glenna",
-          "shortname": "L. Glenna",
-          "checkname": "L. Glenna",
-          "uni": "6",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "6"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "C. Helbig",
-          "shortname": "C. Helbig",
-          "checkname": "C. Helbig",
-          "uni": "7",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "7"
-        },
-        "rush": {
-          "_attributes": {
-            "att": "2",
-            "yds": "-15",
-            "gain": "2",
-            "loss": "17",
+            "no": "3",
+            "yds": "42",
             "td": "0",
-            "long": "2"
+            "long": "19"
           }
-        },
-        "pass": {
-          "_attributes": {
-            "comp": "11",
-            "att": "13",
-            "int": "0",
-            "yds": "156",
-            "td": "2",
-            "long": "29",
-            "sacks": "0",
-            "sackyds": "0"
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "J. Embry",
-          "shortname": "J. Embry",
-          "checkname": "J. Embry",
-          "uni": "8",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "8"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "S. Bowen",
-          "shortname": "S. Bowen",
-          "checkname": "S. Bowen",
-          "uni": "9",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "9"
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
-            "tacka": "0",
+            "tackua": "0",
+            "tacka": "1",
             "tot_tack": "1",
             "tflua": "0",
             "tfla": "0",
@@ -1760,36 +2009,14 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "J. Madin Cerezo",
-          "shortname": "J. Madin Cerezo",
-          "checkname": "J. Madin Cerezo",
-          "uni": "10",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "10"
-        },
-        "rcv": {
-          "_attributes": {
-            "no": "2",
-            "yds": "32",
-            "td": "0",
-            "long": "19"
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
+          "id": "3e3d2010-1f1d-11ee-80c5-a7bdaf0941ca",
           "name": "W. Patterson",
           "shortname": "W. Patterson",
           "checkname": "W. Patterson",
           "uni": "11",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "11"
         },
@@ -1805,10 +2032,10 @@
         },
         "rcv": {
           "_attributes": {
-            "no": "5",
-            "yds": "94",
+            "no": "10",
+            "yds": "176",
             "td": "1",
-            "long": "29"
+            "long": "34"
           }
         },
         "kr": {
@@ -1830,9 +2057,9 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "S. Barbero S\u00e1nchez",
-          "shortname": "S. Barbero S\u00e1nchez",
+          "id": "cc797de0-142e-11ef-bef9-d92e7730b9e5",
+          "name": "S. Barbero",
+          "shortname": "S. Barbero",
           "checkname": "S. Barbero S\u00e1nchez",
           "uni": "12",
           "class": "SR",
@@ -1844,9 +2071,9 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "J. Aguado Vento",
-          "shortname": "J. Aguado Vento",
+          "id": "bc33c180-de28-11ed-a48f-e36421cf2937",
+          "name": "J. Aguado",
+          "shortname": "J. Aguado",
           "checkname": "J. Aguado Vento",
           "uni": "13",
           "class": "SR",
@@ -1854,35 +2081,52 @@
           "gs": "0",
           "opos": "",
           "code": "13"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "R. Cernuda Pastor",
-          "shortname": "R. Cernuda Pastor",
-          "checkname": "R. Cernuda Pastor",
-          "uni": "14",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "14"
         },
-        "rcv": {
+        "defense": {
           "_attributes": {
-            "no": "1",
-            "yds": "0",
-            "td": "0",
-            "long": "-2"
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
           }
         }
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "J. Barrena Ureta",
-          "shortname": "J. Barrena Ureta",
+          "id": "2307c4d0-de13-11ed-9306-69f1169b4d47",
+          "name": "R. Cernuda",
+          "shortname": "R. Cernuda",
+          "checkname": "R. Cernuda Pastor",
+          "uni": "14",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "14"
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "3",
+            "yds": "35",
+            "td": "0",
+            "long": "25"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "9437366c-74f7-4358-acfa-b0f10119692d",
+          "name": "J. Barrena",
+          "shortname": "J. Barrena",
           "checkname": "J. Barrena Ureta",
           "uni": "16",
           "class": "SR",
@@ -1902,9 +2146,9 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "A. Mel\u00e9ndez Lorenzo",
-          "shortname": "A. Mel\u00e9ndez Lorenzo",
+          "id": "1eaf4e10-fbe2-11ee-ae64-392db5b3a337",
+          "name": "A. Mel\u00e9ndez",
+          "shortname": "A. Mel\u00e9ndez",
           "checkname": "A. Mel\u00e9ndez Lorenzo",
           "uni": "17",
           "class": "SR",
@@ -1916,9 +2160,9 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "E. Perez Perez",
-          "shortname": "E. Perez Perez",
+          "id": "fc37d4e0-de2f-11ed-a48f-e36421cf2937",
+          "name": "E. Perez",
+          "shortname": "E. Perez",
           "checkname": "E. Perez Perez",
           "uni": "18",
           "class": "SR",
@@ -1930,9 +2174,9 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "P. de Diego Maffrand",
-          "shortname": "P. de Diego Maffrand",
+          "id": "6b085bb0-e794-11ee-ac66-3dc03ac31f1e",
+          "name": "P. de Diego",
+          "shortname": "P. de Diego",
           "checkname": "P. de Diego Maffrand",
           "uni": "20",
           "class": "SR",
@@ -1944,9 +2188,9 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "D. Romero D\u00e9vora",
-          "shortname": "D. Romero D\u00e9vora",
+          "id": "5b8a7240-e794-11ee-8f44-71215b141287",
+          "name": "D. Romero",
+          "shortname": "D. Romero",
           "checkname": "D. Romero D\u00e9vora",
           "uni": "21",
           "class": "SR",
@@ -1954,26 +2198,36 @@
           "gs": "0",
           "opos": "",
           "code": "19"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "3",
+            "yds": "4",
+            "gain": "4",
+            "loss": "0",
+            "td": "0",
+            "long": "3"
+          }
         }
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "D. Obi ",
-          "shortname": "D. Obi ",
+          "id": "82a83440-e79c-11ee-888a-11673656f58a",
+          "name": "D. Obi",
+          "shortname": "D. Obi",
           "checkname": "D. Obi ",
           "uni": "22",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "20"
         },
         "rush": {
           "_attributes": {
-            "att": "7",
-            "yds": "18",
-            "gain": "26",
+            "att": "14",
+            "yds": "42",
+            "gain": "50",
             "loss": "8",
             "td": "1",
             "long": "14"
@@ -1981,25 +2235,307 @@
         },
         "rcv": {
           "_attributes": {
-            "no": "2",
-            "yds": "18",
+            "no": "3",
+            "yds": "37",
             "td": "1",
-            "long": "11"
+            "long": "19"
           }
         }
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "fe50fe25-8e56-483f-9cfe-f82ca5617bc5",
           "name": "J. Pelie",
           "shortname": "J. Pelie",
           "checkname": "J. Pelie",
           "uni": "23",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "21"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "2",
+            "tacka": "4",
+            "tot_tack": "6",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "16ea37a0-03bf-11ef-9101-93664a1e7bb0",
+          "name": "A. Sarr\u00eda",
+          "shortname": "A. Sarr\u00eda",
+          "checkname": "A. Sarr\u00eda Ballesteros",
+          "uni": "24",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "22"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "d8a6d6e0-0b95-11ef-b185-0549df7998e1",
+          "name": "N. Perez",
+          "shortname": "N. Perez",
+          "checkname": "N. Perez Lozano",
+          "uni": "25",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "23"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "3",
+            "tacka": "0",
+            "tot_tack": "3",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "35061060-fbe0-11ee-b923-d9a1e232a65b",
+          "name": "C\u00e9. Sawane",
+          "shortname": "C\u00e9. Sawane",
+          "checkname": "C. Sawane Garc\u00eda",
+          "uni": "26",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "24"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "a46db98c-3936-4b8f-b814-69ebe44450c4",
+          "name": "A. Vera",
+          "shortname": "A. Vera",
+          "checkname": "A. Vera Puentenueva",
+          "uni": "27",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "25"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "5",
+            "tacka": "1",
+            "tot_tack": "6",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "49037ea0-e780-11ee-8bb0-6df1e62d8105",
+          "name": "A. Cansinos",
+          "shortname": "A. Cansinos",
+          "checkname": "\u00c1. Cansinos Cal",
+          "uni": "32",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "26"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "ba34f340-e7a0-11ee-a37e-e31ca7533842",
+          "name": "I. Diz Bravo",
+          "shortname": "I. Diz Bravo",
+          "checkname": "I. Diz Bravo",
+          "uni": "42",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "27"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "4913fe80-de15-11ed-a48f-e36421cf2937",
+          "name": "E. Molina",
+          "shortname": "E. Molina",
+          "checkname": "E. Molina Belmar",
+          "uni": "43",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "28"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "9",
+            "yds": "65",
+            "gain": "65",
+            "loss": "0",
+            "td": "0",
+            "long": "27"
+          }
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "1",
+            "yds": "0",
+            "td": "0",
+            "long": "-11"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "f1081880-e79f-11ee-9b0b-ebc56c938683",
+          "name": "E. Ib\u00e1nez",
+          "shortname": "E. Ib\u00e1nez",
+          "checkname": "E. Ib\u00e1\u00f1ez Cordero",
+          "uni": "44",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "29"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "db547f80-fbe3-11ee-93d5-5da859508ed8",
+          "name": "Da. Romero",
+          "shortname": "Da. Romero",
+          "checkname": "D. Romero D\u00e9vora",
+          "uni": "45",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "30"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "c7340030-e783-11ee-a20c-3dd4292836f3",
+          "name": "A. Luca",
+          "shortname": "A. Luca",
+          "checkname": "A. Luca ",
+          "uni": "47",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "31"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "7e244c00-fbe3-11ee-8370-f16471640e48",
+          "name": "H. Garc\u00eda",
+          "shortname": "H. Garc\u00eda",
+          "checkname": "H. Garc\u00eda Mu\u00f1oz",
+          "uni": "50",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "32"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "ec1be7b0-e791-11ee-8619-47a73dd0094a",
+          "name": "S. Moreira",
+          "shortname": "S. Moreira",
+          "checkname": "S. Moreira da Silva",
+          "uni": "53",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "33"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "3",
+            "tacka": "2",
+            "tot_tack": "5",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "a2246220-8744-4e45-a2c9-3a7802d0b12d",
+          "name": "V. Albarrac\u00edn",
+          "shortname": "V. Albarrac\u00edn",
+          "checkname": "V. Albarrac\u00edn Arias",
+          "uni": "54",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "34"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "f99eff07-d455-4f5e-bbb7-88aa926e4902",
+          "name": "R. Fensch",
+          "shortname": "R. Fensch",
+          "checkname": "R. Fensch",
+          "uni": "55",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "35"
         },
         "defense": {
           "_attributes": {
@@ -2021,247 +2557,7 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "A. Sarr\u00eda Ballesteros",
-          "shortname": "A. Sarr\u00eda Ballesteros",
-          "checkname": "A. Sarr\u00eda Ballesteros",
-          "uni": "24",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "22"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "N. Perez Lozano",
-          "shortname": "N. Perez Lozano",
-          "checkname": "N. Perez Lozano",
-          "uni": "25",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "23"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "C. Sawane Garc\u00eda",
-          "shortname": "C. Sawane Garc\u00eda",
-          "checkname": "C. Sawane Garc\u00eda",
-          "uni": "26",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "24"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "A. Vera Puentenueva",
-          "shortname": "A. Vera Puentenueva",
-          "checkname": "A. Vera Puentenueva",
-          "uni": "27",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "25"
-        },
-        "defense": {
-          "_attributes": {
-            "tackua": "2",
-            "tacka": "1",
-            "tot_tack": "3",
-            "tflua": "0",
-            "tfla": "0",
-            "tflyds": "0",
-            "sacks": "",
-            "sackyds": "",
-            "brup": "",
-            "blkd": "",
-            "ff": "",
-            "int": "",
-            "intyds": ""
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "\u00c1. Cansinos Cal",
-          "shortname": "\u00c1. Cansinos Cal",
-          "checkname": "\u00c1. Cansinos Cal",
-          "uni": "32",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "26"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "I. Diz Bravo",
-          "shortname": "I. Diz Bravo",
-          "checkname": "I. Diz Bravo",
-          "uni": "42",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "27"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "E. Molina Belmar",
-          "shortname": "E. Molina Belmar",
-          "checkname": "E. Molina Belmar",
-          "uni": "43",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "28"
-        },
-        "rush": {
-          "_attributes": {
-            "att": "2",
-            "yds": "6",
-            "gain": "6",
-            "loss": "0",
-            "td": "0",
-            "long": "3"
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "E. Ib\u00e1\u00f1ez Cordero",
-          "shortname": "E. Ib\u00e1\u00f1ez Cordero",
-          "checkname": "E. Ib\u00e1\u00f1ez Cordero",
-          "uni": "44",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "29"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "D. Romero D\u00e9vora",
-          "shortname": "D. Romero D\u00e9vora",
-          "checkname": "D. Romero D\u00e9vora",
-          "uni": "45",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "30"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "A. Luca ",
-          "shortname": "A. Luca ",
-          "checkname": "A. Luca ",
-          "uni": "47",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "31"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "H. Garc\u00eda Mu\u00f1oz",
-          "shortname": "H. Garc\u00eda Mu\u00f1oz",
-          "checkname": "H. Garc\u00eda Mu\u00f1oz",
-          "uni": "50",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "32"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "S. Moreira da Silva",
-          "shortname": "S. Moreira da Silva",
-          "checkname": "S. Moreira da Silva",
-          "uni": "53",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "33"
-        },
-        "defense": {
-          "_attributes": {
-            "tackua": "1",
-            "tacka": "1",
-            "tot_tack": "2",
-            "tflua": "0",
-            "tfla": "0",
-            "tflyds": "0",
-            "sacks": "",
-            "sackyds": "",
-            "brup": "",
-            "blkd": "",
-            "ff": "",
-            "int": "",
-            "intyds": ""
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "V. Albarrac\u00edn Arias",
-          "shortname": "V. Albarrac\u00edn Arias",
-          "checkname": "V. Albarrac\u00edn Arias",
-          "uni": "54",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "34"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "R. Fensch",
-          "shortname": "R. Fensch",
-          "checkname": "R. Fensch",
-          "uni": "55",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "35"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
+          "id": "9cdd2c90-1c1b-11ef-8b75-2b3bcefe062a",
           "name": "L. Burghes",
           "shortname": "L. Burghes",
           "checkname": "L. Burghes",
@@ -2292,201 +2588,25 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "S. Casta\u00f1er Pierdominici",
-          "shortname": "S. Casta\u00f1er Pierdominici",
+          "id": "05ef5005-4b74-41a5-8de6-4bb5e9a44cc2",
+          "name": "S. Castaner",
+          "shortname": "S. Castaner",
           "checkname": "S. Casta\u00f1er Pierdominici",
           "uni": "59",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "37"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "C. Ngimbi Mabiala",
-          "shortname": "C. Ngimbi Mabiala",
-          "checkname": "C. Ngimbi Mabiala",
-          "uni": "60",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "38"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "D. Fabi\u00e1n Viola",
-          "shortname": "D. Fabi\u00e1n Viola",
-          "checkname": "D. Fabi\u00e1n Viola",
-          "uni": "65",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "39"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "D. Culebras Sanfrutos",
-          "shortname": "D. Culebras Sanfrutos",
-          "checkname": "D. Culebras Sanfrutos",
-          "uni": "71",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "40"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "D. Contreras P\u00e9rez",
-          "shortname": "D. Contreras P\u00e9rez",
-          "checkname": "D. Contreras P\u00e9rez",
-          "uni": "72",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "41"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "C. Carrasco Sanz",
-          "shortname": "C. Carrasco Sanz",
-          "checkname": "C. Carrasco Sanz",
-          "uni": "77",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "42"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "A. Sousa Posincovich",
-          "shortname": "A. Sousa Posincovich",
-          "checkname": "A. Sousa Posincovich",
-          "uni": "78",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "43"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "J. Hagerup",
-          "shortname": "J. Hagerup",
-          "checkname": "J. Hagerup",
-          "uni": "79",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "44"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "M. Flores Somolinos",
-          "shortname": "M. Flores Somolinos",
-          "checkname": "M. Flores Somolinos",
-          "uni": "84",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "45"
-        },
-        "rcv": {
-          "_attributes": {
-            "no": "1",
-            "yds": "15",
-            "td": "0",
-            "long": "15"
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "\u00c1. Molano Mej\u00eda",
-          "shortname": "\u00c1. Molano Mej\u00eda",
-          "checkname": "\u00c1. Molano Mej\u00eda",
-          "uni": "85",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "46"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "I. Garc\u00eda Sala",
-          "shortname": "I. Garc\u00eda Sala",
-          "checkname": "I. Garc\u00eda Sala",
-          "uni": "87",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "47"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "L. Rovesti Ferrer",
-          "shortname": "L. Rovesti Ferrer",
-          "checkname": "L. Rovesti Ferrer",
-          "uni": "90",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "48"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "D. Irles Santoja",
-          "shortname": "D. Irles Santoja",
-          "checkname": "D. Irles Santoja",
-          "uni": "91",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "49"
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
+            "tackua": "3",
             "tacka": "1",
-            "tot_tack": "2",
+            "tot_tack": "4",
             "tflua": "1",
             "tfla": "0",
-            "tflyds": "22",
+            "tflyds": "10",
             "sacks": "",
             "sackyds": "",
             "brup": "",
@@ -2499,35 +2619,169 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "D. Paz Gonz\u00e1lez",
-          "shortname": "D. Paz Gonz\u00e1lez",
-          "checkname": "D. Paz Gonz\u00e1lez",
-          "uni": "97",
+          "id": "c601466a-35e2-4b63-a050-8ad15d4ad3b3",
+          "name": "C. Ngimbi",
+          "shortname": "C. Ngimbi",
+          "checkname": "C. Ngimbi Mabiala",
+          "uni": "60",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
-          "code": "50"
+          "code": "38"
         }
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "V. Dos Santos Brito",
-          "shortname": "V. Dos Santos Brito",
-          "checkname": "V. Dos Santos Brito",
-          "uni": "98",
+          "id": "d35fe100-e79a-11ee-9ba5-2bd59e2700b4",
+          "name": "D. Fabi\u00e1n",
+          "shortname": "D. Fabi\u00e1n",
+          "checkname": "D. Fabi\u00e1n Viola",
+          "uni": "65",
           "class": "SR",
           "gp": "1",
           "gs": "0",
           "opos": "",
-          "code": "51"
+          "code": "39"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "0ab02010-de2e-11ed-a48f-e36421cf2937",
+          "name": "D. Culebras",
+          "shortname": "D. Culebras",
+          "checkname": "D. Culebras Sanfrutos",
+          "uni": "71",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "40"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "bf84f850-e795-11ee-b72c-5b9c6bc4dc38",
+          "name": "D. Contreras",
+          "shortname": "D. Contreras",
+          "checkname": "D. Contreras P\u00e9rez",
+          "uni": "72",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "41"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "18a81070-4704-44c9-a4fa-82664a7ddf4c",
+          "name": "C. Carrasco",
+          "shortname": "C. Carrasco",
+          "checkname": "C. Carrasco Sanz",
+          "uni": "77",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "42"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "93423b41-7c8b-488a-924c-48d9c5e9cf8a",
+          "name": "A. Sousa",
+          "shortname": "A. Sousa",
+          "checkname": "A. Sousa Posincovich",
+          "uni": "78",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "43"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "2300d800-1c1a-11ef-ac8f-4d6895e9d044",
+          "name": "J. Hagerup",
+          "shortname": "J. Hagerup",
+          "checkname": "J. Hagerup",
+          "uni": "79",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "44"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "9783530a-8cce-4a26-930d-03ea9c7b2909",
+          "name": "M. Flores",
+          "shortname": "M. Flores",
+          "checkname": "M. Flores Somolinos",
+          "uni": "84",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "45"
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "4",
+            "yds": "67",
+            "td": "2",
+            "long": "30"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "76cd99b0-03be-11ef-be83-69dd24cc129d",
+          "name": "\u00c1. Molano",
+          "shortname": "\u00c1. Molano",
+          "checkname": "\u00c1. Molano Mej\u00eda",
+          "uni": "85",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "46"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "d7682d20-e08e-11ed-9ef9-5d44f7771288",
+          "name": "I. Garc\u00eda",
+          "shortname": "I. Garc\u00eda",
+          "checkname": "I. Garc\u00eda Sala",
+          "uni": "87",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "47"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "3b1bdcd0-de38-11ed-93bc-d51f0a705d56",
+          "name": "L. Rovesti",
+          "shortname": "L. Rovesti",
+          "checkname": "L. Rovesti Ferrer",
+          "uni": "90",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "48"
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
-            "tacka": "0",
+            "tackua": "0",
+            "tacka": "1",
             "tot_tack": "1",
             "tflua": "0",
             "tfla": "0",
@@ -2544,9 +2798,102 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "D. L\u00f3pez Garc\u00eda",
-          "shortname": "D. L\u00f3pez Garc\u00eda",
+          "id": "a0e43620-de1a-11ed-a48f-e36421cf2937",
+          "name": "D. Irles",
+          "shortname": "D. Irles",
+          "checkname": "D. Irles Santoja",
+          "uni": "91",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "49"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "5",
+            "tacka": "1",
+            "tot_tack": "6",
+            "tflua": "2",
+            "tfla": "0",
+            "tflyds": "28",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "1c967c30-de69-11ed-8beb-a7d30736740a",
+          "name": "D. Paz",
+          "shortname": "D. Paz",
+          "checkname": "D. Paz Gonz\u00e1lez",
+          "uni": "97",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "50"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "0",
+            "tacka": "1",
+            "tot_tack": "1",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "1ca65c90-e787-11ee-90ed-d39aea0e8043",
+          "name": "V. Dos Santos",
+          "shortname": "V. Dos Santos",
+          "checkname": "V. Dos Santos Brito",
+          "uni": "98",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "51"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "2",
+            "tacka": "2",
+            "tot_tack": "4",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "b3fee270-de27-11ed-a48f-e36421cf2937",
+          "name": "D. L\u00f3pez",
+          "shortname": "D. L\u00f3pez",
           "checkname": "D. L\u00f3pez Garc\u00eda",
           "uni": "99",
           "class": "SR",
@@ -2558,8 +2905,8 @@
         "defense": {
           "_attributes": {
             "tackua": "1",
-            "tacka": "1",
-            "tot_tack": "2",
+            "tacka": "3",
+            "tot_tack": "4",
             "tflua": "0",
             "tfla": "0",
             "tflyds": "0",
@@ -2587,8 +2934,8 @@
     "linescore": {
       "_attributes": {
         "prds": "4",
-        "line": "6,0,0,0",
-        "score": "6"
+        "line": "6,0,6,0",
+        "score": "12"
       },
       "lineprd": [
         {
@@ -2606,7 +2953,7 @@
         {
           "_attributes": {
             "prd": "3",
-            "score": "0"
+            "score": "6"
           }
         },
         {
@@ -2619,16 +2966,16 @@
     },
     "totals": {
       "_attributes": {
-        "totoff_plays": "17",
-        "totoff_yards": "101",
-        "totoff_avg": "5.94117647058824"
+        "totoff_plays": "74",
+        "totoff_yards": "403",
+        "totoff_avg": "5,44594594594595"
       },
       "firstdowns": {
         "_attributes": {
-          "no": "4",
-          "rush": "1",
-          "pass": "3",
-          "penalty": "0"
+          "no": "24",
+          "rush": "9",
+          "pass": "14",
+          "penalty": "1"
         }
       },
       "penalties": {
@@ -2639,10 +2986,10 @@
       },
       "conversions": {
         "_attributes": {
-          "thirdconv": "0",
-          "thirdatt": "3",
+          "thirdconv": "4",
+          "thirdatt": "13",
           "fourthconv": "0",
-          "fourthatt": "0"
+          "fourthatt": "2"
         }
       },
       "fumbles": {
@@ -2654,7 +3001,7 @@
       "misc": {
         "_attributes": {
           "yds": "",
-          "top": "6:13",
+          "top": "25:33",
           "ona": "",
           "onm": "",
           "ptsto": ""
@@ -2678,20 +3025,20 @@
       },
       "rush": {
         "_attributes": {
-          "att": "7",
-          "yds": "23",
-          "gain": "23",
+          "att": "34",
+          "yds": "151",
+          "gain": "167",
           "loss": "",
-          "td": "0",
+          "td": "1",
           "long": "0"
         }
       },
       "pass": {
         "_attributes": {
-          "comp": "6",
-          "att": "10",
-          "int": "0",
-          "yds": "78",
+          "comp": "21",
+          "att": "40",
+          "int": "1",
+          "yds": "252",
           "td": "1",
           "long": "0",
           "sacks": "0",
@@ -2700,31 +3047,31 @@
       },
       "rcv": {
         "_attributes": {
-          "no": "6",
-          "yds": "78",
+          "no": "21",
+          "yds": "252",
           "td": "1",
           "long": "0"
         }
       },
       "punt": {
         "_attributes": {
-          "no": "3",
-          "yds": "97",
+          "no": "6",
+          "yds": "231",
           "long": "0",
           "blkd": "0",
           "tb": "0",
           "fc": "0",
           "plus50": "1",
           "inside20": "0",
-          "avg": "32.3333333333333"
+          "avg": "38,5"
         }
       },
       "ko": {
         "_attributes": {
-          "no": "2",
-          "yds": "76",
+          "no": "3",
+          "yds": "79",
           "ob": "0",
-          "tb": "0",
+          "tb": "1",
           "fcyds": "0"
         }
       },
@@ -2746,9 +3093,9 @@
       },
       "defense": {
         "_attributes": {
-          "tackua": "19",
-          "tacka": "4",
-          "tot_tack": "23",
+          "tackua": "41",
+          "tacka": "14",
+          "tot_tack": "55",
           "tflua": "",
           "tfla": "",
           "tflyds": "25",
@@ -2763,8 +3110,8 @@
       },
       "kr": {
         "_attributes": {
-          "no": "1",
-          "yds": "15",
+          "no": "4",
+          "yds": "35",
           "td": "0",
           "long": "0"
         }
@@ -2787,7 +3134,7 @@
       },
       "scoring": {
         "_attributes": {
-          "td": "1",
+          "td": "2",
           "fg": "0",
           "patkick": "0",
           "saf": ""
@@ -2797,39 +3144,39 @@
     "player": [
       {
         "_attributes": {
-          "id": "",
-          "name": "E. Gracia Zapata",
-          "shortname": "E. Gracia Zapata",
+          "id": "808c5b70-fe8d-11ee-832f-3727ab22c4f0",
+          "name": "E. Gracia",
+          "shortname": "E. Gracia",
           "checkname": "E. Gracia Zapata",
           "uni": "0",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "1"
         },
         "kr": {
           "_attributes": {
-            "no": "1",
-            "yds": "15",
+            "no": "3",
+            "yds": "-10",
             "td": "0",
             "long": "15"
           }
         },
         "pr": {
           "_attributes": {
-            "no": "1",
-            "yds": "-1",
+            "no": "2",
+            "yds": "8",
             "td": "0",
-            "long": "-1"
+            "long": "9"
           }
         }
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "J. Fuentes Yepes",
-          "shortname": "J. Fuentes Yepes",
+          "id": "5f9aa160-0df6-11ef-bc95-4f29fe50f7bb",
+          "name": "J. Fuentes",
+          "shortname": "J. Fuentes",
           "checkname": "J. Fuentes Yepes",
           "uni": "97",
           "class": "SR",
@@ -2841,23 +3188,33 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "L. Lewis",
-          "shortname": "L. Lewis",
+          "id": "955f5ec0-0d43-11ef-b9cc-e37969e87c26",
+          "name": "Le. Lewis",
+          "shortname": "Le. Lewis",
           "checkname": "L. Lewis",
           "uni": "1",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "3"
         },
+        "rush": {
+          "_attributes": {
+            "att": "8",
+            "yds": "40",
+            "gain": "56",
+            "loss": "16",
+            "td": "0",
+            "long": "19"
+          }
+        },
         "pass": {
           "_attributes": {
-            "comp": "6",
-            "att": "10",
-            "int": "0",
-            "yds": "78",
+            "comp": "21",
+            "att": "39",
+            "int": "1",
+            "yds": "252",
             "td": "1",
             "long": "27",
             "sacks": "0",
@@ -2867,16 +3224,309 @@
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "3353d646-fe1d-41e2-84b9-0f89c00c0480",
           "name": "D. Shelton",
           "shortname": "D. Shelton",
           "checkname": "D. Shelton",
           "uni": "2",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "4"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "6",
+            "tacka": "0",
+            "tot_tack": "6",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "d2371360-fe8e-11ee-aa3e-a3dff8ad1cc6",
+          "name": "I. Telijah",
+          "shortname": "I. Telijah",
+          "checkname": "I. Telijah Donadelle",
+          "uni": "3",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "5"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "1",
+            "yds": "5",
+            "gain": "5",
+            "loss": "0",
+            "td": "0",
+            "long": "5"
+          }
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "5",
+            "yds": "74",
+            "td": "1",
+            "long": "26"
+          }
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        },
+        "kr": {
+          "_attributes": {
+            "no": "1",
+            "yds": "45",
+            "td": "0",
+            "long": "45"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "0bb09250-1985-11ee-bc04-d5835c59d507",
+          "name": "A. Pacheco",
+          "shortname": "A. Pacheco",
+          "checkname": "A. Pacheco ",
+          "uni": "4",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "6"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "9fe77f20-db1c-11ee-921d-5bbdfdba0fe2",
+          "name": "Q. Silver",
+          "shortname": "Q. Silver",
+          "checkname": "Q. Silver Salazar",
+          "uni": "5",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "7"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "e599f293-24a4-4c52-89dd-2876fcb24732",
+          "name": "L. Cereceda",
+          "shortname": "L. Cereceda",
+          "checkname": "L. Cereceda",
+          "uni": "6",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "8"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "552301f0-e070-11ed-ade4-091746eb0e81",
+          "name": "S. Higgs",
+          "shortname": "S. Higgs",
+          "checkname": "S. Higgs",
+          "uni": "7",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "9"
+        },
+        "pass": {
+          "_attributes": {
+            "comp": "0",
+            "att": "1",
+            "int": "0",
+            "yds": "0",
+            "td": "0",
+            "long": "",
+            "sacks": "0",
+            "sackyds": "0"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "d37c1310-df13-11ed-afa6-19d2e068f755",
+          "name": "H. Arias",
+          "shortname": "H. Arias",
+          "checkname": "H. Arias Hern\u00e1ndez",
+          "uni": "8",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "10"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "1",
+            "yds": "9",
+            "gain": "9",
+            "loss": "0",
+            "td": "0",
+            "long": "9"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "a59e4480-ed55-11ee-adf6-49acba0c7327",
+          "name": "I. Iordanov",
+          "shortname": "I. Iordanov",
+          "checkname": "I. Iordanov Rodriguez",
+          "uni": "9",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "11"
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "1",
+            "yds": "23",
+            "td": "0",
+            "long": "23"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "af52d5b2-a90b-4ee2-9770-46a5fec53b4d",
+          "name": "C. Brugnani",
+          "shortname": "C. Brugnani",
+          "checkname": "C. Brugnani",
+          "uni": "10",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "12"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "3",
+            "tacka": "5",
+            "tot_tack": "8",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "bee625c0-fe8a-11ee-beda-b1e24020a37a",
+          "name": "C. Take Hamza",
+          "shortname": "C. Take Hamza",
+          "checkname": "C. Take Hamza",
+          "uni": "11",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "13"
+        },
+        "rush": {
+          "_attributes": {
+            "att": "12",
+            "yds": "51",
+            "gain": "51",
+            "loss": "0",
+            "td": "1",
+            "long": "12"
+          }
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "1",
+            "yds": "5",
+            "td": "0",
+            "long": "5"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "26f84500-fe8e-11ee-a755-fbd419088cd8",
+          "name": "G. Llinares",
+          "shortname": "G. Llinares",
+          "checkname": "G. Llinares Fiol",
+          "uni": "12",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "14"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "0738f080-fe8d-11ee-a616-27f1f8fefa1b",
+          "name": "D. Lliteras",
+          "shortname": "D. Lliteras",
+          "checkname": "D. Lliteras Ferraz",
+          "uni": "13",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "15"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "875dc7a0-de30-11ed-a48f-e36421cf2937",
+          "name": "B. Colom\u00e9",
+          "shortname": "B. Colom\u00e9",
+          "checkname": "B. Colom\u00e9 Carbonell",
+          "uni": "14",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "16"
         },
         "defense": {
           "_attributes": {
@@ -2898,242 +3548,22 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "I. Telijah Donadelle",
-          "shortname": "I. Telijah Donadelle",
-          "checkname": "I. Telijah Donadelle",
-          "uni": "3",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "5"
-        },
-        "rcv": {
-          "_attributes": {
-            "no": "2",
-            "yds": "24",
-            "td": "1",
-            "long": "21"
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "A. Pacheco ",
-          "shortname": "A. Pacheco ",
-          "checkname": "A. Pacheco ",
-          "uni": "4",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "6"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "Q. Silver Salazar",
-          "shortname": "Q. Silver Salazar",
-          "checkname": "Q. Silver Salazar",
-          "uni": "5",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "7"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "L. Cereceda",
-          "shortname": "L. Cereceda",
-          "checkname": "L. Cereceda",
-          "uni": "6",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "8"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "S. Higgs",
-          "shortname": "S. Higgs",
-          "checkname": "S. Higgs",
-          "uni": "7",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "9"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "H. Arias Hern\u00e1ndez",
-          "shortname": "H. Arias Hern\u00e1ndez",
-          "checkname": "H. Arias Hern\u00e1ndez",
-          "uni": "8",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "10"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "I. Iordanov Rodriguez",
-          "shortname": "I. Iordanov Rodriguez",
-          "checkname": "I. Iordanov Rodriguez",
-          "uni": "9",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "11"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "C. Brugnani",
-          "shortname": "C. Brugnani",
-          "checkname": "C. Brugnani",
-          "uni": "10",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "12"
-        },
-        "defense": {
-          "_attributes": {
-            "tackua": "2",
-            "tacka": "2",
-            "tot_tack": "4",
-            "tflua": "0",
-            "tfla": "0",
-            "tflyds": "0",
-            "sacks": "",
-            "sackyds": "",
-            "brup": "",
-            "blkd": "",
-            "ff": "",
-            "int": "",
-            "intyds": ""
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "C. Take Hamza",
-          "shortname": "C. Take Hamza",
-          "checkname": "C. Take Hamza",
-          "uni": "11",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "13"
-        },
-        "rush": {
-          "_attributes": {
-            "att": "3",
-            "yds": "11",
-            "gain": "11",
-            "loss": "0",
-            "td": "0",
-            "long": "6"
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "G. Llinares Fiol",
-          "shortname": "G. Llinares Fiol",
-          "checkname": "G. Llinares Fiol",
-          "uni": "12",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "14"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "D. Lliteras Ferraz",
-          "shortname": "D. Lliteras Ferraz",
-          "checkname": "D. Lliteras Ferraz",
-          "uni": "13",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "15"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "B. Colom\u00e9 Carbonell",
-          "shortname": "B. Colom\u00e9 Carbonell",
-          "checkname": "B. Colom\u00e9 Carbonell",
-          "uni": "14",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "16"
-        },
-        "defense": {
-          "_attributes": {
-            "tackua": "1",
-            "tacka": "0",
-            "tot_tack": "1",
-            "tflua": "0",
-            "tfla": "0",
-            "tflyds": "0",
-            "sacks": "",
-            "sackyds": "",
-            "brup": "",
-            "blkd": "",
-            "ff": "",
-            "int": "",
-            "intyds": ""
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "A. Gonzalez Posito",
-          "shortname": "A. Gonzalez Posito",
+          "id": "7798f9e7-9fc9-461b-96df-2f884db515e1",
+          "name": "A. Posito",
+          "shortname": "A. Posito",
           "checkname": "A. Gonzalez Posito",
           "uni": "15",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "17"
         },
         "defense": {
           "_attributes": {
-            "tackua": "2",
+            "tackua": "5",
             "tacka": "1",
-            "tot_tack": "3",
+            "tot_tack": "6",
             "tflua": "1",
             "tfla": "0",
             "tflyds": "17",
@@ -3149,9 +3579,9 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "D. Martinez Rivero",
-          "shortname": "D. Martinez Rivero",
+          "id": "74358d80-fe8b-11ee-93cf-81b4a6603e0f",
+          "name": "D. Martinez",
+          "shortname": "D. Martinez",
           "checkname": "D. Martinez Rivero",
           "uni": "17",
           "class": "SR",
@@ -3163,31 +3593,31 @@
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "5df38aa0-0e02-11ef-bf70-a9ce6ac3bbb6",
           "name": "S. McCluskey",
           "shortname": "S. McCluskey",
           "checkname": "S. McCluskey",
           "uni": "18",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "19"
         },
         "rcv": {
           "_attributes": {
-            "no": "1",
-            "yds": "9",
+            "no": "2",
+            "yds": "20",
             "td": "0",
-            "long": "9"
+            "long": "11"
           }
         }
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "I. Alsina Virgili",
-          "shortname": "I. Alsina Virgili",
+          "id": "0ed576e0-169a-11ef-b02e-1fdc1622764a",
+          "name": "I. Alsina",
+          "shortname": "I. Alsina",
           "checkname": "I. Alsina Virgili",
           "uni": "19",
           "class": "SR",
@@ -3199,22 +3629,22 @@
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "2dc23660-13ac-11ef-9e98-1fa366231e18",
           "name": "K. Khalid Adisa",
           "shortname": "K. Khalid Adisa",
           "checkname": "K. Khalid Adisa",
           "uni": "20",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "21"
         },
         "defense": {
           "_attributes": {
-            "tackua": "4",
+            "tackua": "5",
             "tacka": "0",
-            "tot_tack": "4",
+            "tot_tack": "5",
             "tflua": "1",
             "tfla": "0",
             "tflyds": "5",
@@ -3230,53 +3660,84 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "A. Mont\u00f3n",
-          "shortname": "A. Mont\u00f3n",
+          "id": "bffcfcd8-8b61-4291-8ba4-a6889d348032",
+          "name": "A. Monton",
+          "shortname": "A. Monton",
           "checkname": "A. Mont\u00f3n",
           "uni": "21",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "22"
         },
         "rush": {
           "_attributes": {
-            "att": "4",
-            "yds": "12",
-            "gain": "12",
+            "att": "12",
+            "yds": "46",
+            "gain": "46",
             "loss": "0",
             "td": "0",
-            "long": "5"
+            "long": "8"
           }
         },
         "rcv": {
           "_attributes": {
-            "no": "1",
-            "yds": "2",
+            "no": "5",
+            "yds": "45",
             "td": "0",
-            "long": "2"
+            "long": "21"
           }
         }
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "47e0fb08-aa0c-47a0-b8cd-0493f29cb11a",
           "name": "L. Frecha",
           "shortname": "L. Frecha",
           "checkname": "L. Frecha",
           "uni": "22",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "23"
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
-            "tacka": "1",
+            "tackua": "5",
+            "tacka": "4",
+            "tot_tack": "9",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "6608b092-680f-4104-8069-caba1595132e",
+          "name": "J. Brugnani",
+          "shortname": "J. Brugnani",
+          "checkname": "J. Brugnani",
+          "uni": "23",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "24"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "2",
+            "tacka": "0",
             "tot_tack": "2",
             "tflua": "0",
             "tfla": "0",
@@ -3293,40 +3754,9 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "J. Brugnani",
-          "shortname": "J. Brugnani",
-          "checkname": "J. Brugnani",
-          "uni": "23",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "24"
-        },
-        "defense": {
-          "_attributes": {
-            "tackua": "1",
-            "tacka": "0",
-            "tot_tack": "1",
-            "tflua": "0",
-            "tfla": "0",
-            "tflyds": "0",
-            "sacks": "",
-            "sackyds": "",
-            "brup": "",
-            "blkd": "",
-            "ff": "",
-            "int": "",
-            "intyds": ""
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "A. Marin Navarro",
-          "shortname": "A. Marin Navarro",
+          "id": "2ff915b0-fe86-11ee-b2b2-6b795e6685d4",
+          "name": "A. Marin",
+          "shortname": "A. Marin",
           "checkname": "A. Marin Navarro",
           "uni": "24",
           "class": "SR",
@@ -3338,7 +3768,7 @@
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "eb8ba7d0-de33-11ed-a48f-e36421cf2937",
           "name": "P. Sendelbach",
           "shortname": "P. Sendelbach",
           "checkname": "P. Sendelbach",
@@ -3352,9 +3782,9 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "V. Miller Gonzalez",
-          "shortname": "V. Miller Gonzalez",
+          "id": "3d7233c0-0e03-11ef-a5d9-39fed881ad07",
+          "name": "V. Miller",
+          "shortname": "V. Miller",
           "checkname": "V. Miller Gonzalez",
           "uni": "27",
           "class": "SR",
@@ -3366,7 +3796,7 @@
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "f4fd65e0-1bfc-11ee-a265-e9eb5f238eca",
           "name": "L. Sagu\u00e9",
           "shortname": "L. Sagu\u00e9",
           "checkname": "L. Sagu\u00e9",
@@ -3376,11 +3806,28 @@
           "gs": "0",
           "opos": "",
           "code": "28"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "0",
+            "tacka": "0",
+            "tot_tack": "0",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
         }
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "9dc9b0d0-1c01-11ee-a265-e9eb5f238eca",
           "name": "V. Moreno",
           "shortname": "V. Moreno",
           "checkname": "V. Moreno",
@@ -3394,22 +3841,22 @@
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "df003e9f-5f1a-43bd-847c-419e56ab89d9",
           "name": "D. Brumfield",
           "shortname": "D. Brumfield",
           "checkname": "D. Brumfield",
           "uni": "40",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "30"
         },
         "defense": {
           "_attributes": {
-            "tackua": "2",
-            "tacka": "0",
-            "tot_tack": "2",
+            "tackua": "3",
+            "tacka": "1",
+            "tot_tack": "4",
             "tflua": "1",
             "tfla": "0",
             "tflyds": "3",
@@ -3425,22 +3872,22 @@
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "ccfcddda-504a-4868-9327-71be43774edf",
           "name": "J. Jackson",
           "shortname": "J. Jackson",
           "checkname": "J. Jackson",
           "uni": "44",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "31"
         },
         "defense": {
           "_attributes": {
-            "tackua": "1",
-            "tacka": "0",
-            "tot_tack": "1",
+            "tackua": "2",
+            "tacka": "1",
+            "tot_tack": "3",
             "tflua": "0",
             "tfla": "0",
             "tflyds": "0",
@@ -3456,7 +3903,7 @@
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "64cc1c60-1c00-11ee-a265-e9eb5f238eca",
           "name": "E. Figueroa",
           "shortname": "E. Figueroa",
           "checkname": "E. Figueroa",
@@ -3470,7 +3917,7 @@
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "15b4d515-8398-480c-9105-f36665aabf45",
           "name": "R. Hernandez Ruiz",
           "shortname": "R. Hernandez Ruiz",
           "checkname": "R. Hernandez Ruiz",
@@ -3484,14 +3931,14 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "J. Hernandez Jimenez",
-          "shortname": "J. Hernandez Jimenez",
+          "id": "3b3c3dc0-0dff-11ef-9c7a-5f5c661e7045",
+          "name": "J. Hernandez",
+          "shortname": "J. Hernandez",
           "checkname": "J. Hernandez Jimenez",
           "uni": "53",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "34"
         },
@@ -3515,7 +3962,7 @@
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "855c4ef5-bf27-4050-b4ae-bc1e86d596f7",
           "name": "A. Novella",
           "shortname": "A. Novella",
           "checkname": "A. Novella",
@@ -3529,9 +3976,9 @@
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "J. Varela Borges  ",
-          "shortname": "J. Varela Borges  ",
+          "id": "bf4b21b0-0df7-11ef-8acc-abd008721197",
+          "name": "J. Varela B.",
+          "shortname": "J. Varela B.",
           "checkname": "J. Varela Borges  ",
           "uni": "55",
           "class": "SR",
@@ -3539,205 +3986,6 @@
           "gs": "0",
           "opos": "",
           "code": "36"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "T. Middleton",
-          "shortname": "T. Middleton",
-          "checkname": "T. Middleton",
-          "uni": "62",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "37"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "E. Nu\u00f1ez Vargas",
-          "shortname": "E. Nu\u00f1ez Vargas",
-          "checkname": "E. Nu\u00f1ez Vargas",
-          "uni": "64",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "38"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "J. Ruiz Mart\u00ednez",
-          "shortname": "J. Ruiz Mart\u00ednez",
-          "checkname": "J. Ruiz Mart\u00ednez",
-          "uni": "67",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "39"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "J. Ariza Paredes",
-          "shortname": "J. Ariza Paredes",
-          "checkname": "J. Ariza Paredes",
-          "uni": "72",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "40"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "M. Gomez",
-          "shortname": "M. Gomez",
-          "checkname": "M. Gomez",
-          "uni": "74",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "41"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "I. Santana",
-          "shortname": "I. Santana",
-          "checkname": "I. Santana",
-          "uni": "76",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "42"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "C. Guill\u00e9n Leon",
-          "shortname": "C. Guill\u00e9n Leon",
-          "checkname": "C. Guill\u00e9n Leon",
-          "uni": "77",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "43"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "M. Kabankaya",
-          "shortname": "M. Kabankaya",
-          "checkname": "M. Kabankaya",
-          "uni": "78",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "44"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "C. Martin Augulo",
-          "shortname": "C. Martin Augulo",
-          "checkname": "C. Martin Augulo",
-          "uni": "88",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "45"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "A. David P\u00e9rez ",
-          "shortname": "A. David P\u00e9rez ",
-          "checkname": "A. David P\u00e9rez ",
-          "uni": "89",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "46"
-        },
-        "rcv": {
-          "_attributes": {
-            "no": "2",
-            "yds": "43",
-            "td": "0",
-            "long": "27"
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "S. Rodriguez Romero",
-          "shortname": "S. Rodriguez Romero",
-          "checkname": "S. Rodriguez Romero",
-          "uni": "91",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "47"
-        },
-        "ko": {
-          "_attributes": {
-            "no": "0",
-            "yds": "76",
-            "ob": "0",
-            "tb": "0",
-            "fcyds": ""
-          }
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "R. Fernandez Buitrago",
-          "shortname": "R. Fernandez Buitrago",
-          "checkname": "R. Fernandez Buitrago",
-          "uni": "92",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "48"
-        }
-      },
-      {
-        "_attributes": {
-          "id": "",
-          "name": "M. Nunurai",
-          "shortname": "M. Nunurai",
-          "checkname": "M. Nunurai",
-          "uni": "95",
-          "class": "SR",
-          "gp": "1",
-          "gs": "0",
-          "opos": "",
-          "code": "49"
         },
         "defense": {
           "_attributes": {
@@ -3759,23 +4007,256 @@
       },
       {
         "_attributes": {
-          "id": "",
+          "id": "2dbfac00-0f3a-11ee-af39-2d5c6ffbc113",
+          "name": "T. Middleton",
+          "shortname": "T. Middleton",
+          "checkname": "T. Middleton",
+          "uni": "62",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "37"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "0b850999-c144-4bfa-946f-361235002245",
+          "name": "E. Nunez",
+          "shortname": "E. Nunez",
+          "checkname": "E. Nu\u00f1ez Vargas",
+          "uni": "64",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "38"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "a53997c0-0ded-11ef-a715-8b420afb514b",
+          "name": "J. Ruiz",
+          "shortname": "J. Ruiz",
+          "checkname": "J. Ruiz Mart\u00ednez",
+          "uni": "67",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "39"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "f9fe289f-cb32-4695-83d5-59ad9c235e21",
+          "name": "J. Ariza",
+          "shortname": "J. Ariza",
+          "checkname": "J. Ariza Paredes",
+          "uni": "72",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "40"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "97312180-5e77-40fe-a133-c74a63315b82",
+          "name": "M. Gomez",
+          "shortname": "M. Gomez",
+          "checkname": "M. Gomez",
+          "uni": "74",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "41"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "166a2446-0c80-44ba-a4d4-4e6c96ca7324",
+          "name": "I. Santana",
+          "shortname": "I. Santana",
+          "checkname": "I. Santana",
+          "uni": "76",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "42"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "56f1cee1-de38-4315-8e3a-1c60c2c5ab66",
+          "name": "C. Guillen",
+          "shortname": "C. Guillen",
+          "checkname": "C. Guill\u00e9n Leon",
+          "uni": "77",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "43"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "36c4150d-c088-4cac-87c3-4838889ca336",
+          "name": "M. Kabankaya",
+          "shortname": "M. Kabankaya",
+          "checkname": "M. Kabankaya",
+          "uni": "78",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "44"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "e93bfe00-0f09-11ef-a868-c947e246cde1",
+          "name": "C. Martin",
+          "shortname": "C. Martin",
+          "checkname": "C. Martin Augulo",
+          "uni": "88",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "45"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "ee79dc60-ed59-11ee-a056-a1911c1a448f",
+          "name": "A. David",
+          "shortname": "A. David",
+          "checkname": "A. David P\u00e9rez ",
+          "uni": "89",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "46"
+        },
+        "rcv": {
+          "_attributes": {
+            "no": "7",
+            "yds": "85",
+            "td": "0",
+            "long": "27"
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "67c986d0-0e14-11ef-b908-f7d547330eb4",
+          "name": "S. Rodriguez",
+          "shortname": "S. Rodriguez",
+          "checkname": "S. Rodriguez Romero",
+          "uni": "91",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "47"
+        },
+        "ko": {
+          "_attributes": {
+            "no": "1",
+            "yds": "79",
+            "ob": "0",
+            "tb": "1",
+            "fcyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "11037bf0-0dfe-11ef-94bd-356120e3f58a",
+          "name": "R. Fernandez",
+          "shortname": "R. Fernandez",
+          "checkname": "R. Fernandez Buitrago",
+          "uni": "92",
+          "class": "SR",
+          "gp": "1",
+          "gs": "0",
+          "opos": "",
+          "code": "48"
+        }
+      },
+      {
+        "_attributes": {
+          "id": "5648e2d0-0e04-11ef-8534-47e38007da6e",
+          "name": "M. Nunurai",
+          "shortname": "M. Nunurai",
+          "checkname": "M. Nunurai",
+          "uni": "95",
+          "class": "SR",
+          "gp": "1",
+          "gs": "1",
+          "opos": "",
+          "code": "49"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "2",
+            "tacka": "0",
+            "tot_tack": "2",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "id": "4aef9173-fecb-4ce2-ab9e-74eb00a2f319",
           "name": "D. Franco",
           "shortname": "D. Franco",
           "checkname": "D. Franco",
           "uni": "98",
           "class": "SR",
           "gp": "1",
-          "gs": "0",
+          "gs": "1",
           "opos": "",
           "code": "50"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "1",
+            "tacka": "0",
+            "tot_tack": "1",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
         }
       },
       {
         "_attributes": {
-          "id": "",
-          "name": "M. Ka Thiobane",
-          "shortname": "M. Ka Thiobane",
+          "id": "765de0f0-df13-11ed-afa6-19d2e068f755",
+          "name": "M. Ka",
+          "shortname": "M. Ka",
           "checkname": "M. Ka Thiobane",
           "uni": "99",
           "class": "SR",
@@ -3783,6 +4264,23 @@
           "gs": "0",
           "opos": "",
           "code": "51"
+        },
+        "defense": {
+          "_attributes": {
+            "tackua": "0",
+            "tacka": "2",
+            "tot_tack": "2",
+            "tflua": "0",
+            "tfla": "0",
+            "tflyds": "0",
+            "sacks": "",
+            "sackyds": "",
+            "brup": "",
+            "blkd": "",
+            "ff": "",
+            "int": "",
+            "intyds": ""
+          }
         }
       }
     ]
@@ -3790,36 +4288,22 @@
   "home_players": [
     {
       "_attributes": {
-        "id": "",
+        "id": "6bcb84a5-19f4-46d0-b28c-dd6ee6cb275a",
         "name": "Y. Rivero",
         "shortname": "Y. Rivero",
         "checkname": "Y. Rivero",
         "uni": "0",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "1"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "J. Carrasco Sanz",
-        "shortname": "J. Carrasco Sanz",
-        "checkname": "J. Carrasco Sanz",
-        "uni": "2",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "2"
       },
       "defense": {
         "_attributes": {
           "tackua": "0",
-          "tacka": "0",
-          "tot_tack": "0",
+          "tacka": "1",
+          "tot_tack": "1",
           "tflua": "0",
           "tfla": "0",
           "tflyds": "0",
@@ -3835,16 +4319,221 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "P. Araya Matilla",
-        "shortname": "P. Araya Matilla",
-        "checkname": "P. Araya Matilla",
-        "uni": "3",
+        "id": "f4a802f0-e79c-11ee-9b58-838e738bc47d",
+        "name": "J. Carrasco",
+        "shortname": "J. Carrasco",
+        "checkname": "J. Carrasco Sanz",
+        "uni": "2",
         "class": "SR",
         "gp": "1",
         "gs": "0",
         "opos": "",
+        "code": "2"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "1",
+          "tacka": "4",
+          "tot_tack": "5",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "6b50f507-5965-4676-a17d-d351c860f775",
+        "name": "P. Araya",
+        "shortname": "P. Araya",
+        "checkname": "P. Araya Matilla",
+        "uni": "3",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
         "code": "3"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "6",
+          "tacka": "5",
+          "tot_tack": "11",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "4d570d30-e773-11ee-8c50-577d8b84aaaa",
+        "name": "A. Guiti\u00e1n",
+        "shortname": "A. Guiti\u00e1n",
+        "checkname": "\u00c1. Guiti\u00e1n  Vizoso",
+        "uni": "4",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "4"
+      },
+      "ko": {
+        "_attributes": {
+          "no": "2",
+          "yds": "407",
+          "ob": "0",
+          "tb": "2",
+          "fcyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "07d72832-5eb9-4431-9ba5-c3583cf00bd6",
+        "name": "J. Velasco",
+        "shortname": "J. Velasco",
+        "checkname": "J. Velasco Velo",
+        "uni": "5",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "5"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "fa01ef80-ee3d-11ed-b842-59d266973876",
+        "name": "L. Glenna",
+        "shortname": "L. Glenna",
+        "checkname": "L. Glenna",
+        "uni": "6",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "6"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "4",
+          "tacka": "2",
+          "tot_tack": "6",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      },
+      "ir": {
+        "_attributes": {
+          "no": "1",
+          "yds": "4",
+          "td": "0",
+          "long": "4"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "e0fd67b0-998f-11ed-bf80-6f33335c6375",
+        "name": "C. Helbig",
+        "shortname": "C. Helbig",
+        "checkname": "C. Helbig",
+        "uni": "7",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "7"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "4",
+          "yds": "-10",
+          "gain": "7",
+          "loss": "17",
+          "td": "0",
+          "long": "3"
+        }
+      },
+      "pass": {
+        "_attributes": {
+          "comp": "24",
+          "att": "34",
+          "int": "0",
+          "yds": "343",
+          "td": "4",
+          "long": "34",
+          "sacks": "0",
+          "sackyds": "0"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "a8f5937c-8f0f-4a26-b146-ba889e5a604e",
+        "name": "J. Embry",
+        "shortname": "J. Embry",
+        "checkname": "J. Embry",
+        "uni": "8",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "8"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "3",
+          "tacka": "1",
+          "tot_tack": "4",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "aaf1fc86-790c-446b-8e25-19a14c131b15",
+        "name": "S. Bowen",
+        "shortname": "S. Bowen",
+        "checkname": "S. Bowen",
+        "uni": "9",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "9"
       },
       "defense": {
         "_attributes": {
@@ -3866,122 +4555,29 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "\u00c1. Guiti\u00e1n  Vizoso",
-        "shortname": "\u00c1. Guiti\u00e1n  Vizoso",
-        "checkname": "\u00c1. Guiti\u00e1n  Vizoso",
-        "uni": "4",
+        "id": "36cba73d-f9c5-40f5-b095-6e68f4afb691",
+        "name": "J. Madin Cerezo",
+        "shortname": "J. Madin Cerezo",
+        "checkname": "J. Madin Cerezo",
+        "uni": "10",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
-        "code": "4"
+        "code": "10"
       },
-      "ko": {
+      "rcv": {
         "_attributes": {
-          "no": "2",
-          "yds": "205",
-          "ob": "0",
-          "tb": "2",
-          "fcyds": ""
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "J. Velasco Velo",
-        "shortname": "J. Velasco Velo",
-        "checkname": "J. Velasco Velo",
-        "uni": "5",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "5"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "L. Glenna",
-        "shortname": "L. Glenna",
-        "checkname": "L. Glenna",
-        "uni": "6",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "6"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "C. Helbig",
-        "shortname": "C. Helbig",
-        "checkname": "C. Helbig",
-        "uni": "7",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "7"
-      },
-      "rush": {
-        "_attributes": {
-          "att": "2",
-          "yds": "-15",
-          "gain": "2",
-          "loss": "17",
+          "no": "3",
+          "yds": "42",
           "td": "0",
-          "long": "2"
+          "long": "19"
         }
-      },
-      "pass": {
-        "_attributes": {
-          "comp": "11",
-          "att": "13",
-          "int": "0",
-          "yds": "156",
-          "td": "2",
-          "long": "29",
-          "sacks": "0",
-          "sackyds": "0"
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "J. Embry",
-        "shortname": "J. Embry",
-        "checkname": "J. Embry",
-        "uni": "8",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "8"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "S. Bowen",
-        "shortname": "S. Bowen",
-        "checkname": "S. Bowen",
-        "uni": "9",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "9"
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
-          "tacka": "0",
+          "tackua": "0",
+          "tacka": "1",
           "tot_tack": "1",
           "tflua": "0",
           "tfla": "0",
@@ -3998,36 +4594,14 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "J. Madin Cerezo",
-        "shortname": "J. Madin Cerezo",
-        "checkname": "J. Madin Cerezo",
-        "uni": "10",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "10"
-      },
-      "rcv": {
-        "_attributes": {
-          "no": "2",
-          "yds": "32",
-          "td": "0",
-          "long": "19"
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
+        "id": "3e3d2010-1f1d-11ee-80c5-a7bdaf0941ca",
         "name": "W. Patterson",
         "shortname": "W. Patterson",
         "checkname": "W. Patterson",
         "uni": "11",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "11"
       },
@@ -4043,10 +4617,10 @@
       },
       "rcv": {
         "_attributes": {
-          "no": "5",
-          "yds": "94",
+          "no": "10",
+          "yds": "176",
           "td": "1",
-          "long": "29"
+          "long": "34"
         }
       },
       "kr": {
@@ -4068,9 +4642,9 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "S. Barbero S\u00e1nchez",
-        "shortname": "S. Barbero S\u00e1nchez",
+        "id": "cc797de0-142e-11ef-bef9-d92e7730b9e5",
+        "name": "S. Barbero",
+        "shortname": "S. Barbero",
         "checkname": "S. Barbero S\u00e1nchez",
         "uni": "12",
         "class": "SR",
@@ -4082,9 +4656,9 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "J. Aguado Vento",
-        "shortname": "J. Aguado Vento",
+        "id": "bc33c180-de28-11ed-a48f-e36421cf2937",
+        "name": "J. Aguado",
+        "shortname": "J. Aguado",
         "checkname": "J. Aguado Vento",
         "uni": "13",
         "class": "SR",
@@ -4092,35 +4666,52 @@
         "gs": "0",
         "opos": "",
         "code": "13"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "R. Cernuda Pastor",
-        "shortname": "R. Cernuda Pastor",
-        "checkname": "R. Cernuda Pastor",
-        "uni": "14",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "14"
       },
-      "rcv": {
+      "defense": {
         "_attributes": {
-          "no": "1",
-          "yds": "0",
-          "td": "0",
-          "long": "-2"
+          "tackua": "1",
+          "tacka": "0",
+          "tot_tack": "1",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
         }
       }
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "J. Barrena Ureta",
-        "shortname": "J. Barrena Ureta",
+        "id": "2307c4d0-de13-11ed-9306-69f1169b4d47",
+        "name": "R. Cernuda",
+        "shortname": "R. Cernuda",
+        "checkname": "R. Cernuda Pastor",
+        "uni": "14",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "14"
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "3",
+          "yds": "35",
+          "td": "0",
+          "long": "25"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "9437366c-74f7-4358-acfa-b0f10119692d",
+        "name": "J. Barrena",
+        "shortname": "J. Barrena",
         "checkname": "J. Barrena Ureta",
         "uni": "16",
         "class": "SR",
@@ -4140,9 +4731,9 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "A. Mel\u00e9ndez Lorenzo",
-        "shortname": "A. Mel\u00e9ndez Lorenzo",
+        "id": "1eaf4e10-fbe2-11ee-ae64-392db5b3a337",
+        "name": "A. Mel\u00e9ndez",
+        "shortname": "A. Mel\u00e9ndez",
         "checkname": "A. Mel\u00e9ndez Lorenzo",
         "uni": "17",
         "class": "SR",
@@ -4154,9 +4745,9 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "E. Perez Perez",
-        "shortname": "E. Perez Perez",
+        "id": "fc37d4e0-de2f-11ed-a48f-e36421cf2937",
+        "name": "E. Perez",
+        "shortname": "E. Perez",
         "checkname": "E. Perez Perez",
         "uni": "18",
         "class": "SR",
@@ -4168,9 +4759,9 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "P. de Diego Maffrand",
-        "shortname": "P. de Diego Maffrand",
+        "id": "6b085bb0-e794-11ee-ac66-3dc03ac31f1e",
+        "name": "P. de Diego",
+        "shortname": "P. de Diego",
         "checkname": "P. de Diego Maffrand",
         "uni": "20",
         "class": "SR",
@@ -4182,9 +4773,9 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "D. Romero D\u00e9vora",
-        "shortname": "D. Romero D\u00e9vora",
+        "id": "5b8a7240-e794-11ee-8f44-71215b141287",
+        "name": "D. Romero",
+        "shortname": "D. Romero",
         "checkname": "D. Romero D\u00e9vora",
         "uni": "21",
         "class": "SR",
@@ -4192,26 +4783,36 @@
         "gs": "0",
         "opos": "",
         "code": "19"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "3",
+          "yds": "4",
+          "gain": "4",
+          "loss": "0",
+          "td": "0",
+          "long": "3"
+        }
       }
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "D. Obi ",
-        "shortname": "D. Obi ",
+        "id": "82a83440-e79c-11ee-888a-11673656f58a",
+        "name": "D. Obi",
+        "shortname": "D. Obi",
         "checkname": "D. Obi ",
         "uni": "22",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "20"
       },
       "rush": {
         "_attributes": {
-          "att": "7",
-          "yds": "18",
-          "gain": "26",
+          "att": "14",
+          "yds": "42",
+          "gain": "50",
           "loss": "8",
           "td": "1",
           "long": "14"
@@ -4219,25 +4820,307 @@
       },
       "rcv": {
         "_attributes": {
-          "no": "2",
-          "yds": "18",
+          "no": "3",
+          "yds": "37",
           "td": "1",
-          "long": "11"
+          "long": "19"
         }
       }
     },
     {
       "_attributes": {
-        "id": "",
+        "id": "fe50fe25-8e56-483f-9cfe-f82ca5617bc5",
         "name": "J. Pelie",
         "shortname": "J. Pelie",
         "checkname": "J. Pelie",
         "uni": "23",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "21"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "2",
+          "tacka": "4",
+          "tot_tack": "6",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "16ea37a0-03bf-11ef-9101-93664a1e7bb0",
+        "name": "A. Sarr\u00eda",
+        "shortname": "A. Sarr\u00eda",
+        "checkname": "A. Sarr\u00eda Ballesteros",
+        "uni": "24",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "22"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "d8a6d6e0-0b95-11ef-b185-0549df7998e1",
+        "name": "N. Perez",
+        "shortname": "N. Perez",
+        "checkname": "N. Perez Lozano",
+        "uni": "25",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "23"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "3",
+          "tacka": "0",
+          "tot_tack": "3",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "35061060-fbe0-11ee-b923-d9a1e232a65b",
+        "name": "C\u00e9. Sawane",
+        "shortname": "C\u00e9. Sawane",
+        "checkname": "C. Sawane Garc\u00eda",
+        "uni": "26",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "24"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "a46db98c-3936-4b8f-b814-69ebe44450c4",
+        "name": "A. Vera",
+        "shortname": "A. Vera",
+        "checkname": "A. Vera Puentenueva",
+        "uni": "27",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "25"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "5",
+          "tacka": "1",
+          "tot_tack": "6",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "49037ea0-e780-11ee-8bb0-6df1e62d8105",
+        "name": "A. Cansinos",
+        "shortname": "A. Cansinos",
+        "checkname": "\u00c1. Cansinos Cal",
+        "uni": "32",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "26"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "ba34f340-e7a0-11ee-a37e-e31ca7533842",
+        "name": "I. Diz Bravo",
+        "shortname": "I. Diz Bravo",
+        "checkname": "I. Diz Bravo",
+        "uni": "42",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "27"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "4913fe80-de15-11ed-a48f-e36421cf2937",
+        "name": "E. Molina",
+        "shortname": "E. Molina",
+        "checkname": "E. Molina Belmar",
+        "uni": "43",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "28"
+      },
+      "rush": {
+        "_attributes": {
+          "att": "9",
+          "yds": "65",
+          "gain": "65",
+          "loss": "0",
+          "td": "0",
+          "long": "27"
+        }
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "1",
+          "yds": "0",
+          "td": "0",
+          "long": "-11"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "f1081880-e79f-11ee-9b0b-ebc56c938683",
+        "name": "E. Ib\u00e1nez",
+        "shortname": "E. Ib\u00e1nez",
+        "checkname": "E. Ib\u00e1\u00f1ez Cordero",
+        "uni": "44",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "29"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "db547f80-fbe3-11ee-93d5-5da859508ed8",
+        "name": "Da. Romero",
+        "shortname": "Da. Romero",
+        "checkname": "D. Romero D\u00e9vora",
+        "uni": "45",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "30"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "c7340030-e783-11ee-a20c-3dd4292836f3",
+        "name": "A. Luca",
+        "shortname": "A. Luca",
+        "checkname": "A. Luca ",
+        "uni": "47",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "31"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "7e244c00-fbe3-11ee-8370-f16471640e48",
+        "name": "H. Garc\u00eda",
+        "shortname": "H. Garc\u00eda",
+        "checkname": "H. Garc\u00eda Mu\u00f1oz",
+        "uni": "50",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "32"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "ec1be7b0-e791-11ee-8619-47a73dd0094a",
+        "name": "S. Moreira",
+        "shortname": "S. Moreira",
+        "checkname": "S. Moreira da Silva",
+        "uni": "53",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "33"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "3",
+          "tacka": "2",
+          "tot_tack": "5",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "a2246220-8744-4e45-a2c9-3a7802d0b12d",
+        "name": "V. Albarrac\u00edn",
+        "shortname": "V. Albarrac\u00edn",
+        "checkname": "V. Albarrac\u00edn Arias",
+        "uni": "54",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "34"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "f99eff07-d455-4f5e-bbb7-88aa926e4902",
+        "name": "R. Fensch",
+        "shortname": "R. Fensch",
+        "checkname": "R. Fensch",
+        "uni": "55",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "35"
       },
       "defense": {
         "_attributes": {
@@ -4259,247 +5142,7 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "A. Sarr\u00eda Ballesteros",
-        "shortname": "A. Sarr\u00eda Ballesteros",
-        "checkname": "A. Sarr\u00eda Ballesteros",
-        "uni": "24",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "22"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "N. Perez Lozano",
-        "shortname": "N. Perez Lozano",
-        "checkname": "N. Perez Lozano",
-        "uni": "25",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "23"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "C. Sawane Garc\u00eda",
-        "shortname": "C. Sawane Garc\u00eda",
-        "checkname": "C. Sawane Garc\u00eda",
-        "uni": "26",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "24"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "A. Vera Puentenueva",
-        "shortname": "A. Vera Puentenueva",
-        "checkname": "A. Vera Puentenueva",
-        "uni": "27",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "25"
-      },
-      "defense": {
-        "_attributes": {
-          "tackua": "2",
-          "tacka": "1",
-          "tot_tack": "3",
-          "tflua": "0",
-          "tfla": "0",
-          "tflyds": "0",
-          "sacks": "",
-          "sackyds": "",
-          "brup": "",
-          "blkd": "",
-          "ff": "",
-          "int": "",
-          "intyds": ""
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "\u00c1. Cansinos Cal",
-        "shortname": "\u00c1. Cansinos Cal",
-        "checkname": "\u00c1. Cansinos Cal",
-        "uni": "32",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "26"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "I. Diz Bravo",
-        "shortname": "I. Diz Bravo",
-        "checkname": "I. Diz Bravo",
-        "uni": "42",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "27"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "E. Molina Belmar",
-        "shortname": "E. Molina Belmar",
-        "checkname": "E. Molina Belmar",
-        "uni": "43",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "28"
-      },
-      "rush": {
-        "_attributes": {
-          "att": "2",
-          "yds": "6",
-          "gain": "6",
-          "loss": "0",
-          "td": "0",
-          "long": "3"
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "E. Ib\u00e1\u00f1ez Cordero",
-        "shortname": "E. Ib\u00e1\u00f1ez Cordero",
-        "checkname": "E. Ib\u00e1\u00f1ez Cordero",
-        "uni": "44",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "29"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "D. Romero D\u00e9vora",
-        "shortname": "D. Romero D\u00e9vora",
-        "checkname": "D. Romero D\u00e9vora",
-        "uni": "45",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "30"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "A. Luca ",
-        "shortname": "A. Luca ",
-        "checkname": "A. Luca ",
-        "uni": "47",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "31"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "H. Garc\u00eda Mu\u00f1oz",
-        "shortname": "H. Garc\u00eda Mu\u00f1oz",
-        "checkname": "H. Garc\u00eda Mu\u00f1oz",
-        "uni": "50",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "32"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "S. Moreira da Silva",
-        "shortname": "S. Moreira da Silva",
-        "checkname": "S. Moreira da Silva",
-        "uni": "53",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "33"
-      },
-      "defense": {
-        "_attributes": {
-          "tackua": "1",
-          "tacka": "1",
-          "tot_tack": "2",
-          "tflua": "0",
-          "tfla": "0",
-          "tflyds": "0",
-          "sacks": "",
-          "sackyds": "",
-          "brup": "",
-          "blkd": "",
-          "ff": "",
-          "int": "",
-          "intyds": ""
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "V. Albarrac\u00edn Arias",
-        "shortname": "V. Albarrac\u00edn Arias",
-        "checkname": "V. Albarrac\u00edn Arias",
-        "uni": "54",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "34"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "R. Fensch",
-        "shortname": "R. Fensch",
-        "checkname": "R. Fensch",
-        "uni": "55",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "35"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
+        "id": "9cdd2c90-1c1b-11ef-8b75-2b3bcefe062a",
         "name": "L. Burghes",
         "shortname": "L. Burghes",
         "checkname": "L. Burghes",
@@ -4530,201 +5173,25 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "S. Casta\u00f1er Pierdominici",
-        "shortname": "S. Casta\u00f1er Pierdominici",
+        "id": "05ef5005-4b74-41a5-8de6-4bb5e9a44cc2",
+        "name": "S. Castaner",
+        "shortname": "S. Castaner",
         "checkname": "S. Casta\u00f1er Pierdominici",
         "uni": "59",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
         "code": "37"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "C. Ngimbi Mabiala",
-        "shortname": "C. Ngimbi Mabiala",
-        "checkname": "C. Ngimbi Mabiala",
-        "uni": "60",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "38"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "D. Fabi\u00e1n Viola",
-        "shortname": "D. Fabi\u00e1n Viola",
-        "checkname": "D. Fabi\u00e1n Viola",
-        "uni": "65",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "39"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "D. Culebras Sanfrutos",
-        "shortname": "D. Culebras Sanfrutos",
-        "checkname": "D. Culebras Sanfrutos",
-        "uni": "71",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "40"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "D. Contreras P\u00e9rez",
-        "shortname": "D. Contreras P\u00e9rez",
-        "checkname": "D. Contreras P\u00e9rez",
-        "uni": "72",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "41"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "C. Carrasco Sanz",
-        "shortname": "C. Carrasco Sanz",
-        "checkname": "C. Carrasco Sanz",
-        "uni": "77",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "42"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "A. Sousa Posincovich",
-        "shortname": "A. Sousa Posincovich",
-        "checkname": "A. Sousa Posincovich",
-        "uni": "78",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "43"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "J. Hagerup",
-        "shortname": "J. Hagerup",
-        "checkname": "J. Hagerup",
-        "uni": "79",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "44"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "M. Flores Somolinos",
-        "shortname": "M. Flores Somolinos",
-        "checkname": "M. Flores Somolinos",
-        "uni": "84",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "45"
-      },
-      "rcv": {
-        "_attributes": {
-          "no": "1",
-          "yds": "15",
-          "td": "0",
-          "long": "15"
-        }
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "\u00c1. Molano Mej\u00eda",
-        "shortname": "\u00c1. Molano Mej\u00eda",
-        "checkname": "\u00c1. Molano Mej\u00eda",
-        "uni": "85",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "46"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "I. Garc\u00eda Sala",
-        "shortname": "I. Garc\u00eda Sala",
-        "checkname": "I. Garc\u00eda Sala",
-        "uni": "87",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "47"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "L. Rovesti Ferrer",
-        "shortname": "L. Rovesti Ferrer",
-        "checkname": "L. Rovesti Ferrer",
-        "uni": "90",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "48"
-      }
-    },
-    {
-      "_attributes": {
-        "id": "",
-        "name": "D. Irles Santoja",
-        "shortname": "D. Irles Santoja",
-        "checkname": "D. Irles Santoja",
-        "uni": "91",
-        "class": "SR",
-        "gp": "1",
-        "gs": "0",
-        "opos": "",
-        "code": "49"
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
+          "tackua": "3",
           "tacka": "1",
-          "tot_tack": "2",
+          "tot_tack": "4",
           "tflua": "1",
           "tfla": "0",
-          "tflyds": "22",
+          "tflyds": "10",
           "sacks": "",
           "sackyds": "",
           "brup": "",
@@ -4737,35 +5204,169 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "D. Paz Gonz\u00e1lez",
-        "shortname": "D. Paz Gonz\u00e1lez",
-        "checkname": "D. Paz Gonz\u00e1lez",
-        "uni": "97",
+        "id": "c601466a-35e2-4b63-a050-8ad15d4ad3b3",
+        "name": "C. Ngimbi",
+        "shortname": "C. Ngimbi",
+        "checkname": "C. Ngimbi Mabiala",
+        "uni": "60",
         "class": "SR",
         "gp": "1",
-        "gs": "0",
+        "gs": "1",
         "opos": "",
-        "code": "50"
+        "code": "38"
       }
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "V. Dos Santos Brito",
-        "shortname": "V. Dos Santos Brito",
-        "checkname": "V. Dos Santos Brito",
-        "uni": "98",
+        "id": "d35fe100-e79a-11ee-9ba5-2bd59e2700b4",
+        "name": "D. Fabi\u00e1n",
+        "shortname": "D. Fabi\u00e1n",
+        "checkname": "D. Fabi\u00e1n Viola",
+        "uni": "65",
         "class": "SR",
         "gp": "1",
         "gs": "0",
         "opos": "",
-        "code": "51"
+        "code": "39"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "0ab02010-de2e-11ed-a48f-e36421cf2937",
+        "name": "D. Culebras",
+        "shortname": "D. Culebras",
+        "checkname": "D. Culebras Sanfrutos",
+        "uni": "71",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "40"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "bf84f850-e795-11ee-b72c-5b9c6bc4dc38",
+        "name": "D. Contreras",
+        "shortname": "D. Contreras",
+        "checkname": "D. Contreras P\u00e9rez",
+        "uni": "72",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "41"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "18a81070-4704-44c9-a4fa-82664a7ddf4c",
+        "name": "C. Carrasco",
+        "shortname": "C. Carrasco",
+        "checkname": "C. Carrasco Sanz",
+        "uni": "77",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "42"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "93423b41-7c8b-488a-924c-48d9c5e9cf8a",
+        "name": "A. Sousa",
+        "shortname": "A. Sousa",
+        "checkname": "A. Sousa Posincovich",
+        "uni": "78",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "43"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "2300d800-1c1a-11ef-ac8f-4d6895e9d044",
+        "name": "J. Hagerup",
+        "shortname": "J. Hagerup",
+        "checkname": "J. Hagerup",
+        "uni": "79",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "44"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "9783530a-8cce-4a26-930d-03ea9c7b2909",
+        "name": "M. Flores",
+        "shortname": "M. Flores",
+        "checkname": "M. Flores Somolinos",
+        "uni": "84",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "45"
+      },
+      "rcv": {
+        "_attributes": {
+          "no": "4",
+          "yds": "67",
+          "td": "2",
+          "long": "30"
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "76cd99b0-03be-11ef-be83-69dd24cc129d",
+        "name": "\u00c1. Molano",
+        "shortname": "\u00c1. Molano",
+        "checkname": "\u00c1. Molano Mej\u00eda",
+        "uni": "85",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "46"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "d7682d20-e08e-11ed-9ef9-5d44f7771288",
+        "name": "I. Garc\u00eda",
+        "shortname": "I. Garc\u00eda",
+        "checkname": "I. Garc\u00eda Sala",
+        "uni": "87",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "47"
+      }
+    },
+    {
+      "_attributes": {
+        "id": "3b1bdcd0-de38-11ed-93bc-d51f0a705d56",
+        "name": "L. Rovesti",
+        "shortname": "L. Rovesti",
+        "checkname": "L. Rovesti Ferrer",
+        "uni": "90",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "48"
       },
       "defense": {
         "_attributes": {
-          "tackua": "1",
-          "tacka": "0",
+          "tackua": "0",
+          "tacka": "1",
           "tot_tack": "1",
           "tflua": "0",
           "tfla": "0",
@@ -4782,9 +5383,102 @@
     },
     {
       "_attributes": {
-        "id": "",
-        "name": "D. L\u00f3pez Garc\u00eda",
-        "shortname": "D. L\u00f3pez Garc\u00eda",
+        "id": "a0e43620-de1a-11ed-a48f-e36421cf2937",
+        "name": "D. Irles",
+        "shortname": "D. Irles",
+        "checkname": "D. Irles Santoja",
+        "uni": "91",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "49"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "5",
+          "tacka": "1",
+          "tot_tack": "6",
+          "tflua": "2",
+          "tfla": "0",
+          "tflyds": "28",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "1c967c30-de69-11ed-8beb-a7d30736740a",
+        "name": "D. Paz",
+        "shortname": "D. Paz",
+        "checkname": "D. Paz Gonz\u00e1lez",
+        "uni": "97",
+        "class": "SR",
+        "gp": "1",
+        "gs": "0",
+        "opos": "",
+        "code": "50"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "0",
+          "tacka": "1",
+          "tot_tack": "1",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "1ca65c90-e787-11ee-90ed-d39aea0e8043",
+        "name": "V. Dos Santos",
+        "shortname": "V. Dos Santos",
+        "checkname": "V. Dos Santos Brito",
+        "uni": "98",
+        "class": "SR",
+        "gp": "1",
+        "gs": "1",
+        "opos": "",
+        "code": "51"
+      },
+      "defense": {
+        "_attributes": {
+          "tackua": "2",
+          "tacka": "2",
+          "tot_tack": "4",
+          "tflua": "0",
+          "tfla": "0",
+          "tflyds": "0",
+          "sacks": "",
+          "sackyds": "",
+          "brup": "",
+          "blkd": "",
+          "ff": "",
+          "int": "",
+          "intyds": ""
+        }
+      }
+    },
+    {
+      "_attributes": {
+        "id": "b3fee270-de27-11ed-a48f-e36421cf2937",
+        "name": "D. L\u00f3pez",
+        "shortname": "D. L\u00f3pez",
         "checkname": "D. L\u00f3pez Garc\u00eda",
         "uni": "99",
         "class": "SR",
@@ -4796,8 +5490,8 @@
       "defense": {
         "_attributes": {
           "tackua": "1",
-          "tacka": "1",
-          "tot_tack": "2",
+          "tacka": "3",
+          "tot_tack": "4",
           "tflua": "0",
           "tfla": "0",
           "tflyds": "0",
@@ -4815,8 +5509,8 @@
   "home_linescore": {
     "_attributes": {
       "prds": "4",
-      "line": "14,15,0,0",
-      "score": "29"
+      "line": "14,22,6,0",
+      "score": "42"
     },
     "lineprd": [
       {
@@ -4828,13 +5522,13 @@
       {
         "_attributes": {
           "prd": "2",
-          "score": "15"
+          "score": "22"
         }
       },
       {
         "_attributes": {
           "prd": "3",
-          "score": "0"
+          "score": "6"
         }
       },
       {
@@ -4847,16 +5541,16 @@
   },
   "home_totals": {
     "_attributes": {
-      "totoff_plays": "27",
-      "totoff_yards": "198",
-      "totoff_avg": "7.33333333333333"
+      "totoff_plays": "67",
+      "totoff_yards": "475",
+      "totoff_avg": "7,08955223880597"
     },
     "firstdowns": {
       "_attributes": {
-        "no": "12",
-        "rush": "4",
-        "pass": "8",
-        "penalty": "0"
+        "no": "26",
+        "rush": "7",
+        "pass": "18",
+        "penalty": "1"
       }
     },
     "penalties": {
@@ -4867,22 +5561,22 @@
     },
     "conversions": {
       "_attributes": {
-        "thirdconv": "1",
-        "thirdatt": "2",
+        "thirdconv": "7",
+        "thirdatt": "10",
         "fourthconv": "0",
         "fourthatt": "0"
       }
     },
     "fumbles": {
       "_attributes": {
-        "no": "1",
-        "lost": "0"
+        "no": "2",
+        "lost": "1"
       }
     },
     "misc": {
       "_attributes": {
         "yds": "",
-        "top": "13:51",
+        "top": "34:27",
         "ona": "",
         "onm": "",
         "ptsto": ""
@@ -4906,9 +5600,9 @@
     },
     "rush": {
       "_attributes": {
-        "att": "13",
-        "yds": "27",
-        "gain": "52",
+        "att": "32",
+        "yds": "117",
+        "gain": "144",
         "loss": "",
         "td": "1",
         "long": "0"
@@ -4916,41 +5610,41 @@
     },
     "pass": {
       "_attributes": {
-        "comp": "12",
-        "att": "14",
+        "comp": "25",
+        "att": "35",
         "int": "0",
-        "yds": "171",
-        "td": "2",
+        "yds": "358",
+        "td": "4",
         "long": "0",
-        "sacks": "0",
-        "sackyds": "0"
+        "sacks": "1",
+        "sackyds": "10"
       }
     },
     "rcv": {
       "_attributes": {
-        "no": "12",
-        "yds": "171",
-        "td": "2",
+        "no": "25",
+        "yds": "358",
+        "td": "4",
         "long": "0"
       }
     },
     "punt": {
       "_attributes": {
-        "no": "1",
-        "yds": "58",
+        "no": "4",
+        "yds": "185",
         "long": "0",
         "blkd": "0",
         "tb": "0",
         "fc": "0",
-        "plus50": "1",
+        "plus50": "2",
         "inside20": "0",
-        "avg": "58"
+        "avg": "46,25"
       }
     },
     "ko": {
       "_attributes": {
-        "no": "3",
-        "yds": "205",
+        "no": "7",
+        "yds": "407",
         "ob": "0",
         "tb": "2",
         "fcyds": "0"
@@ -4974,14 +5668,14 @@
     },
     "defense": {
       "_attributes": {
-        "tackua": "10",
-        "tacka": "6",
-        "tot_tack": "16",
+        "tackua": "42",
+        "tacka": "32",
+        "tot_tack": "74",
         "tflua": "",
         "tfla": "",
-        "tflyds": "22",
-        "sacks": "0",
-        "sackyds": "0",
+        "tflyds": "38",
+        "sacks": "1",
+        "sackyds": "10",
         "brup": "",
         "blkd": "",
         "ff": "",
@@ -5015,9 +5709,9 @@
     },
     "scoring": {
       "_attributes": {
-        "td": "3",
+        "td": "5",
         "fg": "0",
-        "patkick": "3",
+        "patkick": "4",
         "saf": ""
       }
     }

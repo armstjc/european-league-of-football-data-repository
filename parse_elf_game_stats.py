@@ -759,7 +759,10 @@ def parse_elf_game_stats(save=False):
                             pass_yds = int(value['_attributes']['yds'])
                             pass_tds = int(value['_attributes']['td'])
                             pass_int = int(value['_attributes']['int'])
-                            pass_long = int(value['_attributes']['long'])
+                            try:
+                                pass_long = int(value['_attributes']['long'])
+                            except Exception:
+                                pass_long = 0
                             pass_sacks = int(value['_attributes']['sacks'])
                             pass_sacked_yds = int(
                                 value['_attributes']['sackyds']
@@ -848,7 +851,10 @@ def parse_elf_game_stats(save=False):
                             rec_no = int(value['_attributes']['no'])
                             rec_yds = int(value['_attributes']['yds'])
                             rec_tds = int(value['_attributes']['td'])
-                            rec_long = int(value['_attributes']['long'])
+                            try:
+                                rec_long = int(value['_attributes']['long'])
+                            except Exception:
+                                rec_long = 0
 
                             row_df = pd.DataFrame({
                                 'season': game_season,
@@ -1574,7 +1580,10 @@ def parse_elf_game_stats(save=False):
                             pass_yds = int(value['_attributes']['yds'])
                             pass_tds = int(value['_attributes']['td'])
                             pass_int = int(value['_attributes']['int'])
-                            pass_long = int(value['_attributes']['long'])
+                            try:
+                                pass_long = int(value['_attributes']['long'])
+                            except Exception:
+                                pass_long = 0
                             pass_sacks = int(value['_attributes']['sacks'])
                             pass_sacked_yds = int(
                                 value['_attributes']['sackyds']
