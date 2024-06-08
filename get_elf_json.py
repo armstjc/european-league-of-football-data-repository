@@ -1,5 +1,6 @@
 from datetime import datetime
 import json
+import logging
 import time
 
 import pandas as pd
@@ -43,11 +44,15 @@ def save_all_elf_game_json(season: int):
     """
     games_df = pd.read_csv(f'schedule/{season}_elf_schedule.csv')
     # games_df = games_df.dropna(subset=['gamebook_url'])
-    games_df = games_df.dropna(subset=["away_team_score", "home_team_score"])
+    # games_df = games_df.dropna(subset=["away_team_score", "home_team_score"])
+    games_df = games_df[games_df["has_game_started"]]
     game_ids_arr = games_df['sports_metrics_game_id'].to_numpy()
 
     for game_id in tqdm(game_ids_arr):
-        save_elf_game_json(game_id)
+        try:
+            save_elf_game_json(game_id)
+        except Exception as e:
+            logging.warning(f"Could not download `{game_id}`. Reason `{e}`.")
 
 
 if __name__ == "__main__":
