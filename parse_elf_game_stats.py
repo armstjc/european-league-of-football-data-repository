@@ -690,10 +690,18 @@ def parse_elf_game_stats(save=False):
 
         # print(f'\n{json_file}')
         json_data = json.loads(json_string)
+
         try:
             check = json_data["status"]
         except Exception:
             check = 200
+
+        try:
+            check = json_data["statusCode"]
+        except Exception as e:
+            logging.info(
+                f"No `statusCode` present in this JSON file. Full exception `{e}`"
+            )
 
         if check == 200:
 
