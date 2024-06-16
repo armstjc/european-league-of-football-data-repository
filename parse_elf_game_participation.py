@@ -48,7 +48,8 @@ def parse_elf_game_participation(season: int, save=False):
             check = json_data["statusCode"]
         except Exception as e:
             logging.info(
-                f"No `statusCode` present in this JSON file. Full exception `{e}`"
+                "No `statusCode` present in this JSON file. " +
+                f"Full exception `{e}`"
             )
 
         if check == 200:
