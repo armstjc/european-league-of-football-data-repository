@@ -1,23 +1,21 @@
-from datetime import datetime
 import os
+import time
+# from datetime import datetime
 from random import randrange
 
 import pandas as pd
+from bs4 import BeautifulSoup
+from selenium import webdriver
 from tqdm import tqdm
 
 from get_elf_schedule import get_elf_schedule
 
-import time
 
-import requests
-from bs4 import BeautifulSoup
-from selenium import webdriver
-
-
-def get_efl_raw_pbp(season: int):
+def get_efl_raw_pbp(season: int, overwrite_existing_cache: bool = False):
     """
 
     """
+    # now = datetime.now()
 
     schedule_df = get_elf_schedule(season_filter=season)
     schedule_df = schedule_df.loc[
@@ -58,7 +56,8 @@ def get_efl_raw_pbp(season: int):
         home_team = home_team_slug_arr[i]
         home_team_id = home_team_id_arr[i]
 
-        if os.path.exists(f"pbp/raw/{game_id}.csv"):
+        if os.path.exists(f"pbp/raw/{game_id}.csv") \
+                and overwrite_existing_cache is False:
             pass
         else:
             url = "https://europeanleague.football/game-center/schedule/" +\
@@ -101,12 +100,16 @@ def get_efl_raw_pbp(season: int):
 
                     for p in plays:
                         play_type = p.find(
-                            "p", {"class": "text-lg font-bold mb-1 leading-normal"}
-                        )
-                        play_desc = p.find("p", {"class": "text-sm mb-1"})
+                            "p",
+                            {
+                                "class": "text-lg font-bold " +
+                                "mb-1 leading-normal"
+                            }
+                        ).text
+                        play_desc = p.find("p", {"class": "text-sm mb-1"}).text
                         down_and_distance = p.find(
                             "p", {"class": "text-sm text-elf-blue-100/70"}
-                        )
+                        ).text
 
                         temp_df = pd.DataFrame(
                             {
@@ -141,4 +144,4 @@ def get_efl_raw_pbp(season: int):
 
 
 if __name__ == "__main__":
-    get_efl_raw_pbp(2023)
+    get_efl_raw_pbp(2024, overwrite_existing_cache=True)
