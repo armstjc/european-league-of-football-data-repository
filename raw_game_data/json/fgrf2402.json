@@ -12,11 +12,11 @@
     "start_how": "DOWNS",
     "start_qtr": "4",
     "start_time": "55:39",
-    "start_spot": "R24",
+    "start_spot": "RF24",
     "end_how": "",
     "end_qtr": "4",
     "end_time": "55:39",
-    "end_spot": "F42",
+    "end_spot": "FG42",
     "driveindex": "17"
   },
   "homefrandata": {
@@ -121,13 +121,13 @@
       "id": "RF",
       "down": "4",
       "togo": "13",
-      "spot": "F43",
+      "spot": "FG43",
       "context": "",
       "qtr": "4",
       "clock": "04:21",
       "vtoh": "1",
       "htoh": "0",
-      "lastplay": ""
+      "lastplay": "End of game, clock 00:00."
     }
   },
   "visitor_players": [
@@ -462,6 +462,14 @@
           "td": "1",
           "long": "30"
         }
+      },
+      "scoring": {
+        "_attributes": {
+          "td": "1",
+          "fg": "0",
+          "patkick": "0",
+          "saf": "0"
+        }
       }
     },
     {
@@ -505,6 +513,14 @@
           "yds": "44",
           "td": "0",
           "long": "22"
+        }
+      },
+      "scoring": {
+        "_attributes": {
+          "td": "1",
+          "fg": "0",
+          "patkick": "0",
+          "saf": "0"
         }
       }
     },
@@ -556,6 +572,14 @@
           "intyds": "0",
           "sackua": "0",
           "sacka": "0"
+        }
+      },
+      "scoring": {
+        "_attributes": {
+          "td": "2",
+          "fg": "0",
+          "patkick": "0",
+          "saf": "0"
         }
       }
     },
@@ -759,6 +783,30 @@
           "ob": "0",
           "tb": "1",
           "fcyds": ""
+        }
+      },
+      "fg": {
+        "_attributes": {
+          "made": "1",
+          "att": "1",
+          "long": "29",
+          "blkd": "0"
+        }
+      },
+      "pat": {
+        "_attributes": {
+          "kickatt": "4",
+          "kickmade": "4",
+          "retkatt": "",
+          "retkmade": ""
+        }
+      },
+      "scoring": {
+        "_attributes": {
+          "td": "0",
+          "fg": "1",
+          "patkick": "4",
+          "saf": "0"
         }
       }
     },
@@ -2097,10 +2145,10 @@
     },
     "misc": {
       "_attributes": {
-        "yds": "",
+        "yds": "0",
         "top": "33:08",
-        "ona": "",
-        "onm": "",
+        "ona": "0",
+        "onm": "0",
         "ptsto": ""
       }
     },
@@ -2191,11 +2239,11 @@
     "defense": {
       "_attributes": {
         "tackua": "25",
-        "tacka": "34",
-        "tot_tack": "59",
+        "tacka": "17",
+        "tot_tack": "42",
         "tflua": "2",
         "tfla": "0",
-        "tflyds": "5",
+        "tflyds": "0",
         "sacks": "0",
         "sackyds": "0",
         "brup": "0",
@@ -2225,10 +2273,18 @@
     },
     "ir": {
       "_attributes": {
+        "no": "1",
+        "yds": "-2",
+        "td": "0",
+        "long": "-2"
+      }
+    },
+    "fr": {
+      "_attributes": {
         "no": "0",
         "yds": "0",
         "td": "0",
-        "long": ""
+        "long": "0"
       }
     },
     "scoring": {
@@ -2318,10 +2374,10 @@
       },
       "misc": {
         "_attributes": {
-          "yds": "",
+          "yds": "0",
           "top": "26:52",
-          "ona": "",
-          "onm": "",
+          "ona": "0",
+          "onm": "0",
           "ptsto": ""
         }
       },
@@ -2412,8 +2468,8 @@
       "defense": {
         "_attributes": {
           "tackua": "26",
-          "tacka": "42",
-          "tot_tack": "68",
+          "tacka": "21",
+          "tot_tack": "47",
           "tflua": "0",
           "tfla": "0",
           "tflyds": "0",
@@ -2431,9 +2487,9 @@
       "kr": {
         "_attributes": {
           "no": "5",
-          "yds": "94",
+          "yds": "109",
           "td": "0",
-          "long": "28"
+          "long": "29"
         }
       },
       "pr": {
@@ -2446,10 +2502,18 @@
       },
       "ir": {
         "_attributes": {
+          "no": "1",
+          "yds": "19",
+          "td": "0",
+          "long": "19"
+        }
+      },
+      "fr": {
+        "_attributes": {
           "no": "0",
           "yds": "0",
           "td": "0",
-          "long": ""
+          "long": "0"
         }
       },
       "scoring": {
@@ -2514,6 +2578,30 @@
             "ob": "0",
             "tb": "1",
             "fcyds": ""
+          }
+        },
+        "fg": {
+          "_attributes": {
+            "made": "2",
+            "att": "3",
+            "long": "36",
+            "blkd": "0"
+          }
+        },
+        "pat": {
+          "_attributes": {
+            "kickatt": "2",
+            "kickmade": "2",
+            "retkatt": "",
+            "retkmade": ""
+          }
+        },
+        "scoring": {
+          "_attributes": {
+            "td": "0",
+            "fg": "2",
+            "patkick": "2",
+            "saf": "0"
           }
         }
       },
@@ -2646,6 +2734,14 @@
             "yds": "5",
             "td": "1",
             "long": "5"
+          }
+        },
+        "scoring": {
+          "_attributes": {
+            "td": "1",
+            "fg": "0",
+            "patkick": "0",
+            "saf": "0"
           }
         }
       },
@@ -2859,6 +2955,14 @@
             "td": "1",
             "long": "27"
           }
+        },
+        "scoring": {
+          "_attributes": {
+            "td": "1",
+            "fg": "0",
+            "patkick": "0",
+            "saf": "0"
+          }
         }
       },
       {
@@ -2984,9 +3088,9 @@
         "kr": {
           "_attributes": {
             "no": "4",
-            "yds": "78",
+            "yds": "93",
             "td": "0",
-            "long": "28"
+            "long": "29"
           }
         }
       },
@@ -3419,6 +3523,19 @@
           "gs": "0",
           "opos": "",
           "code": "40"
+        },
+        "punt": {
+          "_attributes": {
+            "no": "1",
+            "yds": "35",
+            "long": "35",
+            "blkd": "0",
+            "tb": "0",
+            "fc": "0",
+            "plus50": "0",
+            "inside20": "0",
+            "avg": "35"
+          }
         }
       },
       {
@@ -3778,10 +3895,10 @@
       },
       "misc": {
         "_attributes": {
-          "yds": "",
+          "yds": "0",
           "top": "33:08",
-          "ona": "",
-          "onm": "",
+          "ona": "0",
+          "onm": "0",
           "ptsto": ""
         }
       },
@@ -3872,11 +3989,11 @@
       "defense": {
         "_attributes": {
           "tackua": "25",
-          "tacka": "34",
-          "tot_tack": "59",
+          "tacka": "17",
+          "tot_tack": "42",
           "tflua": "2",
           "tfla": "0",
-          "tflyds": "5",
+          "tflyds": "0",
           "sacks": "0",
           "sackyds": "0",
           "brup": "0",
@@ -3906,10 +4023,18 @@
       },
       "ir": {
         "_attributes": {
+          "no": "1",
+          "yds": "-2",
+          "td": "0",
+          "long": "-2"
+        }
+      },
+      "fr": {
+        "_attributes": {
           "no": "0",
           "yds": "0",
           "td": "0",
-          "long": ""
+          "long": "0"
         }
       },
       "scoring": {
@@ -4253,6 +4378,14 @@
             "td": "1",
             "long": "30"
           }
+        },
+        "scoring": {
+          "_attributes": {
+            "td": "1",
+            "fg": "0",
+            "patkick": "0",
+            "saf": "0"
+          }
         }
       },
       {
@@ -4296,6 +4429,14 @@
             "yds": "44",
             "td": "0",
             "long": "22"
+          }
+        },
+        "scoring": {
+          "_attributes": {
+            "td": "1",
+            "fg": "0",
+            "patkick": "0",
+            "saf": "0"
           }
         }
       },
@@ -4347,6 +4488,14 @@
             "intyds": "0",
             "sackua": "0",
             "sacka": "0"
+          }
+        },
+        "scoring": {
+          "_attributes": {
+            "td": "2",
+            "fg": "0",
+            "patkick": "0",
+            "saf": "0"
           }
         }
       },
@@ -4550,6 +4699,30 @@
             "ob": "0",
             "tb": "1",
             "fcyds": ""
+          }
+        },
+        "fg": {
+          "_attributes": {
+            "made": "1",
+            "att": "1",
+            "long": "29",
+            "blkd": "0"
+          }
+        },
+        "pat": {
+          "_attributes": {
+            "kickatt": "4",
+            "kickmade": "4",
+            "retkatt": "",
+            "retkmade": ""
+          }
+        },
+        "scoring": {
+          "_attributes": {
+            "td": "0",
+            "fg": "1",
+            "patkick": "4",
+            "saf": "0"
           }
         }
       },
@@ -5874,6 +6047,30 @@
           "tb": "1",
           "fcyds": ""
         }
+      },
+      "fg": {
+        "_attributes": {
+          "made": "2",
+          "att": "3",
+          "long": "36",
+          "blkd": "0"
+        }
+      },
+      "pat": {
+        "_attributes": {
+          "kickatt": "2",
+          "kickmade": "2",
+          "retkatt": "",
+          "retkmade": ""
+        }
+      },
+      "scoring": {
+        "_attributes": {
+          "td": "0",
+          "fg": "2",
+          "patkick": "2",
+          "saf": "0"
+        }
       }
     },
     {
@@ -6005,6 +6202,14 @@
           "yds": "5",
           "td": "1",
           "long": "5"
+        }
+      },
+      "scoring": {
+        "_attributes": {
+          "td": "1",
+          "fg": "0",
+          "patkick": "0",
+          "saf": "0"
         }
       }
     },
@@ -6218,6 +6423,14 @@
           "td": "1",
           "long": "27"
         }
+      },
+      "scoring": {
+        "_attributes": {
+          "td": "1",
+          "fg": "0",
+          "patkick": "0",
+          "saf": "0"
+        }
       }
     },
     {
@@ -6343,9 +6556,9 @@
       "kr": {
         "_attributes": {
           "no": "4",
-          "yds": "78",
+          "yds": "93",
           "td": "0",
-          "long": "28"
+          "long": "29"
         }
       }
     },
@@ -6778,6 +6991,19 @@
         "gs": "0",
         "opos": "",
         "code": "40"
+      },
+      "punt": {
+        "_attributes": {
+          "no": "1",
+          "yds": "35",
+          "long": "35",
+          "blkd": "0",
+          "tb": "0",
+          "fc": "0",
+          "plus50": "0",
+          "inside20": "0",
+          "avg": "35"
+        }
       }
     },
     {
@@ -7127,10 +7353,10 @@
     },
     "misc": {
       "_attributes": {
-        "yds": "",
+        "yds": "0",
         "top": "26:52",
-        "ona": "",
-        "onm": "",
+        "ona": "0",
+        "onm": "0",
         "ptsto": ""
       }
     },
@@ -7221,8 +7447,8 @@
     "defense": {
       "_attributes": {
         "tackua": "26",
-        "tacka": "42",
-        "tot_tack": "68",
+        "tacka": "21",
+        "tot_tack": "47",
         "tflua": "0",
         "tfla": "0",
         "tflyds": "0",
@@ -7240,9 +7466,9 @@
     "kr": {
       "_attributes": {
         "no": "5",
-        "yds": "94",
+        "yds": "109",
         "td": "0",
-        "long": "28"
+        "long": "29"
       }
     },
     "pr": {
@@ -7255,10 +7481,18 @@
     },
     "ir": {
       "_attributes": {
+        "no": "1",
+        "yds": "19",
+        "td": "0",
+        "long": "19"
+      }
+    },
+    "fr": {
+      "_attributes": {
         "no": "0",
         "yds": "0",
         "td": "0",
-        "long": ""
+        "long": "0"
       }
     },
     "scoring": {

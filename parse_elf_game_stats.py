@@ -659,7 +659,7 @@ def check_elf_stats(save=False):
                         raise ValueError(f'Unhandled Data Key:\n{key}')
 
 
-def parse_elf_game_stats(save=False):
+def parse_elf_player_game_stats(save=False):
     """
 
     """
@@ -2727,5 +2727,334 @@ def parse_elf_game_stats(save=False):
     return player_stats_df
 
 
+def parse_elf_team_game_stats():
+    """
+    """
+    def parser(team_dict: dict) -> pd.DataFrame:
+        """ """
+
+        home_away_side = ""
+        team_id = ""
+        team_rank = ""
+        team_code = ""
+        team_name = ""
+
+        for (key, value) in team_dict["_attributes"].items():
+            if key == "vh":
+                home_away_side = value
+            elif key == "id":
+                team_id = value
+            elif key == "code":
+                team_code = value
+            elif key == "name":
+                team_name = value
+            elif key == "record":
+                pass
+            elif key == "abb":
+                pass
+            elif key == "rank":
+                team_rank = value
+            else:
+                raise ValueError(
+                    f"Unhandled team attribute `{key}`"
+                )
+
+        for (key, value) in team_dict["totals"].items():
+            if key == "_attributes":
+                pass
+                # for (key, value) in team_dict["totals"]["_attributes"].items():
+                #     if key == "totoff_plays":
+                #         pass
+                #     elif key == "totoff_yards":
+                #         pass
+                #     elif key == "totoff_avg":
+                #         pass
+                #     else:
+                #         raise ValueError(key)
+            elif key == "firstdowns":
+                pass
+                # for (key, value) in team_dict["totals"]["firstdowns"]["_attributes"].items():
+                #     if key == "no":
+                #         pass
+                #     elif key == "rush":
+                #         pass
+                #     elif key == "pass":
+                #         pass
+                #     elif key == "penalty":
+                #         pass
+                #     else:
+                #         raise ValueError(key)
+            elif key == "penalties":
+                pass
+                # for (key, value) in team_dict["totals"]["penalties"]["_attributes"].items():
+                #     if key == "no":
+                #         pass
+                #     elif key == "yds":
+                #         pass
+                #     else:
+                #         raise ValueError(key)
+            elif key == "conversions":
+                pass
+                # for (key, value) in team_dict["totals"]["conversions"]["_attributes"].items():
+                #     if key == "thirdconv":
+                #         pass
+                #     elif key == "thirdatt":
+                #         pass
+                #     elif key == "fourthconv":
+                #         pass
+                #     elif key == "fourthatt":
+                #         pass
+                #     else:
+                #         raise ValueError(key)
+            elif key == "fumbles":
+                pass
+                # for (key, value) in team_dict["totals"]["fumbles"]["_attributes"].items():
+                #     if key == "no":
+                #         pass
+                #     elif key == "lost":
+                #         pass
+                #     else:
+                #         raise ValueError(key)
+            elif key == "misc":
+                pass
+                # for (key, value) in team_dict["totals"]["misc"]["_attributes"].items():
+                #     if key == "yds":
+                #         pass
+                #     elif key == "top":
+                #         pass
+                #     elif key == "ona":
+                #         pass
+                #     elif key == "onm":
+                #         pass
+                #     elif key == "ptsto":
+                #         pass
+                #     else:
+                #         raise ValueError(key)
+            elif key == "redzone":
+                pass
+                # for (key, value) in team_dict["totals"]["redzone"]["_attributes"].items():
+                #     if key == "att":
+                #         pass
+                #     elif key == "scores":
+                #         pass
+                #     elif key == "points":
+                #         pass
+                #     elif key == "tdrush":
+                #         pass
+                #     elif key == "tdpass":
+                #         pass
+                #     elif key == "fgmade":
+                #         pass
+                #     elif key == "endfga":
+                #         pass
+                #     elif key == "enddowns":
+                #         pass
+                #     elif key == "endint":
+                #         pass
+                #     elif key == "endfumb":
+                #         pass
+                #     elif key == "endhalf":
+                #         pass
+                #     elif key == "endgame":
+                #         pass
+                #     else:
+                #         raise ValueError(key)
+            elif key == "rush":
+                pass
+            elif key == "pass":
+                # pass
+                for (key, value) in team_dict["totals"]["pass"]["_attributes"].items():
+                    if key == "comp":
+                        pass
+                    elif key == "att":
+                        pass
+                    elif key == "int":
+                        pass
+                    elif key == "yds":
+                        pass
+                    elif key == "int":
+                        pass
+                    elif key == "td":
+                        pass
+                    elif key == "long":
+                        pass
+                    elif key == "sacks":
+                        pass
+                    elif key == "sackyds":
+                        pass
+                    else:
+                        raise ValueError(key)
+            elif key == "rcv":
+                pass
+            elif key == "punt":
+                pass
+            elif key == "ko":
+                pass
+            elif key == "fg":
+                pass
+            elif key == "pat":
+                pass
+            elif key == "defense":
+                pass
+            elif key == "kr":
+                pass
+            elif key == "pr":
+                pass
+            elif key == "ir":
+                pass
+            elif key == "fr":
+                pass
+            elif key == "fgr":
+                pass
+            elif key == "scoring":
+                pass
+            else:
+                raise ValueError(
+                    f"Unhandled stat type: {key}"
+                )
+
+        temp_df = pd.DataFrame(
+            {
+                "team_id": team_id,
+                "team_code": team_code,
+                "team_name": team_name,
+                "home_away_side": home_away_side,
+                "team_rank": team_rank,
+            },
+            index=[0]
+        )
+
+        temp_df["score"] = team_dict["linescore"]["_attributes"]["score"]
+
+        json_data = team_dict["totals"]
+
+        temp_df["team_plays"] = int(json_data["_attributes"]["totoff_plays"])
+        temp_df["team_yards"] = int(json_data["_attributes"]["totoff_yards"])
+        temp_df["team_yds_per_play"] = round(
+            temp_df["team_yards"] / temp_df["team_plays"], 3
+        )
+
+        temp_df["team_first_downs_total"] = int(json_data["firstdowns"]["_attributes"]["no"])
+        temp_df["team_first_downs_rush"] = int(json_data["firstdowns"]["_attributes"]["rush"])
+        temp_df["team_first_downs_pass"] = int(json_data["firstdowns"]["_attributes"]["pass"])
+        temp_df["team_first_downs_penalty"] = int(json_data["firstdowns"]["_attributes"]["penalty"])
+
+        temp_df["team_penalties_num"] = int(json_data["penalties"]["_attributes"]["no"])
+        temp_df["team_penalty_yds"] = int(json_data["penalties"]["_attributes"]["yds"])
+
+        temp_df["team_3rd_down_conv"] = int(json_data["conversions"]["_attributes"]["thirdconv"])
+        temp_df["team_3rd_down_att"] = int(json_data["conversions"]["_attributes"]["thirdatt"])
+
+        temp_df["team_4th_down_conv"] = int(json_data["conversions"]["_attributes"]["fourthconv"])
+        temp_df["team_4th_down_att"] = int(json_data["conversions"]["_attributes"]["fourthatt"])
+
+        temp_df["fumbles_num"] = int(json_data["fumbles"]["_attributes"]["no"])
+        temp_df["fumbles_lost"] = int(json_data["fumbles"]["_attributes"]["lost"])
+
+        temp_df["team_misc_yds"] = int(json_data["misc"]["_attributes"]["yds"])
+        temp_df["team_top"] = json_data["misc"]["_attributes"]["top"]
+
+        temp_df["team_rz_att"] = int(json_data["redzone"]["_attributes"]["att"])
+        temp_df["team_rz_success"] = int(json_data["redzone"]["_attributes"]["scores"])
+        temp_df["team_rz_points"] = int(json_data["redzone"]["_attributes"]["points"])
+        temp_df["team_rz_rush_td"] = int(json_data["redzone"]["_attributes"]["tdrush"])
+        temp_df["team_rz_pass_td"] = int(json_data["redzone"]["_attributes"]["tdpass"])
+        temp_df["team_rz_fgm"] = int(json_data["redzone"]["_attributes"]["fgmade"])
+        temp_df["team_rz_fga"] = int(json_data["redzone"]["_attributes"]["endfga"])
+        temp_df["team_rz_end_downs"] = int(json_data["redzone"]["_attributes"]["enddowns"])
+        temp_df["team_rz_int"] = int(json_data["redzone"]["_attributes"]["endint"])
+        temp_df["team_rz_fum"] = int(json_data["redzone"]["_attributes"]["endfumb"])
+
+        try:
+            temp_df["passing_COMP"] = int(json_data["pass"]["_attributes"]["comp"])
+            temp_df["passing_ATT"] = int(json_data["pass"]["_attributes"]["att"])
+            temp_df["passing_YDS"] = int(json_data["pass"]["_attributes"]["yds"])
+            temp_df["passing_TD"] = int(json_data["pass"]["_attributes"]["td"])
+            temp_df["passing_INT"] = int(json_data["pass"]["_attributes"]["int"])
+            temp_df["passing_LONG"] = int(json_data["pass"]["_attributes"]["long"])
+            temp_df["passing_SACKS"] = int(json_data["pass"]["_attributes"]["sacks"])
+            temp_df["passing_SACK_YDS"] = int(json_data["pass"]["_attributes"]["sackyds"])
+        except Exception as e:
+            logging.warning(
+                f"Unhandled exception when parsing passing stats: `{e}`"
+            )
+
+        try:
+            temp_df["rushing_ATT"] = int(json_data["rush"]["_attributes"]["att"])
+            temp_df["rushing_YDS"] = int(json_data["rush"]["_attributes"]["yds"])
+            temp_df["rushing_TD"] = int(json_data["rush"]["_attributes"]["td"])
+            temp_df["rushing_LONG"] = int(json_data["rush"]["_attributes"]["long"])
+        except Exception as e:
+            logging.warning(
+                f"Unhandled exception when parsing rushing stats: `{e}`"
+            )
+
+        try:
+            temp_df["punting_NUM"] = int(json_data["punt"]["_attributes"]["no"])
+            temp_df["punting_GROSS_YDS"] = int(json_data["punt"]["_attributes"]["yds"])
+            temp_df["punting_BLK"] = int(json_data["punt"]["_attributes"]["blkd"])
+            temp_df["punting_TB"] = int(json_data["punt"]["_attributes"]["tb"])
+            temp_df["punting_FC"] = int(json_data["punt"]["_attributes"]["fc"])
+            temp_df["punting_INSIDE_20"] = int(json_data["punt"]["_attributes"]["inside20"])
+            temp_df["punting_50+"] = int(json_data["punt"]["_attributes"]["plus50"])
+            temp_df["punting_LONG"] = int(json_data["punt"]["_attributes"]["long"])
+        except Exception as e:
+            logging.warning(
+                f"Unhandled exception when parsing rushing stats: `{e}`"
+            )
+
+        try:
+            temp_df["kickoff_NUM"] = int(json_data["ko"]["_attributes"]["no"])
+            temp_df["kickoff_YDS"] = int(json_data["ko"]["_attributes"]["yds"])
+            temp_df["kickoff_OB"] = int(json_data["ko"]["_attributes"]["ob"])
+            temp_df["kickoff_TB"] = int(json_data["ko"]["_attributes"]["tb"])
+            # temp_df["kickoff_TB"] = int(json_data["ko"]["_attributes"]["tb"])
+        except Exception as e:
+            logging.warning(
+                f"Unhandled exception when parsing kickoff stats: `{e}`"
+            )
+
+        try:
+            temp_df["kicking_FGM"] = int(json_data["fg"]["_attributes"]["made"])
+            temp_df["kicking_FGA"] = int(json_data["fg"]["_attributes"]["att"])
+            temp_df["kicking_FG_LONG"] = int(json_data["fg"]["_attributes"]["long"])
+            temp_df["kicking_FG_BLK"] = int(json_data["fg"]["_attributes"]["blkd"])
+            # temp_df["kickoff_TB"] = int(json_data["ko"]["_attributes"]["tb"])
+        except Exception as e:
+            logging.warning(
+                f"Unhandled exception when parsing kicking stats: `{e}`"
+            )
+
+        try:
+            temp_df["kicking_XPM"] = int(json_data["pat"]["_attributes"]["kickmade"])
+            temp_df["kicking_XPA"] = int(json_data["pat"]["_attributes"]["kickatt"])
+            # temp_df["kickoff_TB"] = int(json_data["ko"]["_attributes"]["tb"])
+        except Exception as e:
+            logging.warning(
+                f"Unhandled exception when parsing XP stats: `{e}`"
+            )
+
+    json_file_list = get_json_in_folder()
+    team_stats_df = pd.DataFrame()
+    team_stats_df_arr = []
+    row_df = pd.DataFrame()
+
+    for json_file in tqdm(json_file_list):
+        with open(json_file, 'r') as f:
+            json_string = f.read()
+
+        # print(f'\n{json_file}')
+        json_data = json.loads(json_string)
+        row_df = parser(json_data["home"])
+        team_stats_df_arr.append(row_df)
+
+        del row_df
+        row_df = parser(json_data["visitor"])
+        team_stats_df_arr.append(row_df)
+
+        del row_df
+
+
 if __name__ == "__main__":
-    parse_elf_game_stats(True)
+    parse_elf_team_game_stats()
+    # parse_elf_player_game_stats(True)
