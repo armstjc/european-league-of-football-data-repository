@@ -2759,160 +2759,6 @@ def parse_elf_team_game_stats():
                     f"Unhandled team attribute `{key}`"
                 )
 
-        for (key, value) in team_dict["totals"].items():
-            if key == "_attributes":
-                pass
-                # for (key, value) in team_dict["totals"]["_attributes"].items():
-                #     if key == "totoff_plays":
-                #         pass
-                #     elif key == "totoff_yards":
-                #         pass
-                #     elif key == "totoff_avg":
-                #         pass
-                #     else:
-                #         raise ValueError(key)
-            elif key == "firstdowns":
-                pass
-                # for (key, value) in team_dict["totals"]["firstdowns"]["_attributes"].items():
-                #     if key == "no":
-                #         pass
-                #     elif key == "rush":
-                #         pass
-                #     elif key == "pass":
-                #         pass
-                #     elif key == "penalty":
-                #         pass
-                #     else:
-                #         raise ValueError(key)
-            elif key == "penalties":
-                pass
-                # for (key, value) in team_dict["totals"]["penalties"]["_attributes"].items():
-                #     if key == "no":
-                #         pass
-                #     elif key == "yds":
-                #         pass
-                #     else:
-                #         raise ValueError(key)
-            elif key == "conversions":
-                pass
-                # for (key, value) in team_dict["totals"]["conversions"]["_attributes"].items():
-                #     if key == "thirdconv":
-                #         pass
-                #     elif key == "thirdatt":
-                #         pass
-                #     elif key == "fourthconv":
-                #         pass
-                #     elif key == "fourthatt":
-                #         pass
-                #     else:
-                #         raise ValueError(key)
-            elif key == "fumbles":
-                pass
-                # for (key, value) in team_dict["totals"]["fumbles"]["_attributes"].items():
-                #     if key == "no":
-                #         pass
-                #     elif key == "lost":
-                #         pass
-                #     else:
-                #         raise ValueError(key)
-            elif key == "misc":
-                pass
-                # for (key, value) in team_dict["totals"]["misc"]["_attributes"].items():
-                #     if key == "yds":
-                #         pass
-                #     elif key == "top":
-                #         pass
-                #     elif key == "ona":
-                #         pass
-                #     elif key == "onm":
-                #         pass
-                #     elif key == "ptsto":
-                #         pass
-                #     else:
-                #         raise ValueError(key)
-            elif key == "redzone":
-                pass
-                # for (key, value) in team_dict["totals"]["redzone"]["_attributes"].items():
-                #     if key == "att":
-                #         pass
-                #     elif key == "scores":
-                #         pass
-                #     elif key == "points":
-                #         pass
-                #     elif key == "tdrush":
-                #         pass
-                #     elif key == "tdpass":
-                #         pass
-                #     elif key == "fgmade":
-                #         pass
-                #     elif key == "endfga":
-                #         pass
-                #     elif key == "enddowns":
-                #         pass
-                #     elif key == "endint":
-                #         pass
-                #     elif key == "endfumb":
-                #         pass
-                #     elif key == "endhalf":
-                #         pass
-                #     elif key == "endgame":
-                #         pass
-                #     else:
-                #         raise ValueError(key)
-            elif key == "rush":
-                pass
-            elif key == "pass":
-                # pass
-                for (key, value) in team_dict["totals"]["pass"]["_attributes"].items():
-                    if key == "comp":
-                        pass
-                    elif key == "att":
-                        pass
-                    elif key == "int":
-                        pass
-                    elif key == "yds":
-                        pass
-                    elif key == "int":
-                        pass
-                    elif key == "td":
-                        pass
-                    elif key == "long":
-                        pass
-                    elif key == "sacks":
-                        pass
-                    elif key == "sackyds":
-                        pass
-                    else:
-                        raise ValueError(key)
-            elif key == "rcv":
-                pass
-            elif key == "punt":
-                pass
-            elif key == "ko":
-                pass
-            elif key == "fg":
-                pass
-            elif key == "pat":
-                pass
-            elif key == "defense":
-                pass
-            elif key == "kr":
-                pass
-            elif key == "pr":
-                pass
-            elif key == "ir":
-                pass
-            elif key == "fr":
-                pass
-            elif key == "fgr":
-                pass
-            elif key == "scoring":
-                pass
-            else:
-                raise ValueError(
-                    f"Unhandled stat type: {key}"
-                )
-
         temp_df = pd.DataFrame(
             {
                 "team_id": team_id,
@@ -3033,6 +2879,29 @@ def parse_elf_team_game_stats():
             logging.warning(
                 f"Unhandled exception when parsing XP stats: `{e}`"
             )
+
+        try:
+            temp_df["punt_return_NUM"] = int(json_data["pr"]["_attributes"]["no"])
+            temp_df["punt_return_YDS"] = int(json_data["pr"]["_attributes"]["yds"])
+            temp_df["punt_return_TD"] = int(json_data["pr"]["_attributes"]["td"])
+            temp_df["punt_return_LONG"] = int(json_data["pr"]["_attributes"]["long"])
+        except Exception as e:
+            logging.warning(
+                f"Unhandled exception when punt return stats: `{e}`"
+            )
+
+        try:
+            temp_df["kick_return_NUM"] = int(json_data["kr"]["_attributes"]["no"])
+            temp_df["kick_return_YDS"] = int(json_data["kr"]["_attributes"]["yds"])
+            temp_df["kick_return_TD"] = int(json_data["kr"]["_attributes"]["td"])
+            temp_df["kick_return_LONG"] = int(json_data["kr"]["_attributes"]["long"])
+        except Exception as e:
+            logging.warning(
+                f"Unhandled exception when kick return stats: `{e}`"
+            )
+
+        return temp_df
+
 
     json_file_list = get_json_in_folder()
     team_stats_df = pd.DataFrame()
