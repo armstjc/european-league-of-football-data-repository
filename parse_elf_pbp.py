@@ -144,4 +144,7 @@ def get_efl_raw_pbp(season: int, overwrite_existing_cache: bool = False):
 
 
 if __name__ == "__main__":
-    get_efl_raw_pbp(2024, overwrite_existing_cache=True)
+    get_efl_raw_pbp(
+        2024,
+        # overwrite_existing_cache=True
+    )

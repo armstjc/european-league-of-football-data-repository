@@ -2922,6 +2922,9 @@ def parse_elf_team_game_stats():
         team_stats_df_arr.append(row_df)
 
         del row_df
+    
+    team_stats_df = pd.concat(team_stats_df_arr, ignore_index=True)
+        
 
 
 if __name__ == "__main__":
