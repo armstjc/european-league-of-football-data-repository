@@ -2821,7 +2821,7 @@ def parse_elf_team_game_stats():
             temp_df["passing_SACKS"] = int(json_data["pass"]["_attributes"]["sacks"])
             temp_df["passing_SACK_YDS"] = int(json_data["pass"]["_attributes"]["sackyds"])
         except Exception as e:
-            logging.warning(
+            logging.info(
                 f"Unhandled exception when parsing passing stats: `{e}`"
             )
 
@@ -2831,7 +2831,7 @@ def parse_elf_team_game_stats():
             temp_df["rushing_TD"] = int(json_data["rush"]["_attributes"]["td"])
             temp_df["rushing_LONG"] = int(json_data["rush"]["_attributes"]["long"])
         except Exception as e:
-            logging.warning(
+            logging.info(
                 f"Unhandled exception when parsing rushing stats: `{e}`"
             )
 
@@ -2845,7 +2845,7 @@ def parse_elf_team_game_stats():
             temp_df["punting_50+"] = int(json_data["punt"]["_attributes"]["plus50"])
             temp_df["punting_LONG"] = int(json_data["punt"]["_attributes"]["long"])
         except Exception as e:
-            logging.warning(
+            logging.info(
                 f"Unhandled exception when parsing rushing stats: `{e}`"
             )
 
@@ -2856,7 +2856,7 @@ def parse_elf_team_game_stats():
             temp_df["kickoff_TB"] = int(json_data["ko"]["_attributes"]["tb"])
             # temp_df["kickoff_TB"] = int(json_data["ko"]["_attributes"]["tb"])
         except Exception as e:
-            logging.warning(
+            logging.info(
                 f"Unhandled exception when parsing kickoff stats: `{e}`"
             )
 
@@ -2867,7 +2867,7 @@ def parse_elf_team_game_stats():
             temp_df["kicking_FG_BLK"] = int(json_data["fg"]["_attributes"]["blkd"])
             # temp_df["kickoff_TB"] = int(json_data["ko"]["_attributes"]["tb"])
         except Exception as e:
-            logging.warning(
+            logging.info(
                 f"Unhandled exception when parsing kicking stats: `{e}`"
             )
 
@@ -2876,7 +2876,7 @@ def parse_elf_team_game_stats():
             temp_df["kicking_XPA"] = int(json_data["pat"]["_attributes"]["kickatt"])
             # temp_df["kickoff_TB"] = int(json_data["ko"]["_attributes"]["tb"])
         except Exception as e:
-            logging.warning(
+            logging.info(
                 f"Unhandled exception when parsing XP stats: `{e}`"
             )
 
@@ -2886,7 +2886,7 @@ def parse_elf_team_game_stats():
             temp_df["punt_return_TD"] = int(json_data["pr"]["_attributes"]["td"])
             temp_df["punt_return_LONG"] = int(json_data["pr"]["_attributes"]["long"])
         except Exception as e:
-            logging.warning(
+            logging.info(
                 f"Unhandled exception when punt return stats: `{e}`"
             )
 
@@ -2896,12 +2896,11 @@ def parse_elf_team_game_stats():
             temp_df["kick_return_TD"] = int(json_data["kr"]["_attributes"]["td"])
             temp_df["kick_return_LONG"] = int(json_data["kr"]["_attributes"]["long"])
         except Exception as e:
-            logging.warning(
+            logging.info(
                 f"Unhandled exception when kick return stats: `{e}`"
             )
 
         return temp_df
-
 
     json_file_list = get_json_in_folder()
     team_stats_df = pd.DataFrame()
@@ -2922,9 +2921,9 @@ def parse_elf_team_game_stats():
         team_stats_df_arr.append(row_df)
 
         del row_df
-    
+
     team_stats_df = pd.concat(team_stats_df_arr, ignore_index=True)
-        
+    seasons_arr = team_stats_df['season'].unique()
 
 
 if __name__ == "__main__":
