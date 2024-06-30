@@ -1,3 +1,4 @@
+import logging
 import os
 import time
 # from datetime import datetime
@@ -64,74 +65,84 @@ def get_efl_raw_pbp(season: int, overwrite_existing_cache: bool = False):
                 f"{away_team}-at-{home_team}-{game_id}"
             driver.get(url)
             time.sleep(10)
+            has_pbp_data = False
 
             rand_num = randrange(1000, 3000)
             driver.execute_script(f"window.scrollBy(0,{rand_num})", "")
             soup = BeautifulSoup(driver.page_source, features='lxml')
-            pbp_data = soup.find(
-                "div", {"class": "@container flex flex-col gap-12"}
-            )
-            quarters = pbp_data.find_all(
-                "div", {"class": "flex flex-col gap-6"}
-            )
 
-            quarter_num = 0
-            for q in quarters:
-                quarter_num += 1
-                drives = q.find_all(
-                    "div",
-                    {
-                        "class": "relative rounded-xl " +
-                        "overflow-hidden duration-200 " +
-                        "bg-elf-blue-800 lg:hover:bg-elf-blue-700/70"
-                    }
+            try:
+                pbp_data = soup.find(
+                    "div", {"class": "@container flex flex-col gap-12"}
+                )
+                has_pbp_data = True
+            except:
+                logging.info(
+                    "No PBP data was found, skipping this game"
                 )
 
-                drive_num = 0
-                for d in drives:
-                    drive_num += 1
-                    plays = d.find_all(
+            if has_pbp_data is True:
+                quarters = pbp_data.find_all(
+                    "div", {"class": "flex flex-col gap-6"}
+                )
+
+                quarter_num = 0
+                for q in quarters:
+                    quarter_num += 1
+                    drives = q.find_all(
                         "div",
                         {
-                            "class": "px-4 md:px-6 py-4 " +
-                            "border-t border-elf-blue-200/30"
+                            "class": "relative rounded-xl " +
+                            "overflow-hidden duration-200 " +
+                            "bg-elf-blue-800 lg:hover:bg-elf-blue-700/70"
                         }
                     )
 
-                    for p in plays:
-                        play_type = p.find(
-                            "p",
+                    drive_num = 0
+                    for d in drives:
+                        drive_num += 1
+                        plays = d.find_all(
+                            "div",
                             {
-                                "class": "text-lg font-bold " +
-                                "mb-1 leading-normal"
+                                "class": "px-4 md:px-6 py-4 " +
+                                "border-t border-elf-blue-200/30"
                             }
-                        ).text
-                        play_desc = p.find("p", {"class": "text-sm mb-1"}).text
-                        down_and_distance = p.find(
-                            "p", {"class": "text-sm text-elf-blue-100/70"}
-                        ).text
-
-                        temp_df = pd.DataFrame(
-                            {
-                                "season": season,
-                                "game_week": game_week,
-                                "game_datetime": game_datetime,
-                                "away_team": away_team,
-                                "away_team_id": away_team_id,
-                                "home_team": home_team,
-                                "home_team_id": home_team_id,
-                                "quarter_num": quarter_num,
-                                "drive_num": drive_num,
-                                "play_type": play_type,
-                                "play_desc": play_desc,
-                                "down_and_distance": down_and_distance,
-                            },
-                            index=[0]
                         )
 
-                        pbp_df_arr.append(temp_df)
+                        for p in plays:
+                            play_type = p.find(
+                                "p",
+                                {
+                                    "class": "text-lg font-bold " +
+                                    "mb-1 leading-normal"
+                                }
+                            ).text
+                            play_desc = p.find("p", {"class": "text-sm mb-1"}).text
+                            down_and_distance = p.find(
+                                "p", {"class": "text-sm text-elf-blue-100/70"}
+                            ).text
 
-                        del temp_df
+                            temp_df = pd.DataFrame(
+                                {
+                                    "season": season,
+                                    "game_week": game_week,
+                                    "game_datetime": game_datetime,
+                                    "away_team": away_team,
+                                    "away_team_id": away_team_id,
+                                    "home_team": home_team,
+                                    "home_team_id": home_team_id,
+                                    "quarter_num": quarter_num,
+                                    "drive_num": drive_num,
+                                    "play_type": play_type,
+                                    "play_desc": play_desc,
+                                    "down_and_distance": down_and_distance,
+                                },
+                                index=[0]
+                            )
+
+                            pbp_df_arr.append(temp_df)
+
+                            del temp_df
 
             if len(pbp_df_arr) == 0:
                 pass
