@@ -2923,7 +2923,7 @@ def parse_elf_team_game_stats():
         del row_df
 
     team_stats_df = pd.concat(team_stats_df_arr, ignore_index=True)
-    seasons_arr = team_stats_df['season'].unique()
+    # seasons_arr = team_stats_df['season'].unique()
 
 
 if __name__ == "__main__":
