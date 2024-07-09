@@ -65,20 +65,26 @@ def get_efl_raw_pbp(season: int, overwrite_existing_cache: bool = False):
                 f"{away_team}-at-{home_team}-{game_id}"
             driver.get(url)
             time.sleep(10)
-            has_pbp_data = False
 
-            rand_num = randrange(1000, 3000)
-            driver.execute_script(f"window.scrollBy(0,{rand_num})", "")
+            has_pbp_data = False
             soup = BeautifulSoup(driver.page_source, features='lxml')
+
+            if "Internal Server Error" in soup.text:
+                has_pbp_data = False
+            else:
+                rand_num = randrange(1000, 3000)
+                driver.execute_script(f"window.scrollBy(0,{rand_num})", "")
+                has_pbp_data = True
 
             try:
                 pbp_data = soup.find(
                     "div", {"class": "@container flex flex-col gap-12"}
                 )
-                has_pbp_data = True
-            except:
+            except Exception as e:
+                has_pbp_data = False
                 logging.info(
-                    "No PBP data was found, skipping this game"
+                    "No PBP data was found, skipping this game. " +
+                    f"Full exception `{e}`"
                 )
 
             if has_pbp_data is True:
@@ -157,5 +163,5 @@ def get_efl_raw_pbp(season: int, overwrite_existing_cache: bool = False):
 if __name__ == "__main__":
     get_efl_raw_pbp(
         2024,
-        # overwrite_existing_cache=True
+        overwrite_existing_cache=True
     )
