@@ -2927,5 +2927,6 @@ def parse_elf_team_game_stats():
 
 
 if __name__ == "__main__":
+    # check_elf_stats()
     # parse_elf_team_game_stats()
     parse_elf_player_game_stats(True)

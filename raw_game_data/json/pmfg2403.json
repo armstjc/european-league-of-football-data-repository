@@ -52,7 +52,7 @@
       "start": "13:00",
       "end": "15:58",
       "nitegame": "N",
-      "duration": "",
+      "duration": "2:58",
       "attend": "4523",
       "temp": "18.8",
       "wind": "4",
@@ -114,7 +114,76 @@
       }
     }
   },
-  "fgas": {},
+  "fgas": {
+    "fga": [
+      {
+        "_attributes": {
+          "vh": "V",
+          "team": "FG",
+          "kicker": "R. Rimmler",
+          "qtr": "1",
+          "clock": "12:19",
+          "distance": "50",
+          "result": "missed"
+        }
+      },
+      {
+        "_attributes": {
+          "vh": "H",
+          "team": "PM",
+          "kicker": "M. Dupont",
+          "qtr": "1",
+          "clock": "07:41",
+          "distance": "32",
+          "result": "good"
+        }
+      },
+      {
+        "_attributes": {
+          "vh": "V",
+          "team": "FG",
+          "kicker": "R. Rimmler",
+          "qtr": "3",
+          "clock": "13:21",
+          "distance": "57",
+          "result": "missed"
+        }
+      },
+      {
+        "_attributes": {
+          "vh": "H",
+          "team": "PM",
+          "kicker": "M. Dupont",
+          "qtr": "3",
+          "clock": "13:02",
+          "distance": "38",
+          "result": "good"
+        }
+      },
+      {
+        "_attributes": {
+          "vh": "V",
+          "team": "FG",
+          "kicker": "R. Rimmler",
+          "qtr": "3",
+          "clock": "00:32",
+          "distance": "48",
+          "result": "missed"
+        }
+      },
+      {
+        "_attributes": {
+          "vh": "V",
+          "team": "FG",
+          "kicker": "R. Rimmler",
+          "qtr": "4",
+          "clock": "02:36",
+          "distance": "47",
+          "result": "missed"
+        }
+      }
+    ]
+  },
   "plays": {
     "_attributes": {
       "hasball": "H",
@@ -167,6 +236,7 @@
           "brup": "2",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -283,6 +353,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -316,6 +387,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -351,7 +423,7 @@
           "comp": "23",
           "att": "42",
           "int": "2",
-          "yds": "213",
+          "yds": "230",
           "td": "2",
           "long": "29",
           "sacks": "2",
@@ -505,6 +577,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -646,10 +719,19 @@
           "brup": "3",
           "blkd": "0",
           "ff": "0",
+          "fr": "1",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
           "sacka": "0"
+        }
+      },
+      "fr": {
+        "_attributes": {
+          "no": "1",
+          "yds": "6",
+          "td": "0",
+          "long": "6"
         }
       }
     },
@@ -679,6 +761,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -712,6 +795,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -767,6 +851,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "1",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -890,6 +975,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -923,6 +1009,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -1012,10 +1099,19 @@
           "brup": "1",
           "blkd": "0",
           "ff": "1",
+          "fr": "1",
           "int": "0",
           "intyds": "0",
           "sackua": "1",
           "sacka": "0"
+        }
+      },
+      "fr": {
+        "_attributes": {
+          "no": "1",
+          "yds": "-22",
+          "td": "1",
+          "long": "-22"
         }
       },
       "scoring": {
@@ -1053,6 +1149,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -1295,6 +1392,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -1328,6 +1426,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -1361,6 +1460,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -1380,6 +1480,14 @@
         "gs": "0",
         "opos": "",
         "code": "53"
+      },
+      "fr": {
+        "_attributes": {
+          "no": "1",
+          "yds": "0",
+          "td": "0",
+          "long": "0"
+        }
       }
     },
     {
@@ -1408,6 +1516,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -1441,6 +1550,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -1474,6 +1584,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -1630,7 +1741,7 @@
       "_attributes": {
         "made": "0",
         "att": "4",
-        "long": "49",
+        "long": "57",
         "blkd": "0"
       }
     },
@@ -1655,6 +1766,7 @@
         "brup": "0",
         "blkd": "0",
         "ff": "2",
+        "fr": "",
         "int": "0",
         "intyds": "0",
         "sackua": "",
@@ -1859,7 +1971,7 @@
         "_attributes": {
           "made": "2",
           "att": "2",
-          "long": "31",
+          "long": "38",
           "blkd": "0"
         }
       },
@@ -1884,6 +1996,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "",
           "int": "0",
           "intyds": "0",
           "sackua": "",
@@ -1958,6 +2071,7 @@
             "brup": "2",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "2",
             "intyds": "45",
             "sackua": "0",
@@ -2015,7 +2129,7 @@
             "comp": "15",
             "att": "29",
             "int": "0",
-            "yds": "240",
+            "yds": "246",
             "td": "2",
             "long": "40",
             "sacks": "2",
@@ -2087,6 +2201,7 @@
             "brup": "1",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -2120,6 +2235,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -2216,6 +2332,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -2267,6 +2384,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -2308,6 +2426,7 @@
             "brup": "1",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -2477,6 +2596,7 @@
             "brup": "2",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -2548,6 +2668,7 @@
             "brup": "2",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -2609,6 +2730,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -2642,7 +2764,7 @@
           "_attributes": {
             "made": "2",
             "att": "2",
-            "long": "31",
+            "long": "38",
             "blkd": "0"
           }
         },
@@ -2703,6 +2825,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -2764,6 +2887,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -2797,6 +2921,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -2830,6 +2955,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -2877,6 +3003,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "1",
@@ -3044,6 +3171,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -3113,6 +3241,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -3160,6 +3289,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -3193,6 +3323,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -3226,6 +3357,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -3420,7 +3552,7 @@
         "_attributes": {
           "made": "0",
           "att": "4",
-          "long": "49",
+          "long": "57",
           "blkd": "0"
         }
       },
@@ -3445,6 +3577,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "2",
+          "fr": "",
           "int": "0",
           "intyds": "0",
           "sackua": "",
@@ -3529,6 +3662,7 @@
             "brup": "2",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -3645,6 +3779,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -3678,6 +3813,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -3713,7 +3849,7 @@
             "comp": "23",
             "att": "42",
             "int": "2",
-            "yds": "213",
+            "yds": "230",
             "td": "2",
             "long": "29",
             "sacks": "2",
@@ -3867,6 +4003,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -4008,10 +4145,19 @@
             "brup": "3",
             "blkd": "0",
             "ff": "0",
+            "fr": "1",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
             "sacka": "0"
+          }
+        },
+        "fr": {
+          "_attributes": {
+            "no": "1",
+            "yds": "6",
+            "td": "0",
+            "long": "6"
           }
         }
       },
@@ -4041,6 +4187,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -4074,6 +4221,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -4129,6 +4277,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "1",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -4252,6 +4401,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -4285,6 +4435,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -4374,10 +4525,19 @@
             "brup": "1",
             "blkd": "0",
             "ff": "1",
+            "fr": "1",
             "int": "0",
             "intyds": "0",
             "sackua": "1",
             "sacka": "0"
+          }
+        },
+        "fr": {
+          "_attributes": {
+            "no": "1",
+            "yds": "-22",
+            "td": "1",
+            "long": "-22"
           }
         },
         "scoring": {
@@ -4415,6 +4575,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -4657,6 +4818,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -4690,6 +4852,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -4723,6 +4886,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -4742,6 +4906,14 @@
           "gs": "0",
           "opos": "",
           "code": "53"
+        },
+        "fr": {
+          "_attributes": {
+            "no": "1",
+            "yds": "0",
+            "td": "0",
+            "long": "0"
+          }
         }
       },
       {
@@ -4770,6 +4942,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -4803,6 +4976,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -4836,6 +5010,7 @@
             "brup": "0",
             "blkd": "0",
             "ff": "0",
+            "fr": "0",
             "int": "0",
             "intyds": "0",
             "sackua": "0",
@@ -4872,6 +5047,7 @@
           "brup": "2",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "2",
           "intyds": "45",
           "sackua": "0",
@@ -4929,7 +5105,7 @@
           "comp": "15",
           "att": "29",
           "int": "0",
-          "yds": "240",
+          "yds": "246",
           "td": "2",
           "long": "40",
           "sacks": "2",
@@ -5001,6 +5177,7 @@
           "brup": "1",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -5034,6 +5211,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -5130,6 +5308,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -5181,6 +5360,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -5222,6 +5402,7 @@
           "brup": "1",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -5391,6 +5572,7 @@
           "brup": "2",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -5462,6 +5644,7 @@
           "brup": "2",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -5523,6 +5706,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -5556,7 +5740,7 @@
         "_attributes": {
           "made": "2",
           "att": "2",
-          "long": "31",
+          "long": "38",
           "blkd": "0"
         }
       },
@@ -5617,6 +5801,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -5678,6 +5863,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -5711,6 +5897,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -5744,6 +5931,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -5791,6 +5979,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "1",
@@ -5958,6 +6147,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -6027,6 +6217,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -6074,6 +6265,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -6107,6 +6299,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -6140,6 +6333,7 @@
           "brup": "0",
           "blkd": "0",
           "ff": "0",
+          "fr": "0",
           "int": "0",
           "intyds": "0",
           "sackua": "0",
@@ -6324,7 +6518,7 @@
       "_attributes": {
         "made": "2",
         "att": "2",
-        "long": "31",
+        "long": "38",
         "blkd": "0"
       }
     },
@@ -6349,6 +6543,7 @@
         "brup": "0",
         "blkd": "0",
         "ff": "0",
+        "fr": "",
         "int": "0",
         "intyds": "0",
         "sackua": "",
