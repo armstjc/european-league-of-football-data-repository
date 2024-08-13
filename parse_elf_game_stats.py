@@ -700,7 +700,8 @@ def parse_elf_player_game_stats(save=False):
             check = json_data["statusCode"]
         except Exception as e:
             logging.info(
-                f"No `statusCode` present in this JSON file. Full exception `{e}`"
+                f"No `statusCode` present in this JSON file. Full exception `{
+                    e}`"
             )
 
         if check == 200:
@@ -2780,70 +2781,107 @@ def parse_elf_team_game_stats():
             temp_df["team_yards"] / temp_df["team_plays"], 3
         )
 
-        temp_df["team_first_downs_total"] = int(json_data["firstdowns"]["_attributes"]["no"])
-        temp_df["team_first_downs_rush"] = int(json_data["firstdowns"]["_attributes"]["rush"])
-        temp_df["team_first_downs_pass"] = int(json_data["firstdowns"]["_attributes"]["pass"])
-        temp_df["team_first_downs_penalty"] = int(json_data["firstdowns"]["_attributes"]["penalty"])
+        temp_df["team_first_downs_total"] = int(
+            json_data["firstdowns"]["_attributes"]["no"])
+        temp_df["team_first_downs_rush"] = int(
+            json_data["firstdowns"]["_attributes"]["rush"])
+        temp_df["team_first_downs_pass"] = int(
+            json_data["firstdowns"]["_attributes"]["pass"])
+        temp_df["team_first_downs_penalty"] = int(
+            json_data["firstdowns"]["_attributes"]["penalty"])
 
-        temp_df["team_penalties_num"] = int(json_data["penalties"]["_attributes"]["no"])
-        temp_df["team_penalty_yds"] = int(json_data["penalties"]["_attributes"]["yds"])
+        temp_df["team_penalties_num"] = int(
+            json_data["penalties"]["_attributes"]["no"])
+        temp_df["team_penalty_yds"] = int(
+            json_data["penalties"]["_attributes"]["yds"])
 
-        temp_df["team_3rd_down_conv"] = int(json_data["conversions"]["_attributes"]["thirdconv"])
-        temp_df["team_3rd_down_att"] = int(json_data["conversions"]["_attributes"]["thirdatt"])
+        temp_df["team_3rd_down_conv"] = int(
+            json_data["conversions"]["_attributes"]["thirdconv"])
+        temp_df["team_3rd_down_att"] = int(
+            json_data["conversions"]["_attributes"]["thirdatt"])
 
-        temp_df["team_4th_down_conv"] = int(json_data["conversions"]["_attributes"]["fourthconv"])
-        temp_df["team_4th_down_att"] = int(json_data["conversions"]["_attributes"]["fourthatt"])
+        temp_df["team_4th_down_conv"] = int(
+            json_data["conversions"]["_attributes"]["fourthconv"])
+        temp_df["team_4th_down_att"] = int(
+            json_data["conversions"]["_attributes"]["fourthatt"])
 
         temp_df["fumbles_num"] = int(json_data["fumbles"]["_attributes"]["no"])
-        temp_df["fumbles_lost"] = int(json_data["fumbles"]["_attributes"]["lost"])
+        temp_df["fumbles_lost"] = int(
+            json_data["fumbles"]["_attributes"]["lost"])
 
         temp_df["team_misc_yds"] = int(json_data["misc"]["_attributes"]["yds"])
         temp_df["team_top"] = json_data["misc"]["_attributes"]["top"]
 
-        temp_df["team_rz_att"] = int(json_data["redzone"]["_attributes"]["att"])
-        temp_df["team_rz_success"] = int(json_data["redzone"]["_attributes"]["scores"])
-        temp_df["team_rz_points"] = int(json_data["redzone"]["_attributes"]["points"])
-        temp_df["team_rz_rush_td"] = int(json_data["redzone"]["_attributes"]["tdrush"])
-        temp_df["team_rz_pass_td"] = int(json_data["redzone"]["_attributes"]["tdpass"])
-        temp_df["team_rz_fgm"] = int(json_data["redzone"]["_attributes"]["fgmade"])
-        temp_df["team_rz_fga"] = int(json_data["redzone"]["_attributes"]["endfga"])
-        temp_df["team_rz_end_downs"] = int(json_data["redzone"]["_attributes"]["enddowns"])
-        temp_df["team_rz_int"] = int(json_data["redzone"]["_attributes"]["endint"])
-        temp_df["team_rz_fum"] = int(json_data["redzone"]["_attributes"]["endfumb"])
+        temp_df["team_rz_att"] = int(
+            json_data["redzone"]["_attributes"]["att"])
+        temp_df["team_rz_success"] = int(
+            json_data["redzone"]["_attributes"]["scores"])
+        temp_df["team_rz_points"] = int(
+            json_data["redzone"]["_attributes"]["points"])
+        temp_df["team_rz_rush_td"] = int(
+            json_data["redzone"]["_attributes"]["tdrush"])
+        temp_df["team_rz_pass_td"] = int(
+            json_data["redzone"]["_attributes"]["tdpass"])
+        temp_df["team_rz_fgm"] = int(
+            json_data["redzone"]["_attributes"]["fgmade"])
+        temp_df["team_rz_fga"] = int(
+            json_data["redzone"]["_attributes"]["endfga"])
+        temp_df["team_rz_end_downs"] = int(
+            json_data["redzone"]["_attributes"]["enddowns"])
+        temp_df["team_rz_int"] = int(
+            json_data["redzone"]["_attributes"]["endint"])
+        temp_df["team_rz_fum"] = int(
+            json_data["redzone"]["_attributes"]["endfumb"])
 
         try:
-            temp_df["passing_COMP"] = int(json_data["pass"]["_attributes"]["comp"])
-            temp_df["passing_ATT"] = int(json_data["pass"]["_attributes"]["att"])
-            temp_df["passing_YDS"] = int(json_data["pass"]["_attributes"]["yds"])
+            temp_df["passing_COMP"] = int(
+                json_data["pass"]["_attributes"]["comp"])
+            temp_df["passing_ATT"] = int(
+                json_data["pass"]["_attributes"]["att"])
+            temp_df["passing_YDS"] = int(
+                json_data["pass"]["_attributes"]["yds"])
             temp_df["passing_TD"] = int(json_data["pass"]["_attributes"]["td"])
-            temp_df["passing_INT"] = int(json_data["pass"]["_attributes"]["int"])
-            temp_df["passing_LONG"] = int(json_data["pass"]["_attributes"]["long"])
-            temp_df["passing_SACKS"] = int(json_data["pass"]["_attributes"]["sacks"])
-            temp_df["passing_SACK_YDS"] = int(json_data["pass"]["_attributes"]["sackyds"])
+            temp_df["passing_INT"] = int(
+                json_data["pass"]["_attributes"]["int"])
+            temp_df["passing_LONG"] = int(
+                json_data["pass"]["_attributes"]["long"])
+            temp_df["passing_SACKS"] = int(
+                json_data["pass"]["_attributes"]["sacks"])
+            temp_df["passing_SACK_YDS"] = int(
+                json_data["pass"]["_attributes"]["sackyds"])
         except Exception as e:
             logging.info(
                 f"Unhandled exception when parsing passing stats: `{e}`"
             )
 
         try:
-            temp_df["rushing_ATT"] = int(json_data["rush"]["_attributes"]["att"])
-            temp_df["rushing_YDS"] = int(json_data["rush"]["_attributes"]["yds"])
+            temp_df["rushing_ATT"] = int(
+                json_data["rush"]["_attributes"]["att"])
+            temp_df["rushing_YDS"] = int(
+                json_data["rush"]["_attributes"]["yds"])
             temp_df["rushing_TD"] = int(json_data["rush"]["_attributes"]["td"])
-            temp_df["rushing_LONG"] = int(json_data["rush"]["_attributes"]["long"])
+            temp_df["rushing_LONG"] = int(
+                json_data["rush"]["_attributes"]["long"])
         except Exception as e:
             logging.info(
                 f"Unhandled exception when parsing rushing stats: `{e}`"
             )
 
         try:
-            temp_df["punting_NUM"] = int(json_data["punt"]["_attributes"]["no"])
-            temp_df["punting_GROSS_YDS"] = int(json_data["punt"]["_attributes"]["yds"])
-            temp_df["punting_BLK"] = int(json_data["punt"]["_attributes"]["blkd"])
+            temp_df["punting_NUM"] = int(
+                json_data["punt"]["_attributes"]["no"])
+            temp_df["punting_GROSS_YDS"] = int(
+                json_data["punt"]["_attributes"]["yds"])
+            temp_df["punting_BLK"] = int(
+                json_data["punt"]["_attributes"]["blkd"])
             temp_df["punting_TB"] = int(json_data["punt"]["_attributes"]["tb"])
             temp_df["punting_FC"] = int(json_data["punt"]["_attributes"]["fc"])
-            temp_df["punting_INSIDE_20"] = int(json_data["punt"]["_attributes"]["inside20"])
-            temp_df["punting_50+"] = int(json_data["punt"]["_attributes"]["plus50"])
-            temp_df["punting_LONG"] = int(json_data["punt"]["_attributes"]["long"])
+            temp_df["punting_INSIDE_20"] = int(
+                json_data["punt"]["_attributes"]["inside20"])
+            temp_df["punting_50+"] = int(json_data["punt"]
+                                         ["_attributes"]["plus50"])
+            temp_df["punting_LONG"] = int(
+                json_data["punt"]["_attributes"]["long"])
         except Exception as e:
             logging.info(
                 f"Unhandled exception when parsing rushing stats: `{e}`"
@@ -2861,10 +2899,13 @@ def parse_elf_team_game_stats():
             )
 
         try:
-            temp_df["kicking_FGM"] = int(json_data["fg"]["_attributes"]["made"])
+            temp_df["kicking_FGM"] = int(
+                json_data["fg"]["_attributes"]["made"])
             temp_df["kicking_FGA"] = int(json_data["fg"]["_attributes"]["att"])
-            temp_df["kicking_FG_LONG"] = int(json_data["fg"]["_attributes"]["long"])
-            temp_df["kicking_FG_BLK"] = int(json_data["fg"]["_attributes"]["blkd"])
+            temp_df["kicking_FG_LONG"] = int(
+                json_data["fg"]["_attributes"]["long"])
+            temp_df["kicking_FG_BLK"] = int(
+                json_data["fg"]["_attributes"]["blkd"])
             # temp_df["kickoff_TB"] = int(json_data["ko"]["_attributes"]["tb"])
         except Exception as e:
             logging.info(
@@ -2872,8 +2913,10 @@ def parse_elf_team_game_stats():
             )
 
         try:
-            temp_df["kicking_XPM"] = int(json_data["pat"]["_attributes"]["kickmade"])
-            temp_df["kicking_XPA"] = int(json_data["pat"]["_attributes"]["kickatt"])
+            temp_df["kicking_XPM"] = int(
+                json_data["pat"]["_attributes"]["kickmade"])
+            temp_df["kicking_XPA"] = int(
+                json_data["pat"]["_attributes"]["kickatt"])
             # temp_df["kickoff_TB"] = int(json_data["ko"]["_attributes"]["tb"])
         except Exception as e:
             logging.info(
@@ -2881,20 +2924,28 @@ def parse_elf_team_game_stats():
             )
 
         try:
-            temp_df["punt_return_NUM"] = int(json_data["pr"]["_attributes"]["no"])
-            temp_df["punt_return_YDS"] = int(json_data["pr"]["_attributes"]["yds"])
-            temp_df["punt_return_TD"] = int(json_data["pr"]["_attributes"]["td"])
-            temp_df["punt_return_LONG"] = int(json_data["pr"]["_attributes"]["long"])
+            temp_df["punt_return_NUM"] = int(
+                json_data["pr"]["_attributes"]["no"])
+            temp_df["punt_return_YDS"] = int(
+                json_data["pr"]["_attributes"]["yds"])
+            temp_df["punt_return_TD"] = int(
+                json_data["pr"]["_attributes"]["td"])
+            temp_df["punt_return_LONG"] = int(
+                json_data["pr"]["_attributes"]["long"])
         except Exception as e:
             logging.info(
                 f"Unhandled exception when punt return stats: `{e}`"
             )
 
         try:
-            temp_df["kick_return_NUM"] = int(json_data["kr"]["_attributes"]["no"])
-            temp_df["kick_return_YDS"] = int(json_data["kr"]["_attributes"]["yds"])
-            temp_df["kick_return_TD"] = int(json_data["kr"]["_attributes"]["td"])
-            temp_df["kick_return_LONG"] = int(json_data["kr"]["_attributes"]["long"])
+            temp_df["kick_return_NUM"] = int(
+                json_data["kr"]["_attributes"]["no"])
+            temp_df["kick_return_YDS"] = int(
+                json_data["kr"]["_attributes"]["yds"])
+            temp_df["kick_return_TD"] = int(
+                json_data["kr"]["_attributes"]["td"])
+            temp_df["kick_return_LONG"] = int(
+                json_data["kr"]["_attributes"]["long"])
         except Exception as e:
             logging.info(
                 f"Unhandled exception when kick return stats: `{e}`"
@@ -2913,20 +2964,27 @@ def parse_elf_team_game_stats():
 
         # print(f'\n{json_file}')
         json_data = json.loads(json_string)
+        game_id = json_data["venue"]["_attributes"]["gameid"]
+
         row_df = parser(json_data["home"])
+        row_df["game_id"] = game_id
         team_stats_df_arr.append(row_df)
 
         del row_df
         row_df = parser(json_data["visitor"])
+        row_df["game_id"] = game_id
         team_stats_df_arr.append(row_df)
 
         del row_df
 
     team_stats_df = pd.concat(team_stats_df_arr, ignore_index=True)
     # seasons_arr = team_stats_df['season'].unique()
+    team_stats_df.to_csv(
+        'game_stats/team/elf_team_stats.csv', index=False
+    )
 
 
 if __name__ == "__main__":
     # check_elf_stats()
-    # parse_elf_team_game_stats()
+    parse_elf_team_game_stats()
     parse_elf_player_game_stats(True)
