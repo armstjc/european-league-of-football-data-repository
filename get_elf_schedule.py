@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 
 def get_elf_schedule(season_filter=0, return_all_games=False, save=False):
-    print('')
+    # print('')
     schedule_url = "https://elf-app-89392.web.app/apiPublic/dump/gamedays?"
     games_url = "https://elf-app-89392.web.app/apiPublic/dump/games?"
 
