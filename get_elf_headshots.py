@@ -1,7 +1,8 @@
-from datetime import datetime
 import logging
 import time
 import urllib.request
+from datetime import datetime
+
 import pandas as pd
 from tqdm import tqdm
 

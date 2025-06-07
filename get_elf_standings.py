@@ -1,13 +1,9 @@
 import json
 import time
-# from datetime import datetime
 from urllib.request import urlopen
 
 import numpy as np
 import pandas as pd
-# import requests
-# from bs4 import BeautifulSoup
-# from tqdm import tqdm
 
 
 def get_elf_standings(save=False):

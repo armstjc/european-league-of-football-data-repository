@@ -6,8 +6,6 @@ from urllib.request import urlopen
 
 import numpy as np
 import pandas as pd
-# import requests
-# from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 

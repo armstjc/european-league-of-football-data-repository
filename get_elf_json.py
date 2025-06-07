@@ -1,11 +1,11 @@
-from datetime import datetime
 import json
-import logging
+# import logging
 import time
+from datetime import datetime
 
 import pandas as pd
 import requests
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 
