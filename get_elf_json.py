@@ -13,7 +13,6 @@ def save_elf_game_json(game_id: str):
     """
 
     """
-    # game_url = f"https://www.sportsmetrics.football/games/{game_id}"
     game_url = f"https://europeanleague.football/api/game/{game_id}/xml"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) " +
@@ -22,19 +21,11 @@ def save_elf_game_json(game_id: str):
     }
 
     response = requests.get(game_url, headers=headers)
-    # soup = BeautifulSoup(response.text, features='lxml')
-
-    # json_string = soup.find(
-    #     'script', {'id': '__NEXT_DATA__', 'type': 'application/json'})
-
-    # json_data = json.loads(json_string.text)
-    # del json_string
     json_data = json.loads(response.text)
 
     with open(f'raw_game_data/JSON/{game_id}.json', 'w+') as f:
         f.write(json.dumps(json_data, indent=2))
 
-    # print(json_data)
     time.sleep(2)
     return json_data
 
@@ -59,4 +50,4 @@ def save_all_elf_game_json(season: int):
 
 if __name__ == "__main__":
     now = datetime.now()
-    save_all_elf_game_json(now.year)
+    save_all_elf_game_json(2021)

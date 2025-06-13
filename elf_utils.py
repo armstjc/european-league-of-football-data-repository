@@ -16,10 +16,7 @@ def parse_names(name: str):
     name = name.replace('İ', 'I')
     name = name.replace('BerÃ§in', 'Bercin')
     name = name.replace('FernÃ¡ndez', 'Fernandez')
-    # name = name.replace('GÃ¼ndoÄ§kesen', 'Agackesen')
     name = name.replace('GroÃ°nan', 'Grosse')
-    # name = name.replace('ó', 'o')
-    # name = name.replace('ó', 'o')
 
     return name
 
