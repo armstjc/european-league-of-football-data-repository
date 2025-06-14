@@ -50,4 +50,4 @@ def save_all_elf_game_json(season: int):
 
 if __name__ == "__main__":
     now = datetime.now()
-    save_all_elf_game_json(2021)
+    save_all_elf_game_json(now.year)

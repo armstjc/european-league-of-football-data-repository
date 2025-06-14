@@ -944,9 +944,11 @@ def main():
     player_data_df = pd.concat(player_data_df_arr, ignore_index=True)
     season_arr = player_data_df["season"].to_list()
     season_arr = set(season_arr)
-    # season_arr = list(filter(season_arr))
     for s in season_arr:
-        s = int(s)
+        try:
+            s = int(s)
+        except ValueError:
+            s = 2021
         temp_df = player_data_df[player_data_df["season"] == s]
         temp_df.to_csv(
             f"game_stats/player/{s}_elf_player_stats.csv",
