@@ -910,6 +910,31 @@ def parse_elf_team_stats(json_data: dict) -> pd.DataFrame:
     return data_df
 
 
+def parse_raw_elf_pbp(json_data: dict) -> pd.DataFrame:
+    """
+    """
+    data_df_arr = []
+    data_df = pd.DataFrame()
+
+    json_data = json_data["fbgame"]
+    game_id = json_data["venue"]["_attributes"]["gameid"]
+    game_date = json_data["venue"]["_attributes"]["date"]
+
+    game_date += "T" + json_data["venue"]["_attributes"]["start"]
+    game_date = game_date.replace(">", ":")
+    game_date = game_date.replace("T19H", "T19:00")
+    game_date = game_date.replace("T19h", "T19:00")
+    game_date = game_date.replace("T18.00", "T18:00")
+
+    game_location = json_data["venue"]["_attributes"]["location"]
+    game_stadium = json_data["venue"]["_attributes"]["stadium"]
+
+    away_abv = json_data["venue"]["_attributes"]["visid"]
+    home_abv = json_data["venue"]["_attributes"]["homeid"]
+    away_name = json_data["venue"]["_attributes"]["visname"]
+    home_name = json_data["venue"]["_attributes"]["homename"]
+
+
 def main():
     json_list = get_json_in_folder("raw_game_data/json")
 
