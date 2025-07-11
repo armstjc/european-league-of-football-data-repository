@@ -1,0 +1,130 @@
+{
+  "fbgame": {
+    "_attributes": {
+      "code": ""
+    },
+    "venue": {
+      "_attributes": {
+        "gameid": "",
+        "visid": "",
+        "homeid": "",
+        "stadium": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "weather": "",
+        "surface": "",
+        "rooftype": ""
+      },
+      "officials": {},
+      "rules": {},
+      "notes": {}
+    },
+    "team": [
+      {
+        "_attributes": {
+          "vh": "",
+          "id": "",
+          "name": "",
+          "record": "",
+          "abbrev": "",
+          "conference": "",
+          "division": ""
+        },
+        "linescore": {
+          "_attributes": {
+            "q1": "",
+            "q2": "",
+            "q3": "",
+            "q4": "",
+            "ot": "",
+            "total": ""
+          }
+        },
+        "totals": {},
+        "player": [
+          {
+            "_attributes": {
+              "id": "",
+              "uni": "",
+              "name": "",
+              "pos": "",
+              "gp": "",
+              "gs": "",
+              "class": "",
+              "height": "",
+              "weight": "",
+              "dob": "",
+              "home": "",
+              "previous": ""
+            },
+            "rush": {
+              "_attributes": {
+                "att": "",
+                "yds": "",
+                "gain": "",
+                "loss": "",
+                "td": "",
+                "long": ""
+              }
+            },
+            "pass": {
+              "_attributes": {
+                "comp": "",
+                "att": "",
+                "yds": "",
+                "td": "",
+                "int": "",
+                "long": "",
+                "sack": "",
+                "sack_yds": ""
+              }
+            },
+            "rcv": {
+              "_attributes": { "no": "", "yds": "", "td": "", "long": "" }
+            },
+            "def": {
+              "_attributes": {
+                "tackua": "",
+                "tacka": "",
+                "tacktot": "",
+                "tflua": "",
+                "tfla": "",
+                "tflt": "",
+                "tflyds": "",
+                "sackua": "",
+                "sacka": "",
+                "sackt": "",
+                "sackyds": "",
+                "int": "",
+                "intyds": "",
+                "inttd": "",
+                "pd": "",
+                "ff": "",
+                "fr": "",
+                "fryds": "",
+                "frtd": "",
+                "blkd": ""
+              }
+            },
+            "pr": {
+              "_attributes": { "no": "", "yds": "", "td": "", "long": "" }
+            },
+            "kr": {
+              "_attributes": { "no": "", "yds": "", "td": "", "long": "" }
+            },
+            "fg": {
+              "_attributes": { "att": "", "made": "", "long": "" }
+            },
+            "xp": {
+              "_attributes": { "att": "", "made": "" }
+            },
+            "punt": {
+              "_attributes": { "no": "", "yds": "", "long": "", "blk": "" }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

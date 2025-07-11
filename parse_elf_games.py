@@ -203,6 +203,9 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                 elif key == "rush":
                     if value == {}:
                         continue
+                    elif value["_attributes"] == {'att': '', 'yds': '', 'gain': '', 'loss': '', 'td': '', 'long': ''}:
+                        continue
+
                     temp_df["rush_att"] = int(value["_attributes"]["att"])
                     temp_df["rush_yds"] = int(value["_attributes"]["yds"])
 
@@ -235,6 +238,8 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                 elif key == "pass":
                     if value == {}:
                         continue
+                    elif value["_attributes"] == {'comp': '', 'att': '', 'yds': '', 'td': '', 'int': '', 'long': '', 'sack': '', 'sack_yds': ''}:
+                        continue
                     temp_df["pass_comp"] = int(value["_attributes"]["comp"])
                     temp_df["pass_att"] = int(value["_attributes"]["att"])
                     temp_df["pass_yds"] = int(value["_attributes"]["yds"])
@@ -253,12 +258,32 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     if value["_attributes"]["sackyds"] == "":
                         value["_attributes"]["sackyds"] = 0
                     temp_df["pass_sack_yds"] = int(value["_attributes"]["sackyds"])
+
                 elif key == "rcv":
                     if value == {}:
                         continue
-                    temp_df["receiving_rec"] = int(value["_attributes"]["no"])
-                    temp_df["receiving_yds"] = int(value["_attributes"]["yds"])
-                    temp_df["receiving_td"] = int(value["_attributes"]["td"])
+
+                    try:
+                        temp_df["receiving_rec"] = int(value["_attributes"]["long"])
+                    except Exception:
+                        temp_df["receiving_rec"] = np.NaN
+                        logging.info(
+                            f"No receiving long data found for {team_name} in `{game_id}`."
+                        )
+                    try:
+                        temp_df["receiving_yds"] = int(value["_attributes"]["long"])
+                    except Exception:
+                        temp_df["receiving_yds"] = np.NaN
+                        logging.info(
+                            f"No receiving long data found for {team_name} in `{game_id}`."
+                        )
+                    try:
+                        temp_df["receiving_td"] = int(value["_attributes"]["long"])
+                    except Exception:
+                        temp_df["receiving_td"] = np.NaN
+                        logging.info(
+                            f"No receiving long data found for {team_name} in `{game_id}`."
+                        )
                     try:
                         temp_df["receiving_long"] = int(value["_attributes"]["long"])
                     except Exception:
@@ -268,6 +293,8 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                         )
                 elif key == "punt":
                     if value == {}:
+                        continue
+                    elif value["_attributes"] == {'no': '', 'yds': '', 'long': '', 'blk': ''}:
                         continue
                     temp_df["punt_att"] = int(value["_attributes"]["no"])
                     temp_df["punt_gross_yds"] = int(value["_attributes"]["yds"])
@@ -324,6 +351,112 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     if temp_df["kick_xpa"].iloc[0] != 0:
                         temp_df["kick_xp%"] = temp_df["kick_xpm"] / temp_df["kick_xpa"]
                         temp_df["kick_xp%"] = temp_df["kick_xp%"].round(3)
+                elif key == "xp":
+                    if value == {}:
+                        continue
+                    try:
+                        temp_df["kick_xpm"] = int(value["_attributes"]["made"])
+                    except Exception:
+                        temp_df["kick_xpm"] = 0
+                        logging.info(
+                            f"No XPM data found for {team_name} in `{game_id}`."
+                        )
+
+                    try:
+                        temp_df["kick_xpa"] = int(value["_attributes"]["att"])
+                    except Exception:
+                        temp_df["kick_xpa"] = 0
+                        logging.info(
+                            f"No XPM data found for {team_name} in `{game_id}`."
+                        )
+
+                elif key == "def":
+                    if value == {}:
+                        continue
+
+                    try:
+                        temp_df["defense_tackles_total"] = int(
+                            value["_attributes"]["tot_tack"]
+                        )
+                    except Exception:
+                        temp_df["defense_tackles_solo"] = np.NaN
+                        logging.info(
+                            f"No TOTAL data found for {team_name} in `{game_id}`."
+                        )
+                    try:
+                        temp_df["defense_tackles_solo"] = int(
+                            value["_attributes"]["tackua"]
+                        )
+                    except Exception:
+                        temp_df["defense_tackles_solo"] = np.NaN
+                        logging.info(
+                            f"No SOLO data found for {team_name} in `{game_id}`."
+                        )
+                    try:
+                        temp_df["defense_tackles_ast"] = int(
+                            value["_attributes"]["tacka"]
+                        )
+                    except Exception:
+                        temp_df["defense_tackles_ast"] = np.NaN
+                        logging.info(
+                            f"No AST data found for {team_name} in `{game_id}`."
+                        )
+                    try:
+                        temp_df["defense_tfl_solo"] = int(value["_attributes"]["tflua"])
+                    except Exception:
+                        temp_df["defense_tfl_solo"] = np.NaN
+                        logging.info(
+                            f"No SOLO TFL data found for {team_name} in `{game_id}`."
+                        )
+
+                    try:
+                        temp_df["defense_tfl_ast"] = int(value["_attributes"]["tfla"])
+                    except Exception:
+                        temp_df["defense_tfl_ast"] = np.NaN
+                        logging.info(
+                            f"No AST TFL data found for {team_name} in `{game_id}`."
+                        )
+
+                    try:
+                        temp_df["defense_tfl"] = temp_df["defense_tfl_solo"] + (
+                            temp_df["defense_tfl_ast"] / 2
+                        )
+                        temp_df["defense_tfl"] = temp_df["defense_tfl"].round(1)
+                    except Exception:
+                        temp_df["defense_tfl"] = np.NaN
+                        logging.info(
+                            f"No TFL data found for {team_name} in `{game_id}`."
+                        )
+
+                    try:
+                        temp_df["defense_tfl_YDS"] = int(value["_attributes"]["tflyds"])
+                    except Exception:
+                        temp_df["defense_tfl_YDS"] = np.NaN
+                        logging.info(
+                            f"No TFL yds data found for {team_name} in `{game_id}`."
+                        )
+                    try:
+                        temp_df["defense_sacks"] = int(value["_attributes"]["sacks"])
+                    except Exception:
+                        temp_df["defense_sacks"] = np.NaN
+                        logging.info(
+                            f"No sack data found for {team_name} in `{game_id}`."
+                        )
+                    try:
+                        temp_df["defense_sack_yds"] = int(value["_attributes"]["sacks"])
+                    except Exception:
+                        temp_df["defense_sack_yds"] = np.NaN
+                        logging.info(
+                            f"No sack yds data found for {team_name} in `{game_id}`."
+                        )
+
+                    try:
+                        temp_df["defense_pbu"] = int(value["_attributes"]["brup"])
+                    except Exception:
+                        temp_df["defense_pbu"] = np.NaN
+                        logging.info(
+                            f"No PBU data found for {team_name} in `{game_id}`."
+                        )
                 elif key == "defense":
                     if value == {}:
                         continue
@@ -414,12 +547,16 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                 elif key == "kr":
                     if value == {}:
                         continue
+                    elif value["_attributes"] == {'no': '', 'yds': '', 'td': '', 'long': ''}:
+                        continue
                     temp_df["kick_return_num"] = int(value["_attributes"]["no"])
                     temp_df["kick_return_yds"] = int(value["_attributes"]["yds"])
                     temp_df["kick_return_td"] = int(value["_attributes"]["td"])
                     temp_df["kick_return_long"] = int(value["_attributes"]["long"])
                 elif key == "pr":
                     if value == {}:
+                        continue
+                    elif value["_attributes"] == {'no': '', 'yds': '', 'td': '', 'long': ''}:
                         continue
                     temp_df["punt_return_num"] = int(value["_attributes"]["no"])
                     temp_df["punt_return_yds"] = int(value["_attributes"]["yds"])
@@ -442,6 +579,8 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     )
                 elif key == "fg":
                     if value == {}:
+                        continue
+                    elif value["_attributes"] == {'att': '', 'made': '', 'long': ''}:
                         continue
                     temp_df["kick_fgm"] = int(value["_attributes"]["made"])
                     temp_df["kick_fga"] = int(value["_attributes"]["att"])
