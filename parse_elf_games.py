@@ -264,21 +264,21 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                         continue
 
                     try:
-                        temp_df["receiving_rec"] = int(value["_attributes"]["long"])
+                        temp_df["receiving_rec"] = int(value["_attributes"]["no"])
                     except Exception:
                         temp_df["receiving_rec"] = np.NaN
                         logging.info(
                             f"No receiving long data found for {team_name} in `{game_id}`."
                         )
                     try:
-                        temp_df["receiving_yds"] = int(value["_attributes"]["long"])
+                        temp_df["receiving_yds"] = int(value["_attributes"]["yds"])
                     except Exception:
                         temp_df["receiving_yds"] = np.NaN
                         logging.info(
                             f"No receiving long data found for {team_name} in `{game_id}`."
                         )
                     try:
-                        temp_df["receiving_td"] = int(value["_attributes"]["long"])
+                        temp_df["receiving_td"] = int(value["_attributes"]["td"])
                     except Exception:
                         temp_df["receiving_td"] = np.NaN
                         logging.info(
