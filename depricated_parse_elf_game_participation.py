@@ -122,7 +122,7 @@ def parse_elf_game_participation(season: int, save=False):
                                 f"Full exception `{e}`"
                             )
 
-                            row_df['player_pos'] = np.NaN
+                            row_df['player_pos'] = np.nan
 
                     participation_df = pd.concat(
                         [participation_df, row_df],
@@ -164,7 +164,7 @@ def parse_elf_game_participation(season: int, save=False):
                         try:
                             row_df['player_pos'] = i['_attributes']['dpos']
                         except Exception:
-                            row_df['player_pos'] = np.NaN
+                            row_df['player_pos'] = np.nan
 
                     participation_df = pd.concat(
                         [participation_df, row_df],

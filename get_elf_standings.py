@@ -63,7 +63,7 @@ def get_elf_standings(save=False):
         if (home_w + home_l) > 0:
             row_df['home_win_pct'] = home_w / (home_w + home_l)
         else:
-            row_df['home_win_pct'] = np.NaN
+            row_df['home_win_pct'] = np.nan
 
         del home_w, home_l
 
@@ -76,7 +76,7 @@ def get_elf_standings(save=False):
         if (away_w + away_l) > 0:
             row_df['away_win_pct'] = away_w / (away_w + away_l)
         else:
-            row_df['away_win_pct'] = np.NaN
+            row_df['away_win_pct'] = np.nan
 
         del away_w, away_l
 
@@ -95,14 +95,14 @@ def get_elf_standings(save=False):
         if (neutral_w + neutral_l) > 0:
             row_df['neutral_win_pct'] = neutral_w / (neutral_w + neutral_l)
         else:
-            row_df['neutral_win_pct'] = np.NaN
+            row_df['neutral_win_pct'] = np.nan
 
         del neutral_w, neutral_l
 
         try:
             row_df['streak'] = value['streak']
         except Exception:
-            row_df['streak'] = np.NaN
+            row_df['streak'] = np.nan
         standings_df_arr.append(row_df)
 
         del row_df

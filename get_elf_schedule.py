@@ -89,7 +89,7 @@ def get_elf_schedule(season_filter=0, return_all_games=False, save=False):
                 "Could not get a valid date for this game. " +
                 f"Full exception `{e}`"
             )
-            row_df['date'] = np.NaN
+            row_df['date'] = np.nan
         row_df['is_cancelled'] = value['isCancelled']
         row_df['away_team_id'] = value['away']['teamId']
         row_df['away_team_slug'] = value['away']['slug']

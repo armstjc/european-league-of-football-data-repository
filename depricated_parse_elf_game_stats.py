@@ -73,7 +73,7 @@ def check_elf_stats(save=False):
                     try:
                         player_pos = i['_attributes']['dpos']
                     except Exception:
-                        player_pos = np.NaN
+                        player_pos = np.nan
 
                 for (key, value) in i.items():
                     if key == "_attributes":
@@ -375,7 +375,7 @@ def check_elf_stats(save=False):
                 try:
                     player_pos = i['_attributes']['dpos']
                 except Exception:
-                    player_pos = np.NaN
+                    player_pos = np.nan
                 player_pos = player_pos
 
                 for (key, value) in i.items():
@@ -755,7 +755,7 @@ def parse_elf_player_game_stats(save=False):
                         try:
                             player_pos = i['_attributes']['dpos']
                         except Exception:
-                            player_pos = np.NaN
+                            player_pos = np.nan
 
                     for (key, value) in i.items():
                         if key == "_attributes":
@@ -991,7 +991,7 @@ def parse_elf_player_game_stats(save=False):
                                     value['_attributes']['qbh']
                                 )
                             except Exception:
-                                defense_qb_hits = np.NaN
+                                defense_qb_hits = np.nan
 
                             try:
                                 defense_int = int(value['_attributes']['int'])
@@ -1378,12 +1378,12 @@ def parse_elf_player_game_stats(save=False):
                                     1
                                 )
                             else:
-                                punt_gross_avg = np.NaN
+                                punt_gross_avg = np.nan
                             # This isn't in the dataset (yet),
                             # but I'm adding this
                             # for future reference/expansion.
-                            punt_net_yds = np.NaN
-                            punt_net_avg = np.NaN
+                            punt_net_yds = np.nan
+                            punt_net_avg = np.nan
                             punt_tb = int(value['_attributes']['tb'])
                             punt_fc = int(value['_attributes']['fc'])
                             punt_50_plus = int(value['_attributes']['plus50'])
@@ -1576,7 +1576,7 @@ def parse_elf_player_game_stats(save=False):
                         try:
                             player_pos = i['_attributes']['dpos']
                         except Exception:
-                            player_pos = np.NaN
+                            player_pos = np.nan
 
                     for (key, value) in i.items():
                         if key == "_attributes":
@@ -1809,7 +1809,7 @@ def parse_elf_player_game_stats(save=False):
                                     value['_attributes']['qbh']
                                 )
                             except Exception:
-                                defense_qb_hits = np.NaN
+                                defense_qb_hits = np.nan
 
                             try:
                                 defense_int = int(value['_attributes']['int'])
@@ -2195,12 +2195,12 @@ def parse_elf_player_game_stats(save=False):
                                     punt_gross_yds / punt_no, 1
                                 )
                             else:
-                                punt_gross_avg = np.NaN
+                                punt_gross_avg = np.nan
                             # This isn't in the dataset (yet),
                             # but I'm adding this
                             # for future reference/expansion.
-                            punt_net_yds = np.NaN
-                            punt_net_avg = np.NaN
+                            punt_net_yds = np.nan
+                            punt_net_avg = np.nan
                             punt_tb = int(value['_attributes']['tb'])
                             punt_fc = int(value['_attributes']['fc'])
                             punt_50_plus = int(value['_attributes']['plus50'])

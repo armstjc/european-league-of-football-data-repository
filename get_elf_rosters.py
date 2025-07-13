@@ -36,9 +36,9 @@ def get_elf_rosters(save=False, season=0):
 
     for (key, value) in tqdm(json_data.items()):
         row_df = pd.DataFrame({'season': season, 'player_id': key}, index=[0])
-        row_df['old_player_id'] = np.NaN
+        row_df['old_player_id'] = np.nan
         row_df['team_abv'] = str(value['teamshort']).upper()
-        row_df['team'] = np.NaN
+        row_df['team'] = np.nan
 
         row_df['player_number'] = value['uni']
 
@@ -53,8 +53,7 @@ def get_elf_rosters(save=False, season=0):
         else:
             primary_position = parse_position_names(value['pos'])
             secondary_position = parse_position_names(value['secpos'])
-            row_df['player_position'] = f"{
-                primary_position}/{secondary_position}"
+            row_df['player_position'] = f"{primary_position}/{secondary_position}"
 
         try:
             row_df['player_height_m'] = int(value['height']) / 100
@@ -62,7 +61,7 @@ def get_elf_rosters(save=False, season=0):
             logging.info(
                 f"Could not get player height in meters. Full exception `{e}`"
             )
-            row_df['player_height_m'] = np.NaN
+            row_df['player_height_m'] = np.nan
 
         row_df.loc[row_df['player_height_m'] > 0,
                    'player_height_in'] = row_df['player_height_m'] / 0.0254
@@ -73,7 +72,7 @@ def get_elf_rosters(save=False, season=0):
             logging.info(
                 f"Could not get player height in inches. Full exception `{e}`"
             )
-            row_df['player_height_in'] = np.NaN
+            row_df['player_height_in'] = np.nan
 
         try:
             row_df['player_weight_kg'] = int(value['weight'])
@@ -81,7 +80,7 @@ def get_elf_rosters(save=False, season=0):
             logging.info(
                 f"Could not get player weight in KG. Full exception `{e}`"
             )
-            row_df['player_weight_kg'] = np.NaN
+            row_df['player_weight_kg'] = np.nan
 
         row_df.loc[
             row_df['player_weight_kg'] > 0,
@@ -94,7 +93,7 @@ def get_elf_rosters(save=False, season=0):
             logging.info(
                 f"Could not get player weight in pounds. Full exception `{e}`"
             )
-            row_df['player_weight_lbs'] = np.NaN
+            row_df['player_weight_lbs'] = np.nan
 
         row_df['birth_place'] = value['birthplace']
         row_df['birth_nation'] = value['nationbinding']
@@ -114,7 +113,7 @@ def get_elf_rosters(save=False, season=0):
                 "Could not find any awards for this player. " +
                 f"Full exception `{e}`"
             )
-            row_df['awards'] = np.NaN
+            row_df['awards'] = np.nan
 
         row_df['player_headshot_url'] = value['avatar']
         rosters_df_arr.append(row_df)
@@ -209,12 +208,12 @@ def get_old_elf_rosters(save=False, season=0):
                         "Could not convert the player's height in meters " +
                         f"to a float. Full exception `{e}`"
                     )
-                    player_height_m = np.NaN
+                    player_height_m = np.nan
 
                 if player_height_m is not None:
                     player_height_in = round((player_height_m / 0.0254), 2)
                 else:
-                    player_height_in = np.NaN
+                    player_height_in = np.nan
 
                 try:
                     player_weight_kg = int(player_info.find(
@@ -224,13 +223,13 @@ def get_old_elf_rosters(save=False, season=0):
                         "Could not convert the player's weight in KG " +
                         f"to a float. Full exception `{e}`"
                     )
-                    player_weight_kg = np.NaN
+                    player_weight_kg = np.nan
 
                 if player_weight_kg is not None:
                     player_weight_lbs = round(
                         (player_weight_kg / 0.45359237), 2)
                 else:
-                    player_weight_lbs = np.NaN
+                    player_weight_lbs = np.nan
 
                 del player_info
 
@@ -394,12 +393,12 @@ def get_elf_player_ids(save=False):
                         "in meters into a float. " +
                         f"Full exception `{e}`"
                     )
-                    player_height_m = np.NaN
+                    player_height_m = np.nan
 
                 if player_height_m is not None:
                     player_height_in = round((player_height_m / 0.0254), 2)
                 else:
-                    player_height_in = np.NaN
+                    player_height_in = np.nan
 
                 try:
                     player_weight_kg = int(player_info.find(
@@ -410,13 +409,13 @@ def get_elf_player_ids(save=False):
                         "in KG into a float. " +
                         f"Full exception `{e}`"
                     )
-                    player_weight_kg = np.NaN
+                    player_weight_kg = np.nan
 
                 if player_weight_kg is not None:
                     player_weight_lbs = round(
                         (player_weight_kg / 0.45359237), 2)
                 else:
-                    player_weight_lbs = np.NaN
+                    player_weight_lbs = np.nan
 
                 del player_info
 

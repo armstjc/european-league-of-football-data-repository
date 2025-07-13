@@ -190,7 +190,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     try:
                         temp_df["player_position"] = value["opos"]
                     except Exception:
-                        temp_df["player_position"] = np.NaN
+                        temp_df["player_position"] = np.nan
                         logging.info(
                             "Skipping player position check for this player."
                         )
@@ -212,7 +212,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     try:
                         temp_df["rush_yds_gain"] = int(value["_attributes"]["gain"])
                     except Exception:
-                        temp_df["rush_yds_gain"] = np.NaN
+                        temp_df["rush_yds_gain"] = np.nan
                         logging.info(
                             f"No rush yards gain data found for {team_name} in `{game_id}`."
                         )
@@ -222,7 +222,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                             value["_attributes"]["loss"] = 0
                         temp_df["rush_yds_loss"] = int(value["_attributes"]["loss"])
                     except Exception:
-                        temp_df["rush_yds_loss"] = np.NaN
+                        temp_df["rush_yds_loss"] = np.nan
                         logging.info(
                             f"No rush yards loss data found for {team_name} in `{game_id}`."
                         )
@@ -231,7 +231,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     try:
                         temp_df["rush_long"] = int(value["_attributes"]["long"])
                     except Exception:
-                        temp_df["rush_long"] = np.NaN
+                        temp_df["rush_long"] = np.nan
                         logging.info(
                             f"No rush long data found for {team_name} in `{game_id}`."
                         )
@@ -248,7 +248,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     try:
                         temp_df["pass_long"] = int(value["_attributes"]["long"])
                     except Exception:
-                        temp_df["pass_long"] = np.NaN
+                        temp_df["pass_long"] = np.nan
                         logging.info(
                             f"No pass long data found for {team_name} in `{game_id}`."
                         )
@@ -266,28 +266,28 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     try:
                         temp_df["receiving_rec"] = int(value["_attributes"]["no"])
                     except Exception:
-                        temp_df["receiving_rec"] = np.NaN
+                        temp_df["receiving_rec"] = np.nan
                         logging.info(
                             f"No receiving long data found for {team_name} in `{game_id}`."
                         )
                     try:
                         temp_df["receiving_yds"] = int(value["_attributes"]["yds"])
                     except Exception:
-                        temp_df["receiving_yds"] = np.NaN
+                        temp_df["receiving_yds"] = np.nan
                         logging.info(
                             f"No receiving long data found for {team_name} in `{game_id}`."
                         )
                     try:
                         temp_df["receiving_td"] = int(value["_attributes"]["td"])
                     except Exception:
-                        temp_df["receiving_td"] = np.NaN
+                        temp_df["receiving_td"] = np.nan
                         logging.info(
                             f"No receiving long data found for {team_name} in `{game_id}`."
                         )
                     try:
                         temp_df["receiving_long"] = int(value["_attributes"]["long"])
                     except Exception:
-                        temp_df["receiving_long"] = np.NaN
+                        temp_df["receiving_long"] = np.nan
                         logging.info(
                             f"No receiving long data found for {team_name} in `{game_id}`."
                         )
@@ -379,7 +379,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                             value["_attributes"]["tot_tack"]
                         )
                     except Exception:
-                        temp_df["defense_tackles_solo"] = np.NaN
+                        temp_df["defense_tackles_solo"] = np.nan
                         logging.info(
                             f"No TOTAL data found for {team_name} in `{game_id}`."
                         )
@@ -388,7 +388,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                             value["_attributes"]["tackua"]
                         )
                     except Exception:
-                        temp_df["defense_tackles_solo"] = np.NaN
+                        temp_df["defense_tackles_solo"] = np.nan
                         logging.info(
                             f"No SOLO data found for {team_name} in `{game_id}`."
                         )
@@ -397,14 +397,14 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                             value["_attributes"]["tacka"]
                         )
                     except Exception:
-                        temp_df["defense_tackles_ast"] = np.NaN
+                        temp_df["defense_tackles_ast"] = np.nan
                         logging.info(
                             f"No AST data found for {team_name} in `{game_id}`."
                         )
                     try:
                         temp_df["defense_tfl_solo"] = int(value["_attributes"]["tflua"])
                     except Exception:
-                        temp_df["defense_tfl_solo"] = np.NaN
+                        temp_df["defense_tfl_solo"] = np.nan
                         logging.info(
                             f"No SOLO TFL data found for {team_name} in `{game_id}`."
                         )
@@ -412,7 +412,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     try:
                         temp_df["defense_tfl_ast"] = int(value["_attributes"]["tfla"])
                     except Exception:
-                        temp_df["defense_tfl_ast"] = np.NaN
+                        temp_df["defense_tfl_ast"] = np.nan
                         logging.info(
                             f"No AST TFL data found for {team_name} in `{game_id}`."
                         )
@@ -423,7 +423,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                         )
                         temp_df["defense_tfl"] = temp_df["defense_tfl"].round(1)
                     except Exception:
-                        temp_df["defense_tfl"] = np.NaN
+                        temp_df["defense_tfl"] = np.nan
                         logging.info(
                             f"No TFL data found for {team_name} in `{game_id}`."
                         )
@@ -431,21 +431,21 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     try:
                         temp_df["defense_tfl_YDS"] = int(value["_attributes"]["tflyds"])
                     except Exception:
-                        temp_df["defense_tfl_YDS"] = np.NaN
+                        temp_df["defense_tfl_YDS"] = np.nan
                         logging.info(
                             f"No TFL yds data found for {team_name} in `{game_id}`."
                         )
                     try:
                         temp_df["defense_sacks"] = int(value["_attributes"]["sacks"])
                     except Exception:
-                        temp_df["defense_sacks"] = np.NaN
+                        temp_df["defense_sacks"] = np.nan
                         logging.info(
                             f"No sack data found for {team_name} in `{game_id}`."
                         )
                     try:
                         temp_df["defense_sack_yds"] = int(value["_attributes"]["sacks"])
                     except Exception:
-                        temp_df["defense_sack_yds"] = np.NaN
+                        temp_df["defense_sack_yds"] = np.nan
                         logging.info(
                             f"No sack yds data found for {team_name} in `{game_id}`."
                         )
@@ -453,7 +453,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     try:
                         temp_df["defense_pbu"] = int(value["_attributes"]["brup"])
                     except Exception:
-                        temp_df["defense_pbu"] = np.NaN
+                        temp_df["defense_pbu"] = np.nan
                         logging.info(
                             f"No PBU data found for {team_name} in `{game_id}`."
                         )
@@ -466,7 +466,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                             value["_attributes"]["tot_tack"]
                         )
                     except Exception:
-                        temp_df["defense_tackles_solo"] = np.NaN
+                        temp_df["defense_tackles_solo"] = np.nan
                         logging.info(
                             f"No TOTAL data found for {team_name} in `{game_id}`."
                         )
@@ -475,7 +475,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                             value["_attributes"]["tackua"]
                         )
                     except Exception:
-                        temp_df["defense_tackles_solo"] = np.NaN
+                        temp_df["defense_tackles_solo"] = np.nan
                         logging.info(
                             f"No SOLO data found for {team_name} in `{game_id}`."
                         )
@@ -484,14 +484,14 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                             value["_attributes"]["tacka"]
                         )
                     except Exception:
-                        temp_df["defense_tackles_ast"] = np.NaN
+                        temp_df["defense_tackles_ast"] = np.nan
                         logging.info(
                             f"No AST data found for {team_name} in `{game_id}`."
                         )
                     try:
                         temp_df["defense_tfl_solo"] = int(value["_attributes"]["tflua"])
                     except Exception:
-                        temp_df["defense_tfl_solo"] = np.NaN
+                        temp_df["defense_tfl_solo"] = np.nan
                         logging.info(
                             f"No SOLO TFL data found for {team_name} in `{game_id}`."
                         )
@@ -499,7 +499,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     try:
                         temp_df["defense_tfl_ast"] = int(value["_attributes"]["tfla"])
                     except Exception:
-                        temp_df["defense_tfl_ast"] = np.NaN
+                        temp_df["defense_tfl_ast"] = np.nan
                         logging.info(
                             f"No AST TFL data found for {team_name} in `{game_id}`."
                         )
@@ -510,7 +510,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                         )
                         temp_df["defense_tfl"] = temp_df["defense_tfl"].round(1)
                     except Exception:
-                        temp_df["defense_tfl"] = np.NaN
+                        temp_df["defense_tfl"] = np.nan
                         logging.info(
                             f"No TFL data found for {team_name} in `{game_id}`."
                         )
@@ -518,21 +518,21 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     try:
                         temp_df["defense_tfl_YDS"] = int(value["_attributes"]["tflyds"])
                     except Exception:
-                        temp_df["defense_tfl_YDS"] = np.NaN
+                        temp_df["defense_tfl_YDS"] = np.nan
                         logging.info(
                             f"No TFL yds data found for {team_name} in `{game_id}`."
                         )
                     try:
                         temp_df["defense_sacks"] = int(value["_attributes"]["sacks"])
                     except Exception:
-                        temp_df["defense_sacks"] = np.NaN
+                        temp_df["defense_sacks"] = np.nan
                         logging.info(
                             f"No sack data found for {team_name} in `{game_id}`."
                         )
                     try:
                         temp_df["defense_sack_yds"] = int(value["_attributes"]["sacks"])
                     except Exception:
-                        temp_df["defense_sack_yds"] = np.NaN
+                        temp_df["defense_sack_yds"] = np.nan
                         logging.info(
                             f"No sack yds data found for {team_name} in `{game_id}`."
                         )
@@ -540,7 +540,7 @@ def parse_elf_player_stats(json_data: dict) -> pd.DataFrame:
                     try:
                         temp_df["defense_pbu"] = int(value["_attributes"]["brup"])
                     except Exception:
-                        temp_df["defense_pbu"] = np.NaN
+                        temp_df["defense_pbu"] = np.nan
                         logging.info(
                             f"No PBU data found for {team_name} in `{game_id}`."
                         )
@@ -909,7 +909,7 @@ def parse_elf_team_stats(json_data: dict) -> pd.DataFrame:
                 try:
                     temp_df["rush_yds_gain"] = int(value["_attributes"]["gain"])
                 except Exception:
-                    temp_df["rush_yds_gain"] = np.NaN
+                    temp_df["rush_yds_gain"] = np.nan
                     logging.info(
                         f"No rush yards gain data found for {team_name} in `{game_id}`."
                     )
@@ -919,7 +919,7 @@ def parse_elf_team_stats(json_data: dict) -> pd.DataFrame:
                         value["_attributes"]["loss"] = 0
                     temp_df["rush_yds_loss"] = int(value["_attributes"]["loss"])
                 except Exception:
-                    temp_df["rush_yds_loss"] = np.NaN
+                    temp_df["rush_yds_loss"] = np.nan
                     logging.info(
                         f"No rush yards loss data found for {team_name} in `{game_id}`."
                     )
@@ -928,7 +928,7 @@ def parse_elf_team_stats(json_data: dict) -> pd.DataFrame:
                 try:
                     temp_df["rush_long"] = int(value["_attributes"]["long"])
                 except Exception:
-                    temp_df["rush_long"] = np.NaN
+                    temp_df["rush_long"] = np.nan
                     logging.info(
                         f"No rush long data found for {team_name} in `{game_id}`."
                     )
@@ -944,7 +944,7 @@ def parse_elf_team_stats(json_data: dict) -> pd.DataFrame:
                 try:
                     temp_df["pass_long"] = int(value["_attributes"]["long"])
                 except Exception:
-                    temp_df["pass_long"] = np.NaN
+                    temp_df["pass_long"] = np.nan
                     logging.info(
                         f"No pass long data found for {team_name} in `{game_id}`."
                     )
@@ -1025,7 +1025,7 @@ def parse_elf_team_stats(json_data: dict) -> pd.DataFrame:
                 try:
                     temp_df["defense_tfl_solo"] = int(value["_attributes"]["tflua"])
                 except Exception:
-                    temp_df["defense_tfl_solo"] = np.NaN
+                    temp_df["defense_tfl_solo"] = np.nan
                     logging.info(
                         f"No SOLO TFL data found for {team_name} in `{game_id}`."
                     )
@@ -1033,7 +1033,7 @@ def parse_elf_team_stats(json_data: dict) -> pd.DataFrame:
                 try:
                     temp_df["defense_tfl_ast"] = int(value["_attributes"]["tfla"])
                 except Exception:
-                    temp_df["defense_tfl_ast"] = np.NaN
+                    temp_df["defense_tfl_ast"] = np.nan
                     logging.info(
                         f"No AST TFL data found for {team_name} in `{game_id}`."
                     )
@@ -1044,13 +1044,13 @@ def parse_elf_team_stats(json_data: dict) -> pd.DataFrame:
                     )
                     temp_df["defense_tfl"] = temp_df["defense_tfl"].round(1)
                 except Exception:
-                    temp_df["defense_tfl"] = np.NaN
+                    temp_df["defense_tfl"] = np.nan
                     logging.info(f"No TFL data found for {team_name} in `{game_id}`.")
 
                 try:
                     temp_df["defense_tfl_YDS"] = int(value["_attributes"]["tflyds"])
                 except Exception:
-                    temp_df["defense_tfl_YDS"] = np.NaN
+                    temp_df["defense_tfl_YDS"] = np.nan
                     logging.info(
                         f"No TFL yds data found for {team_name} in `{game_id}`."
                     )
@@ -1058,14 +1058,14 @@ def parse_elf_team_stats(json_data: dict) -> pd.DataFrame:
                 try:
                     temp_df["defense_sacks"] = int(value["_attributes"]["sacks"])
                 except Exception:
-                    temp_df["defense_sacks"] = np.NaN
+                    temp_df["defense_sacks"] = np.nan
                     logging.info(
                         f"No sack data found for {team_name} in `{game_id}`."
                     )
                 try:
                     temp_df["defense_sack_yds"] = int(value["_attributes"]["sacks"])
                 except Exception:
-                    temp_df["defense_sack_yds"] = np.NaN
+                    temp_df["defense_sack_yds"] = np.nan
                     logging.info(
                         f"No sack data found for {team_name} in `{game_id}`."
                     )
@@ -1073,7 +1073,7 @@ def parse_elf_team_stats(json_data: dict) -> pd.DataFrame:
                 try:
                     temp_df["defense_pbu"] = int(value["_attributes"]["brup"])
                 except Exception:
-                    temp_df["defense_pbu"] = np.NaN
+                    temp_df["defense_pbu"] = np.nan
                     logging.info(f"No PBU data found for {team_name} in `{game_id}`.")
 
             elif key == "kr":
