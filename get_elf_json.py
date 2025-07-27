@@ -72,7 +72,7 @@ def save_all_elf_game_json(season: int):
         save_elf_game_json(
             old_game_id=old_game_id,
             game_id=game_id,
-            force_reload=True
+            force_reload=False
         )
 
 
