@@ -57,6 +57,7 @@ def save_elf_game_json(old_game_id: str, game_id: str, force_reload: bool = Fals
     time.sleep(2)
     return json_data
 
+
 def save_all_elf_game_json(season: int):
     """
 
