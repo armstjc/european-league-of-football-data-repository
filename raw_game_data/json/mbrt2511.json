@@ -9,7 +9,8 @@
     "_attributes": {
       "source": "StatsPerform",
       "version": "2025-04",
-      "generated": "24/04/2025"
+      "generated": "2025-08-01 23:59:04",
+      "gameId": "2877790"
     },
     "venue": {
       "_attributes": {
@@ -25,7 +26,7 @@
         "end": "",
         "nitegame": "N",
         "duration": "",
-        "attend": "",
+        "attend": "0",
         "temp": "",
         "wind": "",
         "weather": ""
@@ -80,7 +81,7 @@
           "_attributes": {
             "totoff_plays": "64",
             "totoff_yards": "377",
-            "totoff_avg": "5.9"
+            "totoff_avg": "6.0"
           },
           "firstdowns": {
             "_attributes": {
@@ -107,7 +108,7 @@
           "fumbles": {
             "_attributes": {
               "no": "3",
-              "lost": "1"
+              "lost": "0"
             }
           },
           "misc": {
@@ -140,10 +141,44 @@
             }
           },
           "rcv": {},
-          "punt": {},
-          "ko": {},
-          "fg": {},
-          "pat": {},
+          "punt": {
+            "_attributes": {
+              "no": "3",
+              "yds": "114",
+              "avg": "38.0",
+              "long": 0,
+              "blkd": 0,
+              "tb": 0,
+              "fc": 0,
+              "plus50": 0,
+              "inside20": 0
+            }
+          },
+          "ko": {
+            "_attributes": {
+              "no": "5",
+              "tb": "5",
+              "yds": 0,
+              "ob": 0,
+              "fcyds": 0
+            }
+          },
+          "fg": {
+            "_attributes": {
+              "made": "0",
+              "att": "0",
+              "blkd": "0",
+              "long": 0
+            }
+          },
+          "pat": {
+            "_attributes": {
+              "kickatt": "0",
+              "kickmade": "2",
+              "retkatt": 0,
+              "retkmade": 0
+            }
+          },
           "defense": {
             "_attributes": {
               "ff": "1",
@@ -152,10 +187,31 @@
               "intyds": "0"
             }
           },
-          "kr": {},
-          "pr": {},
+          "kr": {
+            "_attributes": {
+              "no": "6",
+              "yds": "192",
+              "td": "0",
+              "long": "48"
+            }
+          },
+          "pr": {
+            "_attributes": {
+              "no": "2",
+              "yds": "47",
+              "td": "0",
+              "long": "31"
+            }
+          },
           "ir": {},
-          "fr": {}
+          "fr": {
+            "_attributes": {
+              "no": "1",
+              "yds": "9",
+              "td": "0",
+              "long": 0
+            }
+          }
         },
         "player": [
           {
@@ -165,8 +221,8 @@
               "shortname": "M. Vandekerkhof",
               "checkname": "M. Vandekerkhof",
               "uni": "0",
-              "gp": "0",
-              "gs": "0",
+              "gp": "1",
+              "gs": "1",
               "code": "1"
             },
             "defense": {
@@ -183,6 +239,14 @@
                 "tfla": "0",
                 "int": "0"
               }
+            },
+            "fr": {
+              "_attributes": {
+                "no": "1",
+                "yds": "9",
+                "td": "0",
+                "long": 0
+              }
             }
           },
           {
@@ -192,8 +256,8 @@
               "shortname": "R. Seeber",
               "checkname": "R. Seeber",
               "uni": "1",
-              "gp": "0",
-              "gs": "0",
+              "gp": "1",
+              "gs": "",
               "code": "2"
             },
             "defense": {
@@ -219,8 +283,8 @@
               "shortname": "J. Mayerhofer",
               "checkname": "J. Mayerhofer",
               "uni": "3",
-              "gp": "0",
-              "gs": "0",
+              "gp": "1",
+              "gs": "1",
               "code": "3"
             },
             "defense": {
@@ -246,8 +310,8 @@
               "shortname": "F. Reitter",
               "checkname": "F. Reitter",
               "uni": "5",
-              "gp": "0",
-              "gs": "0",
+              "gp": "1",
+              "gs": "",
               "code": "4"
             },
             "rush": {
@@ -258,12 +322,15 @@
                 "long": "0"
               }
             },
-            "rcv": {
+            "punt": {
               "_attributes": {
-                "no": "0",
-                "yds": "0",
-                "td": "0",
-                "long": "0"
+                "no": "3",
+                "yds": "1",
+                "avg": "38",
+                "blkd": "0",
+                "long": "47",
+                "plus50": 0,
+                "inside20": "2"
               }
             }
           },
@@ -274,17 +341,21 @@
               "shortname": "A. Platzgummer",
               "checkname": "A. Platzgummer",
               "uni": "6",
-              "gp": "0",
-              "gs": "0",
+              "gp": "1",
+              "gs": "",
               "code": "5"
-            },
-            "rcv": {
-              "_attributes": {
-                "no": "0",
-                "yds": "0",
-                "td": "0",
-                "long": "0"
-              }
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1583786",
+              "name": "J. Mensah",
+              "shortname": "J. Mensah",
+              "checkname": "J. Mensah",
+              "uni": "7",
+              "gp": "1",
+              "gs": "",
+              "code": "6"
             }
           },
           {
@@ -294,9 +365,9 @@
               "shortname": "A. Maddox",
               "checkname": "A. Maddox",
               "uni": "8",
-              "gp": "0",
-              "gs": "0",
-              "code": "6"
+              "gp": "1",
+              "gs": "1",
+              "code": "7"
             },
             "defense": {
               "_attributes": {
@@ -312,6 +383,14 @@
                 "tfla": "0",
                 "int": "0"
               }
+            },
+            "kr": {
+              "_attributes": {
+                "no": "4",
+                "yds": "131",
+                "td": "0",
+                "long": "39"
+              }
             }
           },
           {
@@ -321,9 +400,9 @@
               "shortname": "J. Sullivan",
               "checkname": "J. Sullivan",
               "uni": "9",
-              "gp": "0",
-              "gs": "0",
-              "code": "7"
+              "gp": "1",
+              "gs": "1",
+              "code": "8"
             },
             "rcv": {
               "_attributes": {
@@ -341,9 +420,9 @@
               "shortname": "P. Haun",
               "checkname": "P. Haun",
               "uni": "10",
-              "gp": "0",
-              "gs": "0",
-              "code": "8"
+              "gp": "1",
+              "gs": "1",
+              "code": "9"
             },
             "rcv": {
               "_attributes": {
@@ -356,14 +435,38 @@
           },
           {
             "_attributes": {
+              "id": "1583788",
+              "name": "T. Rabensteiner",
+              "shortname": "T. Rabensteiner",
+              "checkname": "T. Rabensteiner",
+              "uni": "11",
+              "gp": "1",
+              "gs": "",
+              "code": "10"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1589038",
+              "name": "L. Pasquotto",
+              "shortname": "L. Pasquotto",
+              "checkname": "L. Pasquotto",
+              "uni": "12",
+              "gp": "1",
+              "gs": "1",
+              "code": "11"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1583791",
               "name": "M. Faby",
               "shortname": "M. Faby",
               "checkname": "M. Faby",
               "uni": "14",
-              "gp": "0",
-              "gs": "0",
-              "code": "9"
+              "gp": "1",
+              "gs": "",
+              "code": "12"
             },
             "defense": {
               "_attributes": {
@@ -388,9 +491,9 @@
               "shortname": "N. Perry",
               "checkname": "N. Perry",
               "uni": "15",
-              "gp": "0",
-              "gs": "0",
-              "code": "10"
+              "gp": "1",
+              "gs": "1",
+              "code": "13"
             },
             "rush": {
               "_attributes": {
@@ -409,8 +512,20 @@
                 "td": "2",
                 "long": "35",
                 "sacks": "0",
-                "sackyds": "0"
+                "sackyds": ""
               }
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1593033",
+              "name": "S. Maiacher",
+              "shortname": "S. Maiacher",
+              "checkname": "S. Maiacher",
+              "uni": "16",
+              "gp": "1",
+              "gs": "",
+              "code": "14"
             }
           },
           {
@@ -420,17 +535,33 @@
               "shortname": "B. Radauer",
               "checkname": "B. Radauer",
               "uni": "17",
-              "gp": "0",
-              "gs": "0",
-              "code": "11"
-            },
-            "rcv": {
-              "_attributes": {
-                "no": "0",
-                "yds": "0",
-                "td": "0",
-                "long": "0"
-              }
+              "gp": "1",
+              "gs": "",
+              "code": "15"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1065544",
+              "name": "C. Miller",
+              "shortname": "C. Miller",
+              "checkname": "C. Miller",
+              "uni": "18",
+              "gp": "1",
+              "gs": "",
+              "code": "16"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1583793",
+              "name": "S. Stockhammer",
+              "shortname": "S. Stockhammer",
+              "checkname": "S. Stockhammer",
+              "uni": "19",
+              "gp": "1",
+              "gs": "",
+              "code": "17"
             }
           },
           {
@@ -440,9 +571,9 @@
               "shortname": "D. Walls",
               "checkname": "D. Walls",
               "uni": "20",
-              "gp": "0",
-              "gs": "0",
-              "code": "12"
+              "gp": "1",
+              "gs": "1",
+              "code": "18"
             },
             "defense": {
               "_attributes": {
@@ -458,6 +589,22 @@
                 "tfla": "0",
                 "int": "0"
               }
+            },
+            "kr": {
+              "_attributes": {
+                "no": "2",
+                "yds": "61",
+                "td": "0",
+                "long": "48"
+              }
+            },
+            "pr": {
+              "_attributes": {
+                "no": "2",
+                "yds": "47",
+                "td": "0",
+                "long": "31"
+              }
             }
           },
           {
@@ -467,9 +614,9 @@
               "shortname": "L. Kalkhofer",
               "checkname": "L. Kalkhofer",
               "uni": "21",
-              "gp": "0",
-              "gs": "0",
-              "code": "13"
+              "gp": "1",
+              "gs": "",
+              "code": "19"
             },
             "defense": {
               "_attributes": {
@@ -489,14 +636,26 @@
           },
           {
             "_attributes": {
+              "id": "1583796",
+              "name": "P. Timmermann",
+              "shortname": "P. Timmermann",
+              "checkname": "P. Timmermann",
+              "uni": "22",
+              "gp": "1",
+              "gs": "",
+              "code": "20"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1583797",
               "name": "V. Mueller",
               "shortname": "V. Mueller",
               "checkname": "V. Mueller",
               "uni": "23",
-              "gp": "0",
-              "gs": "0",
-              "code": "14"
+              "gp": "1",
+              "gs": "1",
+              "code": "21"
             },
             "defense": {
               "_attributes": {
@@ -521,9 +680,9 @@
               "shortname": "L. Haslwanter",
               "checkname": "L. Haslwanter",
               "uni": "24",
-              "gp": "0",
-              "gs": "0",
-              "code": "15"
+              "gp": "1",
+              "gs": "1",
+              "code": "22"
             },
             "rush": {
               "_attributes": {
@@ -544,14 +703,32 @@
           },
           {
             "_attributes": {
+              "id": "1583799",
+              "name": "T. Bonatti",
+              "shortname": "T. Bonatti",
+              "checkname": "T. Bonatti",
+              "uni": "25",
+              "gp": "1",
+              "gs": "",
+              "code": "23"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1586660",
               "name": "J. Loria",
               "shortname": "J. Loria",
               "checkname": "J. Loria",
               "uni": "26",
-              "gp": "0",
-              "gs": "0",
-              "code": "16"
+              "gp": "1",
+              "gs": "",
+              "code": "24"
+            },
+            "pat": {
+              "_attributes": {
+                "kickatt": "3",
+                "kickmade": "2"
+              }
             }
           },
           {
@@ -561,9 +738,9 @@
               "shortname": "M. Beglarian",
               "checkname": "M. Beglarian",
               "uni": "27",
-              "gp": "0",
-              "gs": "0",
-              "code": "17"
+              "gp": "1",
+              "gs": "1",
+              "code": "25"
             },
             "defense": {
               "_attributes": {
@@ -583,14 +760,26 @@
           },
           {
             "_attributes": {
+              "id": "1591502",
+              "name": "D. Silvestri",
+              "shortname": "D. Silvestri",
+              "checkname": "D. Silvestri",
+              "uni": "28",
+              "gp": "1",
+              "gs": "",
+              "code": "26"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584060",
               "name": "P. Kriener",
               "shortname": "P. Kriener",
               "checkname": "P. Kriener",
               "uni": "29",
-              "gp": "0",
-              "gs": "0",
-              "code": "18"
+              "gp": "1",
+              "gs": "",
+              "code": "27"
             },
             "defense": {
               "_attributes": {
@@ -610,14 +799,26 @@
           },
           {
             "_attributes": {
+              "id": "1593030",
+              "name": "L. Kriwak",
+              "shortname": "L. Kriwak",
+              "checkname": "L. Kriwak",
+              "uni": "30",
+              "gp": "1",
+              "gs": "",
+              "code": "28"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1590795",
               "name": "J. Fuschelberger",
               "shortname": "J. Fuschelberger",
               "checkname": "J. Fuschelberger",
               "uni": "31",
-              "gp": "0",
-              "gs": "0",
-              "code": "19"
+              "gp": "1",
+              "gs": "",
+              "code": "29"
             },
             "defense": {
               "_attributes": {
@@ -637,14 +838,26 @@
           },
           {
             "_attributes": {
+              "id": "1584058",
+              "name": "T. Tonko",
+              "shortname": "T. Tonko",
+              "checkname": "T. Tonko",
+              "uni": "32",
+              "gp": "1",
+              "gs": "",
+              "code": "30"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584061",
               "name": "T. Unger",
               "shortname": "T. Unger",
               "checkname": "T. Unger",
               "uni": "33",
-              "gp": "0",
-              "gs": "0",
-              "code": "20"
+              "gp": "1",
+              "gs": "1",
+              "code": "31"
             },
             "defense": {
               "_attributes": {
@@ -669,9 +882,9 @@
               "shortname": "T. Bovelle",
               "checkname": "T. Bovelle",
               "uni": "34",
-              "gp": "0",
-              "gs": "0",
-              "code": "21"
+              "gp": "1",
+              "gs": "",
+              "code": "32"
             },
             "rush": {
               "_attributes": {
@@ -689,9 +902,9 @@
               "shortname": "J. Wiesauer",
               "checkname": "J. Wiesauer",
               "uni": "38",
-              "gp": "0",
-              "gs": "0",
-              "code": "22"
+              "gp": "1",
+              "gs": "",
+              "code": "33"
             },
             "rush": {
               "_attributes": {
@@ -700,14 +913,18 @@
                 "td": "0",
                 "long": "10"
               }
-            },
-            "rcv": {
-              "_attributes": {
-                "no": "0",
-                "yds": "0",
-                "td": "0",
-                "long": "0"
-              }
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1595527",
+              "name": "K. Giardinieri",
+              "shortname": "K. Giardinieri",
+              "checkname": "K. Giardinieri",
+              "uni": "40",
+              "gp": "1",
+              "gs": "",
+              "code": "34"
             }
           },
           {
@@ -717,9 +934,9 @@
               "shortname": "T. Calbucci",
               "checkname": "T. Calbucci",
               "uni": "41",
-              "gp": "0",
-              "gs": "0",
-              "code": "23"
+              "gp": "1",
+              "gs": "1",
+              "code": "35"
             },
             "defense": {
               "_attributes": {
@@ -744,9 +961,9 @@
               "shortname": "P. Loeffelberger",
               "checkname": "P. Loeffelberger",
               "uni": "42",
-              "gp": "0",
-              "gs": "0",
-              "code": "24"
+              "gp": "1",
+              "gs": "1",
+              "code": "36"
             },
             "defense": {
               "_attributes": {
@@ -771,9 +988,9 @@
               "shortname": "O. Ogbevoen",
               "checkname": "O. Ogbevoen",
               "uni": "43",
-              "gp": "0",
-              "gs": "0",
-              "code": "25"
+              "gp": "1",
+              "gs": "1",
+              "code": "37"
             },
             "defense": {
               "_attributes": {
@@ -793,14 +1010,206 @@
           },
           {
             "_attributes": {
+              "id": "1584064",
+              "name": "F. Egger",
+              "shortname": "F. Egger",
+              "checkname": "F. Egger",
+              "uni": "44",
+              "gp": "1",
+              "gs": "",
+              "code": "38"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1583815",
+              "name": "P. Migliori",
+              "shortname": "P. Migliori",
+              "checkname": "P. Migliori",
+              "uni": "45",
+              "gp": "1",
+              "gs": "",
+              "code": "39"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1595525",
+              "name": "A. Georg",
+              "shortname": "A. Georg",
+              "checkname": "A. Georg",
+              "uni": "49",
+              "gp": "1",
+              "gs": "",
+              "code": "40"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1595523",
+              "name": "W. Gassebner",
+              "shortname": "W. Gassebner",
+              "checkname": "W. Gassebner",
+              "uni": "51",
+              "gp": "1",
+              "gs": "",
+              "code": "41"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584071",
+              "name": "T. Romito",
+              "shortname": "T. Romito",
+              "checkname": "T. Romito",
+              "uni": "56",
+              "gp": "1",
+              "gs": "",
+              "code": "42"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1174192",
+              "name": "T. Aronokhale",
+              "shortname": "T. Aronokhale",
+              "checkname": "T. Aronokhale",
+              "uni": "61",
+              "gp": "1",
+              "gs": "1",
+              "code": "43"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584073",
+              "name": "C. Wild",
+              "shortname": "C. Wild",
+              "checkname": "C. Wild",
+              "uni": "62",
+              "gp": "1",
+              "gs": "",
+              "code": "44"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584074",
+              "name": "J. Peppler",
+              "shortname": "J. Peppler",
+              "checkname": "J. Peppler",
+              "uni": "66",
+              "gp": "1",
+              "gs": "",
+              "code": "45"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1595515",
+              "name": "B. Dorner",
+              "shortname": "B. Dorner",
+              "checkname": "B. Dorner",
+              "uni": "67",
+              "gp": "1",
+              "gs": "",
+              "code": "46"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584076",
+              "name": "T. Rodlauer",
+              "shortname": "T. Rodlauer",
+              "checkname": "T. Rodlauer",
+              "uni": "70",
+              "gp": "1",
+              "gs": "1",
+              "code": "47"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584081",
+              "name": "O. Stroemstedt",
+              "shortname": "O. Stroemstedt",
+              "checkname": "O. Stroemstedt",
+              "uni": "71",
+              "gp": "1",
+              "gs": "1",
+              "code": "48"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1593072",
+              "name": "M. Thanner",
+              "shortname": "M. Thanner",
+              "checkname": "M. Thanner",
+              "uni": "72",
+              "gp": "1",
+              "gs": "",
+              "code": "49"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1400679",
+              "name": "T. Le Boucher",
+              "shortname": "T. Le Boucher",
+              "checkname": "T. Le Boucher",
+              "uni": "73",
+              "gp": "1",
+              "gs": "",
+              "code": "50"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584082",
+              "name": "I. Kleberg",
+              "shortname": "I. Kleberg",
+              "checkname": "I. Kleberg",
+              "uni": "74",
+              "gp": "1",
+              "gs": "1",
+              "code": "51"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584083",
+              "name": "T. Haslehner",
+              "shortname": "T. Haslehner",
+              "checkname": "T. Haslehner",
+              "uni": "76",
+              "gp": "1",
+              "gs": "1",
+              "code": "52"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1593071",
+              "name": "J. Stelzer",
+              "shortname": "J. Stelzer",
+              "checkname": "J. Stelzer",
+              "uni": "77",
+              "gp": "1",
+              "gs": "",
+              "code": "53"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584085",
               "name": "B. Escobar",
               "shortname": "B. Escobar",
               "checkname": "B. Escobar",
               "uni": "81",
-              "gp": "0",
-              "gs": "0",
-              "code": "26"
+              "gp": "1",
+              "gs": "",
+              "code": "54"
             },
             "rcv": {
               "_attributes": {
@@ -813,14 +1222,38 @@
           },
           {
             "_attributes": {
+              "id": "1584086",
+              "name": "T. Moessinger",
+              "shortname": "T. Moessinger",
+              "checkname": "T. Moessinger",
+              "uni": "82",
+              "gp": "1",
+              "gs": "",
+              "code": "55"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1593028",
+              "name": "N. Fischer Oberhofer",
+              "shortname": "N. Fischer Oberhofer",
+              "checkname": "N. Fischer Oberhofer",
+              "uni": "83",
+              "gp": "1",
+              "gs": "",
+              "code": "56"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584087",
               "name": "M. Schaberl",
               "shortname": "M. Schaberl",
               "checkname": "M. Schaberl",
               "uni": "85",
-              "gp": "0",
-              "gs": "0",
-              "code": "27"
+              "gp": "1",
+              "gs": "1",
+              "code": "57"
             },
             "rcv": {
               "_attributes": {
@@ -833,14 +1266,26 @@
           },
           {
             "_attributes": {
+              "id": "1584088",
+              "name": "R. Weber",
+              "shortname": "R. Weber",
+              "checkname": "R. Weber",
+              "uni": "87",
+              "gp": "1",
+              "gs": "",
+              "code": "58"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584090",
               "name": "D. Hopson",
               "shortname": "D. Hopson",
               "checkname": "D. Hopson",
               "uni": "90",
-              "gp": "0",
-              "gs": "0",
-              "code": "28"
+              "gp": "1",
+              "gs": "",
+              "code": "59"
             },
             "defense": {
               "_attributes": {
@@ -860,14 +1305,26 @@
           },
           {
             "_attributes": {
+              "id": "1584091",
+              "name": "S. Aronokhale",
+              "shortname": "S. Aronokhale",
+              "checkname": "S. Aronokhale",
+              "uni": "91",
+              "gp": "1",
+              "gs": "",
+              "code": "60"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1586185",
               "name": "P. Manicardi",
               "shortname": "P. Manicardi",
               "checkname": "P. Manicardi",
               "uni": "92",
-              "gp": "0",
-              "gs": "0",
-              "code": "29"
+              "gp": "1",
+              "gs": "",
+              "code": "61"
             },
             "defense": {
               "_attributes": {
@@ -887,14 +1344,26 @@
           },
           {
             "_attributes": {
+              "id": "1584092",
+              "name": "L. Wittberger",
+              "shortname": "L. Wittberger",
+              "checkname": "L. Wittberger",
+              "uni": "95",
+              "gp": "1",
+              "gs": "",
+              "code": "62"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1595531",
               "name": "A. Husarevic",
               "shortname": "A. Husarevic",
               "checkname": "A. Husarevic",
               "uni": "96",
-              "gp": "0",
-              "gs": "0",
-              "code": "30"
+              "gp": "1",
+              "gs": "",
+              "code": "63"
             },
             "defense": {
               "_attributes": {
@@ -914,14 +1383,26 @@
           },
           {
             "_attributes": {
+              "id": "1583767",
+              "name": "D. Novakovic",
+              "shortname": "D. Novakovic",
+              "checkname": "D. Novakovic",
+              "uni": "97",
+              "gp": "1",
+              "gs": "",
+              "code": "64"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584093",
               "name": "D. Paz Gonzalez",
               "shortname": "D. Paz Gonzalez",
               "checkname": "D. Paz Gonzalez",
               "uni": "98",
-              "gp": "0",
-              "gs": "0",
-              "code": "31"
+              "gp": "1",
+              "gs": "1",
+              "code": "65"
             },
             "defense": {
               "_attributes": {
@@ -946,9 +1427,9 @@
               "shortname": "F. Rivelli",
               "checkname": "F. Rivelli",
               "uni": "99",
-              "gp": "0",
-              "gs": "0",
-              "code": "32"
+              "gp": "1",
+              "gs": "",
+              "code": "66"
             },
             "defense": {
               "_attributes": {
@@ -1041,7 +1522,7 @@
           "fumbles": {
             "_attributes": {
               "no": "2",
-              "lost": "1"
+              "lost": "0"
             }
           },
           "misc": {
@@ -1067,17 +1548,51 @@
               "comp": "27",
               "att": "39",
               "int": "0",
-              "yds": "358",
+              "yds": "363",
               "td": "5",
               "sacks": "1",
               "sackyds": "5"
             }
           },
           "rcv": {},
-          "punt": {},
-          "ko": {},
-          "fg": {},
-          "pat": {},
+          "punt": {
+            "_attributes": {
+              "no": "3",
+              "yds": "143",
+              "avg": "47.7",
+              "long": 0,
+              "blkd": 0,
+              "tb": 0,
+              "fc": 0,
+              "plus50": 0,
+              "inside20": 0
+            }
+          },
+          "ko": {
+            "_attributes": {
+              "no": "8",
+              "tb": "2",
+              "yds": 0,
+              "ob": 0,
+              "fcyds": 0
+            }
+          },
+          "fg": {
+            "_attributes": {
+              "made": "1",
+              "att": "1",
+              "blkd": "0",
+              "long": 0
+            }
+          },
+          "pat": {
+            "_attributes": {
+              "kickatt": "0",
+              "kickmade": "5",
+              "retkatt": 0,
+              "retkmade": 0
+            }
+          },
           "defense": {
             "_attributes": {
               "ff": "1",
@@ -1086,12 +1601,45 @@
               "intyds": "0"
             }
           },
-          "kr": {},
-          "pr": {},
+          "kr": {
+            "_attributes": {
+              "no": "0",
+              "yds": "0",
+              "td": "0",
+              "long": "0"
+            }
+          },
+          "pr": {
+            "_attributes": {
+              "no": "0",
+              "yds": "0",
+              "td": "0",
+              "long": "0"
+            }
+          },
           "ir": {},
-          "fr": {}
+          "fr": {
+            "_attributes": {
+              "no": "1",
+              "yds": "0",
+              "td": "0",
+              "long": 0
+            }
+          }
         },
         "player": [
+          {
+            "_attributes": {
+              "id": "1584920",
+              "name": "Y. Rivero",
+              "shortname": "Y. Rivero",
+              "checkname": "Y. Rivero",
+              "uni": "0",
+              "gp": "1",
+              "gs": "",
+              "code": "1"
+            }
+          },
           {
             "_attributes": {
               "id": "1109410",
@@ -1099,9 +1647,9 @@
               "shortname": "A. Cruickshank",
               "checkname": "A. Cruickshank",
               "uni": "2",
-              "gp": "0",
-              "gs": "0",
-              "code": "1"
+              "gp": "1",
+              "gs": "1",
+              "code": "2"
             },
             "rush": {
               "_attributes": {
@@ -1127,9 +1675,9 @@
               "shortname": "P. Araya",
               "checkname": "P. Araya",
               "uni": "3",
-              "gp": "0",
-              "gs": "0",
-              "code": "2"
+              "gp": "1",
+              "gs": "1",
+              "code": "3"
             },
             "defense": {
               "_attributes": {
@@ -1154,9 +1702,9 @@
               "shortname": "C. Brugnani",
               "checkname": "C. Brugnani",
               "uni": "5",
-              "gp": "0",
-              "gs": "0",
-              "code": "3"
+              "gp": "1",
+              "gs": "1",
+              "code": "4"
             },
             "defense": {
               "_attributes": {
@@ -1181,9 +1729,9 @@
               "shortname": "R. Sinnett",
               "checkname": "R. Sinnett",
               "uni": "7",
-              "gp": "0",
-              "gs": "0",
-              "code": "4"
+              "gp": "1",
+              "gs": "1",
+              "code": "5"
             },
             "rush": {
               "_attributes": {
@@ -1202,7 +1750,7 @@
                 "td": "5",
                 "long": "51",
                 "sacks": "1",
-                "sackyds": "5"
+                "sackyds": ""
               }
             }
           },
@@ -1213,9 +1761,9 @@
               "shortname": "J. Seelig",
               "checkname": "J. Seelig",
               "uni": "8",
-              "gp": "0",
-              "gs": "0",
-              "code": "5"
+              "gp": "1",
+              "gs": "1",
+              "code": "6"
             },
             "rush": {
               "_attributes": {
@@ -1241,9 +1789,9 @@
               "shortname": "S. Bowen",
               "checkname": "S. Bowen",
               "uni": "9",
-              "gp": "0",
-              "gs": "0",
-              "code": "6"
+              "gp": "1",
+              "gs": "",
+              "code": "7"
             },
             "defense": {
               "_attributes": {
@@ -1263,14 +1811,26 @@
           },
           {
             "_attributes": {
+              "id": "1584926",
+              "name": "I. Lopez",
+              "shortname": "I. Lopez",
+              "checkname": "I. Lopez",
+              "uni": "10",
+              "gp": "1",
+              "gs": "",
+              "code": "8"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584927",
               "name": "S. Dragan",
               "shortname": "S. Dragan",
               "checkname": "S. Dragan",
               "uni": "11",
-              "gp": "0",
-              "gs": "0",
-              "code": "7"
+              "gp": "1",
+              "gs": "1",
+              "code": "9"
             },
             "rcv": {
               "_attributes": {
@@ -1298,14 +1858,26 @@
           },
           {
             "_attributes": {
+              "id": "1584929",
+              "name": "D. Lliteras",
+              "shortname": "D. Lliteras",
+              "checkname": "D. Lliteras",
+              "uni": "12",
+              "gp": "1",
+              "gs": "",
+              "code": "10"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584928",
               "name": "J. Aguado",
               "shortname": "J. Aguado",
               "checkname": "J. Aguado",
               "uni": "13",
-              "gp": "0",
-              "gs": "0",
-              "code": "8"
+              "gp": "1",
+              "gs": "",
+              "code": "11"
             },
             "defense": {
               "_attributes": {
@@ -1330,9 +1902,9 @@
               "shortname": "R. Cernuda",
               "checkname": "R. Cernuda",
               "uni": "14",
-              "gp": "0",
-              "gs": "0",
-              "code": "9"
+              "gp": "1",
+              "gs": "",
+              "code": "12"
             },
             "rcv": {
               "_attributes": {
@@ -1345,14 +1917,50 @@
           },
           {
             "_attributes": {
+              "id": "1584931",
+              "name": "J. Garcia-Valcarcel",
+              "shortname": "J. Garcia-Valcarcel",
+              "checkname": "J. Garcia-Valcarcel",
+              "uni": "15",
+              "gp": "1",
+              "gs": "",
+              "code": "13"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584989",
+              "name": "A. Garcia",
+              "shortname": "A. Garcia",
+              "checkname": "A. Garcia",
+              "uni": "16",
+              "gp": "1",
+              "gs": "",
+              "code": "14"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584932",
+              "name": "J. Garcia-Valcarcel",
+              "shortname": "J. Garcia-Valcarcel",
+              "checkname": "J. Garcia-Valcarcel",
+              "uni": "17",
+              "gp": "1",
+              "gs": "",
+              "code": "15"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584933",
               "name": "E. Perez",
               "shortname": "E. Perez",
               "checkname": "E. Perez",
               "uni": "18",
-              "gp": "0",
-              "gs": "0",
-              "code": "10"
+              "gp": "1",
+              "gs": "",
+              "code": "16"
             },
             "rcv": {
               "_attributes": {
@@ -1385,9 +1993,9 @@
               "shortname": "P. de Diego",
               "checkname": "P. de Diego",
               "uni": "20",
-              "gp": "0",
-              "gs": "0",
-              "code": "11"
+              "gp": "1",
+              "gs": "1",
+              "code": "17"
             },
             "defense": {
               "_attributes": {
@@ -1407,14 +2015,40 @@
           },
           {
             "_attributes": {
+              "id": "1591498",
+              "name": "A. Owusu",
+              "shortname": "A. Owusu",
+              "checkname": "A. Owusu",
+              "uni": "21",
+              "gp": "1",
+              "gs": "",
+              "code": "18"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584936",
               "name": "A. Penas",
               "shortname": "A. Penas",
               "checkname": "A. Penas",
               "uni": "22",
-              "gp": "0",
-              "gs": "0",
-              "code": "12"
+              "gp": "1",
+              "gs": "",
+              "code": "19"
+            },
+            "pat": {
+              "_attributes": {
+                "kickatt": "6",
+                "kickmade": "5"
+              }
+            },
+            "fg": {
+              "_attributes": {
+                "made": "1",
+                "att": "1",
+                "blkd": "0",
+                "long": "33"
+              }
             }
           },
           {
@@ -1424,9 +2058,9 @@
               "shortname": "M. Witherspoon",
               "checkname": "M. Witherspoon",
               "uni": "23",
-              "gp": "0",
-              "gs": "0",
-              "code": "13"
+              "gp": "1",
+              "gs": "1",
+              "code": "20"
             },
             "defense": {
               "_attributes": {
@@ -1451,9 +2085,20 @@
               "shortname": "A. Sarria",
               "checkname": "A. Sarria",
               "uni": "24",
-              "gp": "0",
-              "gs": "0",
-              "code": "14"
+              "gp": "1",
+              "gs": "",
+              "code": "21"
+            },
+            "punt": {
+              "_attributes": {
+                "no": "3",
+                "yds": "1",
+                "avg": "47.7",
+                "blkd": "0",
+                "long": "58",
+                "plus50": 0,
+                "inside20": "1"
+              }
             }
           },
           {
@@ -1463,9 +2108,9 @@
               "shortname": "A. Vera",
               "checkname": "A. Vera",
               "uni": "27",
-              "gp": "0",
-              "gs": "0",
-              "code": "15"
+              "gp": "1",
+              "gs": "1",
+              "code": "22"
             },
             "defense": {
               "_attributes": {
@@ -1485,14 +2130,26 @@
           },
           {
             "_attributes": {
+              "id": "1584990",
+              "name": "G. Haro",
+              "shortname": "G. Haro",
+              "checkname": "G. Haro",
+              "uni": "28",
+              "gp": "1",
+              "gs": "",
+              "code": "23"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584987",
               "name": "G. Fernandez",
               "shortname": "G. Fernandez",
               "checkname": "G. Fernandez",
               "uni": "29",
-              "gp": "0",
-              "gs": "0",
-              "code": "16"
+              "gp": "1",
+              "gs": "",
+              "code": "24"
             },
             "defense": {
               "_attributes": {
@@ -1512,14 +2169,38 @@
           },
           {
             "_attributes": {
+              "id": "1587509",
+              "name": "Y. Sanchez Moreno",
+              "shortname": "Y. Sanchez Moreno",
+              "checkname": "Y. Sanchez Moreno",
+              "uni": "30",
+              "gp": "1",
+              "gs": "",
+              "code": "25"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1587508",
+              "name": "A. Rodriguez",
+              "shortname": "A. Rodriguez",
+              "checkname": "A. Rodriguez",
+              "uni": "32",
+              "gp": "1",
+              "gs": "",
+              "code": "26"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584984",
               "name": "A. Gonzalez",
               "shortname": "A. Gonzalez",
               "checkname": "A. Gonzalez",
               "uni": "33",
-              "gp": "0",
-              "gs": "0",
-              "code": "17"
+              "gp": "1",
+              "gs": "1",
+              "code": "27"
             },
             "defense": {
               "_attributes": {
@@ -1544,9 +2225,9 @@
               "shortname": "I. Diz",
               "checkname": "I. Diz",
               "uni": "42",
-              "gp": "0",
-              "gs": "0",
-              "code": "18"
+              "gp": "1",
+              "gs": "",
+              "code": "28"
             },
             "defense": {
               "_attributes": {
@@ -1562,6 +2243,14 @@
                 "tfla": "0",
                 "int": "0"
               }
+            },
+            "fr": {
+              "_attributes": {
+                "no": "1",
+                "yds": "0",
+                "td": "0",
+                "long": 0
+              }
             }
           },
           {
@@ -1571,9 +2260,9 @@
               "shortname": "E. Molina",
               "checkname": "E. Molina",
               "uni": "43",
-              "gp": "0",
-              "gs": "0",
-              "code": "19"
+              "gp": "1",
+              "gs": "",
+              "code": "29"
             },
             "rush": {
               "_attributes": {
@@ -1601,14 +2290,62 @@
           },
           {
             "_attributes": {
+              "id": "1584980",
+              "name": "E. Ibanez",
+              "shortname": "E. Ibanez",
+              "checkname": "E. Ibanez",
+              "uni": "44",
+              "gp": "1",
+              "gs": "",
+              "code": "30"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1585948",
+              "name": "D. Romero",
+              "shortname": "D. Romero",
+              "checkname": "D. Romero",
+              "uni": "45",
+              "gp": "1",
+              "gs": "",
+              "code": "31"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584939",
+              "name": "C. Rodriguez",
+              "shortname": "C. Rodriguez",
+              "checkname": "C. Rodriguez",
+              "uni": "47",
+              "gp": "1",
+              "gs": "",
+              "code": "32"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1176369",
+              "name": "S. Nofoagatoto'a",
+              "shortname": "S. Nofoagatoto'a",
+              "checkname": "S. Nofoagatoto'a",
+              "uni": "50",
+              "gp": "1",
+              "gs": "1",
+              "code": "33"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584975",
               "name": "J. Hernandez",
               "shortname": "J. Hernandez",
               "checkname": "J. Hernandez",
               "uni": "53",
-              "gp": "0",
-              "gs": "0",
-              "code": "20"
+              "gp": "1",
+              "gs": "1",
+              "code": "34"
             },
             "defense": {
               "_attributes": {
@@ -1628,14 +2365,26 @@
           },
           {
             "_attributes": {
+              "id": "1585951",
+              "name": "N. Ronchel",
+              "shortname": "N. Ronchel",
+              "checkname": "N. Ronchel",
+              "uni": "54",
+              "gp": "1",
+              "gs": "",
+              "code": "35"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584971",
               "name": "J. Carrasco",
               "shortname": "J. Carrasco",
               "checkname": "J. Carrasco",
               "uni": "55",
-              "gp": "0",
-              "gs": "0",
-              "code": "21"
+              "gp": "1",
+              "gs": "1",
+              "code": "36"
             },
             "defense": {
               "_attributes": {
@@ -1655,14 +2404,110 @@
           },
           {
             "_attributes": {
+              "id": "1584947",
+              "name": "I. Fernandez",
+              "shortname": "I. Fernandez",
+              "checkname": "I. Fernandez",
+              "uni": "56",
+              "gp": "1",
+              "gs": "",
+              "code": "37"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584968",
+              "name": "M. Kabankaya",
+              "shortname": "M. Kabankaya",
+              "checkname": "M. Kabankaya",
+              "uni": "58",
+              "gp": "1",
+              "gs": "1",
+              "code": "38"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584977",
+              "name": "J. Prieto",
+              "shortname": "J. Prieto",
+              "checkname": "J. Prieto",
+              "uni": "59",
+              "gp": "1",
+              "gs": "",
+              "code": "39"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584967",
+              "name": "C. Ngimbi",
+              "shortname": "C. Ngimbi",
+              "checkname": "C. Ngimbi",
+              "uni": "60",
+              "gp": "1",
+              "gs": "1",
+              "code": "40"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584965",
+              "name": "E. Sanchez",
+              "shortname": "E. Sanchez",
+              "checkname": "E. Sanchez",
+              "uni": "61",
+              "gp": "1",
+              "gs": "",
+              "code": "41"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584964",
+              "name": "E. Nunez",
+              "shortname": "E. Nunez",
+              "checkname": "E. Nunez",
+              "uni": "64",
+              "gp": "1",
+              "gs": "1",
+              "code": "42"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584961",
+              "name": "C. Espana",
+              "shortname": "C. Espana",
+              "checkname": "C. Espana",
+              "uni": "70",
+              "gp": "1",
+              "gs": "",
+              "code": "43"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584960",
+              "name": "D. Culebras",
+              "shortname": "D. Culebras",
+              "checkname": "D. Culebras",
+              "uni": "71",
+              "gp": "1",
+              "gs": "1",
+              "code": "44"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584959",
               "name": "B. Oswin",
               "shortname": "B. Oswin",
               "checkname": "B. Oswin",
               "uni": "75",
-              "gp": "0",
-              "gs": "0",
-              "code": "22"
+              "gp": "1",
+              "gs": "1",
+              "code": "45"
             },
             "defense": {
               "_attributes": {
@@ -1682,14 +2527,50 @@
           },
           {
             "_attributes": {
+              "id": "1584957",
+              "name": "G. Rodriguez",
+              "shortname": "G. Rodriguez",
+              "checkname": "G. Rodriguez",
+              "uni": "76",
+              "gp": "1",
+              "gs": "",
+              "code": "46"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584956",
+              "name": "C. Carrasco",
+              "shortname": "C. Carrasco",
+              "checkname": "C. Carrasco",
+              "uni": "77",
+              "gp": "1",
+              "gs": "",
+              "code": "47"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584955",
+              "name": "Y. Raji",
+              "shortname": "Y. Raji",
+              "checkname": "Y. Raji",
+              "uni": "78",
+              "gp": "1",
+              "gs": "1",
+              "code": "48"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584954",
               "name": "J. Torrededia",
               "shortname": "J. Torrededia",
               "checkname": "J. Torrededia",
               "uni": "80",
-              "gp": "0",
-              "gs": "0",
-              "code": "23"
+              "gp": "1",
+              "gs": "",
+              "code": "49"
             },
             "rcv": {
               "_attributes": {
@@ -1707,9 +2588,9 @@
               "shortname": "J. Flores-Calderon",
               "checkname": "J. Flores-Calderon",
               "uni": "81",
-              "gp": "0",
-              "gs": "0",
-              "code": "24"
+              "gp": "1",
+              "gs": "1",
+              "code": "50"
             },
             "rcv": {
               "_attributes": {
@@ -1727,9 +2608,9 @@
               "shortname": "J. Melero",
               "checkname": "J. Melero",
               "uni": "83",
-              "gp": "0",
-              "gs": "0",
-              "code": "25"
+              "gp": "1",
+              "gs": "",
+              "code": "51"
             },
             "defense": {
               "_attributes": {
@@ -1749,14 +2630,50 @@
           },
           {
             "_attributes": {
+              "id": "1584950",
+              "name": "J. Garcia",
+              "shortname": "J. Garcia",
+              "checkname": "J. Garcia",
+              "uni": "87",
+              "gp": "1",
+              "gs": "",
+              "code": "52"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584949",
+              "name": "I. Iordanov",
+              "shortname": "I. Iordanov",
+              "checkname": "I. Iordanov",
+              "uni": "88",
+              "gp": "1",
+              "gs": "",
+              "code": "53"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584948",
+              "name": "M. Ka",
+              "shortname": "M. Ka",
+              "checkname": "M. Ka",
+              "uni": "92",
+              "gp": "1",
+              "gs": "",
+              "code": "54"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1585953",
               "name": "A. Pinheiro",
               "shortname": "A. Pinheiro",
               "checkname": "A. Pinheiro",
               "uni": "93",
-              "gp": "0",
-              "gs": "0",
-              "code": "26"
+              "gp": "1",
+              "gs": "1",
+              "code": "55"
             },
             "defense": {
               "_attributes": {
@@ -1776,14 +2693,50 @@
           },
           {
             "_attributes": {
+              "id": "1586679",
+              "name": "P. Majo",
+              "shortname": "P. Majo",
+              "checkname": "P. Majo",
+              "uni": "95",
+              "gp": "1",
+              "gs": "",
+              "code": "56"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584945",
+              "name": "R. Sanz",
+              "shortname": "R. Sanz",
+              "checkname": "R. Sanz",
+              "uni": "96",
+              "gp": "1",
+              "gs": "",
+              "code": "57"
+            }
+          },
+          {
+            "_attributes": {
+              "id": "1584944",
+              "name": "M. Gutierrez",
+              "shortname": "M. Gutierrez",
+              "checkname": "M. Gutierrez",
+              "uni": "97",
+              "gp": "1",
+              "gs": "",
+              "code": "58"
+            }
+          },
+          {
+            "_attributes": {
               "id": "1584943",
               "name": "V. Dos Santos",
               "shortname": "V. Dos Santos",
               "checkname": "V. Dos Santos",
               "uni": "98",
-              "gp": "0",
-              "gs": "0",
-              "code": "27"
+              "gp": "1",
+              "gs": "1",
+              "code": "59"
             },
             "defense": {
               "_attributes": {
@@ -1808,9 +2761,9 @@
               "shortname": "D. Lopez",
               "checkname": "D. Lopez",
               "uni": "99",
-              "gp": "0",
-              "gs": "0",
-              "code": "28"
+              "gp": "1",
+              "gs": "",
+              "code": "60"
             },
             "defense": {
               "_attributes": {
@@ -1842,9 +2795,9 @@
             "type": "TD",
             "how": "PASS",
             "scorer": "",
-            "plays": "",
-            "drive": "",
-            "top": "",
+            "plays": "7",
+            "drive": "70",
+            "top": "04:28",
             "vscore": "0",
             "hscore": "7",
             "driveindex": ""
@@ -1859,11 +2812,11 @@
             "type": "TD",
             "how": "RUSH",
             "scorer": "",
-            "plays": "",
-            "drive": "",
-            "top": "",
+            "plays": "12",
+            "drive": "91",
+            "top": "05:59",
             "vscore": "0",
-            "hscore": "13",
+            "hscore": "14",
             "driveindex": ""
           }
         },
@@ -1876,11 +2829,11 @@
             "type": "TD",
             "how": "RUSH",
             "scorer": "",
-            "plays": "",
-            "drive": "",
-            "top": "",
+            "plays": "2",
+            "drive": "32",
+            "top": "00:48",
             "vscore": "0",
-            "hscore": "19",
+            "hscore": "20",
             "driveindex": ""
           }
         },
@@ -1893,11 +2846,11 @@
             "type": "TD",
             "how": "RUSH",
             "scorer": "",
-            "plays": "",
-            "drive": "",
-            "top": "",
+            "plays": "8",
+            "drive": "63",
+            "top": "04:10",
             "vscore": "7",
-            "hscore": "19",
+            "hscore": "20",
             "driveindex": ""
           }
         },
@@ -1910,11 +2863,11 @@
             "type": "TD",
             "how": "PASS",
             "scorer": "",
-            "plays": "",
-            "drive": "",
-            "top": "",
+            "plays": "10",
+            "drive": "66",
+            "top": "02:47",
             "vscore": "14",
-            "hscore": "19",
+            "hscore": "20",
             "driveindex": ""
           }
         },
@@ -1927,11 +2880,11 @@
             "type": "FG",
             "how": "",
             "scorer": "",
-            "plays": "",
-            "drive": "",
-            "top": "",
+            "plays": "8",
+            "drive": "55",
+            "top": "01:11",
             "vscore": "14",
-            "hscore": "22",
+            "hscore": "23",
             "driveindex": ""
           }
         },
@@ -1944,11 +2897,11 @@
             "type": "TD",
             "how": "RUSH",
             "scorer": "",
-            "plays": "",
-            "drive": "",
-            "top": "",
+            "plays": "6",
+            "drive": "58",
+            "top": "00:38",
             "vscore": "20",
-            "hscore": "22",
+            "hscore": "23",
             "driveindex": ""
           }
         },
@@ -1961,11 +2914,11 @@
             "type": "TD",
             "how": "RUSH",
             "scorer": "",
-            "plays": "",
-            "drive": "",
-            "top": "",
+            "plays": "7",
+            "drive": "76",
+            "top": "04:40",
             "vscore": "20",
-            "hscore": "30",
+            "hscore": "31",
             "driveindex": ""
           }
         },
@@ -1978,11 +2931,11 @@
             "type": "TD",
             "how": "RUSH",
             "scorer": "",
-            "plays": "",
-            "drive": "",
-            "top": "",
+            "plays": "3",
+            "drive": "74",
+            "top": "01:12",
             "vscore": "20",
-            "hscore": "37",
+            "hscore": "38",
             "driveindex": ""
           }
         },
@@ -1995,11 +2948,11 @@
             "type": "TD",
             "how": "RUSH",
             "scorer": "",
-            "plays": "",
-            "drive": "",
-            "top": "",
+            "plays": "3",
+            "drive": "12",
+            "top": "01:29",
             "vscore": "20",
-            "hscore": "44",
+            "hscore": "45",
             "driveindex": ""
           }
         },
@@ -2012,11 +2965,11 @@
             "type": "TD",
             "how": "PASS",
             "scorer": "",
-            "plays": "",
-            "drive": "",
-            "top": "",
+            "plays": "4",
+            "drive": "84",
+            "top": "01:50",
             "vscore": "28",
-            "hscore": "44",
+            "hscore": "45",
             "driveindex": ""
           }
         },
@@ -2029,11 +2982,11 @@
             "type": "TD",
             "how": "PASS",
             "scorer": "",
-            "plays": "",
-            "drive": "",
-            "top": "",
+            "plays": "11",
+            "drive": "70",
+            "top": "06:09",
             "vscore": "28",
-            "hscore": "51",
+            "hscore": "52",
             "driveindex": ""
           }
         },
@@ -2050,7 +3003,7 @@
             "drive": "",
             "top": "",
             "vscore": "28",
-            "hscore": "53",
+            "hscore": "54",
             "driveindex": ""
           }
         }
@@ -2231,7 +3184,7 @@
             "start_qtr": "2",
             "start_time": "08:17",
             "start_spot": "MAD 30",
-            "end_how": "",
+            "end_how": "DOWNS",
             "end_qtr": "2",
             "end_time": "04:36",
             "end_spot": "RAI 5",
@@ -2883,8 +3836,23 @@
                 "togo": "10",
                 "spot": "RAI37",
                 "playid": "3,7,24",
+                "tokens": "PASS",
+                "text": "Reid Sinnett incomplete pass to the left intended for Jordi Torrededia.",
+                "score": "N",
+                "vscore": "0",
+                "hscore": "7",
+                "clock": "5:25"
+              }
+            },
+            {
+              "_attributes": {
+                "hasball": "MAD",
+                "down": "3",
+                "togo": "10",
+                "spot": "RAI37",
+                "playid": "3,8,25",
                 "tokens": "PEN",
-                "text": "Reid Sinnett incomplete pass to the left intended for Jordi Torrededia. Penalty: Holding on Bravos (David Culebras) -10 yards.",
+                "text": "Penalty: Holding on Bravos (David Culebras) -10 yards.",
                 "score": "N",
                 "vscore": "0",
                 "hscore": "7",
@@ -2897,7 +3865,7 @@
                 "down": "3",
                 "togo": "20",
                 "spot": "RAI47",
-                "playid": "3,8,25",
+                "playid": "3,9,26",
                 "tokens": "RUSH",
                 "text": "Reid Sinnett rush to the left for 16 yards to the RAI31. Tackled by Dijion Walls.",
                 "score": "N",
@@ -2912,7 +3880,7 @@
                 "down": "4",
                 "togo": "4",
                 "spot": "RAI31",
-                "playid": "3,9,26",
+                "playid": "3,10,27",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the right to Justus Seelig for 19 yards to the RAI12. Tackled by Vincent Mueller.",
                 "score": "N",
@@ -2927,7 +3895,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI12",
-                "playid": "3,10,27",
+                "playid": "3,11,28",
                 "tokens": "RUSH",
                 "text": "Justus Seelig rush to the middle for 2 yards to the RAI10. Tackled by Tim Unger and Aaron Maddox.",
                 "score": "N",
@@ -2942,7 +3910,7 @@
                 "down": "2",
                 "togo": "8",
                 "spot": "RAI10",
-                "playid": "3,11,28",
+                "playid": "3,12,29",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the right to Justus Seelig for 1 yard to the RAI9. Tackled by Dijion Walls.",
                 "score": "N",
@@ -2957,7 +3925,7 @@
                 "down": "3",
                 "togo": "7",
                 "spot": "RAI9",
-                "playid": "3,12,29",
+                "playid": "3,13,30",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the right to Justus Seelig for 9 yards for a TOUCHDOWN.",
                 "score": "Y",
@@ -2972,7 +3940,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "RAI15",
-                "playid": "3,13,30",
+                "playid": "3,14,31",
                 "tokens": "FUMBLE",
                 "text": "Alvaro Penas extra point is GOOD. FUMBLE, recovered by MAD (Ignacio Diz).",
                 "score": "Y",
@@ -2987,7 +3955,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI32",
-                "playid": "4,1,31",
+                "playid": "4,1,32",
                 "tokens": "RUSH",
                 "text": "Justus Seelig rush to the right for 6 yards to the RAI26. Tackled by Tiberio Calbucci and Aaron Maddox.",
                 "score": "N",
@@ -3002,7 +3970,7 @@
                 "down": "2",
                 "togo": "4",
                 "spot": "RAI26",
-                "playid": "4,2,32",
+                "playid": "4,2,33",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the right to Juan Flores-Calderon for 26 yards for a TOUCHDOWN.",
                 "score": "Y",
@@ -3017,7 +3985,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "RAI15",
-                "playid": "4,3,33",
+                "playid": "4,3,34",
                 "tokens": "PAT",
                 "text": "Alvaro Penas extra point is NO GOOD.",
                 "score": "N",
@@ -3032,7 +4000,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "MAD35",
-                "playid": "4,4,34",
+                "playid": "4,4,35",
                 "tokens": "KO",
                 "text": "Antonio Sarria kicks off to the RAI8. Aaron Maddox return for 39 yards to RAI47. Tackled by Eduardo Perez.",
                 "score": "N",
@@ -3047,7 +4015,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI47",
-                "playid": "5,1,35",
+                "playid": "5,1,36",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the middle for 13 yards to the MAD40. Tackled by Pablo de Diego and Victor Dos Santos.",
                 "score": "N",
@@ -3062,7 +4030,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD40",
-                "playid": "5,2,36",
+                "playid": "5,2,37",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the right for 1 yard to the MAD39. Tackled by Pablo de Diego.",
                 "score": "N",
@@ -3079,7 +4047,7 @@
                 "vh": "H",
                 "spot": "MAD30",
                 "clock": "15:00",
-                "driveindex": "0"
+                "driveindex": "1,1"
               }
             },
             {
@@ -3088,7 +4056,7 @@
                 "vh": "V",
                 "spot": "RAI13",
                 "clock": "10:27",
-                "driveindex": "1"
+                "driveindex": "2,10"
               }
             },
             {
@@ -3097,7 +4065,7 @@
                 "vh": "H",
                 "spot": "MAD19",
                 "clock": "7:59",
-                "driveindex": "2"
+                "driveindex": "3,17"
               }
             },
             {
@@ -3106,7 +4074,7 @@
                 "vh": "V",
                 "spot": "RAI47",
                 "clock": "1:00",
-                "driveindex": "4"
+                "driveindex": "5,35"
               }
             }
           ],
@@ -3160,7 +4128,7 @@
                 "down": "2",
                 "togo": "10",
                 "spot": "MAD40",
-                "playid": "5,3,37",
+                "playid": "5,3,38",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry pass to the middle to JaCorey Sullivan for no gain to the MAD40. Tackled by Alexandre Gonzalez.",
                 "score": "N",
@@ -3175,7 +4143,7 @@
                 "down": "3",
                 "togo": "10",
                 "spot": "MAD40",
-                "playid": "5,4,38",
+                "playid": "5,4,39",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the right intended for Philipp Haun.",
                 "score": "N",
@@ -3190,7 +4158,7 @@
                 "down": "4",
                 "togo": "10",
                 "spot": "MAD40",
-                "playid": "5,5,39",
+                "playid": "5,5,40",
                 "tokens": "PUNT",
                 "text": "Felix Reitter punts for 34 yards to MAD6. No return.",
                 "score": "N",
@@ -3205,7 +4173,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD6",
-                "playid": "6,1,40",
+                "playid": "6,1,41",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the middle to Aron Cruickshank for 18 yards to the MAD24. Tackled by Jan Mayerhofer.",
                 "score": "N",
@@ -3220,7 +4188,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD24",
-                "playid": "6,2,41",
+                "playid": "6,2,42",
                 "tokens": "PEN",
                 "text": "Reid Sinnett incomplete pass to the right. Penalty: Intentional Grounding on Bravos (Reid Sinnett) -13 yards.",
                 "score": "N",
@@ -3235,7 +4203,7 @@
                 "down": "2",
                 "togo": "23",
                 "spot": "MAD11",
-                "playid": "6,3,42",
+                "playid": "6,3,43",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the left to Justus Seelig for 5 yards to the MAD16. Tackled by Mato Beglarian and Aaron Maddox.",
                 "score": "N",
@@ -3250,7 +4218,7 @@
                 "down": "3",
                 "togo": "18",
                 "spot": "MAD16",
-                "playid": "6,4,43",
+                "playid": "6,4,44",
                 "tokens": "PASS",
                 "text": "Reid Sinnett incomplete pass to the left intended for Sixten Dragan.",
                 "score": "N",
@@ -3265,7 +4233,7 @@
                 "down": "4",
                 "togo": "18",
                 "spot": "MAD16",
-                "playid": "6,5,44",
+                "playid": "6,5,45",
                 "tokens": "PEN",
                 "text": "Antonio Sarria punts for 49 yards to RAI35. Dijion Walls return for 31 yards to MAD34. Tackled by Alexandre Gonzalez and Julio Aguado. Penalty: Running into Kicker on Tirol -5 yards.",
                 "score": "N",
@@ -3280,7 +4248,7 @@
                 "down": "4",
                 "togo": "13",
                 "spot": "MAD21",
-                "playid": "7,1,45",
+                "playid": "7,1,46",
                 "tokens": "PUNT",
                 "text": "Antonio Sarria punts for 58 yards to RAI21. Dijion Walls return for 16 yards to RAI37. Tackled by Sebastian Bowen.",
                 "score": "N",
@@ -3295,7 +4263,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI37",
-                "playid": "8,1,46",
+                "playid": "8,1,47",
                 "tokens": "RUSH",
                 "text": "N'Kosi Perry rush to the right for 6 yards to the RAI43. Tackled by Sebastian Bowen and Cesar Brugnani.",
                 "score": "N",
@@ -3310,7 +4278,7 @@
                 "down": "2",
                 "togo": "4",
                 "spot": "RAI43",
-                "playid": "8,2,47",
+                "playid": "8,2,48",
                 "tokens": "RUSH",
                 "text": "Jan Wiesauer rush to the right for 2 yards to the RAI45. Tackled by Daniel Lopez and Sebastian Bowen.",
                 "score": "N",
@@ -3325,7 +4293,7 @@
                 "down": "3",
                 "togo": "2",
                 "spot": "RAI45",
-                "playid": "8,3,48",
+                "playid": "8,3,49",
                 "tokens": "RUSH",
                 "text": "Jan Wiesauer rush to the right for 10 yards to the MAD45. Tackled by Javier Carrasco and Alexandre Gonzalez.",
                 "score": "N",
@@ -3340,7 +4308,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD45",
-                "playid": "8,4,49",
+                "playid": "8,4,50",
                 "tokens": "RUSH",
                 "text": "N'Kosi Perry rush to the right for 5 yards to the MAD40. Tackled by Daniel Lopez and Pablo Araya.",
                 "score": "N",
@@ -3355,7 +4323,7 @@
                 "down": "2",
                 "togo": "5",
                 "spot": "MAD40",
-                "playid": "8,5,50",
+                "playid": "8,5,51",
                 "tokens": "RUSH",
                 "text": "Tyrrell Bovelle rush to the left for 7 yards to the MAD33. Tackled by Daniel Lopez and Pablo Araya.",
                 "score": "N",
@@ -3370,7 +4338,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD33",
-                "playid": "8,6,51",
+                "playid": "8,6,52",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the right for 8 yards to the MAD25. Tackled by Pablo Araya.",
                 "score": "N",
@@ -3385,7 +4353,7 @@
                 "down": "2",
                 "togo": "2",
                 "spot": "MAD25",
-                "playid": "8,7,52",
+                "playid": "8,7,53",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the middle for 8 yards to the MAD17. Tackled by Julio Aguado and Pablo Araya.",
                 "score": "N",
@@ -3400,7 +4368,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD17",
-                "playid": "8,8,53",
+                "playid": "8,8,54",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry pass to the middle to Bruno Escobar for 17 yards for a TOUCHDOWN.",
                 "score": "Y",
@@ -3415,7 +4383,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "MAD15",
-                "playid": "8,9,54",
+                "playid": "8,9,55",
                 "tokens": "PAT",
                 "text": "Jonata Loria extra point is GOOD.",
                 "score": "Y",
@@ -3430,7 +4398,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "RAI35",
-                "playid": "8,10,55",
+                "playid": "8,10,56",
                 "tokens": "KO",
                 "text": "Jonata Loria kicks off to the endzone. Touchback.",
                 "score": "N",
@@ -3445,7 +4413,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD30",
-                "playid": "9,1,56",
+                "playid": "9,1,57",
                 "tokens": "RUSH",
                 "text": "Eduard Molina rush to the middle for 3 yards to the MAD33. Tackled by Osaruonamen Ogbevoen and Ruben Seeber.",
                 "score": "N",
@@ -3460,7 +4428,7 @@
                 "down": "2",
                 "togo": "7",
                 "spot": "MAD33",
-                "playid": "9,2,57",
+                "playid": "9,2,58",
                 "tokens": "RUSH",
                 "text": "Justus Seelig rush to the left for 2 yards to the MAD35. Tackled by Francesco Rivelli and Osaruonamen Ogbevoen.",
                 "score": "N",
@@ -3475,7 +4443,7 @@
                 "down": "3",
                 "togo": "5",
                 "spot": "MAD35",
-                "playid": "9,3,58",
+                "playid": "9,3,59",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the left to Juan Flores-Calderon for 6 yards to the MAD41. Tackled by Milan Faby.",
                 "score": "N",
@@ -3490,7 +4458,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD41",
-                "playid": "9,4,59",
+                "playid": "9,4,60",
                 "tokens": "TOUT",
                 "text": "Bravos timeout.",
                 "score": "N",
@@ -3505,7 +4473,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD41",
-                "playid": "9,5,60",
+                "playid": "9,5,61",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the left to Aron Cruickshank for 12 yards to the RAI47. Tackled by Osaruonamen Ogbevoen.",
                 "score": "N",
@@ -3520,7 +4488,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI47",
-                "playid": "9,6,61",
+                "playid": "9,6,62",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the left to Sixten Dragan for 4 yards to the RAI43. Tackled by Ruben Seeber.",
                 "score": "N",
@@ -3535,7 +4503,7 @@
                 "down": "2",
                 "togo": "6",
                 "spot": "RAI43",
-                "playid": "9,7,62",
+                "playid": "9,7,63",
                 "tokens": "PASS",
                 "text": "Reid Sinnett incomplete pass to the left intended for Justus Seelig defensed by Osaruonamen Ogbevoen.",
                 "score": "N",
@@ -3550,7 +4518,7 @@
                 "down": "3",
                 "togo": "5",
                 "spot": "RAI42",
-                "playid": "9,8,63",
+                "playid": "9,8,64",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the right to Juan Flores-Calderon for 37 yards to the RAI5. Tackled by Jonas Fuschelberger.",
                 "score": "N",
@@ -3565,7 +4533,7 @@
                 "down": "1",
                 "togo": "5",
                 "spot": "RAI5",
-                "playid": "9,9,64",
+                "playid": "9,9,65",
                 "tokens": "FUMBLE",
                 "text": "Reid Sinnett rush to the right for 4 yards to the RAI1. Tackled by Jan Mayerhofer. FUMBLE, recovered by RAI (Miche Vandekerkhof) and returned for 9 yards. Tackled by Sixten Dragan and Brendan Oswin.",
                 "score": "N",
@@ -3580,7 +4548,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI10",
-                "playid": "10,1,65",
+                "playid": "10,1,66",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the right for 6 yards to the RAI16. Tackled by Pablo Araya.",
                 "score": "N",
@@ -3595,7 +4563,7 @@
                 "down": "2",
                 "togo": "4",
                 "spot": "RAI16",
-                "playid": "10,2,66",
+                "playid": "10,2,67",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the left intended for JaCorey Sullivan.",
                 "score": "N",
@@ -3610,7 +4578,7 @@
                 "down": "3",
                 "togo": "4",
                 "spot": "RAI16",
-                "playid": "10,3,67",
+                "playid": "10,3,68",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the left for 6 yards to the RAI22. Tackled by Alexandre Gonzalez.",
                 "score": "N",
@@ -3625,7 +4593,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI22",
-                "playid": "10,4,68",
+                "playid": "10,4,69",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the right intended for JaCorey Sullivan.",
                 "score": "N",
@@ -3640,7 +4608,7 @@
                 "down": "2",
                 "togo": "10",
                 "spot": "RAI22",
-                "playid": "10,5,69",
+                "playid": "10,5,70",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the left intended for JaCorey Sullivan defensed by Alexandre Gonzalez.",
                 "score": "N",
@@ -3655,7 +4623,7 @@
                 "down": "3",
                 "togo": "10",
                 "spot": "RAI22",
-                "playid": "10,6,70",
+                "playid": "10,6,71",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry pass to the left to Lukas Haslwanter for 14 yards to the RAI36. Tackled by Pablo de Diego.",
                 "score": "N",
@@ -3670,7 +4638,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI36",
-                "playid": "10,7,71",
+                "playid": "10,7,72",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the right for 28 yards to the MAD36. Tackled by Pablo de Diego and Julio Aguado.",
                 "score": "N",
@@ -3685,7 +4653,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD36",
-                "playid": "10,8,72",
+                "playid": "10,8,73",
                 "tokens": "RUSH",
                 "text": "Jan Wiesauer rush to the left for 4 yards to the MAD32. Tackled by Sebastian Bowen and Daniel Lopez.",
                 "score": "N",
@@ -3700,9 +4668,24 @@
                 "down": "2",
                 "togo": "6",
                 "spot": "MAD32",
-                "playid": "10,9,73",
+                "playid": "10,9,74",
+                "tokens": "TOUT",
+                "text": "Two Minute Warning.",
+                "score": "N",
+                "vscore": "7",
+                "hscore": "20",
+                "clock": "2:00"
+              }
+            },
+            {
+              "_attributes": {
+                "hasball": "RAI",
+                "down": "2",
+                "togo": "6",
+                "spot": "MAD32",
+                "playid": "10,10,75",
                 "tokens": "PEN",
-                "text": "Two Minute Warning. Penalty: Pass Interference on Bravos (Andy Vera) 24 yards.",
+                "text": "Penalty: Pass Interference on Bravos (Andy Vera) 24 yards.",
                 "score": "N",
                 "vscore": "7",
                 "hscore": "20",
@@ -3715,7 +4698,7 @@
                 "down": "1",
                 "togo": "8",
                 "spot": "MAD8",
-                "playid": "10,10,74",
+                "playid": "10,11,76",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the left for 3 yards to the MAD5. Tackled by Pablo Araya.",
                 "score": "N",
@@ -3730,7 +4713,7 @@
                 "down": "2",
                 "togo": "5",
                 "spot": "MAD5",
-                "playid": "10,11,75",
+                "playid": "10,12,77",
                 "tokens": "TOUT",
                 "text": "Bravos timeout.",
                 "score": "N",
@@ -3745,7 +4728,7 @@
                 "down": "2",
                 "togo": "3",
                 "spot": "MAD3",
-                "playid": "10,12,76",
+                "playid": "10,13,78",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the left for 3 yards for a TOUCHDOWN.",
                 "score": "Y",
@@ -3760,7 +4743,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "MAD15",
-                "playid": "10,13,77",
+                "playid": "10,14,79",
                 "tokens": "PAT",
                 "text": "Jonata Loria extra point is GOOD.",
                 "score": "Y",
@@ -3775,7 +4758,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "RAI35",
-                "playid": "10,14,78",
+                "playid": "10,15,80",
                 "tokens": "KO",
                 "text": "Jonata Loria kicks off to the endzone. Touchback.",
                 "score": "N",
@@ -3790,7 +4773,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD30",
-                "playid": "11,1,79",
+                "playid": "11,1,81",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the middle to Jordi Torrededia for 27 yards to the RAI43. Tackled by Paul Kriener.",
                 "score": "N",
@@ -3805,7 +4788,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI43",
-                "playid": "11,2,80",
+                "playid": "11,2,82",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the right to Juan Flores-Calderon for 6 yards to the RAI37. Tackled by Mato Beglarian.",
                 "score": "N",
@@ -3820,7 +4803,7 @@
                 "down": "2",
                 "togo": "4",
                 "spot": "RAI37",
-                "playid": "11,3,81",
+                "playid": "11,3,83",
                 "tokens": "PASS",
                 "text": "Reid Sinnett incomplete pass to the right intended for Sixten Dragan.",
                 "score": "N",
@@ -3835,7 +4818,7 @@
                 "down": "3",
                 "togo": "4",
                 "spot": "RAI37",
-                "playid": "11,4,82",
+                "playid": "11,4,84",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the right to Justus Seelig for 22 yards to the RAI15. Tackled by Mato Beglarian.",
                 "score": "N",
@@ -3850,7 +4833,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI15",
-                "playid": "11,5,83",
+                "playid": "11,5,85",
                 "tokens": "PASS",
                 "text": "Reid Sinnett incomplete pass to the middle intended for Sixten Dragan.",
                 "score": "N",
@@ -3865,7 +4848,7 @@
                 "down": "2",
                 "togo": "10",
                 "spot": "RAI15",
-                "playid": "11,6,84",
+                "playid": "11,6,86",
                 "tokens": "PASS",
                 "text": "Reid Sinnett incomplete pass to the right intended for Juan Flores-Calderon defensed by Lukas Kalkhofer.",
                 "score": "N",
@@ -3880,7 +4863,7 @@
                 "down": "3",
                 "togo": "10",
                 "spot": "RAI15",
-                "playid": "11,7,85",
+                "playid": "11,7,87",
                 "tokens": "PASS",
                 "text": "Reid Sinnett incomplete pass to the left intended for Aron Cruickshank.",
                 "score": "N",
@@ -3895,9 +4878,9 @@
                 "down": "4",
                 "togo": "10",
                 "spot": "RAI15",
-                "playid": "11,8,86",
+                "playid": "11,8,88",
                 "tokens": "FGA",
-                "text": "Alvaro Penas 33 yard field goal attempt is GOOD. Holder: Antonio Sarria.",
+                "text": "Alvaro Penas 33 yard field goal attempt is GOOD.",
                 "score": "Y",
                 "vscore": "14",
                 "hscore": "23",
@@ -3910,7 +4893,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "MAD35",
-                "playid": "11,9,87",
+                "playid": "11,9,89",
                 "tokens": "KO",
                 "text": "Antonio Sarria kicks off to the RAI4. Aaron Maddox return for 38 yards to RAI42. Tackled by Eduard Molina.",
                 "score": "N",
@@ -3925,7 +4908,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI42",
-                "playid": "12,1,88",
+                "playid": "12,1,90",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the right for 3 yards to the RAI45. Tackled by Andy Vera and Javier Carrasco.",
                 "score": "N",
@@ -3940,7 +4923,7 @@
                 "down": "2",
                 "togo": "7",
                 "spot": "RAI45",
-                "playid": "12,2,89",
+                "playid": "12,2,91",
                 "tokens": "TOUT",
                 "text": "Bravos timeout.",
                 "score": "N",
@@ -3955,7 +4938,7 @@
                 "down": "2",
                 "togo": "7",
                 "spot": "RAI45",
-                "playid": "12,3,90",
+                "playid": "12,3,92",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry pass to the right to Markus Schaberl for 35 yards to the MAD20. Tackled by Andy Vera.",
                 "score": "N",
@@ -3970,7 +4953,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD20",
-                "playid": "12,4,91",
+                "playid": "12,4,93",
                 "tokens": "TOUT",
                 "text": "Tirol timeout.",
                 "score": "N",
@@ -3985,7 +4968,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD20",
-                "playid": "12,5,92",
+                "playid": "12,5,94",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the middle intended for Bruno Escobar.",
                 "score": "N",
@@ -4000,7 +4983,7 @@
                 "down": "2",
                 "togo": "10",
                 "spot": "MAD20",
-                "playid": "12,6,93",
+                "playid": "12,6,95",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the left intended for Adrian Platzgummer.",
                 "score": "N",
@@ -4015,7 +4998,7 @@
                 "down": "3",
                 "togo": "10",
                 "spot": "MAD20",
-                "playid": "12,7,94",
+                "playid": "12,7,96",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry pass to the middle to Bruno Escobar for 15 yards to the MAD5. Tackled by Julio Aguado.",
                 "score": "N",
@@ -4030,7 +5013,7 @@
                 "down": "1",
                 "togo": "5",
                 "spot": "MAD5",
-                "playid": "12,8,95",
+                "playid": "12,8,97",
                 "tokens": "TOUT",
                 "text": "Tirol timeout.",
                 "score": "N",
@@ -4045,7 +5028,7 @@
                 "down": "1",
                 "togo": "5",
                 "spot": "MAD5",
-                "playid": "12,9,96",
+                "playid": "12,9,98",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry pass to the right to JaCorey Sullivan for 5 yards for a TOUCHDOWN.",
                 "score": "Y",
@@ -4060,7 +5043,7 @@
                 "down": "0",
                 "togo": "15",
                 "spot": "MAD15",
-                "playid": "12,10,97",
+                "playid": "12,10,99",
                 "tokens": "XPB",
                 "text": "Jonata Loria extra point Is BLOCKED.",
                 "score": "N",
@@ -4077,7 +5060,7 @@
                 "vh": "H",
                 "spot": "MAD6",
                 "clock": "14:25",
-                "driveindex": "5"
+                "driveindex": "6,40"
               }
             },
             {
@@ -4086,7 +5069,7 @@
                 "vh": "V",
                 "spot": "RAI37",
                 "clock": "12:27",
-                "driveindex": "7"
+                "driveindex": "8,46"
               }
             },
             {
@@ -4095,7 +5078,7 @@
                 "vh": "H",
                 "spot": "MAD30",
                 "clock": "8:17",
-                "driveindex": "8"
+                "driveindex": "9,56"
               }
             },
             {
@@ -4104,7 +5087,7 @@
                 "vh": "V",
                 "spot": "RAI10",
                 "clock": "4:36",
-                "driveindex": "9"
+                "driveindex": "10,65"
               }
             },
             {
@@ -4113,7 +5096,7 @@
                 "vh": "H",
                 "spot": "MAD30",
                 "clock": "1:49",
-                "driveindex": "10"
+                "driveindex": "11,80"
               }
             },
             {
@@ -4122,7 +5105,7 @@
                 "vh": "V",
                 "spot": "RAI42",
                 "clock": "0:32",
-                "driveindex": "11"
+                "driveindex": "12,89"
               }
             }
           ],
@@ -4183,7 +5166,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "MAD35",
-                "playid": "12,11,98",
+                "playid": "12,11,100",
                 "tokens": "KO",
                 "text": "Antonio Sarria kicks off to the endzone. Touchback.",
                 "score": "N",
@@ -4198,7 +5181,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI30",
-                "playid": "13,1,99",
+                "playid": "13,1,101",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the middle for 7 yards to the RAI37. Tackled by Pablo Araya.",
                 "score": "N",
@@ -4213,7 +5196,7 @@
                 "down": "2",
                 "togo": "3",
                 "spot": "RAI37",
-                "playid": "13,2,100",
+                "playid": "13,2,102",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the left for 3 yards to the RAI40. Tackled by Alexandre Gonzalez.",
                 "score": "N",
@@ -4228,7 +5211,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI40",
-                "playid": "13,3,101",
+                "playid": "13,3,103",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry pass to the right to Philipp Haun for 10 yards to the RAI50. Tackled by Andy Vera.",
                 "score": "N",
@@ -4243,7 +5226,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI50",
-                "playid": "13,4,102",
+                "playid": "13,4,104",
                 "tokens": "RUSH",
                 "text": "Jan Wiesauer rush to the left for 4 yards to the MAD46. Tackled by Alexandre Gonzalez and Jorge Hernandez.",
                 "score": "N",
@@ -4258,7 +5241,7 @@
                 "down": "2",
                 "togo": "6",
                 "spot": "MAD46",
-                "playid": "13,5,103",
+                "playid": "13,5,105",
                 "tokens": "RUSH",
                 "text": "Tyrrell Bovelle rush to the middle for 2 yards to the MAD44. Tackled by Artur Pinheiro and Victor Dos Santos.",
                 "score": "N",
@@ -4273,7 +5256,7 @@
                 "down": "3",
                 "togo": "4",
                 "spot": "MAD44",
-                "playid": "13,6,104",
+                "playid": "13,6,106",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the left for 6 yards to the MAD38. Tackled by Javier Carrasco.",
                 "score": "N",
@@ -4288,7 +5271,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD38",
-                "playid": "13,7,105",
+                "playid": "13,7,107",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the left for 4 yards to the MAD34. Tackled by Michael Witherspoon.",
                 "score": "N",
@@ -4303,7 +5286,7 @@
                 "down": "2",
                 "togo": "6",
                 "spot": "MAD34",
-                "playid": "13,8,106",
+                "playid": "13,8,108",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the right intended for Benni Radauer.",
                 "score": "N",
@@ -4318,7 +5301,7 @@
                 "down": "3",
                 "togo": "6",
                 "spot": "MAD34",
-                "playid": "13,9,107",
+                "playid": "13,9,109",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the right intended for Jan Wiesauer.",
                 "score": "N",
@@ -4333,9 +5316,24 @@
                 "down": "4",
                 "togo": "6",
                 "spot": "MAD34",
-                "playid": "13,10,108",
+                "playid": "13,10,110",
+                "tokens": "PASS",
+                "text": "N'Kosi Perry incomplete pass to the left intended for Benni Radauer.",
+                "score": "N",
+                "vscore": "20",
+                "hscore": "23",
+                "clock": "10:56"
+              }
+            },
+            {
+              "_attributes": {
+                "hasball": "MAD",
+                "down": "1",
+                "togo": "10",
+                "spot": "MAD34",
+                "playid": "14,1,111",
                 "tokens": "PEN",
-                "text": "N'Kosi Perry incomplete pass to the left intended for Benni Radauer. Penalty: Illegal Formation on Bravos -5 yards.",
+                "text": "Penalty: Illegal Formation on Bravos -5 yards.",
                 "score": "N",
                 "vscore": "20",
                 "hscore": "23",
@@ -4348,7 +5346,7 @@
                 "down": "1",
                 "togo": "15",
                 "spot": "MAD29",
-                "playid": "14,1,109",
+                "playid": "14,2,112",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the middle to Aron Cruickshank for 19 yards to the MAD48. Tackled by Dijion Walls.",
                 "score": "N",
@@ -4363,7 +5361,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD48",
-                "playid": "14,2,110",
+                "playid": "14,3,113",
                 "tokens": "RUSH",
                 "text": "Justus Seelig rush to the right for 21 yards to the RAI31. Tackled by Paul Kriener.",
                 "score": "N",
@@ -4378,7 +5376,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI31",
-                "playid": "14,3,111",
+                "playid": "14,4,114",
                 "tokens": "RUSH",
                 "text": "Eduard Molina rush to the right for 9 yards to the RAI22. Tackled by Dobpson Hopson and Aaron Maddox.",
                 "score": "N",
@@ -4393,7 +5391,7 @@
                 "down": "2",
                 "togo": "1",
                 "spot": "RAI22",
-                "playid": "14,4,112",
+                "playid": "14,5,115",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the middle to Aron Cruickshank for 5 yards to the RAI17. Tackled by Philipp Loeffelberger and Aaron Maddox.",
                 "score": "N",
@@ -4408,9 +5406,24 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI17",
-                "playid": "14,5,113",
+                "playid": "14,6,116",
+                "tokens": "RUSH",
+                "text": "Justus Seelig rush to the left for 8 yards to the RAI9. Tackled by Jan Mayerhofer and Mato Beglarian.",
+                "score": "N",
+                "vscore": "20",
+                "hscore": "23",
+                "clock": "7:47"
+              }
+            },
+            {
+              "_attributes": {
+                "hasball": "MAD",
+                "down": "2",
+                "togo": "2",
+                "spot": "RAI9",
+                "playid": "14,7,117",
                 "tokens": "PEN",
-                "text": "Justus Seelig rush to the left for 8 yards to the RAI9. Tackled by Jan Mayerhofer and Mato Beglarian. Penalty: Illegal Formation on Bravos -5 yards.",
+                "text": "Penalty: Illegal Formation on Bravos -5 yards.",
                 "score": "N",
                 "vscore": "20",
                 "hscore": "23",
@@ -4423,7 +5436,7 @@
                 "down": "2",
                 "togo": "7",
                 "spot": "RAI14",
-                "playid": "14,6,114",
+                "playid": "14,8,118",
                 "tokens": "RUSH",
                 "text": "Eduard Molina rush to the left for no gain to the RAI14. Tackled by Dobpson Hopson.",
                 "score": "N",
@@ -4438,10 +5451,25 @@
                 "down": "3",
                 "togo": "7",
                 "spot": "RAI14",
-                "playid": "14,7,115",
-                "tokens": "PEN",
-                "text": "Reid Sinnett pass to the middle to Justus Seelig for 14 yards for a TOUCHDOWN. Penalty: Offside on Tirol (Dijion Walls) 1 yard.",
+                "playid": "14,9,119",
+                "tokens": "PASS",
+                "text": "Reid Sinnett pass to the middle to Justus Seelig for 14 yards for a TOUCHDOWN.",
                 "score": "Y",
+                "vscore": "20",
+                "hscore": "29",
+                "clock": "6:16"
+              }
+            },
+            {
+              "_attributes": {
+                "hasball": "MAD",
+                "down": "0",
+                "togo": "0",
+                "spot": "RAI15",
+                "playid": "14,10,120",
+                "tokens": "PEN",
+                "text": "Penalty: Offside on Tirol (Dijion Walls) 1 yard.",
+                "score": "N",
                 "vscore": "20",
                 "hscore": "29",
                 "clock": "6:12"
@@ -4453,7 +5481,7 @@
                 "down": "0",
                 "togo": "2",
                 "spot": "RAI2",
-                "playid": "14,8,116",
+                "playid": "14,11,121",
                 "tokens": "2P",
                 "text": "Reid Sinnett 2 pt conversion pass to Justus Seelig is GOOD.",
                 "score": "Y",
@@ -4468,7 +5496,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "MAD35",
-                "playid": "14,9,117",
+                "playid": "14,12,122",
                 "tokens": "KO",
                 "text": "Antonio Sarria kicks off to the RAI-8. Dijion Walls return for 48 yards to RAI40. Tackled by Julio Aguado.",
                 "score": "N",
@@ -4483,7 +5511,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI40",
-                "playid": "15,1,118",
+                "playid": "15,1,123",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the right for 1 yard to the RAI41. Tackled by Javier Carrasco.",
                 "score": "N",
@@ -4498,7 +5526,7 @@
                 "down": "2",
                 "togo": "9",
                 "spot": "RAI41",
-                "playid": "15,2,119",
+                "playid": "15,2,124",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the left intended for JaCorey Sullivan defensed by Victor Dos Santos.",
                 "score": "N",
@@ -4513,7 +5541,7 @@
                 "down": "3",
                 "togo": "9",
                 "spot": "RAI41",
-                "playid": "15,3,120",
+                "playid": "15,3,125",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the right intended for Lukas Haslwanter.",
                 "score": "N",
@@ -4528,7 +5556,7 @@
                 "down": "4",
                 "togo": "9",
                 "spot": "RAI41",
-                "playid": "15,4,121",
+                "playid": "15,4,126",
                 "tokens": "PUNT",
                 "text": "Felix Reitter punts for 33 yards to MAD26. No return.",
                 "score": "N",
@@ -4543,7 +5571,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD26",
-                "playid": "16,1,122",
+                "playid": "16,1,127",
                 "tokens": "RUSH",
                 "text": "Justus Seelig rush to the right for 14 yards to the MAD40. Tackled by Mato Beglarian and Jan Mayerhofer.",
                 "score": "N",
@@ -4558,7 +5586,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD40",
-                "playid": "16,2,123",
+                "playid": "16,2,128",
                 "tokens": "RUSH",
                 "text": "Justus Seelig rush to the left for 8 yards to the MAD48. Tackled by Ruben Seeber and Aaron Maddox.",
                 "score": "N",
@@ -4573,7 +5601,7 @@
                 "down": "2",
                 "togo": "1",
                 "spot": "MAD49",
-                "playid": "16,3,124",
+                "playid": "16,3,129",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the left to Raul Cernuda for 51 yards for a TOUCHDOWN.",
                 "score": "Y",
@@ -4588,7 +5616,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "RAI15",
-                "playid": "16,4,125",
+                "playid": "16,4,130",
                 "tokens": "PEN",
                 "text": "Penalty: Taunting on Bravos (Reid Sinnett) -15 yards.",
                 "score": "N",
@@ -4603,7 +5631,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "RAI30",
-                "playid": "16,5,126",
+                "playid": "16,5,131",
                 "tokens": "PAT",
                 "text": "Alvaro Penas extra point is GOOD.",
                 "score": "Y",
@@ -4618,7 +5646,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "MAD35",
-                "playid": "16,6,127",
+                "playid": "16,6,132",
                 "tokens": "KO",
                 "text": "Antonio Sarria kicks off to the RAI8. Aaron Maddox return for 22 yards to RAI30. Tackled by Ignacio Diz and Jorge Melero.",
                 "score": "N",
@@ -4633,7 +5661,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI30",
-                "playid": "17,1,128",
+                "playid": "17,1,133",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the left intended for JaCorey Sullivan defensed by Michael Witherspoon.",
                 "score": "N",
@@ -4648,7 +5676,7 @@
                 "down": "2",
                 "togo": "10",
                 "spot": "RAI30",
-                "playid": "17,2,129",
+                "playid": "17,2,134",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry pass to the right to JaCorey Sullivan for 3 yards to the RAI33. Tackled by Michael Witherspoon and Pablo Araya.",
                 "score": "N",
@@ -4663,7 +5691,7 @@
                 "down": "3",
                 "togo": "7",
                 "spot": "RAI33",
-                "playid": "17,3,130",
+                "playid": "17,3,135",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the right intended for Adrian Platzgummer.",
                 "score": "N",
@@ -4678,7 +5706,7 @@
                 "down": "4",
                 "togo": "7",
                 "spot": "RAI33",
-                "playid": "17,4,131",
+                "playid": "17,4,136",
                 "tokens": "FUMBLE",
                 "text": "Felix Reitter rush for no gain to the RAI33. FUMBLE, recovered by RAI (Felix Reitter).",
                 "score": "N",
@@ -4693,7 +5721,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI12",
-                "playid": "18,1,132",
+                "playid": "18,1,137",
                 "tokens": "RUSH",
                 "text": "Justus Seelig rush to the left for 9 yards to the RAI3. Tackled by Armin Husarevic and Aaron Maddox.",
                 "score": "N",
@@ -4708,7 +5736,7 @@
                 "down": "2",
                 "togo": "3",
                 "spot": "RAI3",
-                "playid": "18,2,133",
+                "playid": "18,2,138",
                 "tokens": "RUSH",
                 "text": "Justus Seelig rush to the right for 1 yard to the RAI2. Tackled by Osaruonamen Ogbevoen.",
                 "score": "N",
@@ -4723,7 +5751,7 @@
                 "down": "1",
                 "togo": "2",
                 "spot": "RAI2",
-                "playid": "18,3,134",
+                "playid": "18,3,139",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the right to Aron Cruickshank for 2 yards for a TOUCHDOWN.",
                 "score": "Y",
@@ -4738,7 +5766,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "RAI15",
-                "playid": "18,4,135",
+                "playid": "18,4,140",
                 "tokens": "PAT",
                 "text": "Alvaro Penas extra point is GOOD.",
                 "score": "Y",
@@ -4753,7 +5781,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "MAD35",
-                "playid": "19,1,136",
+                "playid": "19,1,141",
                 "tokens": "PEN",
                 "text": "Antonio Sarria kicks off to the RAI-6. Aaron Maddox return for 32 yards to RAI26. Tackled by Guillermo Fernandez and Jorge Hernandez. Penalty: Holding on Tirol (Tiberio Calbucci) -10 yards.",
                 "score": "N",
@@ -4768,7 +5796,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI16",
-                "playid": "19,1,137",
+                "playid": "19,1,142",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the right for 15 yards to the RAI31. Tackled by Pablo Araya.",
                 "score": "N",
@@ -4783,7 +5811,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI31",
-                "playid": "19,2,138",
+                "playid": "19,2,143",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry pass to the left to Bruno Escobar for 24 yards to the MAD45. Tackled by Andy Vera.",
                 "score": "N",
@@ -4798,7 +5826,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD45",
-                "playid": "19,3,139",
+                "playid": "19,3,144",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry pass to the right to Philipp Haun for 34 yards to the MAD11. Tackled by Andy Vera.",
                 "score": "N",
@@ -4815,16 +5843,16 @@
                 "vh": "V",
                 "spot": "RAI30",
                 "clock": "15:00",
-                "driveindex": "12"
+                "driveindex": "13,100"
               }
             },
             {
               "_attributes": {
                 "poss": "",
                 "vh": "H",
-                "spot": "MAD29",
-                "clock": "10:45",
-                "driveindex": "13"
+                "spot": "MAD34",
+                "clock": "10:52",
+                "driveindex": "14,110"
               }
             },
             {
@@ -4833,7 +5861,7 @@
                 "vh": "V",
                 "spot": "RAI40",
                 "clock": "6:12",
-                "driveindex": "14"
+                "driveindex": "15,122"
               }
             },
             {
@@ -4842,7 +5870,7 @@
                 "vh": "H",
                 "spot": "MAD26",
                 "clock": "5:24",
-                "driveindex": "15"
+                "driveindex": "16,126"
               }
             },
             {
@@ -4851,7 +5879,7 @@
                 "vh": "V",
                 "spot": "RAI30",
                 "clock": "4:06",
-                "driveindex": "16"
+                "driveindex": "17,132"
               }
             },
             {
@@ -4860,7 +5888,7 @@
                 "vh": "H",
                 "spot": "RAI12",
                 "clock": "3:13",
-                "driveindex": "17"
+                "driveindex": "18,136"
               }
             },
             {
@@ -4869,7 +5897,7 @@
                 "vh": "V",
                 "spot": "RAI16",
                 "clock": "1:38",
-                "driveindex": "18"
+                "driveindex": "19,141"
               }
             }
           ],
@@ -4930,7 +5958,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD11",
-                "playid": "19,4,140",
+                "playid": "19,4,145",
                 "tokens": "RUSH",
                 "text": "N'Kosi Perry rush to the middle for 11 yards for a TOUCHDOWN.",
                 "score": "Y",
@@ -4945,7 +5973,7 @@
                 "down": "0",
                 "togo": "15",
                 "spot": "MAD2",
-                "playid": "19,5,141",
+                "playid": "19,5,146",
                 "tokens": "PEN",
                 "text": "Penalty: False Start on Tirol (Oscar Stroemstedt) -5 yards.",
                 "score": "N",
@@ -4960,7 +5988,7 @@
                 "down": "0",
                 "togo": "7",
                 "spot": "MAD7",
-                "playid": "19,6,142",
+                "playid": "19,6,147",
                 "tokens": "2P",
                 "text": "N'Kosi Perry 2 pt conversion pass to JaCorey Sullivan is GOOD.",
                 "score": "Y",
@@ -4975,7 +6003,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "RAI35",
-                "playid": "19,7,143",
+                "playid": "19,7,148",
                 "tokens": "KO",
                 "text": "Jonata Loria kicks off to the endzone. Touchback.",
                 "score": "N",
@@ -4990,7 +6018,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD30",
-                "playid": "20,1,144",
+                "playid": "20,1,149",
                 "tokens": "PASS",
                 "text": "Reid Sinnett incomplete pass to the left intended for Aron Cruickshank defensed by Dijion Walls.",
                 "score": "N",
@@ -5005,7 +6033,7 @@
                 "down": "2",
                 "togo": "10",
                 "spot": "MAD30",
-                "playid": "20,2,145",
+                "playid": "20,2,150",
                 "tokens": "RUSH",
                 "text": "Reid Sinnett rush to the right for 10 yards to the MAD40. Tackled by Paul Kriener.",
                 "score": "N",
@@ -5020,7 +6048,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD40",
-                "playid": "20,3,146",
+                "playid": "20,3,151",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the middle to Aron Cruickshank for 16 yards to the RAI44. Tackled by Mato Beglarian and Jonas Fuschelberger.",
                 "score": "N",
@@ -5035,7 +6063,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI44",
-                "playid": "20,4,147",
+                "playid": "20,4,152",
                 "tokens": "FUMBLE",
                 "text": "Justus Seelig rush for no gain to the RAI44. FUMBLE, recovered by MAD (Reid Sinnett).",
                 "score": "N",
@@ -5050,7 +6078,7 @@
                 "down": "2",
                 "togo": "14",
                 "spot": "RAI48",
-                "playid": "20,5,148",
+                "playid": "20,5,153",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the left to Justus Seelig for 11 yards to the RAI37. Tackled by Francesco Rivelli and Jan Mayerhofer.",
                 "score": "N",
@@ -5065,7 +6093,7 @@
                 "down": "3",
                 "togo": "3",
                 "spot": "RAI37",
-                "playid": "20,6,149",
+                "playid": "20,6,154",
                 "tokens": "PASS",
                 "text": "Reid Sinnett incomplete pass to the middle defensed by Miche Vandekerkhof.",
                 "score": "N",
@@ -5080,7 +6108,7 @@
                 "down": "4",
                 "togo": "3",
                 "spot": "RAI37",
-                "playid": "20,7,150",
+                "playid": "20,7,155",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the middle to Justus Seelig for 8 yards to the RAI29. Tackled by Francesco Rivelli and Paul Kriener.",
                 "score": "N",
@@ -5095,7 +6123,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI29",
-                "playid": "20,8,151",
+                "playid": "20,8,156",
                 "tokens": "RUSH",
                 "text": "Eduard Molina rush to the right for 4 yards to the RAI25. Tackled by Miche Vandekerkhof and Mato Beglarian.",
                 "score": "N",
@@ -5110,7 +6138,7 @@
                 "down": "2",
                 "togo": "6",
                 "spot": "RAI25",
-                "playid": "20,9,152",
+                "playid": "20,9,157",
                 "tokens": "RUSH",
                 "text": "Eduard Molina rush to the right for 8 yards to the RAI17. Tackled by Paul Kriener and Francesco Rivelli.",
                 "score": "N",
@@ -5125,7 +6153,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI17",
-                "playid": "20,10,153",
+                "playid": "20,10,158",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the left to Eduardo Perez for 5 yards to the RAI12. Tackled by Aaron Maddox.",
                 "score": "N",
@@ -5140,7 +6168,7 @@
                 "down": "2",
                 "togo": "5",
                 "spot": "RAI12",
-                "playid": "20,11,154",
+                "playid": "20,11,159",
                 "tokens": "PEN",
                 "text": "Penalty: Delay of Game on Tirol (Osaruonamen Ogbevoen) 5 yards.",
                 "score": "N",
@@ -5155,7 +6183,7 @@
                 "down": "1",
                 "togo": "7",
                 "spot": "RAI7",
-                "playid": "20,12,155",
+                "playid": "20,12,160",
                 "tokens": "RUSH",
                 "text": "Aron Cruickshank rush to the right for 7 yards for a TOUCHDOWN.",
                 "score": "Y",
@@ -5170,7 +6198,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "RAI15",
-                "playid": "20,13,156",
+                "playid": "20,13,161",
                 "tokens": "PAT",
                 "text": "Alvaro Penas extra point is GOOD.",
                 "score": "Y",
@@ -5185,7 +6213,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "MAD35",
-                "playid": "20,14,157",
+                "playid": "20,14,162",
                 "tokens": "KO",
                 "text": "Antonio Sarria kicks off to the endzone. Touchback.",
                 "score": "N",
@@ -5200,7 +6228,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI20",
-                "playid": "21,1,158",
+                "playid": "21,1,163",
                 "tokens": "RUSH",
                 "text": "Lukas Haslwanter rush to the middle for 12 yards to the RAI32. Tackled by Pablo Araya and Javier Carrasco.",
                 "score": "N",
@@ -5215,7 +6243,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI32",
-                "playid": "21,2,159",
+                "playid": "21,2,164",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the left intended for Bruno Escobar.",
                 "score": "N",
@@ -5230,7 +6258,7 @@
                 "down": "2",
                 "togo": "10",
                 "spot": "RAI33",
-                "playid": "21,3,160",
+                "playid": "21,3,165",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the right intended for Philipp Haun.",
                 "score": "N",
@@ -5245,7 +6273,7 @@
                 "down": "3",
                 "togo": "10",
                 "spot": "RAI33",
-                "playid": "21,4,161",
+                "playid": "21,4,166",
                 "tokens": "PASS",
                 "text": "N'Kosi Perry incomplete pass to the right intended for Felix Reitter.",
                 "score": "N",
@@ -5260,7 +6288,7 @@
                 "down": "4",
                 "togo": "10",
                 "spot": "RAI33",
-                "playid": "22,1,162",
+                "playid": "22,1,167",
                 "tokens": "SAF",
                 "text": "Felix Reitter rush for no gain to the RAI33. FUMBLE, recovered by RAI (Felix Reitter). Safety.",
                 "score": "Y",
@@ -5275,7 +6303,7 @@
                 "down": "0",
                 "togo": "0",
                 "spot": "RAI20",
-                "playid": "22,2,163",
+                "playid": "22,2,168",
                 "tokens": "KO",
                 "text": "Jonata Loria kicks off to the endzone. Touchback.",
                 "score": "N",
@@ -5290,7 +6318,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD20",
-                "playid": "23,1,164",
+                "playid": "23,1,169",
                 "tokens": "RUSH",
                 "text": "Eduard Molina rush to the left for 2 yards to the MAD22. Tackled by Paul Kriener.",
                 "score": "N",
@@ -5305,7 +6333,7 @@
                 "down": "2",
                 "togo": "8",
                 "spot": "MAD22",
-                "playid": "23,2,165",
+                "playid": "23,2,170",
                 "tokens": "RUSH",
                 "text": "Eduard Molina rush to the right for 3 yards to the MAD25. Tackled by Armin Husarevic and Diego Paz Gonzalez.",
                 "score": "N",
@@ -5320,7 +6348,7 @@
                 "down": "3",
                 "togo": "5",
                 "spot": "MAD25",
-                "playid": "23,3,166",
+                "playid": "23,3,171",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the right to Sixten Dragan for 11 yards to the MAD36. Tackled by Vincent Mueller.",
                 "score": "N",
@@ -5335,7 +6363,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD36",
-                "playid": "23,4,167",
+                "playid": "23,4,172",
                 "tokens": "RUSH",
                 "text": "Eduard Molina rush to the right for 3 yards to the MAD39. Tackled by Milan Faby and Dobpson Hopson.",
                 "score": "N",
@@ -5350,7 +6378,7 @@
                 "down": "2",
                 "togo": "7",
                 "spot": "MAD39",
-                "playid": "23,5,168",
+                "playid": "23,5,173",
                 "tokens": "PASS",
                 "text": "Reid Sinnett pass to the left to Aron Cruickshank for 9 yards to the MAD48. Tackled by Jan Mayerhofer.",
                 "score": "N",
@@ -5365,7 +6393,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "MAD48",
-                "playid": "23,6,169",
+                "playid": "23,6,174",
                 "tokens": "RUSH",
                 "text": "Eduard Molina rush to the right for 2 yards to the MAD50. Tackled by Paul Kriener and Tiberio Calbucci.",
                 "score": "N",
@@ -5380,7 +6408,7 @@
                 "down": "2",
                 "togo": "9",
                 "spot": "MAD49",
-                "playid": "23,7,170",
+                "playid": "23,7,175",
                 "tokens": "RUSH",
                 "text": "Eduard Molina rush to the middle for 4 yards to the RAI47. Tackled by Pietro Manicardi and Osaruonamen Ogbevoen.",
                 "score": "N",
@@ -5395,7 +6423,7 @@
                 "down": "3",
                 "togo": "5",
                 "spot": "RAI47",
-                "playid": "23,8,171",
+                "playid": "23,8,176",
                 "tokens": "SACK",
                 "text": "Reid Sinnett sacked at MAD48 for a loss of 5 yards by Tim Unger.",
                 "score": "N",
@@ -5410,7 +6438,7 @@
                 "down": "4",
                 "togo": "5",
                 "spot": "RAI47",
-                "playid": "23,9,172",
+                "playid": "23,9,177",
                 "tokens": "TOUT",
                 "text": "Two Minute Warning.",
                 "score": "N",
@@ -5425,7 +6453,7 @@
                 "down": "4",
                 "togo": "10",
                 "spot": "MAD48",
-                "playid": "23,10,173",
+                "playid": "23,10,178",
                 "tokens": "PUNT",
                 "text": "Antonio Sarria punts for 36 yards to RAI16. No return.",
                 "score": "N",
@@ -5440,7 +6468,7 @@
                 "down": "1",
                 "togo": "10",
                 "spot": "RAI16",
-                "playid": "24,1,174",
+                "playid": "24,1,179",
                 "tokens": "RUSH",
                 "text": "Tyrrell Bovelle rush to the right for 4 yards to the RAI20. Tackled by Cesar Brugnani and Javier Carrasco.",
                 "score": "N",
@@ -5455,7 +6483,7 @@
                 "down": "2",
                 "togo": "6",
                 "spot": "RAI20",
-                "playid": "24,2,175",
+                "playid": "24,2,180",
                 "tokens": "RUSH",
                 "text": "Tyrrell Bovelle rush to the middle for 3 yards to the RAI23. Tackled by Jorge Hernandez.",
                 "score": "N",
@@ -5470,7 +6498,7 @@
                 "down": "3",
                 "togo": "3",
                 "spot": "RAI23",
-                "playid": "24,3,176",
+                "playid": "24,3,181",
                 "tokens": "RUSH",
                 "text": "Tyrrell Bovelle rush to the right for 9 yards to the RAI32. Tackled by Michael Witherspoon.",
                 "score": "N",
@@ -5531,7 +6559,7 @@
                 "vh": "H",
                 "spot": "MAD30",
                 "clock": "14:54",
-                "driveindex": "19"
+                "driveindex": "20,148"
               }
             },
             {
@@ -5540,7 +6568,7 @@
                 "vh": "V",
                 "spot": "RAI20",
                 "clock": "8:44",
-                "driveindex": "20"
+                "driveindex": "21,162"
               }
             },
             {
@@ -5549,7 +6577,7 @@
                 "vh": "H",
                 "spot": "MAD20",
                 "clock": "7:59",
-                "driveindex": "22"
+                "driveindex": "23,168"
               }
             },
             {
@@ -5558,7 +6586,7 @@
                 "vh": "V",
                 "spot": "RAI16",
                 "clock": "1:52",
-                "driveindex": "23"
+                "driveindex": "24,178"
               }
             }
           ]
@@ -5625,7 +6653,7 @@
       "id": "344f4d25-a58d-41e1-b203-cedd602418f8",
       "team": "vik",
       "cbsname": "A. Milanovic",
-      "statsPerformId": "",
+      "statsPerformId": 612537,
       "displayName": "A. Milanovic"
     },
     {
@@ -7593,7 +8621,7 @@
       "id": "0e582a80-5627-49b8-9800-a1a05d0d23d5",
       "team": "vik",
       "cbsname": "C. Kellner",
-      "statsPerformId": "",
+      "statsPerformId": 1586298,
       "displayName": "C. Kellner"
     },
     {
@@ -8191,7 +9219,7 @@
     {
       "_id": "63a25a4dca793ca1463bfe47",
       "id": "082f175f-939d-469d-a894-0bc9d9407b2b",
-      "team": "",
+      "team": "hvm",
       "cbsname": "J. Crawford",
       "statsPerformId": 329452,
       "displayName": "J. Crawford"
@@ -8585,7 +9613,7 @@
       "id": "442b624f-fed2-4d69-a6ed-6a53c473e748",
       "team": "rhf",
       "cbsname": "J. Wenke",
-      "statsPerformId": "",
+      "statsPerformId": 1586308,
       "displayName": "J. Wenke"
     },
     {
@@ -9001,7 +10029,7 @@
       "id": "7d4307a1-6949-4b48-8381-8664f9d717f1",
       "team": "muc",
       "cbsname": "L. Deiana",
-      "statsPerformId": "",
+      "statsPerformId": 1595508,
       "displayName": "L. Deiana"
     },
     {
@@ -9385,7 +10413,7 @@
       "id": "f0bcea00-d430-477c-9889-14933073429c",
       "team": "rhf",
       "cbsname": "M. Djopa",
-      "statsPerformId": "",
+      "statsPerformId": 1595510,
       "displayName": "M. Djomou Djopa"
     },
     {
@@ -10537,7 +11565,7 @@
       "id": "825db407-c332-4e8d-b9e8-45d8ad778cde",
       "team": "vik",
       "cbsname": "L. Balogh",
-      "statsPerformId": "",
+      "statsPerformId": 1586289,
       "displayName": "L. Balogh"
     },
     {
@@ -11337,7 +12365,7 @@
       "id": "faf11622-3cfb-4c71-abf6-4ff44ab7d940",
       "team": "bth",
       "cbsname": "M. Taylor",
-      "statsPerformId": "",
+      "statsPerformId": 884154,
       "displayName": "M. Taylor III"
     },
     {
@@ -13689,7 +14717,7 @@
       "id": "d6eb78ec-9d04-4a3b-8bc1-d5c180f8bc87",
       "team": "wpa",
       "cbsname": "W. Zieba",
-      "statsPerformId": "",
+      "statsPerformId": 1583574,
       "displayName": "W. Zi\u0119ba"
     },
     {
@@ -13753,7 +14781,7 @@
       "id": "933ada30-90ed-11ed-b456-853c320c916d",
       "team": "srg",
       "cbsname": "M. Jelvani",
-      "statsPerformId": "",
+      "statsPerformId": 1595533,
       "displayName": "M. Jelvani"
     },
     {
@@ -14953,7 +15981,7 @@
       "id": "791335a0-b9b3-11ed-a9a5-9125d35b4f4c",
       "team": "ent",
       "cbsname": "K. Horv\u00e1th",
-      "statsPerformId": "",
+      "statsPerformId": 1595530,
       "displayName": "K. Horv\u00e1th"
     },
     {
@@ -16025,7 +17053,7 @@
       "id": "58273d80-d8aa-11ed-b5d9-e59dc85e57e9",
       "team": "srg",
       "cbsname": "A. Fiedler",
-      "statsPerformId": "",
+      "statsPerformId": 1595519,
       "displayName": "A. Fiedler"
     },
     {
@@ -17657,7 +18685,7 @@
       "id": "d588bb10-e439-11ed-9e8c-eb9caac200ca",
       "team": "par",
       "cbsname": "J. Bofunda",
-      "statsPerformId": "",
+      "statsPerformId": 1595504,
       "displayName": "J. Bofunda"
     },
     {
@@ -17905,7 +18933,7 @@
       "id": "4b0b7fd0-e507-11ed-8e6a-c1fe3985a727",
       "team": "rai",
       "cbsname": "A. Husarevic",
-      "statsPerformId": "",
+      "statsPerformId": 1595531,
       "displayName": "A. Husarevic"
     },
     {
@@ -19473,7 +20501,7 @@
       "id": "3cc269d0-2084-11ee-af71-dff6ad7a4a11",
       "team": "par",
       "cbsname": "B. Ribeiro",
-      "statsPerformId": "",
+      "statsPerformId": 1595547,
       "displayName": "B. Ribeiro"
     },
     {
@@ -19489,7 +20517,7 @@
       "id": "f1565ee0-2086-11ee-af71-dff6ad7a4a11",
       "team": "par",
       "cbsname": "J. Kouakou",
-      "statsPerformId": "",
+      "statsPerformId": 1595537,
       "displayName": "J. Kouakou"
     },
     {
@@ -19567,9 +20595,9 @@
     {
       "_id": "64b5614008dcb1aa868d3729",
       "id": "698ec250-24b8-11ee-bbc7-97274643e27b",
-      "team": "",
+      "team": "hsd",
       "cbsname": "C. Aiken Jr.",
-      "statsPerformId": "",
+      "statsPerformId": 945337,
       "displayName": "C. Aiken Jr."
     },
     {
@@ -19593,7 +20621,7 @@
       "id": "d35b8540-253c-11ee-a9c4-395cc93fe765",
       "team": "rai",
       "cbsname": "B. Dorner",
-      "statsPerformId": "",
+      "statsPerformId": 1595515,
       "displayName": "B. Dorner"
     },
     {
@@ -19689,7 +20717,7 @@
       "id": "568b7cd0-2ac5-11ee-a9a3-77f1e9e492ef",
       "team": "vik",
       "cbsname": "M. Mozzanica",
-      "statsPerformId": "",
+      "statsPerformId": 1595541,
       "displayName": "M. Mozzanica"
     },
     {
@@ -20281,7 +21309,7 @@
       "id": "9e8d5000-cfdc-11ee-b4a7-51b157575fec",
       "team": "muc",
       "cbsname": "V. Woywod",
-      "statsPerformId": "",
+      "statsPerformId": 1595553,
       "displayName": "V. Woywod"
     },
     {
@@ -21089,7 +22117,7 @@
       "id": "d9282b10-f8ed-11ee-baa0-d1a392bed08f",
       "team": "mad",
       "cbsname": "A. Rojano",
-      "statsPerformId": "",
+      "statsPerformId": 1595548,
       "displayName": "A. Rojano Besada"
     },
     {
@@ -22497,7 +23525,7 @@
       "id": "21b3c990-11dd-11ef-ab06-f931fea32195",
       "team": "nds",
       "cbsname": "S. Finsson",
-      "statsPerformId": "",
+      "statsPerformId": 1595521,
       "displayName": "S. Finsson"
     },
     {
@@ -24975,7 +26003,7 @@
     {
       "_id": "67c325f4bf1b66a15b3cc1f1",
       "id": "d4e43fa0-f6b0-11ef-b797-fd2cc4b1af8b",
-      "team": "",
+      "team": "hvm",
       "cbsname": "Y. Schnieper",
       "statsPerformId": 1584288,
       "displayName": "Y. Schnieper"
@@ -25479,7 +26507,7 @@
     {
       "_id": "67e3d3459a4bc1a0785779fc",
       "id": "ed086560-0a2a-11f0-84d5-651705073e02",
-      "team": "muc",
+      "team": "",
       "cbsname": "A. Moore",
       "statsPerformId": 1584801,
       "displayName": "A. Moore"
@@ -27577,7 +28605,7 @@
       "id": "c1bbef50-5bdb-11f0-ba8d-a7da3512989a",
       "team": "wpa",
       "cbsname": "T. Skowro\u0144ski",
-      "statsPerformId": "",
+      "statsPerformId": 1593948,
       "displayName": "T. Skowro\u0144ski"
     },
     {
@@ -27633,7 +28661,7 @@
       "id": "82eda670-5d8d-11f0-90b9-f338181716ae",
       "team": "ent",
       "cbsname": "Z. Hal\u00e1sz",
-      "statsPerformId": "",
+      "statsPerformId": 1595528,
       "displayName": "Z. Hal\u00e1sz"
     },
     {
@@ -27649,7 +28677,7 @@
       "id": "97db1d10-5e41-11f0-b117-9b75138c8fb4",
       "team": "cce",
       "cbsname": "O. Beukenbusch",
-      "statsPerformId": "",
+      "statsPerformId": 1595501,
       "displayName": "O. Beukenbusch"
     },
     {
@@ -27665,7 +28693,7 @@
       "id": "2ccc05f0-5e48-11f0-a834-034a78398b2d",
       "team": "cce",
       "cbsname": "F. Fu\u00dfel",
-      "statsPerformId": "",
+      "statsPerformId": 1595522,
       "displayName": "F. Fu\u00dfel"
     },
     {
@@ -27673,7 +28701,7 @@
       "id": "2ad71c70-5f48-11f0-a632-d5f7cd865c5d",
       "team": "nds",
       "cbsname": "J. Bl\u00f8nd",
-      "statsPerformId": "",
+      "statsPerformId": 1595502,
       "displayName": "J. Bl\u00f8nd"
     },
     {
@@ -27681,7 +28709,7 @@
       "id": "6c68f710-6094-11f0-9d93-e182edbbe83f",
       "team": "rai",
       "cbsname": "K. Giardinieri",
-      "statsPerformId": "",
+      "statsPerformId": 1595527,
       "displayName": "K. Giardinieri"
     },
     {
@@ -27689,7 +28717,7 @@
       "id": "b8805f60-60a0-11f0-a764-a16dd79e49d8",
       "team": "par",
       "cbsname": "N. Geremias",
-      "statsPerformId": "",
+      "statsPerformId": 1595526,
       "displayName": "N. Geremias"
     },
     {
@@ -27697,7 +28725,7 @@
       "id": "f99e6e40-60a7-11f0-a417-b3f010dcd254",
       "team": "par",
       "cbsname": "N. Badibanga",
-      "statsPerformId": "",
+      "statsPerformId": 1595493,
       "displayName": "N. Badibanga"
     },
     {
@@ -27705,7 +28733,7 @@
       "id": "e3d4a580-60b0-11f0-b3be-41ffd48fc61d",
       "team": "nds",
       "cbsname": "O. Kimrin",
-      "statsPerformId": "",
+      "statsPerformId": 250532,
       "displayName": "O. Kimrin"
     },
     {
@@ -27721,7 +28749,7 @@
       "id": "7f518950-60c1-11f0-bdbf-d964042f1a67",
       "team": "ent",
       "cbsname": "K. Beisinger",
-      "statsPerformId": "",
+      "statsPerformId": 1595499,
       "displayName": "K. Beisinger"
     },
     {
@@ -27729,7 +28757,7 @@
       "id": "03a5dce0-60c9-11f0-a185-ff9e6b6fb7d0",
       "team": "ent",
       "cbsname": "B. Pullman",
-      "statsPerformId": "",
+      "statsPerformId": 1595544,
       "displayName": "B. Pullman"
     },
     {
@@ -27737,7 +28765,7 @@
       "id": "9d4e03e0-60dd-11f0-aee4-fd6d971baf67",
       "team": "rhf",
       "cbsname": "M. Bajaha",
-      "statsPerformId": "",
+      "statsPerformId": 1595496,
       "displayName": "M. Bajaha"
     },
     {
@@ -27745,7 +28773,7 @@
       "id": "64432b30-60eb-11f0-9e7e-8bb6012ad300",
       "team": "cce",
       "cbsname": "N. Douglas ",
-      "statsPerformId": "",
+      "statsPerformId": 1192343,
       "displayName": "N. Douglas "
     },
     {
@@ -27753,7 +28781,7 @@
       "id": "1984efa0-60f2-11f0-ba9f-13b725033f4d",
       "team": "hsd",
       "cbsname": "J. Meyer",
-      "statsPerformId": "",
+      "statsPerformId": 1595540,
       "displayName": "J. Meyer"
     },
     {
@@ -27761,7 +28789,7 @@
       "id": "6c5450d0-6148-11f0-b27d-a50462c5fdac",
       "team": "rai",
       "cbsname": "A. Georg",
-      "statsPerformId": "",
+      "statsPerformId": 1595525,
       "displayName": "A. Georg"
     },
     {
@@ -27769,7 +28797,7 @@
       "id": "75c29a40-6149-11f0-bf27-adac21341bf6",
       "team": "rai",
       "cbsname": "W. Gassebner",
-      "statsPerformId": "",
+      "statsPerformId": 1595523,
       "displayName": "W. Gassebner"
     },
     {
@@ -27777,7 +28805,7 @@
       "id": "94956be0-614a-11f0-a878-c7ffb68aa7cb",
       "team": "ent",
       "cbsname": "A. H\u00e1rs",
-      "statsPerformId": "",
+      "statsPerformId": 1595529,
       "displayName": "A. H\u00e1rs"
     },
     {
@@ -27785,7 +28813,7 @@
       "id": "320d5a30-614c-11f0-8243-0f412e9e29e9",
       "team": "vik",
       "cbsname": "V. Rei\u00dfner",
-      "statsPerformId": "",
+      "statsPerformId": 1595546,
       "displayName": "V. Rei\u00dfner"
     },
     {
@@ -27793,7 +28821,7 @@
       "id": "6c08f650-6150-11f0-afbf-07313a3082ad",
       "team": "wpa",
       "cbsname": "J. Sawicki",
-      "statsPerformId": "",
+      "statsPerformId": 1595550,
       "displayName": "J. Sawicki"
     },
     {
@@ -27801,7 +28829,7 @@
       "id": "31b1d310-6154-11f0-b234-43d2c595fddf",
       "team": "vik",
       "cbsname": "V. Bader",
-      "statsPerformId": "",
+      "statsPerformId": 1595492,
       "displayName": "V. Bader"
     },
     {
@@ -27809,7 +28837,7 @@
       "id": "2db9dd90-6157-11f0-bdbf-91f0f18cd723",
       "team": "hvm",
       "cbsname": "E. Bahamonde",
-      "statsPerformId": "",
+      "statsPerformId": 1595495,
       "displayName": "E. Bahamonde"
     },
     {
@@ -27817,7 +28845,7 @@
       "id": "14b1fa70-6158-11f0-839a-0fe9b8314158",
       "team": "bth",
       "cbsname": "S. Deshotel",
-      "statsPerformId": "",
+      "statsPerformId": 1595509,
       "displayName": "S. Deshotel"
     },
     {
@@ -27825,7 +28853,7 @@
       "id": "2863deb0-615a-11f0-b917-899bbc9a8aee",
       "team": "vik",
       "cbsname": "M. Koschak",
-      "statsPerformId": "",
+      "statsPerformId": 1595536,
       "displayName": "M. Koschak"
     },
     {
@@ -27833,7 +28861,7 @@
       "id": "b1e04ab0-615b-11f0-b06d-79fdddd9270b",
       "team": "mad",
       "cbsname": "C. Kelly",
-      "statsPerformId": "",
+      "statsPerformId": 1161908,
       "displayName": "C. Kelly"
     },
     {
@@ -27841,7 +28869,7 @@
       "id": "b7c059c0-615b-11f0-b75a-01958b229f36",
       "team": "hvm",
       "cbsname": "L. Mamadou-Bikry",
-      "statsPerformId": "",
+      "statsPerformId": 1595538,
       "displayName": "L. Mamadou-Bikry"
     },
     {
@@ -27857,7 +28885,7 @@
       "id": "cc598630-615c-11f0-aaa5-6d84fd927300",
       "team": "cce",
       "cbsname": "D. Elze",
-      "statsPerformId": "",
+      "statsPerformId": 1595518,
       "displayName": "D. Elze"
     },
     {
@@ -27865,7 +28893,7 @@
       "id": "674153c0-615e-11f0-964f-ad404d801aba",
       "team": "mad",
       "cbsname": "B. Kincaid Ruiz",
-      "statsPerformId": "",
+      "statsPerformId": 1595534,
       "displayName": "B. Kincaid Ruiz"
     },
     {
@@ -27873,7 +28901,7 @@
       "id": "0e34b570-6162-11f0-b6c7-bd07abc131ed",
       "team": "hvm",
       "cbsname": "E. Egbuche",
-      "statsPerformId": "",
+      "statsPerformId": 1595517,
       "displayName": "E. Egbuche"
     },
     {
@@ -27881,7 +28909,7 @@
       "id": "e08207c0-6163-11f0-8d06-35c326acd5f6",
       "team": "mad",
       "cbsname": "A. Mu\u00f1oz Yus",
-      "statsPerformId": "",
+      "statsPerformId": 1595542,
       "displayName": "A. Mu\u00f1oz Yus"
     },
     {
@@ -27889,7 +28917,7 @@
       "id": "ec649010-6165-11f0-b199-a77b940d2e77",
       "team": "rhf",
       "cbsname": "L. Kling",
-      "statsPerformId": "",
+      "statsPerformId": 1595535,
       "displayName": "L. Kling"
     },
     {
@@ -27897,7 +28925,7 @@
       "id": "f7496960-6165-11f0-9f9f-f541d827dfb4",
       "team": "hvm",
       "cbsname": "D. Young-Obi",
-      "statsPerformId": "",
+      "statsPerformId": 1595555,
       "displayName": "D. Young-Obi"
     },
     {
@@ -27905,7 +28933,7 @@
       "id": "f88791e0-6169-11f0-b951-dbf41846d4b0",
       "team": "rhf",
       "cbsname": "J. S\u00f6ntgerath",
-      "statsPerformId": "",
+      "statsPerformId": 1595551,
       "displayName": "J. S\u00f6ntgerath"
     },
     {
@@ -27913,7 +28941,7 @@
       "id": "8ca67700-616b-11f0-ba2d-656f27a7539b",
       "team": "par",
       "cbsname": "J. Saint Louis Saintervil",
-      "statsPerformId": "",
+      "statsPerformId": 1595549,
       "displayName": "J. Saint Louis Saintervil"
     },
     {
@@ -27921,7 +28949,7 @@
       "id": "dd058700-616a-11f0-9a0f-d54cceae602f",
       "team": "hvm",
       "cbsname": "H. Yesilova",
-      "statsPerformId": "",
+      "statsPerformId": 1595554,
       "displayName": "H. Yesilova"
     },
     {
@@ -27929,7 +28957,7 @@
       "id": "c64b9610-616c-11f0-82c5-b75f457e8447",
       "team": "cce",
       "cbsname": "M. Jackson",
-      "statsPerformId": "",
+      "statsPerformId": 1595532,
       "displayName": "M. Jackson"
     },
     {
@@ -27937,7 +28965,7 @@
       "id": "71e3cf10-616d-11f0-86bb-51eacda359d3",
       "team": "par",
       "cbsname": "F. Mendy",
-      "statsPerformId": "",
+      "statsPerformId": 1595539,
       "displayName": "F. Mendy"
     },
     {
@@ -27945,7 +28973,7 @@
       "id": "62a7e5c0-616f-11f0-9077-b9572ad3e4dd",
       "team": "hvm",
       "cbsname": "E. Caporizzi",
-      "statsPerformId": "",
+      "statsPerformId": 1595506,
       "displayName": "E. Caporizzi"
     },
     {
@@ -27953,7 +28981,7 @@
       "id": "333295f0-6170-11f0-9910-43f9bbc05637",
       "team": "mad",
       "cbsname": "R. Quintana Mitermajer",
-      "statsPerformId": "",
+      "statsPerformId": 1595545,
       "displayName": "R. Quintana Mitermajer"
     },
     {
@@ -27961,7 +28989,7 @@
       "id": "b5267d90-6172-11f0-a7d9-efde27b4078e",
       "team": "par",
       "cbsname": "G. OURO BODI",
-      "statsPerformId": "",
+      "statsPerformId": 1595543,
       "displayName": "G. OURO BODI"
     },
     {
@@ -27969,7 +28997,7 @@
       "id": "32c8d040-6173-11f0-8b20-f38f8bb7bb07",
       "team": "hvm",
       "cbsname": "T. Brown",
-      "statsPerformId": "",
+      "statsPerformId": 1595505,
       "displayName": "T. Brown"
     },
     {
@@ -27977,7 +29005,7 @@
       "id": "be703290-6174-11f0-8be6-d75f9f0aad3a",
       "team": "mad",
       "cbsname": "J. Gomez Lapuente",
-      "statsPerformId": "",
+      "statsPerformId": 1584937,
       "displayName": "J. Gomez Lapuente"
     },
     {
@@ -27985,16 +29013,48 @@
       "id": "36765170-617f-11f0-8b5e-f359183f0d0c",
       "team": "mad",
       "cbsname": "M. Cusimano Ronderos",
-      "statsPerformId": "",
+      "statsPerformId": 1595507,
       "displayName": "M. Cusimano Ronderos"
     },
     {
       "_id": "687f6b9a716d4240063dbc7d",
       "id": "db539860-66e8-11f0-bd4c-75095df01713",
       "team": "hsd",
-      "cbsname": "",
-      "statsPerformId": "",
+      "cbsname": "J. Tregle",
+      "statsPerformId": 1597646,
       "displayName": "J. Tregle"
+    },
+    {
+      "_id": "6895991eb366237e936bb25f",
+      "id": "eb43f400-7420-11f0-839d-0159ce52f520",
+      "team": "hvm",
+      "cbsname": "D. Galmozzi",
+      "statsPerformId": 1601727,
+      "displayName": "D. Galmozzi"
+    },
+    {
+      "_id": "68959aa5b366237e936bb266",
+      "id": "d67e4e70-7421-11f0-af77-177cac2f80b5",
+      "team": "hvm",
+      "cbsname": "Ma. Taddia",
+      "statsPerformId": 1601728,
+      "displayName": "M. Taddia"
+    },
+    {
+      "_id": "68959bf2b366237e936bb26d",
+      "id": "9d2c94a0-7422-11f0-a26b-3ba335a2ce9e",
+      "team": "hvm",
+      "cbsname": "A. Saad",
+      "statsPerformId": 1601729,
+      "displayName": "A. Saad"
+    },
+    {
+      "_id": "68971e393e37e31de8488466",
+      "id": "d611e310-7508-11f0-8d43-9b6ddbcb0bac",
+      "team": "hvm",
+      "cbsname": "A. Aguirre",
+      "statsPerformId": 884865,
+      "displayName": "A. Aguirre"
     }
   ]
 }

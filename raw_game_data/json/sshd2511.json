@@ -9,7 +9,8 @@
     "_attributes": {
       "source": "StatsPerform",
       "version": "2025-04",
-      "generated": "24/04/2025"
+      "generated": "2025-08-01 23:59:09",
+      "gameId": "2877813"
     },
     "venue": {
       "_attributes": {
@@ -140,10 +141,44 @@
             }
           },
           "rcv": {},
-          "punt": {},
-          "ko": {},
-          "fg": {},
-          "pat": {},
+          "punt": {
+            "_attributes": {
+              "no": "6",
+              "yds": "218",
+              "avg": "36.3",
+              "long": 0,
+              "blkd": 0,
+              "tb": 0,
+              "fc": 0,
+              "plus50": 0,
+              "inside20": 0
+            }
+          },
+          "ko": {
+            "_attributes": {
+              "no": "1",
+              "tb": "0",
+              "yds": 0,
+              "ob": 0,
+              "fcyds": 0
+            }
+          },
+          "fg": {
+            "_attributes": {
+              "made": "0",
+              "att": "1",
+              "blkd": "0",
+              "long": 0
+            }
+          },
+          "pat": {
+            "_attributes": {
+              "kickatt": "0",
+              "kickmade": "0",
+              "retkatt": 0,
+              "retkmade": 0
+            }
+          },
           "defense": {
             "_attributes": {
               "ff": "0",
@@ -152,10 +187,31 @@
               "intyds": "22"
             }
           },
-          "kr": {},
-          "pr": {},
+          "kr": {
+            "_attributes": {
+              "no": "7",
+              "yds": "185",
+              "td": "0",
+              "long": "36"
+            }
+          },
+          "pr": {
+            "_attributes": {
+              "no": "1",
+              "yds": "7",
+              "td": "0",
+              "long": "7"
+            }
+          },
           "ir": {},
-          "fr": {}
+          "fr": {
+            "_attributes": {
+              "no": "1",
+              "yds": "0",
+              "td": "0",
+              "long": 0
+            }
+          }
         },
         "player": [
           {
@@ -183,6 +239,14 @@
                 "tfla": "0",
                 "int": "1"
               }
+            },
+            "ir": {
+              "_attributes": {
+                "no": "1",
+                "yds": "22",
+                "td": "0",
+                "long": "22"
+              }
             }
           },
           {
@@ -209,6 +273,22 @@
                 "tflua": "0",
                 "tfla": "0",
                 "int": "0"
+              }
+            },
+            "kr": {
+              "_attributes": {
+                "no": "7",
+                "yds": "185",
+                "td": "0",
+                "long": "36"
+              }
+            },
+            "pr": {
+              "_attributes": {
+                "no": "1",
+                "yds": "7",
+                "td": "0",
+                "long": "7"
               }
             }
           },
@@ -447,6 +527,14 @@
                 "tfla": "0",
                 "int": "0"
               }
+            },
+            "fr": {
+              "_attributes": {
+                "no": "1",
+                "yds": "0",
+                "td": "0",
+                "long": 0
+              }
             }
           },
           {
@@ -483,6 +571,25 @@
               "gp": "1",
               "gs": "",
               "code": "18"
+            },
+            "punt": {
+              "_attributes": {
+                "no": "6",
+                "yds": "1",
+                "avg": "36.3",
+                "blkd": "0",
+                "long": "46",
+                "plus50": 0,
+                "inside20": "1"
+              }
+            },
+            "fg": {
+              "_attributes": {
+                "made": "1",
+                "att": "1",
+                "blkd": "0",
+                "long": "0"
+              }
             }
           },
           {
@@ -1270,10 +1377,44 @@
             }
           },
           "rcv": {},
-          "punt": {},
-          "ko": {},
-          "fg": {},
-          "pat": {},
+          "punt": {
+            "_attributes": {
+              "no": "3",
+              "yds": "108",
+              "avg": "36.0",
+              "long": 0,
+              "blkd": 0,
+              "tb": 0,
+              "fc": 0,
+              "plus50": 0,
+              "inside20": 0
+            }
+          },
+          "ko": {
+            "_attributes": {
+              "no": "8",
+              "tb": "1",
+              "yds": 0,
+              "ob": 0,
+              "fcyds": 0
+            }
+          },
+          "fg": {
+            "_attributes": {
+              "made": "0",
+              "att": "1",
+              "blkd": "0",
+              "long": 0
+            }
+          },
+          "pat": {
+            "_attributes": {
+              "kickatt": "0",
+              "kickmade": "6",
+              "retkatt": 0,
+              "retkmade": 0
+            }
+          },
           "defense": {
             "_attributes": {
               "ff": "0",
@@ -1282,10 +1423,31 @@
               "intyds": "94"
             }
           },
-          "kr": {},
-          "pr": {},
+          "kr": {
+            "_attributes": {
+              "no": "1",
+              "yds": "22",
+              "td": "0",
+              "long": "22"
+            }
+          },
+          "pr": {
+            "_attributes": {
+              "no": "3",
+              "yds": "22",
+              "td": "0",
+              "long": "16"
+            }
+          },
           "ir": {},
-          "fr": {}
+          "fr": {
+            "_attributes": {
+              "no": "1",
+              "yds": "10",
+              "td": "1",
+              "long": 0
+            }
+          }
         },
         "player": [
           {
@@ -1360,6 +1522,14 @@
                 "yds": "98",
                 "td": "1",
                 "long": "34"
+              }
+            },
+            "pr": {
+              "_attributes": {
+                "no": "3",
+                "yds": "22",
+                "td": "0",
+                "long": "16"
               }
             }
           },
@@ -1493,6 +1663,22 @@
                 "tflua": "0",
                 "tfla": "0",
                 "int": "2"
+              }
+            },
+            "kr": {
+              "_attributes": {
+                "no": "1",
+                "yds": "22",
+                "td": "0",
+                "long": "22"
+              }
+            },
+            "ir": {
+              "_attributes": {
+                "no": "2",
+                "yds": "96",
+                "td": "1",
+                "long": "82"
               }
             }
           },
@@ -1991,6 +2177,31 @@
                 "tfla": "0",
                 "int": "0"
               }
+            },
+            "pat": {
+              "_attributes": {
+                "kickatt": "7",
+                "kickmade": "6"
+              }
+            },
+            "punt": {
+              "_attributes": {
+                "no": "3",
+                "yds": "1",
+                "avg": "36",
+                "blkd": "0",
+                "long": "42",
+                "plus50": 0,
+                "inside20": "2"
+              }
+            },
+            "fg": {
+              "_attributes": {
+                "made": "1",
+                "att": "1",
+                "blkd": "0",
+                "long": "0"
+              }
             }
           },
           {
@@ -2244,6 +2455,14 @@
                 "tfla": "0",
                 "int": "1"
               }
+            },
+            "ir": {
+              "_attributes": {
+                "no": "1",
+                "yds": "-2",
+                "td": "0",
+                "long": "-2"
+              }
             }
           },
           {
@@ -2472,6 +2691,14 @@
                 "tflua": "0",
                 "tfla": "0",
                 "int": "0"
+              }
+            },
+            "fr": {
+              "_attributes": {
+                "no": "1",
+                "yds": "10",
+                "td": "1",
+                "long": 0
               }
             }
           },
@@ -3817,7 +4044,7 @@
                 "vh": "V",
                 "spot": "HSD17",
                 "clock": "14:52",
-                "driveindex": "0"
+                "driveindex": "1,1"
               }
             },
             {
@@ -3826,7 +4053,7 @@
                 "vh": "H",
                 "spot": "SRG48",
                 "clock": "12:36",
-                "driveindex": "1"
+                "driveindex": "2,5"
               }
             },
             {
@@ -3835,7 +4062,7 @@
                 "vh": "V",
                 "spot": "HSD22",
                 "clock": "10:41",
-                "driveindex": "2"
+                "driveindex": "3,13"
               }
             },
             {
@@ -3844,7 +4071,7 @@
                 "vh": "H",
                 "spot": "SRG30",
                 "clock": "6:15",
-                "driveindex": "3"
+                "driveindex": "4,22"
               }
             },
             {
@@ -3853,7 +4080,7 @@
                 "vh": "V",
                 "spot": "SRG35",
                 "clock": "4:08",
-                "driveindex": "4"
+                "driveindex": "5,29"
               }
             },
             {
@@ -3862,7 +4089,7 @@
                 "vh": "H",
                 "spot": "SRG39",
                 "clock": "2:32",
-                "driveindex": "5"
+                "driveindex": "6,34"
               }
             }
           ],
@@ -4572,7 +4799,7 @@
                 "vh": "V",
                 "spot": "HSD28",
                 "clock": "14:48",
-                "driveindex": "6"
+                "driveindex": "7,42"
               }
             },
             {
@@ -4581,7 +4808,7 @@
                 "vh": "H",
                 "spot": "SRG45",
                 "clock": "13:23",
-                "driveindex": "7"
+                "driveindex": "8,47"
               }
             },
             {
@@ -4590,7 +4817,7 @@
                 "vh": "V",
                 "spot": "SRG47",
                 "clock": "13:10",
-                "driveindex": "8"
+                "driveindex": "9,48"
               }
             },
             {
@@ -4599,7 +4826,7 @@
                 "vh": "H",
                 "spot": "SRG33",
                 "clock": "7:51",
-                "driveindex": "9"
+                "driveindex": "10,58"
               }
             },
             {
@@ -4608,7 +4835,7 @@
                 "vh": "V",
                 "spot": "HSD4",
                 "clock": "4:24",
-                "driveindex": "10"
+                "driveindex": "11,66"
               }
             },
             {
@@ -4617,7 +4844,7 @@
                 "vh": "H",
                 "spot": "SRG39",
                 "clock": "2:15",
-                "driveindex": "11"
+                "driveindex": "12,70"
               }
             },
             {
@@ -4626,7 +4853,7 @@
                 "vh": "V",
                 "spot": "HSD27",
                 "clock": "0:50",
-                "driveindex": "12"
+                "driveindex": "13,78"
               }
             }
           ]
@@ -5305,7 +5532,7 @@
                 "vh": "H",
                 "spot": "SRG32",
                 "clock": "14:51",
-                "driveindex": "13"
+                "driveindex": "14,83"
               }
             },
             {
@@ -5314,7 +5541,7 @@
                 "vh": "V",
                 "spot": "HSD16",
                 "clock": "12:36",
-                "driveindex": "14"
+                "driveindex": "15,88"
               }
             },
             {
@@ -5323,7 +5550,7 @@
                 "vh": "H",
                 "spot": "SRG33",
                 "clock": "10:42",
-                "driveindex": "15"
+                "driveindex": "16,93"
               }
             },
             {
@@ -5332,7 +5559,7 @@
                 "vh": "V",
                 "spot": "HSD15",
                 "clock": "6:54",
-                "driveindex": "16"
+                "driveindex": "17,103"
               }
             },
             {
@@ -5341,7 +5568,7 @@
                 "vh": "H",
                 "spot": "HSD15",
                 "clock": "6:53",
-                "driveindex": "16"
+                "driveindex": "17,104"
               }
             },
             {
@@ -5350,7 +5577,7 @@
                 "vh": "V",
                 "spot": "HSD26",
                 "clock": "6:44",
-                "driveindex": "17"
+                "driveindex": "18,106"
               }
             },
             {
@@ -5359,7 +5586,7 @@
                 "vh": "H",
                 "spot": "SRG50",
                 "clock": "3:58",
-                "driveindex": "18"
+                "driveindex": "19,111"
               }
             },
             {
@@ -5368,7 +5595,7 @@
                 "vh": "V",
                 "spot": "HSD20",
                 "clock": "3:50",
-                "driveindex": "19"
+                "driveindex": "20,114"
               }
             },
             {
@@ -5377,7 +5604,7 @@
                 "vh": "H",
                 "spot": "SRG25",
                 "clock": "1:10",
-                "driveindex": "20"
+                "driveindex": "21,123"
               }
             }
           ],
@@ -6101,7 +6328,7 @@
                 "vh": "V",
                 "spot": "HSD31",
                 "clock": "9:35",
-                "driveindex": "21"
+                "driveindex": "22,138"
               }
             },
             {
@@ -6110,7 +6337,7 @@
                 "vh": "H",
                 "spot": "SRG17",
                 "clock": "7:48",
-                "driveindex": "22"
+                "driveindex": "23,145"
               }
             },
             {
@@ -6119,7 +6346,7 @@
                 "vh": "V",
                 "spot": "HSD40",
                 "clock": "2:11",
-                "driveindex": "23"
+                "driveindex": "24,158"
               }
             },
             {
@@ -6128,7 +6355,7 @@
                 "vh": "H",
                 "spot": "HSD15",
                 "clock": "0:17",
-                "driveindex": "23"
+                "driveindex": "24,165"
               }
             },
             {
@@ -6137,7 +6364,7 @@
                 "vh": "V",
                 "spot": "HSD28",
                 "clock": "0:09",
-                "driveindex": "24"
+                "driveindex": "25,168"
               }
             }
           ]
@@ -8770,7 +8997,7 @@
     {
       "_id": "63a25a4dca793ca1463bfe47",
       "id": "082f175f-939d-469d-a894-0bc9d9407b2b",
-      "team": "",
+      "team": "hvm",
       "cbsname": "J. Crawford",
       "statsPerformId": 329452,
       "displayName": "J. Crawford"
@@ -20146,9 +20373,9 @@
     {
       "_id": "64b5614008dcb1aa868d3729",
       "id": "698ec250-24b8-11ee-bbc7-97274643e27b",
-      "team": "",
+      "team": "hsd",
       "cbsname": "C. Aiken Jr.",
-      "statsPerformId": "",
+      "statsPerformId": 945337,
       "displayName": "C. Aiken Jr."
     },
     {
@@ -25554,7 +25781,7 @@
     {
       "_id": "67c325f4bf1b66a15b3cc1f1",
       "id": "d4e43fa0-f6b0-11ef-b797-fd2cc4b1af8b",
-      "team": "",
+      "team": "hvm",
       "cbsname": "Y. Schnieper",
       "statsPerformId": 1584288,
       "displayName": "Y. Schnieper"
@@ -26058,7 +26285,7 @@
     {
       "_id": "67e3d3459a4bc1a0785779fc",
       "id": "ed086560-0a2a-11f0-84d5-651705073e02",
-      "team": "muc",
+      "team": "",
       "cbsname": "A. Moore",
       "statsPerformId": 1584801,
       "displayName": "A. Moore"
@@ -28284,7 +28511,7 @@
       "id": "e3d4a580-60b0-11f0-b3be-41ffd48fc61d",
       "team": "nds",
       "cbsname": "O. Kimrin",
-      "statsPerformId": "",
+      "statsPerformId": 250532,
       "displayName": "O. Kimrin"
     },
     {
@@ -28564,16 +28791,48 @@
       "id": "36765170-617f-11f0-8b5e-f359183f0d0c",
       "team": "mad",
       "cbsname": "M. Cusimano Ronderos",
-      "statsPerformId": "",
+      "statsPerformId": 1595507,
       "displayName": "M. Cusimano Ronderos"
     },
     {
       "_id": "687f6b9a716d4240063dbc7d",
       "id": "db539860-66e8-11f0-bd4c-75095df01713",
       "team": "hsd",
-      "cbsname": "",
+      "cbsname": "J. Tregle",
       "statsPerformId": 1597646,
       "displayName": "J. Tregle"
+    },
+    {
+      "_id": "6895991eb366237e936bb25f",
+      "id": "eb43f400-7420-11f0-839d-0159ce52f520",
+      "team": "hvm",
+      "cbsname": "D. Galmozzi",
+      "statsPerformId": 1601727,
+      "displayName": "D. Galmozzi"
+    },
+    {
+      "_id": "68959aa5b366237e936bb266",
+      "id": "d67e4e70-7421-11f0-af77-177cac2f80b5",
+      "team": "hvm",
+      "cbsname": "Ma. Taddia",
+      "statsPerformId": 1601728,
+      "displayName": "M. Taddia"
+    },
+    {
+      "_id": "68959bf2b366237e936bb26d",
+      "id": "9d2c94a0-7422-11f0-a26b-3ba335a2ce9e",
+      "team": "hvm",
+      "cbsname": "A. Saad",
+      "statsPerformId": 1601729,
+      "displayName": "A. Saad"
+    },
+    {
+      "_id": "68971e393e37e31de8488466",
+      "id": "d611e310-7508-11f0-8d43-9b6ddbcb0bac",
+      "team": "hvm",
+      "cbsname": "A. Aguirre",
+      "statsPerformId": 884865,
+      "displayName": "A. Aguirre"
     }
   ]
 }
