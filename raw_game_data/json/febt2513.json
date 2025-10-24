@@ -9,7 +9,8 @@
     "_attributes": {
       "source": "StatsPerform",
       "version": "2025-04",
-      "generated": "24/04/2025"
+      "generated": "2025-08-28 11:55:03",
+      "gameId": "2877843"
     },
     "venue": {
       "_attributes": {
@@ -146,10 +147,44 @@
             }
           },
           "rcv": {},
-          "punt": {},
-          "ko": {},
-          "fg": {},
-          "pat": {},
+          "punt": {
+            "_attributes": {
+              "no": "3",
+              "yds": "138",
+              "avg": "46.0",
+              "long": 0,
+              "blkd": 0,
+              "tb": 0,
+              "fc": 0,
+              "plus50": 0,
+              "inside20": 0
+            }
+          },
+          "ko": {
+            "_attributes": {
+              "no": "6",
+              "tb": "1",
+              "yds": 0,
+              "ob": 0,
+              "fcyds": 0
+            }
+          },
+          "fg": {
+            "_attributes": {
+              "made": "1",
+              "att": "3",
+              "blkd": "0",
+              "long": 0
+            }
+          },
+          "pat": {
+            "_attributes": {
+              "kickatt": "0",
+              "kickmade": "4",
+              "retkatt": 0,
+              "retkmade": 0
+            }
+          },
           "defense": {
             "_attributes": {
               "ff": "2",
@@ -158,10 +193,31 @@
               "intyds": "26"
             }
           },
-          "kr": {},
-          "pr": {},
+          "kr": {
+            "_attributes": {
+              "no": "4",
+              "yds": "37",
+              "td": "0",
+              "long": "15"
+            }
+          },
+          "pr": {
+            "_attributes": {
+              "no": "1",
+              "yds": "0",
+              "td": "0",
+              "long": "0"
+            }
+          },
           "ir": {},
-          "fr": {}
+          "fr": {
+            "_attributes": {
+              "no": "2",
+              "yds": "0",
+              "td": "0",
+              "long": 0
+            }
+          }
         },
         "player": [
           {
@@ -181,6 +237,22 @@
                 "yds": "110",
                 "td": "0",
                 "long": "38"
+              }
+            },
+            "kr": {
+              "_attributes": {
+                "no": "3",
+                "yds": "38",
+                "td": "0",
+                "long": "15"
+              }
+            },
+            "pr": {
+              "_attributes": {
+                "no": "1",
+                "yds": "0",
+                "td": "0",
+                "long": "0"
               }
             }
           },
@@ -345,7 +417,7 @@
                 "td": "0",
                 "long": "38",
                 "sacks": "1",
-                "sackyds": ""
+                "sackyds": "0"
               }
             }
           },
@@ -488,6 +560,31 @@
                 "tfla": "0",
                 "int": "0"
               }
+            },
+            "pat": {
+              "_attributes": {
+                "kickatt": "4",
+                "kickmade": "4"
+              }
+            },
+            "punt": {
+              "_attributes": {
+                "no": "3",
+                "yds": "138",
+                "avg": "46",
+                "blkd": "0",
+                "long": "54",
+                "plus50": 0,
+                "inside20": "1"
+              }
+            },
+            "fg": {
+              "_attributes": {
+                "made": "1",
+                "att": "3",
+                "blkd": "0",
+                "long": "35"
+              }
             }
           },
           {
@@ -575,8 +672,8 @@
             "defense": {
               "_attributes": {
                 "tackua": "4",
-                "tacka": "7",
-                "tot_tack": "11",
+                "tacka": "9",
+                "tot_tack": "13",
                 "sacks": "1",
                 "sackua": "1",
                 "sacka": "0",
@@ -585,6 +682,22 @@
                 "tflua": "1",
                 "tfla": "0",
                 "int": "1"
+              }
+            },
+            "ir": {
+              "_attributes": {
+                "no": "1",
+                "yds": "26",
+                "td": "0",
+                "long": "26"
+              }
+            },
+            "fr": {
+              "_attributes": {
+                "no": "1",
+                "yds": "0",
+                "td": "0",
+                "long": 0
               }
             }
           },
@@ -633,6 +746,14 @@
                 "td": "1",
                 "long": "11"
               }
+            },
+            "kr": {
+              "_attributes": {
+                "no": "1",
+                "yds": "-1",
+                "td": "0",
+                "long": "-1"
+              }
             }
           },
           {
@@ -649,8 +770,8 @@
             "defense": {
               "_attributes": {
                 "tackua": "3",
-                "tacka": "4",
-                "tot_tack": "7",
+                "tacka": "3",
+                "tot_tack": "6",
                 "sacks": "0",
                 "sackua": "0",
                 "sacka": "0",
@@ -686,6 +807,14 @@
                 "tflua": "0",
                 "tfla": "0",
                 "int": "0"
+              }
+            },
+            "fr": {
+              "_attributes": {
+                "no": "1",
+                "yds": "0",
+                "td": "0",
+                "long": 0
               }
             }
           },
@@ -832,13 +961,13 @@
           },
           {
             "_attributes": {
-              "id": "1588257",
-              "name": "T. Waltner",
-              "shortname": "T. Waltner",
-              "checkname": "T. Waltner",
+              "id": "1583879",
+              "name": "B. Baierl",
+              "shortname": "B. Baierl",
+              "checkname": "B. Baierl",
               "uni": "58",
-              "gp": "0",
-              "gs": "0",
+              "gp": "1",
+              "gs": "1",
               "code": "32"
             },
             "defense": {
@@ -963,18 +1092,6 @@
           },
           {
             "_attributes": {
-              "id": "1583879",
-              "name": "B. Baierl",
-              "shortname": "B. Baierl",
-              "checkname": "B. Baierl",
-              "uni": "90",
-              "gp": "1",
-              "gs": "1",
-              "code": "41"
-            }
-          },
-          {
-            "_attributes": {
               "id": "884154",
               "name": "M. Taylor III",
               "shortname": "M. Taylor III",
@@ -982,7 +1099,7 @@
               "uni": "94",
               "gp": "1",
               "gs": "",
-              "code": "42"
+              "code": "41"
             },
             "defense": {
               "_attributes": {
@@ -1009,7 +1126,7 @@
               "uni": "96",
               "gp": "1",
               "gs": "1",
-              "code": "43"
+              "code": "42"
             },
             "defense": {
               "_attributes": {
@@ -1036,7 +1153,7 @@
               "uni": "97",
               "gp": "1",
               "gs": "",
-              "code": "44"
+              "code": "43"
             }
           },
           {
@@ -1048,7 +1165,7 @@
               "uni": "99",
               "gp": "1",
               "gs": "1",
-              "code": "45"
+              "code": "44"
             },
             "defense": {
               "_attributes": {
@@ -1180,10 +1297,44 @@
             }
           },
           "rcv": {},
-          "punt": {},
-          "ko": {},
-          "fg": {},
-          "pat": {},
+          "punt": {
+            "_attributes": {
+              "no": "2",
+              "yds": "60",
+              "avg": "30.0",
+              "long": 0,
+              "blkd": 0,
+              "tb": 0,
+              "fc": 0,
+              "plus50": 0,
+              "inside20": 0
+            }
+          },
+          "ko": {
+            "_attributes": {
+              "no": "6",
+              "tb": "0",
+              "yds": 0,
+              "ob": 0,
+              "fcyds": 0
+            }
+          },
+          "fg": {
+            "_attributes": {
+              "made": "2",
+              "att": "2",
+              "blkd": "0",
+              "long": 0
+            }
+          },
+          "pat": {
+            "_attributes": {
+              "kickatt": "0",
+              "kickmade": "2",
+              "retkatt": 0,
+              "retkmade": 0
+            }
+          },
           "defense": {
             "_attributes": {
               "ff": "1",
@@ -1192,10 +1343,31 @@
               "intyds": "55"
             }
           },
-          "kr": {},
-          "pr": {},
+          "kr": {
+            "_attributes": {
+              "no": "5",
+              "yds": "160",
+              "td": "0",
+              "long": "48"
+            }
+          },
+          "pr": {
+            "_attributes": {
+              "no": "0",
+              "yds": "0",
+              "td": "0",
+              "long": "0"
+            }
+          },
           "ir": {},
-          "fr": {}
+          "fr": {
+            "_attributes": {
+              "no": "1",
+              "yds": "0",
+              "td": "0",
+              "long": 0
+            }
+          }
         },
         "player": [
           {
@@ -1257,6 +1429,14 @@
                 "tflua": "0",
                 "tfla": "0",
                 "int": "0"
+              }
+            },
+            "kr": {
+              "_attributes": {
+                "no": "2",
+                "yds": "62",
+                "td": "0",
+                "long": "36"
               }
             }
           },
@@ -1354,7 +1534,7 @@
                 "td": "2",
                 "long": "42",
                 "sacks": "1",
-                "sackyds": ""
+                "sackyds": "0"
               }
             }
           },
@@ -1378,7 +1558,7 @@
                 "td": "0",
                 "long": "1",
                 "sacks": "1",
-                "sackyds": ""
+                "sackyds": "0"
               }
             }
           },
@@ -1459,6 +1639,14 @@
                 "tfla": "0",
                 "int": "1"
               }
+            },
+            "ir": {
+              "_attributes": {
+                "no": "1",
+                "yds": "55",
+                "td": "0",
+                "long": "55"
+              }
             }
           },
           {
@@ -1471,6 +1659,31 @@
               "gp": "1",
               "gs": "",
               "code": "12"
+            },
+            "pat": {
+              "_attributes": {
+                "kickatt": "3",
+                "kickmade": "2"
+              }
+            },
+            "punt": {
+              "_attributes": {
+                "no": "2",
+                "yds": "60",
+                "avg": "30",
+                "blkd": "0",
+                "long": "39",
+                "plus50": 0,
+                "inside20": "0"
+              }
+            },
+            "fg": {
+              "_attributes": {
+                "made": "2",
+                "att": "2",
+                "blkd": "0",
+                "long": "36"
+              }
             }
           },
           {
@@ -1591,6 +1804,14 @@
                 "tflua": "0",
                 "tfla": "0",
                 "int": "0"
+              }
+            },
+            "kr": {
+              "_attributes": {
+                "no": "3",
+                "yds": "98",
+                "td": "0",
+                "long": "48"
               }
             }
           },
@@ -1795,6 +2016,14 @@
                 "tflua": "0",
                 "tfla": "0",
                 "int": "0"
+              }
+            },
+            "fr": {
+              "_attributes": {
+                "no": "1",
+                "yds": "0",
+                "td": "0",
+                "long": 0
               }
             }
           },
@@ -2390,7 +2619,7 @@
             "start_qtr": "1",
             "start_time": "04:18",
             "start_spot": "BTH 25",
-            "end_how": "",
+            "end_how": "DOWNS",
             "end_qtr": "1",
             "end_time": "04:00",
             "end_spot": "BTH 25",
@@ -2450,7 +2679,7 @@
             "start_qtr": "2",
             "start_time": "14:44",
             "start_spot": "BTH 47",
-            "end_how": "",
+            "end_how": "DOWNS",
             "end_qtr": "2",
             "end_time": "07:59",
             "end_spot": "BTH 2",
@@ -2570,7 +2799,7 @@
             "start_qtr": "3",
             "start_time": "14:07",
             "start_spot": "ENT 29",
-            "end_how": "",
+            "end_how": "DOWNS",
             "end_qtr": "3",
             "end_time": "08:37",
             "end_spot": "BTH 1",
@@ -2650,7 +2879,7 @@
             "start_qtr": "3",
             "start_time": "00:32",
             "start_spot": "ENT 20",
-            "end_how": "",
+            "end_how": "DOWNS",
             "end_qtr": "3",
             "end_time": "00:32",
             "end_spot": "ENT 20",
@@ -2770,7 +2999,7 @@
             "start_qtr": "4",
             "start_time": "01:56",
             "start_spot": "ENT 35",
-            "end_how": "",
+            "end_how": "DOWNS",
             "end_qtr": "4",
             "end_time": "00:32",
             "end_spot": "ENT 18",
@@ -2938,7 +3167,7 @@
                 "spot": "ENT49",
                 "playid": "1,4,5",
                 "tokens": "RUSH",
-                "text": "Kende Rathonyi rush to the middle for 1 yard to the ENT50. Tackled by Aaron Grosse Kleimann.",
+                "text": "Kende Rathonyi rush to the middle for 1 yard to the ENT50. Tackled by Aaron Grosse Kleimann and Marcello Alvarez Plata.",
                 "score": "N",
                 "vscore": "0",
                 "hscore": "0",
@@ -3388,7 +3617,7 @@
                 "vh": "H",
                 "spot": "ENT40",
                 "clock": "14:54",
-                "driveindex": "0"
+                "driveindex": "1,1"
               }
             },
             {
@@ -3397,7 +3626,7 @@
                 "vh": "V",
                 "spot": "BTH17",
                 "clock": "9:44",
-                "driveindex": "1"
+                "driveindex": "2,12"
               }
             },
             {
@@ -3406,7 +3635,7 @@
                 "vh": "H",
                 "spot": "ENT48",
                 "clock": "8:10",
-                "driveindex": "2"
+                "driveindex": "3,16"
               }
             },
             {
@@ -3415,7 +3644,7 @@
                 "vh": "V",
                 "spot": "BTH25",
                 "clock": "4:08",
-                "driveindex": "3"
+                "driveindex": "4,25"
               }
             },
             {
@@ -3424,7 +3653,7 @@
                 "vh": "H",
                 "spot": "BTH28",
                 "clock": "4:00",
-                "driveindex": "4"
+                "driveindex": "5,26"
               }
             },
             {
@@ -3433,7 +3662,7 @@
                 "vh": "V",
                 "spot": "ENT39",
                 "clock": "2:04",
-                "driveindex": "5"
+                "driveindex": "6,31"
               }
             }
           ],
@@ -4143,7 +4372,7 @@
                 "vh": "H",
                 "spot": "BTH47",
                 "clock": "14:44",
-                "driveindex": "6"
+                "driveindex": "7,35"
               }
             },
             {
@@ -4152,7 +4381,7 @@
                 "vh": "V",
                 "spot": "BTH2",
                 "clock": "7:59",
-                "driveindex": "7"
+                "driveindex": "8,48"
               }
             },
             {
@@ -4161,7 +4390,7 @@
                 "vh": "H",
                 "spot": "ENT27",
                 "clock": "1:52",
-                "driveindex": "8"
+                "driveindex": "9,65"
               }
             },
             {
@@ -4170,7 +4399,7 @@
                 "vh": "V",
                 "spot": "BTH34",
                 "clock": "1:08",
-                "driveindex": "9"
+                "driveindex": "10,71"
               }
             },
             {
@@ -4179,7 +4408,7 @@
                 "vh": "H",
                 "spot": "ENT6",
                 "clock": "0:29",
-                "driveindex": "10"
+                "driveindex": "11,78"
               }
             }
           ]
@@ -4333,7 +4562,7 @@
                 "spot": "BTH19",
                 "playid": "13,5,89",
                 "tokens": "RUSH",
-                "text": "Kende Rathonyi rush to the middle for 1 yard to the BTH18. Tackled by Tim Waltner and Paul Stegemann.",
+                "text": "Kende Rathonyi rush to the middle for 1 yard to the BTH18. Tackled by Tim Waltner and Marcello Alvarez Plata.",
                 "score": "N",
                 "vscore": "7",
                 "hscore": "9",
@@ -4708,7 +4937,7 @@
                 "vh": "V",
                 "spot": "BTH40",
                 "clock": "15:00",
-                "driveindex": "11"
+                "driveindex": "12,80"
               }
             },
             {
@@ -4717,7 +4946,7 @@
                 "vh": "H",
                 "spot": "ENT29",
                 "clock": "14:03",
-                "driveindex": "12"
+                "driveindex": "13,84"
               }
             },
             {
@@ -4726,7 +4955,7 @@
                 "vh": "V",
                 "spot": "BTH23",
                 "clock": "8:28",
-                "driveindex": "13"
+                "driveindex": "14,94"
               }
             },
             {
@@ -4735,7 +4964,7 @@
                 "vh": "H",
                 "spot": "BTH47",
                 "clock": "4:35",
-                "driveindex": "14"
+                "driveindex": "15,102"
               }
             },
             {
@@ -4744,7 +4973,7 @@
                 "vh": "V",
                 "spot": "BTH40",
                 "clock": "2:57",
-                "driveindex": "15"
+                "driveindex": "16,106"
               }
             },
             {
@@ -4753,7 +4982,7 @@
                 "vh": "H",
                 "spot": "ENT20",
                 "clock": "0:32",
-                "driveindex": "16"
+                "driveindex": "17,111"
               }
             },
             {
@@ -4762,7 +4991,7 @@
                 "vh": "V",
                 "spot": "ENT18",
                 "clock": "0:32",
-                "driveindex": "17"
+                "driveindex": "18,112"
               }
             }
           ],
@@ -5940,7 +6169,7 @@
                 "vh": "H",
                 "spot": "ENT20",
                 "clock": "14:52",
-                "driveindex": "18"
+                "driveindex": "19,116"
               }
             },
             {
@@ -5949,7 +6178,7 @@
                 "vh": "V",
                 "spot": "BTH31",
                 "clock": "12:16",
-                "driveindex": "20"
+                "driveindex": "21,123"
               }
             },
             {
@@ -5958,7 +6187,7 @@
                 "vh": "H",
                 "spot": "ENT25",
                 "clock": "9:48",
-                "driveindex": "21"
+                "driveindex": "22,129"
               }
             },
             {
@@ -5967,7 +6196,7 @@
                 "vh": "V",
                 "spot": "BTH43",
                 "clock": "3:29",
-                "driveindex": "22"
+                "driveindex": "23,147"
               }
             },
             {
@@ -5976,7 +6205,7 @@
                 "vh": "H",
                 "spot": "ENT35",
                 "clock": "1:49",
-                "driveindex": "23"
+                "driveindex": "24,158"
               }
             },
             {
@@ -5985,7 +6214,7 @@
                 "vh": "V",
                 "spot": "BTH40",
                 "clock": "0:32",
-                "driveindex": "24"
+                "driveindex": "25,175"
               }
             },
             {
@@ -5994,7 +6223,7 @@
                 "vh": "H",
                 "spot": "ENT43",
                 "clock": "0:04",
-                "driveindex": "25"
+                "driveindex": "26,182"
               }
             }
           ]
@@ -6011,7 +6240,7 @@
                 "vh": "V",
                 "spot": "ENT25",
                 "clock": "0:00",
-                "driveindex": "25"
+                "driveindex": "26,183"
               }
             },
             {
@@ -6020,7 +6249,7 @@
                 "vh": "H",
                 "spot": "BTH25",
                 "clock": "0:00",
-                "driveindex": "26"
+                "driveindex": "27,187"
               }
             }
           ],
@@ -8509,7 +8738,7 @@
     {
       "_id": "63a25a4cca793ca1463bfd00",
       "id": "ce820c94-c2c9-465f-97aa-f783d24aa7b6",
-      "team": "",
+      "team": "hvm",
       "cbsname": "A. Pekoezer",
       "statsPerformId": "",
       "displayName": "A. Pek\u00f6zer"
@@ -13079,7 +13308,7 @@
       "id": "227b921d-33c1-484d-b079-4193f80bd447",
       "team": "",
       "cbsname": "Q. Pounds",
-      "statsPerformId": "",
+      "statsPerformId": 865963,
       "displayName": "Q. Pounds"
     },
     {
@@ -24950,8 +25179,8 @@
       "_id": "6791028d8e4f5c8f6175730f",
       "id": "54bf23d0-d8ce-11ef-a924-39046ab4d76d",
       "team": "nds",
-      "cbsname": "E. Taborda",
-      "statsPerformId": 1584100,
+      "cbsname": "E. Almeida",
+      "statsPerformId": 1588426,
       "displayName": "E. Almeida"
     },
     {
@@ -27469,7 +27698,7 @@
     {
       "_id": "6825da546e0c9161fdbfac77",
       "id": "f2252f60-3185-11f0-900d-ddca26b35736",
-      "team": "hvm",
+      "team": "",
       "cbsname": "K. McCormick",
       "statsPerformId": 1138796,
       "displayName": "K. McCormack"
@@ -28657,6 +28886,30 @@
       "cbsname": "A. Aguirre",
       "statsPerformId": 884865,
       "displayName": "A. Aguirre"
+    },
+    {
+      "_id": "689f9234b7447ed0a42f51b2",
+      "id": "5b0c2d10-7a12-11f0-a5bf-c11325da9521",
+      "team": "hvm",
+      "cbsname": "",
+      "statsPerformId": "",
+      "displayName": "F. Alixandria"
+    },
+    {
+      "_id": "689f94f5b7447ed0a42f51c3",
+      "id": "4e172680-7a14-11f0-86e6-2d594a63f4c6",
+      "team": "hvm",
+      "cbsname": "",
+      "statsPerformId": "",
+      "displayName": "A. Ottogalli"
+    },
+    {
+      "_id": "689f967eb7447ed0a42f51d6",
+      "id": "f0b36a70-7a14-11f0-8d13-1d01d0a9e0b7",
+      "team": "hvm",
+      "cbsname": "",
+      "statsPerformId": "",
+      "displayName": "E. Mattheiss"
     }
   ]
 }
